@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Study Notebook · sign in</title>
+<link rel="stylesheet" href="assets/css/notebook.css">
+<link rel="stylesheet" href="assets/css/app.css">
+<style>
+.login{max-width:440px;margin:8vh auto 0}
+.login label{display:block;font-family:'Kalam',cursive;font-size:16px;margin:14px 0 6px}
+.login input{width:100%;min-height:48px;font:inherit;font-size:18px;padding:8px 12px;border:2px solid #666;border-radius:12px;background:#fff}
+.login input:focus-visible{outline:3px solid #3b6ea5;outline-offset:2px}
+.login .btn{width:100%;justify-content:center;margin-top:14px;min-height:52px;font-size:17px}
+.login .err{margin-top:12px}
+</style>
+</head>
+<body>
+<main>
+<section class="page login">
+  <div class="course">NURS 419 · Patho/Pharm I</div>
+  <h1>Study<br>Notebook</h1>
+  <form method="post" action="/api/login">
+    <label for="password">password</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" required autofocus>
+    <input type="hidden" name="next" id="next" value="/">
+    <button class="btn primary" type="submit">Open notebook ✎</button>
+    <div id="err" class="asked err" role="alert" hidden><b>hmm —</b> that password didn't match. Try again.</div>
+  </form>
+</section>
+</main>
+<script>
+  const p = new URLSearchParams(location.search);
+  let next = p.get('next') || '/';
+  if (!next.startsWith('/') || next.startsWith('//')) next = '/';
+  // The lecture/tab lives in the #hash, which the server never sees; carry it through.
+  if (location.hash) next = next.split('#')[0] + location.hash;
+  document.getElementById('next').value = next;
+  if (p.get('error')) document.getElementById('err').hidden = false;
+</script>
+</body>
+</html>

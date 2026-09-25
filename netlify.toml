@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "node scripts/validate.mjs && node scripts/build-index.mjs"
+  command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "22"
