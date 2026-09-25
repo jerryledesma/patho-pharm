@@ -1,0 +1,9 @@
+node_modules/
+.netlify/
+.DS_Store
+# Source lecture materials are UIC course content — never commit them.
+sources/
+*.pptx
+*.pages
+*.key
+public/lectures/index.json
