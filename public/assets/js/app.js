@@ -111,7 +111,8 @@ function home(){
   pg.append(el('div',{class:'course',html:INDEX.course}), el('h1',{html:'Study<br>Notebook'}));
   if(!INDEX.lectures.length){ pg.append(el('p',{class:'lead',html:'no lectures yet ✎'})); m.append(pg); return; }
   pg.append(el('p',{class:'lead',html:'pick a lecture ✎'}));
-  INDEX.lectures.forEach(l=>{
+  // Newest lecture first (IMP-01). Numbers still count up by date, so the latest has the highest number.
+  [...INDEX.lectures].reverse().forEach(l=>{
     const b=el('button',{class:'lecture-card',onclick:()=>go(`#/${l.id}/notes`)});
     b.append(el('div',{class:'t',html:`${l.num} · ${l.title}`}), el('div',{class:'m',html:`${fmtDate(l.date)} · ${l.instructor} · ${l.questions} questions · ${l.cards} cards`}));
     const qs=Object.entries(Sync.rec(l.id).items).filter(([k])=>!k.startsWith('fc-'));
