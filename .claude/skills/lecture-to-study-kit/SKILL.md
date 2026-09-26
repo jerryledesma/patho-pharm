@@ -1,6 +1,6 @@
 ---
 name: lecture-to-study-kit
-description: Converts a NURS 419 lecture (slide deck + class transcript + any handouts) into a new lecture on Angelina's Patho-Pharm study site — notebook-style notes, tiered practice quiz, unfolding clinical cases, flashcards, "She Asked" in-class questions and a concept map — validated and opened as a pull request. Use whenever Jerry says there's a new lecture, new slides or a transcript in the inbox, wants to "convert", "add", or "build" a lecture or study kit, mentions ~/Downloads/patho-pharm, or wants a handout/supplement added to an existing lecture, even if he doesn't name the skill.
+description: Converts a NURS 419 lecture (slide deck + class transcript + any handouts) into a new lecture on Angelina's Patho-Pharm study site — notebook-style notes, tiered practice quiz, unfolding clinical cases, flashcards, "She Asked" in-class questions and a concept map — validated and opened as a pull request. Use whenever Jerry says there's a new lecture, new slides or a transcript in the inbox, wants to "convert", "add", or "build" a lecture or study kit, mentions the sources/inbox folder, or wants a handout/supplement added to an existing lecture, even if he doesn't name the skill.
 ---
 
 # Lecture → study kit
@@ -18,16 +18,16 @@ Worked example of a finished lecture: `public/lectures/2026-09-10-acid-base/` �
 | What | Path on Jerry's Mac |
 |---|---|
 | Repo (code + lecture data) | `~/dev/patho-pharm` |
-| Inbox Angelina drops files into | `~/Downloads/patho-pharm/inbox/` |
-| Organized source folders | `~/Downloads/patho-pharm/nurs419/<YYYY-MM-DD>_<slug>/` |
+| Inbox for new lecture files | `~/dev/patho-pharm/sources/inbox/` |
+| Organized source folders | `~/dev/patho-pharm/sources/nurs419/<YYYY-MM-DD>_<slug>/` |
 | Tools | `~/dev/patho-pharm/tools/` (Node, no install needed except `npm install` once for the map renderer) |
 
 **Running in Claude Code on the Mac:** run commands directly from the repo root.
-**Running in Cowork:** use the device shell; the same folders are under `$HOME/mnt/<folder>/` (connect `~/dev` and
-`~/Downloads/patho-pharm` if they aren't). That shell can't push to GitHub — at step 7, give Jerry the push command.
+**Running in Cowork:** use the device shell; the repo is under `$HOME/mnt/<folder>/` (connect `~/dev` if it isn't).
+That shell can't push to GitHub — at step 7, give Jerry the push command.
 
-Source files are UIC course material. They stay in Downloads and are **never** copied into the repo (`.gitignore` blocks
-common formats; don't work around it).
+Source files are UIC course material. They live in `sources/`, which is git-ignored: never `git add -f` them, never
+move them into `public/`, and never run `git clean -x`/`-X` (it would delete them — they have no other copy).
 
 ## Workflow
 
@@ -36,7 +36,7 @@ Create a task list with these steps. Stop at each **GATE** and wait for Jerry's 
 ### 1. Intake — GATE 1
 
 ```bash
-node tools/intake.mjs ~/Downloads/patho-pharm/inbox ~/Downloads/patho-pharm/nurs419
+node tools/intake.mjs            # defaults to sources/inbox → sources/nurs419
 ```
 
 Dry run: prints a JSON plan — each file's role (slides / transcript / supplemental), the derived date and where it
@@ -52,7 +52,7 @@ If a folder for that date already exists the plan says **add-only** — see "Add
 ### 2. Extract
 
 ```bash
-node tools/extract.mjs ~/Downloads/patho-pharm/nurs419/<folder>
+node tools/extract.mjs sources/nurs419/<folder>
 ```
 
 Writes `extracted/slides.md` (`## Slide N` headings, tables, SmartArt lines marked `[diagram]`, image and chart
@@ -247,4 +247,4 @@ When intake reports **add-only**:
 - [ ] Rationales explain the wrong options too.
 - [ ] Notes use only classes from the components reference; the cover's color key matches the themes used.
 - [ ] Map renders and reads top-down.
-- [ ] No source files, `extracted/` or `mining.md` in the repo.
+- [ ] `git status` shows only `public/lectures/<id>/` and `id-ledger.json` — nothing from `sources/`.

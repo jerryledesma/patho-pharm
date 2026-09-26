@@ -1,24 +1,30 @@
 // Step 1 of lecture-to-study-kit: sort the inbox into a class folder named per the convention.
 //
-//   node tools/intake.mjs <inbox> <course-dir>            → dry run: prints the plan as JSON
-//   node tools/intake.mjs <inbox> <course-dir> --apply [--date YYYY-MM-DD] [--title "..."]
+//   node tools/intake.mjs [<inbox> <course-dir>]          → dry run: prints the plan as JSON
+//     (defaults: sources/inbox and sources/nurs419 in this repo — git-ignored)
+//   node tools/intake.mjs [<inbox> <course-dir>] --apply [--date YYYY-MM-DD] [--title "..."]
 //                                             [--slug x-y] [--instructor "..."]
 //
 // Files are classified by content: a deck → slides, timestamped speaker text → transcript,
 // anything else → supplemental (supp-NN_description). Nothing is overwritten; moves only.
 // If a class folder for the same date already exists, files are added to it (add-only mode).
 import { readdirSync, statSync, mkdirSync, renameSync, existsSync, writeFileSync, readFileSync, copyFileSync, unlinkSync } from 'node:fs';
-import { join, extname, basename } from 'node:path';
+import { join, extname, basename, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { extractFile } from './extract.mjs';
 import { pptxSlides } from './lib/office.mjs';
 import { cleanTitle, slugFrom, cleanInstructor, findDate, lectureId, folderName } from './lib/naming.mjs';
 
 const args = process.argv.slice(2);
-const [inbox, courseDir] = args.filter(a => !a.startsWith('--') && !args[args.indexOf(a) - 1]?.startsWith('--'));
+// Defaults: the git-ignored sources/ folder in the repo (course material never leaves this Mac).
+const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
+const positional = args.filter(a => !a.startsWith('--') && !args[args.indexOf(a) - 1]?.startsWith('--'));
+const [inbox, courseDir] = [positional[0] || join(REPO, 'sources/inbox'), positional[1] || join(REPO, 'sources/nurs419')];
 const opt = k => { const i = args.indexOf('--' + k); return i > -1 ? args[i + 1] : undefined; };
-if (!inbox || !courseDir) { console.error('usage: node tools/intake.mjs <inbox> <course-dir> [--apply] [--date] [--title] [--slug] [--instructor]'); process.exit(1); }
+if (!existsSync(inbox)) { console.error(`no inbox at ${inbox} — usage: node tools/intake.mjs [<inbox> <course-dir>] [--apply] [--date] [--title] [--slug] [--instructor]`); process.exit(1); }
 
 const TS = /^\s*\[?\(?\d{1,2}:\d{2}(?::\d{2})?/m;
+mkdirSync(courseDir, { recursive: true });
 const files = readdirSync(inbox).filter(f => !f.startsWith('.') && statSync(join(inbox, f)).isFile()).sort();
 const plan = { files: [], warnings: [] };
 let slidesMeta = null, transcriptHeader = '';
