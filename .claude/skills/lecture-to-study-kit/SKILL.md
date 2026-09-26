@@ -1,6 +1,6 @@
 ---
 name: lecture-to-study-kit
-description: Converts a NURS 419 lecture (slide deck + class transcript + any handouts) into a new lecture on Angelina's Patho-Pharm study site — notebook-style notes, tiered practice quiz, unfolding clinical cases, flashcards, "She Asked" in-class questions and a concept map — validated and opened as a pull request. Use whenever Jerry says there's a new lecture, new slides or a transcript in the inbox, wants to "convert", "add", or "build" a lecture or study kit, mentions the sources/inbox folder, or wants a handout/supplement added to an existing lecture, even if he doesn't name the skill.
+description: Converts a NURS 419 lecture (slide deck + class transcript + any handouts) into a new lecture on Angelina's Patho-Pharm study site — notebook-style notes, tiered practice quiz, unfolding clinical cases, flashcards, "Asked in Class" questions and a concept map — validated and opened as a pull request. Use whenever Jerry says there's a new lecture, new slides or a transcript in the inbox, wants to "convert", "add", or "build" a lecture or study kit, mentions the sources/inbox folder, or wants a handout/supplement added to an existing lecture, even if he doesn't name the skill.
 ---
 
 # Lecture → study kit
@@ -91,7 +91,7 @@ Write `extracted/mining.md` in the class folder — your working notes, not publ
 
 Draft and show Jerry:
 
-1. **Note sections** (7–12 pages): each banner heading, the slides it covers, and which "she asked" items land there.
+1. **Note sections** (7–12 pages): each banner heading, the slides it covers, and which asked-in-class items land there.
    Order follows her lecture flow; her in-class questions shape the headings.
 2. **Color roles**: which two themes get blue (`resp`) and peach (`met`) — see the components reference.
 3. **Exam scope**: what's in, what's FYI-only.
@@ -173,7 +173,7 @@ The bar is the Acid–Base lecture. Read a few of its items of each kind before 
 
 - Summary notes that keep the detail: every slide's substance lands somewhere, compressed into the notebook components.
   Angelina asked for "emphasizing the main points, but also keeping the detail in, and easily retainable".
-- Put each in-class question in a `she asked` callout in the section where she asked it.
+- Put each in-class question in an `asked` callout (`he asked:` / `she asked:` to match the instructor, `student asked:` for students) in the section where it was asked.
 - Numbers to memorize go on yellow stickies; mnemonics get the `mnem` block with her hint; not-tested material goes in
   `fyi` boxes.
 - Her voice matters: short quotes in `tiny` or `pearl` ("every time I hear COPD…") make it stick.
@@ -214,7 +214,7 @@ Target 8–13 scenarios, 40–55 questions total (Acid–Base: 13 / 51). Fewer i
 Target 50–80. One fact per card; front ≤ ~15 words; back is the answer plus the hook. Tag each card with a short
 kebab-case topic tag (`values`, `basics`, `drug-classes`, `nursing`…); 6–12 distinct tags per lecture so the tag filter is useful.
 
-### She Asked (`qa`)
+### Asked in Class (`qa`)
 
 Every question from the mining notes, in lecture order. `q` in the instructor's words (prefix `(Kahoot)` or
 `(student asked)` where that applies). `a` is what happened: the student answer and whether it was accepted, or the
@@ -241,7 +241,7 @@ When intake reports **add-only**:
 
 - [ ] `npm run build` passes, and the "items have no src" warning doesn't mention this lecture.
 - [ ] Counts within the guides, or the difference explained.
-- [ ] Every in-class question from the mining notes appears in `qa` and in a `she asked` callout.
+- [ ] Every in-class question from the mining notes appears in `qa` and in an `asked` callout.
 - [ ] Nothing FYI-only is quizzed.
 - [ ] Every `mc` has one defensible answer; every SATA answer set is complete; every order item has one right sequence.
 - [ ] Rationales explain the wrong options too.

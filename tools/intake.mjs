@@ -8,7 +8,7 @@
 // Files are classified by content: a deck → slides, timestamped speaker text → transcript,
 // anything else → supplemental (supp-NN_description). Nothing is overwritten; moves only.
 // If a class folder for the same date already exists, files are added to it (add-only mode).
-import { readdirSync, statSync, mkdirSync, renameSync, existsSync, writeFileSync, readFileSync, copyFileSync, unlinkSync } from 'node:fs';
+import { readdirSync, statSync, mkdirSync, renameSync, existsSync, writeFileSync, readFileSync, copyFileSync, unlinkSync, rmdirSync } from 'node:fs';
 import { join, extname, basename, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { extractFile } from './extract.mjs';
@@ -25,7 +25,12 @@ if (!existsSync(inbox)) { console.error(`no inbox at ${inbox} — usage: node to
 
 const TS = /^\s*\[?\(?\d{1,2}:\d{2}(?::\d{2})?/m;
 mkdirSync(courseDir, { recursive: true });
-const files = readdirSync(inbox).filter(f => !f.startsWith('.') && statSync(join(inbox, f)).isFile()).sort();
+// Files may sit directly in the inbox or one folder down (e.g. inbox/2026-09-17_topic/…); the folder name counts as a date hint.
+const files = readdirSync(inbox).filter(f => !f.startsWith('.')).flatMap(f =>
+  statSync(join(inbox, f)).isDirectory()
+    ? readdirSync(join(inbox, f)).filter(g => !g.startsWith('.') && statSync(join(inbox, f, g)).isFile()).map(g => join(f, g))
+    : [f]).sort();
+const AUDIO = new Set(['.m4a', '.mp3', '.wav', '.aac', '.mp4', '.mov', '.webm']);
 const plan = { files: [], warnings: [] };
 let slidesMeta = null, transcriptHeader = '';
 
@@ -34,6 +39,7 @@ for (const f of files) {
   let role = 'supplemental', note = '';
   if (ext === '.pptx') { role = 'slides'; slidesMeta ??= pptxSlides(p)[0]; }
   else if (ext === '.key' || ext === '.ppt' || ext === '.doc') { role = 'unsupported'; note = `export as ${ext === '.doc' ? '.docx' : '.pptx or .pdf'} first`; }
+  else if (AUDIO.has(ext)) { role = 'audio'; note = 'recording — needs a transcript before conversion'; }
   else if (ext === '.pdf') { role = /slide|lecture|deck|ppt/i.test(f) ? 'slides' : 'supplemental'; note = 'PDF — role guessed from the file name; confirm'; }
   else {
     try {
@@ -49,12 +55,13 @@ const slidesN = plan.files.filter(x => x.role === 'slides').length, trN = plan.f
 if (slidesN > 1) plan.warnings.push('more than one slide deck — keep one as slides, mark the rest supplemental');
 if (trN > 1) plan.warnings.push('more than one transcript — merge them or mark extras supplemental');
 for (const x of plan.files.filter(x => x.role === 'unsupported')) plan.warnings.push(`${x.file}: ${x.note}`);
+if (!trN && plan.files.some(x => x.role === 'audio')) plan.warnings.push('no transcript — only audio recordings; transcribe them (keep timestamps) and add the transcript to the inbox');
 
 const rawTitle = slidesMeta?.title || '';
 const title = opt('title') || cleanTitle(rawTitle);
 const instructorRaw = slidesMeta?.paragraphs?.find(p => /\b(DNP|PhD|RN|MD|PharmD|APRN|MSN|NP|DrPH|EdD)\b/.test(p)) || '';
 const instructor = opt('instructor') || (instructorRaw ? cleanInstructor(instructorRaw) : '');
-const found = findDate([transcriptHeader, ...files], new Date().getFullYear());
+const found = findDate([transcriptHeader, ...files], new Date().getFullYear());  // files include any subfolder name
 const date = opt('date') || found;
 const dateSource = opt('date') ? '--date' : found ? (findDate([transcriptHeader], new Date().getFullYear()) ? `transcript header: "${transcriptHeader.slice(0, 80).trim()}…"` : 'file names') : null;
 const slug = opt('slug') || slugFrom(title);
@@ -74,6 +81,7 @@ for (const x of plan.files) {
   const ext = extname(x.file).toLowerCase();
   if (x.role === 'slides') x.to = 'slides' + ext;
   else if (x.role === 'transcript') x.to = 'transcript' + ext;
+  else if (x.role === 'audio') { const n = plan.files.filter(y => y.role === 'audio').indexOf(x) + 1; x.to = `audio-${String(n).padStart(2, '0')}${ext}`; }
   else if (x.role === 'supplemental') {
     const desc = basename(x.file, ext).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').split('-').slice(0, 5).join('-');
     x.to = `supp-${String(nextSupp++).padStart(2, '0')}_${desc}${ext}`;
@@ -96,6 +104,8 @@ for (const x of plan.files) if (x.to) {
   const from = join(inbox, x.file), to = join(target, x.to);
   try { renameSync(from, to); } catch { copyFileSync(from, to); try { unlinkSync(from); } catch { plan.warnings.push(`copied ${x.file} but could not remove it from the inbox`); } }
 }
+for (const d of new Set(plan.files.filter(x => x.to && x.file.includes('/')).map(x => join(inbox, dirname(x.file)))))
+  try { for (const f of readdirSync(d)) if (f === '.DS_Store') unlinkSync(join(d, f)); rmdirSync(d); } catch {}
 const metaPath = join(target, 'intake.json');
 const prev = existsSync(metaPath) ? JSON.parse(readFileSync(metaPath, 'utf8')) : {};
 const meta = { ...prev, id: plan.id, date, title: prev.title || title, instructor: prev.instructor || instructor,

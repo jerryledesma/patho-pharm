@@ -52,7 +52,7 @@ export function cleanInstructor(raw) {
 /** Class date from filenames/transcript header. Returns YYYY-MM-DD or null. */
 export function findDate(texts, fallbackYear) {
   const all = texts.join('\n');
-  const iso = all.match(/\b(20\d{2})-(\d{2})-(\d{2})\b/);
+  const iso = all.match(/(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)/);
   if (iso) return iso[0];
   const year = (all.match(TERM) || [])[0]?.match(/(19|20)\d{2}/)?.[0] || all.match(/\b(20\d{2})\b/)?.[1] || String(fallbackYear);
   for (const t of texts) {

@@ -18,7 +18,7 @@ contrasting systems/themes and say so in the cover's color key.
 | `mint` | green | basics, definitions, normal physiology |
 | `lav` | lavender | related systems (electrolytes, other organs, drug classes) |
 | `yel` / `hl` | yellow | memorize — numbers, must-know facts |
-| `pink` / `hl-pink` | pink | **she asked in class**, exam warnings |
+| `pink` / `hl-pink` | pink | **asked in class**, exam warnings |
 
 ## Cover (page 1)
 
@@ -38,7 +38,7 @@ contrasting systems/themes and say so in the cover's color key.
   </div>
   <div class="color-key">
     <span><i class="k resp"></i>theme A</span><span><i class="k met"></i>theme B</span><span><i class="k yel"></i>memorize</span>
-    <span><i class="k pink"></i>she asked in class</span><span><i class="k lav"></i>related</span><span><i class="k mint"></i>basics</span>
+    <span><i class="k pink"></i>asked in class</span><span><i class="k lav"></i>related</span><span><i class="k mint"></i>basics</span>
   </div>
 </section>
 ```
@@ -59,7 +59,7 @@ Number banners in order (`1 ·`, `2 ·` …). Headings are short, lowercase, in 
 
 | Component | Use for | Markup |
 |---|---|---|
-| she asked | every in-class question tied to this section | `<div class="asked"><b>she asked:</b> "question?" → <span class="hl">answer</span></div>` |
+| asked in class | every in-class question tied to this section | `<div class="asked"><b>she asked:</b> "question?" → <span class="hl">answer</span></div>` — use `he asked:` / `she asked:` to match the instructor who asked (`student asked:` for student questions) |
 | sticky note | must-memorize facts, her tricks | `<div class="sticky yellow rot-r small"><div class="sticky-title">title</div>…</div>` (colors: default yellow, `pink`, `blue`, `peach`, `red`; `rot-l`/`rot-r`; `small`; `inline`) |
 | box | grouped content | `<div class="box mint"><div class="box-title">title</div>…</div>` (`pink`, `blue`, `mint`, `resp`) |
 | pearl | a single clinical pearl / her quote | `<div class="pearl">✎ her pearl: <span class="hl">…</span></div>` |
