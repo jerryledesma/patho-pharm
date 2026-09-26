@@ -1,0 +1,33 @@
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.5, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Tissue Injury, Innate Immunity &amp; Inflammation — Concept Map (NURS 419, Lecture 9/17/2026)<BR/>Size = trophy · Number = plasia · Acute &lt; 2 wk · Chronic &gt; 2 wk · Know C3/C5, fibrinogen → fibrin, IL-1 / IL-6 / TNF-α>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  stress [fillcolor="#fff2cc", label=<<B>Cell under stress</B><BR ALIGN="LEFT"/>normal → stress → adapt, or injury<BR ALIGN="LEFT"/>exercise = the "good" stressor<BR ALIGN="LEFT"/>>];
+  adapt  [fillcolor="#ddebf7", label=<<B>Adaptations</B><BR ALIGN="LEFT"/>atrophy (size ↓) · hypertrophy (size ↑)<BR ALIGN="LEFT"/>hyperplasia (number ↑)<BR ALIGN="LEFT"/>metaplasia (type swap) · dysplasia (disordered)<BR ALIGN="LEFT"/>physiologic · pathologic · compensatory<BR ALIGN="LEFT"/>>];
+  injury [fillcolor="#bdd7ee", label=<<B>Cell injury</B><BR ALIGN="LEFT"/>hypoxia = most common (ischemia)<BR ALIGN="LEFT"/>free radicals · Ca²⁺ overload · reperfusion<BR ALIGN="LEFT"/>physical, radiation, chemical, biologic<BR ALIGN="LEFT"/>>];
+  death  [fillcolor="#bdd7ee", label=<<B>Cell death</B><BR ALIGN="LEFT"/>necrosis: swelling, inflammation, pathologic<BR ALIGN="LEFT"/>apoptosis: programmed, no inflammation<BR ALIGN="LEFT"/>coagulative · liquefactive · caseous · fat<BR ALIGN="LEFT"/>>];
+  defense [fillcolor="#fff2cc", label=<<B>Lines of defense</B><BR ALIGN="LEFT"/>1 innate barriers (before injury)<BR ALIGN="LEFT"/>2 inflammation (at injury)<BR ALIGN="LEFT"/>3 adaptive immunity (next week)<BR ALIGN="LEFT"/>>];
+  inflam [fillcolor="#fce4d6", label=<<B>Inflammation</B><BR ALIGN="LEFT"/>redness, heat, swelling, pain, loss of function<BR ALIGN="LEFT"/>rapid · vascularized tissue · NONSPECIFIC<BR ALIGN="LEFT"/>>];
+  process [fillcolor="#fce4d6", label=<<B>Process</B><BR ALIGN="LEFT"/>vasodilation → permeability (exudate)<BR ALIGN="LEFT"/>→ leukocyte adhesion, chemotaxis<BR ALIGN="LEFT"/>→ phagocytosis (neutrophils first, macrophages ~24 h)<BR ALIGN="LEFT"/>>];
+  plasma [fillcolor="#f8cbad", label=<<B>Plasma-derived (liver)</B><BR ALIGN="LEFT"/>inactive proenzymes until injury<BR ALIGN="LEFT"/>complement C3/C5: opsonize, lyse, chemotaxis<BR ALIGN="LEFT"/>clotting: fibrinogen → fibrin · kinin: bradykinin<BR ALIGN="LEFT"/>>];
+  cellmed [fillcolor="#f8cbad", label=<<B>Cell-derived</B><BR ALIGN="LEFT"/>mast cells: histamine (fast) · leukotrienes, PGs<BR ALIGN="LEFT"/>arachidonic acid ← steroids · COX ← NSAIDs<BR ALIGN="LEFT"/>IL-1 fever · IL-6 · TNF-α septic shock<BR ALIGN="LEFT"/>IL-10, TGF-β turn it off<BR ALIGN="LEFT"/>>];
+  acute  [fillcolor="#e4dfec", label=<<B>Acute (&lt; 2 wk)</B><BR ALIGN="LEFT"/>exudates: serous → purulent<BR ALIGN="LEFT"/>fever, WBC &gt; 10,000, CRP, ESR ↑<BR ALIGN="LEFT"/>sickness behavior (IL-1, IL-6, TNF-α)<BR ALIGN="LEFT"/>>];
+  chronic [fillcolor="#e4dfec", label=<<B>Chronic (&gt; 2 wk)</B><BR ALIGN="LEFT"/>acute response failed<BR ALIGN="LEFT"/>lymphocytes, macrophages, granuloma — TB<BR ALIGN="LEFT"/>>];
+  heal   [fillcolor="#e2efda", label=<<B>Wound healing</B><BR ALIGN="LEFT"/>hemostasis → inflammatory (1–2 d)<BR ALIGN="LEFT"/>→ proliferative (3–14 d, fibroblasts)<BR ALIGN="LEFT"/>→ remodeling (to 2 yr; keloid)<BR ALIGN="LEFT"/>problems: ischemia, diabetes, dehiscence<BR ALIGN="LEFT"/>>];
+
+  stress -> adapt [label=" can adapt"];
+  stress -> injury [label=" too big / too long"];
+  adapt -> injury [label=" maladaptation"];
+  injury -> death [label=" irreversible"];
+  injury -> inflam [label=" triggers"];
+  death -> inflam [label=" necrosis"];
+  defense -> inflam [label=" 2nd line"];
+  inflam -> process;
+  process -> plasma [label=" amplified by"];
+  process -> cellmed [label=" amplified by"];
+  inflam -> acute;
+  acute -> chronic [label=" not resolved"];
+  acute -> heal [label=" prepares for"];
+}

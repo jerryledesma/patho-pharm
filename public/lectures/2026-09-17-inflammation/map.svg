@@ -1,0 +1,206 @@
+<svg id="cmap" width="1003pt" height="761pt"
+ viewBox="0.00 0.00 1003.00 761.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 739.64)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-739.64 981.01,-739.64 981.01,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="167.1" y="-698.04" font-family="Helvetica,sans-Serif" font-size="16.00">Tissue Injury, Innate Immunity &amp; Inflammation — Concept Map (NURS 419, Lecture 9/17/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="83.5" y="-678.84" font-family="Helvetica,sans-Serif" font-size="16.00">Size = trophy · Number = plasia · Acute &lt; 2 wk · Chronic &gt; 2 wk · Know C3/C5, fibrinogen → fibrin, IL&#45;1 / IL&#45;6 / TNF&#45;α</text>
+<!-- stress -->
+<g id="node1" class="node">
+<title>stress</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M489.15,-671.64C489.15,-671.64 340.94,-671.64 340.94,-671.64 334.94,-671.64 328.94,-665.64 328.94,-659.64 328.94,-659.64 328.94,-639.12 328.94,-639.12 328.94,-633.12 334.94,-627.12 340.94,-627.12 340.94,-627.12 489.15,-627.12 489.15,-627.12 495.15,-627.12 501.15,-633.12 501.15,-639.12 501.15,-639.12 501.15,-659.64 501.15,-659.64 501.15,-665.64 495.15,-671.64 489.15,-671.64"/>
+<text xml:space="preserve" text-anchor="start" x="339.74" y="-656.98" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Cell under stress</text>
+<text xml:space="preserve" text-anchor="start" x="339.74" y="-645.98" font-family="Helvetica,sans-Serif" font-size="11.00">normal → stress → adapt, or injury</text>
+<text xml:space="preserve" text-anchor="start" x="339.74" y="-634.98" font-family="Helvetica,sans-Serif" font-size="11.00">exercise = the &quot;good&quot; stressor</text>
+</g>
+<!-- adapt -->
+<g id="node2" class="node">
+<title>adapt</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M435.77,-577.92C435.77,-577.92 228.32,-577.92 228.32,-577.92 222.32,-577.92 216.32,-571.92 216.32,-565.92 216.32,-565.92 216.32,-523.4 216.32,-523.4 216.32,-517.4 222.32,-511.4 228.32,-511.4 228.32,-511.4 435.77,-511.4 435.77,-511.4 441.77,-511.4 447.77,-517.4 447.77,-523.4 447.77,-523.4 447.77,-565.92 447.77,-565.92 447.77,-571.92 441.77,-577.92 435.77,-577.92"/>
+<text xml:space="preserve" text-anchor="start" x="227.12" y="-563.26" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Adaptations</text>
+<text xml:space="preserve" text-anchor="start" x="227.12" y="-552.26" font-family="Helvetica,sans-Serif" font-size="11.00">atrophy (size ↓) · hypertrophy (size ↑)</text>
+<text xml:space="preserve" text-anchor="start" x="227.12" y="-541.26" font-family="Helvetica,sans-Serif" font-size="11.00">hyperplasia (number ↑)</text>
+<text xml:space="preserve" text-anchor="start" x="227.12" y="-530.26" font-family="Helvetica,sans-Serif" font-size="11.00">metaplasia (type swap) · dysplasia (disordered)</text>
+<text xml:space="preserve" text-anchor="start" x="227.12" y="-519.26" font-family="Helvetica,sans-Serif" font-size="11.00">physiologic · pathologic · compensatory</text>
+</g>
+<!-- stress&#45;&gt;adapt -->
+<g id="edge1" class="edge">
+<title>stress&#45;&gt;adapt</title>
+<path fill="none" stroke="#555555" d="M397.45,-626.6C387.63,-614.44 375.1,-598.93 363.64,-584.75"/>
+<polygon fill="#555555" stroke="#555555" points="365.72,-583.43 359.41,-579.52 361.91,-586.51 365.72,-583.43"/>
+<text xml:space="preserve" text-anchor="middle" x="403.28" y="-599.22" font-family="Helvetica,sans-Serif" font-size="11.00"> can adapt</text>
+</g>
+<!-- injury -->
+<g id="node3" class="node">
+<title>injury</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M510.52,-462.2C510.52,-462.2 319.58,-462.2 319.58,-462.2 313.58,-462.2 307.58,-456.2 307.58,-450.2 307.58,-450.2 307.58,-418.68 307.58,-418.68 307.58,-412.68 313.58,-406.68 319.58,-406.68 319.58,-406.68 510.52,-406.68 510.52,-406.68 516.52,-406.68 522.52,-412.68 522.52,-418.68 522.52,-418.68 522.52,-450.2 522.52,-450.2 522.52,-456.2 516.52,-462.2 510.52,-462.2"/>
+<text xml:space="preserve" text-anchor="start" x="318.38" y="-447.54" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Cell injury</text>
+<text xml:space="preserve" text-anchor="start" x="318.38" y="-436.54" font-family="Helvetica,sans-Serif" font-size="11.00">hypoxia = most common (ischemia)</text>
+<text xml:space="preserve" text-anchor="start" x="318.38" y="-425.54" font-family="Helvetica,sans-Serif" font-size="11.00">free radicals · Ca²⁺ overload · reperfusion</text>
+<text xml:space="preserve" text-anchor="start" x="318.38" y="-414.54" font-family="Helvetica,sans-Serif" font-size="11.00">physical, radiation, chemical, biologic</text>
+</g>
+<!-- stress&#45;&gt;injury -->
+<g id="edge2" class="edge">
+<title>stress&#45;&gt;injury</title>
+<path fill="none" stroke="#555555" d="M433.64,-626.53C443.59,-613.37 454.84,-595.75 460.05,-577.92 472.29,-536.01 470.48,-518.78 450.05,-480.2 448.08,-476.48 445.8,-472.76 443.36,-469.14"/>
+<polygon fill="#555555" stroke="#555555" points="445.44,-467.84 439.39,-463.56 441.45,-470.68 445.44,-467.84"/>
+<text xml:space="preserve" text-anchor="middle" x="506.97" y="-541.36" font-family="Helvetica,sans-Serif" font-size="11.00"> too big / too long</text>
+</g>
+<!-- adapt&#45;&gt;injury -->
+<g id="edge3" class="edge">
+<title>adapt&#45;&gt;injury</title>
+<path fill="none" stroke="#555555" d="M357.18,-510.9C367.25,-497.76 378.86,-482.62 389.03,-469.37"/>
+<polygon fill="#555555" stroke="#555555" points="390.96,-470.88 393.27,-463.83 387.07,-467.9 390.96,-470.88"/>
+<text xml:space="preserve" text-anchor="middle" x="411.05" y="-483.5" font-family="Helvetica,sans-Serif" font-size="11.00"> maladaptation</text>
+</g>
+<!-- death -->
+<g id="node4" class="node">
+<title>death</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M432.76,-357.48C432.76,-357.48 239.34,-357.48 239.34,-357.48 233.34,-357.48 227.34,-351.48 227.34,-345.48 227.34,-345.48 227.34,-313.96 227.34,-313.96 227.34,-307.96 233.34,-301.96 239.34,-301.96 239.34,-301.96 432.76,-301.96 432.76,-301.96 438.76,-301.96 444.76,-307.96 444.76,-313.96 444.76,-313.96 444.76,-345.48 444.76,-345.48 444.76,-351.48 438.76,-357.48 432.76,-357.48"/>
+<text xml:space="preserve" text-anchor="start" x="238.14" y="-342.82" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Cell death</text>
+<text xml:space="preserve" text-anchor="start" x="238.14" y="-331.82" font-family="Helvetica,sans-Serif" font-size="11.00">necrosis: swelling, inflammation, pathologic</text>
+<text xml:space="preserve" text-anchor="start" x="238.14" y="-320.82" font-family="Helvetica,sans-Serif" font-size="11.00">apoptosis: programmed, no inflammation</text>
+<text xml:space="preserve" text-anchor="start" x="238.14" y="-309.82" font-family="Helvetica,sans-Serif" font-size="11.00">coagulative · liquefactive · caseous · fat</text>
+</g>
+<!-- injury&#45;&gt;death -->
+<g id="edge4" class="edge">
+<title>injury&#45;&gt;death</title>
+<path fill="none" stroke="#555555" d="M394.09,-406.18C384.19,-393.31 372.28,-377.83 361.83,-364.24"/>
+<polygon fill="#555555" stroke="#555555" points="363.97,-363 357.76,-358.95 360.08,-365.99 363.97,-363"/>
+<text xml:space="preserve" text-anchor="middle" x="406.7" y="-378.78" font-family="Helvetica,sans-Serif" font-size="11.00"> irreversible</text>
+</g>
+<!-- inflam -->
+<g id="node6" class="node">
+<title>inflam</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M592.99,-252.76C592.99,-252.76 397.11,-252.76 397.11,-252.76 391.11,-252.76 385.11,-246.76 385.11,-240.76 385.11,-240.76 385.11,-220.24 385.11,-220.24 385.11,-214.24 391.11,-208.24 397.11,-208.24 397.11,-208.24 592.99,-208.24 592.99,-208.24 598.99,-208.24 604.99,-214.24 604.99,-220.24 604.99,-220.24 604.99,-240.76 604.99,-240.76 604.99,-246.76 598.99,-252.76 592.99,-252.76"/>
+<text xml:space="preserve" text-anchor="start" x="395.91" y="-238.1" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Inflammation</text>
+<text xml:space="preserve" text-anchor="start" x="395.91" y="-227.1" font-family="Helvetica,sans-Serif" font-size="11.00">redness, heat, swelling, pain, loss of function</text>
+<text xml:space="preserve" text-anchor="start" x="395.91" y="-216.1" font-family="Helvetica,sans-Serif" font-size="11.00">rapid · vascularized tissue · NONSPECIFIC</text>
+</g>
+<!-- injury&#45;&gt;inflam -->
+<g id="edge5" class="edge">
+<title>injury&#45;&gt;inflam</title>
+<path fill="none" stroke="#555555" d="M431.86,-406.36C440.19,-392.17 449.97,-374.28 457.05,-357.48 470.58,-325.38 481.48,-286.82 488.07,-260.89"/>
+<polygon fill="#555555" stroke="#555555" points="490.37,-261.79 489.7,-254.4 485.62,-260.6 490.37,-261.79"/>
+<text xml:space="preserve" text-anchor="middle" x="494.61" y="-326.42" font-family="Helvetica,sans-Serif" font-size="11.00"> triggers</text>
+</g>
+<!-- death&#45;&gt;inflam -->
+<g id="edge6" class="edge">
+<title>death&#45;&gt;inflam</title>
+<path fill="none" stroke="#555555" d="M380.76,-301.38C403.22,-287.65 430.3,-271.09 452.46,-257.54"/>
+<polygon fill="#555555" stroke="#555555" points="453.48,-259.79 458.18,-254.05 450.93,-255.61 453.48,-259.79"/>
+<text xml:space="preserve" text-anchor="middle" x="449.19" y="-274.06" font-family="Helvetica,sans-Serif" font-size="11.00"> necrosis</text>
+</g>
+<!-- defense -->
+<g id="node5" class="node">
+<title>defense</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M711.86,-357.48C711.86,-357.48 568.24,-357.48 568.24,-357.48 562.24,-357.48 556.24,-351.48 556.24,-345.48 556.24,-345.48 556.24,-313.96 556.24,-313.96 556.24,-307.96 562.24,-301.96 568.24,-301.96 568.24,-301.96 711.86,-301.96 711.86,-301.96 717.86,-301.96 723.86,-307.96 723.86,-313.96 723.86,-313.96 723.86,-345.48 723.86,-345.48 723.86,-351.48 717.86,-357.48 711.86,-357.48"/>
+<text xml:space="preserve" text-anchor="start" x="567.04" y="-342.82" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Lines of defense</text>
+<text xml:space="preserve" text-anchor="start" x="567.04" y="-331.82" font-family="Helvetica,sans-Serif" font-size="11.00">1 innate barriers (before injury)</text>
+<text xml:space="preserve" text-anchor="start" x="567.04" y="-320.82" font-family="Helvetica,sans-Serif" font-size="11.00">2 inflammation (at injury)</text>
+<text xml:space="preserve" text-anchor="start" x="567.04" y="-309.82" font-family="Helvetica,sans-Serif" font-size="11.00">3 adaptive immunity (next week)</text>
+</g>
+<!-- defense&#45;&gt;inflam -->
+<g id="edge7" class="edge">
+<title>defense&#45;&gt;inflam</title>
+<path fill="none" stroke="#555555" d="M599.27,-301.38C578.89,-287.72 554.34,-271.26 534.19,-257.75"/>
+<polygon fill="#555555" stroke="#555555" points="535.7,-255.81 528.52,-253.94 532.97,-259.88 535.7,-255.81"/>
+<text xml:space="preserve" text-anchor="middle" x="591.14" y="-274.06" font-family="Helvetica,sans-Serif" font-size="11.00"> 2nd line</text>
+</g>
+<!-- process -->
+<g id="node7" class="node">
+<title>process</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M488.83,-171.24C488.83,-171.24 251.27,-171.24 251.27,-171.24 245.27,-171.24 239.27,-165.24 239.27,-159.24 239.27,-159.24 239.27,-127.72 239.27,-127.72 239.27,-121.72 245.27,-115.72 251.27,-115.72 251.27,-115.72 488.83,-115.72 488.83,-115.72 494.83,-115.72 500.83,-121.72 500.83,-127.72 500.83,-127.72 500.83,-159.24 500.83,-159.24 500.83,-165.24 494.83,-171.24 488.83,-171.24"/>
+<text xml:space="preserve" text-anchor="start" x="250.07" y="-156.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Process</text>
+<text xml:space="preserve" text-anchor="start" x="250.07" y="-145.58" font-family="Helvetica,sans-Serif" font-size="11.00">vasodilation → permeability (exudate)</text>
+<text xml:space="preserve" text-anchor="start" x="250.07" y="-134.58" font-family="Helvetica,sans-Serif" font-size="11.00">→ leukocyte adhesion, chemotaxis</text>
+<text xml:space="preserve" text-anchor="start" x="250.07" y="-123.58" font-family="Helvetica,sans-Serif" font-size="11.00">→ phagocytosis (neutrophils first, macrophages ~24 h)</text>
+</g>
+<!-- inflam&#45;&gt;process -->
+<g id="edge8" class="edge">
+<title>inflam&#45;&gt;process</title>
+<path fill="none" stroke="#555555" d="M463.18,-207.83C449.13,-198.27 432.34,-186.85 416.9,-176.35"/>
+<polygon fill="#555555" stroke="#555555" points="418.34,-174.36 411.17,-172.45 415.58,-178.41 418.34,-174.36"/>
+</g>
+<!-- acute -->
+<g id="node10" class="node">
+<title>acute</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M703.85,-171.24C703.85,-171.24 538.25,-171.24 538.25,-171.24 532.25,-171.24 526.25,-165.24 526.25,-159.24 526.25,-159.24 526.25,-127.72 526.25,-127.72 526.25,-121.72 532.25,-115.72 538.25,-115.72 538.25,-115.72 703.85,-115.72 703.85,-115.72 709.85,-115.72 715.85,-121.72 715.85,-127.72 715.85,-127.72 715.85,-159.24 715.85,-159.24 715.85,-165.24 709.85,-171.24 703.85,-171.24"/>
+<text xml:space="preserve" text-anchor="start" x="537.05" y="-156.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Acute (&lt; 2 wk)</text>
+<text xml:space="preserve" text-anchor="start" x="537.05" y="-145.58" font-family="Helvetica,sans-Serif" font-size="11.00">exudates: serous → purulent</text>
+<text xml:space="preserve" text-anchor="start" x="537.05" y="-134.58" font-family="Helvetica,sans-Serif" font-size="11.00">fever, WBC &gt; 10,000, CRP, ESR ↑</text>
+<text xml:space="preserve" text-anchor="start" x="537.05" y="-123.58" font-family="Helvetica,sans-Serif" font-size="11.00">sickness behavior (IL&#45;1, IL&#45;6, TNF&#45;α)</text>
+</g>
+<!-- inflam&#45;&gt;acute -->
+<g id="edge11" class="edge">
+<title>inflam&#45;&gt;acute</title>
+<path fill="none" stroke="#555555" d="M527.17,-207.83C541.33,-198.27 558.26,-186.85 573.82,-176.35"/>
+<polygon fill="#555555" stroke="#555555" points="575.17,-178.39 579.6,-172.45 572.43,-174.33 575.17,-178.39"/>
+</g>
+<!-- plasma -->
+<g id="node8" class="node">
+<title>plasma</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M220.1,-61.02C220.1,-61.02 12,-61.02 12,-61.02 6,-61.02 0,-55.02 0,-49.02 0,-49.02 0,-17.5 0,-17.5 0,-11.5 6,-5.5 12,-5.5 12,-5.5 220.1,-5.5 220.1,-5.5 226.1,-5.5 232.1,-11.5 232.1,-17.5 232.1,-17.5 232.1,-49.02 232.1,-49.02 232.1,-55.02 226.1,-61.02 220.1,-61.02"/>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-46.36" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Plasma&#45;derived (liver)</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-35.36" font-family="Helvetica,sans-Serif" font-size="11.00">inactive proenzymes until injury</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-24.36" font-family="Helvetica,sans-Serif" font-size="11.00">complement C3/C5: opsonize, lyse, chemotaxis</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-13.36" font-family="Helvetica,sans-Serif" font-size="11.00">clotting: fibrinogen → fibrin · kinin: bradykinin</text>
+</g>
+<!-- process&#45;&gt;plasma -->
+<g id="edge9" class="edge">
+<title>process&#45;&gt;plasma</title>
+<path fill="none" stroke="#555555" d="M305.95,-115.17C270.01,-99.86 225.06,-80.71 187.92,-64.88"/>
+<polygon fill="#555555" stroke="#555555" points="188.92,-62.64 181.52,-62.15 187,-67.15 188.92,-62.64"/>
+<text xml:space="preserve" text-anchor="middle" x="287.58" y="-87.82" font-family="Helvetica,sans-Serif" font-size="11.00"> amplified by</text>
+</g>
+<!-- cellmed -->
+<g id="node9" class="node">
+<title>cellmed</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M473.26,-66.52C473.26,-66.52 268.84,-66.52 268.84,-66.52 262.84,-66.52 256.84,-60.52 256.84,-54.52 256.84,-54.52 256.84,-12 256.84,-12 256.84,-6 262.84,0 268.84,0 268.84,0 473.26,0 473.26,0 479.26,0 485.26,-6 485.26,-12 485.26,-12 485.26,-54.52 485.26,-54.52 485.26,-60.52 479.26,-66.52 473.26,-66.52"/>
+<text xml:space="preserve" text-anchor="start" x="267.64" y="-51.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Cell&#45;derived</text>
+<text xml:space="preserve" text-anchor="start" x="267.64" y="-40.86" font-family="Helvetica,sans-Serif" font-size="11.00">mast cells: histamine (fast) · leukotrienes, PGs</text>
+<text xml:space="preserve" text-anchor="start" x="267.64" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">arachidonic acid ← steroids · COX ← NSAIDs</text>
+<text xml:space="preserve" text-anchor="start" x="267.64" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">IL&#45;1 fever · IL&#45;6 · TNF&#45;α septic shock</text>
+<text xml:space="preserve" text-anchor="start" x="267.64" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">IL&#45;10, TGF&#45;β turn it off</text>
+</g>
+<!-- process&#45;&gt;cellmed -->
+<g id="edge10" class="edge">
+<title>process&#45;&gt;cellmed</title>
+<path fill="none" stroke="#555555" d="M370.3,-115.17C370.41,-103.04 370.55,-88.5 370.67,-75.11"/>
+<polygon fill="#555555" stroke="#555555" points="373.12,-75.49 370.73,-68.47 368.22,-75.45 373.12,-75.49"/>
+<text xml:space="preserve" text-anchor="middle" x="399.91" y="-87.82" font-family="Helvetica,sans-Serif" font-size="11.00"> amplified by</text>
+</g>
+<!-- chronic -->
+<g id="node11" class="node">
+<title>chronic</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M719.89,-55.52C719.89,-55.52 522.2,-55.52 522.2,-55.52 516.2,-55.52 510.2,-49.52 510.2,-43.52 510.2,-43.52 510.2,-23 510.2,-23 510.2,-17 516.2,-11 522.2,-11 522.2,-11 719.89,-11 719.89,-11 725.89,-11 731.89,-17 731.89,-23 731.89,-23 731.89,-43.52 731.89,-43.52 731.89,-49.52 725.89,-55.52 719.89,-55.52"/>
+<text xml:space="preserve" text-anchor="start" x="521" y="-40.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Chronic (&gt; 2 wk)</text>
+<text xml:space="preserve" text-anchor="start" x="521" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">acute response failed</text>
+<text xml:space="preserve" text-anchor="start" x="521" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">lymphocytes, macrophages, granuloma — TB</text>
+</g>
+<!-- acute&#45;&gt;chronic -->
+<g id="edge12" class="edge">
+<title>acute&#45;&gt;chronic</title>
+<path fill="none" stroke="#555555" d="M621.05,-115.17C621.05,-99.74 621.05,-80.43 621.05,-64.54"/>
+<polygon fill="#555555" stroke="#555555" points="623.5,-64.62 621.05,-57.62 618.6,-64.62 623.5,-64.62"/>
+<text xml:space="preserve" text-anchor="middle" x="649.46" y="-87.82" font-family="Helvetica,sans-Serif" font-size="11.00"> not resolved</text>
+</g>
+<!-- heal -->
+<g id="node12" class="node">
+<title>heal</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M947.41,-66.52C947.41,-66.52 768.68,-66.52 768.68,-66.52 762.68,-66.52 756.68,-60.52 756.68,-54.52 756.68,-54.52 756.68,-12 756.68,-12 756.68,-6 762.68,0 768.68,0 768.68,0 947.41,0 947.41,0 953.41,0 959.41,-6 959.41,-12 959.41,-12 959.41,-54.52 959.41,-54.52 959.41,-60.52 953.41,-66.52 947.41,-66.52"/>
+<text xml:space="preserve" text-anchor="start" x="767.48" y="-51.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Wound healing</text>
+<text xml:space="preserve" text-anchor="start" x="767.48" y="-40.86" font-family="Helvetica,sans-Serif" font-size="11.00">hemostasis → inflammatory (1–2 d)</text>
+<text xml:space="preserve" text-anchor="start" x="767.48" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">→ proliferative (3–14 d, fibroblasts)</text>
+<text xml:space="preserve" text-anchor="start" x="767.48" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">→ remodeling (to 2 yr; keloid)</text>
+<text xml:space="preserve" text-anchor="start" x="767.48" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">problems: ischemia, diabetes, dehiscence</text>
+</g>
+<!-- acute&#45;&gt;heal -->
+<g id="edge13" class="edge">
+<title>acute&#45;&gt;heal</title>
+<path fill="none" stroke="#555555" d="M680.85,-115.17C710.56,-101.61 746.85,-85.04 778.84,-70.43"/>
+<polygon fill="#555555" stroke="#555555" points="779.71,-72.72 785.06,-67.59 777.68,-68.27 779.71,-72.72"/>
+<text xml:space="preserve" text-anchor="middle" x="774.45" y="-87.82" font-family="Helvetica,sans-Serif" font-size="11.00"> prepares for</text>
+</g>
+</g>
+</svg>
