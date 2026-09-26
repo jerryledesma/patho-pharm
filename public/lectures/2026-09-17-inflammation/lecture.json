@@ -1,0 +1,2219 @@
+{
+ "id": "2026-09-17-inflammation",
+ "date": "2026-09-17",
+ "title": "Tissue Injury, Innate Immunity & Inflammation",
+ "instructor": "Michael W. Calik, PhD",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.m4a",
+  "audio-02.m4a",
+  "audio-03.m4a",
+  "audio-04.m4a",
+  "slides.pptx",
+  "transcript.txt"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "identify the process"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Hypertrophy is an increase in:",
+   "options": [
+    "Cell number",
+    "Disorganized cell growth",
+    "Cell type",
+    "Cell size"
+   ],
+   "answer": "D",
+   "rationale": "Hypertrophy = bigger cells, not more cells — \"remember, not number, size.\" More cells is hyperplasia; a change of type is metaplasia; disordered growth is dysplasia.",
+   "src": "slide 7 + 00:05:46"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Hyperplasia is best defined as:",
+   "options": [
+    "Increase in cell size",
+    "Shrinkage in cell size",
+    "Replacement of one mature cell type with another",
+    "Increase in cell number (proliferation)"
+   ],
+   "answer": "D",
+   "rationale": "Hyperplasia is proliferation — more cells. It can occur together with hypertrophy, which is why the two get confused; atrophy is shrinkage and metaplasia is a type swap.",
+   "src": "slide 9"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which cells cannot undergo hyperplasia?",
+   "options": [
+    "Cardiac muscle cells and neurons",
+    "Endometrial cells",
+    "Skin epithelial cells",
+    "Hepatocytes"
+   ],
+   "answer": "A",
+   "rationale": "Cells that don't divide — cardiac muscle and neurons — can't add cell number, so they only hypertrophy or atrophy. Liver, endometrium and skin all proliferate (liver regrows, warts are skin hyperplasia).",
+   "src": "slide 9 + 00:10:21"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What is the most common cause of cell injury?",
+   "options": [
+    "Hypoxia",
+    "Free radicals",
+    "Infection",
+    "Chemical injury"
+   ],
+   "answer": "A",
+   "rationale": "Hypoxia — lack of sufficient oxygen — is the most common cause of cell injury, and ischemia is the most common cause of hypoxia. Free radicals, chemicals and infection are other listed causes.",
+   "src": "slides 24, 26"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What is the most common cause of hypoxia?",
+   "options": [
+    "Anemia",
+    "High altitude",
+    "Carbon monoxide poisoning",
+    "Ischemia (decreased blood flow)"
+   ],
+   "answer": "D",
+   "rationale": "Ischemia is listed as the most common cause of hypoxia. Loss of hemoglobin, low-oxygen air and poisoning are real causes, but less common.",
+   "src": "slide 26"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "According to the lecture, a normal WBC count is:",
+   "options": [
+    "12,000–15,000/mm³",
+    "150,000–400,000/mm³",
+    "5,000–9,000/mm³",
+    "1,000–4,000/mm³"
+   ],
+   "answer": "C",
+   "rationale": "Slide 30 gives 5,000–9,000/mm³. Leukocytosis in acute inflammation is > 10,000; 150,000–400,000 is a platelet range.",
+   "src": "slide 30"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which form of cell death is frequently accompanied by inflammation in adjacent tissue?",
+   "options": [
+    "Atrophy",
+    "Apoptosis",
+    "Senescence",
+    "Necrosis"
+   ],
+   "answer": "D",
+   "rationale": "Necrosis spills cell contents and inflames neighbors; apoptosis packages contents into apoptotic bodies with no inflammation. Senescence and atrophy aren't forms of cell death.",
+   "src": "slide 33"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which type of necrosis is classically caused by tuberculosis?",
+   "options": [
+    "Fat",
+    "Liquefactive",
+    "Coagulative",
+    "Caseous"
+   ],
+   "answer": "D",
+   "rationale": "Caseous necrosis — cheese-like clumps walled off by a granuloma — is usually from TB. Coagulative follows ischemia in organs like the heart; liquefactive is typical of brain and bacterial infection; fat necrosis is breast/pancreas.",
+   "src": "slide 35"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which cell is the most important cellular activator of the inflammatory response?",
+   "options": [
+    "Platelet",
+    "B lymphocyte",
+    "Mast cell",
+    "Neutrophil"
+   ],
+   "answer": "C",
+   "rationale": "The mast cell — a sentinel sitting near vessels — degranulates histamine within seconds. Neutrophils are the first phagocytes to arrive, platelets drive clotting, and B cells are adaptive.",
+   "src": "slide 69"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which phagocytes are the first responders at a site of inflammation?",
+   "options": [
+    "Dendritic cells",
+    "Macrophages",
+    "Neutrophils",
+    "Eosinophils"
+   ],
+   "answer": "C",
+   "rationale": "Neutrophils arrive first, are short-lived and become pus. Macrophages arrive ~24 h later and replace them; eosinophils are mildly phagocytic; dendritic cells link innate and adaptive immunity.",
+   "src": "slide 53 + 00:39:01"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which two complement proteins did he call \"the big boys\"?",
+   "options": [
+    "C1 and C2",
+    "C4 and C9",
+    "C-reactive protein and fibrinogen",
+    "C3 and C5"
+   ],
+   "answer": "D",
+   "rationale": "\"What I want you guys to know is that C3 and C5 are the big boys of the complement system.\" CRP and fibrinogen are acute-phase proteins, not complement.",
+   "src": "slides 59–60 + 00:46:10"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "In the clotting system, fibrinogen is converted into:",
+   "options": [
+    "Bradykinin",
+    "Plasminogen",
+    "Thrombin",
+    "Fibrin"
+   ],
+   "answer": "D",
+   "rationale": "He asked you to know fibrinogen → fibrin: fibrinogen circulates inactive and becomes fibrin when bleeding activates the cascade. Bradykinin belongs to the kinin system.",
+   "src": "slide 61 + 00:49:27"
+  },
+  {
+   "id": "p-013",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which cytokines are anti-inflammatory?",
+   "options": [
+    "IL-10 and TGF-β",
+    "Interferons and IL-6",
+    "IL-1 and IL-6",
+    "TNF-α and IL-1"
+   ],
+   "answer": "A",
+   "rationale": "IL-10 and TGF-β suppress lymphocytes and lower pro-inflammatory cytokines, so inflammation shuts off after a few days. IL-1, IL-6 and TNF-α are the pro-inflammatory trio.",
+   "src": "slide 77 + 01:03:07"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Acute inflammation is generally defined as lasting:",
+   "options": [
+    "Less than 2 weeks",
+    "Less than 24 hours",
+    "More than 6 months",
+    "2–6 months"
+   ],
+   "answer": "A",
+   "rationale": "Acute is less than 2 weeks; more than 2 weeks is chronic. He noted \"some debate whether 2–6 weeks is still acute.\"",
+   "src": "slide 80 + 01:06:57"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient's forearm muscles look visibly smaller after 6 weeks in a cast. This is:",
+   "options": [
+    "Disuse atrophy",
+    "Physiologic hypertrophy",
+    "Denervation atrophy",
+    "Dysplasia"
+   ],
+   "answer": "A",
+   "rationale": "Not using a muscle shrinks its cells — disuse atrophy (the Kahoot's leg-out-of-a-cast). Denervation needs nerve loss; hypertrophy would be growth; dysplasia is disordered growth.",
+   "src": "slide 6 + 00:16:59"
+  },
+  {
+   "id": "p-016",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Which change is pathologic hypertrophy?",
+   "options": [
+    "A thickened left ventricle from long-standing hypertension",
+    "A uterus enlarging during pregnancy",
+    "A runner's slightly larger heart",
+    "A weight lifter's enlarged biceps"
+   ],
+   "answer": "A",
+   "rationale": "The HTN heart is maladaptive — the wall thickens against high pressure until the ventricle can't fill. Exercise-related enlargement is physiologic; pregnancy is hormonal (physiologic) growth.",
+   "src": "slide 7 + 00:05:46"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "After a nephrectomy, the remaining kidney enlarges. The best description is:",
+   "options": [
+    "Compensatory hypertrophy",
+    "Dysplasia",
+    "Pathologic atrophy",
+    "Metaplasia"
+   ],
+   "answer": "A",
+   "rationale": "Compensatory = a pathologic event (kidney removed) followed by a physiologic response (the other kidney grows cell size to cover the loss).",
+   "src": "slide 7 + 00:06:47"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A long-term smoker's airway loses its ciliated cells, replaced by squamous cells. Which statement is true?",
+   "options": [
+    "It is irreversible necrosis",
+    "It is a harmless physiologic adaptation",
+    "It is a maladaptation that removes a protective function and raises cancer risk",
+    "It is caused by denervation"
+   ],
+   "answer": "C",
+   "rationale": "Metaplasia protects the cells from the irritants they were catching, but now nothing is caught — maladaptation. Switching cell type means genes are up/down-regulated, which can progress to cancer.",
+   "src": "slide 10 + 00:11:54"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Common warts are an example of:",
+   "options": [
+    "Metaplasia",
+    "Pathologic (viral) hyperplasia",
+    "Physiologic hyperplasia",
+    "Atrophy"
+   ],
+   "answer": "B",
+   "rationale": "\"Warts is the classic example\" of viral, pathologic hyperplasia of skin cells. Physiologic hyperplasia is hormonal (breast, uterus).",
+   "src": "slide 9 + 00:09:50"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Blood flow is restored to an ischemic area of heart muscle, yet more cells die afterward. What explains this?",
+   "options": [
+    "Ischemia-reperfusion injury from oxidative stress, calcium overload, inflammation and complement",
+    "Metastatic calcification",
+    "Compensatory hyperplasia",
+    "Apoptosis caused by estrogen loss"
+   ],
+   "answer": "A",
+   "rationale": "Reperfusion adds injury when O₂ returns — free radicals, intracellular Ca²⁺, inflammation and complement. His point: a large share of cells die after flow is restored.",
+   "src": "slide 26 + 00:24:21"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient with cirrhosis has repeated infections. Which explanation fits the lecture?",
+   "options": [
+    "Mast cells release less histamine",
+    "Too many plasma-derived mediators",
+    "IL-10 production is increased",
+    "The liver makes fewer complement, clotting and kinin proteins"
+   ],
+   "answer": "D",
+   "rationale": "The plasma-derived systems are made by the liver. A cirrhotic liver makes less complement (less opsonization and lysis), so infection rates rise.",
+   "src": "slide 57 + 00:51:07"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient takes aspirin for a headache. How does this reduce inflammation?",
+   "options": [
+    "It blocks cyclooxygenase, reducing prostaglandins",
+    "It increases IL-6",
+    "It activates complement",
+    "It blocks histamine receptors"
+   ],
+   "answer": "A",
+   "rationale": "Aspirin and NSAIDs block the COX pathway from arachidonic acid, lowering prostaglandins (pain, permeability). Corticosteroids act earlier, at membrane phospholipids; antihistamines block histamine.",
+   "src": "slide 67 + 00:56:01"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient in septic shock is severely hypotensive. Which mediator is mainly responsible?",
+   "options": [
+    "Interferon",
+    "TGF-β",
+    "IL-10",
+    "TNF-α"
+   ],
+   "answer": "D",
+   "rationale": "Large amounts of TNF-α cause widespread vasodilation — \"that's why we call it septic shock.\" IL-10 and TGF-β are anti-inflammatory; interferons are antiviral.",
+   "src": "slide 76 + 01:00:55"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient with the flu is lethargic, sleepy and has no appetite. These symptoms are driven mainly by:",
+   "options": [
+    "Histamine and leukotrienes",
+    "IL-1, IL-6 and TNF-α (sickness behavior)",
+    "Complement C3 and C5",
+    "Fibrinogen"
+   ],
+   "answer": "B",
+   "rationale": "IL-1, IL-6 and TNF-α act on the brain to cause sickness behavior. NSAIDs or Tylenol make you \"perk up\" — the infection isn't gone.",
+   "src": "slide 76 + 01:01:28"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Why did he describe inflammation as nonspecific?",
+   "options": [
+    "It produces the same response no matter what caused the injury",
+    "It occurs only in avascular tissue",
+    "It targets one antigen at a time",
+    "It only responds to bacteria"
+   ],
+   "answer": "A",
+   "rationale": "\"No matter the injury, it's the same response.\" Cells don't know the cause, so they go all out — lifesaving for a snake bite, overkill for a sprained ankle.",
+   "src": "slide 45 + 00:30:27"
+  },
+  {
+   "id": "p-026",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient's tuberculosis infection has persisted for months, with granulomas on imaging. This represents:",
+   "options": [
+    "Acute inflammation",
+    "Physiologic hypertrophy",
+    "Chronic inflammation",
+    "Primary intention healing"
+   ],
+   "answer": "C",
+   "rationale": "Longer than 2 weeks, the acute response failed, dense lymphocytes and macrophages, granuloma walling it off — TB is the classic chronic example.",
+   "src": "slide 82 + 01:11:41"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "An obese patient's abdominal incision separates on post-op day 7. This is:",
+   "options": [
+    "Contracture",
+    "Keloid",
+    "Primary intention",
+    "Dehiscence"
+   ],
+   "answer": "D",
+   "rationale": "Dehiscence is wound separation, highest risk days 5–12, more likely with obesity and abdominal wounds. Contracture is excessive contraction; a keloid is excess scar.",
+   "src": "slide 92 + 01:18:39 + 01:19:11"
+  },
+  {
+   "id": "p-028",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Why does diabetes delay wound healing?",
+   "options": [
+    "It speeds collagen remodeling",
+    "It increases platelet count",
+    "It causes metastatic calcification",
+    "Small-vessel disease impairs microcirculation and hyperglycemia impairs macrophages"
+   ],
+   "answer": "D",
+   "rationale": "Diabetes acts like ischemia — capillaries don't work right, and inflammation needs blood flow — and high glucose impairs macrophages and feeds bacteria.",
+   "src": "slide 91 + 01:18:09"
+  },
+  {
+   "id": "p-029",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Bronchial biopsy: ciliated columnar epithelium replaced by squamous epithelium. Identify the process.",
+   "options": [
+    "Hyperplasia",
+    "Atrophy",
+    "Dysplasia",
+    "Metaplasia"
+   ],
+   "answer": "D",
+   "rationale": "One mature cell type swapped for another = metaplasia (the textbook trachea example). Dysplasia would show cells varying in size, shape and organization.",
+   "src": "slide 10"
+  },
+  {
+   "id": "p-030",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Cervical biopsy: cells vary in size and shape and have lost normal organization. Identify the process.",
+   "options": [
+    "Apoptosis",
+    "Dysplasia",
+    "Metaplasia",
+    "Hypertrophy"
+   ],
+   "answer": "B",
+   "rationale": "Deranged growth with variable size, shape and organization = dysplasia (\"atypical hyperplasia\"), common in the cervix and respiratory tract.",
+   "src": "slide 11"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Microscopy: swollen cells, disrupted membranes, contents leaking, inflammation in surrounding tissue.",
+   "options": [
+    "Necrosis",
+    "Senescence",
+    "Apoptosis",
+    "Atrophy"
+   ],
+   "answer": "A",
+   "rationale": "Swelling, disrupted membrane, leaking contents and adjacent inflammation are necrosis. Apoptosis shrinks the cell, keeps the membrane intact, and causes no inflammation.",
+   "src": "slide 33"
+  },
+  {
+   "id": "p-032",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Microscopy: a shrunken cell, fragmented nucleus, intact membrane, apoptotic bodies, no inflammation.",
+   "options": [
+    "Apoptosis",
+    "Necrosis",
+    "Hypertrophy",
+    "Dysplasia"
+   ],
+   "answer": "A",
+   "rationale": "Reduced size, nuclear fragmentation, intact membrane and apoptotic bodies without inflammation = apoptosis, programmed cell death.",
+   "src": "slide 33"
+  },
+  {
+   "id": "p-033",
+   "tier": "3",
+   "type": "mc",
+   "stem": "After a stroke, the infarcted brain tissue softens into a liquid, pus-like mass. Identify the necrosis.",
+   "options": [
+    "Coagulative",
+    "Fat",
+    "Liquefactive",
+    "Caseous"
+   ],
+   "answer": "C",
+   "rationale": "Ischemic injury to neurons/glia and bacterial infections produce liquefactive necrosis — hydrolytic enzymes digest the tissue. Ischemia in heart or kidney is coagulative instead.",
+   "src": "slide 35"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Pancreatitis: chalky white deposits where lipases broke down triglycerides into soaps. Identify the necrosis.",
+   "options": [
+    "Fat",
+    "Caseous",
+    "Gangrenous",
+    "Coagulative"
+   ],
+   "answer": "A",
+   "rationale": "Lipases split triglycerides; free fatty acids combine with ions to form soap (saponification) — fat necrosis of pancreas or breast.",
+   "src": "slide 35"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A toe is black, dry and shrunken after arterial occlusion; no infection is present.",
+   "options": [
+    "Caseous necrosis",
+    "Dry gangrene",
+    "Gas gangrene",
+    "Wet gangrene"
+   ],
+   "answer": "B",
+   "rationale": "Ischemia leading to coagulative necrosis gives dry gangrene — dry, shrunken, black/brown. Wet adds infection (cold, wet, pulseless); gas gangrene has crepitus.",
+   "src": "slide 36"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "An infected leg wound shows crepitus on palpation after a clostridial infection.",
+   "options": [
+    "Dry gangrene",
+    "Fibrinous exudate",
+    "Gas gangrene",
+    "Wet gangrene"
+   ],
+   "answer": "C",
+   "rationale": "Clostridium toxins make gas bubbles in infected muscle — gas gangrene (myonecrosis), felt as crepitus.",
+   "src": "slide 36"
+  },
+  {
+   "id": "p-037",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A fresh scrape oozes a thin, clear, watery fluid.",
+   "options": [
+    "Purulent exudate",
+    "Serous exudate",
+    "Hemorrhagic exudate",
+    "Fibrinous exudate"
+   ],
+   "answer": "B",
+   "rationale": "Early or mild inflammation with few proteins or WBCs gives a watery, serous exudate — his scrape example.",
+   "src": "slide 80 + 01:08:00"
+  },
+  {
+   "id": "p-038",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A wound drains thick, opaque fluid full of neutrophils and cellular debris.",
+   "options": [
+    "Membranous",
+    "Serosanguineous",
+    "Serous",
+    "Purulent"
+   ],
+   "answer": "D",
+   "rationale": "Pus — large numbers of leukocytes (especially neutrophils) and debris — is a purulent exudate.",
+   "src": "slide 80 + 01:08:30"
+  },
+  {
+   "id": "p-039",
+   "tier": "3",
+   "type": "mc",
+   "stem": "On day 6, a healing wound bed is beefy red and full of new capillaries, and fibroblasts are laying down collagen.",
+   "options": [
+    "Inflammatory phase",
+    "Hemostasis phase",
+    "Proliferative phase",
+    "Remodeling phase"
+   ],
+   "answer": "C",
+   "rationale": "Granulation tissue, angiogenesis and fibroblast collagen synthesis define the proliferative phase (days 3–14) — the Kahoot's answer for fibroblasts.",
+   "src": "slides 88, 93 + 01:19:48"
+  },
+  {
+   "id": "p-040",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Months after an ear piercing, a firm, raised overgrowth of scar tissue extends beyond the wound.",
+   "options": [
+    "Keloid",
+    "Dehiscence",
+    "Metaplasia",
+    "Contracture"
+   ],
+   "answer": "A",
+   "rationale": "Remodeling gone awry, laying down too much scar = keloid. His example: an ear piercing that \"kept on healing.\"",
+   "src": "slide 89 + 01:17:06"
+  },
+  {
+   "id": "p-041",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Calcium deposits form in a damaged heart valve; the patient's serum calcium is normal.",
+   "options": [
+    "Fatty change",
+    "Metastatic calcification",
+    "Dystrophic calcification",
+    "Caseous necrosis"
+   ],
+   "answer": "C",
+   "rationale": "Calcium in injured tissue with normal serum calcium = dystrophic. Metastatic calcification deposits in normal tissue because of hypercalcemia.",
+   "src": "slide 29"
+  },
+  {
+   "id": "p-042",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Temp 101.8°F, WBC 13,500/mm³, CRP and ESR elevated, 3 days after a large injury.",
+   "options": [
+    "Chronic granulomatous inflammation",
+    "Systemic manifestations of acute inflammation",
+    "Anti-inflammatory cytokine excess",
+    "Normal findings"
+   ],
+   "answer": "B",
+   "rationale": "Fever, leukocytosis > 10,000 and acute-phase reactants (CRP, raised ESR) within days of a big injury are systemic signs of acute inflammation.",
+   "src": "slide 81 + 01:09:00"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Pulmonary clinic",
+   "setting": "Outpatient visit, follow-up of an abnormal bronchoscopy",
+   "text": "A 58-year-old man with a <b>40 pack-year smoking history</b> has a chronic morning cough. Bronchial biopsy report: <b>ciliated columnar epithelium replaced by stratified squamous epithelium</b> in several areas. He asks the nurse whether this means he has cancer.",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "mc",
+     "stem": "Which cellular adaptation does the biopsy describe?",
+     "options": [
+      "Hyperplasia",
+      "Hypertrophy",
+      "Metaplasia",
+      "Atrophy"
+     ],
+     "answer": "C",
+     "rationale": "One mature cell type replaced by another — ciliated columnar to squamous — is metaplasia, driven by chronic irritation. It's a type change, not a change in size or number.",
+     "src": "slide 10 + 00:11:54"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "Why did these airway cells lose their cilia?",
+     "options": [
+      "Nicotine directly dissolves cilia",
+      "The cilia were trapping the inhaled irritants that injured the cells, so the cells changed to avoid catching them",
+      "The cells were dying by apoptosis",
+      "Cilia are lost normally with age"
+     ],
+     "answer": "B",
+     "rationale": "His explanation: cilia catch everything inhaled; for a smoker that's toxic, so the cells \"get rid of our cilia\" to stop grabbing it. It's an adaptation, not cell death or normal aging.",
+     "src": "00:11:54–00:12:54"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "How should the nurse describe this change to the patient?",
+     "options": [
+      "It is a maladaptation that can reverse if he stops smoking, but it can progress toward dysplasia and cancer",
+      "It is a healthy adaptation that protects his lungs",
+      "It is irreversible cell death",
+      "It is cancer"
+     ],
+     "answer": "A",
+     "rationale": "Metaplasia is reversible but maladaptive — nothing gets caught anymore — and switching cell type involves gene up/down-regulation that can progress to dysplasia and neoplasm. Quitting lets cells recover.",
+     "src": "slides 10–11 + 00:12:54–00:15:30"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "A repeat biopsy a year later is being compared. Which findings would indicate progression to dysplasia? Select all that apply.",
+     "options": [
+      "Return of ciliated columnar cells",
+      "Uniform squamous cells in orderly layers",
+      "Cells varying in size",
+      "Cells varying in shape",
+      "Loss of normal cell organization"
+     ],
+     "answer": "C, D, E",
+     "rationale": "Dysplasia = deranged growth — cells varying in size, shape and organization. Uniform orderly squamous cells are still metaplasia; returning cilia means recovery.",
+     "src": "slide 11"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Cardiology clinic",
+   "setting": "Outpatient visit, echocardiogram review",
+   "text": "A 64-year-old woman with <b>uncontrolled hypertension for 15 years</b> reports fatigue and shortness of breath on exertion. Echo: <b>markedly thickened left ventricular wall with a small chamber</b>. Her daughter, a marathon runner, was told she also has \"a big heart.\"",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "mc",
+     "stem": "Which adaptation is present in the mother's heart?",
+     "options": [
+      "Hyperplasia",
+      "Physiologic hypertrophy",
+      "Atrophy",
+      "Pathologic hypertrophy"
+     ],
+     "answer": "D",
+     "rationale": "Heart cells grow in size working against high blood pressure — pathologic, maladaptive hypertrophy. Cardiac muscle can't divide, so hyperplasia isn't possible.",
+     "src": "slide 7 + 00:05:46"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "Why does this adaptation cause her symptoms?",
+     "options": [
+      "The heart cells are dying by apoptosis",
+      "The ventricle has too many new cells",
+      "The thick wall leaves too little chamber space for blood to fill the ventricle",
+      "The heart has become metaplastic"
+     ],
+     "answer": "C",
+     "rationale": "His answer to \"why is this a bad thing?\": so much hypertrophy that blood can't fill the ventricle — the cells adapt to the pressure but make function worse.",
+     "src": "00:05:46–00:06:17"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "How does the daughter's heart differ?",
+     "options": [
+      "It is cardiac hyperplasia",
+      "It is the same pathologic process",
+      "It is compensatory atrophy",
+      "It is physiologic hypertrophy from exercise and still fills normally"
+     ],
+     "answer": "D",
+     "rationale": "Exercise enlarges the heart a little — \"not a big deal, it still fills with blood\" — physiologic hypertrophy. The pathology comes from working against constant high pressure.",
+     "src": "00:06:47–00:07:17"
+    },
+    {
+     "id": "c02-q04",
+     "type": "mc",
+     "stem": "Which statement about cardiac muscle cells is correct?",
+     "options": [
+      "They respond to stress mainly by hyperplasia",
+      "They cannot undergo hyperplasia because they don't divide",
+      "They regenerate completely after injury",
+      "They undergo metaplasia with hypertension"
+     ],
+     "answer": "B",
+     "rationale": "Non-dividing cells like cardiac muscle and neurons can't increase in number — they adapt by size (hypertrophy or atrophy).",
+     "src": "slide 9 + 00:10:21"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Outpatient rehabilitation",
+   "setting": "Two patients on the same afternoon",
+   "text": "Patient A, 34, just had a <b>long leg cast removed after 8 weeks</b>; the casted thigh is visibly thinner. Patient B, 41, <b>donated a kidney 6 months ago</b>; imaging shows her remaining kidney is larger than before.",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "mc",
+     "stem": "What best explains Patient A's thinner thigh?",
+     "options": [
+      "Denervation atrophy",
+      "Coagulative necrosis",
+      "Dysplasia",
+      "Disuse atrophy"
+     ],
+     "answer": "D",
+     "rationale": "Muscle that isn't used shrinks its cells — disuse atrophy, the Kahoot's leg-after-a-cast. Denervation requires nerve loss.",
+     "src": "slide 6 + 00:19:05"
+    },
+    {
+     "id": "c03-q02",
+     "type": "mc",
+     "stem": "What best explains the change in Patient B's remaining kidney?",
+     "options": [
+      "Metaplasia",
+      "Physiologic atrophy",
+      "Pathologic hyperplasia",
+      "Compensatory hypertrophy"
+     ],
+     "answer": "D",
+     "rationale": "Removing a kidney is the pathologic event; the remaining kidney enlarging to cover the loss is the physiologic response — together, compensatory.",
+     "src": "slide 7 + 00:06:47–00:08:19"
+    },
+    {
+     "id": "c03-q03",
+     "type": "sata",
+     "stem": "Which are causes of atrophy listed in the lecture? Select all that apply.",
+     "options": [
+      "Weight-lifting",
+      "Viral infection",
+      "Disuse",
+      "Ischemia",
+      "Loss of endocrine stimulation",
+      "Denervation"
+     ],
+     "answer": "C, D, E, F",
+     "rationale": "Atrophy causes: disuse, denervation, loss of endocrine stimulation, inadequate nutrition, ischemia, aging. Weight-lifting causes hypertrophy; viral infection (warts) causes hyperplasia.",
+     "src": "slide 6 + 00:04:13"
+    },
+    {
+     "id": "c03-q04",
+     "type": "mc",
+     "stem": "A patient's liver regrows after 70% was removed. How does this compare with Patient B?",
+     "options": [
+      "It is dysplasia",
+      "It is compensatory hyperplasia — cell number increases, rather than cell size",
+      "It is metaplasia",
+      "It is the same as Patient B — hypertrophy"
+     ],
+     "answer": "B",
+     "rationale": "Liver regenerates by increasing cell number (compensatory hyperplasia, ~2 weeks after removal of 70%); the kidney example is cell size (hypertrophy).",
+     "src": "slide 9 + 00:09:50"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Cardiac care unit",
+   "setting": "4 hours after emergency cardiac catheterization",
+   "text": "A 61-year-old man had chest pain for <b>3 hours</b> before an occluded coronary artery was opened. Shortly after <b>blood flow was restored</b>, his cardiac markers rose further. Labs: <b>CK and AST elevated</b>, WBC 11,800/mm³, temp 100.6°F.",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "mc",
+     "stem": "Before the artery was opened, what was the main mechanism of injury to his heart cells?",
+     "options": [
+      "Hypoxia from ischemia",
+      "Radiation injury",
+      "Viral invasion",
+      "Metastatic calcification"
+     ],
+     "answer": "A",
+     "rationale": "Ischemia is the most common cause of hypoxia, and hypoxia is the most common cause of cell injury: ATP falls, the Na⁺/K⁺ pump fails, cells swell.",
+     "src": "slides 24–26"
+    },
+    {
+     "id": "c04-q02",
+     "type": "sata",
+     "stem": "Restoring blood flow can add injury. Which mechanisms of ischemia-reperfusion injury does the lecture list? Select all that apply.",
+     "options": [
+      "Increased intracellular calcium",
+      "Metaplasia",
+      "Increased antioxidant levels",
+      "Oxidative stress (free radicals)",
+      "Complement activation",
+      "Inflammation"
+     ],
+     "answer": "A, D, E, F",
+     "rationale": "Slide 26 lists oxidative stress, increased intracellular Ca²⁺, inflammation and complement activation. Metaplasia is an adaptation; more antioxidants would protect.",
+     "src": "slide 26 + 00:24:21"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "Why are CK and AST elevated?",
+     "options": [
+      "The liver is producing acute-phase proteins",
+      "Injured heart muscle cells release these enzymes",
+      "They are anti-inflammatory cytokines",
+      "Platelets release them during clotting"
+     ],
+     "answer": "B",
+     "rationale": "Injured cells leak enzymes: CK (skeletal muscle, brain, heart) and AST (heart, liver, muscle, kidney, pancreas) are listed systemic signs of cell injury.",
+     "src": "slide 30"
+    },
+    {
+     "id": "c04-q04",
+     "type": "mc",
+     "stem": "Irreversibly injured heart cells here will most likely undergo which type of necrosis?",
+     "options": [
+      "Coagulative",
+      "Liquefactive",
+      "Caseous",
+      "Fat"
+     ],
+     "answer": "A",
+     "rationale": "Coagulative necrosis occurs in kidneys, heart and adrenals from hypoxia/ischemia — proteins denature into a firm, opaque state. Liquefactive is typical of brain.",
+     "src": "slide 35"
+    },
+    {
+     "id": "c04-q05",
+     "type": "mc",
+     "stem": "His WBC count of 11,800/mm³ and low-grade fever are best explained by:",
+     "options": [
+      "Chronic granulomatous inflammation",
+      "Anti-inflammatory cytokine excess",
+      "Normal values",
+      "Systemic response to cell injury and inflammation"
+     ],
+     "answer": "D",
+     "rationale": "Normal WBC is 5,000–9,000; injury causes leukocytosis and fever from endogenous pyrogens. It's hours old, so it isn't chronic.",
+     "src": "slide 30"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Medical-surgical unit",
+   "setting": "Admission for a foot wound",
+   "text": "A 72-year-old man with <b>long-standing type 2 diabetes and peripheral vascular disease</b> has a foot ulcer that hasn't healed in 2 months. The second toe is now <b>cold, swollen, wet-appearing and pulseless</b>, with foul drainage. Blood glucose 312 mg/dL.",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "mc",
+     "stem": "Which condition does the toe's appearance suggest?",
+     "options": [
+      "Dry gangrene",
+      "Fat necrosis",
+      "Gas gangrene",
+      "Wet gangrene"
+     ],
+     "answer": "D",
+     "rationale": "Ischemia with superimposed bacterial infection → liquefactive necrosis: cold, wet, pulseless — wet gangrene. Dry gangrene is dry and shrunken; gas gangrene has crepitus.",
+     "src": "slide 36"
+    },
+    {
+     "id": "c05-q02",
+     "type": "sata",
+     "stem": "Which factors in this patient impair wound healing? Select all that apply.",
+     "options": [
+      "Adequate protein intake",
+      "Wound infection",
+      "Ischemia from peripheral vascular disease",
+      "Diabetes with small-vessel disease",
+      "Hyperglycemia impairing macrophages"
+     ],
+     "answer": "B, C, D, E",
+     "rationale": "Diabetes (microcirculation, hyperglycemia impairs macrophages and feeds bacteria), ischemia and infection are listed dysfunctions; \"inflammation needs blood flow.\" Adequate nutrition helps healing.",
+     "src": "slide 91 + 01:17:37–01:18:09"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "The ulcer has persisted for 2 months with ongoing inflammation. This is best classified as:",
+     "options": [
+      "Physiologic adaptation",
+      "Chronic inflammation",
+      "Primary intention healing",
+      "Acute inflammation"
+     ],
+     "answer": "B",
+     "rationale": "More than 2 weeks, with an acute response that failed to resolve the cause and incomplete healing, is chronic inflammation.",
+     "src": "slide 82 + 01:11:08"
+    },
+    {
+     "id": "c05-q04",
+     "type": "mc",
+     "stem": "If the wound eventually heals as an open wound filling from the base, it heals by:",
+     "options": [
+      "Primary intention — fast, minimal scarring",
+      "Hemostasis alone",
+      "Metaplasia",
+      "Secondary intention — slower, more scarring, higher infection risk"
+     ],
+     "answer": "D",
+     "rationale": "Open wounds with tissue loss (like pressure ulcers) heal by secondary intention: slower, more scar, far greater infection risk.",
+     "src": "slide 85 + 01:14:57"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Emergency department",
+   "setting": "Two arrivals within 10 minutes",
+   "text": "Patient A, 25, <b>sprained his ankle</b> playing basketball: swollen, warm, red, painful, and he can't bear weight. Patient B, 30, was <b>bitten by a rattlesnake</b> on the hand an hour ago; the hand and forearm are rapidly swelling.",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which of Patient A's findings are cardinal signs of inflammation? Select all that apply.",
+     "options": [
+      "Cyanosis",
+      "Redness (erythema)",
+      "Pain",
+      "Heat",
+      "Swelling (edema)",
+      "Loss of function"
+     ],
+     "answer": "B, C, D, E, F",
+     "rationale": "Redness, heat, swelling, pain and loss of function are the classic signs. Cyanosis signals hypoxemia, not inflammation.",
+     "src": "slide 45 + 00:29:02"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "According to the lecture, for which patient is the full inflammatory response most important?",
+     "options": [
+      "Patient A — the sprained ankle",
+      "Equally important for both",
+      "Patient B — the snake bite",
+      "Neither — inflammation is harmful"
+     ],
+     "answer": "C",
+     "rationale": "His scenario: without inflammation the snake-bite victim might die; the sprained ankle won't die, inflammation just makes the next weeks worse.",
+     "src": "00:31:00–00:32:36"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "Why does the body mount the same intense response to a sprained ankle?",
+     "options": [
+      "Inflammation is nonspecific — cells don't know the cause, so they go all out",
+      "The ankle contains venom",
+      "Sprains always become infected",
+      "Adaptive immunity directs it"
+     ],
+     "answer": "A",
+     "rationale": "\"No matter the injury, it's always going to be the same response.\" Cells can't tell a sprain from a bite, so the response is all or nothing.",
+     "src": "slide 45 + 00:29:32–00:32:06"
+    },
+    {
+     "id": "c06-q04",
+     "type": "order",
+     "stem": "Put the steps of Patient A's inflammatory response in order.",
+     "options": [
+      "Leukocytes adhere to vessel walls and migrate into the tissue",
+      "Vasodilation increases blood flow to the ankle",
+      "Leukocytes are activated and phagocytize debris",
+      "Vascular permeability increases and fluid leaks out (edema)"
+     ],
+     "answer": "B, D, A, C",
+     "rationale": "Timeline (the Kahoot): vascular response first — vasodilation, then permeability and exudate — then leukocyte adhesion and migration (chemotaxis), then activation and phagocytosis.",
+     "src": "slides 47–49 + 00:33:50 + 00:40:43"
+    },
+    {
+     "id": "c06-q05",
+     "type": "mc",
+     "stem": "Which phagocytes arrive first at Patient A's injury?",
+     "options": [
+      "Macrophages",
+      "Neutrophils",
+      "B lymphocytes",
+      "Plasma cells"
+     ],
+     "answer": "B",
+     "rationale": "Neutrophils are the first responders; monocytes/macrophages arrive about 24 h later and take over. B cells and plasma cells are adaptive.",
+     "src": "slide 53 + 00:39:01"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Medical unit",
+   "setting": "Admission for cellulitis, day 1",
+   "text": "A 55-year-old man with <b>alcoholic cirrhosis</b> is admitted with his third skin infection this year. Labs: <b>low albumin</b>, prolonged clotting times, WBC 12,900/mm³. He asks why he \"keeps catching everything.\"",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "mc",
+     "stem": "Which explanation is best supported by the lecture?",
+     "options": [
+      "His liver makes too much complement",
+      "His liver makes fewer plasma-derived proteins such as complement, so his defenses are weaker",
+      "Cirrhosis increases IL-10",
+      "His mast cells can't release histamine"
+     ],
+     "answer": "B",
+     "rationale": "The complement, clotting and kinin systems are made by the liver. His answer: a cirrhotic liver means decreased complement → less opsonization and lysis → more infections.",
+     "src": "slide 57 + 00:51:07"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "Complement normally helps phagocytes by:",
+     "options": [
+      "Opsonization — marking bacteria so phagocytes can recognize and eat them",
+      "Producing antibodies",
+      "Dissolving clots",
+      "Lowering body temperature"
+     ],
+     "answer": "A",
+     "rationale": "\"Placing a marker on the bacteria\" — opsonization. Without it, bacteria are harder for phagocytes to find. Antibodies come from B/plasma cells.",
+     "src": "slide 60 + 00:47:18"
+    },
+    {
+     "id": "c07-q03",
+     "type": "sata",
+     "stem": "Which are actions of activated complement (C3 and C5)? Select all that apply.",
+     "options": [
+      "Chemotaxis of leukocytes",
+      "Anti-inflammatory signaling",
+      "Anaphylatoxic activity (vasodilation, histamine release, permeability)",
+      "Opsonization",
+      "Cell lysis"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "Slide 60: opsonization, anaphylatoxic activity, leukocyte chemotaxis, cell lysis. Complement amplifies inflammation; it isn't anti-inflammatory.",
+     "src": "slide 60 + 01:04:29"
+    },
+    {
+     "id": "c07-q04",
+     "type": "mc",
+     "stem": "His prolonged clotting times fit which fact about the clotting system?",
+     "options": [
+      "Clotting proteins like fibrinogen are plasma-derived and made by the liver",
+      "Fibrin is made by neutrophils",
+      "Clotting factors come from mast cells",
+      "Platelets make fibrinogen"
+     ],
+     "answer": "A",
+     "rationale": "Fibrinogen and the other clotting proteins circulate from the liver and are activated at injury; less liver function means less of them.",
+     "src": "slides 57, 61 + 00:49:27"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Intensive care unit",
+   "setting": "Transfer from the floor, 02:00",
+   "text": "A 67-year-old woman with a urinary tract infection becomes <b>confused, febrile (103.1°F) and hypotensive (78/40)</b> with warm, flushed skin. Blood cultures are drawn; the team suspects <b>septic shock</b>. Her daughter says she's been \"lethargic and not eating for two days.\"",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "mc",
+     "stem": "Which cytokine is the main problem in septic shock?",
+     "options": [
+      "TGF-β",
+      "TNF-α",
+      "IL-10",
+      "Interferon"
+     ],
+     "answer": "B",
+     "rationale": "TNF-α is highly inflammatory; large amounts in bacteremia cause widespread vasodilation → shock. IL-10 and TGF-β are anti-inflammatory; interferons fight viruses.",
+     "src": "slide 76 + 01:00:55"
+    },
+    {
+     "id": "c08-q02",
+     "type": "mc",
+     "stem": "What causes her hypotension?",
+     "options": [
+      "Massive vasodilation from too much TNF-α",
+      "Metaplasia of vessel walls",
+      "Hypertrophy of the heart",
+      "Too little histamine"
+     ],
+     "answer": "A",
+     "rationale": "His answer to \"what's the problem with too much TNF-α?\": vasodilation, which is why it's called septic shock.",
+     "src": "01:00:55–01:01:28"
+    },
+    {
+     "id": "c08-q03",
+     "type": "sata",
+     "stem": "Which cytokines cause her lethargy and loss of appetite (sickness behavior)? Select all that apply.",
+     "options": [
+      "TGF-β",
+      "IL-1",
+      "IL-10",
+      "TNF-α",
+      "IL-6"
+     ],
+     "answer": "B, D, E",
+     "rationale": "IL-1, IL-6 and TNF-α together cause sickness behavior — lethargy, depression, malaise, poor appetite, sleepiness. IL-10 and TGF-β are anti-inflammatory.",
+     "src": "slide 76 + 01:01:28–01:02:30"
+    },
+    {
+     "id": "c08-q04",
+     "type": "mc",
+     "stem": "Her fever is best explained by:",
+     "options": [
+      "Low acute-phase proteins",
+      "Complement lysing her red cells",
+      "Cytokines such as IL-1 and TNF-α acting as endogenous pyrogens",
+      "Dystrophic calcification"
+     ],
+     "answer": "C",
+     "rationale": "IL-1 is an endogenous pyrogen (\"if they give IL-1… there is a fever response\"), and TNF-α also induces fever.",
+     "src": "slides 75–76 + 00:59:53"
+    },
+    {
+     "id": "c08-q05",
+     "type": "mc",
+     "stem": "Which lab finding would you expect to rise as part of the acute-phase response?",
+     "options": [
+      "Platelet serotonin",
+      "C-reactive protein (CRP)",
+      "IL-10",
+      "Albumin"
+     ],
+     "answer": "B",
+     "rationale": "The liver makes acute-phase reactants — CRP, complement components, fibrinogen — during inflammation, and ESR rises.",
+     "src": "slide 81 + 01:10:03"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "title": "Scenario 9 — Surgical unit",
+   "setting": "Post-op day 7 after open abdominal surgery",
+   "text": "A 59-year-old woman with a <b>BMI of 41</b> had an open bowel resection. On post-op day 7, while coughing, she says she felt something \"give,\" and the nurse sees <b>the incision edges separating</b> with serosanguineous drainage.",
+   "questions": [
+    {
+     "id": "c09-q01",
+     "type": "mc",
+     "stem": "What has occurred?",
+     "options": [
+      "Evisceration",
+      "Keloid formation",
+      "Dehiscence",
+      "Contracture"
+     ],
+     "answer": "C",
+     "rationale": "Wound separation = dehiscence, highest risk days 5–12, more likely with obesity and abdominal wounds. Evisceration is internal structures coming out after dehiscence.",
+     "src": "slide 92 + 01:18:39"
+    },
+    {
+     "id": "c09-q02",
+     "type": "mc",
+     "stem": "The drainage is serosanguineous. This means:",
+     "options": [
+      "Pus with many neutrophils",
+      "Thick fibrin-rich exudate",
+      "Pure blood",
+      "Serous (watery) fluid with some blood"
+     ],
+     "answer": "D",
+     "rationale": "Serosanguineous = serous fluid with some blood. Purulent is pus; fibrinous is thick fibrin; sanguineous is very bloody.",
+     "src": "slide 80 + 01:08:00"
+    },
+    {
+     "id": "c09-q03",
+     "type": "sata",
+     "stem": "Which are risk factors for her dehiscence named in the lecture? Select all that apply.",
+     "options": [
+      "Wound infection",
+      "Obesity",
+      "Small laparoscopic incisions",
+      "Post-op days 5–12",
+      "Abdominal wound"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "Dehiscence risk peaks days 5–12, rises with obesity and abdominal wounds, and about half are associated with infection. Laparoscopic small incisions lower complications.",
+     "src": "slide 92 + 01:19:11"
+    },
+    {
+     "id": "c09-q04",
+     "type": "mc",
+     "stem": "Which surgical approach did he say reduces complications like this?",
+     "options": [
+      "Longer incisions",
+      "Leaving wounds open",
+      "Delaying surgery by 2 weeks",
+      "Laparoscopic surgery with small incisions"
+     ],
+     "answer": "D",
+     "rationale": "\"The smaller incisions you make, the less complications you have\" — laparoscopic surgery.",
+     "src": "01:19:11"
+    },
+    {
+     "id": "c09-q05",
+     "type": "mc",
+     "stem": "On post-op day 7, a normally healing wound would be in which phase?",
+     "options": [
+      "Hemostasis (immediate)",
+      "Proliferative (days 3–14)",
+      "Inflammatory (days 1–2)",
+      "Remodeling (weeks to 2 years)"
+     ],
+     "answer": "B",
+     "rationale": "Proliferative phase, days 3–14: fibroblasts laying down collagen, granulation tissue, angiogenesis, wound contraction.",
+     "src": "slide 88"
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "title": "Scenario 10 — Rapid rounds",
+   "setting": "Quick encounters across the unit",
+   "text": "Each item is a separate patient. Decide quickly, then check your reasoning against the slide in the key.",
+   "questions": [
+    {
+     "id": "c10-q01",
+     "type": "mc",
+     "stem": "A 30-year-old's biopsy shows cervical cells varying in size and shape with disordered layers. The nurse anticipates the report will say:",
+     "options": [
+      "Dysplasia",
+      "Hypertrophy",
+      "Metaplasia",
+      "Atrophy"
+     ],
+     "answer": "A",
+     "rationale": "Variable size, shape and organization = dysplasia, common in the cervix; it can lead to neoplasm.",
+     "src": "slide 11"
+    },
+    {
+     "id": "c10-q02",
+     "type": "mc",
+     "stem": "A patient's wound is 3 weeks old and still not closing, with dense lymphocytes and macrophages on biopsy. This is:",
+     "options": [
+      "Hemostasis phase",
+      "Acute inflammation",
+      "Primary intention",
+      "Chronic inflammation"
+     ],
+     "answer": "D",
+     "rationale": "More than 2 weeks, with lymphocyte and macrophage infiltration and incomplete healing, is chronic inflammation.",
+     "src": "slide 82"
+    },
+    {
+     "id": "c10-q03",
+     "type": "mc",
+     "stem": "A patient with an allergic reaction has hives and flushing within minutes. Which mediator was released first?",
+     "options": [
+      "Fibrinogen",
+      "Leukotrienes from neutrophils",
+      "Histamine from mast cells",
+      "TGF-β"
+     ],
+     "answer": "C",
+     "rationale": "Mast-cell degranulation of histamine is very quick — dilation and permeability. Leukotrienes are made later and act longer.",
+     "src": "slide 70 + 00:57:43"
+    },
+    {
+     "id": "c10-q04",
+     "type": "mc",
+     "stem": "A patient on long-term steroids asks how they reduce inflammation. Using the arachidonic acid pathway, corticosteroids act:",
+     "options": [
+      "Early, at membrane phospholipids — before arachidonic acid is made",
+      "By activating complement",
+      "By increasing histamine",
+      "Only on cyclooxygenase, like aspirin"
+     ],
+     "answer": "A",
+     "rationale": "Slide 67: corticosteroids block the step from membrane phospholipids to arachidonic acid; aspirin and NSAIDs block cyclooxygenase further down.",
+     "src": "slide 67"
+    },
+    {
+     "id": "c10-q05",
+     "type": "mc",
+     "stem": "A burn patient's wound shows new capillaries and red, bumpy tissue on day 8. This tissue is:",
+     "options": [
+      "Keloid",
+      "Caseous necrosis",
+      "Granulation tissue (proliferative phase)",
+      "Fibrinous exudate"
+     ],
+     "answer": "C",
+     "rationale": "Granulation tissue — new capillaries, very red — fills the wound in the proliferative phase (days 3–14).",
+     "src": "slide 88"
+    },
+    {
+     "id": "c10-q06",
+     "type": "mc",
+     "stem": "A 1-year-old surgical scar looks paler and flatter than it did at 3 months. Which phase explains this?",
+     "options": [
+      "Proliferative",
+      "Remodeling",
+      "Hemostasis",
+      "Inflammatory"
+     ],
+     "answer": "B",
+     "rationale": "Remodeling runs several weeks to 2 years — the scar reorganizes and \"after a few months, it's completely gone\" in appearance.",
+     "src": "slide 89 + 01:16:35"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "Five cellular adaptations",
+   "back": "Atrophy · hypertrophy · hyperplasia · metaplasia · dysplasia",
+   "tag": "adaptation",
+   "src": "slide 4"
+  },
+  {
+   "id": "fc-002",
+   "front": "Atrophy",
+   "back": "Shrinkage in cell SIZE (not number); whole organ can shrink; less ER, fewer mitochondria",
+   "tag": "adaptation",
+   "src": "slide 6"
+  },
+  {
+   "id": "fc-003",
+   "front": "Causes of atrophy",
+   "back": "Disuse · denervation · loss of endocrine stimulation · inadequate nutrition · ischemia · aging",
+   "tag": "adaptation",
+   "src": "slide 6"
+  },
+  {
+   "id": "fc-004",
+   "front": "Hypertrophy",
+   "back": "Increase in cell SIZE (not number); heart and kidney especially prone",
+   "tag": "adaptation",
+   "src": "slide 7"
+  },
+  {
+   "id": "fc-005",
+   "front": "Physiologic vs pathologic hypertrophy",
+   "back": "Physiologic: skeletal muscle with exercise · Pathologic: cardiac hypertrophy from HTN",
+   "tag": "adaptation",
+   "src": "slide 7 + 00:05:46"
+  },
+  {
+   "id": "fc-006",
+   "front": "Why is HTN cardiac hypertrophy bad?",
+   "back": "Wall gets so thick the ventricle can't fill — maladaptive",
+   "tag": "adaptation",
+   "src": "00:05:46"
+  },
+  {
+   "id": "fc-007",
+   "front": "Compensatory adaptation (kidney)",
+   "back": "One kidney removed (pathologic) → other kidney enlarges (physiologic)",
+   "tag": "adaptation",
+   "src": "slide 7 + 00:06:47"
+  },
+  {
+   "id": "fc-008",
+   "front": "Hyperplasia",
+   "back": "Increase in cell NUMBER (proliferation); can occur with hypertrophy",
+   "tag": "adaptation",
+   "src": "slide 9"
+  },
+  {
+   "id": "fc-009",
+   "front": "Physiologic hyperplasia example",
+   "back": "Hormonal — estrogen-dependent organs (breast, uterus)",
+   "tag": "adaptation",
+   "src": "slide 9"
+  },
+  {
+   "id": "fc-010",
+   "front": "Pathologic hyperplasia examples",
+   "back": "Excess hormones/growth factors (endometrium) · viral — warts",
+   "tag": "adaptation",
+   "src": "slide 9 + 00:09:50"
+  },
+  {
+   "id": "fc-011",
+   "front": "Compensatory hyperplasia (liver)",
+   "back": "Remove 70% of the liver → regenerates in ~2 weeks",
+   "tag": "adaptation",
+   "src": "slide 9"
+  },
+  {
+   "id": "fc-012",
+   "front": "Which cells can't do hyperplasia?",
+   "back": "Cells that don't divide — cardiac muscle, neurons",
+   "tag": "adaptation",
+   "src": "slide 9 + 00:10:21"
+  },
+  {
+   "id": "fc-013",
+   "front": "Metaplasia",
+   "back": "Reversible replacement of one mature cell type by another (often less differentiated)",
+   "tag": "adaptation",
+   "src": "slide 10"
+  },
+  {
+   "id": "fc-014",
+   "front": "Classic metaplasia example",
+   "back": "Smoker's trachea: ciliated columnar → squamous epithelium",
+   "tag": "adaptation",
+   "src": "slide 10 + 00:11:54"
+  },
+  {
+   "id": "fc-015",
+   "front": "Why is smoker's metaplasia maladaptive?",
+   "back": "Cells drop cilia to avoid the irritants, so nothing is caught anymore; gene switching → cancer risk",
+   "tag": "adaptation",
+   "src": "00:12:54–00:13:24"
+  },
+  {
+   "id": "fc-016",
+   "front": "Dysplasia",
+   "back": "Deranged growth — cells vary in size, shape, organization; \"atypical hyperplasia\"; not truly adaptive",
+   "tag": "adaptation",
+   "src": "slide 11"
+  },
+  {
+   "id": "fc-017",
+   "front": "Where is dysplasia common?",
+   "back": "Cervix and respiratory tract; can lead to cancer",
+   "tag": "adaptation",
+   "src": "slide 11"
+  },
+  {
+   "id": "fc-018",
+   "front": "Most common cause of cell injury",
+   "back": "Hypoxia",
+   "tag": "injury",
+   "src": "slide 24"
+  },
+  {
+   "id": "fc-019",
+   "front": "Most common cause of hypoxia",
+   "back": "Ischemia (decreased blood flow)",
+   "tag": "injury",
+   "src": "slide 26"
+  },
+  {
+   "id": "fc-020",
+   "front": "Hypoxic cell response",
+   "back": "ATP ↓ → Na⁺/K⁺ pump & Na⁺/Ca²⁺ exchange fail → cellular swelling, vacuolation",
+   "tag": "injury",
+   "src": "slide 25"
+  },
+  {
+   "id": "fc-021",
+   "front": "Free radical",
+   "back": "Uncharged atom/group with an unpaired electron (e.g., ROS); controlled by antioxidants",
+   "tag": "injury",
+   "src": "slide 21"
+  },
+  {
+   "id": "fc-022",
+   "front": "Free radical damage",
+   "back": "Lipid peroxidation · protein alteration · DNA alteration · mitochondria",
+   "tag": "injury",
+   "src": "slide 23"
+  },
+  {
+   "id": "fc-023",
+   "front": "Ischemia-reperfusion injury",
+   "back": "More injury when flow returns: oxidative stress, ↑ intracellular Ca²⁺, inflammation, complement",
+   "tag": "injury",
+   "src": "slide 26 + 00:24:21"
+  },
+  {
+   "id": "fc-024",
+   "front": "Calcium in cell injury",
+   "back": "Cells keep cytosolic Ca²⁺ low; excess turns on enzymes that damage the cell",
+   "tag": "injury",
+   "src": "slide 27"
+  },
+  {
+   "id": "fc-025",
+   "front": "Causes of cell injury (list)",
+   "back": "Physical · radiation · chemical · biologic · nutritional · free radicals · hypoxia · impaired Ca²⁺ homeostasis",
+   "tag": "injury",
+   "src": "slide 15"
+  },
+  {
+   "id": "fc-026",
+   "front": "Dystrophic vs metastatic calcification",
+   "back": "Dystrophic: Ca salts in INJURED tissue · Metastatic: in NORMAL tissue from hypercalcemia",
+   "tag": "injury",
+   "src": "slide 29"
+  },
+  {
+   "id": "fc-027",
+   "front": "Intracellular accumulation examples",
+   "back": "Fatty liver (alcohol) · Tay-Sachs (lipids) · tattoos (exogenous)",
+   "tag": "injury",
+   "src": "slide 28"
+  },
+  {
+   "id": "fc-028",
+   "front": "Necrosis vs apoptosis: inflammation",
+   "back": "Necrosis: frequent adjacent inflammation · Apoptosis: none",
+   "tag": "cell-death",
+   "src": "slide 33"
+  },
+  {
+   "id": "fc-029",
+   "front": "Necrosis vs apoptosis: cell size",
+   "back": "Necrosis: enlarged (swelling) · Apoptosis: reduced",
+   "tag": "cell-death",
+   "src": "slide 33"
+  },
+  {
+   "id": "fc-030",
+   "front": "Apoptosis",
+   "back": "Programmed cell death; often physiologic; contents kept in apoptotic bodies",
+   "tag": "cell-death",
+   "src": "slides 32–33"
+  },
+  {
+   "id": "fc-031",
+   "front": "Coagulative necrosis",
+   "back": "Kidney, heart, adrenals; hypoxia/ischemia; firm, opaque",
+   "tag": "cell-death",
+   "src": "slide 35"
+  },
+  {
+   "id": "fc-032",
+   "front": "Liquefactive necrosis",
+   "back": "Neurons/glia; bacterial infection; enzymes digest tissue (pus)",
+   "tag": "cell-death",
+   "src": "slide 35"
+  },
+  {
+   "id": "fc-033",
+   "front": "Caseous necrosis",
+   "back": "Tuberculosis; cheese-like clumps walled off by a granuloma",
+   "tag": "cell-death",
+   "src": "slide 35"
+  },
+  {
+   "id": "fc-034",
+   "front": "Fat necrosis",
+   "back": "Breast, pancreas; lipases → soap (saponification)",
+   "tag": "cell-death",
+   "src": "slide 35"
+  },
+  {
+   "id": "fc-035",
+   "front": "Dry vs wet gangrene",
+   "back": "Dry: ischemia → coagulative, dry & black · Wet: + infection → liquefactive, cold, wet, pulseless",
+   "tag": "cell-death",
+   "src": "slide 36"
+  },
+  {
+   "id": "fc-036",
+   "front": "Gas gangrene",
+   "back": "Clostridium myonecrosis; gas bubbles → crepitus",
+   "tag": "cell-death",
+   "src": "slide 36"
+  },
+  {
+   "id": "fc-037",
+   "front": "Replicative senescence",
+   "back": "Telomeres become too short → the cell can no longer divide",
+   "tag": "cell-death",
+   "src": "slide 38"
+  },
+  {
+   "id": "fc-038",
+   "front": "Normal WBC (lecture)",
+   "back": "5,000–9,000/mm³",
+   "tag": "values",
+   "src": "slide 30"
+  },
+  {
+   "id": "fc-039",
+   "front": "Leukocytosis in acute inflammation",
+   "back": "> 10,000; absolute neutrophil count (ANC) is better",
+   "tag": "values",
+   "src": "slide 81"
+  },
+  {
+   "id": "fc-040",
+   "front": "Acute vs chronic inflammation",
+   "back": "Acute < 2 weeks · chronic > 2 weeks",
+   "tag": "values",
+   "src": "slides 80, 82 + 01:06:57"
+  },
+  {
+   "id": "fc-041",
+   "front": "Enzymes released by injured cells",
+   "back": "LDH · CK · AST · ALT · ALP · amylase",
+   "tag": "values",
+   "src": "slide 30"
+  },
+  {
+   "id": "fc-042",
+   "front": "CK comes from…",
+   "back": "Skeletal muscle, brain, heart",
+   "tag": "values",
+   "src": "slide 30"
+  },
+  {
+   "id": "fc-043",
+   "front": "Three lines of defense",
+   "back": "1st innate barriers · 2nd inflammation · 3rd adaptive immunity",
+   "tag": "inflammation",
+   "src": "slide 41 + 00:27:13"
+  },
+  {
+   "id": "fc-044",
+   "front": "Cardinal signs of inflammation",
+   "back": "Redness, heat, swelling, pain, loss of function",
+   "tag": "inflammation",
+   "src": "slide 45"
+  },
+  {
+   "id": "fc-045",
+   "front": "Why is inflammation \"nonspecific\"?",
+   "back": "Same response no matter the injury — cells don't know the cause, so they go all out",
+   "tag": "inflammation",
+   "src": "slide 45 + 00:29:32"
+  },
+  {
+   "id": "fc-046",
+   "front": "Snake bite vs sprained ankle",
+   "back": "Inflammation matters most for the snake bite (survival); for a sprain it's overkill",
+   "tag": "inflammation",
+   "src": "00:31:00"
+  },
+  {
+   "id": "fc-047",
+   "front": "Vascular response of inflammation",
+   "back": "Vasodilation (slower velocity, more flow) → ↑ permeability → exudate & edema",
+   "tag": "inflammation",
+   "src": "slide 47 + 00:33:50"
+  },
+  {
+   "id": "fc-048",
+   "front": "Inflammatory timeline",
+   "back": "Vascular response → leukocyte adhesion & migration (chemotaxis) → activation, phagocytosis",
+   "tag": "inflammation",
+   "src": "slides 47–49 + 00:40:43"
+  },
+  {
+   "id": "fc-049",
+   "front": "Chemotaxis",
+   "back": "Leukocytes migrating toward the injury under chemical signals",
+   "tag": "inflammation",
+   "src": "slide 51"
+  },
+  {
+   "id": "fc-050",
+   "front": "First responder phagocytes",
+   "back": "Neutrophils — short-lived, become pus",
+   "tag": "leukocytes",
+   "src": "slide 53"
+  },
+  {
+   "id": "fc-051",
+   "front": "Macrophages",
+   "back": "From monocytes, arrive ~24 h, replace neutrophils, live longer, orchestrate wound healing",
+   "tag": "leukocytes",
+   "src": "slide 53"
+  },
+  {
+   "id": "fc-052",
+   "front": "Granulocytes",
+   "back": "Neutrophils, eosinophils, basophils, mast cells — \"degranulate\" = secrete",
+   "tag": "leukocytes",
+   "src": "slide 50 + 00:37:20"
+  },
+  {
+   "id": "fc-053",
+   "front": "Eosinophils",
+   "back": "Mildly phagocytic; defense against parasites; help control mast-cell mediators",
+   "tag": "leukocytes",
+   "src": "slide 54"
+  },
+  {
+   "id": "fc-054",
+   "front": "Dendritic cells",
+   "back": "Link innate and adaptive immunity through T lymphocytes",
+   "tag": "leukocytes",
+   "src": "slide 54"
+  },
+  {
+   "id": "fc-055",
+   "front": "Most important cellular activator of inflammation",
+   "back": "Mast cell (sentinel near vessels)",
+   "tag": "leukocytes",
+   "src": "slide 69"
+  },
+  {
+   "id": "fc-056",
+   "front": "Plasma-derived mediators",
+   "back": "Complement, clotting, kinin — made by the liver, circulate inactive, activated at injury",
+   "tag": "mediators",
+   "src": "slides 57–58 + 00:44:03"
+  },
+  {
+   "id": "fc-057",
+   "front": "Proenzymes",
+   "back": "Inactive enzymes; each activated one activates the next (cascade)",
+   "tag": "mediators",
+   "src": "slide 58"
+  },
+  {
+   "id": "fc-058",
+   "front": "Complement \"big boys\"",
+   "back": "C3 and C5",
+   "tag": "mediators",
+   "src": "slide 59 + 00:46:10"
+  },
+  {
+   "id": "fc-059",
+   "front": "Opsonization",
+   "back": "Complement marks bacteria for phagocytosis",
+   "tag": "mediators",
+   "src": "slide 60 + 00:47:18"
+  },
+  {
+   "id": "fc-060",
+   "front": "Actions of complement",
+   "back": "Opsonization · anaphylatoxic · chemotaxis · cell lysis",
+   "tag": "mediators",
+   "src": "slide 60"
+  },
+  {
+   "id": "fc-061",
+   "front": "Clotting system: know this",
+   "back": "Fibrinogen (circulating) → fibrin (clot)",
+   "tag": "mediators",
+   "src": "slide 61 + 00:49:27"
+  },
+  {
+   "id": "fc-062",
+   "front": "Kinin system's main product",
+   "back": "Bradykinin — vasodilation, pain, permeability",
+   "tag": "mediators",
+   "src": "slide 62"
+  },
+  {
+   "id": "fc-063",
+   "front": "Cirrhosis & plasma mediators",
+   "back": "Liver makes less complement/clotting/kinin → more infections",
+   "tag": "mediators",
+   "src": "00:51:07"
+  },
+  {
+   "id": "fc-064",
+   "front": "Arachidonic acid pathway blockers",
+   "back": "Corticosteroids (phospholipids → AA) · aspirin/NSAIDs (cyclooxygenase)",
+   "tag": "mediators",
+   "src": "slide 67 + 00:56:01"
+  },
+  {
+   "id": "fc-065",
+   "front": "COX pathway products",
+   "back": "Prostaglandins and thromboxane",
+   "tag": "mediators",
+   "src": "slide 67"
+  },
+  {
+   "id": "fc-066",
+   "front": "Lipoxygenase pathway product",
+   "back": "Leukotrienes",
+   "tag": "mediators",
+   "src": "slide 67"
+  },
+  {
+   "id": "fc-067",
+   "front": "Histamine",
+   "back": "From mast cells/basophils; fast; dilates venules, ↑ permeability (allergy)",
+   "tag": "mediators",
+   "src": "slide 70 + 00:57:43"
+  },
+  {
+   "id": "fc-068",
+   "front": "Prostaglandins",
+   "back": "↑ permeability, chemotaxis, stimulate pain nerve endings",
+   "tag": "mediators",
+   "src": "slide 70"
+  },
+  {
+   "id": "fc-069",
+   "front": "Platelets",
+   "back": "Megakaryocyte fragments; clot, release serotonin and growth factors",
+   "tag": "mediators",
+   "src": "slide 68"
+  },
+  {
+   "id": "fc-070",
+   "front": "IL-1",
+   "back": "From macrophages; activates immune cells; endogenous pyrogen (fever)",
+   "tag": "cytokines",
+   "src": "slide 75 + 00:59:53"
+  },
+  {
+   "id": "fc-071",
+   "front": "IL-6",
+   "back": "From macrophages, lymphocytes, fibroblasts, muscle; liver makes acute-phase reactants",
+   "tag": "cytokines",
+   "src": "slide 75"
+  },
+  {
+   "id": "fc-072",
+   "front": "TNF-α",
+   "back": "Highly inflammatory; fever, muscle wasting; too much → septic shock",
+   "tag": "cytokines",
+   "src": "slide 76 + 01:00:55"
+  },
+  {
+   "id": "fc-073",
+   "front": "Sickness behavior cytokines",
+   "back": "IL-1, IL-6, TNF-α",
+   "tag": "cytokines",
+   "src": "slide 76 + 01:01:28"
+  },
+  {
+   "id": "fc-074",
+   "front": "Anti-inflammatory cytokines",
+   "back": "IL-10 and TGF-β",
+   "tag": "cytokines",
+   "src": "slide 77"
+  },
+  {
+   "id": "fc-075",
+   "front": "Interferons",
+   "back": "Protect against viral infection",
+   "tag": "cytokines",
+   "src": "slide 76"
+  },
+  {
+   "id": "fc-076",
+   "front": "Exudate",
+   "back": "Cells and fluid that have seeped out of vessels",
+   "tag": "acute-chronic",
+   "src": "slide 80"
+  },
+  {
+   "id": "fc-077",
+   "front": "Serous vs purulent exudate",
+   "back": "Serous: watery, few proteins/WBCs · Purulent: pus, many WBCs",
+   "tag": "acute-chronic",
+   "src": "slide 80"
+  },
+  {
+   "id": "fc-078",
+   "front": "Fibrinous exudate",
+   "back": "Severe/advanced inflammation — thick, fibrin",
+   "tag": "acute-chronic",
+   "src": "slide 80"
+  },
+  {
+   "id": "fc-079",
+   "front": "Acute-phase reactants",
+   "back": "Liver proteins in inflammation: CRP, complement, fibrinogen; ESR rises",
+   "tag": "acute-chronic",
+   "src": "slide 81"
+  },
+  {
+   "id": "fc-080",
+   "front": "Chronic inflammation",
+   "back": "> 2 weeks; lymphocytes & macrophages; granuloma; TB classic",
+   "tag": "acute-chronic",
+   "src": "slide 82"
+  },
+  {
+   "id": "fc-081",
+   "front": "Phases of cutaneous wound healing",
+   "back": "Hemostasis (immediate) → inflammatory (1–2 d) → proliferative (3–14 d) → remodeling (weeks–2 yr)",
+   "tag": "wound-healing",
+   "src": "slides 86–89"
+  },
+  {
+   "id": "fc-082",
+   "front": "Proliferative phase",
+   "back": "Days 3–14: fibroblasts (collagen), granulation tissue, angiogenesis, epithelialization, myofibroblasts",
+   "tag": "wound-healing",
+   "src": "slide 88"
+  },
+  {
+   "id": "fc-083",
+   "front": "Primary vs secondary intention",
+   "back": "Primary: minimal tissue loss, faster · Secondary: open wound, slower, more scar & infection",
+   "tag": "wound-healing",
+   "src": "slide 85"
+  },
+  {
+   "id": "fc-084",
+   "front": "Strength of repaired tissue",
+   "back": "About 80% of original tensile strength",
+   "tag": "wound-healing",
+   "src": "slide 85"
+  },
+  {
+   "id": "fc-085",
+   "front": "Keloid",
+   "back": "Excess scar from remodeling gone awry",
+   "tag": "wound-healing",
+   "src": "slide 89 + 01:17:06"
+  },
+  {
+   "id": "fc-086",
+   "front": "Dehiscence",
+   "back": "Wound separation; highest risk days 5–12; obesity, abdominal wounds",
+   "tag": "wound-healing",
+   "src": "slide 92"
+  },
+  {
+   "id": "fc-087",
+   "front": "Contracture",
+   "back": "Excessive wound contraction — problem over joints",
+   "tag": "wound-healing",
+   "src": "slide 92"
+  },
+  {
+   "id": "fc-088",
+   "front": "Nutrients for wound healing",
+   "back": "Protein, vitamins A & C, zinc, iron, manganese, copper",
+   "tag": "wound-healing",
+   "src": "slide 91"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "Name the biggest stressor you can put on yourself that actually improves your life?",
+   "a": "<b>Exercise</b> — a small stressor the cells adapt to. \"What doesn't kill them makes them stronger.\"",
+   "src": "00:00:35"
+  },
+  {
+   "id": "qa-002",
+   "q": "When you think about adaptation, do you think of it as good or bad?",
+   "a": "Generally <b>good</b> — but cells \"aren't smart or dumb, they're just reacting,\" so some adaptations are pathologic (maladaptation).",
+   "src": "00:02:07–00:03:10"
+  },
+  {
+   "id": "qa-003",
+   "q": "Can anybody give me an example of a physiologic adaptation?",
+   "a": "The class answer wasn't audible. He contrasted normal, needed changes with pathologic ones like muscle loss in starvation. (from slides 6–9: exercise hypertrophy, hormonal hyperplasia)",
+   "src": "00:02:40–00:03:41"
+  },
+  {
+   "id": "qa-004",
+   "q": "Why is this [hypertrophied heart] a bad thing?",
+   "a": "The wall gets so thick <b>the ventricle can't fill</b>. Caused by hypertension — the heart adapts to beating against high pressure and makes things worse.",
+   "src": "00:05:46"
+  },
+  {
+   "id": "qa-005",
+   "q": "Metaplasia — in what situation does this happen?",
+   "a": "<b>Smoking</b> — chronic irritation of the airway.",
+   "src": "00:11:54"
+  },
+  {
+   "id": "qa-006",
+   "q": "Why are they getting rid of their cilia?",
+   "a": "The cilia grab everything that's inhaled; for a smoker that's toxic and injures the cells, so they drop the cilia to stop catching it.",
+   "src": "00:12:24"
+  },
+  {
+   "id": "qa-007",
+   "q": "Is that adaptation or maladaptation for your body?",
+   "a": "<b>Maladaptation</b> — now nothing is being caught, even on a smoky day.",
+   "src": "00:12:54"
+  },
+  {
+   "id": "qa-008",
+   "q": "What needs to happen inside the cell for ciliated cells to turn into non-ciliated cells?",
+   "a": "Genes are <b>up- and down-regulated</b>. Overdo it and you can get cancer — same idea with HPV/warts turning DNA segments on and off.",
+   "src": "00:13:24–00:14:25"
+  },
+  {
+   "id": "qa-009",
+   "q": "(Kahoot) Name that atrophy — a hand that can't move after losing its nerve supply.",
+   "a": "<b>Denervation</b>.",
+   "src": "00:17:50–00:18:31"
+  },
+  {
+   "id": "qa-010",
+   "q": "(Kahoot) Name that atrophy — a leg just out of a cast.",
+   "a": "<b>Disuse</b>.",
+   "src": "00:19:05"
+  },
+  {
+   "id": "qa-011",
+   "q": "(Kahoot) Name that atrophy — menopause.",
+   "a": "<b>Loss of endocrine stimulation</b>.",
+   "src": "00:19:38"
+  },
+  {
+   "id": "qa-012",
+   "q": "(Kahoot) Name that atrophy — a shrunken brain and kidney.",
+   "a": "<b>Ischemia</b> — both are heavily vascularized and prone to vascular events (e.g., stroke).",
+   "src": "00:20:13–00:20:45"
+  },
+  {
+   "id": "qa-013",
+   "q": "(Kahoot) What adaptation does this image show?",
+   "a": "<b>Dysplasia</b> — he chose it because the cells \"didn't look like the functional cells\" (hyperplasia was also argued).",
+   "src": "00:21:27"
+  },
+  {
+   "id": "qa-014",
+   "q": "Is inflammation a good thing or a bad thing?",
+   "a": "Generally <b>good</b>.",
+   "src": "00:30:27"
+  },
+  {
+   "id": "qa-015",
+   "q": "When you sprain your ankle, why do they tell you to reduce the inflammation if it's good?",
+   "a": "Because it's <b>nonspecific</b> — the full response is more than a sprain needs, and limiting it can speed healing.",
+   "src": "00:30:27–00:32:36"
+  },
+  {
+   "id": "qa-016",
+   "q": "Sprained ankle vs a venomous snake bite, 50,000 years ago — whose inflammation is most important?",
+   "a": "The <b>snake bite</b> — without inflammation that person might die. The sprain won't kill you; inflammation just makes the next weeks worse.",
+   "src": "00:31:00"
+  },
+  {
+   "id": "qa-017",
+   "q": "Sprained ankle, no bleeding — what's the next step after hemostasis?",
+   "a": "<b>Vasodilation</b> — vessels get bigger; flow slows but more blood reaches the area, bringing what fights the injury.",
+   "src": "00:33:50"
+  },
+  {
+   "id": "qa-018",
+   "q": "In a sprained ankle, is there any risk of bacteria?",
+   "a": "Not like a snake bite with venom — but immune cells still move in to clear dead cells and debris.",
+   "src": "00:35:04"
+  },
+  {
+   "id": "qa-019",
+   "q": "(Kahoot) What is the correct timeline of inflammatory events?",
+   "a": "<b>Vascular response</b> (vasodilation, permeability) → <b>leukocyte adhesion &amp; migration</b> → <b>activation &amp; phagocytosis</b>. The cells have to leave the bloodstream to reach the damaged tissue.",
+   "src": "00:40:43–00:42:46"
+  },
+  {
+   "id": "qa-020",
+   "q": "If plasma-derived mediators are always floating in our blood, are we always in an inflammatory state?",
+   "a": "<b>No</b> — they circulate <b>inactive</b> (proenzymes) and are activated only at the injury site.",
+   "src": "00:44:03–00:44:33"
+  },
+  {
+   "id": "qa-021",
+   "q": "What process do [complement] help with in phagocytosis?",
+   "a": "<b>Opsonization</b> — marking the bacteria so phagocytes can eat them.",
+   "src": "00:47:18"
+  },
+  {
+   "id": "qa-022",
+   "q": "A patient with a cirrhotic liver — what would you expect to see in these [plasma-derived] systems?",
+   "a": "A <b>decrease</b> — the liver makes them — so less complement and an <b>increased infection rate</b>.",
+   "src": "00:51:07–00:51:38"
+  },
+  {
+   "id": "qa-023",
+   "q": "Anybody tell me the drug you take that decreases arachidonic acid [metabolites]?",
+   "a": "<b>NSAIDs, aspirin</b>. His hangover example: alcohol triggers a mini inflammatory response and headache; the pill in the morning helps.",
+   "src": "00:56:01"
+  },
+  {
+   "id": "qa-024",
+   "q": "Mast cells release histamine — what does that cause?",
+   "a": "<b>Allergy</b> symptoms (more next week).",
+   "src": "00:57:43"
+  },
+  {
+   "id": "qa-025",
+   "q": "What's one of the problems of having too much TNF-α?",
+   "a": "<b>Vasodilation → septic shock</b>.",
+   "src": "01:00:55–01:01:28"
+  },
+  {
+   "id": "qa-026",
+   "q": "(Kahoot) Which of these are plasma-derived mediators?",
+   "a": "<b>Complement, clotting, kinin</b> (from the liver).",
+   "src": "01:03:38"
+  },
+  {
+   "id": "qa-027",
+   "q": "(Kahoot) What is the role of plasma-derived mediators?",
+   "a": "They're always circulating, waiting for an inflammatory response, and <b>increase the inflammatory response</b> once activated.",
+   "src": "01:04:29"
+  },
+  {
+   "id": "qa-028",
+   "q": "(Kahoot) How does complement participate in inflammation?",
+   "a": "<b>Opsonization</b>, <b>chemotaxis</b>, <b>lysis</b> of bacteria (and anaphylatoxic activity).",
+   "src": "01:04:29"
+  },
+  {
+   "id": "qa-029",
+   "q": "(Kahoot) Which three cytokines are responsible for sickness behavior?",
+   "a": "<b>IL-1, IL-6, TNF-α</b>.",
+   "src": "01:06:08"
+  },
+  {
+   "id": "qa-030",
+   "q": "What are the systemic manifestations of acute inflammation?",
+   "a": "With a big or long injury (a car accident, not a sprain): <b>fever</b>, <b>sickness behavior</b>/lethargy, more immune cells (<b>leukocytosis</b>), <b>acute-phase proteins</b> like CRP, and a raised <b>ESR</b>.",
+   "src": "01:09:00–01:10:36"
+  },
+  {
+   "id": "qa-031",
+   "q": "(student asked) What about autoimmune disease?",
+   "a": "Autoimmunity causes cell injury, and that injury triggers inflammation — many treatments for autoimmunity and inflammation overlap (next week).",
+   "src": "01:12:21"
+  },
+  {
+   "id": "qa-032",
+   "q": "Why do we make smaller incisions — what's it called?",
+   "a": "<b>Laparoscopic surgery</b> — the smaller the incisions, the fewer the complications (like dehiscence).",
+   "src": "01:18:39–01:19:11"
+  },
+  {
+   "id": "qa-033",
+   "q": "(Kahoot) Fibroblasts divide during which phase of wound healing?",
+   "a": "The <b>proliferative</b> phase.",
+   "src": "01:19:48"
+  },
+  {
+   "id": "qa-034",
+   "q": "(Kahoot) Put the phases of repair in order.",
+   "a": "Hemostasis, angiogenesis &amp; granulation tissue → fibroblasts &amp; extracellular matrix → maturation/<b>remodeling</b>.",
+   "src": "01:20:22"
+  },
+  {
+   "id": "qa-035",
+   "q": "(Kahoot) Are sutures only for secondary intention?",
+   "a": "The answer wasn't clear in the recording. (from slide 85: primary intention = minimal tissue loss, edges close; sutures pull a wide wound together so it can heal that way.)",
+   "src": "01:20:22"
+  }
+ ]
+}
