@@ -7,3 +7,4 @@ sources/
 *.pages
 *.key
 public/lectures/index.json
+.env

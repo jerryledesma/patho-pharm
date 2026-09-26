@@ -31,6 +31,50 @@ async function loadLecture(id){
 }
 async function loadPart(id,part,file){ const c=cache.get(id); if(c[part]==null) c[part]=await getText(`lectures/${id}/${file}`); return c[part]; }
 
+// ---------- progress sync (local-first; see netlify/functions/progress.mjs) ----------
+const Sync = (() => {
+  const recs = new Map();                        // lectureId -> record
+  const empty = () => ({ v:1, items:{}, sessions:{} });
+  const lsGet = k => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } };
+  const lsSet = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+  const LK = id => 'pp:progress:'+id, DK = 'pp:dirty';
+  let dirty = lsGet(DK) || {};                   // lectureId -> partial record not yet on the server
+  let timer = null, delay = 0;
+  function merge(a,b){ const o=empty(); for(const part of ['items','sessions']){ const A=a?.[part]||{}, B=b?.[part]||{}; for(const k of new Set([...Object.keys(A),...Object.keys(B)])){ const x=A[k], y=B[k]; o[part][k]=!x?y:!y?x:(y.t||0)>(x.t||0)?y:x; } } return o; }
+  function status(pending){ const e=$('#sync'); if(e) e.hidden=!pending; }
+  function rec(id){ if(!recs.has(id)) recs.set(id, merge(lsGet(LK(id)), dirty[id])); return recs.get(id); }
+  async function pull(id){
+    try { const server=await getJSON('/api/progress/'+encodeURIComponent(id)); recs.set(id, merge(merge(server, rec(id)), dirty[id])); lsSet(LK(id), recs.get(id)); }
+    catch(e){ if(e.message==='auth') throw e; }
+    return rec(id);
+  }
+  async function pullAll(){
+    try { const all=await getJSON('/api/progress'); for(const [id,r] of Object.entries(all)){ recs.set(id, merge(merge(r, rec(id)), dirty[id])); lsSet(LK(id), recs.get(id)); } }
+    catch(e){ if(e.message==='auth') throw e; }
+  }
+  function put(id, part, key, val){
+    const v={...val, t:Date.now()}; const r=rec(id); r[part][key]=v; lsSet(LK(id), r);
+    (dirty[id] ||= empty())[part][key]=v; lsSet(DK, dirty); schedule(2000);
+  }
+  function schedule(ms){ clearTimeout(timer); timer=setTimeout(flush, ms); }
+  async function flush(keepalive=false){
+    for(const [id,part] of Object.entries(dirty)){
+      delete dirty[id];                          // in flight; new changes start a fresh partial
+      try{
+        const r=await fetch('/api/progress/'+encodeURIComponent(id),{method:'PUT',credentials:'same-origin',keepalive,headers:{'content-type':'application/json'},body:JSON.stringify(part)});
+        if(!r.ok) throw new Error('sync '+r.status);
+        const merged=await r.json(); recs.set(id, merge(merged, rec(id)));
+        lsSet(LK(id), recs.get(id));
+      }catch(e){ dirty[id]=merge(part, dirty[id]); lsSet(DK, dirty); status(true); delay=Math.min(60000, (delay||2500)*2); return schedule(delay); }
+    }
+    lsSet(DK, dirty); delay=0; status(Object.keys(dirty).length>0);
+  }
+  window.addEventListener('online', ()=>flush());
+  document.addEventListener('visibilitychange', ()=>{ if(document.visibilityState==='hidden' && Object.keys(dirty).length) flush(true); });
+  if(Object.keys(dirty).length){ status(true); schedule(500); }
+  return { rec, pull, pullAll, put, item:(id,k)=>rec(id).items[k], session:(id,k)=>{ const s=rec(id).sessions[k]; return s&&!s.fin?s:null; } };
+})();
+
 function loading(){ $('main').innerHTML=''; $('main').append(el('section',{class:'page'}, el('p',{class:'lead center',html:'opening the notebook…'}))); }
 function failed(retry){
   const m=$('main'); m.innerHTML='';
@@ -45,9 +89,9 @@ const go = h => { if(location.hash===h) route(); else location.hash=h; };
 async function route(){
   const [id,tab]=location.hash.replace(/^#\/?/,'').split('/');
   try{
-    if(!id){ L=null; loading(); await loadIndex(); return home(); }
+    if(!id){ L=null; loading(); await Promise.all([loadIndex(), Sync.pullAll()]); return home(); }
     const t=TABS.some(([k])=>k===tab)?tab:'notes';
-    if(!L||L.id!==id){ loading(); L=await loadLecture(id); }
+    if(!L||L.id!==id){ loading(); [L]=await Promise.all([loadLecture(id), Sync.pull(id)]); }
     $('#lec').textContent=`${L.num} · ${L.title}`;
     $('#tabs').classList.remove('hidden');
     document.querySelectorAll('#tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===t));
@@ -70,6 +114,8 @@ function home(){
   INDEX.lectures.forEach(l=>{
     const b=el('button',{class:'lecture-card',onclick:()=>go(`#/${l.id}/notes`)});
     b.append(el('div',{class:'t',html:`${l.num} · ${l.title}`}), el('div',{class:'m',html:`${fmtDate(l.date)} · ${l.instructor} · ${l.questions} questions · ${l.cards} cards`}));
+    const qs=Object.entries(Sync.rec(l.id).items).filter(([k])=>!k.startsWith('fc-'));
+    if(qs.length){ const miss=qs.filter(([,v])=>v.last===0).length; b.append(el('div',{class:'m',html:`<b>${qs.length} / ${l.questions} answered</b> · ${miss ? miss+' to revisit' : 'nothing to revisit ✓'}`})); }
     pg.append(b);
   });
   m.append(pg);
@@ -80,9 +126,12 @@ async function notes(){ const h=await loadPart(L.id,'notes','notes.html'); $('ma
 
 // ---------- quiz engine ----------
 function parseAns(a){ return a.split(',').map(s=>s.trim()); }
-function runQuiz(items, opts){
+function runQuiz(items, opts, resume){
+  if(!items.length) return;
   const m=$('main'); m.innerHTML='';
-  let i=0, sel=[], answered=false, correct=0, missed=[];
+  let i=resume?.i||0, sel=[], answered=false, correct=resume?.correct||0, missed=resume?missed0(resume.missed):[];
+  function missed0(ids){ const set=new Set(ids); return items.filter(q=>set.has(q.id)); }
+  const save=()=>Sync.put(L.id,'sessions',opts.key,{ids:items.map(q=>q.id),i,correct,missed:missed.map(q=>q.id)});
   const wrap=el('div'); m.append(wrap);
   function render(){
     wrap.innerHTML='';
@@ -121,6 +170,9 @@ function runQuiz(items, opts){
         if(q.type==='order'){ const pos=ans.indexOf(l); b.querySelector('.n').textContent=`${sel.indexOf(l)+1} → should be ${pos+1}`; b.classList.add(sel.indexOf(l)===pos?'correct':'wrong'); }
         else if(ans.includes(l)) b.classList.add(sel.includes(l)?'correct':'missed'); else if(sel.includes(l)) b.classList.add('wrong'); });
       if(ok) correct++; else missed.push(q);
+      const prev=Sync.item(L.id,q.id)||{};
+      Sync.put(L.id,'items',q.id,{a:(prev.a||0)+1,c:(prev.c||0)+(ok?1:0),last:ok?1:0});
+      i++; save(); i--;
       const v=el('div',{class:'verdict '+(ok?'ok':'no'),role:'status',html:ok?'That\'s it.':'Not quite — answer: '+q.answer});
       card.append(v, el('div',{class:'rat',html:q.rationale}));
       const next=el('button',{class:'btn primary',html:i===items.length-1?'See score':'Next →',onclick:()=>{i++;render();}});
@@ -128,6 +180,7 @@ function runQuiz(items, opts){
     }
   }
   function finish(){
+    Sync.put(L.id,'sessions',opts.key,{fin:1});
     const s=el('div',{class:'qcard score'});
     s.append(el('div',{class:'big-n',html:`${correct} / ${items.length}`}), el('div',{class:'lead',html:correct===items.length?'clean sweep ✎':`${Math.round(correct/items.length*100)}% — ${missed.length} to revisit`}));
     const nav=el('div',{class:'qnav',style:'justify-content:center'});
@@ -137,13 +190,29 @@ function runQuiz(items, opts){
   }
   render();
 }
+function clinicalItems(){ const all=[]; L.clinical.forEach(s=>s.questions.forEach(q=>all.push({...q,scenario:s}))); return all; }
+function done(items){ const n=items.filter(q=>Sync.item(L.id,q.id)).length; return n?` · ${n} answered`:''; }
+// "Resume" cards for unfinished quiz sessions whose key starts with prefix.
+function resumeCards(pg, prefix, label, back){
+  const byId=new Map([...L.practice, ...clinicalItems()].map(q=>[q.id,q]));
+  for(const [key,s] of Object.entries(Sync.rec(L.id).sessions)){
+    if(s.fin || !key.startsWith(prefix+':')) continue;
+    const items=s.ids.map(x=>byId.get(x)).filter(Boolean);
+    if(!items.length || s.i>=items.length) continue;
+    pg.append(el('button',{class:'lecture-card',style:'background:var(--yel)',onclick:()=>runQuiz(items,{back,all:items,key},s)}, el('div',{class:'t',html:`Resume · ${label(key)||'quiz'}`}), el('div',{class:'m',html:`question ${s.i+1} of ${items.length} · ${s.correct} right so far`})));
+  }
+}
 function practice(){
   const m=$('main'); m.innerHTML='';
   const pg=el('section',{class:'page'});
   pg.append(el('h2',{class:'banner yel',html:'practice quiz'}));
   pg.append(el('p',{html:'One question at a time, immediate feedback with the rationale, then a score. Missed items can be retried on their own. Order is shuffled each run.'}));
+  const back=()=>practice();
   const tiers=[['all',`All ${L.practice.length}`], ...Object.entries(L.tiers).map(([t,name])=>[t,`Tier ${t} · ${name}`])];
-  tiers.forEach(([t,lab])=>{ const items=L.practice.filter(q=>t==='all'||q.tier===t); if(!items.length) return; pg.append(el('button',{class:'lecture-card',onclick:()=>runQuiz(shuffle(items),{back:()=>practice(),all:items})}, el('div',{class:'t',html:lab}), el('div',{class:'m',html:`${items.length} questions`}))); });
+  resumeCards(pg, 'practice', key=>key==='practice:missed'?'Missed last time':(tiers.find(([t])=>'practice:'+t===key)||[])[1], back);
+  const miss=L.practice.filter(q=>Sync.item(L.id,q.id)?.last===0);
+  if(miss.length) pg.append(el('button',{class:'lecture-card',onclick:()=>runQuiz(shuffle(miss),{back,all:miss,key:'practice:missed'})}, el('div',{class:'t',html:'Missed last time'}), el('div',{class:'m',html:`${miss.length} questions to revisit`})));
+  tiers.forEach(([t,lab])=>{ const items=L.practice.filter(q=>t==='all'||q.tier===t); if(!items.length) return; pg.append(el('button',{class:'lecture-card',onclick:()=>runQuiz(shuffle(items),{back,all:items,key:'practice:'+t})}, el('div',{class:'t',html:lab}), el('div',{class:'m',html:`${items.length} questions${done(items)}`}))); });
   m.append(pg);
 }
 function clinical(){
@@ -151,9 +220,13 @@ function clinical(){
   const pg=el('section',{class:'page'});
   pg.append(el('h2',{class:'banner pink',style:'background:var(--pink);color:var(--pink-d)',html:'clinical cases'}));
   pg.append(el('p',{html:'Unfolding hospital scenarios. Questions stay in order inside each scenario (the cases build). Includes select-all and priority-order items.'}));
-  const all=[]; L.clinical.forEach(s=>s.questions.forEach(q=>all.push({...q,scenario:s})));
-  pg.append(el('button',{class:'lecture-card',onclick:()=>runQuiz(all,{back:()=>clinical(),all})}, el('div',{class:'t',html:'All scenarios'}), el('div',{class:'m',html:`${all.length} questions · ${L.clinical.length} scenarios`})));
-  L.clinical.forEach(s=>{ const items=s.questions.map(q=>({...q,scenario:s})); pg.append(el('button',{class:'lecture-card',onclick:()=>runQuiz(items,{back:()=>clinical(),all:items})}, el('div',{class:'t',html:s.title}), el('div',{class:'m',html:`${s.setting} · ${items.length} questions`}))); });
+  const back=()=>clinical();
+  const all=clinicalItems();
+  resumeCards(pg, 'clinical', key=>key==='clinical:all'?'All scenarios':key==='clinical:missed'?'Missed last time':L.clinical.find(s=>'clinical:'+s.id===key)?.title, back);
+  const miss=all.filter(q=>Sync.item(L.id,q.id)?.last===0);
+  if(miss.length) pg.append(el('button',{class:'lecture-card',onclick:()=>runQuiz(miss,{back,all:miss,key:'clinical:missed'})}, el('div',{class:'t',html:'Missed last time'}), el('div',{class:'m',html:`${miss.length} questions to revisit`})));
+  pg.append(el('button',{class:'lecture-card',onclick:()=>runQuiz(all,{back,all,key:'clinical:all'})}, el('div',{class:'t',html:'All scenarios'}), el('div',{class:'m',html:`${all.length} questions · ${L.clinical.length} scenarios${done(all)}`})));
+  L.clinical.forEach(s=>{ const items=s.questions.map(q=>({...q,scenario:s})); pg.append(el('button',{class:'lecture-card',onclick:()=>runQuiz(items,{back,all:items,key:'clinical:'+s.id})}, el('div',{class:'t',html:s.title}), el('div',{class:'m',html:`${s.setting} · ${items.length} questions${done(items)}`}))); });
   m.append(pg);
 }
 
@@ -169,13 +242,19 @@ function cards(){
   const cnt=el('div',{class:'m',role:'status',style:'font-family:Kalam,cursive;color:#666'});
   function count(){ cnt.textContent=`${L.cards.filter(c=>active.has(c.tag)).length} cards selected`; }
   count();
+  const s=Sync.session(L.id,'cards:deck'), byId=new Map(L.cards.map(c=>[c.id,c]));
+  if(s){ const q=s.queue.map(x=>byId.get(x)).filter(Boolean); if(q.length) pg.append(el('button',{class:'lecture-card',style:'background:var(--yel)',onclick:()=>runCards(s.deck.map(x=>byId.get(x)).filter(Boolean),s)}, el('div',{class:'t',html:'Resume deck'}), el('div',{class:'m',html:`${s.done} of ${s.total} cleared · ${q.length} left`}))); }
+  const again=L.cards.filter(c=>Sync.item(L.id,c.id)?.s==='again');
+  if(again.length) pg.append(el('button',{class:'lecture-card',onclick:()=>runCards(shuffle(again))}, el('div',{class:'t',html:'Marked “Again” last time'}), el('div',{class:'m',html:`${again.length} cards`})));
   pg.append(chips,cnt, el('div',{class:'qnav',style:'justify-content:flex-start'}, el('button',{class:'btn primary',html:'Start',onclick:()=>runCards(L.cards.filter(c=>active.has(c.tag)))}), el('button',{class:'btn',html:'Start shuffled',onclick:()=>runCards(shuffle(L.cards.filter(c=>active.has(c.tag))))})));
   m.append(pg);
 }
-function runCards(deck){
+function runCards(deck, resume){
   if(!deck.length) return;
   const m=$('main'); m.innerHTML='';
-  let queue=deck.slice(), done=0, total=deck.length, again=0;
+  const byId=new Map(L.cards.map(c=>[c.id,c]));
+  let queue=resume?resume.queue.map(x=>byId.get(x)).filter(Boolean):deck.slice(), done=resume?.done||0, total=resume?.total||deck.length, again=resume?.again||0;
+  const save=()=>Sync.put(L.id,'sessions','cards:deck',queue.length?{deck:deck.map(c=>c.id),queue:queue.map(c=>c.id),done,total,again}:{fin:1});
   const wrap=el('section',{class:'page'}); m.append(wrap);
   function render(){
     wrap.innerHTML='';
@@ -187,7 +266,7 @@ function runCards(deck){
     fc.append(el('div',{class:'face front'}, el('span',{class:'lab',html:'Q'}), el('div',{html:c.front}), el('span',{class:'tag',html:c.tag})), el('div',{class:'face back'}, el('span',{class:'lab',html:'A'}), el('div',{html:c.back})));
     const fw=el('div',{class:'fc-wrap'}); fw.append(fc); wrap.append(fw);
     const btns=el('div',{class:'fc-btns'});
-    btns.append(el('button',{class:'btn again',disabled:'',html:'Again ↺',onclick:()=>{ queue.shift(); again++; queue.splice(Math.min(3,queue.length),0,c); render(); }}), el('button',{class:'btn got',disabled:'',html:'Got it ✓',onclick:()=>{ queue.shift(); done++; render(); }}));
+    btns.append(el('button',{class:'btn again',disabled:'',html:'Again ↺',onclick:()=>{ queue.shift(); again++; queue.splice(Math.min(3,queue.length),0,c); const p=Sync.item(L.id,c.id)||{}; Sync.put(L.id,'items',c.id,{s:'again',n:(p.n||0)+1}); save(); render(); }}), el('button',{class:'btn got',disabled:'',html:'Got it ✓',onclick:()=>{ queue.shift(); done++; const p=Sync.item(L.id,c.id)||{}; Sync.put(L.id,'items',c.id,{s:'got',n:p.n||0}); save(); render(); }}));
     wrap.append(btns, el('p',{class:'tiny',style:'text-align:center;margin-top:8px',html:'flip first, then rate yourself — that\'s the retrieval step'}));
     fc.focus();
   }
