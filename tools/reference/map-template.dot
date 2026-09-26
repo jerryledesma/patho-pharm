@@ -1,0 +1,22 @@
+// Concept map template — matches the look of the Acid–Base map.
+// One node per major concept (8–14 nodes). Each node: bold heading + 2–5 short lines.
+// Pastel fills by theme; edges say how concepts connect (causes / treats / compensates…).
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.45, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Topic Title — Concept Map (NURS 419, Lecture M/D/YYYY)<BR/>Key numbers or one-line summary to know cold>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  // Palette (reuse by meaning, not decoration):
+  //   core/definitions  #fff2cc   system A  #ddebf7 / #bdd7ee   system B  #fce4d6 / #f8cbad
+  //   treatment/nursing #e2efda   related/other #e4dfec
+
+  core [fillcolor="#fff2cc", label=<<B>Core concept</B><BR ALIGN="LEFT"/>Definition in one line<BR ALIGN="LEFT"/>Normal value or key fact<BR ALIGN="LEFT"/>>];
+  a    [fillcolor="#ddebf7", label=<<B>Mechanism A</B><BR ALIGN="LEFT"/>Cause · effect<BR ALIGN="LEFT"/>>];
+  b    [fillcolor="#fce4d6", label=<<B>Mechanism B</B><BR ALIGN="LEFT"/>Cause · effect<BR ALIGN="LEFT"/>>];
+  tx   [fillcolor="#e2efda", label=<<B>Nursing &amp; treatment</B><BR ALIGN="LEFT"/>Assess · intervene · monitor<BR ALIGN="LEFT"/>>];
+
+  core -> a [label=" leads to"];
+  core -> b [label=" leads to"];
+  a -> tx; b -> tx;
+}

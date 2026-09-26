@@ -50,6 +50,11 @@ function checkAnswer(q, path, errs) {
   if (q.type === 'order' && ans.length !== letters.length) errs.push(`${path}: priority order must rank every option`);
 }
 
+// Classes notes.html may use: everything defined in the site CSS, plus a few unstyled wrappers.
+const CSS = ['notebook.css', 'app.css'].map(f => readFileSync(join(ROOT, 'public/assets/css', f), 'utf8')).join('\n');
+const KNOWN = new Set([...CSS.matchAll(/\.([a-zA-Z][\w-]*)/g)].map(m => m[1]).concat(['cover-title', 'yellow', 'eq-l', 'eq-r', 'eq-k', 'recap', 'doodle']));
+const OK_STYLE = /^\s*(background:var\(--pink\);\s*color:var\(--pink-d\)|(top|left|right|bottom|width|height):[^;]+;?)\s*$/;
+
 const ledger = existsSync(LEDGER) ? JSON.parse(readFileSync(LEDGER, 'utf8')) : {};
 let failed = 0, warned = 0;
 const dirs = readdirSync(LECTURES).filter(d => statSync(join(LECTURES, d)).isDirectory()).sort();
@@ -75,6 +80,14 @@ for (const dir of dirs) {
 
   for (const f of ['notes.html', 'map.svg']) if (!existsSync(join(base, f))) errs.push(`missing ${f}`);
   if (existsSync(join(base, 'notes.html')) && !/<section class="page/.test(readFileSync(join(base, 'notes.html'), 'utf8'))) errs.push('notes.html has no <section class="page"> pages');
+  if (existsSync(join(base, 'notes.html'))) {
+    const html = readFileSync(join(base, 'notes.html'), 'utf8');
+    const unknown = [...new Set([...html.replace(/<svg[\s\S]*?<\/svg>/g, '').matchAll(/class="([^"]+)"/g)].flatMap(m => m[1].split(/\s+/)).filter(c => c && !KNOWN.has(c)))];
+    if (unknown.length) errs.push(`notes.html uses classes not in the stylesheet: ${unknown.join(', ')}`);
+    if (/<style|<script|<link/i.test(html)) errs.push('notes.html must not contain <style>, <script> or <link>');
+    const styles = [...html.replace(/<svg[\s\S]*?<\/svg>/g, '').matchAll(/style="([^"]*)"/g)].map(m => m[1]).filter(x => !OK_STYLE.test(x));
+    if (styles.length) warns.push(`notes.html has ${styles.length} inline style(s) beyond the allowed pink banner/positioning: ${styles.slice(0, 3).join(' | ')}`);
+  }
   if (existsSync(join(base, 'map.svg')) && !/<svg[\s>]/.test(readFileSync(join(base, 'map.svg'), 'utf8'))) errs.push('map.svg is not an SVG');
 
   // Published IDs must never disappear (learner progress is keyed by them).
