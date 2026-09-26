@@ -7,7 +7,7 @@ const $ = s => document.querySelector(s);
 const el = (t, a={}, ...k) => { const e=document.createElement(t); for(const [x,y] of Object.entries(a)){ if(x==='html') e.innerHTML=y; else if(x.startsWith('on')) e.addEventListener(x.slice(2),y); else e.setAttribute(x,y);} for(const c of k) if(c!=null) e.append(c); return e; };
 const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
 
-const TABS = [['notes','Notes'],['practice','Practice Quiz'],['clinical','Clinical Cases'],['cards','Flashcards'],['qa','She Asked'],['map','Concept Map']];
+const TABS = [['notes','Notes'],['practice','Practice Quiz'],['clinical','Clinical Cases'],['cards','Flashcards'],['qa','Asked in Class'],['map','Concept Map']];
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sept','Oct','Nov','Dec'];
 const fmtDate = iso => { const [y,m,d]=iso.split('-').map(Number); return `${MONTHS[m-1]} ${d}, ${y}`; };
 
@@ -273,11 +273,11 @@ function runCards(deck, resume){
   render();
 }
 
-// ---------- she asked ----------
+// ---------- asked in class ----------
 function qa(){
   const m=$('main'); m.innerHTML='';
   const pg=el('section',{class:'page'});
-  pg.append(el('h2',{class:'banner',style:'background:var(--pink);color:var(--pink-d)',html:'every question she asked in class'}));
+  pg.append(el('h2',{class:'banner',style:'background:var(--pink);color:var(--pink-d)',html:'every question asked in class'}));
   pg.append(el('p',{html:'In lecture order. Answer out loud <i>before</i> tapping — the instructor\'s questions are the best predictor of the exam.'}));
   pg.append(el('div',{class:'qnav',style:'justify-content:flex-start'}, el('button',{class:'btn ghost',html:'Collapse all',onclick:()=>pg.querySelectorAll('details').forEach(d=>d.open=false)})));
   L.qa.forEach(x=>pg.append(el('details',{class:'qa-item'}, el('summary',{html:x.q}), el('div',{class:'ans',html:x.a}))));
