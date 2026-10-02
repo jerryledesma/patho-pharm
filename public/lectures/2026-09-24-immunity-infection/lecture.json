@@ -1,0 +1,2559 @@
+{
+ "id": "2026-09-24-immunity-infection",
+ "date": "2026-09-24",
+ "title": "Immunity, Infection & Defects in Defense",
+ "instructor": "Michael W. Calik, PhD",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.m4a",
+  "slides-1.pptx",
+  "slides-2.pptx",
+  "supp-01_infection-and-defects-in-mechanisms-of.docx"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "classify the reaction"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "According to the lecture, the success of a pathogen (pathogenicity) depends on which three things?",
+   "options": [
+    "Communicability, infectivity and virulence",
+    "Colonization, normal flora and portal of entry",
+    "Incubation, prodrome and acute illness",
+    "Toxigenicity, adhesion and evasion"
+   ],
+   "answer": "A",
+   "rationale": "Slide 3: pathogenicity \"depends on communicability, infectivity, and virulence\" — C → I → V = P. \"Know this process in general.\" Toxigenicity, adhesion and evasion are virulence factors (FYI list); incubation → acute are disease-course stages.",
+   "src": "slide 3 + 00:08:19"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Virulence is best defined as the ability of an agent to:",
+   "options": [
+    "Trigger any immune response at all",
+    "Cause severe disease or death",
+    "Invade the host and multiply there",
+    "Spread from one person to others"
+   ],
+   "answer": "B",
+   "rationale": "Virulence = severity: the proportion of sick people who become severely ill or die (rabies high, the cold low). Spreading is communicability, invading and multiplying is infectivity, and inducing an immune response is immunogenicity.",
+   "src": "slide 3 + 00:06:02"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Immunogenicity refers to:",
+   "options": [
+    "The ability to induce an immune response",
+    "The ability to produce toxins",
+    "The ability to hide from immune cells",
+    "The ability to stick to and enter the body"
+   ],
+   "answer": "A",
+   "rationale": "\"The other term I want you to know from here is immunogenicity\" — the ability to induce an immune response. Toxin production, adhesion and evasion are the other virulence factors on slide 4, which he said not to memorize.",
+   "src": "slide 4 + 00:08:55"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement describes an antigen?",
+   "options": [
+    "A Y-shaped protein made by plasma cells",
+    "A protein that makes other proteins misfold and clump",
+    "Any substance the immune system recognizes",
+    "A receptor found only on T cells"
+   ],
+   "answer": "C",
+   "rationale": "\"Antigen, all it means is any substance that the immune system recognizes\" — a toxin, a microbe's surface, a transplanted organ. The Y-shaped protein is the antibody; a misfolding protein is a prion.",
+   "src": "slide 5 + 00:09:27"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Normal gut and skin flora living on a person without causing damage is an example of:",
+   "options": [
+    "Subclinical disease",
+    "Infection",
+    "Bacteremia",
+    "Colonization"
+   ],
+   "answer": "D",
+   "rationale": "Colonization = establishing a presence without damage — commensal flora that, \"if anything, prevent disease.\" Infection means invasion that causes disease; bacteremia is bacteria in the blood; subclinical disease still involves some injury.",
+   "src": "slide 2 + 00:02:13"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "When are bacterial endotoxins released?",
+   "options": [
+    "Only from gram-positive bacteria",
+    "When the bacteria are attacked and lysed",
+    "Constantly, as the bacteria grow and divide",
+    "Only after an antitoxin has bound them"
+   ],
+   "answer": "B",
+   "rationale": "\"Endo\" = inside: endotoxins (LPS of gram-negative bacteria) come out only when bacteria are attacked and popped open — and then they hurt the immune cells that killed them. Constant release during growth is exotoxins (\"exo\" = exit).",
+   "src": "slide 10 + 00:18:01 + 00:18:34"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "On a Gram stain, gram-negative bacteria appear ___ and are generally ___.",
+   "options": [
+    "Purple; harder for immune cells and antibiotics",
+    "Pink; harder for immune cells and antibiotics",
+    "Pink; more sensitive to antibiotics",
+    "Purple; more sensitive to antibiotics"
+   ],
+   "answer": "B",
+   "rationale": "\"Pink is negative, purple is positive.\" Gram-negative bacteria have an extra layer that helps them evade the immune system and antibiotics — \"the armored tanks of the bacterial world.\" Gram-positive is the one more receptive to antibiotics.",
+   "src": "slide 9 + 00:16:42 + 00:17:25"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which describes a prion?",
+   "options": [
+    "A bacterium that has no cell wall and no nucleus",
+    "A virus particle made of a protein coat around an RNA core",
+    "A misfolded protein that makes normal proteins misfold",
+    "A parasite carried by a mosquito vector"
+   ],
+   "answer": "C",
+   "rationale": "Prions have no genome — they are abnormally shaped versions of your own proteins that make normal proteins misfold, clump and kill cells (mad cow disease). A protein coat around a nucleic-acid core is a virus.",
+   "src": "slide 6 + 00:11:40"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Antibiotics inhibit bacteria by inhibiting all of the following EXCEPT:",
+   "options": [
+    "Nucleic-acid synthesis in bacteria",
+    "Bacterial cell-wall synthesis",
+    "Bacterial protein synthesis",
+    "Ergosterol in the cell membrane"
+   ],
+   "answer": "D",
+   "rationale": "Slide 17's antibiotic targets: cell-wall synthesis, protein synthesis, nucleic-acid synthesis and metabolism. Ergosterol in the membrane is an antifungal target (slide 19) — and antibiotics will not kill fungi.",
+   "src": "slides 17, 19 + 00:30:17"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which is a way bacteria \"fight back\" against antibiotics?",
+   "options": [
+    "Increasing the number of binding sites for the drug",
+    "Making new protein coats (capsids)",
+    "Altering the antibiotic's binding site",
+    "Building more ergosterol in the wall"
+   ],
+   "answer": "C",
+   "rationale": "Slide 17: bacteria fight back by inactivating antibiotics, altering antibiotic binding sites, using different metabolic pathways and changing their cell walls to keep the drug out. Capsids are viral; ergosterol is fungal.",
+   "src": "slide 17"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Antifungal drugs inhibit fungi by targeting:",
+   "options": [
+    "Peptidoglycan cross-links in the fungal cell wall",
+    "Enzymes that build new capsids, or protein coats",
+    "Ergosterol in the membrane and glucan in the wall",
+    "Protein synthesis at the fungal ribosome"
+   ],
+   "answer": "C",
+   "rationale": "Slide 19: antifungals inhibit ergosterol in fungal cell membranes and glucan in fungal cell walls. The fungal wall is polysaccharide, not peptidoglycan, which is why antibiotics won't kill fungi. Capsid-building enzymes are antiviral targets, and protein synthesis is an antibiotic target in bacteria.",
+   "src": "slides 12, 19"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Where do B cells and T cells undergo selection?",
+   "options": [
+    "B cells in the thymus; T cells in the bone marrow",
+    "Both in the spleen",
+    "B cells in the bone marrow; T cells in the thymus",
+    "Both in the lymph nodes"
+   ],
+   "answer": "C",
+   "rationale": "\"For B cells, the selection process happens in the bone marrow. You need to know that. For T cells … the thymus.\" Both are produced in the bone marrow; afterwards both go to the lymph nodes to wait.",
+   "src": "slide 29 + 00:49:27"
+  },
+  {
+   "id": "p-013",
+   "tier": "1",
+   "type": "mc",
+   "stem": "During negative selection, a developing lymphocyte is told to die when it:",
+   "options": [
+    "Binds to nothing at all",
+    "Binds self-antigens too strongly",
+    "Fails to divide fast enough",
+    "Binds only weakly to a foreign antigen"
+   ],
+   "answer": "B",
+   "rationale": "Negative selection removes cells that bind self too hard — \"that's how you prevent autoimmune diseases.\" Cells that bind nothing are removed earlier, in positive selection, because they're useless. Together = tolerance.",
+   "src": "slide 29 + 00:50:18 + 00:50:58"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Antigen-presenting cells show antigen to T cells on which molecule?",
+   "options": [
+    "The B-cell receptor",
+    "MHC class II",
+    "IgE",
+    "MHC class I"
+   ],
+   "answer": "B",
+   "rationale": "\"Just remember, it's MHC class II\" (HLA antigens in humans) on dendritic cells, macrophages and B cells. MHC I is also on cells and matters in transplant matching, but it isn't the APC answer he drilled; IgE is the type I antibody.",
+   "src": "slide 33 + 00:57:01"
+  },
+  {
+   "id": "p-015",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which antibody function is \"direct\" — carried out by the antibody alone?",
+   "options": [
+    "Complement activation",
+    "Agglutination",
+    "Inflammation",
+    "Phagocytosis"
+   ],
+   "answer": "B",
+   "rationale": "Slide 38: direct functions are neutralization, agglutination (clumping cells) and precipitation (soluble antigens). Inflammation, phagocytosis and complement are indirect — they need other components.",
+   "src": "slide 38 + 01:02:06"
+  },
+  {
+   "id": "p-016",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement about second-generation H1 antagonists is correct?",
+   "options": [
+    "They work by stopping mast cells from releasing histamine",
+    "They have strong atropine-like anticholinergic effects",
+    "They are the highly sedating group, like diphenhydramine",
+    "They cross the blood-brain barrier poorly and sedate much less"
+   ],
+   "answer": "D",
+   "rationale": "Second generation (cetirizine, fexofenadine, loratadine) cross the BBB poorly, have low affinity for CNS H1 receptors and are largely devoid of anticholinergic action. Diphenhydramine is first generation. No antihistamine stops mast-cell release — they only block the receptor.",
+   "src": "slides 61, 65 + 01:30:28"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with measles coughed in an exam room and left. Why is the next client who enters an hour later at risk?",
+   "options": [
+    "Measles is a prion disease that survives cleaning",
+    "Measles is highly virulent, so any exposure is fatal",
+    "Measles is highly communicable — it stays in the air for hours",
+    "Measles spreads mainly by touching the exam table and the chair"
+   ],
+   "answer": "C",
+   "rationale": "Measles is the slide's example of high communicability: the virus can linger in a room up to 8–10 hours and spreads through the air. Communicability (spread) isn't the same as virulence (severity); measles is a virus, not a prion.",
+   "src": "slide 3 + 00:03:54"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client reports fever, muscle aches, headache and fatigue, plus diarrhea since yesterday. Which finding is a local (specific) sign?",
+   "options": [
+    "Myalgia",
+    "Headache",
+    "Fever",
+    "Diarrhea"
+   ],
+   "answer": "D",
+   "rationale": "Diarrhea points to the site — the GI tract. Fever, myalgia, headache and lethargy are systemic/nonspecific. The headache is systemic because it comes from vasodilation and whole-body inflammation; \"your brain has no sensory\" receptors.",
+   "src": "slide 14 + 00:20:51 + 00:21:32"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A student had a scratchy throat after her roommate's flu, felt fine the next morning, and never got sick. This is best described as:",
+   "options": [
+    "Subclinical disease",
+    "Chronic disease",
+    "The prodromal stage",
+    "The convalescent stage"
+   ],
+   "answer": "A",
+   "rationale": "His exact example: the immune system cleared it below the clinical threshold — subclinical disease, with little to no signs or symptoms. Prodrome is the start of real symptoms on the way to acute illness; convalescence follows an acute illness.",
+   "src": "slide 15 + 00:25:25 + 00:25:56"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Why is tuberculosis the classic example of chronic disease on the disease-course curve?",
+   "options": [
+    "It always progresses past the critical threshold",
+    "It is cleared within days by the innate system",
+    "It never causes symptoms, so it always stays below the clinical threshold",
+    "The immune system walls it off in the lung but can't clear it"
+   ],
+   "answer": "D",
+   "rationale": "TB grows slowly and defends itself, so the immune system walls it off — \"not 100% secure,\" and it can break out again. That's the chronic branch: kept at bay, not cleared. Staying below the threshold is subclinical; passing the critical threshold is death.",
+   "src": "slide 15 + 00:27:03 + 00:27:33"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with a foot infection has a tender, swollen lymph node behind the knee. The nurse understands this means:",
+   "options": [
+    "Lymphocytes are proliferating there, and an infection is active",
+    "The innate immune system has failed completely",
+    "The client has a primary immunodeficiency",
+    "Bacteria have spread from the foot and are now growing inside the node"
+   ],
+   "answer": "A",
+   "rationale": "Swollen nodes mean T and B cells are dividing — \"a bad, good thing\": the immune system is working, but there is an active infection. APCs go to the closest node, so a foot infection shows up behind the knee.",
+   "src": "slide 34 + 00:58:59 + 00:59:37"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A father fully vaccinated against pertussis carries the bacteria after a work exposure. Why can he still give his unvaccinated infant whooping cough?",
+   "options": [
+    "Vaccinated adults don't form memory cells against pertussis at all",
+    "Pertussis vaccines wear off within a few days",
+    "The vaccine targets the toxin, so bacteria can still grow and spread",
+    "The bacteria mutate too quickly for any pertussis vaccine to keep up"
+   ],
+   "answer": "C",
+   "rationale": "The pertussis vaccine is against the toxin, not the bacteria. He neutralizes the toxin, but the bacteria still grow and can be passed to someone unvaccinated, who then makes the toxin and gets whooping cough. That is why high vaccination rates matter.",
+   "src": "slide 10 + 00:01:04 + 01:12:53 + 01:13:36"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A new mother asks how her newborn is protected before the baby has made its own T- and B-cell repertoire. The nurse explains:",
+   "options": [
+    "The newborn's thymus has already finished selecting a full repertoire",
+    "Antibodies in breast milk, plus vaccinated parents around the baby",
+    "Newborn stomach acid destroys pathogens",
+    "Newborns are born with a full set of memory T and B cells from the mother"
+   ],
+   "answer": "B",
+   "rationale": "\"Breast milk\" — its antibodies can cross into the infant's bloodstream because infant stomachs aren't very acidic yet; parents should be vaccinated. The repertoire builds slowly after birth, so infants aren't born with memory cells.",
+   "src": "01:02:36 + 01:03:10 + 01:03:40"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client says, \"My last bee sting was no big deal, so I can't be allergic.\" Which response reflects the lecture?",
+   "options": [
+    "\"If you were going to be allergic, you'd have reacted the very first time.\"",
+    "\"The first sting can sensitize you, so the next one may cause a reaction.\"",
+    "\"Bee allergy is inherited, so one sting doesn't change anything.\"",
+    "\"Each sting makes a reaction less likely as you build tolerance.\""
+   ],
+   "answer": "B",
+   "rationale": "You can only react to what your immune system has seen. The first sting is the sensitizing event: T and B cells take 7–14 days, the venom is long gone, so no reaction. Next time there may be one, and \"the more bee stings you have,\" the higher the chance.",
+   "src": "slide 57 + 01:21:48 + 01:23:27 + 01:24:30"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "An 82-year-old client takes diphenhydramine (Benadryl) nightly for sleep. Which effect is the nurse most concerned about?",
+   "options": [
+    "Paradoxical hyperactivity and rebound insomnia",
+    "Low blood glucose",
+    "Increased milk production",
+    "Confusion, urinary retention and falls"
+   ],
+   "answer": "D",
+   "rationale": "Older adults are on the caution list: serious anticholinergic effects (confusion, sedation, constipation, blurred vision, urinary retention), more falls and a possible dementia link. Paradoxical hyperactivity is the young-child warning; decreased milk is the nursing-mother warning.",
+   "src": "slides 61, 64 + 01:31:05"
+  },
+  {
+   "id": "p-026",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with myasthenia gravis is started on pyridostigmine. How does this drug help?",
+   "options": [
+    "It removes the receptor-blocking antibodies from her blood",
+    "It slows the breakdown of acetylcholine, so more is available",
+    "It blocks histamine at the neuromuscular junction so muscles relax",
+    "It removes the thymus's extra T cells"
+   ],
+   "answer": "B",
+   "rationale": "Antibodies block the ACh receptors, so pyridostigmine (an AChE inhibitor) keeps more ACh around — \"increase the amount of acetylcholine by stopping its breakdown.\" Removing antibodies is plasma exchange; removing the thymus is thymectomy.",
+   "src": "slides 67–68 + 01:37:14"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with myasthenia gravis is admitted in myasthenic crisis. Which treatments does the slide list for crisis?",
+   "options": [
+    "Second-generation antihistamines",
+    "Plasma exchange and IV immune globulin",
+    "Hydroxychloroquine and NSAIDs",
+    "Rho(D) immune globulin IM"
+   ],
+   "answer": "B",
+   "rationale": "Slide 68: \"plasma exchange and intravenous immune globulin should be given in myasthenic crises\" — plasma exchange cleans antibodies out of the blood. Hydroxychloroquine and NSAIDs are on the SLE slide; Rho(D) immune globulin is for Rh sensitization.",
+   "src": "slide 68 + 01:37:51"
+  },
+  {
+   "id": "p-028",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Ten days after receiving antivenom for a rattlesnake bite, a client has fever, rash, swollen lymph nodes and painful joints. The nurse recognizes:",
+   "options": [
+    "Graft-versus-host disease",
+    "A delayed type I reaction to venom left in the tissues",
+    "A delayed type IV skin reaction",
+    "Serum sickness from circulating immune complexes"
+   ],
+   "answer": "D",
+   "rationale": "Antivenom is the classic trigger of serum sickness (type III): antibody–antigen complexes get stuck in blood vessels, joints and kidneys → fever, enlarged nodes, rash, pain, arthritis. Type I is immediate and IgE-driven; GVHD follows bone marrow transplant.",
+   "src": "slide 69 + 01:38:32 + 01:39:11"
+  },
+  {
+   "id": "p-029",
+   "tier": "2",
+   "type": "mc",
+   "stem": "An Rh-negative woman just delivered her first Rh-positive baby. Which statement is accurate?",
+   "options": [
+    "Sensitization is prevented by giving the baby antihistamines",
+    "Birth can sensitize her, so a future Rh-positive baby is at risk",
+    "The risk only applies if the father is Rh-negative",
+    "This baby was at highest risk because it was the first pregnancy"
+   ],
+   "answer": "B",
+   "rationale": "The first baby is usually fine because there was no sensitizing event; birth is the sensitizing event, and the problem is the second Rh-positive baby (hemolytic disease of the newborn). Slide 78 lists Rho(D) immune globulin (RhoGAM), given IM.",
+   "src": "slide 78 + 01:46:37"
+  },
+  {
+   "id": "p-030",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client receiving a kidney from her brother asks if she'll need immunosuppressants. The nurse's answer is based on the fact that:",
+   "options": [
+    "A negative crossmatch before surgery means that acute or chronic rejection can no longer occur",
+    "Even close-family grafts usually need them lifelong; identical twins are the exception",
+    "Immunosuppressants are needed only for the first month, until the graft heals",
+    "A brother is a perfect HLA match, so she won't have any rejection at all"
+   ],
+   "answer": "B",
+   "rationale": "Even matching well, most people develop acute or chronic (type IV) rejection, so \"even if it's from a close family member… immunosuppressants the rest of your life.\" Identical twins are the exception. A negative crossmatch prevents hyperacute (type II) rejection only.",
+   "src": "slide 80 + 01:48:49 + 01:49:23"
+  },
+  {
+   "id": "p-031",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client has fever, muscle aches and fatigue the day after an mRNA vaccine. According to the vaccination deck, these effects come from:",
+   "options": [
+    "Memory T cells attacking the muscle cells that took up the mRNA",
+    "A type I allergic reaction to the mRNA",
+    "The innate inflammatory/immune response to the vaccine",
+    "A mild case of the infection caused by the vaccine"
+   ],
+   "answer": "C",
+   "rationale": "V-slide 5: the innate inflammatory/immune response causes the side effects seen 24–48 hours after vaccination — lethargy, myalgia, fever, headache. mRNA is very immunogenic. The vaccine doesn't cause the infection, and this isn't an allergy.",
+   "src": "V-slide 5"
+  },
+  {
+   "id": "p-032",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client vaccinated in the left deltoid has a tender lump in the left armpit three days later. The best explanation is:",
+   "options": [
+    "APCs carried the antigen to the closest lymph node, where T cells are proliferating",
+    "Vaccine fluid leaked down from the deltoid and formed a small abscess in the armpit",
+    "The client has a primary immunodeficiency",
+    "Antibodies made against the vaccine are now attacking the client's own lymph tissue"
+   ],
+   "answer": "A",
+   "rationale": "V-slide 6: APCs travel to the closest lymph node — a shoulder shot means the armpit node. A matching T cell binds and proliferates there, and proliferation is what makes a node swell.",
+   "src": "V-slides 6–8 + 00:59:37"
+  },
+  {
+   "id": "p-033",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client's leg abscess hasn't improved after a week of IV antibiotics, and imaging shows a biofilm. Which intervention does the lecture list?",
+   "options": [
+    "A switch to an antifungal",
+    "An antihistamine to reduce the swelling",
+    "Stopping all antibiotics to rebuild natural immunity",
+    "Surgical drainage and debridement"
+   ],
+   "answer": "D",
+   "rationale": "Slide 20: surgical interventions — remove infected tissue, drain abscesses, debridement — for when antibiotics aren't reaching bacteria in a thick biofilm. An antifungal won't treat bacteria, and \"natural immunity\" means you run the risk of dying.",
+   "src": "slide 20 + 00:30:52"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Hives, itching and wheezing within minutes of eating peanuts, after previous exposure. Hypersensitivity type?",
+   "options": [
+    "Type III",
+    "Type II",
+    "Type IV",
+    "Type I"
+   ],
+   "answer": "D",
+   "rationale": "Immediate reaction to an exogenous allergen through IgE on mast cells → histamine = type I (allergy). Type IV would take 24–72 h; types II and III involve IgG/IgM against tissue or immune complexes.",
+   "src": "slides 56–57 + 01:21:48"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A red, itchy, blistering rash appears 2 days after the client cleared poison ivy from a fence. Hypersensitivity type?",
+   "options": [
+    "Type IV",
+    "Type III",
+    "Type I",
+    "Type II"
+   ],
+   "answer": "A",
+   "rationale": "Poison ivy is on the type IV list: sensitized T cells have to travel to the site, so it's delayed — 24–72 hours. Type I is immediate.",
+   "src": "slide 71 + 01:42:35"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Minutes into a transfusion of the wrong ABO type, the client's red cells are being destroyed. Classify the reaction.",
+   "options": [
+    "Type IV alloimmunity",
+    "Type II alloimmunity",
+    "Type III autoimmunity",
+    "Type I allergy"
+   ],
+   "answer": "B",
+   "rationale": "Reaction to another person's tissue = alloimmunity; the slides put ABO transfusion reactions under type II (antibodies against the A/B antigens on the donor cells).",
+   "src": "slides 55, 77 + 01:45:23"
+  },
+  {
+   "id": "p-037",
+   "tier": "3",
+   "type": "mc",
+   "stem": "SLE: autoantibodies to histones and nucleic acids form circulating complexes that deposit in kidneys and joints. Classify it.",
+   "options": [
+    "Type IV autoimmunity",
+    "Type III alloimmunity",
+    "Type III autoimmunity",
+    "Type II autoimmunity"
+   ],
+   "answer": "C",
+   "rationale": "Self antigens = autoimmunity; circulating immune complexes that deposit = type III (slide 74 says so outright). Type II binds a specific tissue rather than circulating; there's no other person's tissue here, so it isn't alloimmunity.",
+   "src": "slide 74 + 01:43:46"
+  },
+  {
+   "id": "p-038",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A child develops local swelling and tissue necrosis at a vaccine injection site from antibody–antigen complexes. Which reaction is this?",
+   "options": [
+    "Serum sickness (type III, systemic)",
+    "Anaphylaxis (type I, systemic)",
+    "Arthus reaction (type III, local)",
+    "Graft rejection (type IV)"
+   ],
+   "answer": "C",
+   "rationale": "Type III can be hyper-local: the Arthus reaction. A child already exposed has antibodies ready, which meet the concentrated antigen at the injection site. Serum sickness is the systemic version (antivenom).",
+   "src": "slide 69 + 01:40:19 + 01:40:55"
+  },
+  {
+   "id": "p-039",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Three days after a booster, a client's antibody level against the vaccine antigen has already risen sharply. Which response is this?",
+   "options": [
+    "Primary immune response",
+    "Innate immune response",
+    "Secondary immune response",
+    "Type I hypersensitivity"
+   ],
+   "answer": "C",
+   "rationale": "Boosters cause a secondary response: memory B cells respond immediately, and antibody levels rise within days. A primary response (first vaccination) takes 2–3 weeks.",
+   "src": "slides 51–52 + 01:07:24"
+  },
+  {
+   "id": "p-040",
+   "tier": "3",
+   "type": "mc",
+   "stem": "An infant has had repeated severe infections since birth and makes no functional B or T cells. Classify the deficiency.",
+   "options": [
+    "Primary — combined (SCID)",
+    "Acquired — malnutrition",
+    "Acquired — AIDS",
+    "Primary — complement (C3)"
+   ],
+   "answer": "A",
+   "rationale": "Never producing B and T cells is severe combined immunodeficiency — a primary (congenital/genetic) defect, \"your bubble boy.\" Acquired deficiencies come from another condition; C3 deficiency is complement.",
+   "src": "slide 83 + 01:52:39"
+  },
+  {
+   "id": "p-041",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A client with alcoholic cirrhosis gets frequent infections. Classify the immune problem.",
+   "options": [
+    "Primary — phagocyte defect",
+    "Hypersensitivity — type III immune complexes",
+    "Primary — B-cell defect",
+    "Acquired — reduced complement"
+   ],
+   "answer": "D",
+   "rationale": "Alcoholic cirrhosis is on the acquired list; he added, \"that's a decrease in your complement.\" The immune system itself is fine — another illness impairs it. A primary deficiency is congenital.",
+   "src": "slide 82 + 01:51:37 + 01:52:08"
+  },
+  {
+   "id": "p-042",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A client has recurrent pneumonia and granulomas because phagocytes can't kill what they engulf (myeloperoxidase–H₂O₂ defect). Classify it.",
+   "options": [
+    "Primary — B-cell (hypogammaglobulinemia)",
+    "Acquired — burns",
+    "Primary — innate (mucocutaneous candidiasis)",
+    "Primary — phagocyte (chronic granulomatous disease)"
+   ],
+   "answer": "D",
+   "rationale": "Chronic granulomatous disease is a primary phagocyte deficiency: a defect in the myeloperoxidase–hydrogen peroxide system means phagocytes can't kill, giving recurrent pneumonia and tumor-like granulomas. Mucocutaneous candidiasis is recurrent Candida.",
+   "src": "slide 84 + 01:52:39 + 01:53:19"
+  },
+  {
+   "id": "p-043",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Within minutes of reperfusion, a transplanted kidney fails because the recipient already had antibodies to graft antigens. Classify it.",
+   "options": [
+    "Hyperacute rejection — type II",
+    "Chronic rejection — type IV",
+    "Graft-versus-host disease — type IV",
+    "Acute rejection — type IV"
+   ],
+   "answer": "A",
+   "rationale": "Immediate rejection from preexisting antibody = hyperacute (type II), the one crossmatching prevents. Acute (days–months) and chronic (months–years) are cell-mediated, type IV.",
+   "src": "slide 80 + 01:48:11 + 01:48:49"
+  },
+  {
+   "id": "p-044",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Six weeks after a kidney transplant, T cells attack unmatched HLA antigens on the graft. Classify it.",
+   "options": [
+    "Serum sickness — type III",
+    "Acute rejection — type IV",
+    "Chronic rejection — type III",
+    "Hyperacute rejection — type II"
+   ],
+   "answer": "B",
+   "rationale": "Days to months, cell-mediated against unmatched HLA = acute rejection, type IV. Chronic rejection (months–years, minor HLA) is also type IV, not III; hyperacute is immediate and antibody-mediated.",
+   "src": "slide 80"
+  },
+  {
+   "id": "p-045",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Step-by-step: an APC has just presented strep antigen on MHC II at the throat. What happens next?",
+   "options": [
+    "Memory T and B cells form",
+    "B cells turn into plasma cells",
+    "The APC travels to the closest lymph tissue",
+    "T cells recruit macrophages and cytotoxic T cells to the throat"
+   ],
+   "answer": "C",
+   "rationale": "Step 4 (present on MHC II) → step 5: APCs travel to the closest lymph tissue → 6 the right T cell binds → 7 clonal proliferation → 8 T cells leave, plasma cells make antibodies → 9–10 find the site, recruit effectors → 11 memory.",
+   "src": "slides 43–50 + 01:05:27"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Medical-surgical unit",
+   "setting": "Infected abdominal wound with septicemia · days 1–4 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1400</b>\n64-year-old client, post-op day 6 after bowel surgery. Reports chills, aching muscles, a headache and feeling \"wiped out.\" The lower end of the incision is red and swollen, with a fluctuant pocket draining cloudy fluid. History of type 2 diabetes. Ambulating in the hall twice a day. Wife visits every afternoon.\n<b>Vital Signs</b> — T 39.1°C · HR 112 · BP 98/60 · RR 22 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — Blood cultures ×2 and wound culture: collected 1330, pending\n<b>Orders</b> — IV antibiotic · surgical consult for the wound · vital signs every 2 h",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "The nurse reviews the nurses' notes. Which findings are <b>systemic (nonspecific)</b> signs of infection? Select all that apply.",
+     "options": [
+      "Cloudy wound drainage",
+      "Headache",
+      "Aching muscles",
+      "Temperature 39.1°C",
+      "Red, swollen lower incision",
+      "Feeling \"wiped out\""
+     ],
+     "answer": "B, C, D, F",
+     "rationale": "Fever, myalgia, headache and lethargy are the slide's systemic/nonspecific signs. The headache counts as systemic: it comes from vasodilation and whole-body inflammation, and the brain itself has no sensory receptors. Redness, swelling and drainage at the incision are local signs; they point to the site of infection.",
+     "src": "slide 14 + 00:20:51 + 00:21:32",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "<b>Day 1, 2000.</b> Both blood cultures show <b>gram-negative</b> rods (pink on Gram stain). Why does this result concern the team?",
+     "options": [
+      "Gram-negative bacteria are the ones most receptive to antibiotics, so the drug choice hardly matters",
+      "A pink Gram stain shows these organisms are fungi, so the antibiotic won't work",
+      "An extra layer helps gram-negative bacteria evade both the immune system and antibiotics",
+      "Gram-negative bacteria cause local infection only and rarely reach the blood"
+     ],
+     "answer": "C",
+     "rationale": "Gram-negative bacteria have an extra layer in the cell wall that helps them evade the immune system and antibiotics: \"the armored tanks of the bacterial world… anytime you have gram-negative, it's not a good sign.\" Septicemia is usually caused by gram-negative bacteria. Gram-positive bacteria are the ones more receptive to antibiotics, and the Gram stain is used for bacteria, not fungi.",
+     "src": "slides 9–10 + 00:16:05 + 00:16:42",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "<b>Day 1, 2300.</b> T 39.6°C · HR 124 · BP 86/50. The immune system is now attacking and killing large numbers of the bacteria. The fever and falling blood pressure are best explained by:",
+     "options": [
+      "A type I reaction, with IgE releasing histamine from mast cells",
+      "Colonization of the wound by normal skin flora that cause no damage",
+      "Exotoxins released steadily by the bacteria as they keep growing",
+      "Endotoxin (LPS) released as the gram-negative bacteria are lysed"
+     ],
+     "answer": "D",
+     "rationale": "Endotoxins are the LPS of gram-negative bacteria and are released when the bacteria are attacked and lysed (\"endo\" = inside). They are pyrogenic, activate the inflammatory response and increase vascular permeability. In sepsis \"it's your immune system going nuts,\" releasing pro-inflammatory cytokines that drop blood pressure. Exotoxins are released constantly during growth; type I is IgE-mediated allergy; colonization causes no damage.",
+     "src": "slide 10 + 00:18:34 + 01:11:21",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "The nurse anticipates the plan of care. Which items belong in it? Select all that apply.",
+     "options": [
+      "Prepare for drainage of the wound abscess",
+      "Prepare for debridement of the infected tissue",
+      "Perform hand hygiene before and after all wound care",
+      "Request an antifungal in place of the antibiotic",
+      "Hold the antibiotic so the client builds natural immunity",
+      "Follow up on the wound and blood culture results"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "A culture grows the organism outside the host to identify it. Slide 20's surgical interventions are draining abscesses, debridement and removing infected tissue; they are used when antibiotics can't reach bacteria protected by a thick biofilm. Hand washing is the nurse's core infection-control tool. \"Natural immunity\" means you always run the risk of dying, and antifungals don't treat bacteria.",
+     "src": "slides 14, 16, 20 + 00:23:15 + 00:29:45 + 00:30:52",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 1000.</b> The lab reports that the organism makes an enzyme that <b>inactivates</b> the antibiotic the client is receiving. What should the nurse do?",
+     "options": [
+      "Add an antihistamine to block the enzyme's effects",
+      "Keep giving the drug exactly as ordered, because the enzyme only matters in the lab dish",
+      "Double the next dose on her own to overpower the enzyme",
+      "Report the result to the provider promptly, since the current drug may not work"
+     ],
+     "answer": "D",
+     "rationale": "Slide 17: one way bacteria \"fight back\" is by inactivating the antibiotic (others are altering its binding site, using different metabolic pathways and changing the cell wall to keep it out). A result like this means the drug may fail, so the provider needs it promptly. The nurse doesn't change a dose on her own, and antihistamines only block histamine receptors.",
+     "src": "slide 17 + 00:30:17",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Day 4, 0800.</b> The abscess was drained on Day 2 and the antibiotic was changed. Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "BP 84/50 after his morning walk",
+      "T 37.2°C",
+      "HR 86 · BP 122/74",
+      "Less drainage from the incision, and the redness is shrinking",
+      "New fluctuant swelling at the upper end of the incision",
+      "Says the muscle aches are gone and he walked the hall twice"
+     ],
+     "answer": "B, C, D, F",
+     "rationale": "Fever and the systemic signs are resolving, vital signs are back to normal and the local signs are shrinking: he is moving toward convalescence and resolution. A new low blood pressure or a new fluctuant pocket (a possible new abscess) needs follow-up, not reassurance.",
+     "src": "slides 14–15, 20 + 00:26:31",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Pediatric clinic",
+   "setting": "Pertussis exposure in a household · days 1–12 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1000</b>\n6-week-old infant brought in by the mother for a weight check. The father has had a cough for 2 weeks and today was diagnosed with pertussis at urgent care. He was vaccinated against pertussis as a teenager. The mother is up to date on her vaccines. The infant is exclusively breastfed and has not yet received any pertussis vaccine. A 4-year-old sibling has never been vaccinated. The infant has a mild runny nose and is feeding well.\n<b>Vital Signs</b> — Infant: T 37.0°C · HR 140 · RR 38 · SpO₂ 99% · weight up 30 g/day since birth\n<b>Orders</b> — Teach household infection-control measures · follow-up visit in 1 week",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Which findings increase the infant's risk of whooping cough? Select all that apply.",
+     "options": [
+      "Unvaccinated 4-year-old sibling in the home",
+      "Father with pertussis who lives in the home",
+      "Infant is exclusively breastfed",
+      "Mother is up to date on her vaccines",
+      "Infant T 37.0°C",
+      "Infant has not received any pertussis vaccine"
+     ],
+     "answer": "A, B, F",
+     "rationale": "Pertussis spreads very easily (slide 3), and the infant has no vaccine protection and lives with a case plus an unvaccinated child who can catch and pass it on. Breast milk antibodies and a vaccinated mother are protective, not risks, and a normal temperature is just a normal finding.",
+     "src": "slide 3 + 01:02:36 + 01:13:36",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "The father says, \"I don't understand. I was vaccinated, so how did I get whooping cough and give it to my family?\" Which explanation is accurate?",
+     "options": [
+      "Vaccinated adults can't spread pertussis, so the family got it somewhere else",
+      "The vaccine is against the toxin, not the bacteria, so the bacteria can still grow and spread",
+      "The pertussis vaccine only protects for a few days after it's given",
+      "His vaccine trained T cells to attack the bacteria themselves, but they missed this new strain"
+     ],
+     "answer": "B",
+     "rationale": "The pertussis vaccine \"is not actually for the bacteria. It's actually for a toxin the bacteria make.\" A vaccinated person can carry growing bacteria, do fine, and pass them to someone unvaccinated, who then makes the toxin and gets whooping cough. That's why high vaccination rates are needed. Tetanus is another anti-toxin vaccine.",
+     "src": "00:01:04 + 01:12:53 + 01:13:36 + 01:14:20",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "The mother asks how her 6-week-old is protected, since the baby can't make much of an immune response yet. Which statement is most accurate?",
+     "options": [
+      "The infant's T and B cell repertoire is already fully developed and diverse by 2 weeks after birth",
+      "The infant is protected by natural immunity, which lasts until about the first birthday",
+      "Newborns are born with a complete set of memory T and B cells copied from the mother",
+      "Breast milk antibodies reach the baby's blood, since the baby's stomach isn't very acidic yet"
+     ],
+     "answer": "D",
+     "rationale": "The first step in fighting infection, developing a population of T and B cells, only starts after birth and takes time. Until then, breast milk antibodies help (\"infants really don't have really acidic stomachs yet\"), and the parents should be vaccinated. Newborns don't have memory cells, and the repertoire isn't diverse yet.",
+     "src": "slide 40 + 01:02:36 + 01:03:10 + 01:03:40",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "The nurse teaches the household how to reduce spread to the infant. Which measures should be included? Select all that apply.",
+     "options": [
+      "A face mask for the father around the family",
+      "Stopping breastfeeding to protect the infant",
+      "Skipping the sibling's vaccines until the outbreak is over",
+      "Letting the infant get pertussis to build natural immunity",
+      "Keeping the coughing father apart from the infant (isolation)",
+      "Hand washing before handling the infant"
+     ],
+     "answer": "A, E, F",
+     "rationale": "The hygiene measures on slide 16 are hand washing, face masks, social distancing, quarantine and isolation: \"stop it before it starts.\" Breastfeeding passes protective antibodies, so stopping it removes protection. \"Natural immunity\" carries the risk of dying, and vaccination rates are what protect babies who are too young for the vaccine.",
+     "src": "slide 16 + 00:28:38 + 00:29:45 + 01:13:36",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "mc",
+     "stem": "<b>Day 12, 0900.</b> The infant is admitted with severe coughing spells. Which action should the nurse take <b>first</b> to protect others on the unit?",
+     "options": [
+      "Place the infant on isolation and use the infection-control measures",
+      "Wait for the culture result before taking any precautions",
+      "Ask the parents to stop visiting the infant until the day of discharge home",
+      "Give the infant a pertussis vaccine dose to stop the toxin now"
+     ],
+     "answer": "A",
+     "rationale": "Isolation is one of the infection-control measures on slide 16, and nurses use them so the disease never reaches the next person. Waiting for a result lets it spread in the meantime, and banning parents isn't on the list. A vaccine works by setting up a response over time, so it doesn't neutralize toxin that is already there.",
+     "src": "slide 16 + 00:28:38",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "sata",
+     "stem": "Before discharge, which statements by the parents show they understood the teaching? Select all that apply.",
+     "options": [
+      "\"Getting sick is the best way for kids to build immunity.\"",
+      "\"Our 4-year-old doesn't need vaccines because the baby will be immune.\"",
+      "\"High vaccination rates help protect babies who are too young for the vaccine.\"",
+      "\"My vaccine works against the toxin, so I could still carry the bacteria.\"",
+      "\"Since I'm vaccinated, I can't spread it to anyone.\"",
+      "\"Breastfeeding gives the baby some antibodies.\""
+     ],
+     "answer": "C, D, F",
+     "rationale": "These match his points: the vaccine targets the toxin, so carriers spread the bacteria and high vaccination rates are needed (the Northwest outbreak happened \"because nobody understood how it actually worked\"); breast milk passes antibodies. Vaccinated carriers can spread pertussis, \"natural immunity\" risks death, and the sibling's own vaccination is part of protecting the baby.",
+     "src": "00:29:45 + 01:02:36 + 01:13:36 + 01:14:20",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Employee health clinic",
+   "setting": "mRNA vaccine, then an exposure · weeks 0–3 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 0, 0800</b>\n34-year-old client (a hospital unit clerk) received an mRNA COVID vaccine in the <b>left deltoid</b>. Observed 15 minutes with no problems. Takes loratadine (Claritin) daily for seasonal allergies.\n<b>Nurses' Notes — Day 1, 1600 (phone call)</b>\nThe client reports fever, muscle aches, fatigue and a headache since this morning, plus a tender, pea-sized lump in the <b>left armpit</b>. Breathing comfortably; no hives, no throat tightness. Sore at the injection site.\n<b>Vital Signs</b> — Day 1 (self-reported): T 38.1°C · HR 92\n<b>Orders</b> — Employee-health vaccine teaching · follow-up as needed",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which of the client's Day 1 findings fit the expected response described in the vaccination deck? Select all that apply.",
+     "options": [
+      "Fatigue and headache",
+      "Tender lump in the left armpit",
+      "Muscle aches",
+      "Age 34",
+      "Fever 38.1°C",
+      "Takes loratadine daily"
+     ],
+     "answer": "A, B, C, E",
+     "rationale": "V-slide 5: the innate inflammatory/immune response causes the side effects seen 24–48 hours after vaccination: lethargy, myalgia, fever, headache. V-slide 6: APCs travel to the closest lymph node, which for a shoulder shot is \"most likely the lymph node located in the arm pit,\" where proliferating cells make it swell. Her loratadine and her age aren't part of the vaccine response.",
+     "src": "V-slides 5–6 + 00:59:37",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "order",
+     "stem": "The client asks why her armpit is swollen. Put these events in the order they happened after the injection.",
+     "options": [
+      "APCs carry the Spike2 antigen to the closest lymph node, in the armpit",
+      "Muscle cells take up the mRNA and release Spike2 while innate cells respond to the mRNA",
+      "APCs such as dendritic cells and macrophages present Spike2 on MHC II",
+      "A T cell whose receptor fits binds the APC's MHC II/Spike2 and divides by clonal proliferation"
+     ],
+     "answer": "B, C, A, D",
+     "rationale": "V-slides 4–8: the innate system attacks the very immunogenic mRNA while muscle cells make and release Spike2 → APCs (dendritic cells, macrophages) phagocytose it and present it on MHC II → APCs travel to the closest node (armpit) → a matching T cell binds and clonally proliferates. The proliferation is what makes the node swell.",
+     "src": "V-slides 4–8",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "The client asks, \"Does this fever mean the vaccine gave me COVID?\" The client is most likely experiencing:",
+     "options": [
+      "An early COVID infection caused by live virus in the vaccine",
+      "An expected innate inflammatory response to the vaccine",
+      "Serum sickness from circulating immune complexes",
+      "A type I allergic reaction to the mRNA in the vaccine"
+     ],
+     "answer": "B",
+     "rationale": "mRNA is very immunogenic: it riles up innate immune cells, and that inflammatory/immune response causes lethargy, myalgia, fever and headache 24–48 hours later (V-slide 5). There is no virus in the vaccine to infect her. An allergy would show as hives, itching or airway signs, and she has none. Serum sickness is a type III reaction to foreign serum such as antivenom.",
+     "src": "V-slides 4–5",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "Which points should the nurse include in the client's teaching? Select all that apply.",
+     "options": [
+      "Plasma cells keep producing antibodies against Spike2 for a time",
+      "The T cells released after the shot find no infection, so many expire and memory cells remain",
+      "The whole process of making memory cells takes about 10–14 days",
+      "She is fully protected within 24 hours of the shot",
+      "A later booster causes a secondary response, so antibody levels rise within days",
+      "The T cells released after the shot will attack her muscle cells"
+     ],
+     "answer": "A, B, C, E",
+     "rationale": "V-slides 9–12: the released T cells and antibodies find no infection; activated cells have an \"expiration date,\" memory T/B cells form and antibody production continues, over 10–14 days. Boosters cause a secondary response, with levels up within days (slide 52). Protection isn't immediate, and the T cells don't attack her own tissue.",
+     "src": "V-slides 9–12 + slide 52 + 01:07:24",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "mc",
+     "stem": "<b>Week 3.</b> Eighteen days after her vaccination, the client had close contact with a coworker who now has COVID. She feels well. What should the nurse tell her?",
+     "options": [
+      "She should double her daily loratadine to block the virus from entering her cells",
+      "She can't carry or spread COVID now that she's vaccinated, so no precautions are needed",
+      "She may spread it even without symptoms, so she should keep masking and washing hands",
+      "She should get a booster today to stop an infection that may already be starting"
+     ],
+     "answer": "C",
+     "rationale": "V-slide 13: if a large viral load gets past the antibodies, infection starts with no signs or symptoms yet, \"though the person may still spread COVID,\" and she may be contagious for a little while. Infection-control measures (masks, hand washing) limit spread. A booster sets up a secondary response; it doesn't stop an infection already underway. Antihistamines only block histamine receptors.",
+     "src": "V-slide 13 + slide 16",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "Which statements by the client show she understood the teaching about the exposure? Select all that apply.",
+     "options": [
+      "\"If it gets in, my memory T cells can find it and respond quickly.\"",
+      "\"Even if I get sick, it's more likely to be mild than to put me in the hospital.\"",
+      "\"My protection started the moment I got the shot.\"",
+      "\"I can't catch or spread COVID anymore.\"",
+      "\"If I get any symptoms at all, it means the vaccine failed.\"",
+      "\"My antibodies may stop the virus before it gets into my cells.\""
+     ],
+     "answer": "A, B, F",
+     "rationale": "V-slide 13: antibodies bind Spike2 and effector cells and complement destroy the virus before it infects cells; if it gets in, memory T cells find it, proliferate and recruit help; minor symptoms can happen, but the person recovers instead of being hospitalized or dying. Spread is still possible for a short time, symptoms don't mean failure, and the process takes 10–14 days.",
+     "src": "V-slides 12–13 + 01:10:03",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Primary care clinic",
+   "setting": "Heel infection with a swollen node · days 1–10 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1100</b>\n58-year-old client with type 2 diabetes stepped on a shell at the beach 5 days ago. The right heel wound is red, warm, swollen and painful. Palpation finds a <b>tender, enlarged lymph node behind the right knee</b>; nodes in both groins are not enlarged. Scaly, itchy skin between the toes of both feet (the client calls it athlete's foot). Works as a mail carrier.\n<b>Vital Signs</b> — T 38.0°C · HR 94 · BP 134/82 · RR 16\n<b>Laboratory Results</b> — Fingerstick glucose 238 mg/dL · wound culture: sent\n<b>Orders</b> — Oral antibiotic · topical antifungal to the toe webs · recheck in 10 days",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which findings show the client's immune system is responding to the <b>heel</b> infection? Select all that apply.",
+     "options": [
+      "Groin nodes not enlarged",
+      "Tender, enlarged node behind the right knee",
+      "Red, warm, swollen heel",
+      "Temperature 38.0°C",
+      "Scaly skin between the toes",
+      "Works as a mail carrier"
+     ],
+     "answer": "B, C, D",
+     "rationale": "A swollen node means T and B cells are proliferating there, and it is the node closest to the infection. Fever is a systemic sign, and redness, warmth and swelling are local signs at the site. The toe-web scaling is a separate (fungal) problem, normal groin nodes simply aren't involved, and his job is context.",
+     "src": "slide 14 + 00:58:59 + 00:59:37",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "sata",
+     "stem": "The client asks why his toes need a different medicine than his heel. Which statements are accurate? Select all that apply.",
+     "options": [
+      "Athlete's foot (tinea pedis) is a superficial fungal infection",
+      "Antibiotics will not kill fungi",
+      "Antifungals target ergosterol in the fungal membrane or glucan in the fungal wall",
+      "Tinea pedis is caused by a virus",
+      "Fungi are prokaryotes, like bacteria",
+      "The antibiotic also treats the fungus, so the cream is just extra"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Slide 12: dermatophytes invade skin, hair and nails, causing tineas (tinea pedis = feet); the fungal wall is made of different polysaccharides from bacterial peptidoglycan, so \"antibiotics will not kill fungi.\" Slide 19: antifungals inhibit ergosterol and glucan. Fungi are eukaryotes, not prokaryotes.",
+     "src": "slides 12, 19 + 00:19:05",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "The provider notes the client's diabetes. Why is this client at higher risk of a severe or spreading infection?",
+     "options": [
+      "Diabetes is one of the illnesses that cause an acquired (secondary) immunodeficiency",
+      "Diabetes causes a type I reaction to bacteria",
+      "Diabetes is a primary (congenital) immunodeficiency caused by a single gene defect",
+      "Diabetes stops new T cells from being properly selected in the thymus, so none reach the nodes"
+     ],
+     "answer": "A",
+     "rationale": "Diabetes is on the slide's list of acquired (secondary) causes: the immune system itself is fine, but another illness impairs it. The hallmark of an immune deficiency is multiple, severe infections. Primary deficiencies are congenital, usually single-gene defects.",
+     "src": "slides 82, 85 + 01:51:04 + 01:51:37",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "Which items should the nurse include in the plan for the next 10 days? Select all that apply.",
+     "options": [
+      "Palpate the node behind the knee at the recheck",
+      "Teach the client to apply the antifungal to the toe webs as ordered",
+      "Teach that an enlarged node means the infection has spread to the bloodstream",
+      "Hold the antibiotic so the client develops natural immunity",
+      "Apply the antifungal cream to the heel wound instead of taking the antibiotic",
+      "Follow up on the wound culture result"
+     ],
+     "answer": "A, B, F",
+     "rationale": "Palpating nodes is how the nurse checks the proliferation he described, a culture identifies the organism, and the fungus needs the antifungal. Holding the antibiotic risks a severe infection, an antifungal doesn't treat bacteria, and a swollen node means the immune system is working at the closest node, not that the infection is in the blood.",
+     "src": "slides 14, 19 + 00:29:45 + 00:58:59 + 00:59:37",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "order",
+     "stem": "The client asks how his body is fighting the heel infection. The nurse explains the steps. Put them in order.",
+     "options": [
+      "APCs at the heel present the bacterial antigen on MHC II",
+      "APCs travel to the closest lymph node, behind the knee",
+      "A matching T cell binds the APC, then T cells proliferate and leave the node",
+      "Innate immune cells attack the bacteria in the heel and cause inflammation"
+     ],
+     "answer": "D, A, B, C",
+     "rationale": "His step-by-step: infection → the innate system fights first (\"could be the final step\") → if there is a lot of inflammation, APCs present the antigen on MHC II → APCs travel to the closest lymph tissue → the right T cell binds → clonal proliferation, and the T cells leave. Step one, having the T and B cells in place, happened long before the injury.",
+     "src": "slides 41–47 + 01:04:55 + 01:05:27 + 01:05:59",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "sata",
+     "stem": "<b>Day 10, 1100.</b> Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Redness around the heel is shrinking",
+      "Less itching and scaling between the toes",
+      "T 37.0°C",
+      "Fingerstick glucose 251 mg/dL",
+      "A new fluctuant pocket of pus at the heel",
+      "The node behind the knee is smaller and no longer tender"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Fever is gone, the node is going down as the cells stop proliferating, the local heel signs are fading and the fungal skin is improving. A new pocket of pus suggests an abscess that may need draining (slide 20), and persistently high glucose keeps his diabetes-related risk going. Both need follow-up.",
+     "src": "slides 15, 20, 82 + 00:59:37",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Emergency department",
+   "setting": "Second bee sting in a breastfeeding client · 3 hours · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1430</b>\n29-year-old client stung on the forearm by a bee 20 minutes ago at a picnic. Last summer she was stung once and had only a small local bump. Now: hives on the arms and chest, intense itching, runny nose, red watery eyes and one episode of vomiting. Speaking in full sentences; no wheezing. She is <b>breastfeeding a 4-month-old</b> and plans to drive home.\n<b>Vital Signs</b> — T 36.9°C · HR 104 · BP 116/72 · RR 20 · SpO₂ 98% on room air\n<b>Orders</b> — Diphenhydramine IV once · monitor vital signs every 15 min",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings are signs of a type I (histamine-driven) reaction? Select all that apply.",
+     "options": [
+      "Intense itching",
+      "Vomiting",
+      "Hives on the arms and chest",
+      "Speaking in full sentences",
+      "SpO₂ 98% on room air",
+      "Runny nose with red, watery eyes"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Slide 57's type I symptoms: GI (diarrhea, vomiting), skin (urticaria, pruritus), mucosa (conjunctivitis, rhinitis), airway (bronchoconstriction, mucus, edema) and vascular (angioedema, hypotension), with histamine as the main chemical. A normal SpO₂ and full sentences are reassuring findings, not signs of the reaction.",
+     "src": "slide 57 + 01:28:31 + 01:29:09",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "mc",
+     "stem": "The client says, \"I've been stung before and was fine. Why now?\" Which explanation is accurate?",
+     "options": [
+      "The first sting built tolerance, which has now worn off over the past year",
+      "Last summer's sting sensitized her immune system to the venom",
+      "Bee allergies only start in adulthood, usually after about age 25",
+      "This bee injected much more venom than the bee that stung her last summer"
+     ],
+     "answer": "B",
+     "rationale": "\"You can only have an immune reaction to something that your immune system has seen.\" The first sting sensitized her: T and B cells took 7–14 days, by which time the venom was long gone, so there was no reaction. Mast cells were primed, and this sting causes degranulation. Each sting raises the risk, so tolerance didn't build.",
+     "src": "slide 57 + 01:21:48 + 01:23:27 + 01:23:57 + 01:24:30",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "sata",
+     "stem": "The nurse monitors the client. Which new findings would signal progression to <b>anaphylaxis</b> and need immediate action? Select all that apply.",
+     "options": [
+      "Itching that is still present",
+      "SpO₂ dropping to 90%",
+      "Eyes still red and watery",
+      "BP falling to 84/50",
+      "New wheezing with throat tightness",
+      "More hives spreading to the back"
+     ],
+     "answer": "B, D, E",
+     "rationale": "Anaphylaxis is the systemic, life-threatening form: mediators cause bronchoconstriction → hypoxia, and vasodilation → shock. \"A very serious medical emergency.\" More hives, itching and watery eyes are still local/atopic signs of the same type I reaction.",
+     "src": "slides 59–60 + 01:29:48",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "Before giving the ordered diphenhydramine, which client factors should the nurse consider? Select all that apply.",
+     "options": [
+      "Her SpO₂ is 98%",
+      "Her first sting caused only a local bump",
+      "She is 29 years old",
+      "She plans to drive herself home",
+      "She is breastfeeding a 4-month-old"
+     ],
+     "answer": "D, E",
+     "rationale": "Antihistamines are contraindicated in nursing mothers (sedation, decreased milk production; slide 64), and diphenhydramine is a highly sedating first-generation drug, so driving home afterward is a safety problem. Her age, normal SpO₂ and history of a mild first sting don't affect the drug decision.",
+     "src": "slides 61–62, 64 + 01:31:05 + 01:34:42",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "mc",
+     "stem": "What should the nurse do about the diphenhydramine order?",
+     "options": [
+      "Give it, then tell her to breastfeed right away so the infant gets the dose",
+      "Hold it and clarify the order with the provider",
+      "Give it by mouth instead of IV so less reaches the milk",
+      "Give it now — antihistamines increase milk production"
+     ],
+     "answer": "B",
+     "rationale": "Slide 64 lists nursing mothers as a contraindication, not a caution: antihistamines cause sedation and decrease milk production. He repeated it: \"contraindicated in anybody nursing.\" The nurse holds the drug and clarifies with the provider. Changing the route doesn't remove a contraindication.",
+     "src": "slide 64 + 01:34:42",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 1730.</b> Which findings show the client is <b>improving</b>? Select all that apply.",
+     "options": [
+      "A new hoarse voice and throat tightness",
+      "Says, \"Next time I'm stung I'll probably be fine.\"",
+      "Hives are fading",
+      "Itching is much less",
+      "SpO₂ 98% with no wheezing",
+      "BP 120/76 · HR 84"
+     ],
+     "answer": "C, D, E, F",
+     "rationale": "Fading skin signs with normal, stable vital signs and a clear airway show improvement. New hoarseness and throat tightness point to airway involvement (bronchoconstriction, edema) and need immediate follow-up. Her statement shows a gap in understanding: every sting increases the chance of a reaction.",
+     "src": "slides 57, 59 + 01:24:30",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Neurology clinic → emergency department",
+   "setting": "Myasthenia gravis · months 0–6 · 6 questions",
+   "text": "<b>Nurses' Notes — Month 0, 0930</b>\n36-year-old client reports a drooping right eyelid and arm weakness when brushing her hair. Her mother has rheumatoid arthritis. Takes cetirizine (Zyrtec) for seasonal allergies. Walks her dog daily.\n<b>Vital Signs</b> — T 36.8°C · HR 76 · BP 118/74 · RR 14 · SpO₂ 99%\n<b>Laboratory Results</b> — Acetylcholine-receptor antibodies: <b>positive</b>\n<b>Orders</b> — Pyridostigmine PO · corticosteroid PO · neurology follow-up",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which findings are consistent with myasthenia gravis? Select all that apply.",
+     "options": [
+      "SpO₂ 99%",
+      "Positive acetylcholine-receptor antibodies",
+      "Arm weakness when brushing her hair",
+      "Walks her dog daily",
+      "Drooping right eyelid",
+      "Takes cetirizine for seasonal allergies"
+     ],
+     "answer": "B, C, E",
+     "rationale": "In myasthenia gravis, antibodies bind ACh receptors on muscle, so ACh can't activate the muscle → flaccid muscles, even paralysis; \"the eyelid is flaccid.\" The positive antibody test fits. Her antihistamine, a normal SpO₂ and her daily walk aren't part of the picture.",
+     "src": "slides 66–67 + 01:36:40 + 01:37:14",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "Which statement best describes what is happening at the client's neuromuscular junction?",
+     "options": [
+      "IgE on mast cells releases histamine that paralyzes the muscle",
+      "Antibodies block the ACh receptors like antagonists — a type II reaction",
+      "Sensitized T cells attack the muscle over 24–72 hours — type IV",
+      "Immune complexes deposit in the joints and kidneys — a type III reaction"
+     ],
+     "answer": "B",
+     "rationale": "Myasthenia gravis is the slides' example of type II \"target cell malfunction\": antibodies bind receptors \"kind of like antagonists, and block their activation.\" The antibodies are IgG/IgM against a specific tissue (self), so it's autoimmune. IgE/histamine is type I, circulating complexes are type III, and T cells are type IV.",
+     "src": "slides 56, 66–68 + 01:36:40",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "<b>Month 4, 2100.</b> The client is brought to the ED with severe generalized weakness, trouble swallowing and shallow breathing. SpO₂ 91%. The client is most likely experiencing:",
+     "options": [
+      "Serum sickness",
+      "Sedation from a second-generation antihistamine",
+      "Anaphylaxis from her cetirizine",
+      "A myasthenic crisis"
+     ],
+     "answer": "D",
+     "rationale": "Worsening blockade of ACh receptors → muscle weakness up to paralysis; slide 68 names this the myasthenic crisis. Anaphylaxis is a type I reaction with hives, bronchoconstriction and shock; cetirizine is a second-generation drug with much less sedation, which wouldn't explain profound weakness.",
+     "src": "slide 68 + 01:37:14",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "Which treatments does the nurse anticipate for the <b>crisis</b>? Select all that apply.",
+     "options": [
+      "IV immune globulin (IVIG)",
+      "A switch to diphenhydramine",
+      "Hydroxychloroquine",
+      "Rho(D) immune globulin IM",
+      "Plasma exchange"
+     ],
+     "answer": "A, E",
+     "rationale": "Slide 68: \"plasma exchange and intravenous immune globulin should be given in myasthenic crises.\" Plasma exchange cleans antibodies out of the blood. Rho(D) immune globulin is for Rh sensitization, hydroxychloroquine is on the SLE slide, and a sedating antihistamine has no role.",
+     "src": "slide 68 + 01:37:51",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "mc",
+     "stem": "The client's partner asks what plasma exchange does. Which explanation is accurate?",
+     "options": [
+      "It replaces her own T cells with matched donor T cells from a blood bank",
+      "It adds extra acetylcholine to her blood so more reaches the muscle",
+      "It cleans the antibodies that block her receptors out of the blood",
+      "It removes her thymus, where the faulty cells were selected"
+     ],
+     "answer": "C",
+     "rationale": "\"You can clean out the blood of any antibodies via plasma exchange.\" More ACh comes from an AChE inhibitor (pyridostigmine) that stops its breakdown, and the thymus is removed by thymectomy, a separate surgery.",
+     "src": "slide 68 + 01:37:51",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "sata",
+     "stem": "<b>Month 6.</b> The client is stable and her thymectomy is scheduled. Which statements show she understands her treatment? Select all that apply.",
+     "options": [
+      "\"The thymus surgery is because too many of the wrong cells got through selection.\"",
+      "\"The steroid calms down my immune system's overreaction.\"",
+      "\"This is an allergy to my own acetylcholine, like a bee-sting allergy.\"",
+      "\"Pyridostigmine keeps more acetylcholine around by slowing its breakdown.\"",
+      "\"Pyridostigmine removes the antibodies from my blood.\""
+     ],
+     "answer": "A, B, D",
+     "rationale": "His treatment logic: increase ACh by stopping its breakdown (pyridostigmine), corticosteroids \"to decrease the immune overreaction,\" and thymectomy \"if you think it's due to too many cells getting through the selection process.\" Removing antibodies is plasma exchange, and myasthenia gravis is type II autoimmunity, not a type I IgE allergy.",
+     "src": "slide 68 + 01:37:14 + 01:37:51",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Emergency department → medical unit",
+   "setting": "Antivenom, then serum sickness · days 1–14 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1500</b>\n46-year-old client bitten on the left ankle by a rattlesnake while hiking. Received antivenom in the ED and was discharged on Day 3.\n<b>Nurses' Notes — Day 10, 1100</b>\nReturns with fever, an itchy rash on the trunk, painful swollen knees and wrists, and tender swollen nodes in the neck and groin. The bite site is healing well. Urine is foamy.\n<b>Vital Signs</b> — T 38.4°C · HR 98 · BP 132/84 · RR 18 · SpO₂ 98%\n<b>Laboratory Results</b> — Urine protein: positive · creatinine: higher than at discharge\n<b>Orders</b> — Admit · strict intake and output · daily kidney labs",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which Day 10 findings fit the slide's description of serum sickness? Select all that apply.",
+     "options": [
+      "Fever 38.4°C",
+      "Tender swollen lymph nodes",
+      "SpO₂ 98%",
+      "Rash on the trunk",
+      "Bite site healing well",
+      "Painful swollen knees and wrists"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Slide 69: serum sickness (with antivenom as the example) causes fever, enlarged lymph nodes, rash, pain and arthritis. A healing bite site and a normal SpO₂ aren't part of it.",
+     "src": "slide 69 + 01:39:11",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "Which mechanism explains the client's illness?",
+     "options": [
+      "Antibody–antivenom complexes circulating and lodging in tissues",
+      "IgE on mast cells reacting to venom still left in the tissues",
+      "Sensitized T cells reaching the joints after 24–72 hours",
+      "Antibodies binding to the cells of a single organ, such as the kidney"
+     ],
+     "answer": "A",
+     "rationale": "Type III: free antigen (here, the foreign serum proteins in antivenom) + antibody → circulating immune complexes, \"giant roaming balls,\" that get stuck in blood vessels, joints and kidneys, activate complement and damage tissue. It is not organ-specific. Organ-specific antibody binding is type II, IgE is type I, and T cells are type IV.",
+     "src": "slides 69–70 + 01:37:51 + 01:38:32 + 01:39:11",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "Which finding is the nurse's <b>highest priority</b> to report and follow?",
+     "options": [
+      "The itchy rash spreading across the trunk and back",
+      "Temperature of 38.4°C",
+      "The tender, swollen lymph nodes in the neck and groin",
+      "The positive urine protein with a rising creatinine"
+     ],
+     "answer": "D",
+     "rationale": "Kidneys are one of the three sites most affected by immune complexes (with vessels and joints), and glomerulonephritis is on the slide's list of systemic type III diseases. Protein in the urine with a rising creatinine means organ damage is happening. Fever, rash and swollen nodes are expected features of serum sickness.",
+     "src": "slide 69 + 01:39:11",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "Which items does the nurse anticipate in the plan of care? Select all that apply.",
+     "options": [
+      "Record the reaction to antivenom in the client's history",
+      "Arrange a crossmatch for a transplant",
+      "Give Rho(D) immune globulin IM",
+      "Trend the daily kidney labs",
+      "Assess the swollen joints and rash each shift",
+      "Measure intake and output strictly"
+     ],
+     "answer": "A, D, E, F",
+     "rationale": "Kidneys, joints and vessels are where the complexes lodge, so the nurse tracks kidney function, joints and skin. Documenting the reaction tells future teams the client has had serum sickness from antivenom. A crossmatch is for transplants, and Rho(D) immune globulin is for Rh-negative mothers.",
+     "src": "slide 69 + 01:39:11",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "The client asks, \"Am I allergic to rattlesnake venom now?\" Which response is accurate?",
+     "options": [
+      "\"Yes, this is an IgE allergy to the venom itself, just like a bee-sting allergy.\"",
+      "\"Your T cells are attacking the bite site and joints, which takes 24–72 hours.\"",
+      "\"The snake's toxin is still circulating in your bloodstream, and that's what is causing all of this.\"",
+      "\"Your antibodies bound the antivenom proteins into complexes that lodged in tissues.\""
+     ],
+     "answer": "D",
+     "rationale": "Serum sickness is a side effect of the treatment: \"the antivenom antibodies in there can start forming these giant complexes and getting stuck in places\" (type III). It isn't an IgE allergy to venom (type I) or a T-cell reaction (type IV).",
+     "src": "slide 69 + 01:39:11",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Day 14, 0800.</b> Which findings show the client is <b>improving</b>? Select all that apply.",
+     "options": [
+      "T 37.0°C",
+      "Urine output 60 mL/h, urine no longer foamy",
+      "Knee and wrist swelling has gone down",
+      "Urine protein still strongly positive and rising",
+      "New purple, non-blanching spots on both legs",
+      "Creatinine back down toward the discharge value"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Fever, arthritis and the kidney findings are all resolving. Rising urine protein means continued kidney damage, and new skin lesions could mean vessel involvement (vasculitis is on the slide's list of systemic type III diseases), so both need follow-up.",
+     "src": "slide 69",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Rheumatology clinic",
+   "setting": "Systemic lupus erythematosus · months 0–3 · 6 questions",
+   "text": "<b>Nurses' Notes — Month 0, 1000</b>\n27-year-old client with 6 weeks of painful, swollen finger joints and knees, a rash across the cheeks and fatigue. Had strep throat 2 months ago. Her older sister has lupus. Works as a dental hygienist. Up to date on vaccines.\n<b>Vital Signs</b> — T 37.6°C · HR 88 · BP 126/80 · RR 16\n<b>Laboratory Results</b> — Hemoglobin: low (anemia) · urine protein: positive · antibodies to nuclear material (histones, nucleic acids): positive\n<b>Orders</b> — Hydroxychloroquine · glucocorticoid · NSAID as needed for joint pain · recheck in 3 months",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "sata",
+     "stem": "Which findings fit the multisystem picture of SLE? Select all that apply.",
+     "options": [
+      "Up to date on vaccines",
+      "Low hemoglobin (anemia)",
+      "Painful, swollen joints",
+      "Works as a dental hygienist",
+      "Rash across the cheeks",
+      "Protein in the urine"
+     ],
+     "answer": "B, C, E, F",
+     "rationale": "Slide 74: SLE is a chronic multisystem inflammatory disease: arthritis, vasculitis and rash, renal disease, hematologic abnormalities (especially anemia) and cardiovascular disease. Her job and vaccination status are background, not SLE findings.",
+     "src": "slide 74 + 01:44:51",
+     "step": "recognize"
+    },
+    {
+     "id": "c08-q02",
+     "type": "sata",
+     "stem": "Which parts of her history fit the causes of autoimmunity he wants you to know? Select all that apply.",
+     "options": [
+      "A sister with lupus",
+      "Works as a dental hygienist",
+      "Up to date on vaccines",
+      "Strep throat 2 months ago",
+      "Female sex"
+     ],
+     "answer": "A, D, E",
+     "rationale": "\"Know that it's either genetic predisposition, breakdown of tolerance or molecular mimicry.\" Genetic predisposition: autoimmunity is more common in women, and her sister has lupus. His SLE story: during a strep throat, an APC may present a histone that's floating around and find a T or B cell for it → autoimmunity. Her job and vaccines aren't on the list.",
+     "src": "slides 73–74 + 01:43:05 + 01:44:17",
+     "step": "analyze"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "Which best describes how SLE damages her kidneys and joints?",
+     "options": [
+      "Antibodies block one receptor on a single organ, like the kidney — type II",
+      "IgE-coated mast cells release histamine into the joints and kidneys — type I",
+      "Autoantibodies form circulating complexes that lodge in tissues — type III",
+      "Sensitized T cells attack the kidney and joints over 24–72 hours — type IV"
+     ],
+     "answer": "C",
+     "rationale": "Slide 74: SLE produces autoantibodies against nucleic acids, histones and other nuclear material, and \"circulating immune complexes form: type III.\" They clog vessels, joints and kidneys. Single-receptor blockade is type II (myasthenia gravis), and T-cell attack is type IV.",
+     "src": "slide 74 + 01:39:45 + 01:43:46 + 01:44:51",
+     "step": "prioritize"
+    },
+    {
+     "id": "c08-q04",
+     "type": "sata",
+     "stem": "Which medications does the nurse expect for SLE, based on the slide? Select all that apply.",
+     "options": [
+      "Diphenhydramine",
+      "Glucocorticoids (corticosteroids)",
+      "Hydroxychloroquine",
+      "NSAIDs",
+      "Rho(D) immune globulin",
+      "Pyridostigmine"
+     ],
+     "answer": "B, C, D",
+     "rationale": "Slide 74 lists immunosuppressives for SLE: hydroxychloroquine, glucocorticoids/corticosteroids and NSAIDs. Pyridostigmine is for myasthenia gravis, Rho(D) immune globulin is for Rh sensitization, and antihistamines don't touch the immune response.",
+     "src": "slide 74 + 01:44:51",
+     "step": "generate"
+    },
+    {
+     "id": "c08-q05",
+     "type": "mc",
+     "stem": "<b>Month 3.</b> The joint pain and rash have settled. The client asks, \"Does this mean I'm cured?\" Which response is best?",
+     "options": [
+      "\"Yes. You can stop all of your medicines now that the symptoms are gone.\"",
+      "\"No, and it will steadily get worse from here no matter which medicines you take.\"",
+      "\"Yes. Once the rash and joint pain are gone, lupus doesn't come back.\"",
+      "\"Lupus usually goes through remissions and flares, so keep your follow-up visits.\""
+     ],
+     "answer": "D",
+     "rationale": "Remissions and exacerbations are common to autoimmune diseases (slide 74); SLE is chronic, so a quiet period isn't a cure. Neither \"cured\" nor \"steadily worse\" fits the pattern on the slide.",
+     "src": "slide 74",
+     "step": "act"
+    },
+    {
+     "id": "c08-q06",
+     "type": "sata",
+     "stem": "At the 3-month visit, which findings show the treatment is <b>working</b>? Select all that apply.",
+     "options": [
+      "Finger and knee swelling has gone down",
+      "New chest pain when lying flat",
+      "Urine protein is now higher than at diagnosis",
+      "Hemoglobin is rising toward normal",
+      "The cheek rash is fading",
+      "Urine protein is negative"
+     ],
+     "answer": "A, D, E, F",
+     "rationale": "Arthritis, rash, anemia and kidney findings are all improving. New chest pain could be the cardiovascular involvement on the slide's list, and rising urine protein means more kidney damage, so both need follow-up.",
+     "src": "slide 74",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "title": "Scenario 9 — Labor & delivery → postpartum unit",
+   "setting": "Rh-negative mother with a postpartum hemorrhage · days 1–2 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 0610</b>\n31-year-old client delivered her <b>first</b> baby vaginally after an epidural. Mother's blood type: <b>O, Rh-negative</b>. Father: Rh-positive. Newborn: <b>Rh-positive</b>, Apgar 8 and 9, breastfeeding well.\n<b>Nurses' Notes — Day 1, 0745</b>\nHeavy vaginal bleeding; the fundus is boggy.\n<b>Vital Signs</b> — 0745: HR 122 · BP 88/54 · RR 22 · SpO₂ 97%\n<b>Laboratory Results</b> — Hemoglobin falling · type and crossmatch: in progress\n<b>Orders</b> — Transfuse packed red blood cells when crossmatched · Rho(D) immune globulin IM before discharge",
+   "questions": [
+    {
+     "id": "c09-q01",
+     "type": "sata",
+     "stem": "Which findings are relevant to the risk of Rh alloimmunity? Select all that apply.",
+     "options": [
+      "Newborn's Apgar scores 8 and 9",
+      "Newborn is Rh-positive",
+      "Newborn is breastfeeding well",
+      "Mother received an epidural",
+      "Mother is Rh-negative",
+      "Father is Rh-positive"
+     ],
+     "answer": "B, E, F",
+     "rationale": "Slide 78's example is an Rh-negative mother with an Rh-positive father and child. The epidural, the Apgar scores and how well the baby is feeding have nothing to do with Rh sensitization.",
+     "src": "slide 78 + 01:45:56",
+     "step": "recognize"
+    },
+    {
+     "id": "c09-q02",
+     "type": "mc",
+     "stem": "The client asks whether her newborn is in danger from the Rh difference. Which explanation is accurate?",
+     "options": [
+      "The baby can be harmed only if she breastfeeds while Rh-negative",
+      "There is no risk now or in any future pregnancy, because the father is Rh-positive",
+      "This baby faces the greatest danger because it is her first pregnancy",
+      "This baby is usually fine; a future Rh-positive baby is the one at risk"
+     ],
+     "answer": "D",
+     "rationale": "\"The first birth, fine. Because remember, there wasn't a sensitizing event.\" Birth exposes her to the baby's blood and is the sensitizing event; the problem comes with the next Rh-positive pregnancy (erythroblastosis fetalis/hemolytic disease of the newborn). This is type II alloimmunity.",
+     "src": "slide 78 + 01:46:37",
+     "step": "analyze"
+    },
+    {
+     "id": "c09-q03",
+     "type": "mc",
+     "stem": "<b>Day 1, 0810.</b> The client needs red blood cells. She is type <b>O</b>. Which ABO type of red cells is compatible with her?",
+     "options": [
+      "Type AB, because AB is the universal type that works for anyone",
+      "Any ABO type, since only Rh matters in pregnancy",
+      "Type A, because it is the most common type",
+      "Type O, because she makes antibodies against both A and B"
+     ],
+     "answer": "D",
+     "rationale": "Type O expresses neither A nor B antigen, so an O person has antibodies against both and can receive only O. O is the universal donor; AB is the universal recipient, not the universal donor. Giving another type causes a transfusion reaction (type II alloimmunity).",
+     "src": "slide 77 + 01:45:23",
+     "step": "prioritize"
+    },
+    {
+     "id": "c09-q04",
+     "type": "sata",
+     "stem": "Which items does the nurse anticipate in the plan for the transfusion and the Rh risk? Select all that apply.",
+     "options": [
+      "Confirm the crossmatch before hanging the blood",
+      "Give Rho(D) immune globulin by the IM route as ordered",
+      "Watch for a transfusion reaction during the infusion",
+      "Give AB red cells if crossmatching is delayed",
+      "Give the Rho(D) immune globulin to the newborn instead"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Mismatched blood triggers a transfusion reaction (slide 77), so the crossmatch is confirmed and the client is watched during the transfusion. Slide 78: Rho(D) immune globulin (RhoGAM, Rhophylac, MICRhoGAM) is given IM. AB is the universal recipient, so AB cells would trigger a reaction in a type O client, and the slide doesn't describe giving the drug to the baby.",
+     "src": "slides 77–78 + 01:45:23 + 01:47:09",
+     "step": "generate"
+    },
+    {
+     "id": "c09-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 0900.</b> The nurse prepares the ordered Rho(D) immune globulin. By which route is it given?",
+     "options": [
+      "Subcutaneous injection",
+      "Slow IV push",
+      "Intramuscular injection",
+      "Oral tablet"
+     ],
+     "answer": "C",
+     "rationale": "Slide 78 lists Rho(D) immune globulin (Rhophylac, RhoGAM, MICRhoGAM) and \"IM\"; he repeated, \"It's an intramuscular shot.\"",
+     "src": "slide 78 + 01:47:09",
+     "step": "act"
+    },
+    {
+     "id": "c09-q06",
+     "type": "sata",
+     "stem": "Before discharge, which statements show the client understands the teaching? Select all that apply.",
+     "options": [
+      "\"If I'm sensitized, my next Rh-positive baby is the one at risk.\"",
+      "\"AB blood would have been the safest choice for me.\"",
+      "\"I got type O blood because O has neither A nor B antigen.\"",
+      "\"Giving birth can expose my immune system to the baby's Rh-positive blood.\"",
+      "\"This baby is at highest risk because it's my first.\""
+     ],
+     "answer": "A, C, D",
+     "rationale": "Birth is the sensitizing event, the risk is to a later Rh-positive baby, and O cells carry neither A nor B, so they're safe for a type O recipient. AB is the universal recipient, so AB cells would cause a reaction in her, and the first baby is usually fine.",
+     "src": "slides 77–78 + 01:45:23 + 01:46:37",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "title": "Scenario 10 — Rapid rounds",
+   "setting": "Transplant unit, clinic and ED · one question each · 6 questions",
+   "text": "Six clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c10-q01",
+     "type": "mc",
+     "stem": "Before a kidney transplant, donor and recipient blood are mixed and the recipient's antibodies lyse the donor cells. What should the nurse expect?",
+     "options": [
+      "The test is repeated after an antihistamine",
+      "The transplant goes ahead, with extra immunosuppressants added to prevent acute rejection",
+      "The transplant goes ahead, since lysis only predicts chronic rejection",
+      "The transplant is canceled, since this result predicts hyperacute (type II) rejection"
+     ],
+     "answer": "D",
+     "rationale": "Crossmatching: \"take the blood of the donor and blood of the recipient, mix it… If there's any cell lysis, that means it's incompatible, and we definitely do not do the transplant.\" Otherwise the graft would suffer hyperacute rejection: immediate, type II, from preexisting antibodies. Acute and chronic rejection are type IV.",
+     "src": "slides 79–80 + 01:48:11 + 01:48:49"
+    },
+    {
+     "id": "c10-q02",
+     "type": "mc",
+     "stem": "Three weeks after a bone marrow transplant, a client develops a rash and diarrhea, and the team suspects the graft is attacking the client. Why is this possible?",
+     "options": [
+      "The donor marrow carries anti-A and anti-B antibodies into the blood",
+      "The recipient's preexisting antibodies are destroying the donor marrow",
+      "The graft triggers an IgE (type I) reaction in the skin and the gut",
+      "Bone marrow makes immune cells, so the donor's cells can attack the host"
+     ],
+     "answer": "D",
+     "rationale": "Graft-versus-host disease (type IV): \"bone marrow is where immune cells come from,\" so the transplanted immune component attacks host tissues that carry antigens foreign to it. Recipient antibodies destroying a graft describes hyperacute rejection (the opposite direction).",
+     "src": "slide 81 + 01:49:57"
+    },
+    {
+     "id": "c10-q03",
+     "type": "mc",
+     "stem": "A nurse places a TB skin test on a new employee. The employee asks why the result isn't checked right away. The nurse explains that:",
+     "options": [
+      "Antibodies need a few minutes to bind the test antigen in the skin",
+      "Sensitized T cells must travel to the site, which takes 24–72 hours",
+      "Mast cells need about a week to release enough histamine",
+      "The test site must first be swabbed and cultured in the lab"
+     ],
+     "answer": "B",
+     "rationale": "The TB skin test is a type IV (cell-mediated) reaction: if you've had TB, T cells travel to that part of the skin, activate and proliferate. That takes time, 24–72 hours on slide 71. Reactions driven by antibodies (types I–III) are immediate.",
+     "src": "slide 71 + 01:42:03 + 01:42:35"
+    },
+    {
+     "id": "c10-q04",
+     "type": "sata",
+     "stem": "A 79-year-old client has been taking diphenhydramine (Benadryl) nightly for sleep. Which effects should the nurse assess for? Select all that apply.",
+     "options": [
+      "New confusion",
+      "Urinary retention",
+      "Falls or near-falls",
+      "Increased milk production",
+      "Blurred vision",
+      "Diarrhea"
+     ],
+     "answer": "A, B, C, E",
+     "rationale": "Older adults are on the caution list (slide 64): serious anticholinergic effects such as confusion, sedation, constipation, blurred vision and urinary retention, plus more falls and a possible link to dementia. First-generation diphenhydramine is highly sedating. Its GI effect is constipation, not diarrhea, and decreased (not increased) milk is the nursing-mother concern.",
+     "src": "slides 61, 64 + 01:31:05"
+    },
+    {
+     "id": "c10-q05",
+     "type": "sata",
+     "stem": "A 3-year-old swallowed several of a grandparent's antihistamine tablets. Which findings fit antihistamine toxicity? Select all that apply.",
+     "options": [
+      "Flushed face",
+      "Pinpoint pupils",
+      "CNS excitation (agitation)",
+      "Tachycardia",
+      "Heavy drooling",
+      "Dilated pupils"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Slide 63: CNS and anticholinergic toxicity cause dilated pupils, flushed face, hyperpyrexia, tachycardia, dry mouth and urinary retention, and children show CNS excitation (very young children are especially sensitive to CNS stimulation). The pupils are dilated, not pinpoint, and the mouth is dry rather than drooling. Acute toxicity is rare because of the large margin of safety, but the drugs are everywhere.",
+     "src": "slides 61, 63 + 01:34:42"
+    },
+    {
+     "id": "c10-q06",
+     "type": "sata",
+     "stem": "Which clients have an <b>acquired</b> (secondary) immunodeficiency? Select all that apply.",
+     "options": [
+      "An infant with SCID",
+      "A child with C3 deficiency",
+      "A client with alcoholic cirrhosis",
+      "A client with AIDS",
+      "A client with severe malnutrition",
+      "A client who is 30 weeks pregnant"
+     ],
+     "answer": "C, D, E, F",
+     "rationale": "Acquired deficiencies are caused by another condition: pregnancy (immunity naturally suppressed to protect the baby), AIDS, alcoholic cirrhosis (decreased complement) and malnutrition are all on slide 82. SCID and C3 deficiency are primary (congenital/genetic) defects.",
+     "src": "slides 82–83, 85 + 01:51:37 + 01:52:08 + 01:52:39"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "Colonization",
+   "back": "Establishing a presence WITHOUT damage: commensal (normal) flora, which \"if anything, prevent disease\"",
+   "tag": "terminology",
+   "src": "slide 2 + 00:02:13"
+  },
+  {
+   "id": "fc-002",
+   "front": "C → I → V = P",
+   "back": "Communicability → infectivity → virulence = pathogenicity. \"Know this process in general.\"",
+   "tag": "terminology",
+   "src": "slide 3 + 00:08:19"
+  },
+  {
+   "id": "fc-003",
+   "front": "Communicability",
+   "back": "Ability to spread from one person to others (measles, pertussis: very; HIV: not)",
+   "tag": "terminology",
+   "src": "slide 3 + 00:03:20"
+  },
+  {
+   "id": "fc-004",
+   "front": "Infectivity",
+   "back": "Ability to invade and multiply in the host; the share of exposed people who become infected",
+   "tag": "terminology",
+   "src": "slide 3 + 00:04:57"
+  },
+  {
+   "id": "fc-005",
+   "front": "Virulence",
+   "back": "Ability to cause SEVERE disease or death (cold: low · rabies: high)",
+   "tag": "terminology",
+   "src": "slide 3 + 00:06:02"
+  },
+  {
+   "id": "fc-006",
+   "front": "Immunogenicity",
+   "back": "Ability to induce an immune response. The one virulence-factor term he wants you to know.",
+   "tag": "terminology",
+   "src": "slide 4 + 00:08:55"
+  },
+  {
+   "id": "fc-007",
+   "front": "Antigen",
+   "back": "\"Any substance that the immune system recognizes\" (toxin, microbe surface, transplanted organ)",
+   "tag": "terminology",
+   "src": "slide 5 + 00:09:27"
+  },
+  {
+   "id": "fc-008",
+   "front": "Prion",
+   "back": "Infectious misfolded protein with no genome; makes normal proteins misfold → CNS disease (mad cow)",
+   "tag": "pathogens",
+   "src": "slide 6 + 00:11:09"
+  },
+  {
+   "id": "fc-009",
+   "front": "Virus structure",
+   "back": "Protein coat around a nucleic-acid core (DNA or RNA); must infect a host cell to replicate",
+   "tag": "pathogens",
+   "src": "slide 7 + 00:14:25"
+  },
+  {
+   "id": "fc-010",
+   "front": "Gram stain colors",
+   "back": "Purple = gram-positive · pink = gram-negative",
+   "tag": "pathogens",
+   "src": "slide 9 + 00:17:25"
+  },
+  {
+   "id": "fc-011",
+   "front": "Why gram-negative is worse",
+   "back": "Extra layer evades the immune system and antibiotics: \"the armored tanks of the bacterial world\"",
+   "tag": "pathogens",
+   "src": "slide 9 + 00:16:42"
+  },
+  {
+   "id": "fc-012",
+   "front": "Exotoxins",
+   "back": "\"Exo = exit\": proteins purposely and constantly released during growth (diphtheria, tetanus, pertussis)",
+   "tag": "pathogens",
+   "src": "slide 10 + 00:18:01"
+  },
+  {
+   "id": "fc-013",
+   "front": "Endotoxins",
+   "back": "\"Endo = inside\": LPS of gram-negative bacteria, released only when the bacteria are lysed; pyrogenic, ↑ permeability",
+   "tag": "pathogens",
+   "src": "slide 10 + 00:18:01"
+  },
+  {
+   "id": "fc-014",
+   "front": "Antibiotics inhibit bacteria by blocking…",
+   "back": "Cell-wall synthesis · protein synthesis · nucleic-acid synthesis · metabolism",
+   "tag": "pathogens",
+   "src": "slide 17"
+  },
+  {
+   "id": "fc-015",
+   "front": "How bacteria fight back against antibiotics",
+   "back": "Inactivate the drug · alter its binding site · use other metabolic pathways · change cell walls to keep it out",
+   "tag": "pathogens",
+   "src": "slide 17"
+  },
+  {
+   "id": "fc-016",
+   "front": "Antivirals inhibit…",
+   "back": "Viral RNA/DNA synthesis · viral enzymes · viral binding to cells · new capsid (protein coat) production",
+   "tag": "pathogens",
+   "src": "slide 18"
+  },
+  {
+   "id": "fc-017",
+   "front": "Antifungals inhibit…",
+   "back": "Ergosterol in fungal cell membranes · glucan in fungal cell walls",
+   "tag": "pathogens",
+   "src": "slide 19"
+  },
+  {
+   "id": "fc-018",
+   "front": "Surgical interventions for infection",
+   "back": "Remove infected tissue/organ · drain abscesses · debridement (e.g., thick biofilm)",
+   "tag": "pathogens",
+   "src": "slide 20 + 00:30:52"
+  },
+  {
+   "id": "fc-019",
+   "front": "Local vs systemic signs",
+   "back": "Local: diarrhea, rash, convulsions, hemorrhage, pneumonia · systemic: fever, myalgia, headache, lethargy",
+   "tag": "disease-course",
+   "src": "slide 14 + 00:20:51"
+  },
+  {
+   "id": "fc-020",
+   "front": "Why is a headache systemic?",
+   "back": "Vasodilation and whole-body inflammation; the brain has no sensory receptors",
+   "tag": "disease-course",
+   "src": "00:21:32"
+  },
+  {
+   "id": "fc-021",
+   "front": "Stereotypical disease course",
+   "back": "Incubation → prodromal → acute → convalescent → resolution",
+   "tag": "disease-course",
+   "src": "slide 15 + 00:35:06"
+  },
+  {
+   "id": "fc-022",
+   "front": "Subclinical disease",
+   "back": "Below the clinical threshold: little to no signs or symptoms (\"scratchy throat,\" fine the next day)",
+   "tag": "disease-course",
+   "src": "slide 15 + 00:25:25"
+  },
+  {
+   "id": "fc-023",
+   "front": "Classic chronic infection",
+   "back": "TB: walled off in the lung, \"not 100% secure\"",
+   "tag": "disease-course",
+   "src": "slide 15 + 00:27:03"
+  },
+  {
+   "id": "fc-024",
+   "front": "Infection-control hygiene measures",
+   "back": "Hand washing · face masks · social distancing · quarantine · isolation: \"stop it before it starts\"",
+   "tag": "disease-course",
+   "src": "slide 16 + 00:28:38"
+  },
+  {
+   "id": "fc-025",
+   "front": "Innate immunity",
+   "back": "Present at birth · quick · nonspecific · induces inflammation",
+   "tag": "innate-adaptive",
+   "src": "slide 22 + 00:36:54"
+  },
+  {
+   "id": "fc-026",
+   "front": "Adaptive immunity",
+   "back": "Develops after exposure · slow (~7–14 days) · very specific (\"laser-guided missile\") · memory",
+   "tag": "innate-adaptive",
+   "src": "slide 22 + 00:38:57 + 00:41:02"
+  },
+  {
+   "id": "fc-027",
+   "front": "Humoral immunity",
+   "back": "B cells → antibodies secreted into the blood (receptor = BCR)",
+   "tag": "innate-adaptive",
+   "src": "slide 26 + 00:41:37"
+  },
+  {
+   "id": "fc-028",
+   "front": "Cell-mediated immunity",
+   "back": "T cells coordinate effector cells (receptor = TCR)",
+   "tag": "innate-adaptive",
+   "src": "slide 26 + 00:42:07"
+  },
+  {
+   "id": "fc-029",
+   "front": "The diversity problem",
+   "back": ">10¹² antigen receptors from only ~26,000 protein-coding genes",
+   "tag": "selection",
+   "src": "slide 28 + 00:44:18"
+  },
+  {
+   "id": "fc-030",
+   "front": "Where B cells are selected",
+   "back": "Bone marrow. \"You need to know that.\"",
+   "tag": "selection",
+   "src": "slide 29 + 00:49:27"
+  },
+  {
+   "id": "fc-031",
+   "front": "Where T cells are selected",
+   "back": "Thymus",
+   "tag": "selection",
+   "src": "slide 29 + 00:49:27"
+  },
+  {
+   "id": "fc-032",
+   "front": "Positive selection",
+   "back": "Cell binds NOTHING → told to die (useless, waste of resources)",
+   "tag": "selection",
+   "src": "slide 29 + 00:50:18"
+  },
+  {
+   "id": "fc-033",
+   "front": "Negative selection",
+   "back": "Cell binds SELF too strongly → told to die. Prevents autoimmunity.",
+   "tag": "selection",
+   "src": "slide 29 + 00:50:18"
+  },
+  {
+   "id": "fc-034",
+   "front": "APCs present antigen on…",
+   "back": "MHC class II (= HLA in humans). \"Just remember, it's MHC class II.\"",
+   "tag": "apc-activation",
+   "src": "slide 33 + 00:57:01"
+  },
+  {
+   "id": "fc-035",
+   "front": "Clonal proliferation",
+   "back": "One matched cell divides over and over (mitosis) to make enough to fight",
+   "tag": "apc-activation",
+   "src": "slide 32 + 00:54:47"
+  },
+  {
+   "id": "fc-036",
+   "front": "Swollen lymph node means…",
+   "back": "T/B cells proliferating: good (system working) AND bad (active infection); the closest node",
+   "tag": "apc-activation",
+   "src": "00:58:59 + 00:59:37"
+  },
+  {
+   "id": "fc-037",
+   "front": "T helper cells",
+   "back": "Coordinators: \"don't get their hands dirty\"; direct cytotoxic T cells, macrophages, B cells",
+   "tag": "apc-activation",
+   "src": "slide 35 + 01:01:04"
+  },
+  {
+   "id": "fc-038",
+   "front": "Direct antibody functions",
+   "back": "Neutralization · agglutination (cells) · precipitation (soluble antigens)",
+   "tag": "apc-activation",
+   "src": "slide 38 + 01:02:06"
+  },
+  {
+   "id": "fc-039",
+   "front": "Step-by-step: the very first step",
+   "back": "Develop T and B cells specific for antigens, in lymph tissue, BEFORE infection (\"students always get this wrong\")",
+   "tag": "apc-activation",
+   "src": "slide 40 + 01:02:36 + 01:03:40"
+  },
+  {
+   "id": "fc-040",
+   "front": "Step-by-step: steps 4 → 6",
+   "back": "APC presents on MHC II → travels to the closest lymph tissue → the right T cell binds",
+   "tag": "apc-activation",
+   "src": "slides 43–45"
+  },
+  {
+   "id": "fc-041",
+   "front": "Step-by-step: steps 7 → 8",
+   "back": "Clonal proliferation of T cells, activation of B cells → T cells leave; B cells become plasma cells",
+   "tag": "apc-activation",
+   "src": "slides 46–47"
+  },
+  {
+   "id": "fc-042",
+   "front": "Step-by-step: steps 9 → 11",
+   "back": "T cells find the site → recruit effector cells → memory T/B cells, continued antibodies",
+   "tag": "apc-activation",
+   "src": "slides 48–50"
+  },
+  {
+   "id": "fc-043",
+   "front": "Primary immune response",
+   "back": "Memory B cells made; antibody rises over 2–3 weeks. Vaccination produces one.",
+   "tag": "vaccines",
+   "src": "slide 51"
+  },
+  {
+   "id": "fc-044",
+   "front": "Secondary immune response",
+   "back": "Memory B cells respond immediately; levels rise within days. Boosters cause one.",
+   "tag": "vaccines",
+   "src": "slide 52"
+  },
+  {
+   "id": "fc-045",
+   "front": "Why can a pertussis-vaccinated person spread it?",
+   "back": "The vaccine is against the TOXIN, not the bacteria",
+   "tag": "vaccines",
+   "src": "01:12:53 + 01:13:36"
+  },
+  {
+   "id": "fc-046",
+   "front": "Vaccine side effects at 24–48 h",
+   "back": "Lethargy, myalgia, fever, headache, from the innate inflammatory response",
+   "tag": "vaccines",
+   "src": "V-slide 5"
+  },
+  {
+   "id": "fc-047",
+   "front": "How long does the vaccine process take?",
+   "back": "About 10–14 days to memory T/B cells",
+   "tag": "vaccines",
+   "src": "V-slide 12"
+  },
+  {
+   "id": "fc-048",
+   "front": "Allergy vs autoimmunity vs alloimmunity",
+   "back": "Environmental (foreign) antigens · self antigens · another person's tissue",
+   "tag": "hypersensitivity",
+   "src": "slide 55 + 01:19:33"
+  },
+  {
+   "id": "fc-049",
+   "front": "Type I",
+   "back": "IgE on mast cells → histamine; immediate; allergy",
+   "tag": "hypersensitivity",
+   "src": "slides 56–57"
+  },
+  {
+   "id": "fc-050",
+   "front": "Type II",
+   "back": "IgG/IgM against a specific cell or tissue; immediate (myasthenia gravis; ABO, Rh, hyperacute rejection)",
+   "tag": "hypersensitivity",
+   "src": "slides 56, 66, 77–80"
+  },
+  {
+   "id": "fc-051",
+   "front": "Type III",
+   "back": "Circulating antigen–antibody complexes deposit; not organ-specific (serum sickness, SLE, Arthus)",
+   "tag": "hypersensitivity",
+   "src": "slides 69–70"
+  },
+  {
+   "id": "fc-052",
+   "front": "Type IV",
+   "back": "T cells, not antibodies · delayed 24–72 h (TB skin test, poison ivy, graft rejection, MS)",
+   "tag": "hypersensitivity",
+   "src": "slide 71"
+  },
+  {
+   "id": "fc-053",
+   "front": "Sensitizing event",
+   "back": "You can only react to what your immune system has already seen; the first exposure sensitizes",
+   "tag": "hypersensitivity",
+   "src": "01:21:48 + 01:23:27"
+  },
+  {
+   "id": "fc-054",
+   "front": "Type I symptoms by system",
+   "back": "GI vomiting/diarrhea · skin hives/itch · mucosa conjunctivitis/rhinitis · airway bronchospasm · vascular angioedema/hypotension",
+   "tag": "hypersensitivity",
+   "src": "slide 57 + 01:29:09"
+  },
+  {
+   "id": "fc-055",
+   "front": "Anaphylaxis",
+   "back": "Systemic type I: bronchoconstriction → hypoxia + vasodilation → shock; life-threatening",
+   "tag": "hypersensitivity",
+   "src": "slides 59–60 + 01:29:48"
+  },
+  {
+   "id": "fc-056",
+   "front": "Serum sickness",
+   "back": "Type III after foreign serum (antivenom) → vessels, joints, kidneys: fever, nodes, rash, arthritis",
+   "tag": "hypersensitivity",
+   "src": "slide 69 + 01:39:11"
+  },
+  {
+   "id": "fc-057",
+   "front": "Myasthenia gravis mechanism",
+   "back": "Antibodies block ACh receptors \"like antagonists\" → flaccid muscle, droopy eyelid (type II)",
+   "tag": "hypersensitivity",
+   "src": "slides 66–67 + 01:36:40"
+  },
+  {
+   "id": "fc-058",
+   "front": "Myasthenia gravis treatment",
+   "back": "Pyridostigmine (AChE inhibitor) · corticosteroids · thymectomy · plasma exchange + IVIG in crisis",
+   "tag": "hypersensitivity",
+   "src": "slide 68 + 01:37:14 + 01:37:51"
+  },
+  {
+   "id": "fc-059",
+   "front": "H1 antagonist mechanism",
+   "back": "Block histamine at H1 receptors; mast cells still release histamine",
+   "tag": "antihistamines",
+   "src": "slide 61 + 01:30:28"
+  },
+  {
+   "id": "fc-060",
+   "front": "1st-generation H1 antagonist example",
+   "back": "Diphenhydramine (Benadryl): highly sedating",
+   "tag": "antihistamines",
+   "src": "slide 61 + 01:31:05"
+  },
+  {
+   "id": "fc-061",
+   "front": "2nd-generation H1 antagonists",
+   "back": "Less sedation, poor BBB crossing, almost no anticholinergic effect: cetirizine, fexofenadine, loratadine",
+   "tag": "antihistamines",
+   "src": "slide 65"
+  },
+  {
+   "id": "fc-062",
+   "front": "Antihistamines contraindicated in…",
+   "back": "3rd trimester · nursing mothers · newborn infants",
+   "tag": "antihistamines",
+   "src": "slide 64 + 01:34:42"
+  },
+  {
+   "id": "fc-063",
+   "front": "Antihistamine caution: older adults",
+   "back": "Confusion, sedation, constipation, blurred vision, urinary retention, falls",
+   "tag": "antihistamines",
+   "src": "slide 64"
+  },
+  {
+   "id": "fc-064",
+   "front": "Antihistamine toxicity signs",
+   "back": "Dilated pupils, flushed face, hyperpyrexia, tachycardia, dry mouth, urinary retention; children: CNS excitation",
+   "tag": "antihistamines",
+   "src": "slide 63"
+  },
+  {
+   "id": "fc-065",
+   "front": "Autoimmunity: the 3 causes to know",
+   "back": "Genetic predisposition · breakdown of tolerance · molecular mimicry",
+   "tag": "autoimmunity",
+   "src": "slide 73 + 01:43:05"
+  },
+  {
+   "id": "fc-066",
+   "front": "Molecular mimicry example",
+   "back": "MS and the flu: viral antigens resemble myelin",
+   "tag": "autoimmunity",
+   "src": "slide 73 + 01:43:46"
+  },
+  {
+   "id": "fc-067",
+   "front": "SLE hypersensitivity type",
+   "back": "Type III: autoantibodies to nuclear material form circulating complexes",
+   "tag": "autoimmunity",
+   "src": "slide 74 + 01:43:46"
+  },
+  {
+   "id": "fc-068",
+   "front": "SLE features",
+   "back": "Women · chronic multisystem: arthritis, rash, renal, anemia, CV · remissions & exacerbations",
+   "tag": "autoimmunity",
+   "src": "slide 74 + 01:44:51"
+  },
+  {
+   "id": "fc-069",
+   "front": "SLE drugs",
+   "back": "Hydroxychloroquine · glucocorticoids · NSAIDs",
+   "tag": "autoimmunity",
+   "src": "slide 74"
+  },
+  {
+   "id": "fc-070",
+   "front": "Alloimmunity: 3 types",
+   "back": "Blood transfusion · fetus in pregnancy · transplanted tissue",
+   "tag": "alloimmunity",
+   "src": "slide 76 + 01:44:51"
+  },
+  {
+   "id": "fc-071",
+   "front": "Universal donor / recipient",
+   "back": "Type O (no A or B antigen) = universal donor · AB (both) = universal recipient",
+   "tag": "alloimmunity",
+   "src": "slide 77"
+  },
+  {
+   "id": "fc-072",
+   "front": "Rh disease: which baby is at risk?",
+   "back": "The SECOND Rh+ baby; birth is the sensitizing event",
+   "tag": "alloimmunity",
+   "src": "slide 78 + 01:46:37"
+  },
+  {
+   "id": "fc-073",
+   "front": "Rho(D) immune globulin route",
+   "back": "IM (RhoGAM, Rhophylac, MICRhoGAM)",
+   "tag": "alloimmunity",
+   "src": "slide 78 + 01:47:09"
+  },
+  {
+   "id": "fc-074",
+   "front": "Hyperacute vs acute vs chronic rejection",
+   "back": "Hyperacute: immediate, type II, preexisting antibody · acute: days–months, type IV · chronic: months–years, type IV",
+   "tag": "alloimmunity",
+   "src": "slide 80"
+  },
+  {
+   "id": "fc-075",
+   "front": "Graft-versus-host disease",
+   "back": "Bone marrow transplant: donor immune cells attack the host (type IV)",
+   "tag": "alloimmunity",
+   "src": "slide 81 + 01:49:57"
+  },
+  {
+   "id": "fc-076",
+   "front": "Primary vs acquired immunodeficiency",
+   "back": "Primary: congenital, usually a single gene · acquired: more common, caused by another illness",
+   "tag": "deficiencies",
+   "src": "slide 82 + 01:51:04"
+  },
+  {
+   "id": "fc-077",
+   "front": "SCID",
+   "back": "Severe combined immunodeficiency: never makes B and T cells; the \"bubble boy\"",
+   "tag": "deficiencies",
+   "src": "slide 83 + 01:52:39"
+  },
+  {
+   "id": "fc-078",
+   "front": "C3 deficiency",
+   "back": "Most severe complement defect → recurrent life-threatening infections",
+   "tag": "deficiencies",
+   "src": "slide 83 + 01:52:39"
+  },
+  {
+   "id": "fc-079",
+   "front": "Chronic granulomatous disease",
+   "back": "Primary phagocyte defect (myeloperoxidase–H₂O₂): recurrent pneumonia, granulomas",
+   "tag": "deficiencies",
+   "src": "slide 84 + 01:53:19"
+  },
+  {
+   "id": "fc-080",
+   "front": "Acquired causes to know",
+   "back": "Pregnancy, aging, malnutrition, cancer, burns, diabetes, alcoholic cirrhosis, immunosuppressants, AIDS",
+   "tag": "deficiencies",
+   "src": "slides 82, 85 + 01:51:37"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "Can anybody give me an example of a disease where the immune system attacks something the organism makes, not the organism? Has anybody heard of whooping cough?",
+   "a": "<b>Pertussis.</b> The bacteria make a <b>toxin</b> that causes the cough; the vaccine is against the toxin, so the immune system neutralizes it while the bacteria are still there.",
+   "src": "00:00:33 + 00:01:04"
+  },
+  {
+   "id": "qa-002",
+   "q": "(student asked) Can you spread COVID before you have symptoms?",
+   "a": "<b>Yes</b>: some diseases spread while you're asymptomatic. For rabies, the animal has to be showing signs to pass it on.",
+   "src": "00:07:46 + 00:08:19"
+  },
+  {
+   "id": "qa-003",
+   "q": "Do you think the extra layer makes gram-negative bacteria more or less destructive than gram-positive?",
+   "a": "<b>More</b>: the extra layer evades the immune system and antibiotics. \"These are like the armored tanks of the bacterial world.\"",
+   "src": "00:16:05 + 00:16:42"
+  },
+  {
+   "id": "qa-004",
+   "q": "(student asked) Which color is which on a Gram stain?",
+   "a": "\"<b>Pink is negative, purple is positive.</b>\"",
+   "src": "00:17:25"
+  },
+  {
+   "id": "qa-005",
+   "q": "Why would fever, headache and myalgia be considered systemic, not local?",
+   "a": "Student: the headache has nothing to do with the brain. <b>Accepted</b>: it comes from vasodilation and whole-body inflammation; the brain has no sensory receptors.",
+   "src": "00:21:32"
+  },
+  {
+   "id": "qa-006",
+   "q": "(Kahoot) True or false: all interactions between humans and microorganisms are detrimental.",
+   "a": "<b>False</b>: we have good bacteria in the gut and on the skin, and the best way to keep bad bacteria out is to have good ones take up the space.",
+   "src": "00:31:49 + 00:32:31"
+  },
+  {
+   "id": "qa-007",
+   "q": "(Kahoot) True or false: certain bacterial cells release proteins called endotoxins during growth.",
+   "a": "<b>False</b>: those are <b>exotoxins</b>. Endotoxins are inside the bacteria and released only when they are attacked.",
+   "src": "00:32:31 + 00:33:13"
+  },
+  {
+   "id": "qa-008",
+   "q": "(Kahoot) Which pathogen is an intracellular parasite consisting of a protein coat surrounding a nucleic acid?",
+   "a": "The answer wasn't audible. <b>Virus</b> (from slide 7).",
+   "src": "00:33:13"
+  },
+  {
+   "id": "qa-009",
+   "q": "(Kahoot) Which type of infection is treated based on the results of a Gram stain?",
+   "a": "<b>Bacterial.</b>",
+   "src": "00:33:13 + 00:34:03"
+  },
+  {
+   "id": "qa-010",
+   "q": "(Kahoot) Put pathogenicity in order.",
+   "a": "<b>Communicability → infectivity → virulence</b> (audio garbled; order from slide 3).",
+   "src": "00:34:03"
+  },
+  {
+   "id": "qa-011",
+   "q": "(Kahoot) Put the disease course in order.",
+   "a": "<b>Incubation → prodromal → acute → convalescent → resolution.</b>",
+   "src": "00:35:06"
+  },
+  {
+   "id": "qa-012",
+   "q": "(Kahoot) True or false: signs and symptoms show up in the subclinical phase.",
+   "a": "<b>False</b>: little to no signs or symptoms. A scratchy throat isn't really a sign.",
+   "src": "00:35:49 + 00:36:23"
+  },
+  {
+   "id": "qa-013",
+   "q": "You guys know what humors are?",
+   "a": "His explanation was garbled. The point: <b>humoral immunity = antibodies secreted into the bloodstream</b>.",
+   "src": "00:41:37"
+  },
+  {
+   "id": "qa-014",
+   "q": "Why does adaptive immunity take a while? Are these antibodies specific or non-specific?",
+   "a": "<b>Very specific</b>: one antibody binds one antigen, so each has to be made by its own cell.",
+   "src": "00:43:14 + 00:43:44"
+  },
+  {
+   "id": "qa-015",
+   "q": "Do you know how many proteins our DNA actually makes?",
+   "a": "He said \"5,000, 10,000\"; slide 28 says <b>26,000</b> protein-coding genes, far too few for <b>10¹²</b> receptors. That's the diversity problem.",
+   "src": "00:44:18"
+  },
+  {
+   "id": "qa-016",
+   "q": "Is DNA very protected? What happens to a cell with DNA damage?",
+   "a": "<b>It dies.</b> Immune cells are different: they purposely rearrange their DNA to make many different antibodies.",
+   "src": "00:44:52 + 00:45:22"
+  },
+  {
+   "id": "qa-017",
+   "q": "Do you think every rearranged cell will make a useful antibody? Should a useless cell stay alive?",
+   "a": "<b>No</b>: \"this is all hitting the lottery.\" A useless cell is a waste of resources, so it's told to die (positive selection).",
+   "src": "00:48:30"
+  },
+  {
+   "id": "qa-018",
+   "q": "Say an immune cell really likes to bind neurons. Good thing or bad thing?",
+   "a": "<b>Bad</b>: it would attack you (autoimmunity), so it's removed by negative selection.",
+   "src": "00:48:30 + 00:49:27"
+  },
+  {
+   "id": "qa-019",
+   "q": "Why is just one cell per antigen stored in a lymph node, and not 1,000 copies?",
+   "a": "With 10¹² different kinds, making copies of each means <b>you'd run out of space</b>.",
+   "src": "00:53:33 + 00:54:13"
+  },
+  {
+   "id": "qa-020",
+   "q": "When that one cell divides on infection, what do we call it?",
+   "a": "<b>Clonal proliferation.</b>",
+   "src": "00:54:47"
+  },
+  {
+   "id": "qa-021",
+   "q": "Can anybody give me a clinical example of when T cells and B cells divide, something you do to patients?",
+   "a": "<b>Palpating lymph nodes.</b> Swollen = T/B cells dividing: good (immune system working) and bad (active infection). The closest node responds: foot infection → behind the knee.",
+   "src": "00:58:59 + 00:59:37"
+  },
+  {
+   "id": "qa-022",
+   "q": "What is the very first thing that needs to happen to fight infection?",
+   "a": "<b>Develop a population of T and B cells</b>, before the infection even happens. \"Students always get this wrong.\"",
+   "src": "01:02:06 + 01:02:36 + 01:03:40"
+  },
+  {
+   "id": "qa-023",
+   "q": "Why aren't infants constantly dying of infection, before vaccination?",
+   "a": "<b>Breast milk</b>: its antibodies can reach the bloodstream because infant stomachs aren't very acidic yet. Parents should be vaccinated too.",
+   "src": "01:02:36 + 01:03:10"
+  },
+  {
+   "id": "qa-024",
+   "q": "After vaccination, when the T cells are released, do they attack anything?",
+   "a": "<b>No</b>: there's no active infection. They eventually die but leave a bigger population for a faster secondary response.",
+   "src": "01:07:24"
+  },
+  {
+   "id": "qa-025",
+   "q": "(student asked) Are these cells stored in the bone marrow, or do they live in the lymph node?",
+   "a": "B cells are selected in the bone marrow and T cells in the thymus; <b>both then go to the lymph nodes</b>.",
+   "src": "01:08:10"
+  },
+  {
+   "id": "qa-026",
+   "q": "(student asked) Why does vaccine efficacy differ between diseases?",
+   "a": "Incubation and mutation: measles takes about a week to 10 days and rarely mutates, so the vaccine prevents illness. COVID (3–4 days) and flu are quick, so trials measured <b>hospitalization and death</b>, not \"not getting sick.\"",
+   "src": "01:08:41 + 01:09:12 + 01:10:46"
+  },
+  {
+   "id": "qa-027",
+   "q": "(student asked) What about sepsis?",
+   "a": "Sepsis is your <b>immune system going nuts</b>: pro-inflammatory cytokines, a drop in blood pressure. Unvaccinated COVID deaths were the same \"haywire\" response, treated with <b>corticosteroids</b>.",
+   "src": "01:11:21 + 01:12:08 + 01:12:53"
+  },
+  {
+   "id": "qa-028",
+   "q": "If someone is vaccinated against pertussis, can they still spread the disease? Why?",
+   "a": "<b>Yes</b>: the vaccine is against the toxin, not the bacteria, so carriers spread it. We need high vaccination rates (Northwest outbreak). Tetanus is also an anti-toxin vaccine.",
+   "src": "01:12:53 + 01:13:36 + 01:14:20"
+  },
+  {
+   "id": "qa-029",
+   "q": "(Kahoot) Which immune cells create antibodies and respond to antigens?",
+   "a": "<b>B cells</b> (B lymphocytes; \"lymphocytes\" and \"T/B cells\" are used interchangeably).",
+   "src": "01:14:20 + 01:15:40"
+  },
+  {
+   "id": "qa-030",
+   "q": "(Kahoot) Innate or adaptive: specific immunity?",
+   "a": "<b>Adaptive.</b>",
+   "src": "01:15:40"
+  },
+  {
+   "id": "qa-031",
+   "q": "(Kahoot) Innate or adaptive: neutrophils, skin, antibodies, \"quick,\" lymph nodes?",
+   "a": "Neutrophils <b>innate</b> · skin <b>innate</b> · antibodies <b>adaptive</b> · quick <b>innate</b> · lymph nodes <b>adaptive</b> (audio partly garbled).",
+   "src": "01:16:20"
+  },
+  {
+   "id": "qa-032",
+   "q": "(Kahoot, multi-select) Macrophages: innate or adaptive?",
+   "a": "<b>Both</b>: innate cells that the adaptive system tells where to kill.",
+   "src": "01:17:49 + 01:18:22"
+  },
+  {
+   "id": "qa-033",
+   "q": "(Kahoot) Positive and negative selection are also called…?",
+   "a": "<b>Tolerance.</b>",
+   "src": "01:18:22"
+  },
+  {
+   "id": "qa-034",
+   "q": "If you've never been stung by a bee, can you be allergic to a bee sting? (show of hands)",
+   "a": "<b>No</b>: you can only react to something your immune system has seen. The first sting is the <b>sensitizing event</b>.",
+   "src": "01:21:48 + 01:22:55"
+  },
+  {
+   "id": "qa-035",
+   "q": "After the first sting, when the T and B cells leave the lymph node, will they see the bee venom? How long does that take?",
+   "a": "<b>No</b>: it takes <b>7–14 days</b> and the venom is long gone. A sting a month later may cause a reaction.",
+   "src": "01:23:57 + 01:24:30"
+  },
+  {
+   "id": "qa-036",
+   "q": "What is the problem with this APC [in peanut allergy]?",
+   "a": "It found a T cell specific for peanuts that should have been <b>selected out</b>. The gut normally surveys food and builds tolerance.",
+   "src": "01:26:06 + 01:27:13"
+  },
+  {
+   "id": "qa-037",
+   "q": "Kids with dogs, or who spend time on a farm, are less likely to develop allergies. Why?",
+   "a": "Constant, diverse exposure gets to the thymus so <b>positive and negative selection happen correctly</b>.",
+   "src": "01:27:43 + 01:28:31"
+  },
+  {
+   "id": "qa-038",
+   "q": "What's anaphylaxis?",
+   "a": "You can't breathe (airway constriction) and you get too much vasodilation, leading to <b>shock</b>: \"a very serious medical emergency.\"",
+   "src": "01:29:48"
+  },
+  {
+   "id": "qa-039",
+   "q": "(student asked) I'm allergic to shellfish, though my mother ate plenty while pregnant. How did that happen?",
+   "a": "Likely an APC presented shellfish protein during a gut infection to a T cell that fit only ~80%: <b>\"it's not a perfect system\"</b> (this leads into molecular mimicry).",
+   "src": "01:31:05 + 01:31:41 + 01:32:16"
+  },
+  {
+   "id": "qa-040",
+   "q": "A child gets a local reaction at the site of a vaccine shot. Why is this happening?",
+   "a": "Student: the child was <b>already exposed</b>. Accepted: B cells were ready, and antibodies met the concentrated antigen at the injection site → complexes (Arthus reaction).",
+   "src": "01:40:55 + 01:41:25"
+  },
+  {
+   "id": "qa-041",
+   "q": "Have you guys ever had a TB skin test?",
+   "a": "It's type IV: if you've had TB, sensitized <b>T cells travel to that patch of skin</b>, activate and proliferate. That takes time (slide 71: 24–72 h).",
+   "src": "01:42:03 + 01:42:35"
+  },
+  {
+   "id": "qa-042",
+   "q": "(student asked) Do antibodies cross the placenta?",
+   "a": "\"I think immunoglobulins do pass over [the] placenta.\" (slide 26 table: IgG crosses)",
+   "src": "01:47:40"
+  },
+  {
+   "id": "qa-043",
+   "q": "What are the rejections?",
+   "a": "<b>Hyperacute</b> (type II; crossmatch catches it) and <b>acute and chronic</b> (type IV). Most people develop some, so immunosuppressants are for life; identical twins are the exception.",
+   "src": "01:48:11 + 01:48:49 + 01:49:23"
+  },
+  {
+   "id": "qa-044",
+   "q": "Bone marrow transplant: why can the donor's cells attack the recipient?",
+   "a": "<b>Bone marrow is where immune cells come from</b>, so the graft attacks the host: graft-versus-host disease.",
+   "src": "01:49:57"
+  }
+ ]
+}
