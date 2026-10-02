@@ -1,0 +1,213 @@
+<svg id="cmap" width="1395pt" height="594pt"
+ viewBox="0.00 0.00 1395.00 594.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 572.52)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-572.52 1373.06,-572.52 1373.06,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="468.88" y="-530.92" font-family="Helvetica,sans-Serif" font-size="16.00">Antimicrobials — Concept Map (NURS 419, Lecture 10/1/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="193.82" y="-511.72" font-family="Helvetica,sans-Serif" font-size="16.00">Cultures BEFORE the first dose · culture 24–48 h · PCN allergy 10% report / 1% true · vanco trough right before the next dose · oseltamivir ≤ 48 h</text>
+<!-- core -->
+<g id="node1" class="node">
+<title>core</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M1088.48,-504.52C1088.48,-504.52 819.03,-504.52 819.03,-504.52 813.03,-504.52 807.03,-498.52 807.03,-492.52 807.03,-492.52 807.03,-461 807.03,-461 807.03,-455 813.03,-449 819.03,-449 819.03,-449 1088.48,-449 1088.48,-449 1094.48,-449 1100.48,-455 1100.48,-461 1100.48,-461 1100.48,-492.52 1100.48,-492.52 1100.48,-498.52 1094.48,-504.52 1088.48,-504.52"/>
+<text xml:space="preserve" text-anchor="start" x="817.83" y="-489.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Will this drug work?</text>
+<text xml:space="preserve" text-anchor="start" x="817.83" y="-478.86" font-family="Helvetica,sans-Serif" font-size="11.00">right bug · reaches the site · beats resistance · fits the patient</text>
+<text xml:space="preserve" text-anchor="start" x="817.83" y="-467.86" font-family="Helvetica,sans-Serif" font-size="11.00">selective toxicity — selective ≠ harmless</text>
+<text xml:space="preserve" text-anchor="start" x="817.83" y="-456.86" font-family="Helvetica,sans-Serif" font-size="11.00">narrow preferred · broad ≠ more powerful</text>
+</g>
+<!-- resist -->
+<g id="node2" class="node">
+<title>resist</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M630.9,-399.8C630.9,-399.8 392.62,-399.8 392.62,-399.8 386.62,-399.8 380.62,-393.8 380.62,-387.8 380.62,-387.8 380.62,-356.28 380.62,-356.28 380.62,-350.28 386.62,-344.28 392.62,-344.28 392.62,-344.28 630.9,-344.28 630.9,-344.28 636.9,-344.28 642.9,-350.28 642.9,-356.28 642.9,-356.28 642.9,-387.8 642.9,-387.8 642.9,-393.8 636.9,-399.8 630.9,-399.8"/>
+<text xml:space="preserve" text-anchor="start" x="391.42" y="-385.14" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Resistance</text>
+<text xml:space="preserve" text-anchor="start" x="391.42" y="-374.14" font-family="Helvetica,sans-Serif" font-size="11.00">inactivation · target alteration · reduced entry · efflux</text>
+<text xml:space="preserve" text-anchor="start" x="391.42" y="-363.14" font-family="Helvetica,sans-Serif" font-size="11.00">selection pressure favors resistant mutants</text>
+<text xml:space="preserve" text-anchor="start" x="391.42" y="-352.14" font-family="Helvetica,sans-Serif" font-size="11.00">the bacteria become resistant, not the patient</text>
+</g>
+<!-- core&#45;&gt;resist -->
+<g id="edge1" class="edge">
+<title>core&#45;&gt;resist</title>
+<path fill="none" stroke="#555555" d="M836.18,-448.44C774.87,-434.19 699.84,-416.75 637.39,-402.24"/>
+<polygon fill="#555555" stroke="#555555" points="638.29,-399.93 630.92,-400.73 637.18,-404.7 638.29,-399.93"/>
+<text xml:space="preserve" text-anchor="middle" x="790.37" y="-421.1" font-family="Helvetica,sans-Serif" font-size="11.00"> threatened by</text>
+</g>
+<!-- culture -->
+<g id="node3" class="node">
+<title>culture</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M863.67,-399.8C863.67,-399.8 681.84,-399.8 681.84,-399.8 675.84,-399.8 669.84,-393.8 669.84,-387.8 669.84,-387.8 669.84,-356.28 669.84,-356.28 669.84,-350.28 675.84,-344.28 681.84,-344.28 681.84,-344.28 863.67,-344.28 863.67,-344.28 869.67,-344.28 875.67,-350.28 875.67,-356.28 875.67,-356.28 875.67,-387.8 875.67,-387.8 875.67,-393.8 869.67,-399.8 863.67,-399.8"/>
+<text xml:space="preserve" text-anchor="start" x="680.64" y="-385.14" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Cultures &amp; therapy</text>
+<text xml:space="preserve" text-anchor="start" x="680.64" y="-374.14" font-family="Helvetica,sans-Serif" font-size="11.00">cultures before the first dose</text>
+<text xml:space="preserve" text-anchor="start" x="680.64" y="-363.14" font-family="Helvetica,sans-Serif" font-size="11.00">Gram stain 15–20 min · culture 24–48 h</text>
+<text xml:space="preserve" text-anchor="start" x="680.64" y="-352.14" font-family="Helvetica,sans-Serif" font-size="11.00">empiric (broad) → targeted (narrow)</text>
+</g>
+<!-- core&#45;&gt;culture -->
+<g id="edge2" class="edge">
+<title>core&#45;&gt;culture</title>
+<path fill="none" stroke="#555555" d="M905.73,-448.5C881.8,-434.92 852.75,-418.44 827.92,-404.35"/>
+<polygon fill="#555555" stroke="#555555" points="829.31,-402.32 822.01,-400.99 826.89,-406.58 829.31,-402.32"/>
+<text xml:space="preserve" text-anchor="middle" x="897.31" y="-421.1" font-family="Helvetica,sans-Serif" font-size="11.00"> guided by</text>
+</g>
+<!-- fungi -->
+<g id="node10" class="node">
+<title>fungi</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M1116.83,-399.8C1116.83,-399.8 912.69,-399.8 912.69,-399.8 906.69,-399.8 900.69,-393.8 900.69,-387.8 900.69,-387.8 900.69,-356.28 900.69,-356.28 900.69,-350.28 906.69,-344.28 912.69,-344.28 912.69,-344.28 1116.83,-344.28 1116.83,-344.28 1122.83,-344.28 1128.83,-350.28 1128.83,-356.28 1128.83,-356.28 1128.83,-387.8 1128.83,-387.8 1128.83,-393.8 1122.83,-399.8 1116.83,-399.8"/>
+<text xml:space="preserve" text-anchor="start" x="911.49" y="-385.14" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Antifungals (ergosterol)</text>
+<text xml:space="preserve" text-anchor="start" x="911.49" y="-374.14" font-family="Helvetica,sans-Serif" font-size="11.00">fluconazole: static · liver, QT, warfarin</text>
+<text xml:space="preserve" text-anchor="start" x="911.49" y="-363.14" font-family="Helvetica,sans-Serif" font-size="11.00">ampho B: cidal · chills, kidneys, ↓ K⁺/Mg²⁺</text>
+<text xml:space="preserve" text-anchor="start" x="911.49" y="-352.14" font-family="Helvetica,sans-Serif" font-size="11.00">nystatin: local — swish and hold</text>
+</g>
+<!-- core&#45;&gt;fungi -->
+<g id="edge10" class="edge">
+<title>core&#45;&gt;fungi</title>
+<path fill="none" stroke="#555555" d="M969.94,-448.5C977.45,-435.86 986.45,-420.71 994.41,-407.31"/>
+<polygon fill="#555555" stroke="#555555" points="996.46,-408.64 997.93,-401.37 992.25,-406.14 996.46,-408.64"/>
+<text xml:space="preserve" text-anchor="middle" x="1032.39" y="-421.1" font-family="Helvetica,sans-Serif" font-size="11.00"> eukaryotic = harder</text>
+</g>
+<!-- virus -->
+<g id="node11" class="node">
+<title>virus</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M1339.46,-394.3C1339.46,-394.3 1166.05,-394.3 1166.05,-394.3 1160.05,-394.3 1154.05,-388.3 1154.05,-382.3 1154.05,-382.3 1154.05,-361.78 1154.05,-361.78 1154.05,-355.78 1160.05,-349.78 1166.05,-349.78 1166.05,-349.78 1339.46,-349.78 1339.46,-349.78 1345.46,-349.78 1351.46,-355.78 1351.46,-361.78 1351.46,-361.78 1351.46,-382.3 1351.46,-382.3 1351.46,-388.3 1345.46,-394.3 1339.46,-394.3"/>
+<text xml:space="preserve" text-anchor="start" x="1164.85" y="-379.64" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Oseltamivir (Tamiflu)</text>
+<text xml:space="preserve" text-anchor="start" x="1164.85" y="-368.64" font-family="Helvetica,sans-Serif" font-size="11.00">neuraminidase · suppresses, doesn&#39;t kill</text>
+<text xml:space="preserve" text-anchor="start" x="1164.85" y="-357.64" font-family="Helvetica,sans-Serif" font-size="11.00">within 48 h · flu only · not a vaccine</text>
+</g>
+<!-- core&#45;&gt;virus -->
+<g id="edge11" class="edge">
+<title>core&#45;&gt;virus</title>
+<path fill="none" stroke="#555555" d="M1033.1,-448.5C1079.12,-432.69 1136.62,-412.94 1181.24,-397.61"/>
+<polygon fill="#555555" stroke="#555555" points="1181.88,-399.98 1187.71,-395.39 1180.29,-395.35 1181.88,-399.98"/>
+<text xml:space="preserve" text-anchor="middle" x="1171.15" y="-421.1" font-family="Helvetica,sans-Serif" font-size="11.00"> host cell = few targets</text>
+</g>
+<!-- wall -->
+<g id="node4" class="node">
+<title>wall</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M613.91,-289.58C613.91,-289.58 381.6,-289.58 381.6,-289.58 375.6,-289.58 369.6,-283.58 369.6,-277.58 369.6,-277.58 369.6,-257.06 369.6,-257.06 369.6,-251.06 375.6,-245.06 381.6,-245.06 381.6,-245.06 613.91,-245.06 613.91,-245.06 619.91,-245.06 625.91,-251.06 625.91,-257.06 625.91,-257.06 625.91,-277.58 625.91,-277.58 625.91,-283.58 619.91,-289.58 613.91,-289.58"/>
+<text xml:space="preserve" text-anchor="start" x="380.4" y="-274.92" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Cell wall — bactericidal</text>
+<text xml:space="preserve" text-anchor="start" x="380.4" y="-263.92" font-family="Helvetica,sans-Serif" font-size="11.00">β&#45;lactams bind PBPs → osmotic lysis</text>
+<text xml:space="preserve" text-anchor="start" x="380.4" y="-252.92" font-family="Helvetica,sans-Serif" font-size="11.00">β&#45;lactamase cleaves the ring · MRSA = altered PBPs</text>
+</g>
+<!-- resist&#45;&gt;wall -->
+<g id="edge3" class="edge">
+<title>resist&#45;&gt;wall</title>
+<path fill="none" stroke="#555555" d="M508.04,-343.78C506.13,-329.77 503.8,-312.67 501.84,-298.28"/>
+<polygon fill="#555555" stroke="#555555" points="504.31,-298.28 500.94,-291.68 499.46,-298.94 504.31,-298.28"/>
+<text xml:space="preserve" text-anchor="middle" x="560.89" y="-316.38" font-family="Helvetica,sans-Serif" font-size="11.00"> e.g. β&#45;lactamase, MRSA</text>
+</g>
+<!-- culture&#45;&gt;wall -->
+<g id="edge4" class="edge">
+<title>culture&#45;&gt;wall</title>
+<path fill="none" stroke="#555555" d="M702.57,-343.76C677.16,-333.98 648.2,-322.93 621.76,-313.08 603.93,-306.44 584.6,-299.39 566.63,-292.9"/>
+<polygon fill="#555555" stroke="#555555" points="567.86,-290.74 560.45,-290.67 566.2,-295.35 567.86,-290.74"/>
+<text xml:space="preserve" text-anchor="middle" x="672.95" y="-316.38" font-family="Helvetica,sans-Serif" font-size="11.00"> target 1</text>
+</g>
+<!-- ribo -->
+<g id="node7" class="node">
+<title>ribo</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M901.58,-295.08C901.58,-295.08 679.94,-295.08 679.94,-295.08 673.94,-295.08 667.94,-289.08 667.94,-283.08 667.94,-283.08 667.94,-251.56 667.94,-251.56 667.94,-245.56 673.94,-239.56 679.94,-239.56 679.94,-239.56 901.58,-239.56 901.58,-239.56 907.58,-239.56 913.58,-245.56 913.58,-251.56 913.58,-251.56 913.58,-283.08 913.58,-283.08 913.58,-289.08 907.58,-295.08 901.58,-295.08"/>
+<text xml:space="preserve" text-anchor="start" x="678.74" y="-280.42" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Ribosome — mostly bacteriostatic</text>
+<text xml:space="preserve" text-anchor="start" x="678.74" y="-269.42" font-family="Helvetica,sans-Serif" font-size="11.00">needs a working immune system</text>
+<text xml:space="preserve" text-anchor="start" x="678.74" y="-258.42" font-family="Helvetica,sans-Serif" font-size="11.00">doxy: water, upright 30 min, minerals, sun, not &lt; 7</text>
+<text xml:space="preserve" text-anchor="start" x="678.74" y="-247.42" font-family="Helvetica,sans-Serif" font-size="11.00">azithro: QT (women, low K⁺/Mg²⁺)</text>
+</g>
+<!-- culture&#45;&gt;ribo -->
+<g id="edge5" class="edge">
+<title>culture&#45;&gt;ribo</title>
+<path fill="none" stroke="#555555" d="M777.53,-343.78C779.69,-331.5 782.26,-316.83 784.55,-303.71"/>
+<polygon fill="#555555" stroke="#555555" points="786.96,-304.16 785.76,-296.84 782.14,-303.31 786.96,-304.16"/>
+<text xml:space="preserve" text-anchor="middle" x="800.85" y="-316.38" font-family="Helvetica,sans-Serif" font-size="11.00"> target 2</text>
+</g>
+<!-- dna -->
+<g id="node9" class="node">
+<title>dna</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M1089.09,-221.56C1089.09,-221.56 886.42,-221.56 886.42,-221.56 880.42,-221.56 874.42,-215.56 874.42,-209.56 874.42,-209.56 874.42,-178.04 874.42,-178.04 874.42,-172.04 880.42,-166.04 886.42,-166.04 886.42,-166.04 1089.09,-166.04 1089.09,-166.04 1095.09,-166.04 1101.09,-172.04 1101.09,-178.04 1101.09,-178.04 1101.09,-209.56 1101.09,-209.56 1101.09,-215.56 1095.09,-221.56 1089.09,-221.56"/>
+<text xml:space="preserve" text-anchor="start" x="885.22" y="-206.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">DNA &amp; folate</text>
+<text xml:space="preserve" text-anchor="start" x="885.22" y="-195.9" font-family="Helvetica,sans-Serif" font-size="11.00">cipro: tendons (&lt; 18), minerals, tizanidine, QT</text>
+<text xml:space="preserve" text-anchor="start" x="885.22" y="-184.9" font-family="Helvetica,sans-Serif" font-size="11.00">metronidazole: no alcohol + 3 days, warfarin</text>
+<text xml:space="preserve" text-anchor="start" x="885.22" y="-173.9" font-family="Helvetica,sans-Serif" font-size="11.00">TMP&#45;SMX: K⁺, sulfa, SJS, fluids, INR</text>
+</g>
+<!-- culture&#45;&gt;dna -->
+<g id="edge6" class="edge">
+<title>culture&#45;&gt;dna</title>
+<path fill="none" stroke="#555555" d="M847.97,-343.76C874.57,-331.65 903.4,-315.45 925.76,-295.08 945.83,-276.79 961.76,-250.51 972.44,-229.45"/>
+<polygon fill="#555555" stroke="#555555" points="974.57,-230.67 975.46,-223.3 970.17,-228.5 974.57,-230.67"/>
+<text xml:space="preserve" text-anchor="middle" x="929.42" y="-316.38" font-family="Helvetica,sans-Serif" font-size="11.00"> targets 3–4</text>
+</g>
+<!-- pcn -->
+<g id="node5" class="node">
+<title>pcn</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M259.51,-148.04C259.51,-148.04 12,-148.04 12,-148.04 6,-148.04 0,-142.04 0,-136.04 0,-136.04 0,-104.52 0,-104.52 0,-98.52 6,-92.52 12,-92.52 12,-92.52 259.51,-92.52 259.51,-92.52 265.51,-92.52 271.51,-98.52 271.51,-104.52 271.51,-104.52 271.51,-136.04 271.51,-136.04 271.51,-142.04 265.51,-148.04 259.51,-148.04"/>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-133.38" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Penicillins &amp; cephalosporins</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-122.38" font-family="Helvetica,sans-Serif" font-size="11.00">amoxicillin · Augmentin (food) · Zosyn (Pseudomonas)</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-111.38" font-family="Helvetica,sans-Serif" font-size="11.00">allergy: clarify; all PCNs + some ceph cross</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-100.38" font-family="Helvetica,sans-Serif" font-size="11.00">ceftriaxone ✗ calcium IV solutions</text>
+</g>
+<!-- wall&#45;&gt;pcn -->
+<g id="edge7" class="edge">
+<title>wall&#45;&gt;pcn</title>
+<path fill="none" stroke="#555555" d="M443.56,-244.61C382.03,-219.95 281.2,-179.55 211.81,-151.75"/>
+<polygon fill="#555555" stroke="#555555" points="212.75,-149.49 205.34,-149.16 210.92,-154.04 212.75,-149.49"/>
+</g>
+<!-- carba -->
+<g id="node6" class="node">
+<title>carba</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M612.61,-148.04C612.61,-148.04 308.91,-148.04 308.91,-148.04 302.91,-148.04 296.91,-142.04 296.91,-136.04 296.91,-136.04 296.91,-104.52 296.91,-104.52 296.91,-98.52 302.91,-92.52 308.91,-92.52 308.91,-92.52 612.61,-92.52 612.61,-92.52 618.61,-92.52 624.61,-98.52 624.61,-104.52 624.61,-104.52 624.61,-136.04 624.61,-136.04 624.61,-142.04 618.61,-148.04 612.61,-148.04"/>
+<text xml:space="preserve" text-anchor="start" x="307.71" y="-133.38" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Carbapenems &amp; vancomycin</text>
+<text xml:space="preserve" text-anchor="start" x="307.71" y="-122.38" font-family="Helvetica,sans-Serif" font-size="11.00">imipenem/cilastatin: broadest, not MRSA, ↓ valproic acid → seizures</text>
+<text xml:space="preserve" text-anchor="start" x="307.71" y="-111.38" font-family="Helvetica,sans-Serif" font-size="11.00">vanco: MRSA (IV) · C. diff (oral only)</text>
+<text xml:space="preserve" text-anchor="start" x="307.71" y="-100.38" font-family="Helvetica,sans-Serif" font-size="11.00">vanco + kidneys · trough · infusion reaction</text>
+</g>
+<!-- wall&#45;&gt;carba -->
+<g id="edge8" class="edge">
+<title>wall&#45;&gt;carba</title>
+<path fill="none" stroke="#555555" d="M492.22,-244.61C486.3,-221.4 476.82,-184.25 469.81,-156.78"/>
+<polygon fill="#555555" stroke="#555555" points="472.2,-156.24 468.1,-150.06 467.45,-157.45 472.2,-156.24"/>
+</g>
+<!-- nurse -->
+<g id="node12" class="node">
+<title>nurse</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M717.3,-55.52C717.3,-55.52 484.21,-55.52 484.21,-55.52 478.21,-55.52 472.21,-49.52 472.21,-43.52 472.21,-43.52 472.21,-12 472.21,-12 472.21,-6 478.21,0 484.21,0 484.21,0 717.3,0 717.3,0 723.3,0 729.3,-6 729.3,-12 729.3,-12 729.3,-43.52 729.3,-43.52 729.3,-49.52 723.3,-55.52 717.3,-55.52"/>
+<text xml:space="preserve" text-anchor="start" x="483.01" y="-40.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Nursing every time</text>
+<text xml:space="preserve" text-anchor="start" x="483.01" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">allergy history · kidney/liver · other meds</text>
+<text xml:space="preserve" text-anchor="start" x="483.01" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">on schedule · watch diarrhea (C. diff), superinfection</text>
+<text xml:space="preserve" text-anchor="start" x="483.01" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">take as prescribed · never save or share</text>
+</g>
+<!-- pcn&#45;&gt;nurse -->
+<g id="edge12" class="edge">
+<title>pcn&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M271.82,-92.79C332.22,-81.03 403.19,-67.22 463.71,-55.44"/>
+<polygon fill="#555555" stroke="#555555" points="463.91,-57.9 470.31,-54.15 462.97,-53.09 463.91,-57.9"/>
+</g>
+<!-- carba&#45;&gt;nurse -->
+<g id="edge13" class="edge">
+<title>carba&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M502.76,-92.12C518.26,-82.1 535.96,-70.65 552.01,-60.28"/>
+<polygon fill="#555555" stroke="#555555" points="552.96,-62.58 557.51,-56.72 550.3,-58.46 552.96,-62.58"/>
+</g>
+<!-- ribo2 -->
+<g id="node8" class="node">
+<title>ribo2</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M946.32,-148.04C946.32,-148.04 661.2,-148.04 661.2,-148.04 655.2,-148.04 649.2,-142.04 649.2,-136.04 649.2,-136.04 649.2,-104.52 649.2,-104.52 649.2,-98.52 655.2,-92.52 661.2,-92.52 661.2,-92.52 946.32,-92.52 946.32,-92.52 952.32,-92.52 958.32,-98.52 958.32,-104.52 958.32,-104.52 958.32,-136.04 958.32,-136.04 958.32,-142.04 952.32,-148.04 946.32,-148.04"/>
+<text xml:space="preserve" text-anchor="start" x="660" y="-133.38" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Clinda · linezolid · gentamicin</text>
+<text xml:space="preserve" text-anchor="start" x="660" y="-122.38" font-family="Helvetica,sans-Serif" font-size="11.00">clinda → C. diff</text>
+<text xml:space="preserve" text-anchor="start" x="660" y="-111.38" font-family="Helvetica,sans-Serif" font-size="11.00">linezolid: MRSA/VRE · SSRIs → serotonin syndrome · platelets</text>
+<text xml:space="preserve" text-anchor="start" x="660" y="-100.38" font-family="Helvetica,sans-Serif" font-size="11.00">gentamicin (cidal): kidneys + ears</text>
+</g>
+<!-- ribo&#45;&gt;ribo2 -->
+<g id="edge9" class="edge">
+<title>ribo&#45;&gt;ribo2</title>
+<path fill="none" stroke="#555555" d="M793.2,-239.04C795.29,-215.74 798.31,-182.07 800.58,-156.7"/>
+<polygon fill="#555555" stroke="#555555" points="803,-157.14 801.19,-149.95 798.12,-156.7 803,-157.14"/>
+</g>
+<!-- ribo2&#45;&gt;nurse -->
+<g id="edge14" class="edge">
+<title>ribo2&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M742.57,-92C719.5,-81.71 693.12,-69.94 669.41,-59.37"/>
+<polygon fill="#555555" stroke="#555555" points="670.59,-57.22 663.19,-56.6 668.59,-61.69 670.59,-57.22"/>
+</g>
+<!-- dna&#45;&gt;nurse -->
+<g id="edge15" class="edge">
+<title>dna&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M991.02,-165.56C992.12,-142.9 989.58,-111.4 970.76,-92.52 938.31,-59.98 829.37,-43.95 738.03,-36.1"/>
+<polygon fill="#555555" stroke="#555555" points="738.5,-33.68 731.32,-35.54 738.1,-38.57 738.5,-33.68"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,2227 @@
+{
+ "id": "2026-10-01-autonomic-nervous-system",
+ "date": "2026-10-01",
+ "title": "Autonomic Nervous System & Pharmacology",
+ "instructor": "Julie Schwind, DNP, RN",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.ogg",
+  "slides.pptx",
+  "supp-01_ans-guided-notes.docx",
+  "supp-02_ans-study-guide.docx"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "predict the drug effect"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which neurotransmitter is released by ALL autonomic preganglionic neurons?",
+   "options": [
+    "Acetylcholine",
+    "Epinephrine",
+    "Acetylcholine in the PNS, norepinephrine in the SNS",
+    "Norepinephrine"
+   ],
+   "answer": "A",
+   "rationale": "\"It's always acetylcholine from that first neuron\" — both divisions release ACh onto Nn receptors at the ganglion. Norepinephrine is the SNS postganglionic transmitter, and epinephrine comes from the adrenal medulla.",
+   "src": "slide 25 + 00:37:09"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which receptor is found at the skeletal muscle neuromuscular junction?",
+   "options": [
+    "Nicotinic N (Nn)",
+    "Muscarinic",
+    "Nicotinic M (Nm)",
+    "α₁"
+   ],
+   "answer": "C",
+   "rationale": "N for nerve, M for muscle: Nm sits at the NMJ. Nn is at the autonomic ganglia; muscarinic receptors are on PNS target organs and sweat glands; α₁ is on smooth muscle.",
+   "src": "slide 14 + 00:37:55"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Activation of α₂ receptors produces:",
+   "options": [
+    "Bronchodilation and decreased airway resistance",
+    "Decreased NE release and sympathetic outflow",
+    "Increased heart rate and contractility",
+    "Vasoconstriction and increased blood pressure"
+   ],
+   "answer": "B",
+   "rationale": "α₂ is the sympathetic system's negative feedback — \"the brother that's always like, no, don't.\" Vasoconstriction is α₁, ↑ HR/contractility is β₁, bronchodilation is β₂.",
+   "src": "slide 19 + 00:40:01"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Positive dromotropy from β₁ stimulation means:",
+   "options": [
+    "Increased renin release from the kidney",
+    "Stronger contraction of the ventricles",
+    "Faster conduction through the AV junction",
+    "Faster heart rate from the SA node"
+   ],
+   "answer": "C",
+   "rationale": "Dromotropy = conduction. Chronotropy (chrono = time) is rate, and inotropy is strength of contraction. Renin release is β₁'s kidney effect.",
+   "src": "slide 20 + 00:30:40"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Sweat glands are the exception in autonomic wiring because they are:",
+   "options": [
+    "Sympathetic, using norepinephrine at α₁ receptors",
+    "Sympathetic, but use ACh at muscarinic receptors",
+    "Parasympathetic, using ACh at muscarinic receptors",
+    "Innervated equally by both autonomic divisions"
+   ],
+   "answer": "B",
+   "rationale": "Sweat glands are sympathetic, but the nerve releases ACh onto muscarinic receptors, so with drugs \"sweating will follow the opposite of what you expect.\" The PNS has no significant sweat-gland innervation.",
+   "src": "slide 16 + 00:19:29"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which structure is innervated by only ONE division of the ANS?",
+   "options": [
+    "The pupil",
+    "The heart",
+    "Blood vessels",
+    "The bladder"
+   ],
+   "answer": "C",
+   "rationale": "Blood vessels get essentially no parasympathetic input — \"it's all sympathetic.\" The heart, bladder and eye have dual, opposed innervation.",
+   "src": "slide 11 + 00:10:08"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Bethanechol's main therapeutic use is:",
+   "options": [
+    "Myasthenia gravis",
+    "Nonobstructive urinary retention",
+    "Urinary retention caused by an enlarged prostate",
+    "Symptomatic bradycardia"
+   ],
+   "answer": "B",
+   "rationale": "Bethanechol makes the detrusor contract, so it's for a bladder that holds urine but can't contract — never when there's an obstruction. Atropine treats bradycardia; pyridostigmine treats myasthenia gravis.",
+   "src": "slide 29 + 00:57:36"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Pyridostigmine is used to treat:",
+   "options": [
+    "Reversal of nondepolarizing neuromuscular blockade",
+    "Malignant hyperthermia",
+    "Myasthenia gravis",
+    "Cholinergic toxicity"
+   ],
+   "answer": "C",
+   "rationale": "Pyridostigmine (AChE inhibitor) keeps more ACh at the NMJ for myasthenia gravis. Neostigmine is the one that reverses nondepolarizing blockade; atropine treats cholinergic toxicity; dantrolene treats MH.",
+   "src": "slide 36 + 00:54:31"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What is the antidote for malignant hyperthermia?",
+   "options": [
+    "Dantrolene",
+    "Pyridostigmine",
+    "Neostigmine",
+    "Atropine"
+   ],
+   "answer": "A",
+   "rationale": "Dantrolene is the MH antidote and must be rapidly available wherever triggering agents are used. Atropine treats cholinergic toxicity; neostigmine and pyridostigmine are AChE inhibitors.",
+   "src": "slide 44 + 01:21:11"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which is an EARLY clue of malignant hyperthermia?",
+   "options": [
+    "Bradycardia with low blood pressure",
+    "Rising end-tidal CO₂ and rigidity",
+    "A temperature of 105°F or higher",
+    "Flaccid muscles and falling CO₂"
+   ],
+   "answer": "B",
+   "rationale": "CO₂ reflects metabolism, so rising end-tidal CO₂ is \"often the first sign\"; hyperthermia may be a late sign. MH brings tachycardia and rigidity, not bradycardia or flaccidity.",
+   "src": "slide 44 + 01:20:41"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which drugs are nondepolarizing neuromuscular blockers?",
+   "options": [
+    "Bethanechol and atropine",
+    "Rocuronium and vecuronium",
+    "Succinylcholine",
+    "Neostigmine and pyridostigmine"
+   ],
+   "answer": "B",
+   "rationale": "Nondepolarizers \"end in -curonium\" and are Nm antagonists. Succinylcholine is the depolarizing agent; neostigmine and pyridostigmine are AChE inhibitors; bethanechol and atropine act at muscarinic receptors.",
+   "src": "slide 40 + 01:13:00"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Clonidine (Catapres) is classified as a:",
+   "options": [
+    "Central α₂-adrenergic agonist",
+    "β₁-selective antagonist",
+    "α₁-adrenergic antagonist",
+    "Selective α₁-adrenergic agonist"
+   ],
+   "answer": "A",
+   "rationale": "Clonidine stimulates central presynaptic α₂ receptors to cut NE release. Prazosin is the α₁ antagonist, metoprolol the β₁-selective blocker, phenylephrine the selective α₁ agonist.",
+   "src": "slide 59"
+  },
+  {
+   "id": "p-013",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which β-blocker is cardioselective (preferentially blocks β₁)?",
+   "options": [
+    "Carvedilol",
+    "Propranolol",
+    "Prazosin",
+    "Metoprolol"
+   ],
+   "answer": "D",
+   "rationale": "Metoprolol preferentially blocks β₁. Propranolol blocks β₁ + β₂, carvedilol blocks β₁ + β₂ + α₁, and prazosin isn't a β-blocker (α₁ antagonist).",
+   "src": "slides 67, 69"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Botulinum toxin works by:",
+   "options": [
+    "Inhibiting acetylcholinesterase",
+    "Blocking Nm receptors at the NMJ",
+    "Preventing presynaptic ACh release",
+    "Activating muscarinic receptors directly"
+   ],
+   "answer": "C",
+   "rationale": "Botulinum toxin acts at the presynaptic terminal so ACh never reaches the receptor. Blocking Nm is rocuronium/vecuronium; AChE inhibition is pyridostigmine/neostigmine; muscarinic activation is bethanechol.",
+   "src": "slides 46–47 + 01:23:22"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "An α₁ agonist causes vasoconstriction. What happens to blood pressure if a patient receives an α₁ antagonist?",
+   "options": [
+    "Vasodilation lowers BP",
+    "BP falls because heart rate drops through β₁ blockade",
+    "BP is unchanged because the parasympathetic system takes over the vessels",
+    "Vasoconstriction raises BP"
+   ],
+   "answer": "A",
+   "rationale": "Blocking α₁ removes the signal to constrict, so vessels dilate and BP falls. Vessels have no parasympathetic input to \"take over,\" and an α₁ blocker doesn't act on β₁.",
+   "src": "slide 18 + 00:24:08"
+  },
+  {
+   "id": "p-016",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient with urinary retention has a bethanechol order. Which finding should make the nurse hold the dose and contact the prescriber?",
+   "options": [
+    "BP 128/76, HR 80",
+    "No void for 8 hours after surgery",
+    "A bladder scan showing a large volume of urine",
+    "A kidney stone lodged in the urethra"
+   ],
+   "answer": "D",
+   "rationale": "\"Make sure there's a place for the urine to go\" — squeezing a bladder against an obstruction can rupture it. A full bladder and no void are why the drug is ordered; normal vitals aren't a reason to hold it.",
+   "src": "slide 30 + 00:46:07"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient received atropine. Which assessment finding is an expected drug effect?",
+   "options": [
+    "HR 48 and increased salivation",
+    "Pinpoint pupils",
+    "Diarrhea and abdominal cramping",
+    "HR 112 and dry mouth"
+   ],
+   "answer": "D",
+   "rationale": "Atropine = dry + fast + retention: tachycardia, dry mouth, mydriasis, constipation. Bradycardia, salivation, diarrhea and miosis are cholinergic effects — the opposite.",
+   "src": "slide 32 + 00:49:47"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "An 84-year-old taking several medications with anticholinergic properties becomes newly confused. The most likely explanation is:",
+   "options": [
+    "Cumulative anticholinergic burden",
+    "Cholinergic toxicity from the drugs",
+    "Reflex bradycardia lowering brain perfusion",
+    "Hypoglycemia masked by a β-blocker"
+   ],
+   "answer": "A",
+   "rationale": "Older adults are \"much more sensitive\" to anticholinergics and the effects add up across drugs; confusion/agitation is a listed CNS effect. Cholinergic toxicity would bring SLUDGE signs instead.",
+   "src": "slide 32 + 00:51:22"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient on pyridostigmine develops muscle twitching, drooling and diarrhea. The nurse suspects:",
+   "options": [
+    "Excessive cholinergic activity",
+    "An expected therapeutic response",
+    "Early malignant hyperthermia",
+    "Anticholinergic toxicity from the drug"
+   ],
+   "answer": "A",
+   "rationale": "Fasciculations (\"twitches\") plus salivation and diarrhea = too much ACh — \"it may mean that we've given them too much.\" Anticholinergic toxicity would be dry, constipated and retaining.",
+   "src": "slide 37 + 00:55:34–00:56:04"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Which drug should the nurse anticipate to treat dangerous muscarinic effects of cholinergic toxicity?",
+   "options": [
+    "Dantrolene",
+    "Bethanechol",
+    "Atropine",
+    "Neostigmine"
+   ],
+   "answer": "C",
+   "rationale": "Atropine blocks muscarinic receptors and is used to treat cholinergic toxicity. Neostigmine and bethanechol would add more cholinergic activity; dantrolene is for MH.",
+   "src": "slide 38 + 00:57:36"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A ventilated ICU patient is receiving vecuronium and lies completely still. Which action is a priority?",
+   "options": [
+    "Stop respiratory support as soon as the infusion is turned off",
+    "Skip eye care because the patient's eyes are closed by the drug",
+    "Confirm that sedation and analgesia are also being given",
+    "Decrease sedation because the paralytic keeps the patient calm"
+   ],
+   "answer": "C",
+   "rationale": "PARALYSIS ≠ SEDATION ≠ ANALGESIA — a paralyzed patient can be awake and in pain. Paralyzed patients need eye/skin care, and recovery must be verified before respiratory support stops.",
+   "src": "slides 40–41 + 01:10:58"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient on rocuronium is also started on gentamicin. What interaction should the nurse watch for?",
+   "options": [
+    "Severe hyperkalemia and dysrhythmias",
+    "Reversal of the neuromuscular blockade",
+    "Malignant hyperthermia during the infusion",
+    "Increased or prolonged blockade"
+   ],
+   "answer": "D",
+   "rationale": "Aminoglycosides like gentamicin (along with general anesthetics and magnesium) can increase or prolong nondepolarizing blockade. MH and sux-type hyperkalemia belong to succinylcholine.",
+   "src": "slide 41 + 01:14:00"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Why does neostigmine reverse rocuronium?",
+   "options": [
+    "It blocks the muscarinic receptors instead",
+    "More ACh outcompetes the blocker at Nm",
+    "It speeds the breakdown of rocuronium",
+    "It directly stimulates the Nm receptors"
+   ],
+   "answer": "B",
+   "rationale": "Neostigmine inhibits AChE, so ACh builds up and outcompetes the nondepolarizing blocker. It doesn't activate the receptor itself, and the muscarinic effects it causes are why an antimuscarinic is often given with it.",
+   "src": "slide 42"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient with major burns from 3 weeks ago needs emergent intubation. Why is succinylcholine a concern?",
+   "options": [
+    "Burns trigger malignant hyperthermia by themselves",
+    "Upregulated receptors → severe hyperkalemia and dysrhythmias",
+    "Burns make the patient resistant to all paralytics",
+    "Succinylcholine causes hypokalemia in burn patients"
+   ],
+   "answer": "B",
+   "rationale": "After the acute phase, burns upregulate extrajunctional receptors — more channels open, more K⁺ leaves muscle, \"their bodies are a little more primed.\" MH is genetic, triggered by sux or volatile anesthetics, not by burns.",
+   "src": "slide 44 + 01:19:07"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "After surgery with succinylcholine, a patient complains of diffuse muscle aches. The nurse explains this is because:",
+   "options": [
+    "The drug's initial depolarization causes fasciculations",
+    "Malignant hyperthermia always causes mild muscle aches",
+    "Neostigmine reversal causes muscle cramping",
+    "The drug blocked Nm receptors without depolarizing them"
+   ],
+   "answer": "A",
+   "rationale": "Sux is an Nm agonist — the initial depolarization causes brief fasciculations and postoperative muscle pain. Nondepolarizers don't depolarize, so they don't cause this.",
+   "src": "slide 43 + 01:18:06"
+  },
+  {
+   "id": "p-026",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient's BP rises from 84/50 to 150/92 on phenylephrine, and HR falls from 88 to 58. The best explanation is:",
+   "options": [
+    "Baroreceptor reflex bradycardia",
+    "Phenylephrine directly blocks β₁ receptors",
+    "Phenylephrine stimulates muscarinic receptors",
+    "α₂ stimulation reduces NE release"
+   ],
+   "answer": "A",
+   "rationale": "Phenylephrine is a pure α₁ agonist: vasoconstriction raises BP, and the baroreceptor reflex slows the heart to compensate. It has no β₁-blocking or muscarinic action.",
+   "src": "slides 23, 56 + 00:41:49"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient has used albuterol many times a day for a week. Which lab value is most important to check?",
+   "options": [
+    "Serum sodium",
+    "Serum potassium, which may be low",
+    "Serum potassium, which may be high",
+    "Serum calcium"
+   ],
+   "answer": "B",
+   "rationale": "β₂ stimulation activates Na⁺/K⁺-ATPase and shifts K⁺ into cells → hypokalemia, especially with higher systemic exposure. Hyperkalemia is the succinylcholine problem.",
+   "src": "slide 58"
+  },
+  {
+   "id": "p-028",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient taking clonidine says, \"I feel dizzy, so I'm just going to stop it.\" The best response is:",
+   "options": [
+    "\"Don't stop suddenly — your BP can rebound high.\"",
+    "\"Take a double dose tomorrow to make up for it.\"",
+    "\"You can stop it whenever you like if you feel dizzy.\"",
+    "\"Stopping it will make your blood pressure drop further.\""
+   ],
+   "answer": "A",
+   "rationale": "MAJOR SAFETY ISSUE: abrupt discontinuation → rebound sympathetic activity → severe hypertension, tachycardia, headache. It should be tapered; teach slow position changes for the dizziness.",
+   "src": "slide 59"
+  },
+  {
+   "id": "p-029",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient is starting prazosin for hypertension. Which instruction addresses its major safety concern?",
+   "options": [
+    "Stop the drug if your nose feels stuffy",
+    "Take the first dose with breakfast so you can watch for side effects",
+    "Take the first dose at bedtime and rise slowly",
+    "Expect your heart rate to slow on the first dose"
+   ],
+   "answer": "C",
+   "rationale": "First-dose effect: significant orthostatic hypotension/syncope after the initial dose, so the first dose is commonly given at bedtime with fall precautions. Reflex tachycardia, not bradycardia, may occur.",
+   "src": "slide 65"
+  },
+  {
+   "id": "p-030",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient with asthma needs a β-blocker. Which drug raises the greatest concern for bronchoconstriction?",
+   "options": [
+    "Clonidine (Catapres)",
+    "Prazosin",
+    "Propranolol",
+    "Metoprolol"
+   ],
+   "answer": "C",
+   "rationale": "Propranolol blocks β₂, so its bronchoconstriction concern is \"higher\" (slide 72). Metoprolol's β₁ selectivity lowers the concern (though it isn't absolute); prazosin and clonidine don't block β receptors.",
+   "src": "slides 68, 72"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Patient on propranolol for migraine prevention is wheezing. Albuterol is given. Predict:",
+   "options": [
+    "Albuterol will cause bradycardia",
+    "Bronchodilation may be weaker than expected",
+    "Bronchodilation will be stronger than usual",
+    "No interaction — the drugs act on different receptors"
+   ],
+   "answer": "B",
+   "rationale": "Both act at β₂: propranolol blocks it and \"can oppose β₂ agonists such as albuterol.\" They share a receptor, so there is an interaction.",
+   "src": "slides 58, 68"
+  },
+  {
+   "id": "p-032",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Patient with HR 38 receives atropine. HR rises to 92. Mechanism:",
+   "options": [
+    "Direct β₁ stimulation of the heart",
+    "Increased ACh acting at the SA node",
+    "α₁ vasoconstriction raising the HR",
+    "Removal of the parasympathetic brake"
+   ],
+   "answer": "D",
+   "rationale": "\"Atropine does not directly stimulate the heart, it removes the parasympathetic 'brake'.\" More ACh would slow the heart further; α₁ acts on vessels.",
+   "src": "slide 31 + 00:49:16"
+  },
+  {
+   "id": "p-033",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Bethanechol given. Predict sweating:",
+   "options": [
+    "Increased — sweat glands use muscarinic receptors",
+    "Decreased — the drug is parasympathetic and sweating is sympathetic",
+    "No change — the PNS doesn't innervate sweat glands",
+    "Decreased — through α₁ stimulation"
+   ],
+   "answer": "A",
+   "rationale": "A muscarinic agonist \"doesn't care\" who normally controls the gland — it finds the muscarinic receptor, so sweating increases. That's the sweat-gland exception.",
+   "src": "slide 28 + 00:43:59"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Patient on atropine works outdoors on a hot afternoon. Predict:",
+   "options": [
+    "Shivering and hypothermia",
+    "Bradycardia and heat stroke",
+    "↓ sweating → hyperthermia",
+    "↑ sweating → dehydration"
+   ],
+   "answer": "C",
+   "rationale": "Blocking muscarinic receptors on sweat glands ↓ sweating, so the patient can't cool off — teach to avoid overheating. Atropine causes tachycardia, not bradycardia.",
+   "src": "slide 32 + 00:50:17"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Person with diabetes on metoprolol; blood glucose is low. Which sign is most likely still present?",
+   "options": [
+    "Anxiety",
+    "Sweating",
+    "Tachycardia",
+    "Tremor"
+   ],
+   "answer": "B",
+   "rationale": "β-blockers blunt the adrenergic signs of hypoglycemia (tachycardia, tremor, anxiety), but sweating usually still occurs because sweat glands use ACh → muscarinic receptors.",
+   "src": "slide 71"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Dobutamine started for low cardiac output in a patient with coronary disease. New chest pain. Why?",
+   "options": [
+    "↑ contractility raises myocardial O₂ demand",
+    "α₁ vasoconstriction of the coronary arteries",
+    "Reflex bradycardia lowers coronary perfusion",
+    "β₂ vasodilation steals coronary flow"
+   ],
+   "answer": "A",
+   "rationale": "Key concept: ↑ contractility = ↑ myocardial O₂ demand; angina is a listed adverse effect. Dobutamine is predominantly β₁, not α₁ or β₂, and it tends to raise HR, not lower it.",
+   "src": "slide 57"
+  },
+  {
+   "id": "p-037",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Norepinephrine infusing. IV site is swollen, cool and pale. Predict the risk:",
+   "options": [
+    "Reflex tachycardia",
+    "Hypokalemia",
+    "Extravasation → local tissue injury/necrosis",
+    "Expected therapeutic vasoconstriction — no concern"
+   ],
+   "answer": "C",
+   "rationale": "Norepinephrine is a powerful α₁ vasoconstrictor; extravasation causes local tissue injury/necrosis, which is why the IV site is monitored closely. This isn't a therapeutic effect.",
+   "src": "slide 55"
+  },
+  {
+   "id": "p-038",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Clonidine stopped abruptly 2 days ago. BP 190/110, HR 112, headache, nervous. Cause:",
+   "options": [
+    "Clonidine toxicity",
+    "α₁ blockade by clonidine",
+    "Rebound sympathetic activity",
+    "Failure of the baroreceptor reflex"
+   ],
+   "answer": "C",
+   "rationale": "Removing the α₂ \"brake\" suddenly → rebound sympathetic activity → severe hypertension, tachycardia, headache, nervousness. That's why clonidine is tapered.",
+   "src": "slide 59"
+  },
+  {
+   "id": "p-039",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Neostigmine given to reverse rocuronium. HR 52, copious secretions. Why?",
+   "options": [
+    "The patient is developing malignant hyperthermia",
+    "↑ ACh also stimulates muscarinic receptors",
+    "Neostigmine blocks β₁ receptors",
+    "Rocuronium is wearing off too fast"
+   ],
+   "answer": "B",
+   "rationale": "AChE inhibitors raise ACh at muscarinic and nicotinic receptors, so bradycardia and secretions are muscarinic effects — the reason an antimuscarinic is commonly coadministered.",
+   "src": "slides 35, 48"
+  },
+  {
+   "id": "p-040",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Myasthenia gravis patient takes pyridostigmine. Predict muscle strength and GI motility:",
+   "options": [
+    "Strength ↑, GI motility ↑",
+    "Strength unchanged, GI motility ↓",
+    "Strength ↑, GI motility ↓",
+    "Strength ↓, GI motility ↑"
+   ],
+   "answer": "A",
+   "rationale": "More ACh is available at both Nm (better NMJ transmission in MG) and muscarinic receptors (↑ GI motility, cramping, diarrhea as adverse effects).",
+   "src": "slides 35–37"
+  },
+  {
+   "id": "p-041",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Tamsulosin started for BPH. Patient stands up quickly from bed. Predict:",
+   "options": [
+    "Reflex bradycardia",
+    "Bronchospasm",
+    "Acute urinary retention",
+    "Orthostatic dizziness"
+   ],
+   "answer": "D",
+   "rationale": "α₁A blockade relaxes prostate/bladder-neck smooth muscle, but dizziness and orthostatic hypotension are its main adverse effects — teach slow position changes. It improves urine flow and doesn't touch β₂.",
+   "src": "slide 66"
+  },
+  {
+   "id": "p-042",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Anaphylaxis: wheezing, BP 76/40. Epinephrine IM. Which receptor relieves the wheezing?",
+   "options": [
+    "β₁",
+    "α₂",
+    "β₂",
+    "α₁"
+   ],
+   "answer": "C",
+   "rationale": "β₂ → bronchodilation → improved airflow. α₁ raises BP and reduces mucosal edema; β₁ raises HR and contractility; α₂ isn't part of the anaphylaxis benefit.",
+   "src": "slide 53"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Post-op surgical unit",
+   "setting": "Medical-surgical floor, postoperative day 2",
+   "text": "A 67-year-old woman is 2 days after abdominal surgery. She has not voided for 9 hours and says she feels the urge but \"nothing comes.\" Bladder scan: <b>large volume of retained urine</b>. The surgeon writes an order for <b>bethanechol</b>.\nVitals: BP 124/72, HR 78, RR 16, SpO₂ 97% on room air.",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "mc",
+     "stem": "Before giving the first dose, what must the nurse make sure of?",
+     "options": [
+      "That she has eaten a full meal beforehand",
+      "That an anticholinergic was given first",
+      "That her heart rate is above 100 beats/min",
+      "That there is no urinary or GI obstruction"
+     ],
+     "answer": "D",
+     "rationale": "\"Before making the bladder contract harder, make sure it has a route for urine to get out\" — a stuck stone or bowel obstruction can lead to rupture. The drug is given on an empty stomach, and no anticholinergic pre-dose is needed.",
+     "src": "slide 30 + 00:46:07–00:46:40"
+    },
+    {
+     "id": "c01-q02",
+     "type": "sata",
+     "stem": "Which findings are expected adverse effects of bethanechol? Select all that apply.",
+     "options": [
+      "Bradycardia",
+      "Sweating",
+      "Increased salivation",
+      "Diarrhea",
+      "Dry mouth",
+      "Urinary retention"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "Adverse effects follow excess muscarinic activity: bradycardia, cramping/diarrhea, salivation, sweating, urinary urgency. Dry mouth and retention are anticholinergic — \"all going to be opposite.\"",
+     "src": "slide 30 + 00:59:11"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "How should the nurse give bethanechol?",
+     "options": [
+      "On an empty stomach",
+      "Mixed with an antacid",
+      "Only at bedtime, because of dizziness",
+      "With a large meal, to protect the stomach"
+     ],
+     "answer": "A",
+     "rationale": "The slide says it's often given on an empty stomach to reduce nausea/vomiting. Bedtime dosing is the prazosin first-dose rule.",
+     "src": "slide 30 + 00:47:43"
+    },
+    {
+     "id": "c01-q04",
+     "type": "mc",
+     "stem": "An hour later her HR is 46, she is wheezing and sweating heavily. Which drug should the nurse anticipate?",
+     "options": [
+      "Phenylephrine",
+      "Neostigmine",
+      "Another dose of bethanechol",
+      "Atropine"
+     ],
+     "answer": "D",
+     "rationale": "Severe cholinergic effects are opposed by an antimuscarinic such as atropine. Neostigmine and more bethanechol would add cholinergic activity; phenylephrine is an α₁ vasopressor.",
+     "src": "slide 30 + 00:47:43–00:48:14"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Emergency department",
+   "setting": "ED, symptomatic bradycardia",
+   "text": "A 72-year-old man arrives dizzy and pale after nearly fainting at home.\nVitals: <b>HR 38</b>, BP 82/48, RR 18, SpO₂ 95%.\nThe provider orders <b>atropine IV</b>. History: hypertension, and he mentions an eye doctor once told him he has \"narrow angles.\"",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "mc",
+     "stem": "How does atropine raise his heart rate?",
+     "options": [
+      "It blocks muscarinic receptors (removes the brake)",
+      "It causes vasoconstriction through α₁ receptors",
+      "It directly stimulates β₁ receptors in the heart",
+      "It increases ACh at the SA node"
+     ],
+     "answer": "A",
+     "rationale": "\"We're not directly stimulating the heart, but we're removing the brake.\" Muscarinic activity normally slows the heart; blocking it lets HR rise.",
+     "src": "slide 31 + 00:49:16"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "Which part of his history should the nurse report before atropine is repeated?",
+     "options": [
+      "Narrow-angle glaucoma",
+      "Long-standing hypertension",
+      "Pale, cool skin",
+      "Recent near-fainting"
+     ],
+     "answer": "A",
+     "rationale": "Antimuscarinic effects can worsen narrow-angle glaucoma (slide 32 precautions). The near-fainting and pallor are why he needs treatment.",
+     "src": "slide 32 + 00:50:50"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "After atropine, his HR is 96. Which new finding is expected from the drug?",
+     "options": [
+      "Diarrhea",
+      "Dry mouth and dilated pupils",
+      "Profuse sweating",
+      "Increased salivation and pinpoint pupils"
+     ],
+     "answer": "B",
+     "rationale": "Dry + fast + retention: atropine brings dry mouth and mydriasis. Salivation, miosis, diarrhea and sweating are cholinergic effects.",
+     "src": "slides 32, 50"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Long-term care",
+   "setting": "Skilled nursing facility, afternoon assessment",
+   "text": "An 84-year-old man with <b>benign prostatic hyperplasia</b> lives in long-term care. His medication list includes <b>three drugs with anticholinergic properties</b>. Today staff report he is newly <b>confused and agitated</b>. He has had no bowel movement in 4 days, his bladder is distended, his mouth is very dry, and his temperature is 100.6°F after an afternoon sitting in a sunny courtyard.",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which of his findings are consistent with anticholinergic effects? Select all that apply.",
+     "options": [
+      "Dry mouth",
+      "Constipation",
+      "Diarrhea",
+      "Pinpoint pupils",
+      "Confusion and agitation",
+      "Urinary retention"
+     ],
+     "answer": "A, B, E, F",
+     "rationale": "Anticholinergic effects: CNS confusion (especially in older adults), constipation, urinary retention, dry mouth, ↓ sweating with heat intolerance. Diarrhea and miosis are cholinergic.",
+     "src": "slide 32 + 00:50:17–00:50:50"
+    },
+    {
+     "id": "c03-q02",
+     "type": "mc",
+     "stem": "Why is he at particular risk?",
+     "options": [
+      "His BPH makes him sweat more than usual",
+      "Older adults break down acetylcholine faster",
+      "Anticholinergics only cause confusion after 80",
+      "Older adults are more sensitive, and effects add up"
+     ],
+     "answer": "D",
+     "rationale": "Older adults are \"much more sensitive to anticholinergic drugs,\" and other drugs with anticholinergic properties increase the risk — a cumulative burden.",
+     "src": "slide 32 + 00:51:22"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "How does his BPH interact with these medications?",
+     "options": [
+      "BPH protects him from urinary retention",
+      "Anticholinergics shrink the enlarged prostate",
+      "Anticholinergics can worsen his urinary retention",
+      "There is no meaningful interaction"
+     ],
+     "answer": "C",
+     "rationale": "Urinary retention/BPH is a listed precaution — blocking muscarinic receptors reduces bladder emptying on top of the prostate's obstruction.",
+     "src": "slide 32 + 00:50:50"
+    },
+    {
+     "id": "c03-q04",
+     "type": "mc",
+     "stem": "Which nursing action best addresses the cause?",
+     "options": [
+      "Encourage more time outdoors in the sunny courtyard",
+      "Review Rx and OTC drugs for anticholinergic effects",
+      "Give atropine to treat the agitation",
+      "Restrict fluids to prevent bladder distention"
+     ],
+     "answer": "B",
+     "rationale": "Slide 32: review prescription and OTC medications for anticholinergic effects; also avoid overheating and encourage hydration. Anticholinergics are on the Beers list for adults over 65. Atropine would add to the burden.",
+     "src": "slides 32–33 + 00:52:25"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Neurology clinic → ED",
+   "setting": "Outpatient neuro follow-up, then ED the same evening",
+   "text": "A 41-year-old woman with <b>myasthenia gravis</b> takes <b>pyridostigmine</b>. She took extra doses this week because her eyelids were drooping. In the ED she has <b>drooling, watery eyes, frequent urination, diarrhea and vomiting</b>, and visible <b>muscle twitching</b>.\nVitals: HR 50, BP 98/60, RR 22, SpO₂ 93%.",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which of her findings suggest excessive cholinergic activity? Select all that apply.",
+     "options": [
+      "HR 120",
+      "Drooling",
+      "Vomiting",
+      "Dry mouth",
+      "Diarrhea",
+      "Watery eyes"
+     ],
+     "answer": "B, C, E, F",
+     "rationale": "SLUDGE — Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis — plus bradycardia. Dry mouth and tachycardia point the other way (anticholinergic).",
+     "src": "slide 38 + 00:57:05–00:57:36"
+    },
+    {
+     "id": "c04-q02",
+     "type": "mc",
+     "stem": "Her twitching is followed by increasing weakness. What does this sequence mean?",
+     "options": [
+      "She is developing malignant hyperthermia",
+      "Twitching is an expected, harmless effect",
+      "The pyridostigmine dose is wearing off",
+      "Nicotinic excess progressing toward paralysis"
+     ],
+     "answer": "D",
+     "rationale": "Excess nicotinic stimulation: fasciculations → weakness → paralysis. \"If we start seeing any weird muscle twitching… it may mean that we've given them too much.\"",
+     "src": "slide 37 + 00:55:34–00:56:04"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "Which assessment is the priority?",
+     "options": [
+      "Blood glucose and ketones",
+      "Pupil size and reaction",
+      "Bowel sounds in all quadrants",
+      "Respiratory function and strength"
+     ],
+     "answer": "D",
+     "rationale": "With MG, monitor muscle strength and respiratory function; RR 22 and SpO₂ 93% with rising weakness threaten breathing.",
+     "src": "slide 37 + 00:56:35–00:57:05"
+    },
+    {
+     "id": "c04-q04",
+     "type": "mc",
+     "stem": "Which medication should the nurse anticipate for the dangerous muscarinic effects?",
+     "options": [
+      "Atropine",
+      "Succinylcholine",
+      "Neostigmine",
+      "Bethanechol"
+     ],
+     "answer": "A",
+     "rationale": "Atropine treats cholinergic toxicity by blocking muscarinic receptors. Neostigmine and bethanechol would add cholinergic activity.",
+     "src": "slide 38 + 00:57:36"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Intensive care unit",
+   "setting": "Medical ICU, mechanically ventilated patient",
+   "text": "A 58-year-old man with severe respiratory failure is intubated and on a ventilator. Because he keeps fighting the ventilator, he is started on a <b>rocuronium infusion</b>. He now lies completely still with no purposeful movement. His eyes are partly open.",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "mc",
+     "stem": "His family asks, \"He looks peaceful — does that mean he's asleep and comfortable?\" The best response:",
+     "options": [
+      "\"He doesn't need other medicines while on this drug.\"",
+      "\"Yes, he can't feel anything while he can't move.\"",
+      "\"No — he also needs medicines for sedation and pain.\"",
+      "\"Yes, the paralytic keeps him asleep and calm.\""
+     ],
+     "answer": "C",
+     "rationale": "PARALYSIS ≠ SEDATION ≠ ANALGESIA — blockers provide no unconsciousness, sedation or pain relief, so patients need additional medications.",
+     "src": "slide 40 + 01:10:58–01:11:29"
+    },
+    {
+     "id": "c05-q02",
+     "type": "sata",
+     "stem": "Which actions belong in his care plan? Select all that apply.",
+     "options": [
+      "Repositioning and skin care",
+      "Remove ventilatory support as soon as the infusion stops",
+      "Ensure sedation and analgesia are given",
+      "Eye care to protect the corneas",
+      "Monitor the degree of blockade with peripheral nerve stimulation",
+      "Hold analgesia because he shows no signs of pain"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "Paralyzed patients need eye, skin and positioning care, sedation and analgesia, and monitoring of blockade depth (train-of-four). He can't show pain, and recovery must be verified before respiratory support stops.",
+     "src": "slide 41 + 01:14:31–01:15:31"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "The team decides to stop the blockade. Neostigmine is ordered. How does it work?",
+     "options": [
+      "More ACh outcompetes rocuronium at Nm receptors",
+      "It blocks the muscarinic receptors",
+      "It directly stimulates the Nm receptors",
+      "It binds rocuronium and inactivates it"
+     ],
+     "answer": "A",
+     "rationale": "Neostigmine ↓ ACh breakdown → ↑ ACh at the NMJ → ACh competes more effectively with the blocker for Nm receptors.",
+     "src": "slide 42"
+    },
+    {
+     "id": "c05-q04",
+     "type": "mc",
+     "stem": "What must the nurse confirm before respiratory support is discontinued?",
+     "options": [
+      "That he received a second paralytic dose",
+      "Adequate neuromuscular recovery",
+      "That his HR is below 60 beats/min",
+      "That sedation has been off for 24 hours"
+     ],
+     "answer": "B",
+     "rationale": "Verify adequate recovery before discontinuing respiratory support — \"make sure that the patient can breathe before we pull that tube out.\"",
+     "src": "slides 41, 48 + 01:15:31"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — ED rapid-sequence intubation",
+   "setting": "Emergency department, airway management",
+   "text": "A 34-year-old man was treated for <b>major burns 2 weeks ago</b> and is now back in the ED with worsening respiratory distress. The team needs to intubate quickly. Someone suggests <b>succinylcholine</b> because it is fast; another suggests <b>rocuronium</b>.",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "mc",
+     "stem": "Why is succinylcholine risky for this patient?",
+     "options": [
+      "He is too young for succinylcholine",
+      "Burns make him resistant to succinylcholine",
+      "Receptor upregulation → severe hyperkalemia",
+      "Succinylcholine causes hypokalemia after burns"
+     ],
+     "answer": "C",
+     "rationale": "Major burns after the acute phase upregulate extrajunctional ACh receptors → more K⁺ efflux during depolarization → severe hyperkalemia → dysrhythmias.",
+     "src": "slide 44 + 01:19:07–01:19:39"
+    },
+    {
+     "id": "c06-q02",
+     "type": "sata",
+     "stem": "Which other conditions carry the same succinylcholine hyperkalemia risk? Select all that apply.",
+     "options": [
+      "Seasonal allergies",
+      "Prolonged immobilization",
+      "Well-controlled hypertension",
+      "Major crush injury",
+      "Spinal cord injury",
+      "Denervation"
+     ],
+     "answer": "B, D, E, F",
+     "rationale": "Slide 44's list: major burns after the acute phase, major crush injury/trauma, spinal cord injury, denervation, prolonged immobilization, certain neuromuscular disorders.",
+     "src": "slide 44"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "Why is succinylcholine often chosen in emergencies?",
+     "options": [
+      "Rapid, short-duration paralysis",
+      "It is easily reversed by neostigmine",
+      "It provides sedation as well as paralysis",
+      "It spares the respiratory muscles"
+     ],
+     "answer": "A",
+     "rationale": "It's used when rapid airway control/intubation is needed — \"this one is a lot faster, so especially in emergency situations.\" It still paralyzes the respiratory muscles and gives no sedation.",
+     "src": "slide 43 + 01:21:52"
+    },
+    {
+     "id": "c06-q04",
+     "type": "mc",
+     "stem": "How does succinylcholine produce paralysis?",
+     "options": [
+      "It prevents presynaptic ACh release",
+      "It inhibits acetylcholinesterase at the NMJ",
+      "Persistent Nm depolarization (agonist)",
+      "It blocks ACh binding without depolarizing"
+     ],
+     "answer": "C",
+     "rationale": "Sux binds Nm, depolarizes and keeps it depolarized → flaccid paralysis. Blocking without depolarizing is rocuronium; preventing release is botulinum toxin.",
+     "src": "slide 43 + 01:16:34"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Operating room → PACU",
+   "setting": "OR, general anesthesia with a volatile agent",
+   "text": "A 22-year-old man is having knee surgery under general anesthesia with a <b>volatile inhaled anesthetic</b>; <b>succinylcholine</b> was used for intubation. Twenty minutes in, the <b>end-tidal CO₂ is rising rapidly</b> and his jaw and limbs are <b>rigid</b>. HR 132. Temperature is still 37.8°C.\nAfterward his mother says her brother \"had a bad reaction to anesthesia once.\"",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "mc",
+     "stem": "What is the most likely problem?",
+     "options": [
+      "Anaphylaxis",
+      "Residual neuromuscular blockade",
+      "Malignant hyperthermia",
+      "Cholinergic toxicity"
+     ],
+     "answer": "C",
+     "rationale": "Sux plus a volatile anesthetic in a genetically susceptible person → MH: rapidly rising end-tidal CO₂ and rigidity are the early clues.",
+     "src": "slides 44–45 + 01:20:41"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "Why is his temperature only slightly raised?",
+     "options": [
+      "MH never raises body temperature",
+      "Rigid muscles prevent heat production",
+      "The anesthetic keeps his temperature down permanently",
+      "Hyperthermia is a late sign; CO₂ rises first"
+     ],
+     "answer": "D",
+     "rationale": "\"It's like carbon dioxide that is often the first sign\" — CO₂ reflects metabolism; temperature climbs later (to \"105, 106 degrees\").",
+     "src": "slide 44 + 01:20:41–01:21:11"
+    },
+    {
+     "id": "c07-q03",
+     "type": "order",
+     "stem": "Put these MH actions in priority order.",
+     "options": [
+      "Give dantrolene and start supportive cooling",
+      "Keep monitoring cardiovascular and respiratory status",
+      "Recognize the early signs: rapidly rising end-tidal CO₂ and rigidity",
+      "Stop the triggering agents"
+     ],
+     "answer": "C, D, A, B",
+     "rationale": "Recognize early signs → stop triggers → dantrolene (antidote) with supportive care such as ice and cooling blankets → ongoing CV/respiratory monitoring.",
+     "src": "slides 44–45 + 01:21:11"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "Which findings fit malignant hyperthermia? Select all that apply.",
+     "options": [
+      "Rising end-tidal CO₂",
+      "Falling end-tidal CO₂",
+      "Tachycardia",
+      "Muscle rigidity",
+      "Flaccid muscles",
+      "Hyperkalemia"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Abnormal Ca²⁺ release → sustained muscle activity and hypermetabolism → rapid ↑ CO₂, rigidity, tachycardia, acidosis, hyperkalemia, rising temperature.",
+     "src": "slide 44"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "What does his mother's comment mean for future surgeries?",
+     "options": [
+      "It only matters if he ever has local anesthesia",
+      "He should receive extra succinylcholine next time",
+      "Family history of MH — avoid or use extreme caution with sux",
+      "It is unrelated, since MH isn't inherited in families"
+     ],
+     "answer": "C",
+     "rationale": "MH is pharmacogenetic; personal/family history is a contraindication. That's why patients are asked whether anyone in the family had a bad reaction to anesthesia.",
+     "src": "slide 45 + 01:18:06"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Botox clinic → ED",
+   "setting": "ED visit 5 days after an outpatient procedure",
+   "text": "A 45-year-old woman received <b>botulinum toxin</b> injections for <b>chronic migraine</b> 5 days ago. Today she reports <b>trouble swallowing</b>, <b>generalized weakness</b> and feeling short of breath.\nVitals: HR 96, RR 24, SpO₂ 92%.",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "mc",
+     "stem": "How does botulinum toxin work?",
+     "options": [
+      "It blocks the muscarinic receptors",
+      "It prevents presynaptic ACh release",
+      "It activates the Nm receptors",
+      "It inhibits acetylcholinesterase"
+     ],
+     "answer": "B",
+     "rationale": "Botulinum toxin prevents presynaptic ACh release, so ACh can't reach cholinergic receptors → ↓ muscle contraction/cholinergic activity.",
+     "src": "slide 46 + 01:23:22"
+    },
+    {
+     "id": "c08-q02",
+     "type": "mc",
+     "stem": "What do her symptoms suggest?",
+     "options": [
+      "An expected local effect needing no follow-up",
+      "Cholinergic toxicity from the injection",
+      "Rare systemic spread of the toxin",
+      "Malignant hyperthermia"
+     ],
+     "answer": "C",
+     "rationale": "Adverse effects are usually local weakness, but rare systemic spread can cause generalized weakness, dysphagia and respiratory compromise — \"the absolute worst case scenario.\"",
+     "src": "slide 46 + 01:25:54"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "Which drug in her history would most add to the weakness?",
+     "options": [
+      "A β₂ agonist inhaler for asthma",
+      "A muscarinic agonist for urinary retention",
+      "An α₁ blocker taken for blood pressure",
+      "Another drug impairing NM transmission"
+     ],
+     "answer": "D",
+     "rationale": "Drug interaction concept: other medications that impair neuromuscular transmission may increase weakness.",
+     "src": "slide 46"
+    },
+    {
+     "id": "c08-q04",
+     "type": "mc",
+     "stem": "Her friend uses botulinum toxin for excessive underarm sweating. Why does it work?",
+     "options": [
+      "Sweat glands run on ACh at muscarinic receptors",
+      "It stimulates norepinephrine release in the skin",
+      "It blocks α₁ receptors on the sweat glands",
+      "Sweat glands are controlled by the parasympathetic system"
+     ],
+     "answer": "A",
+     "rationale": "Even though sweating is sympathetic, the glands run on ACh at muscarinic receptors — so cutting ACh release treats hyperhidrosis.",
+     "src": "slide 46 + 01:24:23"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "title": "Scenario 9 — Emergency department",
+   "setting": "ED, arrival by ambulance",
+   "text": "A 19-year-old college student ate a cookie containing peanuts 15 minutes ago. She has <b>hives</b>, <b>swollen lips</b>, <b>wheezing</b> and a hoarse voice.\nVitals: <b>BP 78/40</b>, HR 128, RR 28, SpO₂ 90%.\nShe has an epinephrine autoinjector but didn't use it.",
+   "questions": [
+    {
+     "id": "c09-q01",
+     "type": "mc",
+     "stem": "What causes her hypotension and swelling?",
+     "options": [
+      "Excess α₁ stimulation of the vessels",
+      "Mediator-driven vasodilation and leaky vessels",
+      "β₁ blockade slowing the heart",
+      "Cholinergic toxicity from the peanut"
+     ],
+     "answer": "B",
+     "rationale": "In anaphylaxis, mediators cause vasodilation + ↑ permeability → hypotension and tissue edema, plus bronchoconstriction and airway edema → impaired ventilation.",
+     "src": "slide 53"
+    },
+    {
+     "id": "c09-q02",
+     "type": "mc",
+     "stem": "How should the nurse give epinephrine for anaphylaxis?",
+     "options": [
+      "IM, anterolateral thigh",
+      "By mouth",
+      "Subcutaneous, abdomen",
+      "IM in the deltoid"
+     ],
+     "answer": "A",
+     "rationale": "Slide 54 nursing implication: for anaphylaxis, IM administration in the anterolateral thigh.",
+     "src": "slide 54"
+    },
+    {
+     "id": "c09-q03",
+     "type": "sata",
+     "stem": "Which receptor effects of epinephrine help her? Select all that apply.",
+     "options": [
+      "β₂ → bronchodilation improves airflow",
+      "α₁ → vasoconstriction raises BP and reduces mucosal edema",
+      "α₂ → increased NE release",
+      "β₁ → increased HR and contractility",
+      "Muscarinic → bronchodilation"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Epinephrine hits everything: α₁ ↑ BP and ↓ mucosal edema, β₁ cardiac stimulation, β₂ bronchodilation — the \"ideal receptor profile for anaphylaxis.\" Muscarinic stimulation causes bronchoconstriction; α₂ activation decreases NE release.",
+     "src": "slides 53, 62"
+    },
+    {
+     "id": "c09-q04",
+     "type": "mc",
+     "stem": "Her HR is 128 and she has a history of palpitations. Is epinephrine contraindicated?",
+     "options": [
+      "Only if her systolic BP is above 90 mm Hg",
+      "Yes — tachycardia is an absolute contraindication",
+      "Yes — give phenylephrine instead of epinephrine",
+      "No — anaphylaxis has no absolute contraindication"
+     ],
+     "answer": "D",
+     "rationale": "\"In a life-threatening emergency such as anaphylaxis, there is no absolute contraindication.\" Caution with CV disease applies to other settings; monitor HR, BP and rhythm.",
+     "src": "slide 54"
+    },
+    {
+     "id": "c09-q05",
+     "type": "order",
+     "stem": "Put these events in order, from exposure to epinephrine's effect.",
+     "options": [
+      "Hypotension and tissue edema",
+      "Vasodilation and increased vascular permeability",
+      "Systemic mediator release",
+      "Epinephrine α₁ vasoconstriction raises BP and reduces mucosal edema"
+     ],
+     "answer": "C, B, A, D",
+     "rationale": "Mediator release → vasodilation + ↑ permeability → hypotension + tissue edema; epinephrine's α₁ effect reverses it (↑ BP, ↓ mucosal edema).",
+     "src": "slide 53"
+    },
+    {
+     "id": "c09-q06",
+     "type": "mc",
+     "stem": "Before discharge, which teaching is most important?",
+     "options": [
+      "Use the autoinjector only if hives spread to the legs",
+      "Correct autoinjector use + ED evaluation after any use",
+      "No follow-up is needed once the autoinjector is used",
+      "Inject it into a vein for a faster effect"
+     ],
+     "answer": "B",
+     "rationale": "Teach patients with autoinjectors correct use and the need for emergency evaluation after administration.",
+     "src": "slide 54"
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "title": "Scenario 10 — ICU, septic shock",
+   "setting": "Medical ICU, vasopressor infusion",
+   "text": "A 66-year-old woman with <b>septic shock</b> remains hypotensive. The provider starts a <b>norepinephrine (Levophed)</b> infusion titrated to a prescribed BP target.\nVitals on start: BP 78/42, HR 118, warm skin, urine output low.",
+   "questions": [
+    {
+     "id": "c10-q01",
+     "type": "mc",
+     "stem": "Why does norepinephrine fit septic shock?",
+     "options": [
+      "It replaces lost circulating volume",
+      "It lowers heart rate through α₂ receptors",
+      "It is a pure β₂ agonist that dilates the bronchi",
+      "α₁ vasoconstriction counters the vasodilation"
+     ],
+     "answer": "D",
+     "rationale": "Norepinephrine is strong α₁ (some β₁) → vasoconstriction → ↑ SVR → ↑ BP; especially important in distributive/septic shock where vasodilation is a major cause.",
+     "src": "slide 55"
+    },
+    {
+     "id": "c10-q02",
+     "type": "mc",
+     "stem": "A resident asks whether the norepinephrine means no more IV fluids are needed. The nurse knows:",
+     "options": [
+      "No — fluids are contraindicated with vasopressors",
+      "Yes — more fluids would reverse norepinephrine",
+      "Yes — norepinephrine replaces the lost volume",
+      "No — vasoconstriction doesn't replace volume"
+     ],
+     "answer": "D",
+     "rationale": "Precaution: hypovolemia should be recognized and addressed, because vasoconstriction does not replace adequate circulating volume.",
+     "src": "slide 55"
+    },
+    {
+     "id": "c10-q03",
+     "type": "mc",
+     "stem": "Two hours later the IV site is swollen, cool and pale. What does this suggest?",
+     "options": [
+      "An expected local drug effect",
+      "Hypokalemia from the infusion",
+      "Reflex bradycardia at the site",
+      "Extravasation → tissue injury"
+     ],
+     "answer": "D",
+     "rationale": "Extravasation → local tissue injury/necrosis; that's why the IV site is monitored closely.",
+     "src": "slide 55"
+    },
+    {
+     "id": "c10-q04",
+     "type": "mc",
+     "stem": "Her BP is now above target and her fingers are cool and dusky. What is the concern?",
+     "options": [
+      "↓ perfusion from too much vasoconstriction",
+      "β₂-mediated vasodilation of the hands",
+      "Muscarinic stimulation of the skin vessels",
+      "An expected and desirable drug effect"
+     ],
+     "answer": "A",
+     "rationale": "Excessive vasoconstriction ↓ peripheral perfusion and causes ischemia; assess perfusion and titrate to the prescribed target.",
+     "src": "slide 55"
+    },
+    {
+     "id": "c10-q05",
+     "type": "mc",
+     "stem": "Later she is switched to phenylephrine. BP rises to 132/80 and HR falls from 110 to 62. Why?",
+     "options": [
+      "Her sepsis has resolved, so HR normalized",
+      "Reflex bradycardia via the baroreceptors",
+      "Phenylephrine is a muscarinic agonist",
+      "Phenylephrine directly blocks β₁ receptors"
+     ],
+     "answer": "B",
+     "rationale": "Phenylephrine is pure α₁: BP rises and the baroreceptors slow the heart — reflex bradycardia is a listed adverse effect.",
+     "src": "slides 23, 56"
+    }
+   ]
+  },
+  {
+   "id": "c11",
+   "title": "Scenario 11 — Cardiac step-down unit",
+   "setting": "Step-down unit, heart failure admission",
+   "text": "A 70-year-old man with <b>heart failure and coronary artery disease</b> has signs of low cardiac output: cool extremities, low urine output, BP 92/58. He takes <b>metoprolol</b> at home. The team starts a <b>dobutamine</b> infusion.\nVitals: HR 88, RR 20.",
+   "questions": [
+    {
+     "id": "c11-q01",
+     "type": "mc",
+     "stem": "What is the goal of dobutamine?",
+     "options": [
+      "Slowing the heart rate to rest the heart",
+      "↑ contractility → ↑ cardiac output",
+      "Vasoconstriction to raise the SVR",
+      "Bronchodilation to improve oxygenation"
+     ],
+     "answer": "B",
+     "rationale": "Dobutamine is predominantly β₁: ↑ myocardial contractility → ↑ SV → ↑ CO (it may also raise HR).",
+     "src": "slide 57"
+    },
+    {
+     "id": "c11-q02",
+     "type": "mc",
+     "stem": "Thirty minutes later HR is 118 and he reports chest pressure. The explanation:",
+     "options": [
+      "Expected and harmless effect",
+      "β₂-mediated bronchospasm",
+      "↑ myocardial O₂ demand",
+      "Reflex bradycardia"
+     ],
+     "answer": "C",
+     "rationale": "↑ contractility = ↑ myocardial O₂ demand; tachycardia and angina are listed adverse effects — use caution in ischemic heart disease; monitor HR/rhythm and chest pain.",
+     "src": "slide 57"
+    },
+    {
+     "id": "c11-q03",
+     "type": "mc",
+     "stem": "How might his home metoprolol affect the dobutamine?",
+     "options": [
+      "Metoprolol doubles the dobutamine effect",
+      "β-blockers may reduce dobutamine's β₁ effects",
+      "Metoprolol causes hyperkalemia with dobutamine",
+      "They don't interact"
+     ],
+     "answer": "B",
+     "rationale": "Both act at β₁ — β-blockers may reduce its β₁-mediated effects.",
+     "src": "slides 57, 61"
+    },
+    {
+     "id": "c11-q04",
+     "type": "sata",
+     "stem": "He is discharged on carvedilol. Which teaching is correct? Select all that apply.",
+     "options": [
+      "Expect slower heart rate and check HR/BP as instructed",
+      "Skip doses on days you feel dizzy",
+      "It only affects the heart, so it can't affect breathing",
+      "Rise slowly if you feel dizzy",
+      "Don't stop the medication abruptly",
+      "Report worsening heart-failure symptoms when the dose is started or changed"
+     ],
+     "answer": "A, D, E, F",
+     "rationale": "Carvedilol: orthostatic hypotension (rise slowly), do not stop abruptly, watch for worsening HF when started/titrated, monitor HR and BP. It blocks β₂ too, so bronchospasm risk exists.",
+     "src": "slide 70"
+    },
+    {
+     "id": "c11-q05",
+     "type": "mc",
+     "stem": "Why does carvedilol cause more orthostatic hypotension than metoprolol?",
+     "options": [
+      "It acts as a β₂ agonist in vessels",
+      "It stimulates central α₂ receptors",
+      "It blocks only β₁ receptors",
+      "It also blocks α₁ (vasodilation)"
+     ],
+     "answer": "D",
+     "rationale": "Carvedilol blocks β₁ + β₂ + α₁; α₁ blockade → vasodilation → ↓ SVR. Metoprolol is β₁-selective with no α₁ effect.",
+     "src": "slides 70, 72"
+    }
+   ]
+  },
+  {
+   "id": "c12",
+   "title": "Scenario 12 — Rapid rounds",
+   "setting": "Primary care and pulmonary clinic, one quick patient at a time",
+   "text": "Six patients, one question each. Use the receptor, then predict the drug effect.",
+   "questions": [
+    {
+     "id": "c12-q01",
+     "type": "mc",
+     "stem": "A 30-year-old with asthma needs a β-blocker for another condition. Which choice raises the greater bronchospasm concern?",
+     "options": [
+      "Metoprolol",
+      "Propranolol",
+      "They carry equal concern",
+      "Neither blocks any β₂ receptors"
+     ],
+     "answer": "B",
+     "rationale": "Propranolol blocks β₂ (\"higher\" bronchoconstriction concern); metoprolol is β₁-preferring (\"lower\"), though selectivity isn't absolute.",
+     "src": "slides 68, 72"
+    },
+    {
+     "id": "c12-q02",
+     "type": "mc",
+     "stem": "A patient with asthma has used albuterol 8 times a day this week and has a fine tremor. What does the frequent use suggest?",
+     "options": [
+      "Albuterol is a maintenance drug and this is normal",
+      "He should switch to propranolol",
+      "The asthma is not adequately controlled",
+      "The tremor means albuterol has stopped working"
+     ],
+     "answer": "C",
+     "rationale": "Frequent need for rescue medication may indicate inadequate disease control. Tremor is a listed albuterol effect; check K⁺ too.",
+     "src": "slide 58"
+    },
+    {
+     "id": "c12-q03",
+     "type": "mc",
+     "stem": "A person with type 1 diabetes takes propranolol. Which hypoglycemia sign is most likely to still appear?",
+     "options": [
+      "Shakiness",
+      "Sweating",
+      "Racing heart",
+      "Anxiety"
+     ],
+     "answer": "B",
+     "rationale": "β-blockers blunt tachycardia, tremor and anxiety, but sweating usually still occurs because sweat glands use ACh → muscarinic receptors.",
+     "src": "slide 71"
+    },
+    {
+     "id": "c12-q04",
+     "type": "mc",
+     "stem": "A patient ran out of clonidine 2 days ago. BP 188/108, HR 110, pounding headache. Cause?",
+     "options": [
+      "Clonidine overdose",
+      "Orthostatic hypotension",
+      "Rebound after abrupt stopping",
+      "Reflex bradycardia"
+     ],
+     "answer": "C",
+     "rationale": "Sudden discontinuation → rebound sympathetic activity → severe HTN, tachycardia, headache, nervousness. Taper rather than stop.",
+     "src": "slide 59"
+    },
+    {
+     "id": "c12-q05",
+     "type": "mc",
+     "stem": "A patient is starting prazosin. When should the first dose be taken?",
+     "options": [
+      "With the largest meal",
+      "Only when BP is high",
+      "First thing in the morning",
+      "At bedtime"
+     ],
+     "answer": "D",
+     "rationale": "First-dose effect (orthostatic hypotension/syncope) — the initial dose is commonly given at bedtime.",
+     "src": "slide 65"
+    },
+    {
+     "id": "c12-q06",
+     "type": "mc",
+     "stem": "A man with BPH starting tamsulosin asks, \"Will this shrink my prostate?\"",
+     "options": [
+      "No — it improves flow but doesn't shrink it",
+      "Yes — it shrinks the prostate within a week",
+      "No — it only lowers your blood pressure",
+      "Yes — it shrinks it by blocking β₂ receptors"
+     ],
+     "answer": "A",
+     "rationale": "Teach that tamsulosin improves urinary flow but does not eliminate the underlying prostate enlargement.",
+     "src": "slide 66 + supp-02 ¶159"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "ANS — three principal functions",
+   "back": "Regulate the heart · secretory glands · smooth muscle",
+   "tag": "ans-basics",
+   "src": "slide 7 + 00:03:18"
+  },
+  {
+   "id": "fc-002",
+   "front": "SNS vs PNS key concept",
+   "back": "SNS: respond to physiologic demand · PNS: maintenance, digestion, elimination, restoration",
+   "tag": "ans-basics",
+   "src": "slide 10 + 00:09:35"
+  },
+  {
+   "id": "fc-003",
+   "front": "Piloerection",
+   "back": "Goosebumps (sympathetic) — \"you get to look bigger\"",
+   "tag": "ans-basics",
+   "src": "slide 9 + 00:05:59"
+  },
+  {
+   "id": "fc-004",
+   "front": "Only division to blood vessels",
+   "back": "Sympathetic — vessels get no parasympathetic input",
+   "tag": "ans-basics",
+   "src": "slide 11 + 00:10:08"
+  },
+  {
+   "id": "fc-005",
+   "front": "Dual complementary innervation",
+   "back": "Erection (PNS) + ejaculation (SNS) — only time they work toward the same goal",
+   "tag": "ans-basics",
+   "src": "slides 10–11 + 00:08:32"
+  },
+  {
+   "id": "fc-006",
+   "front": "Autonomic tone: sympathetic-dominant sites",
+   "back": "Arterioles, veins, sweat glands (all others: parasympathetic predominates)",
+   "tag": "ans-basics",
+   "src": "slide 12 + 00:10:39"
+  },
+  {
+   "id": "fc-007",
+   "front": "Blocking autonomic tone",
+   "back": "Removes the normal resting influence — \"pulling back on the gas pedal,\" not making it relax",
+   "tag": "ans-basics",
+   "src": "slide 12 + 00:11:11"
+  },
+  {
+   "id": "fc-008",
+   "front": "Preganglionic transmitter (SNS and PNS)",
+   "back": "ACh → Nn — \"always ACh from that first neuron\"",
+   "tag": "ans-basics",
+   "src": "slide 25 + 00:37:09"
+  },
+  {
+   "id": "fc-009",
+   "front": "Sweat-gland exception",
+   "back": "Sympathetic control, but ACh → muscarinic receptors",
+   "tag": "ans-basics",
+   "src": "slide 16 + 00:19:29"
+  },
+  {
+   "id": "fc-010",
+   "front": "Adrenal medulla",
+   "back": "Modified ganglion: ACh → Nn → releases epi + NE into the blood → generalized response",
+   "tag": "ans-basics",
+   "src": "slides 16, 24 + 00:16:51"
+  },
+  {
+   "id": "fc-011",
+   "front": "Nn — location / action",
+   "back": "N for nerve: autonomic ganglia → activates postganglionic neuron",
+   "tag": "receptors",
+   "src": "slides 14, 17 + 00:13:47"
+  },
+  {
+   "id": "fc-012",
+   "front": "Nm — location / action",
+   "back": "N for muscle: neuromuscular junction → skeletal muscle depolarization/contraction",
+   "tag": "receptors",
+   "src": "slide 14 + 00:14:18"
+  },
+  {
+   "id": "fc-013",
+   "front": "α₁ — \"think…\"",
+   "back": "Contraction: vasoconstriction → ↑ SVR → ↑ BP; urinary retention; mydriasis",
+   "tag": "receptors",
+   "src": "slide 18 + 00:22:04"
+  },
+  {
+   "id": "fc-014",
+   "front": "α₂ — effect",
+   "back": "↓ NE release / ↓ sympathetic outflow → ↓ BP — the negative-feedback \"brother that says no, don't\"",
+   "tag": "receptors",
+   "src": "slide 19 + 00:26:48"
+  },
+  {
+   "id": "fc-015",
+   "front": "β₁ — \"think…\"",
+   "back": "HEART (+ kidney): ↑ rate, contractility, conduction; ↑ renin",
+   "tag": "receptors",
+   "src": "slide 20 + 00:30:07"
+  },
+  {
+   "id": "fc-016",
+   "front": "Chrono / ino / dromo",
+   "back": "Rate (chrono = time) · strength of contraction · conduction (esp. AV junction)",
+   "tag": "receptors",
+   "src": "slide 20 + 00:30:40"
+  },
+  {
+   "id": "fc-017",
+   "front": "β₂ — \"think…\"",
+   "back": "Smooth muscle relaxation: bronchodilation, uterine relaxation",
+   "tag": "receptors",
+   "src": "slide 21 + 00:31:13"
+  },
+  {
+   "id": "fc-018",
+   "front": "β₂ metabolic effects",
+   "back": "↑ glycogenolysis → ↑ glucose (diabetics!) · K⁺ moves into cells",
+   "tag": "receptors",
+   "src": "slide 21 + 00:31:51"
+  },
+  {
+   "id": "fc-019",
+   "front": "Muscarinic activation effects",
+   "back": "↓ HR · miosis · bronchoconstriction + secretions · ↑ GI motility · bladder emptying · ↑ salivation/lacrimation",
+   "tag": "receptors",
+   "src": "slide 22 + 00:32:24"
+  },
+  {
+   "id": "fc-020",
+   "front": "\"1 heart, 2 lungs\"",
+   "back": "β₁ = heart · β₂ = lungs",
+   "tag": "receptors",
+   "src": "slide 20 + 00:39:29"
+  },
+  {
+   "id": "fc-021",
+   "front": "Block α₁ → ?",
+   "back": "Vasodilation → ↓ BP (and relaxed prostate/bladder neck → better urine flow)",
+   "tag": "reflex",
+   "src": "slide 18 + 00:24:08"
+  },
+  {
+   "id": "fc-022",
+   "front": "Baroreceptor locations",
+   "back": "Carotid sinus and aortic arch — \"baro\" like a barometer",
+   "tag": "reflex",
+   "src": "slide 23 + 00:34:28"
+  },
+  {
+   "id": "fc-023",
+   "front": "↓ BP triggers…",
+   "back": "Reflex tachycardia",
+   "tag": "reflex",
+   "src": "slide 23 + 00:35:35"
+  },
+  {
+   "id": "fc-024",
+   "front": "↑ BP triggers…",
+   "back": "Reflex bradycardia",
+   "tag": "reflex",
+   "src": "slide 23 + 00:41:49"
+  },
+  {
+   "id": "fc-025",
+   "front": "BP and CO equations",
+   "back": "BP = CO × SVR · CO = HR × SV",
+   "tag": "reflex",
+   "src": "00:36:05"
+  },
+  {
+   "id": "fc-026",
+   "front": "Three ways to alter cholinergic activity",
+   "back": "↑ direct muscarinic agonists · ↑ cholinesterase inhibitors · ↓ muscarinic antagonists",
+   "tag": "cholinergic",
+   "src": "slide 27 + 00:42:52"
+  },
+  {
+   "id": "fc-027",
+   "front": "Bethanechol — use",
+   "back": "Nonobstructive urinary retention (↑ detrusor contraction)",
+   "tag": "cholinergic",
+   "src": "slide 29 + 00:45:03"
+  },
+  {
+   "id": "fc-028",
+   "front": "Bethanechol — must rule out first",
+   "back": "GI or urinary obstruction — \"a place for the urine to go\" (risk of rupture)",
+   "tag": "cholinergic",
+   "src": "slide 30 + 00:46:07"
+  },
+  {
+   "id": "fc-029",
+   "front": "Bethanechol — administration",
+   "back": "Empty stomach, to reduce nausea/vomiting",
+   "tag": "cholinergic",
+   "src": "slide 30 + 00:47:43"
+  },
+  {
+   "id": "fc-030",
+   "front": "Bethanechol — adverse effects",
+   "back": "Bradycardia, hypotension, bronchoconstriction, cramping, diarrhea, salivation, sweating, urgency",
+   "tag": "cholinergic",
+   "src": "slide 30 + 00:45:33"
+  },
+  {
+   "id": "fc-031",
+   "front": "Atropine — class",
+   "back": "Muscarinic antagonist (anticholinergic, parasympatholytic); competitive block",
+   "tag": "anticholinergic",
+   "src": "slide 31 + 00:48:14"
+  },
+  {
+   "id": "fc-032",
+   "front": "Atropine — uses",
+   "back": "Symptomatic bradycardia · cholinergic toxicity · ↓ secretions in procedures · eye procedures",
+   "tag": "anticholinergic",
+   "src": "slide 31 + 00:48:46"
+  },
+  {
+   "id": "fc-033",
+   "front": "How atropine raises HR",
+   "back": "Removes the parasympathetic \"brake\" — does not stimulate the heart",
+   "tag": "anticholinergic",
+   "src": "slide 31 + 00:49:16"
+  },
+  {
+   "id": "fc-034",
+   "front": "Atropine in 3 words",
+   "back": "Dry + fast + retention",
+   "tag": "anticholinergic",
+   "src": "slide 50"
+  },
+  {
+   "id": "fc-035",
+   "front": "Anticholinergics and heat",
+   "back": "↓ sweating → heat intolerance/hyperthermia, esp. with strenuous activity",
+   "tag": "anticholinergic",
+   "src": "slide 32 + 00:50:17"
+  },
+  {
+   "id": "fc-036",
+   "front": "Atropine — contraindications",
+   "back": "Narrow-angle glaucoma · urinary retention/BPH · GI obstruction · tachyarrhythmias",
+   "tag": "anticholinergic",
+   "src": "slide 32 + 00:50:50"
+  },
+  {
+   "id": "fc-037",
+   "front": "Older adults and anticholinergics",
+   "back": "Much more sensitive; effects add up (cumulative burden) → confusion",
+   "tag": "anticholinergic",
+   "src": "slide 32 + 00:51:22"
+  },
+  {
+   "id": "fc-038",
+   "front": "Beers list",
+   "back": "Drugs potentially dangerous for adults > 65 (↑ adverse reactions) — anticholinergics are on it",
+   "tag": "anticholinergic",
+   "src": "slide 33 + 00:52:25"
+  },
+  {
+   "id": "fc-039",
+   "front": "AChE inhibitors — mechanism",
+   "back": "Block AChE → ↓ ACh breakdown → ↑ ACh at muscarinic AND nicotinic receptors",
+   "tag": "ache-inhibitors",
+   "src": "slide 35 + 00:53:27"
+  },
+  {
+   "id": "fc-040",
+   "front": "Pyridostigmine — use",
+   "back": "Myasthenia gravis (autoimmune destruction of Nm receptors at the NMJ)",
+   "tag": "ache-inhibitors",
+   "src": "slide 36 + 00:54:31"
+  },
+  {
+   "id": "fc-041",
+   "front": "Neostigmine — use",
+   "back": "Reverses nondepolarizing neuromuscular blockade",
+   "tag": "ache-inhibitors",
+   "src": "slide 36 + 00:55:02"
+  },
+  {
+   "id": "fc-042",
+   "front": "Excess nicotinic stimulation progresses…",
+   "back": "Fasciculations → weakness → paralysis",
+   "tag": "ache-inhibitors",
+   "src": "slide 37 + 00:55:34"
+  },
+  {
+   "id": "fc-043",
+   "front": "SLUDGE",
+   "back": "Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis — cholinergic crisis",
+   "tag": "ache-inhibitors",
+   "src": "slide 38 + 00:57:05"
+  },
+  {
+   "id": "fc-044",
+   "front": "Treatment of cholinergic toxicity",
+   "back": "Atropine",
+   "tag": "ache-inhibitors",
+   "src": "slide 38 + 00:57:36"
+  },
+  {
+   "id": "fc-045",
+   "front": "NMB uses",
+   "back": "Intubation · surgery/procedures · mechanical ventilation",
+   "tag": "nmb",
+   "src": "slide 40 + 01:08:24"
+  },
+  {
+   "id": "fc-046",
+   "front": "Most important NMB safety concept",
+   "back": "PARALYSIS ≠ SEDATION ≠ ANALGESIA",
+   "tag": "nmb",
+   "src": "slides 40, 50 + 01:10:58"
+  },
+  {
+   "id": "fc-047",
+   "front": "Nondepolarizing blockers",
+   "back": "Rocuronium, vecuronium (\"-curonium\") — Nm antagonists, no depolarization",
+   "tag": "nmb",
+   "src": "slides 40–41 + 01:13:00"
+  },
+  {
+   "id": "fc-048",
+   "front": "Drugs that prolong rocuronium/vecuronium",
+   "back": "General anesthetics · aminoglycosides (gentamicin) · magnesium",
+   "tag": "nmb",
+   "src": "slide 41 + 01:14:00"
+  },
+  {
+   "id": "fc-049",
+   "front": "How neostigmine reverses blockade",
+   "back": "↑ ACh at the NMJ competes more effectively with the blocker",
+   "tag": "nmb",
+   "src": "slide 42"
+  },
+  {
+   "id": "fc-050",
+   "front": "Neostigmine — why an antimuscarinic is given with it",
+   "back": "To counter its muscarinic effects",
+   "tag": "nmb",
+   "src": "slide 48"
+  },
+  {
+   "id": "fc-051",
+   "front": "Train-of-four",
+   "back": "Peripheral nerve stimulation to assess depth and recovery of blockade",
+   "tag": "nmb",
+   "src": "slide 41 + 01:14:31"
+  },
+  {
+   "id": "fc-052",
+   "front": "Sux — why used in the ER",
+   "back": "Rapid, short-duration paralysis for fast airway control",
+   "tag": "succinylcholine",
+   "src": "slide 43 + 01:21:52"
+  },
+  {
+   "id": "fc-053",
+   "front": "Sux — why hyperkalemia?",
+   "back": "Depolarization moves K⁺ OUT of skeletal muscle",
+   "tag": "succinylcholine",
+   "src": "slide 43 + 01:17:35"
+  },
+  {
+   "id": "fc-054",
+   "front": "Sux hyperkalemia risk groups",
+   "back": "Burns after acute phase · crush injury · SCI · denervation · prolonged immobilization · some neuromuscular disorders",
+   "tag": "succinylcholine",
+   "src": "slide 44 + 01:19:07"
+  },
+  {
+   "id": "fc-055",
+   "front": "Malignant hyperthermia triggers",
+   "back": "Succinylcholine + certain volatile inhaled anesthetics (genetically susceptible)",
+   "tag": "succinylcholine",
+   "src": "slide 44 + 01:20:09"
+  },
+  {
+   "id": "fc-056",
+   "front": "MH early clues",
+   "back": "Rapidly rising end-tidal CO₂ + muscle rigidity (hyperthermia may be late)",
+   "tag": "succinylcholine",
+   "src": "slide 44 + 01:20:41"
+  },
+  {
+   "id": "fc-057",
+   "front": "MH treatment",
+   "back": "Stop triggers + supportive care (cooling) + DANTROLENE",
+   "tag": "succinylcholine",
+   "src": "slide 44 + 01:21:11"
+  },
+  {
+   "id": "fc-058",
+   "front": "Botulinum toxin — mechanism",
+   "back": "Prevents presynaptic ACh release",
+   "tag": "nmb",
+   "src": "slide 46 + 01:23:22"
+  },
+  {
+   "id": "fc-059",
+   "front": "Botulinum toxin — systemic spread signs",
+   "back": "Generalized weakness · dysphagia · respiratory compromise",
+   "tag": "nmb",
+   "src": "slide 46 + 01:25:54"
+  },
+  {
+   "id": "fc-060",
+   "front": "Epinephrine receptors",
+   "back": "α₁, α₂, β₁, β₂ — \"everything\"",
+   "tag": "adrenergic-agonists",
+   "src": "slide 52"
+  },
+  {
+   "id": "fc-061",
+   "front": "Epinephrine in anaphylaxis",
+   "back": "α₁ ↑ BP, ↓ mucosal edema · β₁ ↑ HR/contractility · β₂ bronchodilation",
+   "tag": "adrenergic-agonists",
+   "src": "slide 53"
+  },
+  {
+   "id": "fc-062",
+   "front": "Norepinephrine — receptors / use",
+   "back": "Strong α₁, some β₁ · severe hypotension/shock (esp. septic)",
+   "tag": "adrenergic-agonists",
+   "src": "slide 55"
+  },
+  {
+   "id": "fc-063",
+   "front": "Norepinephrine — IV-site risk",
+   "back": "Extravasation → local tissue injury/necrosis",
+   "tag": "adrenergic-agonists",
+   "src": "slide 55"
+  },
+  {
+   "id": "fc-064",
+   "front": "Phenylephrine — receptor / adverse effect",
+   "back": "Selective α₁ · reflex bradycardia",
+   "tag": "adrenergic-agonists",
+   "src": "slide 56"
+  },
+  {
+   "id": "fc-065",
+   "front": "Dobutamine — receptor / goal",
+   "back": "β₁ · ↑ contractility → ↑ SV → ↑ CO (but ↑ myocardial O₂ demand)",
+   "tag": "adrenergic-agonists",
+   "src": "slide 57"
+  },
+  {
+   "id": "fc-066",
+   "front": "Albuterol — class / key adverse effects",
+   "back": "SABA (β₂) rescue · tremor, tachycardia, hypokalemia",
+   "tag": "adrenergic-agonists",
+   "src": "slide 58"
+  },
+  {
+   "id": "fc-067",
+   "front": "Why albuterol can lower K⁺",
+   "back": "β₂ → Na⁺/K⁺-ATPase → K⁺ shifts into cells",
+   "tag": "adrenergic-agonists",
+   "src": "slide 58"
+  },
+  {
+   "id": "fc-068",
+   "front": "Clonidine — how it lowers BP",
+   "back": "Central α₂ agonist → ↓ NE release → ↓ sympathetic outflow",
+   "tag": "adrenergic-agonists",
+   "src": "slide 59"
+  },
+  {
+   "id": "fc-069",
+   "front": "Prazosin — major safety concept",
+   "back": "First-dose effect: orthostatic hypotension/syncope → first dose at bedtime",
+   "tag": "alpha-blockers",
+   "src": "slide 65"
+  },
+  {
+   "id": "fc-070",
+   "front": "Tamsulosin — receptor / use",
+   "back": "α₁A (prostate, bladder neck) · BPH — improves flow",
+   "tag": "alpha-blockers",
+   "src": "slide 66"
+  },
+  {
+   "id": "fc-071",
+   "front": "Does tamsulosin shrink the prostate?",
+   "back": "No — improves urine flow, doesn't remove the enlargement",
+   "tag": "alpha-blockers",
+   "src": "slide 66 + supp-02 ¶159"
+  },
+  {
+   "id": "fc-072",
+   "front": "Propranolol — receptors",
+   "back": "β₁ + β₂ (nonselective) — bronchoconstriction concern higher",
+   "tag": "beta-blockers",
+   "src": "slides 67–68, 72"
+  },
+  {
+   "id": "fc-073",
+   "front": "Metoprolol — receptors",
+   "back": "β₁ selective (cardioselective) — selectivity not absolute",
+   "tag": "beta-blockers",
+   "src": "slide 69 + supp-02 ¶167"
+  },
+  {
+   "id": "fc-074",
+   "front": "Carvedilol — receptors",
+   "back": "β₁ + β₂ + α₁ — heart + vasodilation",
+   "tag": "beta-blockers",
+   "src": "slides 67, 70"
+  },
+  {
+   "id": "fc-075",
+   "front": "β-blockers and hypoglycemia",
+   "back": "Mask tachycardia, tremor, anxiety — sweating still occurs (muscarinic)",
+   "tag": "beta-blockers",
+   "src": "slide 71"
+  },
+  {
+   "id": "fc-076",
+   "front": "Never stop abruptly",
+   "back": "Clonidine (rebound HTN) and chronic β-blockers",
+   "tag": "nursing",
+   "src": "slides 59, 75"
+  },
+  {
+   "id": "fc-077",
+   "front": "Paralyzed patient care",
+   "back": "Ventilation ready · sedation/analgesia · eye, skin, positioning care · verify recovery before extubation",
+   "tag": "nursing",
+   "src": "slide 41 + 01:15:01"
+  },
+  {
+   "id": "fc-078",
+   "front": "Pre-op MH screening question",
+   "back": "\"Has anyone in your family had a bad reaction to anesthesia?\"",
+   "tag": "nursing",
+   "src": "slide 45 + 01:18:06"
+  },
+  {
+   "id": "fc-079",
+   "front": "Epinephrine for anaphylaxis — route",
+   "back": "IM, anterolateral thigh; teach autoinjector + emergency evaluation after use",
+   "tag": "nursing",
+   "src": "slide 54"
+  },
+  {
+   "id": "fc-080",
+   "front": "Anticholinergic teaching",
+   "back": "Oral care for dry mouth · hydration · avoid overheating · review Rx + OTC drugs",
+   "tag": "nursing",
+   "src": "slide 32 + 00:51:55"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "Piloerection — which is the fancy name for…?",
+   "a": "<b>Goosebumps</b> (the class answered) — \"you get to look bigger.\"",
+   "src": "00:05:59"
+  },
+  {
+   "id": "qa-002",
+   "q": "(student asked) Are Nn and Nm both ion channels?",
+   "a": "<b>Yes</b> — both ion channels: we want a fast muscle response and fast transfer between neurons. Follow-ups weren't audible; she added that muscarinic receptors are the ones at the parasympathetic target organs, and the second diagram shows the same thing.",
+   "src": "00:18:24–00:18:57"
+  },
+  {
+   "id": "qa-003",
+   "q": "If an α₁ agonist causes vasoconstriction, what would happen if we gave an α₁ antagonist?",
+   "a": "<b>Vasodilation → ↓ BP</b> — \"good.\"",
+   "src": "00:24:08"
+  },
+  {
+   "id": "qa-004",
+   "q": "If an α₁ agonist causes contraction of the prostate and bladder smooth muscle, what would happen if we gave an α₁ antagonist?",
+   "a": "<b>Relaxation → improved urine flow.</b> \"Opposite side of the coin for almost everything except for sweat.\"",
+   "src": "00:24:39"
+  },
+  {
+   "id": "qa-005",
+   "q": "(student asked) [mostly inaudible — about epinephrine vs norepinephrine at these receptors]",
+   "a": "They bind with different strengths, \"a little beyond where I need you to be\" — learn the receptor first, then match drugs to it.",
+   "src": "00:24:39–00:25:11"
+  },
+  {
+   "id": "qa-006",
+   "q": "(student asked) [about what α₂ activation does / is used for]",
+   "a": "<b>↓ BP</b> — it tells NE-releasing cells to \"slow down a little\"; also an adjunct for ADHD, PTSD and other off-label uses. Less heart rate, lower BP. (α₂ <b>agonist</b> — slide 19)",
+   "src": "00:27:19–00:28:27"
+  },
+  {
+   "id": "qa-007",
+   "q": "(student asked) Does blocking just remove the brake — would it have the opposite effect?",
+   "a": "\"<b>Exactly.</b>\" It depends on the drug, but vessels have no parasympathetic input, so pulling back the sympathetic → vasodilation.",
+   "src": "00:29:04–00:29:35"
+  },
+  {
+   "id": "qa-008",
+   "q": "(student asked) So an α₂ antagonist would do the opposite?",
+   "a": "\"Theoretically yes, but <b>we don't have any drugs that do that</b>.\" (slide 73: ↑ NE release*)",
+   "src": "00:30:07"
+  },
+  {
+   "id": "qa-009",
+   "q": "Predict: stimulate α₁ → BP? β₁ → HR and contractility? β₂ → bronchi? Muscarinic → GI motility and bladder emptying?",
+   "a": "BP <b>↑</b> (from slide 18) · HR/contractility <b>up</b> · bronchi <b>dilate</b> (from slide 21) · muscarinic → \"<b>more</b>, yes, more of that.\" (Her \"predict the response\" slide isn't in the posted deck — guided notes ¶40–47.)",
+   "src": "00:33:25"
+  },
+  {
+   "id": "qa-010",
+   "q": "Now block them: α₁ → BP? β₁ → contractility? β₂ → bronchi? Muscarinic → GI and bladder?",
+   "a": "BP <b>↓</b> (from slide 18) · contractility <b>down</b> · bronchi <b>constrict</b> — \"some good and bad things\" · GI/bladder <b>↓</b> (from slide 73).",
+   "src": "00:33:56"
+  },
+  {
+   "id": "qa-011",
+   "q": "(Kahoot) Which neurotransmitter is released by all ANS preganglionic neurons?",
+   "a": "<b>Acetylcholine</b> — \"it's always acetylcholine from that first neuron.\"",
+   "src": "00:37:09"
+  },
+  {
+   "id": "qa-012",
+   "q": "(Kahoot) Which receptor is found at the skeletal muscle neuromuscular junction?",
+   "a": "<b>Nicotinic M</b> (muscle).",
+   "src": "00:37:55"
+  },
+  {
+   "id": "qa-013",
+   "q": "(Kahoot) Stimulation of α₁ receptors produces which effect?",
+   "a": "<b>Vasoconstriction → ↑ BP</b> (from slide 18) — α₁ is mainly on the vasculature, and \"we manipulate them a lot when we're talking about blood pressure.\"",
+   "src": "00:38:26–00:38:58"
+  },
+  {
+   "id": "qa-014",
+   "q": "(Kahoot) Which effect is expected with β₁ receptor stimulation?",
+   "a": "<b>↑ HR and contractility</b> — \"one heart.\"",
+   "src": "00:38:58–00:39:29"
+  },
+  {
+   "id": "qa-015",
+   "q": "(Kahoot) β₂ receptor stimulation produces which pulmonary effect?",
+   "a": "<b>Bronchodilation</b> — \"if I'm running away from a bear… getting more air into my lungs.\"",
+   "src": "00:39:29–00:40:01"
+  },
+  {
+   "id": "qa-016",
+   "q": "(Kahoot) Activation of α₂ receptors has which effect?",
+   "a": "<b>↓ NE release / ↓ sympathetic outflow</b> (from slide 19) — \"our negative feedback that keeps everything in check.\"",
+   "src": "00:40:01"
+  },
+  {
+   "id": "qa-017",
+   "q": "(Kahoot) Which response is caused by muscarinic receptor stimulation?",
+   "a": "Exact option not audible — \"anything that the parasympathetic nervous system does\" (from slide 22: e.g., ↓ HR, miosis, ↑ GI motility, bladder emptying, ↑ salivation).",
+   "src": "00:40:49"
+  },
+  {
+   "id": "qa-018",
+   "q": "(Kahoot) A sudden medication-induced rise in blood pressure may trigger which response?",
+   "a": "<b>Reflex bradycardia</b> — reflex tachycardia is the opposite case, when BP falls.",
+   "src": "00:40:49–00:41:49"
+  },
+  {
+   "id": "qa-019",
+   "q": "(Kahoot) Bethanechol is most appropriate for which condition?",
+   "a": "<b>Nonobstructive urinary retention</b> — \"if we did have that block… we would risk potentially causing bladder rupture.\"",
+   "src": "00:57:36–00:58:09"
+  },
+  {
+   "id": "qa-020",
+   "q": "(Kahoot) Which finding is an expected adverse effect of bethanechol?",
+   "a": "Answer not audible — a <b>cholinergic</b> effect (from slide 30: bradycardia, hypotension, bronchoconstriction, diarrhea, salivation, sweating, urinary urgency). Her hint: the anticholinergic options (urinary retention, dry mouth) \"are all going to be opposite.\"",
+   "src": "00:58:40–00:59:11"
+  },
+  {
+   "id": "qa-021",
+   "q": "(Kahoot) Atropine produces which effect?",
+   "a": "<b>Urinary retention.</b>",
+   "src": "00:59:11–00:59:58"
+  },
+  {
+   "id": "qa-022",
+   "q": "(Kahoot) How does pyridostigmine improve myasthenia gravis?",
+   "a": "It's an AChE inhibitor — blocks the breakdown of ACh, so <b>more ACh at the neuromuscular junction</b>.",
+   "src": "00:59:58–01:00:28"
+  },
+  {
+   "id": "qa-023",
+   "q": "(Kahoot) Which finding best suggests excessive cholinergic activity?",
+   "a": "A <b>SLUDGE</b> finding — \"we got the S in there and the D.\"",
+   "src": "01:00:28–01:01:09"
+  },
+  {
+   "id": "qa-024",
+   "q": "(student asked) Do nurses need someone to cosign for medications like these?",
+   "a": "Cosigning is mostly for <b>wasting narcotics</b> (e.g., a 5 mg dose from a 10 mg vial); she didn't think neuromuscular blockers require it. The Vanderbilt case involved multiple failures.",
+   "src": "01:10:28–01:10:58"
+  }
+ ]
+}

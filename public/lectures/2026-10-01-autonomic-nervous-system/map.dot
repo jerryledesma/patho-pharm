@@ -1,0 +1,35 @@
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.5, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Autonomic Nervous System &amp; Pharmacology — Concept Map (NURS 419, Lecture 10/1/2026)<BR/>Preganglionic = ACh → Nn · β₁ = 1 heart, β₂ = 2 lungs · ↓ BP → reflex tachycardia, ↑ BP → reflex bradycardia · PARALYSIS ≠ SEDATION ≠ ANALGESIA>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  wiring [fillcolor="#fff2cc", label=<<B>ANS wiring</B><BR ALIGN="LEFT"/>CNS → ACh → Nn (both divisions)<BR ALIGN="LEFT"/>sweat glands: sympathetic but ACh → muscarinic<BR ALIGN="LEFT"/>adrenal medulla: epi + NE into blood<BR ALIGN="LEFT"/>somatic: ACh → Nm (one neuron)<BR ALIGN="LEFT"/>>];
+  pns    [fillcolor="#fce4d6", label=<<B>Parasympathetic (rest &amp; digest)</B><BR ALIGN="LEFT"/>ACh → muscarinic<BR ALIGN="LEFT"/>↓ HR · miosis · bronchoconstriction<BR ALIGN="LEFT"/>↑ GI motility · bladder emptying · secretions<BR ALIGN="LEFT"/>>];
+  sns    [fillcolor="#ddebf7", label=<<B>Sympathetic (physiologic demand)</B><BR ALIGN="LEFT"/>NE → α / β<BR ALIGN="LEFT"/>vessels = sympathetic only<BR ALIGN="LEFT"/>fight-or-flight + constant push and pull<BR ALIGN="LEFT"/>>];
+  recep  [fillcolor="#bdd7ee", label=<<B>Know your receptors</B><BR ALIGN="LEFT"/>α₁ contraction → ↑ SVR, ↑ BP, retention<BR ALIGN="LEFT"/>α₂ the brake → ↓ NE release<BR ALIGN="LEFT"/>β₁ heart: rate, strength, conduction, renin<BR ALIGN="LEFT"/>β₂ lungs: bronchodilation, K⁺ into cells, ↑ glucose<BR ALIGN="LEFT"/>>];
+  reflex [fillcolor="#fff2cc", label=<<B>Baroreceptor reflex</B><BR ALIGN="LEFT"/>carotid sinus + aortic arch<BR ALIGN="LEFT"/>↓ BP → reflex tachycardia<BR ALIGN="LEFT"/>↑ BP → reflex bradycardia<BR ALIGN="LEFT"/>BP = CO × SVR · CO = HR × SV<BR ALIGN="LEFT"/>>];
+  chol   [fillcolor="#f8cbad", label=<<B>More cholinergic</B><BR ALIGN="LEFT"/>bethanechol: nonobstructive retention<BR ALIGN="LEFT"/>pyridostigmine: myasthenia gravis<BR ALIGN="LEFT"/>neostigmine: reverses nondepolarizers<BR ALIGN="LEFT"/>too much = SLUDGE, fasciculations<BR ALIGN="LEFT"/>>];
+  anti   [fillcolor="#fce4d6", label=<<B>Less cholinergic: atropine</B><BR ALIGN="LEFT"/>removes the brake → ↑ HR<BR ALIGN="LEFT"/>dry + fast + retention, ↓ sweat, confusion<BR ALIGN="LEFT"/>avoid: glaucoma, BPH · Beers list (&gt; 65)<BR ALIGN="LEFT"/>>];
+  nmb    [fillcolor="#e4dfec", label=<<B>Neuromuscular blockers</B><BR ALIGN="LEFT"/>rocuronium, vecuronium = Nm antagonists<BR ALIGN="LEFT"/>prolonged by gentamicin, Mg, anesthetics<BR ALIGN="LEFT"/>ventilate + sedate + analgesia · eye/skin care<BR ALIGN="LEFT"/>botulinum toxin: ↓ ACh release<BR ALIGN="LEFT"/>>];
+  sux    [fillcolor="#e4dfec", label=<<B>Succinylcholine</B><BR ALIGN="LEFT"/>Nm agonist → persistent depolarization<BR ALIGN="LEFT"/>hyperkalemia: burns, crush, SCI, immobility<BR ALIGN="LEFT"/>MH: ↑ EtCO₂ + rigidity → dantrolene<BR ALIGN="LEFT"/>>];
+  agon   [fillcolor="#bdd7ee", label=<<B>Adrenergic agonists</B><BR ALIGN="LEFT"/>epi (all): anaphylaxis, IM thigh<BR ALIGN="LEFT"/>norepi (α₁ &gt; β₁): septic shock, extravasation<BR ALIGN="LEFT"/>phenylephrine (α₁) · dobutamine (β₁, ↑ O₂ demand)<BR ALIGN="LEFT"/>albuterol (β₂, ↓ K⁺) · clonidine (α₂)<BR ALIGN="LEFT"/>>];
+  antag  [fillcolor="#ddebf7", label=<<B>Adrenergic antagonists</B><BR ALIGN="LEFT"/>prazosin (α₁): first-dose effect, bedtime<BR ALIGN="LEFT"/>tamsulosin (α₁A): BPH flow, no shrinking<BR ALIGN="LEFT"/>propranolol β₁+β₂ · metoprolol β₁<BR ALIGN="LEFT"/>carvedilol β₁+β₂+α₁<BR ALIGN="LEFT"/>>];
+  safety [fillcolor="#e2efda", label=<<B>Nursing safety</B><BR ALIGN="LEFT"/>don't stop clonidine or β-blockers abruptly<BR ALIGN="LEFT"/>β-blockers mask hypoglycemia (sweating stays)<BR ALIGN="LEFT"/>β₂ blockade: bronchospasm in asthma<BR ALIGN="LEFT"/>monitor HR, BP, orthostasis<BR ALIGN="LEFT"/>>];
+
+  wiring -> pns [label=" 2nd neuron ACh"];
+  wiring -> sns [label=" 2nd neuron NE"];
+  wiring -> nmb [label=" Nm at the NMJ"];
+  sns -> recep [label=" acts through"];
+  recep -> reflex [label=" BP changes trigger"];
+  pns -> chol [label=" more of it"];
+  pns -> anti [label=" less of it"];
+  chol -> anti [label=" toxicity treated by"];
+  chol -> nmb [label=" neostigmine reverses"];
+  nmb -> sux [label=" depolarizing type"];
+  recep -> agon [label=" stimulate"];
+  recep -> antag [label=" block = flip the effect"];
+  agon -> reflex [label=" phenylephrine → bradycardia"];
+  antag -> safety;
+  agon -> safety;
+}

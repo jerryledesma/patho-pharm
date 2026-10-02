@@ -1,0 +1,228 @@
+<svg id="cmap" width="1158pt" height="608pt"
+ viewBox="0.00 0.00 1158.00 608.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 586.4)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-586.4 1136.12,-586.4 1136.12,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="251.3" y="-544.8" font-family="Helvetica,sans-Serif" font-size="16.00">Autonomic Nervous System &amp; Pharmacology — Concept Map (NURS 419, Lecture 10/1/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="34.25" y="-525.6" font-family="Helvetica,sans-Serif" font-size="16.00">Preganglionic = ACh → Nn · β₁ = 1 heart, β₂ = 2 lungs · ↓ BP → reflex tachycardia, ↑ BP → reflex bradycardia · PARALYSIS ≠ SEDATION ≠ ANALGESIA</text>
+<!-- wiring -->
+<g id="node1" class="node">
+<title>wiring</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M507.25,-518.4C507.25,-518.4 291.83,-518.4 291.83,-518.4 285.83,-518.4 279.83,-512.4 279.83,-506.4 279.83,-506.4 279.83,-463.88 279.83,-463.88 279.83,-457.88 285.83,-451.88 291.83,-451.88 291.83,-451.88 507.25,-451.88 507.25,-451.88 513.25,-451.88 519.25,-457.88 519.25,-463.88 519.25,-463.88 519.25,-506.4 519.25,-506.4 519.25,-512.4 513.25,-518.4 507.25,-518.4"/>
+<text xml:space="preserve" text-anchor="start" x="290.63" y="-503.74" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">ANS wiring</text>
+<text xml:space="preserve" text-anchor="start" x="290.63" y="-492.74" font-family="Helvetica,sans-Serif" font-size="11.00">CNS → ACh → Nn (both divisions)</text>
+<text xml:space="preserve" text-anchor="start" x="290.63" y="-481.74" font-family="Helvetica,sans-Serif" font-size="11.00">sweat glands: sympathetic but ACh → muscarinic</text>
+<text xml:space="preserve" text-anchor="start" x="290.63" y="-470.74" font-family="Helvetica,sans-Serif" font-size="11.00">adrenal medulla: epi + NE into blood</text>
+<text xml:space="preserve" text-anchor="start" x="290.63" y="-459.74" font-family="Helvetica,sans-Serif" font-size="11.00">somatic: ACh → Nm (one neuron)</text>
+</g>
+<!-- pns -->
+<g id="node2" class="node">
+<title>pns</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M349.07,-402.68C349.07,-402.68 148.01,-402.68 148.01,-402.68 142.01,-402.68 136.01,-396.68 136.01,-390.68 136.01,-390.68 136.01,-359.16 136.01,-359.16 136.01,-353.16 142.01,-347.16 148.01,-347.16 148.01,-347.16 349.07,-347.16 349.07,-347.16 355.07,-347.16 361.07,-353.16 361.07,-359.16 361.07,-359.16 361.07,-390.68 361.07,-390.68 361.07,-396.68 355.07,-402.68 349.07,-402.68"/>
+<text xml:space="preserve" text-anchor="start" x="146.81" y="-388.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Parasympathetic (rest &amp; digest)</text>
+<text xml:space="preserve" text-anchor="start" x="146.81" y="-377.02" font-family="Helvetica,sans-Serif" font-size="11.00">ACh → muscarinic</text>
+<text xml:space="preserve" text-anchor="start" x="146.81" y="-366.02" font-family="Helvetica,sans-Serif" font-size="11.00">↓ HR · miosis · bronchoconstriction</text>
+<text xml:space="preserve" text-anchor="start" x="146.81" y="-355.02" font-family="Helvetica,sans-Serif" font-size="11.00">↑ GI motility · bladder emptying · secretions</text>
+</g>
+<!-- wiring&#45;&gt;pns -->
+<g id="edge1" class="edge">
+<title>wiring&#45;&gt;pns</title>
+<path fill="none" stroke="#555555" d="M331.17,-451.4C321.9,-446 312.74,-440.11 304.46,-433.88 294.93,-426.71 285.54,-417.89 277.26,-409.3"/>
+<polygon fill="#555555" stroke="#555555" points="279.06,-407.64 272.47,-404.22 275.49,-411 279.06,-407.64"/>
+<text xml:space="preserve" text-anchor="middle" x="342.5" y="-423.98" font-family="Helvetica,sans-Serif" font-size="11.00"> 2nd neuron ACh</text>
+</g>
+<!-- sns -->
+<g id="node3" class="node">
+<title>sns</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M633.08,-402.68C633.08,-402.68 464,-402.68 464,-402.68 458,-402.68 452,-396.68 452,-390.68 452,-390.68 452,-359.16 452,-359.16 452,-353.16 458,-347.16 464,-347.16 464,-347.16 633.08,-347.16 633.08,-347.16 639.08,-347.16 645.08,-353.16 645.08,-359.16 645.08,-359.16 645.08,-390.68 645.08,-390.68 645.08,-396.68 639.08,-402.68 633.08,-402.68"/>
+<text xml:space="preserve" text-anchor="start" x="462.8" y="-388.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Sympathetic (physiologic demand)</text>
+<text xml:space="preserve" text-anchor="start" x="462.8" y="-377.02" font-family="Helvetica,sans-Serif" font-size="11.00">NE → α / β</text>
+<text xml:space="preserve" text-anchor="start" x="462.8" y="-366.02" font-family="Helvetica,sans-Serif" font-size="11.00">vessels = sympathetic only</text>
+<text xml:space="preserve" text-anchor="start" x="462.8" y="-355.02" font-family="Helvetica,sans-Serif" font-size="11.00">fight&#45;or&#45;flight + constant push and pull</text>
+</g>
+<!-- wiring&#45;&gt;sns -->
+<g id="edge2" class="edge">
+<title>wiring&#45;&gt;sns</title>
+<path fill="none" stroke="#555555" d="M444.65,-451.38C463.57,-437.64 485.5,-421.71 504.32,-408.04"/>
+<polygon fill="#555555" stroke="#555555" points="505.65,-410.1 509.88,-404 502.77,-406.13 505.65,-410.1"/>
+<text xml:space="preserve" text-anchor="middle" x="517.94" y="-423.98" font-family="Helvetica,sans-Serif" font-size="11.00"> 2nd neuron NE</text>
+</g>
+<!-- nmb -->
+<g id="node8" class="node">
+<title>nmb</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M438.54,-182.24C438.54,-182.24 242.54,-182.24 242.54,-182.24 236.54,-182.24 230.54,-176.24 230.54,-170.24 230.54,-170.24 230.54,-127.72 230.54,-127.72 230.54,-121.72 236.54,-115.72 242.54,-115.72 242.54,-115.72 438.54,-115.72 438.54,-115.72 444.54,-115.72 450.54,-121.72 450.54,-127.72 450.54,-127.72 450.54,-170.24 450.54,-170.24 450.54,-176.24 444.54,-182.24 438.54,-182.24"/>
+<text xml:space="preserve" text-anchor="start" x="241.34" y="-167.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Neuromuscular blockers</text>
+<text xml:space="preserve" text-anchor="start" x="241.34" y="-156.58" font-family="Helvetica,sans-Serif" font-size="11.00">rocuronium, vecuronium = Nm antagonists</text>
+<text xml:space="preserve" text-anchor="start" x="241.34" y="-145.58" font-family="Helvetica,sans-Serif" font-size="11.00">prolonged by gentamicin, Mg, anesthetics</text>
+<text xml:space="preserve" text-anchor="start" x="241.34" y="-134.58" font-family="Helvetica,sans-Serif" font-size="11.00">ventilate + sedate + analgesia · eye/skin care</text>
+<text xml:space="preserve" text-anchor="start" x="241.34" y="-123.58" font-family="Helvetica,sans-Serif" font-size="11.00">botulinum toxin: ↓ ACh release</text>
+</g>
+<!-- wiring&#45;&gt;nmb -->
+<g id="edge3" class="edge">
+<title>wiring&#45;&gt;nmb</title>
+<path fill="none" stroke="#555555" d="M403.97,-451.65C410.01,-397.39 416.52,-285.83 382.54,-200.24 381.09,-196.6 379.28,-193.03 377.22,-189.58"/>
+<polygon fill="#555555" stroke="#555555" points="379.4,-188.44 373.51,-183.93 375.3,-191.13 379.4,-188.44"/>
+<text xml:space="preserve" text-anchor="middle" x="443.23" y="-319.26" font-family="Helvetica,sans-Serif" font-size="11.00"> Nm at the NMJ</text>
+</g>
+<!-- chol -->
+<g id="node6" class="node">
+<title>chol</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M345.64,-297.96C345.64,-297.96 179.43,-297.96 179.43,-297.96 173.43,-297.96 167.43,-291.96 167.43,-285.96 167.43,-285.96 167.43,-243.44 167.43,-243.44 167.43,-237.44 173.43,-231.44 179.43,-231.44 179.43,-231.44 345.64,-231.44 345.64,-231.44 351.64,-231.44 357.64,-237.44 357.64,-243.44 357.64,-243.44 357.64,-285.96 357.64,-285.96 357.64,-291.96 351.64,-297.96 345.64,-297.96"/>
+<text xml:space="preserve" text-anchor="start" x="178.23" y="-283.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">More cholinergic</text>
+<text xml:space="preserve" text-anchor="start" x="178.23" y="-272.3" font-family="Helvetica,sans-Serif" font-size="11.00">bethanechol: nonobstructive retention</text>
+<text xml:space="preserve" text-anchor="start" x="178.23" y="-261.3" font-family="Helvetica,sans-Serif" font-size="11.00">pyridostigmine: myasthenia gravis</text>
+<text xml:space="preserve" text-anchor="start" x="178.23" y="-250.3" font-family="Helvetica,sans-Serif" font-size="11.00">neostigmine: reverses nondepolarizers</text>
+<text xml:space="preserve" text-anchor="start" x="178.23" y="-239.3" font-family="Helvetica,sans-Serif" font-size="11.00">too much = SLUDGE, fasciculations</text>
+</g>
+<!-- pns&#45;&gt;chol -->
+<g id="edge6" class="edge">
+<title>pns&#45;&gt;chol</title>
+<path fill="none" stroke="#555555" d="M252.07,-346.61C253.64,-334.48 255.52,-319.94 257.25,-306.55"/>
+<polygon fill="#555555" stroke="#555555" points="259.65,-307.16 258.11,-299.9 254.79,-306.53 259.65,-307.16"/>
+<text xml:space="preserve" text-anchor="middle" x="279.02" y="-319.26" font-family="Helvetica,sans-Serif" font-size="11.00"> more of it</text>
+</g>
+<!-- anti -->
+<g id="node7" class="node">
+<title>anti</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M193.08,-176.74C193.08,-176.74 12,-176.74 12,-176.74 6,-176.74 0,-170.74 0,-164.74 0,-164.74 0,-133.22 0,-133.22 0,-127.22 6,-121.22 12,-121.22 12,-121.22 193.08,-121.22 193.08,-121.22 199.08,-121.22 205.08,-127.22 205.08,-133.22 205.08,-133.22 205.08,-164.74 205.08,-164.74 205.08,-170.74 199.08,-176.74 193.08,-176.74"/>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-162.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Less cholinergic: atropine</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-151.08" font-family="Helvetica,sans-Serif" font-size="11.00">removes the brake → ↑ HR</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-140.08" font-family="Helvetica,sans-Serif" font-size="11.00">dry + fast + retention, ↓ sweat, confusion</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-129.08" font-family="Helvetica,sans-Serif" font-size="11.00">avoid: glaucoma, BPH · Beers list (&gt; 65)</text>
+</g>
+<!-- pns&#45;&gt;anti -->
+<g id="edge7" class="edge">
+<title>pns&#45;&gt;anti</title>
+<path fill="none" stroke="#555555" d="M171.7,-346.62C149.7,-335.02 128.04,-319.15 114.51,-297.96 93.07,-264.35 93.17,-217.33 96.6,-185.38"/>
+<polygon fill="#555555" stroke="#555555" points="99,-185.94 97.41,-178.7 94.14,-185.35 99,-185.94"/>
+<text xml:space="preserve" text-anchor="middle" x="134.53" y="-261.4" font-family="Helvetica,sans-Serif" font-size="11.00"> less of it</text>
+</g>
+<!-- recep -->
+<g id="node4" class="node">
+<title>recep</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M767.52,-297.96C767.52,-297.96 539.56,-297.96 539.56,-297.96 533.56,-297.96 527.56,-291.96 527.56,-285.96 527.56,-285.96 527.56,-243.44 527.56,-243.44 527.56,-237.44 533.56,-231.44 539.56,-231.44 539.56,-231.44 767.52,-231.44 767.52,-231.44 773.52,-231.44 779.52,-237.44 779.52,-243.44 779.52,-243.44 779.52,-285.96 779.52,-285.96 779.52,-291.96 773.52,-297.96 767.52,-297.96"/>
+<text xml:space="preserve" text-anchor="start" x="538.36" y="-283.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Know your receptors</text>
+<text xml:space="preserve" text-anchor="start" x="538.36" y="-272.3" font-family="Helvetica,sans-Serif" font-size="11.00">α₁ contraction → ↑ SVR, ↑ BP, retention</text>
+<text xml:space="preserve" text-anchor="start" x="538.36" y="-261.3" font-family="Helvetica,sans-Serif" font-size="11.00">α₂ the brake → ↓ NE release</text>
+<text xml:space="preserve" text-anchor="start" x="538.36" y="-250.3" font-family="Helvetica,sans-Serif" font-size="11.00">β₁ heart: rate, strength, conduction, renin</text>
+<text xml:space="preserve" text-anchor="start" x="538.36" y="-239.3" font-family="Helvetica,sans-Serif" font-size="11.00">β₂ lungs: bronchodilation, K⁺ into cells, ↑ glucose</text>
+</g>
+<!-- sns&#45;&gt;recep -->
+<g id="edge4" class="edge">
+<title>sns&#45;&gt;recep</title>
+<path fill="none" stroke="#555555" d="M575.03,-346.61C587.47,-333.79 602.52,-318.28 616.1,-304.29"/>
+<polygon fill="#555555" stroke="#555555" points="617.64,-306.22 620.76,-299.49 614.13,-302.8 617.64,-306.22"/>
+<text xml:space="preserve" text-anchor="middle" x="632.6" y="-319.26" font-family="Helvetica,sans-Serif" font-size="11.00"> acts through</text>
+</g>
+<!-- reflex -->
+<g id="node5" class="node">
+<title>reflex</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M651.92,-66.52C651.92,-66.52 503.16,-66.52 503.16,-66.52 497.16,-66.52 491.16,-60.52 491.16,-54.52 491.16,-54.52 491.16,-12 491.16,-12 491.16,-6 497.16,0 503.16,0 503.16,0 651.92,0 651.92,0 657.92,0 663.92,-6 663.92,-12 663.92,-12 663.92,-54.52 663.92,-54.52 663.92,-60.52 657.92,-66.52 651.92,-66.52"/>
+<text xml:space="preserve" text-anchor="start" x="501.96" y="-51.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Baroreceptor reflex</text>
+<text xml:space="preserve" text-anchor="start" x="501.96" y="-40.86" font-family="Helvetica,sans-Serif" font-size="11.00">carotid sinus + aortic arch</text>
+<text xml:space="preserve" text-anchor="start" x="501.96" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">↓ BP → reflex tachycardia</text>
+<text xml:space="preserve" text-anchor="start" x="501.96" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">↑ BP → reflex bradycardia</text>
+<text xml:space="preserve" text-anchor="start" x="501.96" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">BP = CO × SVR · CO = HR × SV</text>
+</g>
+<!-- recep&#45;&gt;reflex -->
+<g id="edge5" class="edge">
+<title>recep&#45;&gt;reflex</title>
+<path fill="none" stroke="#555555" d="M565.26,-231.01C544.55,-218.96 525.04,-203 513.09,-182.24 498.33,-156.62 503.37,-143.64 513.09,-115.72 518.43,-100.34 528.02,-85.68 538.2,-73.15"/>
+<polygon fill="#555555" stroke="#555555" points="539.94,-74.88 542.58,-67.95 536.19,-71.72 539.94,-74.88"/>
+<text xml:space="preserve" text-anchor="middle" x="556.31" y="-145.68" font-family="Helvetica,sans-Serif" font-size="11.00"> BP changes trigger</text>
+</g>
+<!-- agon -->
+<g id="node10" class="node">
+<title>agon</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M865.22,-182.24C865.22,-182.24 623.85,-182.24 623.85,-182.24 617.85,-182.24 611.85,-176.24 611.85,-170.24 611.85,-170.24 611.85,-127.72 611.85,-127.72 611.85,-121.72 617.85,-115.72 623.85,-115.72 623.85,-115.72 865.22,-115.72 865.22,-115.72 871.22,-115.72 877.22,-121.72 877.22,-127.72 877.22,-127.72 877.22,-170.24 877.22,-170.24 877.22,-176.24 871.22,-182.24 865.22,-182.24"/>
+<text xml:space="preserve" text-anchor="start" x="622.65" y="-167.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Adrenergic agonists</text>
+<text xml:space="preserve" text-anchor="start" x="622.65" y="-156.58" font-family="Helvetica,sans-Serif" font-size="11.00">epi (all): anaphylaxis, IM thigh</text>
+<text xml:space="preserve" text-anchor="start" x="622.65" y="-145.58" font-family="Helvetica,sans-Serif" font-size="11.00">norepi (α₁ &gt; β₁): septic shock, extravasation</text>
+<text xml:space="preserve" text-anchor="start" x="622.65" y="-134.58" font-family="Helvetica,sans-Serif" font-size="11.00">phenylephrine (α₁) · dobutamine (β₁, ↑ O₂ demand)</text>
+<text xml:space="preserve" text-anchor="start" x="622.65" y="-123.58" font-family="Helvetica,sans-Serif" font-size="11.00">albuterol (β₂, ↓ K⁺) · clonidine (α₂)</text>
+</g>
+<!-- recep&#45;&gt;agon -->
+<g id="edge11" class="edge">
+<title>recep&#45;&gt;agon</title>
+<path fill="none" stroke="#555555" d="M679.62,-231.11C690.09,-218.03 702.25,-202.83 713.19,-189.15"/>
+<polygon fill="#555555" stroke="#555555" points="715.05,-190.75 717.51,-183.75 711.23,-187.69 715.05,-190.75"/>
+<text xml:space="preserve" text-anchor="middle" x="723.3" y="-203.54" font-family="Helvetica,sans-Serif" font-size="11.00"> stimulate</text>
+</g>
+<!-- antag -->
+<g id="node11" class="node">
+<title>antag</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M1102.52,-182.24C1102.52,-182.24 914.56,-182.24 914.56,-182.24 908.56,-182.24 902.56,-176.24 902.56,-170.24 902.56,-170.24 902.56,-127.72 902.56,-127.72 902.56,-121.72 908.56,-115.72 914.56,-115.72 914.56,-115.72 1102.52,-115.72 1102.52,-115.72 1108.52,-115.72 1114.52,-121.72 1114.52,-127.72 1114.52,-127.72 1114.52,-170.24 1114.52,-170.24 1114.52,-176.24 1108.52,-182.24 1102.52,-182.24"/>
+<text xml:space="preserve" text-anchor="start" x="913.36" y="-167.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Adrenergic antagonists</text>
+<text xml:space="preserve" text-anchor="start" x="913.36" y="-156.58" font-family="Helvetica,sans-Serif" font-size="11.00">prazosin (α₁): first&#45;dose effect, bedtime</text>
+<text xml:space="preserve" text-anchor="start" x="913.36" y="-145.58" font-family="Helvetica,sans-Serif" font-size="11.00">tamsulosin (α₁A): BPH flow, no shrinking</text>
+<text xml:space="preserve" text-anchor="start" x="913.36" y="-134.58" font-family="Helvetica,sans-Serif" font-size="11.00">propranolol β₁+β₂ · metoprolol β₁</text>
+<text xml:space="preserve" text-anchor="start" x="913.36" y="-123.58" font-family="Helvetica,sans-Serif" font-size="11.00">carvedilol β₁+β₂+α₁</text>
+</g>
+<!-- recep&#45;&gt;antag -->
+<g id="edge12" class="edge">
+<title>recep&#45;&gt;antag</title>
+<path fill="none" stroke="#555555" d="M755.74,-230.96C800.28,-216.69 852.59,-199.94 898.03,-185.38"/>
+<polygon fill="#555555" stroke="#555555" points="898.77,-187.71 904.69,-183.25 897.28,-183.05 898.77,-187.71"/>
+<text xml:space="preserve" text-anchor="middle" x="890.75" y="-203.54" font-family="Helvetica,sans-Serif" font-size="11.00"> block = flip the effect</text>
+</g>
+<!-- chol&#45;&gt;anti -->
+<g id="edge8" class="edge">
+<title>chol&#45;&gt;anti</title>
+<path fill="none" stroke="#555555" d="M214.66,-230.88C206.33,-225.11 197.78,-219.12 189.76,-213.44 175.45,-203.3 159.93,-192.08 146.01,-181.93"/>
+<polygon fill="#555555" stroke="#555555" points="147.64,-180.09 140.54,-177.94 144.75,-184.04 147.64,-180.09"/>
+<text xml:space="preserve" text-anchor="middle" x="231.15" y="-203.54" font-family="Helvetica,sans-Serif" font-size="11.00"> toxicity treated by</text>
+</g>
+<!-- chol&#45;&gt;nmb -->
+<g id="edge9" class="edge">
+<title>chol&#45;&gt;nmb</title>
+<path fill="none" stroke="#555555" d="M270.86,-230.94C274.35,-220.61 279.06,-209.49 285.23,-200.24 287.86,-196.3 290.87,-192.46 294.09,-188.77"/>
+<polygon fill="#555555" stroke="#555555" points="295.7,-190.64 298.65,-183.83 292.1,-187.31 295.7,-190.64"/>
+<text xml:space="preserve" text-anchor="middle" x="332.89" y="-203.54" font-family="Helvetica,sans-Serif" font-size="11.00"> neostigmine reverses</text>
+</g>
+<!-- sux -->
+<g id="node9" class="node">
+<title>sux</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M437.56,-61.02C437.56,-61.02 243.51,-61.02 243.51,-61.02 237.51,-61.02 231.51,-55.02 231.51,-49.02 231.51,-49.02 231.51,-17.5 231.51,-17.5 231.51,-11.5 237.51,-5.5 243.51,-5.5 243.51,-5.5 437.56,-5.5 437.56,-5.5 443.56,-5.5 449.56,-11.5 449.56,-17.5 449.56,-17.5 449.56,-49.02 449.56,-49.02 449.56,-55.02 443.56,-61.02 437.56,-61.02"/>
+<text xml:space="preserve" text-anchor="start" x="242.31" y="-46.36" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Succinylcholine</text>
+<text xml:space="preserve" text-anchor="start" x="242.31" y="-35.36" font-family="Helvetica,sans-Serif" font-size="11.00">Nm agonist → persistent depolarization</text>
+<text xml:space="preserve" text-anchor="start" x="242.31" y="-24.36" font-family="Helvetica,sans-Serif" font-size="11.00">hyperkalemia: burns, crush, SCI, immobility</text>
+<text xml:space="preserve" text-anchor="start" x="242.31" y="-13.36" font-family="Helvetica,sans-Serif" font-size="11.00">MH: ↑ EtCO₂ + rigidity → dantrolene</text>
+</g>
+<!-- nmb&#45;&gt;sux -->
+<g id="edge10" class="edge">
+<title>nmb&#45;&gt;sux</title>
+<path fill="none" stroke="#555555" d="M340.54,-115.39C340.54,-101.13 340.54,-84.35 340.54,-69.77"/>
+<polygon fill="#555555" stroke="#555555" points="342.99,-69.99 340.54,-62.99 338.09,-69.99 342.99,-69.99"/>
+<text xml:space="preserve" text-anchor="middle" x="380.25" y="-87.82" font-family="Helvetica,sans-Serif" font-size="11.00"> depolarizing type</text>
+</g>
+<!-- agon&#45;&gt;reflex -->
+<g id="edge13" class="edge">
+<title>agon&#45;&gt;reflex</title>
+<path fill="none" stroke="#555555" d="M696.68,-115.39C676.68,-101.77 653.32,-85.86 632.6,-71.76"/>
+<polygon fill="#555555" stroke="#555555" points="634.11,-69.82 626.94,-67.9 631.35,-73.87 634.11,-69.82"/>
+<text xml:space="preserve" text-anchor="middle" x="731.71" y="-87.82" font-family="Helvetica,sans-Serif" font-size="11.00"> phenylephrine → bradycardia</text>
+</g>
+<!-- safety -->
+<g id="node12" class="node">
+<title>safety</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M1011.03,-66.52C1011.03,-66.52 802.04,-66.52 802.04,-66.52 796.04,-66.52 790.04,-60.52 790.04,-54.52 790.04,-54.52 790.04,-12 790.04,-12 790.04,-6 796.04,0 802.04,0 802.04,0 1011.03,0 1011.03,0 1017.03,0 1023.03,-6 1023.03,-12 1023.03,-12 1023.03,-54.52 1023.03,-54.52 1023.03,-60.52 1017.03,-66.52 1011.03,-66.52"/>
+<text xml:space="preserve" text-anchor="start" x="800.84" y="-51.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Nursing safety</text>
+<text xml:space="preserve" text-anchor="start" x="800.84" y="-40.86" font-family="Helvetica,sans-Serif" font-size="11.00">don&#39;t stop clonidine or β&#45;blockers abruptly</text>
+<text xml:space="preserve" text-anchor="start" x="800.84" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">β&#45;blockers mask hypoglycemia (sweating stays)</text>
+<text xml:space="preserve" text-anchor="start" x="800.84" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">β₂ blockade: bronchospasm in asthma</text>
+<text xml:space="preserve" text-anchor="start" x="800.84" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">monitor HR, BP, orthostasis</text>
+</g>
+<!-- agon&#45;&gt;safety -->
+<g id="edge15" class="edge">
+<title>agon&#45;&gt;safety</title>
+<path fill="none" stroke="#555555" d="M790.96,-115.39C810.37,-101.77 833.03,-85.86 853.12,-71.76"/>
+<polygon fill="#555555" stroke="#555555" points="854.27,-73.95 858.59,-67.92 851.45,-69.94 854.27,-73.95"/>
+</g>
+<!-- antag&#45;&gt;safety -->
+<g id="edge14" class="edge">
+<title>antag&#45;&gt;safety</title>
+<path fill="none" stroke="#555555" d="M979.31,-115.39C967.47,-102.19 953.69,-86.83 941.34,-73.06"/>
+<polygon fill="#555555" stroke="#555555" points="943.28,-71.55 936.78,-67.98 939.63,-74.83 943.28,-71.55"/>
+</g>
+</g>
+</svg>
