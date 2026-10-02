@@ -144,7 +144,9 @@ function runQuiz(items, opts, resume){
       const s=q.scenario; wrap.append(el('div',{class:'scen'}, el('div',{class:'st',html:s.title}), el('div',{class:'setting',html:s.setting}), el('div',{html:s.text.replace(/\n/g,'<br>')})));
     } else if(q.scenario){ wrap.append(el('details',{class:'scen'}, el('summary',{html:`<b>${q.scenario.title}</b> — show scenario`}), el('div',{html:q.scenario.text.replace(/\n/g,'<br>')}))); }
     const typeLabel = q.type==='sata'?'select all that apply':q.type==='order'?'tap the options in priority order':(q.tier?`tier ${q.tier}`:'');
-    card.append(el('div',{class:'qmeta'}, el('span',{html:`${i+1} / ${items.length}`}), el('span',{html:typeLabel})));
+    const STEP={recognize:'Recognize cues',analyze:'Analyze cues',prioritize:'Prioritize hypotheses',generate:'Generate solutions',act:'Take action',evaluate:'Evaluate outcomes'};
+    const stepLabel = q.step ? STEP[q.step]+' · ' : '';
+    card.append(el('div',{class:'qmeta'}, el('span',{html:`${i+1} / ${items.length}`}), el('span',{html:stepLabel+typeLabel})));
     card.append(el('div',{class:'qstem',html:q.stem}));
     q.options.forEach((o,k)=>{
       const letter='ABCDEF'[k];

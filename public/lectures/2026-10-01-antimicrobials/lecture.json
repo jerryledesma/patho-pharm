@@ -1,0 +1,2518 @@
+{
+ "id": "2026-10-01-antimicrobials",
+ "date": "2026-10-01",
+ "title": "Antimicrobials",
+ "instructor": "Julie Schwind, DNP, RN",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.ogg",
+  "audio-02.m4a",
+  "audio-03.m4a",
+  "slides.pptx",
+  "supp-01_antimicrobials-memory-game-question-bank.docx",
+  "supp-02_nurs-419-antimicrobials-study-guide.docx"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "med safety check"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Selective toxicity means that an antimicrobial:",
+   "options": [
+    "Is chosen only after culture and sensitivity results return",
+    "Acts more strongly against the microorganism than against the patient",
+    "Works against only one species of bacteria, so normal flora are always spared",
+    "Has no effect on human cells or on the patient's normal flora"
+   ],
+   "answer": "B",
+   "rationale": "Selective toxicity exploits differences between bacterial and human cells so the drug hits the bug harder than the patient. Her key concept: \"selective does not mean harmless\" — allergy, tissue damage and flora disruption still happen. Working on one species describes a narrow spectrum, not selectivity.",
+   "src": "slide 5 + 00:01:05"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement about broad-spectrum antibiotics is correct?",
+   "options": [
+    "They cover a wider range of organisms but expose more normal flora and add selection pressure",
+    "They are less likely than narrow-spectrum drugs to promote resistance",
+    "They are more powerful than narrow-spectrum drugs against any single organism",
+    "They are always the best choice once the organism is known, because they leave nothing uncovered"
+   ],
+   "answer": "A",
+   "rationale": "\"Broad spectrum doesn't mean more powerful, it just means it can kill more different kinds.\" Broad coverage kills more normal flora (diarrhea, yeast, C. diff) and is the most likely to promote resistance; once the bug is known, narrow is preferred.",
+   "src": "slides 8, 12 + 00:06:44"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "A bacterium survives an antibiotic by pumping the drug back out of the cell. This resistance mechanism is:",
+   "options": [
+    "Reduced entry",
+    "Drug inactivation",
+    "Target alteration",
+    "Efflux"
+   ],
+   "answer": "D",
+   "rationale": "Efflux = the bacterium pumps the drug out. Inactivation is an enzyme destroying the drug (β-lactamase); target alteration means the drug binds poorly (MRSA's PBPs); reduced entry keeps the drug from getting in at all.",
+   "src": "slide 10 + 00:09:33"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement about antibiotic resistance matches the lecture?",
+   "options": [
+    "The bacteria become resistant; the patient does not become \"resistant to antibiotics\"",
+    "Only broad-spectrum antibiotics can promote resistance",
+    "Patients who take many antibiotics become resistant to them, so their doses must be increased",
+    "Antibiotic exposure teaches each bacterium how to resist"
+   ],
+   "answer": "A",
+   "rationale": "\"It's the bacteria themselves that are resistant. It's not the patient.\" Resistant mutants may already be present and the drug favors them (selection pressure) — it doesn't teach them. All antimicrobials can promote resistance; broad ones are just more likely to.",
+   "src": "slides 11–12 + 00:12:54"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "About how long does a culture take to identify the organism?",
+   "options": [
+    "2 weeks",
+    "24–48 hours",
+    "15–20 minutes",
+    "5–7 days"
+   ],
+   "answer": "B",
+   "rationale": "Culture takes 24–48 hours, so patients are often started on broad therapy first. The Gram stain (gram-positive vs gram-negative) comes back in about 15–20 minutes.",
+   "src": "slide 13 + 00:16:12 + 00:17:14"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "According to the lecture, how common is true penicillin allergy?",
+   "options": [
+    "About 10% report it, but only about 1% are truly allergic",
+    "About 1% report it and nearly all of them are truly allergic",
+    "About 50% report it, but only about 10% are truly allergic",
+    "About 30% report it and about 10% are truly allergic"
+   ],
+   "answer": "A",
+   "rationale": "10% report a penicillin allergy; ~1% are truly allergic — often what's reported is a side effect like diarrhea. (30% is the share of people who carry S. aureus.)",
+   "src": "slide 33 + 00:45:08"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which drug is paired with piperacillin to protect it from β-lactamases?",
+   "options": [
+    "Clavulanate",
+    "Sulfamethoxazole",
+    "Cilastatin",
+    "Tazobactam"
+   ],
+   "answer": "D",
+   "rationale": "Piperacillin + tazobactam = Zosyn. Clavulanate is paired with amoxicillin (Augmentin). Cilastatin protects imipenem from a kidney enzyme, not a bacterial one; sulfamethoxazole is the partner of trimethoprim.",
+   "src": "slides 31–32 + 00:44:32"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Why does vancomycin work against MRSA when most β-lactams don't?",
+   "options": [
+    "It binds MRSA's altered PBPs more tightly than penicillin or amoxicillin can",
+    "It blocks β-lactamase so the penicillin can work",
+    "It inhibits the bacterial 50S ribosome",
+    "It binds peptidoglycan building blocks instead of penicillin-binding proteins"
+   ],
+   "answer": "D",
+   "rationale": "Vancomycin is a glycopeptide, not a β-lactam — it \"works elsewhere in cell construction,\" so MRSA's altered PBPs don't matter. Binding the altered PBP describes ceftaroline; blocking β-lactamase is clavulanate/tazobactam.",
+   "src": "slide 40 + 01:14:34"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What is the role of cilastatin in imipenem/cilastatin (Primaxin)?",
+   "options": [
+    "It is a second antibiotic added to cover MRSA, which imipenem misses",
+    "It blocks the kidney enzyme that would inactivate imipenem",
+    "It prevents seizures caused by imipenem",
+    "It inhibits bacterial β-lactamases"
+   ],
+   "answer": "B",
+   "rationale": "Cilastatin inhibits a renal enzyme the body normally uses to break down imipenem — \"fighting against the body's metabolism,\" not the bacteria. It isn't a β-lactamase inhibitor, carbapenems don't cover MRSA, and it doesn't prevent seizures.",
+   "src": "slide 39 + 01:11:24"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Bacteriostatic antibiotics depend on what to clear an infection?",
+   "options": [
+    "High peak drug levels",
+    "A second bactericidal antibiotic",
+    "An acidic stomach",
+    "A functioning immune system"
+   ],
+   "answer": "D",
+   "rationale": "Bacteriostatic drugs only suppress growth — \"functioning immune system required!\" — so the immune system can \"catch up\" and finish the job. That's why she avoids them in immunocompromised patients.",
+   "src": "slide 45 + 01:24:46"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Linezolid is usually reserved for which organisms?",
+   "options": [
+    "MRSA and vancomycin-resistant enterococci (VRE)",
+    "Influenza A and B within 48 hours of symptoms",
+    "Pseudomonas and anaerobes in mixed abdominal infections",
+    "Intestinal C. difficile after clindamycin"
+   ],
+   "answer": "A",
+   "rationale": "\"Let's protect this antibiotic\" — linezolid is kept for MRSA and VRE, so \"if your patient is on this, they probably have one of these, or maybe both.\" Pseudomonas is the Zosyn/cefepime/cipro connection.",
+   "src": "slide 49 + 01:34:40"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How long must a patient avoid alcohol with metronidazole?",
+   "options": [
+    "Only on the days a dose is taken",
+    "During treatment and for at least 3 days after the last dose",
+    "For 24 hours after the last dose",
+    "Alcohol is fine as long as each dose is taken with a full meal"
+   ],
+   "answer": "B",
+   "rationale": "Alcohol causes an Antabuse-like reaction (\"if you drink it, you get sick\"), and enough drug remains for at least three days after the final dose. Propylene glycol products are avoided too.",
+   "src": "slide 57 + 02:13:56"
+  },
+  {
+   "id": "p-013",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which set of adverse effects is characteristic of amphotericin B?",
+   "options": [
+    "Nephrotoxicity, hypokalemia and hypomagnesemia",
+    "Tendon rupture, dysglycemia and QT prolongation",
+    "Tooth discoloration and photosensitivity",
+    "Serotonin syndrome and thrombocytopenia"
+   ],
+   "answer": "A",
+   "rationale": "Ampho B damages the kidneys and wastes K⁺ and Mg²⁺ (plus anemia, liver enzymes and infusion reactions) — the Nephron meme. Tendons/glucose/QT is cipro; teeth and sun is doxycycline; serotonin syndrome and platelets is linezolid.",
+   "src": "slide 66 + 02:26:24"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How does oseltamivir (Tamiflu) work?",
+   "options": [
+    "Blocks synthesis of the cell wall that influenza viruses need",
+    "Kills influenza viruses directly by breaking their outer membrane",
+    "Inhibits neuraminidase, so new viruses aren't released to spread",
+    "Works like a vaccine, building antibodies against influenza"
+   ],
+   "answer": "C",
+   "rationale": "Oseltamivir inhibits viral neuraminidase, limiting release and spread. Antivirals suppress replication rather than kill the virus, and oseltamivir is not a vaccine.",
+   "src": "slide 71 + 02:38:20"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The nurse is about to hang the first dose of an IV antibiotic. A urine culture is ordered but hasn't been collected. What should the nurse do?",
+   "options": [
+    "Cancel the culture because the antibiotic is broad spectrum",
+    "Hold the antibiotic until the culture result returns",
+    "Collect the urine culture first, then give the dose without delay",
+    "Give the antibiotic now and collect the culture with the next void"
+   ],
+   "answer": "C",
+   "rationale": "\"Once the first dose of antibiotics goes into the patient, then our results are not accurate.\" Cultures come before the first dose as long as that doesn't delay treatment — so collect it now, not after, and don't wait 24–48 h for the result.",
+   "src": "slide 13 + 00:15:07"
+  },
+  {
+   "id": "p-016",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient started on broad piperacillin/tazobactam has a culture back at 48 hours: the organism is susceptible to a narrower drug and the patient is improving. What should the nurse anticipate?",
+   "options": [
+    "Continuing Zosyn because the patient is improving",
+    "Narrowing to targeted therapy based on culture and susceptibility",
+    "Adding a second broad-spectrum antibiotic",
+    "Stopping all antibiotics now, since the organism has been identified"
+   ],
+   "answer": "B",
+   "rationale": "Empiric therapy is \"the best guess\"; when results return the regimen is reassessed — continue, narrow, change or stop. Narrowing to the targeted drug spares normal flora and selection pressure.",
+   "src": "slide 15 + 00:21:28"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient says, \"I'm allergic to penicillin — it gave me diarrhea.\" What is the best interpretation?",
+   "options": [
+    "The patient will be allergic to every antibiotic",
+    "This is a true allergy, so all penicillins and cephalosporins are now contraindicated for life",
+    "Diarrhea is a common side effect, not an allergy; the nurse should clarify and document the details",
+    "This is anaphylaxis and requires desensitization"
+   ],
+   "answer": "C",
+   "rationale": "\"Oh, I got diarrhea. No, well, that's actually a side effect and not an allergy.\" Only about 1% of those who report penicillin allergy are truly allergic; ask what happened, when, and how severe it was.",
+   "src": "slide 33 + 00:28:02 + 00:45:08"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Ten days into broad-spectrum antibiotics, a patient develops white patches in the mouth. The nurse recognizes:",
+   "options": [
+    "A sign that the antibiotic is working against the infection",
+    "Antibiotic resistance that has developed in the patient",
+    "An allergic reaction that requires stopping all antibiotics now",
+    "A superinfection — normal flora killed, letting yeast flourish"
+   ],
+   "answer": "D",
+   "rationale": "Superinfection is a new infection during treatment of the first; killing normal flora lets a second agent (yeast, C. diff) take over, especially with broad drugs and long courses. Patients don't become resistant — bacteria do.",
+   "src": "slides 17, 21 + 00:23:05"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient with a documented history of throat swelling after amoxicillin has a new order for a cephalosporin. What should the nurse do?",
+   "options": [
+    "Give it with an antacid to prevent a reaction",
+    "Give it — cephalosporins are a different class, so there's no cross-reaction risk at all",
+    "Substitute amoxicillin/clavulanate instead",
+    "Recognize possible cross-sensitivity and clarify with the provider before giving it"
+   ],
+   "answer": "D",
+   "rationale": "A true penicillin allergy means all penicillins (Augmentin included) and \"some cross-sensitivity\" with cephalosporins. She said look first for something with no risk; it may still be used for a severe infection, but that's the provider's call after you raise it.",
+   "src": "slides 33, 38 + 01:01:48"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Oral vancomycin is ordered for a patient with MRSA bacteremia. What is the nurse's concern?",
+   "options": [
+    "Oral vancomycin is not absorbed, so it won't treat a bloodstream infection",
+    "Oral vancomycin is too nephrotoxic to use in a bloodstream infection like this",
+    "Oral vancomycin should be given with calcium",
+    "Vancomycin doesn't work against MRSA"
+   ],
+   "answer": "A",
+   "rationale": "\"Route is really important\": oral vanco stays in the intestine and treats intestinal C. diff; systemic MRSA needs IV vanco. Vancomycin does cover MRSA.",
+   "src": "slide 40 + 01:15:12"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient's IV vancomycin is due at 1800, and a trough level is ordered. When should the trough be drawn?",
+   "options": [
+    "At any time during the infusion",
+    "Just before the 1800 dose",
+    "30 minutes after the 1800 infusion ends",
+    "Two hours after the 1800 dose"
+   ],
+   "answer": "B",
+   "rationale": "The trough is the lowest point — drawn right before the next dose. A peak is usually ~30 minutes after an IV infusion. High troughs predict kidney damage better than high peaks.",
+   "src": "slide 41 + 01:17:32 + 01:19:37"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient starting doxycycline says, \"I'll take it at bedtime with a sip of water so I don't forget.\" The best response is:",
+   "options": [
+    "\"Bedtime is best — lying down lets it absorb more slowly and gently.\"",
+    "\"Take it with a full glass of water and stay upright for 30 minutes — not right before bed.\"",
+    "\"That's fine, as long as you take it with a full glass of milk to protect your stomach lining.\"",
+    "\"Crush it into applesauce at bedtime so it's easier to swallow.\""
+   ],
+   "answer": "B",
+   "rationale": "Doxycycline irritates and can ulcerate the esophagus: full glass of water, upright ≥ 30 minutes, not immediately before bed. Milk and calcium bind it and reduce absorption.",
+   "src": "slide 46 + 01:29:36"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient on doxycycline takes a daily calcium supplement and an antacid. What should the nurse teach?",
+   "options": [
+    "Take them together, and double the doxycycline dose to make up for the binding",
+    "Separate them from doxycycline by a few hours; they don't need to be stopped",
+    "Stop the calcium and antacid permanently",
+    "Take them all together to protect the stomach"
+   ],
+   "answer": "B",
+   "rationale": "Aluminum, calcium, iron and magnesium bind doxycycline in the gut. Her answer to the student: you don't have to stop them — \"usually they say 2–3 hours\" apart.",
+   "src": "slide 46 + 01:28:34"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Which patient prescribed azithromycin is at highest risk for a dysrhythmia?",
+   "options": [
+    "A man with a normal ECG who takes the drug with food and no other medications",
+    "A woman who takes the drug with food",
+    "A man with a penicillin allergy",
+    "A woman with a low potassium who also takes another QT-prolonging drug"
+   ],
+   "answer": "D",
+   "rationale": "QT risk rises with other QT drugs, low K⁺ or Mg²⁺ and existing rhythm problems — and \"women are automatically at increased risk because at baseline we have a longer QT interval.\" Food and penicillin allergy don't matter here.",
+   "src": "slide 47 + 01:31:40 + 01:32:10"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "On day 6 of clindamycin, a patient has six watery stools, abdominal cramping and a temperature of 38.4°C. What should the nurse do?",
+   "options": [
+    "Give an over-the-counter antidiarrheal and recheck tomorrow",
+    "Encourage the patient to finish the clindamycin course first, then report it",
+    "Document it as an expected, harmless side effect",
+    "Report the findings promptly and not give an antidiarrheal on her own"
+   ],
+   "answer": "D",
+   "rationale": "\"Clinda → C. diff.\" Watery or bloody stools, cramping or fever during or after clindamycin need to be reported, and significant diarrhea isn't treated independently with antidiarrheals.",
+   "src": "slide 48 + 01:33:36"
+  },
+  {
+   "id": "p-026",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient started on linezolid also takes sertraline (an SSRI). Which findings should the nurse watch for?",
+   "options": [
+    "Tinnitus, vertigo, hearing loss and balance problems",
+    "Tooth discoloration, photosensitivity, heartburn and nausea",
+    "Metallic taste, darkened urine and a headache",
+    "Agitation, confusion, diaphoresis, tremor, fever, rigidity"
+   ],
+   "answer": "D",
+   "rationale": "Linezolid has MAO-inhibitor activity, so with SSRIs/SNRIs it can cause serotonin syndrome — those are the signs on slide 49. Tinnitus and vertigo are gentamicin; metallic taste is metronidazole; teeth and sun are doxycycline.",
+   "src": "slide 49 + 01:36:58"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A 74-year-old taking prednisone is on ciprofloxacin and reports new pain and swelling at the back of the ankle. The nurse should:",
+   "options": [
+    "Recommend an antacid with each dose",
+    "Tell her to walk it off and keep taking the drug",
+    "Report it promptly — it may be tendinitis or impending tendon rupture",
+    "Recognize it as an expected effect of the prednisone alone and continue both"
+   ],
+   "answer": "C",
+   "rationale": "Fluoroquinolones cause tendinitis and rupture, usually the Achilles, and older age plus corticosteroids raise the risk. Tendon pain or swelling is reported promptly.",
+   "src": "slide 56 + 02:09:36 + 02:10:40"
+  },
+  {
+   "id": "p-028",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Which instruction is correct for nystatin oral suspension for thrush?",
+   "options": [
+    "Use it to treat systemic fungal infections",
+    "Take it with an antacid to protect it from stomach acid",
+    "Swallow it quickly so it reaches the bloodstream",
+    "Swish it around the mouth and hold it before swallowing"
+   ],
+   "answer": "D",
+   "rationale": "Nystatin is inactivated once it hits stomach acid, so it's \"really a topical medication\" — it has to stay in contact with the mouth. It is not for systemic infection.",
+   "src": "slide 67 + 02:29:05 + 02:29:35"
+  },
+  {
+   "id": "p-029",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient on a protein-synthesis inhibitor is severely immunocompromised. Why might the provider prefer a bactericidal drug?",
+   "options": [
+    "Bacteriostatic drugs cause osmotic lysis",
+    "Bacteriostatic drugs rely on the immune system to finish clearing the bacteria",
+    "Bactericidal drugs never cause adverse effects",
+    "Bactericidal drugs are always narrower in spectrum, so they spare the normal flora"
+   ],
+   "answer": "B",
+   "rationale": "\"You really don't want to use bacteriostatic drugs with patients who are immunocompromised, because you're banking on the immune system to do the last bit.\" Static vs cidal isn't a ranking of strength; osmotic lysis is the cell-wall drugs.",
+   "src": "slide 45 + 01:25:18"
+  },
+  {
+   "id": "p-030",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A patient starting TMP-SMX has no heart or liver failure. Which fluid instruction is correct?",
+   "options": [
+    "Avoid drinking water within 2 hours of each dose",
+    "Drink plenty of fluids to help prevent kidney crystals",
+    "Limit fluids so the drug stays concentrated in the urine",
+    "Fluid intake doesn't matter with this antibiotic"
+   ],
+   "answer": "B",
+   "rationale": "TMP-SMX can cause kidney injury and crystalluria, especially when dehydrated — \"unless they have a contraindication… heart failure or liver failure… go for it.\"",
+   "src": "slide 60 + 02:18:26"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: imipenem/cilastatin IV. Home medications: valproic acid. What is the safety concern?",
+   "options": [
+    "Imipenem can lower valproic acid levels → breakthrough seizures; alert the provider",
+    "The combination causes hyperkalemia; check potassium before each dose",
+    "No significant interaction; give both medications as scheduled",
+    "Valproic acid raises imipenem to toxic levels → kidney injury; hold the valproic acid"
+   ],
+   "answer": "A",
+   "rationale": "Carbapenems substantially reduce valproic acid concentrations, and a falling level is \"one of the biggest risks for having a huge, horrible seizure.\" Identify valproic acid use before the first dose.",
+   "src": "slide 39 + 01:12:26 + 01:20:38"
+  },
+  {
+   "id": "p-032",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: ceftriaxone IV now. The patient has one peripheral IV, with a calcium-containing IV solution running. What should the nurse do?",
+   "options": [
+    "Not Y-site them: stop the solution, flush the line, give the ceftriaxone, or use a separate line",
+    "Piggyback it into the calcium solution, but run the ceftriaxone faster so it can't react",
+    "Piggyback the ceftriaxone into the running solution",
+    "Mix the ceftriaxone directly into the solution bag"
+   ],
+   "answer": "A",
+   "rationale": "Ceftriaxone + calcium forms a precipitate that can deposit in the lungs and kidneys. Never run two things in one line without checking compatibility — separate lumens, or give, stop, flush, then give.",
+   "src": "slide 38 + 01:06:07 + 01:07:10"
+  },
+  {
+   "id": "p-033",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Day 4 of IV vancomycin plus gentamicin. Creatinine 0.9 → 1.3 → 1.8 mg/dL; urine output 20 mL/h for 3 hours. What is the nurse's priority?",
+   "options": [
+    "Report the rising creatinine and falling urine output before the next doses",
+    "Give both doses on time; kidney values usually settle once the infection clears",
+    "Encourage extra calcium in the diet to protect the kidneys",
+    "Draw a peak level 2 hours after the vancomycin dose instead"
+   ],
+   "answer": "A",
+   "rationale": "Both drugs are nephrotoxic and together raise the risk. \"A trend of anything is better than a one-time reading\" — a rising creatinine and falling urine output are the kidney findings to report.",
+   "src": "slides 41, 51 + 01:16:24 + 01:38:02"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: TMP-SMX DS PO. Medications: lisinopril (an ACE inhibitor, which raises potassium). Today's K⁺: 5.6 mEq/L (high). The nurse should:",
+   "options": [
+    "Hold and notify the provider — two K⁺-raising drugs and a high K⁺",
+    "Give the dose with a potassium supplement as usual",
+    "Give the dose; ACE inhibitors lower potassium, so it balances out",
+    "Give it with an antacid to reduce how much is absorbed"
+   ],
+   "answer": "A",
+   "rationale": "\"Put together this [raises] potassium with the patients on other medications that raise potassium. Now our risk is increasing.\" A high K⁺ before the dose is the finding to report.",
+   "src": "slides 59–60 + 02:16:32 + 02:17:11"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: oseltamivir PO. A healthy 30-year-old outpatient reports flu symptoms began 72 hours ago. What should the nurse do?",
+   "options": [
+    "Give it and tell her it will cure the flu in a day or two",
+    "Tell the provider symptoms began 72 h ago — benefit is greatest within 48 h",
+    "Give the live intranasal flu vaccine today instead, since it's past 48 hours",
+    "Give it together with an antibiotic for her cold symptoms"
+   ],
+   "answer": "B",
+   "rationale": "\"Within 48 hours is really the cutoff\"; after that \"you're really not going to get enough benefit.\" Severe, hospitalized or high-risk patients may still benefit later — she has none of those. It doesn't cure, and it may interfere with the live intranasal vaccine.",
+   "src": "slides 71–72 + 02:32:56 + 02:34:59"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: doxycycline PO for a 6-year-old child after a tick bite. What should the nurse do?",
+   "options": [
+    "Question the order — doxycycline is not given under age 7",
+    "Give it as ordered; the age limit applies only to ciprofloxacin",
+    "Give it at bedtime with a small sip of water",
+    "Give it with milk so it's gentler on a child's stomach"
+   ],
+   "answer": "A",
+   "rationale": "Her rule: doxycycline \"should never be given to children under the age of 7 because their baby teeth are still developing.\" Milk binds it, and a sip at bedtime risks esophageal injury.",
+   "src": "slide 46 + 01:27:31 + 01:29:06"
+  },
+  {
+   "id": "p-037",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: ciprofloxacin PO. Medication list: tizanidine. The nurse should:",
+   "options": [
+    "Give both; only minerals and antacids interact with cipro",
+    "Give them at least 2 hours apart, like the mineral supplements",
+    "Hold the dose and contact the provider — they're contraindicated together",
+    "Give the cipro with a calcium supplement to protect the stomach from irritation"
+   ],
+   "answer": "C",
+   "rationale": "\"There is one drug, tizanidine, that is contraindicated with ciprofloxacin. Those should never be given together.\" Spacing doses fixes the mineral interaction, not this one.",
+   "src": "slide 56 + 02:11:13"
+  },
+  {
+   "id": "p-038",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: metronidazole PO. Medications: warfarin; INR today 2.6. Which action is most appropriate?",
+   "options": [
+    "No change in monitoring — metronidazole doesn't affect warfarin",
+    "Monitor INR and bleeding closely; teach no alcohol for 3 days after",
+    "Give vitamin K with each metronidazole dose to prevent bleeding",
+    "Hold the warfarin until the course is done, on the nurse's authority"
+   ],
+   "answer": "B",
+   "rationale": "Metronidazole increases warfarin's anticoagulant effect, so INR and bleeding are watched more closely; the alcohol teaching applies to every metronidazole patient. Warfarin changes are the provider's decision.",
+   "src": "slides 57, 61 + 02:13:56"
+  },
+  {
+   "id": "p-039",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Amphotericin B, day 9. Creatinine 0.8 → 1.6 mg/dL; K⁺ 3.0 mEq/L (low); Mg²⁺ low; urine output falling. Next dose due in 1 hour. The nurse should:",
+   "options": [
+    "Give the dose faster so the kidneys are exposed for less time",
+    "Give the dose — these values are expected and need no action",
+    "Hold all IV fluids to protect the potassium and magnesium",
+    "Report the lab trends and falling urine output before the dose"
+   ],
+   "answer": "D",
+   "rationale": "Cumulative ampho B toxicity shows up as rising creatinine, low K⁺ and Mg²⁺, and declining urine output — the slide says report declining urine output or increasing creatinine. Never infuse faster than prescribed.",
+   "src": "slide 66 + 02:27:30"
+  },
+  {
+   "id": "p-040",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: azithromycin PO. A 66-year-old woman takes fluconazole; K⁺ 3.2 mEq/L (low). Which concern should the nurse raise?",
+   "options": [
+    "Azithromycin will be inactivated by the fluconazole",
+    "Additive QT risk: two QT drugs, low K⁺, female",
+    "Risk of Achilles tendon rupture from the combination",
+    "Risk of serotonin syndrome from the combination"
+   ],
+   "answer": "B",
+   "rationale": "Azithromycin and fluconazole both prolong the QT interval; hypokalemia adds risk; and women have a longer baseline QT. Tendons are cipro; serotonin syndrome is linezolid.",
+   "src": "slides 47, 64 + 01:31:40 + 01:32:10"
+  },
+  {
+   "id": "p-041",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: linezolid IV. Medication reconciliation shows the patient takes sertraline (an SSRI) daily. The nurse should:",
+   "options": [
+    "Give linezolid with a tyramine-rich meal",
+    "Give both and expect hyperkalemia",
+    "Notify the provider about the interaction risk (serotonin syndrome) before giving it",
+    "No action needed — linezolid interacts only with other antibiotics, not antidepressants"
+   ],
+   "answer": "C",
+   "rationale": "Linezolid has MAO-inhibitor activity; with SSRIs/SNRIs and other psych meds it can cause serotonin syndrome — \"complete a careful medication reconciliation.\" Tyramine-rich food is another interaction, not a fix.",
+   "src": "slide 49 + 01:36:26"
+  },
+  {
+   "id": "p-042",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Order: amoxicillin PO. Allergy list: \"penicillin — hives and throat swelling.\" The nurse should:",
+   "options": [
+    "Give half the dose first and observe for a reaction",
+    "Hold and contact the provider — allergy to one penicillin covers all",
+    "Give it with food, which prevents an allergic reaction",
+    "Give it; amoxicillin is a different class from penicillin, so no cross-allergy"
+   ],
+   "answer": "B",
+   "rationale": "Hives and throat swelling describe a true reaction, and an allergy to one penicillin is an allergy to all of them (-cillin = penicillin). Food reduces GI upset with Augmentin, not allergy.",
+   "src": "slides 31, 33 + 00:46:15"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Emergency department",
+   "setting": "Suspected urosepsis · hours 0–72 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 0950</b>\n68-year-old client brought in by his daughter for new confusion after 2 days of fever and painful urination. History of hypertension (takes amlodipine). Allergy history not yet obtained: the client is confused and the daughter is unsure. No antibiotics given yet. The provider suspects sepsis from a urinary source.\n<b>Vital Signs</b> — T 39.2°C · HR 118 · BP 88/52 · RR 24 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — Blood cultures ×2: ordered, not yet collected · Urine culture: ordered, not yet collected\n<b>Orders</b> — Blood cultures ×2 · urine culture · piperacillin/tazobactam (Zosyn) IV now · document specimen and dose times",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "Before hanging the first dose, the nurse reviews the chart. Which findings need follow-up <b>before the first dose</b>? Select all that apply.",
+     "options": [
+      "Blood cultures not yet collected",
+      "Daughter is at the bedside",
+      "Takes amlodipine for hypertension",
+      "SpO₂ 96% on room air",
+      "Allergy history not yet obtained",
+      "Urine culture not yet collected"
+     ],
+     "answer": "A, E, F",
+     "rationale": "Before the first dose: check specimen status and review the reaction history. Cultures come first because \"once the first dose of antibiotics goes into the patient, then our results are not accurate.\" The allergy history matters because Zosyn is a penicillin. Amlodipine isn't an interaction named for this drug, an SpO₂ of 96% is normal, and the daughter at the bedside is context — she may even help with the history.",
+     "src": "slides 13, 22, 30 + 00:15:07 + 00:28:41",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "Which statement best explains the provider's choice of piperacillin/tazobactam?",
+     "options": [
+      "A narrow-spectrum penicillin, it spares his gut flora and lowers superinfection risk",
+      "Broad-spectrum drugs are more powerful, so they kill any organism faster than a targeted drug",
+      "It is the drug of choice for MRSA, the likeliest urinary pathogen in older adults",
+      "Severe infection with an unknown organism needs broad coverage, including Pseudomonas"
+     ],
+     "answer": "D",
+     "rationale": "Empiric therapy is the best guess, drawn from the suspected source, the severity, local resistance information and the client's allergies and organ function. For sepsis \"we have like multiple broad spectrum antibiotics as quick as possible.\" Zosyn is broad and covers susceptible Pseudomonas. It isn't narrow, it doesn't cover MRSA (vancomycin, linezolid and ceftaroline do), and \"broad spectrum doesn't mean more powerful.\"",
+     "src": "slides 8, 15, 31 + 00:06:44 + 00:20:58 + 00:43:24",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "<b>Day 1, 1005.</b> The lab says a phlebotomist can't draw the blood cultures for about 40 minutes. BP is now 84/50. Which action is the nurse's <b>priority</b>?",
+     "options": [
+      "Ask the provider to cancel the cultures because the antibiotic matters more now",
+      "Tell the provider promptly about the culture delay so the urgent dose isn't held up",
+      "Hang the antibiotic now and mention the missing cultures at the end of the shift",
+      "Hold the antibiotic until the phlebotomist arrives and both blood culture sets are drawn"
+     ],
+     "answer": "B",
+     "rationale": "Cultures go before the first dose \"so long as it does not delay treatment.\" When treatment is urgent, the nurse communicates promptly rather than independently delaying a time-sensitive dose — the team weighs the trade-off. Holding the dose on her own delays sepsis treatment; hanging it quietly makes later cultures inaccurate without anyone deciding that; and cultures are still needed to \"match the drug with the bug.\"",
+     "src": "slides 13, 22 + 00:15:07 + 00:16:12 + 00:20:58",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "The nurse plans care for the first 72 hours of therapy. Which items belong in the plan? Select all that apply.",
+     "options": [
+      "Expect identification and susceptibility in about 24–48 hours",
+      "Draw repeat cultures 1 hour after the first dose to confirm them",
+      "Expect the Gram stain to show which antibiotics will work",
+      "Give each dose at the ordered interval, close to the scheduled time",
+      "Follow up on culture and susceptibility results as they return",
+      "Stop the antibiotic once the Gram stain result comes back"
+     ],
+     "answer": "A, D, E",
+     "rationale": "Give doses as close to schedule as possible so the drug stays in the therapeutic range, and follow up on results because a new result may change the drug. The culture takes 24–48 hours. The Gram stain (back in about 15–20 minutes) only separates gram-positive from gram-negative — it doesn't name the drug, and it's no reason to stop. Cultures drawn after the first dose aren't accurate.",
+     "src": "slides 13–14, 22 + 00:16:12 + 00:17:14 + 00:20:25 + 00:28:41",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "order",
+     "stem": "<b>Day 1, 1015.</b> The provider asks for the first dose as soon as the cultures are collected; the phlebotomist is drawing the blood cultures now. Put the nurse's actions in order.",
+     "options": [
+      "Document the specimen collection and dose times",
+      "Hang the first dose of piperacillin/tazobactam",
+      "Collect the urine culture using careful technique to avoid contamination",
+      "Review the culture and susceptibility report with the team"
+     ],
+     "answer": "C, B, A, D",
+     "rationale": "Specimens first, with careful technique (\"we want the purest sample possible\"), then the dose, then accurate documentation of both times (\"documenting, documenting, documenting\"). The culture and susceptibility report arrives 24–48 hours later and may change the drug.",
+     "src": "slide 14 + 00:15:07 + 00:19:26 + 00:19:55",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0900.</b> T 37.1°C · HR 84 · BP 122/74 · oriented to person, place and time. The urine culture grew one organism that is susceptible to piperacillin/tazobactam and to several narrower-spectrum drugs. Which statements about the next step are accurate? Select all that apply.",
+     "options": [
+      "The team will reassess and may narrow the regimen",
+      "Zosyn should continue unchanged because it is working",
+      "Broader coverage is needed now that the organism is known",
+      "A \"susceptible\" drug can still be unsuitable for him, e.g. if he had a serious reaction to it",
+      "\"Susceptible\" means the drug will reach any infection site",
+      "A narrower drug exposes less of his normal flora"
+     ],
+     "answer": "A, D, F",
+     "rationale": "He is responding, and the results are back — time to reassess: continue, narrow, change or stop. Narrowing to targeted therapy spares normal flora and lowers selection pressure. \"Susceptible\" describes the organism and drug in the lab only; the choice must also fit the site (CNS, bone, walled-off abscess) and the client (reaction history, kidney or liver function, pregnancy, other medications). Working isn't a reason to stay broad.",
+     "src": "slides 15–16 + 00:21:28 + 00:21:58 + 00:22:32 + 00:55:21",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Medical-surgical unit",
+   "setting": "Pneumonia with a penicillin allergy · days 1–3 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1600</b>\n45-year-old client admitted with pneumonia. Allergy band reads \"penicillin.\" One peripheral IV in the left forearm with a calcium-containing IV solution infusing. Sputum culture collected at 1530. Reports heartburn after spicy food.\n<b>Vital Signs</b> — T 38.4°C · HR 98 · BP 128/80 · RR 22 · SpO₂ 93% on 2 L\n<b>Laboratory Results</b> — Creatinine 0.7 mg/dL · sputum culture pending\n<b>Orders</b> — Ceftriaxone (Rocephin) IV daily, first dose now · acetaminophen PRN fever",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Before the first dose, the nurse clarifies the penicillin allergy. Which questions should the nurse ask? Select all that apply.",
+     "options": [
+      "Was it the generic or the brand-name drug?",
+      "Which pharmacy filled that prescription?",
+      "Have you taken a penicillin or cephalosporin since without a problem?",
+      "Which medication caused the reaction?",
+      "How soon after the dose did it happen?",
+      "What exactly happened?"
+     ],
+     "answer": "C, D, E, F",
+     "rationale": "The allergy questions: which drug, what happened, how soon, how long ago, and whether a penicillin or cephalosporin has been tolerated since. Only about 1% of the 10% who report a penicillin allergy are truly allergic — \"an itchy rash… is very different from my throat closed and I couldn't breathe.\" The pharmacy and generic vs brand don't change the risk.",
+     "src": "slide 33 + 00:45:08 + 00:45:40",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "The client says, \"As a teenager my throat got tight and I broke out in hives after amoxicillin.\" This history is most consistent with:",
+     "options": [
+      "A true penicillin allergy that carries some cross-sensitivity with cephalosporins",
+      "An allergy that rules out every cephalosporin, however severe the infection",
+      "A side effect only, since it happened many years ago and hasn't recurred",
+      "An allergy to amoxicillin alone, so Augmentin and other penicillins are safe"
+     ],
+     "answer": "A",
+     "rationale": "Throat tightness and hives describe a true reaction — side effects like diarrhea are what get mislabeled as allergy. A true allergy to one penicillin is an allergy to all of them (Augmentin is amoxicillin plus clavulanate). Cephalosporins carry some cross-sensitivity — \"it's not 100%\" — and if the infection is really severe, one may still be considered.",
+     "src": "slides 33, 38 + 00:46:15 + 00:46:49 + 01:01:48 + 01:02:18",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "Which risk is the nurse's <b>priority</b> to address before the first ceftriaxone dose?",
+     "options": [
+      "Anaphylaxis, given her probable penicillin cross-sensitivity",
+      "C. difficile diarrhea from disrupted normal flora",
+      "Hemolytic anemia from antibody destruction of red cells",
+      "Thrombophlebitis from an IV drug that irritates veins"
+     ],
+     "answer": "A",
+     "rationale": "All four are cephalosporin adverse effects, but anaphylaxis is life-threatening and her history raises the risk, so the provider must know before the dose. Phlebitis is prevented by giving it slowly and diluted; C. diff and hemolytic anemia are rare or later concerns monitored during treatment.",
+     "src": "slides 33, 38 + 01:04:34 + 01:05:05",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "<b>Day 1, 1640.</b> After reviewing the history, the provider orders the ceftriaxone given with close monitoring. The only IV has the calcium-containing solution running. Which actions are appropriate? Select all that apply.",
+     "options": [
+      "Push it quickly so the two have no time to react",
+      "Infuse it slowly at the prescribed rate",
+      "Stop the calcium solution, flush, give the ceftriaxone, then flush",
+      "Y-site it into the running calcium solution",
+      "Give it through a separate IV line",
+      "Mix it into the calcium-containing bag"
+     ],
+     "answer": "B, C, E",
+     "rationale": "Ceftriaxone with a calcium-containing IV solution forms a precipitate that can deposit in the kidneys and lungs — it has been fatal in infants. Use a separate line, or with one line give one, stop, flush, then give the other — \"as long as it's not going in at the exact same time.\" It irritates veins, so it's given slowly and diluted. A fast push still meets the calcium in the line.",
+     "src": "slide 38 + 01:06:07 + 01:07:10 + 01:10:53",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 1710.</b> Ten minutes into the infusion the client is wheezing and her lips and face are swelling. BP 98/60. What should the nurse do <b>first</b>?",
+     "options": [
+      "Notify the provider, then finish the dose",
+      "Slow the infusion to half the ordered rate",
+      "Flush the line with the calcium solution",
+      "Stop the ceftriaxone infusion"
+     ],
+     "answer": "D",
+     "rationale": "Difficulty breathing, mouth or airway swelling, hypotension or hives → STOP THE INFUSION, then notify the provider. This was the class quiz item: \"we're going to stop… and then notify the people who need to be aware.\" Slowing or finishing keeps the drug going in, and flushing with the calcium solution pushes ceftriaxone into calcium as well.",
+     "src": "slides 33, 38 + 00:57:54 + 00:58:33",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0800.</b> After the reaction was treated, the provider switched her to an antibiotic from a different class. Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "New rash spreading over the trunk",
+      "T 37.0°C",
+      "No wheezing or facial swelling since Day 1",
+      "Asks why her allergy band now lists two drugs",
+      "SpO₂ 96% on room air",
+      "Six watery stools with a distinctive odor since midnight"
+     ],
+     "answer": "B, C, E",
+     "rationale": "Fever gone, oxygenation better and no further reaction show therapeutic response. Big, watery stools with that recognizable odor could be C. diff, and a severe rash is a report item — both need follow-up. Her question about the allergy band is a teaching moment: ceftriaxone now belongs on it.",
+     "src": "slides 22, 34, 38 + 00:55:55 + 01:09:48",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Medical-surgical unit",
+   "setting": "Thigh abscess · days 1–5 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1400</b>\n19-year-old client admitted from urgent care with a large, draining abscess on the right thigh and spreading redness and warmth around it (cellulitis). Wrestles on his college team and lives in a campus dorm. No known drug allergies. Reports the area has worsened over 3 days.\n<b>Vital Signs</b> — T 38.6°C · HR 104 · BP 124/76 · RR 18\n<b>Laboratory Results</b> — Creatinine 0.8 mg/dL · wound culture pending\n<b>Orders</b> — Vancomycin IV every 12 h · vancomycin trough before the 4th dose · creatinine daily · strict intake and output",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "The nurse reviews the nurses' notes. Which findings are risk factors for <b>community-associated</b> MRSA? Select all that apply.",
+     "options": [
+      "Temperature 38.6°C",
+      "Lives in a campus dorm",
+      "Wrestles on a college team",
+      "Admitted from urgent care",
+      "Age 19",
+      "Creatinine 0.8 mg/dL"
+     ],
+     "answer": "B, C",
+     "rationale": "CA-MRSA risks on the slide: athletes in contact sports, MSM, and close quarters (prisons, military, college dorms). Fever and a normal creatinine are findings, not risk factors; age 19 and coming from urgent care aren't on the list. Healthcare-associated risks are different: older age, recent surgery or hospital stay, dialysis, catheters, long-term care.",
+     "src": "slide 28 + 00:40:20",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "sata",
+     "stem": "<b>Day 2, 0900.</b> The wound culture grows <b>MRSA</b>. Which drugs would be expected to treat this infection? Select all that apply.",
+     "options": [
+      "Ceftriaxone (Rocephin)",
+      "Ceftaroline",
+      "Oral vancomycin",
+      "Linezolid (Zyvox)",
+      "IV vancomycin",
+      "Amoxicillin"
+     ],
+     "answer": "B, D, E",
+     "rationale": "MRSA's altered PBPs have low affinity for most β-lactams, so amoxicillin and ceftriaxone fail. Ceftaroline is the unusual cephalosporin that binds the altered PBP; linezolid works on the ribosome; IV vancomycin works elsewhere in wall construction. Oral vancomycin stays in the intestine — it treats C. diff, not a skin infection.",
+     "src": "slides 28–29, 37, 40, 49 + 00:41:38 + 01:15:12",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "<b>Day 2, 1015.</b> Twenty minutes into the vancomycin infusion the client's face and neck are flushed and he is scratching his arms. BP 96/58, HR 112, RR 18. Lungs clear, no throat tightness. The client is most likely experiencing:",
+     "options": [
+      "A histamine-release infusion reaction",
+      "Early ototoxicity from vancomycin",
+      "A C. difficile superinfection",
+      "Nephrotoxicity from vancomycin"
+     ],
+     "answer": "A",
+     "rationale": "Flushing, itching and hypotension during the infusion = histamine release. It \"can look like anaphylaxis, but it really isn't — you don't know that at the time.\" Nephrotoxicity shows as rising creatinine and falling urine output over days; ototoxicity as hearing changes; C. diff as watery diarrhea.",
+     "src": "slide 41 + 01:18:35",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "Which actions should the nurse take now? Select all that apply.",
+     "options": [
+      "Finish the dose at a faster rate",
+      "Reassess blood pressure and infusion tolerance",
+      "Stop the vancomycin infusion",
+      "Record that vancomycin can never be given again",
+      "Notify the provider",
+      "Switch to the oral vancomycin on hand"
+     ],
+     "answer": "B, C, E",
+     "rationale": "Stop, hold, contact the provider, and keep monitoring tolerance. Because this is not a true allergic reaction, the provider may restart it — future doses infused more slowly, never faster. Oral vancomycin wouldn't reach a thigh infection.",
+     "src": "slide 41 + 01:18:35 + 01:19:07",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "mc",
+     "stem": "<b>Day 3, 0800.</b> The infusion was restarted at a slower rate and has been tolerated. Today: creatinine <b>1.4 mg/dL</b> (Day 1: 0.8) · urine output 25 mL/h over the last 8 h · trough drawn at 0830 is <b>above the target range</b>. The next dose is due at 0900. What should the nurse do?",
+     "options": [
+      "Give the dose now and ask for a urine culture",
+      "Give the dose over 30 minutes so that less drug builds up",
+      "Hold the 0900 dose and report the results to the provider",
+      "Give the 0900 dose and recheck creatinine tomorrow"
+     ],
+     "answer": "C",
+     "rationale": "A rising creatinine against his own baseline plus falling urine output is a trend — \"a trend of anything is better than a one-time reading.\" High troughs predict kidney damage; the provider may hold a dose and restart. Infusing faster raises the spike and is more harmful.",
+     "src": "slide 41 + 01:16:24 + 01:16:56 + 01:17:32 + 01:19:37",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "<b>Day 5.</b> Dosing was adjusted on day 3. Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Four watery stools since midnight",
+      "T 37.0°C",
+      "Urine output 60 mL/h",
+      "Redness around the abscess is shrinking",
+      "Creatinine 0.9 mg/dL",
+      "New ringing in both ears"
+     ],
+     "answer": "B, C, D, E",
+     "rationale": "Therapeutic response (the infection getting better) plus kidney function back toward baseline show improvement. New hearing changes (ototoxicity) and severe diarrhea (possible C. diff) are on the slide's list of things to report — they need follow-up, not reassurance.",
+     "src": "slide 41 + 01:16:24 + 01:20:07",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Long-term care facility",
+   "setting": "C. difficile after clindamycin · days 8–14 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 8, 0700</b>\n82-year-old resident on day 8 of oral clindamycin for a dental infection; her tooth pain has improved. Overnight: 7 watery stools with a strong, distinctive odor and abdominal cramping. Hip replacement 3 years ago. Takes a daily multivitamin. Her daughter asks the nurse to give an over-the-counter antidiarrheal so her mother can rest.\n<b>Vital Signs</b> — T 38.3°C · HR 96 · BP 118/70 · RR 18\n<b>Laboratory Results</b> — None new; stool testing not yet ordered\n<b>Orders</b> — Clindamycin PO (next dose 1200) · acetaminophen PRN",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which findings are relevant to a possible <b>complication</b> of her antibiotic? Select all that apply.",
+     "options": [
+      "Hip replacement 3 years ago",
+      "Abdominal cramping",
+      "Day 8 of clindamycin",
+      "Seven watery stools overnight",
+      "Tooth pain has improved",
+      "T 38.3°C"
+     ],
+     "answer": "B, C, D, F",
+     "rationale": "Watery or bloody stools, cramping and fever during or after clindamycin are the report items, and clindamycin has a \"super high correlation\" with C. diff. Improving tooth pain is therapeutic response — good news, not a complication. The old hip replacement is irrelevant here.",
+     "src": "slide 48 + 01:33:00 + 01:34:06",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "mc",
+     "stem": "These findings are most consistent with:",
+     "options": [
+      "C. difficile infection after clindamycin disrupted her normal flora",
+      "A delayed allergic reaction to clindamycin that needs a new drug",
+      "An expected antibiotic side effect that will settle on its own",
+      "Clindamycin resistance that she developed over the long course"
+     ],
+     "answer": "A",
+     "rationale": "\"If nothing else, just be like, clinda → C. diff.\" C. diff \"can't take hold\" unless the normal flora are disrupted. Loose stool is common, but 7 watery stools with cramping, fever and that recognizable odor is significant. No rash or breathing problem points to allergy, and patients don't become resistant — bacteria do.",
+     "src": "slides 11, 17, 48 + 00:49:21 + 01:09:48 + 01:33:36",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "Which action is the nurse's <b>priority</b>?",
+     "options": [
+      "Give the 1200 clindamycin dose so the dental infection clears",
+      "Report the watery stools, cramping and fever to the provider",
+      "Give the antidiarrheal so she can rest, then recheck later",
+      "Encourage fluids and reassess her stool pattern tomorrow"
+     ],
+     "answer": "B",
+     "rationale": "Report watery or bloody stools, cramping or fever, and don't independently treat significant diarrhea with an antidiarrheal. A changed clinical picture calls for reassessment of the antibiotic plan — the provider's decision, not something to settle by giving the next dose or waiting until tomorrow.",
+     "src": "slides 22, 48 + 01:34:06",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "<b>Day 8, 1500.</b> Her stool test is positive for C. difficile. Which orders should the nurse anticipate? Select all that apply.",
+     "options": [
+      "A scheduled antidiarrheal",
+      "A second broad-spectrum antibiotic to restore her flora",
+      "Oral vancomycin",
+      "Ceftriaxone IV",
+      "Ongoing monitoring of stool frequency and character",
+      "Reassessment of the clindamycin"
+     ],
+     "answer": "C, E, F",
+     "rationale": "A superinfection may need additional antimicrobial treatment and reassessment of the original therapy. Oral vancomycin treats intestinal C. diff. Ceftriaxone and other broad drugs \"mess up the normal flora more\" — C. diff is one of their adverse effects. Antidiarrheals aren't given on our own.",
+     "src": "slides 17, 40, 48 + 00:51:00 + 01:15:12",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "mc",
+     "stem": "<b>Day 9, 0900.</b> A new nurse asks why the vancomycin is ordered by mouth instead of IV. Which response is best?",
+     "options": [
+      "Oral vancomycin blocks bacterial ribosomes, unlike the IV form",
+      "The oral form isn't nephrotoxic, so it's safe for any infection",
+      "Oral vancomycin stays in the intestine, where this infection is",
+      "Oral vancomycin is absorbed better than the IV form of the drug"
+     ],
+     "answer": "C",
+     "rationale": "\"Route is really important\": oral vanco isn't absorbed well, so it's not for systemic infection — \"however, if you happen to have an intestinal infection, that's where you want the antibiotic to be.\" Both forms work on the cell wall, not ribosomes.",
+     "src": "slide 40 + 01:15:12",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "sata",
+     "stem": "<b>Day 14.</b> Which findings show the treatment is <b>working</b>? Select all that apply.",
+     "options": [
+      "T 37.0°C",
+      "No abdominal cramping",
+      "One formed stool in the past 24 hours",
+      "Cramping returns after meals",
+      "Streaks of blood in this morning's stool",
+      "Daughter brought an antidiarrheal from home"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Formed stool, no fever and no cramping show the infection resolving. Bloody stools and returning cramps are report items, and an antidiarrheal from home needs teaching — it shouldn't be given on her own.",
+     "src": "slide 48 + 01:34:06",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Surgical intensive care unit",
+   "setting": "Perforated bowel · days 1–7 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 0800</b>\n56-year-old client, post-op day 1 after surgery for a perforated bowel with a mixed intra-abdominal infection. Home medications: valproic acid for a seizure disorder (last seizure 2 years ago) and atorvastatin. Alert and oriented. Baseline hearing and balance recorded as normal.\n<b>Vital Signs</b> — T 38.2°C · HR 102 · BP 112/70 · RR 20\n<b>Laboratory Results</b> — Creatinine 1.0 mg/dL on admission → 1.3 mg/dL today · peritoneal fluid culture pending\n<b>Orders</b> — Imipenem/cilastatin (Primaxin) IV · gentamicin IV, planned 10-day course · gentamicin levels at specified times · creatinine daily · neuro checks every 4 h · strict intake and output · continue home valproic acid",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings increase this client's risk for an <b>adverse drug effect</b>? Select all that apply.",
+     "options": [
+      "Takes valproic acid at home",
+      "Baseline hearing and balance normal",
+      "Planned 10-day gentamicin course",
+      "Takes atorvastatin",
+      "T 38.2°C",
+      "Creatinine rising from 1.0 to 1.3 mg/dL"
+     ],
+     "answer": "A, C, F",
+     "rationale": "Carbapenems can substantially lower valproic acid levels → breakthrough seizures. Kidney impairment raises imipenem exposure (more seizure risk) and raises gentamicin nephrotoxicity risk, as does a longer duration of therapy. Atorvastatin isn't a named interaction, normal hearing is the baseline to compare against, and the fever is the infection.",
+     "src": "slides 39, 50 + 01:12:26 + 01:38:02",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "sata",
+     "stem": "Why is this regimen a reasonable choice for his infection? Select all that apply.",
+     "options": [
+      "Carbapenems are among the broadest-spectrum β-lactams",
+      "Gentamicin may add enhanced antibacterial action",
+      "Combination therapy is used for severe and mixed infections",
+      "Imipenem is the drug of choice for MRSA",
+      "Both drugs are bacteriostatic and gentle on gut flora",
+      "Imipenem is particularly effective against anaerobes"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Carbapenems are \"our broadest,\" for mixed infections, penetrate the gram-negative envelope and are particularly effective against anaerobes (cilastatin just keeps the kidney from breaking down the imipenem). Combinations are used for severe infections (a ruptured appendix usually gets triple antibiotics) and mixed infections, and gentamicin may be added for enhanced action. Carbapenems are NOT effective against MRSA, and both drugs are bactericidal.",
+     "src": "slides 19, 39, 50 + 00:24:08 + 01:10:53 + 01:11:24 + 01:11:54",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "<b>Day 2, 0600.</b> A valproic acid level drawn this morning is below the therapeutic range. Creatinine 1.5 mg/dL. The client reports a new headache. The client is at <b>highest risk</b> for:",
+     "options": [
+      "Gentamicin ototoxicity",
+      "A breakthrough seizure",
+      "A histamine-release infusion reaction",
+      "Hyperkalemia"
+     ],
+     "answer": "B",
+     "rationale": "Two seizure risks are stacking: low valproic acid levels (\"one of the biggest risks for having a huge, horrible seizure\") and rising imipenem exposure from worsening kidneys. Headache is one of imipenem's neurologic disturbances. Hearing loss is a gentamicin concern but nothing points to it yet; hyperkalemia is TMP-SMX; the histamine infusion reaction is vancomycin.",
+     "src": "slides 39, 42 + 01:12:26 + 01:13:10 + 01:21:22",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "Which actions belong in the plan now? Select all that apply.",
+     "options": [
+      "Draw the gentamicin level whenever the lab arrives",
+      "Draw gentamicin levels at the specified times",
+      "Assess neurologic status: headache, confusion, seizures",
+      "Review kidney function against the ordered doses",
+      "Report the low valproic acid level and rising creatinine",
+      "Give an extra valproic acid dose from floor stock"
+     ],
+     "answer": "B, C, D, E",
+     "rationale": "Imipenem nursing: review kidney function and the dose, assess neurologic status, identify valproic acid use. Gentamicin: obtain ordered concentrations at the specified times and coordinate administration and lab collection carefully. Extra doses need an order, and a level drawn at the wrong time can't be interpreted.",
+     "src": "slides 39, 42, 51 + 01:13:57 + 01:39:40",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "mc",
+     "stem": "<b>Day 4, 0800.</b> Creatinine 1.0 → <b>1.7 mg/dL</b> · urine output 25 mL/h over 8 h · he says his ears have been ringing since last night and the room spins when he sits up. Gentamicin is due at 0900. What should the nurse do?",
+     "options": [
+      "Reassure him that ringing ears are temporary and give the 0900 dose",
+      "Report the kidney trend and the new ear symptoms before giving the dose",
+      "Give the dose on time and recheck his hearing at the end of the shift",
+      "Give the dose early to keep the gentamicin level in therapeutic range"
+     ],
+     "answer": "B",
+     "rationale": "Kidneys and ears \"often will have damage that trends together.\" Rising creatinine and falling urine output signal nephrotoxicity; tinnitus and vertigo signal ototoxicity, which \"may be irreversible\" — so report before more drug goes in. Giving it, early or on time, adds exposure.",
+     "src": "slides 50–51 + 01:38:02 + 01:38:35 + 01:39:40",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "sata",
+     "stem": "<b>Day 7.</b> Dosing was adjusted on Day 4 and the peritoneal culture has resulted. Which findings need <b>follow-up</b>? Select all that apply.",
+     "options": [
+      "Still dizzy and unsteady when walking",
+      "Creatinine 1.1 mg/dL",
+      "Still on both broad drugs although the culture has resulted",
+      "T 37.1°C",
+      "No seizure activity since admission",
+      "New confusion about the date"
+     ],
+     "answer": "A, C, F",
+     "rationale": "Balance problems can mean lasting ototoxicity and are reported; new confusion is an imipenem neurologic disturbance. When microbiology returns, the need for broad coverage is reassessed — \"we would like for them to not be on broad-spectrum.\" A creatinine back near baseline, no fever and no seizures show the adjusted plan working.",
+     "src": "slides 39, 50–51 + 01:13:57 + 01:38:35",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Primary care clinic",
+   "setting": "Tick bite · clinic visit and day-4 call · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1100</b>\n34-year-old client found an attached tick 3 days ago and now has a spreading rash at the bite. Doxycycline PO is prescribed. Takes a calcium supplement every morning and antacids for frequent heartburn. Last menstrual period 5 weeks ago; hasn't taken a pregnancy test. Plans a camping weekend. Her 6-year-old son was also bitten. Works as an accountant.\n<b>Vital Signs</b> — T 37.2°C · HR 76 · BP 118/74 · RR 16\n<b>Laboratory Results</b> — Urine pregnancy test ordered\n<b>Orders</b> — Doxycycline PO · urine pregnancy test before the first dose",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which findings are relevant to safe doxycycline therapy? Select all that apply.",
+     "options": [
+      "Takes a calcium supplement every morning",
+      "BP 118/74",
+      "Works as an accountant",
+      "Last menstrual period 5 weeks ago",
+      "Uses antacids for frequent heartburn",
+      "Plans a camping weekend"
+     ],
+     "answer": "A, D, E, F",
+     "rationale": "Before doxycycline: review pregnancy status and age (developing teeth and bone), antacids and supplements (absorption), and esophageal risk. The camping trip matters because doxycycline causes photosensitivity. Her job and a normal BP don't change anything.",
+     "src": "slides 46, 52 + 01:27:01 + 01:29:06",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "Why do the calcium supplement and antacids matter?",
+     "options": [
+      "They make doxycycline more likely to cause photosensitivity",
+      "They block doxycycline's effects on developing teeth and bone",
+      "They bind doxycycline in the gut and reduce how much is absorbed",
+      "They raise doxycycline levels and cause esophageal ulcers"
+     ],
+     "answer": "C",
+     "rationale": "Aluminum, calcium, iron and magnesium bind doxycycline and reduce its absorption — antacids carry aluminum and calcium, and supplements carry iron and magnesium. They don't cause the ulcers, sun reactions or tooth effects; those come from the drug itself.",
+     "src": "slides 46, 52 + 01:28:04 + 01:28:34",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "<b>Day 1, 1130.</b> The pregnancy test is negative. She says she always takes her pills with a sip of water right before she lies down for the night. With doxycycline, this habit puts her at greatest risk for:",
+     "options": [
+      "Photosensitivity on the camping trip",
+      "C. difficile from disrupted gut flora",
+      "Reduced absorption of the doxycycline",
+      "Esophageal irritation or ulceration"
+     ],
+     "answer": "D",
+     "rationale": "Doxycycline \"can really cause some problems with the esophagus\": a full glass of water, upright at least 30 minutes, and not right before bed. Lying down with a sip of water lets the tablet sit against the esophagus. Sun reactions and C. diff are real risks but aren't caused by this habit; absorption drops with minerals, not position.",
+     "src": "slide 46 + 01:26:31 + 01:29:36",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "Which instructions belong in her doxycycline teaching? Select all that apply.",
+     "options": [
+      "Take each dose with a full glass of water",
+      "Use sun protection such as long sleeves",
+      "Take calcium and antacids a few hours apart from it",
+      "Stay upright for at least 30 minutes afterward",
+      "Take it with an antacid to protect the esophagus",
+      "Stop the calcium supplement until the course is done"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "Full glass of water, upright 30 minutes, separate minerals (\"usually they say 2–3 hours\"), sun protection and report severe skin reactions. Taking it with an antacid blocks absorption; she doesn't need to stop the calcium — just separate it.",
+     "src": "slides 46, 52 + 01:27:01 + 01:28:34 + 01:29:06 + 01:29:36",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "mc",
+     "stem": "She asks whether her 6-year-old son can take some of her doxycycline for his tick bite. Which response is best?",
+     "options": [
+      "\"No — it isn't given under age 7, and antibiotics aren't shared.\"",
+      "\"Yes, but just for 3 days rather than the full course.\"",
+      "\"Yes, as long as he takes it with a glass of milk to protect his teeth.\"",
+      "\"Yes, at half of your dose, since he is so much smaller than you.\""
+     ],
+     "answer": "A",
+     "rationale": "Doxycycline causes permanent tooth discoloration and affects developing bone — \"it should never be given to children under the age of 7.\" And \"do not share or save antibiotics ever.\" Milk is calcium, which would bind the drug anyway; shortening a course is never her decision.",
+     "src": "slides 22, 46 + 00:55:55 + 01:27:31",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "sata",
+     "stem": "<b>Day 4, phone call.</b> Which statements show she understands the teaching? Select all that apply.",
+     "options": [
+      "\"I gave my son one tablet just to be safe.\"",
+      "\"I take it right before bed so I sleep through any nausea.\"",
+      "\"I take my calcium at lunch, hours after the doxycycline.\"",
+      "\"I sit up for at least half an hour after each dose.\"",
+      "\"The rash faded, so I stopped it yesterday.\"",
+      "\"I wear long sleeves and sunscreen at the campsite.\""
+     ],
+     "answer": "C, D, F",
+     "rationale": "Sun protection, separating minerals and staying upright are all correct. Bedtime dosing risks esophageal injury, stopping early is a prescriber decision (\"contact the prescriber before stopping\"), and sharing — especially with a child under 7 — needs immediate follow-up.",
+     "src": "slides 18, 46 + 00:23:35 + 01:29:36",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Medical unit",
+   "setting": "VRE wound infection · days 1–12 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 1000</b>\n70-year-old client with an infected surgical wound on the left leg; the wound culture grew <b>vancomycin-resistant enterococci (VRE)</b>. Home medications: sertraline (an SSRI) for depression, buspirone for anxiety, and metformin for type 2 diabetes. No known drug allergies.\n<b>Vital Signs</b> — T 38.1°C · HR 92 · BP 136/82 · RR 18\n<b>Laboratory Results</b> — CBC within normal limits, including platelets\n<b>Orders</b> — Linezolid (Zyvox) IV · CBC weekly · medication reconciliation on admission",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which findings are most important to follow up before the first linezolid dose? Select all that apply.",
+     "options": [
+      "T 38.1°C",
+      "Takes buspirone",
+      "Takes sertraline (an SSRI)",
+      "Platelets within normal limits",
+      "No known drug allergies",
+      "Takes metformin"
+     ],
+     "answer": "B, C",
+     "rationale": "Linezolid has MAO-inhibitor activity, so it interacts with SSRIs and SNRIs, some tricyclics, buspirone, some opioids and other serotonergic drugs — \"a lot of the psych medications.\" Metformin isn't on that list. Normal platelets are a useful baseline, the fever is the infection, and no allergies is reassuring.",
+     "src": "slide 49 + 01:36:26",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "Why is linezolid the drug chosen for this client?",
+     "options": [
+      "It is bactericidal against every organism and gentle on the marrow",
+      "It acts against VRE and MRSA, so it's saved for these organisms",
+      "It is the drug of choice for C. difficile and other gut infections",
+      "It is the broadest drug for mixed infections and anaerobes"
+     ],
+     "answer": "B",
+     "rationale": "Linezolid treats MRSA and VRE — \"let's protect this antibiotic and not use it for a whole bunch of other stuff.\" Broadest/mixed/anaerobes = carbapenems; C. diff = oral vancomycin. Linezolid is bacteriostatic against many organisms and causes myelosuppression.",
+     "src": "slides 45, 49 + 01:34:40 + 01:35:15",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "Which action is the nurse's <b>priority</b> before giving the first dose?",
+     "options": [
+      "Give the linezolid with a meal to lower the risk of nausea",
+      "Give the linezolid, since these drugs aren't known to interact",
+      "Notify the provider about the sertraline and buspirone first",
+      "Hold the sertraline and buspirone on the nurse's own authority"
+     ],
+     "answer": "C",
+     "rationale": "Complete a careful medication reconciliation and bring the serotonergic drugs to the provider — the combination can cause serotonin syndrome. Stopping a home medication is the provider's decision. Nausea is a minor effect next to this interaction.",
+     "src": "slide 49 + 01:36:26",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "<b>Day 1, 1300.</b> The provider reviews the list and continues linezolid. Which monitoring belongs in the plan? Select all that apply.",
+     "options": [
+      "Hearing and balance checks before each dose",
+      "Bruising, bleeding, pallor or infection",
+      "Agitation, confusion, sweating, tremor, fever or rigidity",
+      "Vancomycin trough before each dose",
+      "CBC as ordered, commonly weekly",
+      "Tendon pain, especially at the Achilles"
+     ],
+     "answer": "B, C, E",
+     "rationale": "Linezolid causes myelosuppression, especially thrombocytopenia (CBC; bruising and bleeding), and serotonin syndrome with serotonergic drugs (agitation, confusion, diaphoresis, tremor, fever, rigidity). Troughs belong to vancomycin, hearing and balance to gentamicin and vancomycin, and tendons to ciprofloxacin.",
+     "src": "slide 49 + 01:36:26 + 01:36:58",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "<b>Day 10, 0800.</b> Platelets have fallen well below his Day 1 value. The nurse notes oozing around the IV site and blood on his toothbrush. What should the nurse do?",
+     "options": [
+      "Report the falling platelets and the bleeding signs to the provider",
+      "Recheck the CBC at next week's scheduled draw and keep monitoring",
+      "Hold the sertraline, since it is the cause of the low platelet count",
+      "Document the oozing as expected and give the next linezolid dose"
+     ],
+     "answer": "A",
+     "rationale": "A drop in platelets means bleeding more easily — \"blood in your teeth, blood in the urine, blood oozing from an IV site.\" That's linezolid's myelosuppression and needs reporting now. Sertraline is the serotonin-syndrome interaction, not the cause here; waiting a week ignores active bleeding.",
+     "src": "slide 49 + 01:35:15 + 01:36:58",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Day 12.</b> Which findings need <b>follow-up</b>? Select all that apply.",
+     "options": [
+      "Eating most of each meal",
+      "Wound redness shrinking",
+      "New tremor and heavy sweating",
+      "Agitation and new confusion",
+      "T 37.0°C",
+      "Several new bruises on both arms"
+     ],
+     "answer": "C, D, F",
+     "rationale": "Tremor, diaphoresis, agitation and confusion are on the serotonin-syndrome list; new bruising suggests falling platelets. A shrinking wound, normal temperature and good intake show therapeutic response.",
+     "src": "slide 49 + 01:36:58",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Clinic, then emergency department",
+   "setting": "Complicated UTI · days 1–7 · 6 questions",
+   "text": "<b>Nurses' Notes — Day 1, 0930 (clinic)</b>\n72-year-old client with a complicated urinary tract infection. Ciprofloxacin PO is prescribed. Medications: prednisone daily, a multivitamin with minerals, antacids as needed, tizanidine for muscle spasms, lisinopril (an ACE inhibitor) and warfarin. History: type 2 diabetes, reduced kidney function, cataract surgery last year.\n<b>Vital Signs</b> — T 37.9°C · HR 88 · BP 134/78 · RR 16\n<b>Laboratory Results</b> — Creatinine 1.6 mg/dL (reduced kidney function) · urine culture pending\n<b>Orders</b> — Ciprofloxacin PO · urine culture",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "sata",
+     "stem": "Which findings increase her risk of <b>tendon injury</b> from ciprofloxacin? Select all that apply.",
+     "options": [
+      "Cataract surgery last year",
+      "Multivitamin with minerals",
+      "Age 72",
+      "Daily prednisone",
+      "Type 2 diabetes",
+      "Reduced kidney function"
+     ],
+     "answer": "C, D, F",
+     "rationale": "Tendon-injury risk rises with older age, concurrent corticosteroids, kidney/heart/lung transplant and kidney impairment. The multivitamin matters for absorption and the diabetes for dysglycemia — not tendons. The cataract surgery is irrelevant.",
+     "src": "slide 56 + 02:10:40",
+     "step": "recognize"
+    },
+    {
+     "id": "c08-q02",
+     "type": "sata",
+     "stem": "Which of her medications interact with oral ciprofloxacin? Select all that apply.",
+     "options": [
+      "Lisinopril",
+      "Antacids",
+      "Tizanidine",
+      "Multivitamin with minerals",
+      "Acetaminophen as needed"
+     ],
+     "answer": "B, C, D",
+     "rationale": "Tizanidine is contraindicated with ciprofloxacin — \"those should never be given together.\" Aluminum, calcium, iron, magnesium and zinc (antacids, mineral supplements, multivitamins) reduce oral cipro absorption. Lisinopril matters later, with TMP-SMX and potassium; acetaminophen isn't a named interaction.",
+     "src": "slide 56 + 02:10:40 + 02:11:13",
+     "step": "analyze"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "Which medication must the nurse raise with the provider <b>before the first dose</b>?",
+     "options": [
+      "Tizanidine — it is contraindicated with ciprofloxacin",
+      "Lisinopril — the combination sharply lowers her potassium",
+      "Prednisone — it blocks ciprofloxacin absorption in the gut",
+      "The multivitamin — she must stop it for good before starting"
+     ],
+     "answer": "A",
+     "rationale": "A contraindication has to reach the prescriber before the dose. Prednisone raises tendon risk (teach about it) but doesn't block absorption; minerals are separated by several hours, not stopped; lisinopril raises potassium, and that matters with TMP-SMX.",
+     "src": "slides 56, 60 + 02:11:13",
+     "step": "prioritize"
+    },
+    {
+     "id": "c08-q04",
+     "type": "sata",
+     "stem": "<b>Day 1, 1000.</b> The provider changes her muscle-spasm medication. Which teaching points belong in her ciprofloxacin plan? Select all that apply.",
+     "options": [
+      "Use sun protection and keep well hydrated",
+      "Take it with an antacid to protect the stomach",
+      "Report numbness, tingling or burning pain",
+      "Separate it from the multivitamin and antacids by several hours",
+      "Stop the multivitamin permanently",
+      "Report tendon pain or swelling promptly"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Separate mineral products \"by several hours orally so that they don't combine in the stomach\"; report tendon pain promptly and any neuropathy (numbness, tingling, burning pain, weakness); hydration and sun protection. An antacid with the dose cuts absorption, and stopping the multivitamin isn't needed.",
+     "src": "slide 56 + 02:10:40 + 02:11:45",
+     "step": "generate"
+    },
+    {
+     "id": "c08-q05",
+     "type": "mc",
+     "stem": "<b>Day 4, 1900 (ED).</b> She arrives with sudden pain and swelling at the back of her right ankle. Her home glucose readings have swung widely since Day 2. What should the nurse do?",
+     "options": [
+      "Elevate the ankle and remind her to finish the ciprofloxacin course",
+      "Wrap the ankle and advise her to skip one dose until the pain eases",
+      "Ice the ankle and explain that glucose swings are expected with infection",
+      "Report the ankle pain, swelling and glucose swings to the provider"
+     ],
+     "answer": "D",
+     "rationale": "Fluoroquinolone tendinitis and rupture is \"usually the Achilles tendon,\" which means \"significant surgery and recovery\" — report tendon pain promptly. Dysglycemia is another serious cipro adverse effect. Finishing the course ignores both; skipping doses on her own isn't the answer either.",
+     "src": "slide 56 + 02:09:36 + 02:10:07 + 02:11:13",
+     "step": "act"
+    },
+    {
+     "id": "c08-q06",
+     "type": "sata",
+     "stem": "<b>Day 7.</b> Ciprofloxacin was stopped on Day 4 and trimethoprim-sulfamethoxazole (Bactrim) was started for the susceptible organism. Which findings need <b>follow-up</b>? Select all that apply.",
+     "options": [
+      "She now recalls hives from a \"sulfa\" antibiotic years ago",
+      "K⁺ 5.6 mEq/L (high)",
+      "T 37.0°C",
+      "No burning with urination",
+      "Spreading rash with painful mouth sores",
+      "INR above her usual range, with bleeding gums"
+     ],
+     "answer": "A, B, E, F",
+     "rationale": "TMP-SMX can cause hyperkalemia, and lisinopril also raises potassium — \"now our risk is increasing.\" It increases warfarin's effect (INR, bleeding). Rash or mucosal lesions are assessed promptly: Stevens-Johnson syndrome or TEN \"can be fatal.\" A sulfonamide reaction history is exactly what should be clarified. No burning and no fever show response.",
+     "src": "slides 59–60 + 02:16:00 + 02:16:32 + 02:17:11 + 02:17:51",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "title": "Scenario 9 — Oncology unit",
+   "setting": "Invasive fungal infection · weeks 1–3 · 6 questions",
+   "text": "<b>Nurses' Notes — Week 1, Day 1, 1400</b>\n58-year-old client receiving chemotherapy for leukemia; severely immunosuppressed, with an invasive fungal infection. White patches in the mouth diagnosed as oral thrush. Takes warfarin for a blood clot. Wears reading glasses.\n<b>Vital Signs (pre-infusion)</b> — T 37.0°C · HR 84 · BP 124/70 · RR 16 · SpO₂ 97%\n<b>Laboratory Results</b> — Creatinine 0.8 mg/dL · K⁺ and Mg²⁺ within normal limits\n<b>Orders</b> — Amphotericin B IV at the prescribed rate, start 1400 · infusion-reaction protocol · nystatin oral suspension · creatinine, BUN, K⁺, Mg²⁺, CBC and liver tests as ordered · strict intake and output",
+   "questions": [
+    {
+     "id": "c09-q01",
+     "type": "sata",
+     "stem": "<b>Day 1, 1430.</b> Thirty minutes into the infusion the nurse finds: shaking chills, nausea, T 38.9°C, BP 92/54, RR 26, SpO₂ 97%, IV site without redness. Which findings need follow-up? Select all that apply.",
+     "options": [
+      "Shaking chills",
+      "RR 26",
+      "IV site without redness",
+      "T 38.9°C",
+      "BP 92/54",
+      "SpO₂ 97%"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "Fever, shaking chills, nausea, hypotension and tachypnea — compared with her baseline vitals — are the infusion-related reaction signs. Her SpO₂ is unchanged, and a quiet IV site means no phlebitis yet.",
+     "src": "slide 66 + 02:25:10 + 02:25:41",
+     "step": "recognize"
+    },
+    {
+     "id": "c09-q02",
+     "type": "mc",
+     "stem": "These findings are most consistent with:",
+     "options": [
+      "Anaphylaxis, so the drug can never be given again",
+      "An infusion-related reaction to amphotericin B",
+      "Septic shock caused by a contaminated IV catheter",
+      "Phlebitis spreading from an irritated IV site"
+     ],
+     "answer": "B",
+     "rationale": "Infusion reactions happen during or shortly after the infusion, especially with early doses: \"like the flu times 10. It is miserable. It is not deadly.\" There's no airway swelling or hives, and the IV site is quiet, so phlebitis doesn't fit. The timing — the first infusion, 30 minutes in — points to the drug.",
+     "src": "slide 66 + 02:25:10 + 02:25:41",
+     "step": "analyze"
+    },
+    {
+     "id": "c09-q03",
+     "type": "mc",
+     "stem": "Which action is the nurse's <b>priority</b>?",
+     "options": [
+      "Record an allergy so amphotericin B is never given again",
+      "Give a premedication from floor stock even though none is ordered",
+      "Follow the infusion-reaction protocol and notify the provider",
+      "Speed up the infusion so the remaining dose finishes sooner"
+     ],
+     "answer": "C",
+     "rationale": "Follow institutional protocol and notify the provider for a significant reaction. Give it at the prescribed rate — \"don't administer it too fast\" — and premedications only when ordered. This is an expected infusion reaction, not an allergy; patients often need 6–8 weeks of it.",
+     "src": "slide 66 + 02:25:41 + 02:26:24",
+     "step": "prioritize"
+    },
+    {
+     "id": "c09-q04",
+     "type": "sata",
+     "stem": "Which monitoring belongs in her amphotericin B plan? Select all that apply.",
+     "options": [
+      "Potassium and magnesium",
+      "Valproic acid level",
+      "Serum creatinine and BUN",
+      "Vital signs closely during each infusion",
+      "Tendon pain",
+      "Intake and output"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Ampho B is nephrotoxic and wastes K⁺ and Mg²⁺: creatinine/BUN, K⁺, Mg²⁺, intake and output, CBC and liver tests, plus close vital signs during infusions. Valproic acid is the carbapenem interaction; tendons are ciprofloxacin.",
+     "src": "slides 66–67 + 02:25:41 + 02:27:30",
+     "step": "generate"
+    },
+    {
+     "id": "c09-q05",
+     "type": "mc",
+     "stem": "<b>Week 2.</b> Creatinine 0.8 → <b>1.9 mg/dL</b> · K⁺ <b>3.0 mEq/L</b> (low) · urine output falling · new muscle cramps. What should the nurse do?",
+     "options": [
+      "Give the next dose faster so less drug builds up in the kidneys",
+      "Report the falling urine output, rising creatinine and low K⁺",
+      "Treat the cramps with rest and recheck labs at next week's draw",
+      "Document these as expected effects and continue to monitor"
+     ],
+     "answer": "B",
+     "rationale": "Report declining urine output or increasing creatinine, and monitor for weakness, cramping or dysrhythmias from the K⁺ and Mg²⁺ losses — the meme: \"Nephron… what happened?… Amphotericin B.\" Faster infusion is never the answer, and expected doesn't mean unreported.",
+     "src": "slides 65–66 + 02:24:08 + 02:27:30",
+     "step": "act"
+    },
+    {
+     "id": "c09-q06",
+     "type": "sata",
+     "stem": "<b>Week 3.</b> Amphotericin B has been replaced with fluconazole; she still takes warfarin and uses nystatin for thrush. Which findings need <b>follow-up</b>? Select all that apply.",
+     "options": [
+      "She swishes the nystatin and holds it before swallowing",
+      "Palpitations and a near-fainting spell",
+      "Creatinine down to 1.2 mg/dL",
+      "Yellow tint to her eyes and dark urine",
+      "White patches in her mouth are fading",
+      "INR above her usual range, with bleeding gums"
+     ],
+     "answer": "B, D, F",
+     "rationale": "Fluconazole inhibits liver enzymes and increases warfarin's effect (\"here we go with warfarin again\"), is hepatotoxic, and prolongs the QT — report bleeding, jaundice or dark urine, palpitations or fainting. Swish-and-hold is the right nystatin technique, because it's inactivated once it hits stomach acid; fading patches and a falling creatinine are good news.",
+     "src": "slides 64, 67 + 02:23:37 + 02:24:08 + 02:29:05 + 02:29:35",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "title": "Scenario 10 — Rapid rounds",
+   "setting": "Clinic and inpatient · 6 standalone questions",
+   "text": "Six clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c10-q01",
+     "type": "mc",
+     "stem": "A client finishing metronidazole (Flagyl) today plans to have a beer at a party tomorrow night. What should the nurse teach?",
+     "options": [
+      "Alcohol is only a problem on the day of the first dose",
+      "Take an extra dose before the party to stay protected",
+      "Avoid alcohol for at least 3 days after the last dose",
+      "One beer is fine as long as you eat a full meal with it"
+     ],
+     "answer": "C",
+     "rationale": "Avoid alcohol and propylene glycol during treatment and for at least three days after the final dose — it mimics Antabuse: \"if you drink it, you get sick.\" Food doesn't prevent the reaction, and changing doses is never the fix.",
+     "src": "slides 57, 61 + 02:12:56 + 02:13:26 + 02:13:56 + 02:14:26"
+    },
+    {
+     "id": "c10-q02",
+     "type": "sata",
+     "stem": "A client is started on oseltamivir (Tamiflu) for influenza. Which teaching points are accurate? Select all that apply.",
+     "options": [
+      "Taking it with food may reduce nausea",
+      "It kills the virus, so symptoms stop right away",
+      "It works best when started within 48 hours of symptoms",
+      "It does not replace the annual flu vaccine",
+      "It also treats a cold or a bacterial chest infection",
+      "Report unusual behavior or sudden mental changes"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Give with food if GI effects occur; \"this is not a vaccine\" — you can get both; start as soon as possible, preferably within 48 hours; watch for rare acute neuropsychiatric symptoms. It doesn't treat colds or bacterial infections, and it suppresses replication — symptoms are milder and shorter, not gone at once.",
+     "src": "slides 71–72 + 02:32:56 + 02:33:26 + 02:33:59 + 02:34:59"
+    },
+    {
+     "id": "c10-q03",
+     "type": "sata",
+     "stem": "A client is going home on amoxicillin/clavulanate (Augmentin). Which teaching is correct? Select all that apply.",
+     "options": [
+      "Report trouble breathing, swelling or a severe rash",
+      "Don't save leftover pills or share them",
+      "Take it with food to reduce stomach upset",
+      "Take it exactly as prescribed",
+      "Stop it as soon as you feel better",
+      "Keep any extras for your next sore throat"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "Augmentin with food — \"their bellies will feel less sad.\" Take it exactly as prescribed and \"do not share or save antibiotics ever. That's universal.\" Report signs of a reaction. Stopping early is a prescriber decision, and leftovers for a sore throat (often viral) feed resistance.",
+     "src": "slides 18, 22, 34 + 00:14:33 + 00:55:55"
+    },
+    {
+     "id": "c10-q04",
+     "type": "mc",
+     "stem": "Before knee surgery, a client asks why he is getting cefazolin when he has no infection. The nurse explains:",
+     "options": [
+      "It treats an infection the surgeon already suspects in the knee",
+      "It's a short, specific course to prevent a surgical infection",
+      "It's the cephalosporin that binds MRSA's altered PBPs",
+      "It's a several-week course to prevent any infection after surgery"
+     ],
+     "answer": "B",
+     "rationale": "Cefazolin is \"frequently used for surgical prophylaxis,\" and prophylaxis needs a specific indication, drug, timing and duration — usually a few doses or days, \"not several weeks.\" Ceftaroline is the cephalosporin that binds MRSA's altered PBP.",
+     "src": "slides 20, 37 + 00:26:44 + 01:03:31 + 01:04:01"
+    },
+    {
+     "id": "c10-q05",
+     "type": "mc",
+     "stem": "A client says, \"I've taken so many antibiotics that I'm resistant to them now.\" Which response is best?",
+     "options": [
+      "\"Yes — your immune system now blocks them.\"",
+      "\"You'll need double doses from now on.\"",
+      "\"The bacteria become resistant — not you.\"",
+      "\"Only broad-spectrum drugs cause that.\""
+     ],
+     "answer": "C",
+     "rationale": "\"It's the bacteria themselves that are resistant… not the patient.\" Antibiotic use selects for resistant bacteria that may already be present. Every antimicrobial can promote resistance — broad-spectrum drugs are just more likely to.",
+     "src": "slides 11–12 + 00:12:54 + 00:14:00"
+    },
+    {
+     "id": "c10-q06",
+     "type": "sata",
+     "stem": "A client is prescribed azithromycin (Zithromax). Which findings increase her risk of a <b>dysrhythmia</b>? Select all that apply.",
+     "options": [
+      "Existing cardiac rhythm disorder",
+      "Potassium below normal",
+      "History of acne",
+      "Takes another QT-prolonging medication",
+      "Female sex",
+      "Takes a daily calcium supplement"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "Azithromycin prolongs the QT interval; risk rises with other QT-prolonging drugs, low K⁺ or Mg²⁺ and existing rhythm disorders — and \"women are automatically at increased risk because at baseline we have a longer QT interval.\" Calcium binds doxycycline and cipro, not azithromycin; acne is irrelevant.",
+     "src": "slides 47, 52 + 01:31:10 + 01:31:40 + 01:32:10"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "Four things a drug must do to work",
+   "back": "Act on the organism · reach the infection site · stay active despite resistance · suit this patient",
+   "tag": "principles",
+   "src": "slide 4 + 00:00:01"
+  },
+  {
+   "id": "fc-002",
+   "front": "Selective toxicity",
+   "back": "Drug hits the microorganism harder than the person — exploits bacterial vs human differences",
+   "tag": "principles",
+   "src": "slide 5 + 00:01:05"
+  },
+  {
+   "id": "fc-003",
+   "front": "\"Selective does not mean harmless\" — 3 harms",
+   "back": "Allergic reaction · damage to human tissue · disrupted normal flora",
+   "tag": "principles",
+   "src": "slide 5 + 00:02:39"
+  },
+  {
+   "id": "fc-004",
+   "front": "Four bacterial target groups we study",
+   "back": "Cell wall · protein synthesis (ribosomes) · folate synthesis · DNA replication",
+   "tag": "principles",
+   "src": "slide 7 + 00:03:55"
+  },
+  {
+   "id": "fc-005",
+   "front": "Narrow spectrum",
+   "back": "Covers a smaller group — the best choice when the bug is known and susceptible; spares flora",
+   "tag": "principles",
+   "src": "slide 8 + 00:05:06"
+  },
+  {
+   "id": "fc-006",
+   "front": "When is broad spectrum useful?",
+   "back": "Organism unknown, or several must be covered (e.g. ruptured appendix → gut bacteria in the peritoneum)",
+   "tag": "principles",
+   "src": "slide 8 + 00:06:12"
+  },
+  {
+   "id": "fc-007",
+   "front": "Broad spectrum = more powerful?",
+   "back": "No — it covers more kinds of bacteria, and kills more normal flora",
+   "tag": "principles",
+   "src": "slide 8 + 00:06:44"
+  },
+  {
+   "id": "fc-008",
+   "front": "Four resistance mechanisms",
+   "back": "Drug inactivation · target alteration · reduced entry · efflux",
+   "tag": "resistance",
+   "src": "slide 10 + 00:08:56"
+  },
+  {
+   "id": "fc-009",
+   "front": "Selection pressure",
+   "back": "Drug kills susceptible bacteria → a resistant mutant survives, faces no competition and multiplies",
+   "tag": "resistance",
+   "src": "slides 11–12 + 00:11:45 + 00:13:30"
+  },
+  {
+   "id": "fc-010",
+   "front": "Who becomes resistant — patient or bacteria?",
+   "back": "The bacteria. \"It's not the patient.\"",
+   "tag": "resistance",
+   "src": "slide 11 + 00:12:54"
+  },
+  {
+   "id": "fc-011",
+   "front": "Which antibiotics most promote resistance?",
+   "back": "All can — broad spectrum most likely; more use → faster resistance",
+   "tag": "resistance",
+   "src": "slide 12 + 00:14:00"
+  },
+  {
+   "id": "fc-012",
+   "front": "When are cultures collected?",
+   "back": "BEFORE the first antibiotic dose (as long as it doesn't delay treatment)",
+   "tag": "culture-therapy",
+   "src": "slide 13 + 00:15:07"
+  },
+  {
+   "id": "fc-013",
+   "front": "Why cultures before the first dose?",
+   "back": "\"Once the first dose… goes into the patient, then our results are not accurate\"",
+   "tag": "culture-therapy",
+   "src": "00:15:07"
+  },
+  {
+   "id": "fc-014",
+   "front": "Gram stain — what and how fast?",
+   "back": "Gram-positive vs gram-negative · back in ~15–20 min",
+   "tag": "culture-therapy",
+   "src": "slide 13 + 00:16:12"
+  },
+  {
+   "id": "fc-015",
+   "front": "How long does a culture take?",
+   "back": "24–48 hours — start broad, then tailor",
+   "tag": "culture-therapy",
+   "src": "slide 13 + 00:17:14"
+  },
+  {
+   "id": "fc-016",
+   "front": "Susceptibility (sensitivity) testing",
+   "back": "Shows which drugs are likely to inhibit the isolated organism (petri dish: bigger clear circle = more effective)",
+   "tag": "culture-therapy",
+   "src": "slide 13 + 00:18:22"
+  },
+  {
+   "id": "fc-017",
+   "front": "Empiric therapy",
+   "back": "Best-guess treatment before the organism is known (source, severity, local resistance, patient factors)",
+   "tag": "culture-therapy",
+   "src": "slide 15 + 00:20:25"
+  },
+  {
+   "id": "fc-018",
+   "front": "Targeted therapy",
+   "back": "Changing the drug based on culture & sensitivity — continue, narrow, change or stop",
+   "tag": "culture-therapy",
+   "src": "slide 15 + 00:21:28"
+  },
+  {
+   "id": "fc-019",
+   "front": "Superinfection",
+   "back": "New infection during treatment — normal flora killed, a second bug (C. diff, yeast) flourishes",
+   "tag": "culture-therapy",
+   "src": "slide 17 + 00:22:32"
+  },
+  {
+   "id": "fc-020",
+   "front": "\"Allergic to penicillin\" — what to clarify",
+   "back": "Which drug · what happened · how soon · how long ago · tolerated a PCN/ceph since?",
+   "tag": "nursing",
+   "src": "slides 22, 33"
+  },
+  {
+   "id": "fc-021",
+   "front": "Universal antibiotic teaching",
+   "back": "Take exactly as prescribed · call before stopping · don't save or share leftovers",
+   "tag": "nursing",
+   "src": "slide 22 + 00:29:20"
+  },
+  {
+   "id": "fc-022",
+   "front": "\"Always finish all your antibiotics\" — her update",
+   "back": "\"Really just follow the directions\" — C&S may change the plan",
+   "tag": "nursing",
+   "src": "slide 18 + 00:23:35"
+  },
+  {
+   "id": "fc-023",
+   "front": "Which classes are β-lactams?",
+   "back": "Penicillins, cephalosporins, carbapenems (not vancomycin)",
+   "tag": "cell-wall",
+   "src": "slide 25 + 00:33:33"
+  },
+  {
+   "id": "fc-024",
+   "front": "β-lactam mechanism (one line)",
+   "back": "Bind PBPs → no peptidoglycan cross-linking → wall weakens → bacterium dies (bactericidal)",
+   "tag": "cell-wall",
+   "src": "slide 25 + 00:34:36"
+  },
+  {
+   "id": "fc-025",
+   "front": "β-lactamase (penicillinase)",
+   "back": "Bacterial enzyme that cleaves the β-lactam ring → drug can't bind PBP",
+   "tag": "cell-wall",
+   "src": "slide 27 + 00:35:46"
+  },
+  {
+   "id": "fc-026",
+   "front": "MRSA resistance mechanism",
+   "back": "Altered PBPs — \"the locks have been changed at all the doors\"",
+   "tag": "cell-wall",
+   "src": "slides 28–29 + 00:38:05"
+  },
+  {
+   "id": "fc-027",
+   "front": "S. aureus vs MRSA carriers",
+   "back": "~30% carry S. aureus · only ~1–2% carry MRSA",
+   "tag": "cell-wall",
+   "src": "slide 28 + 00:39:13"
+  },
+  {
+   "id": "fc-028",
+   "front": "Penicillin name clue",
+   "back": "-cillin",
+   "tag": "penicillins",
+   "src": "slide 31 + 00:42:12"
+  },
+  {
+   "id": "fc-029",
+   "front": "Amoxicillin/clavulanate — trade name & tip",
+   "back": "Augmentin · take with food (GI upset)",
+   "tag": "penicillins",
+   "src": "slides 32, 34 + 00:55:55"
+  },
+  {
+   "id": "fc-030",
+   "front": "Piperacillin/tazobactam — trade name & flagged use",
+   "back": "Zosyn · broad, common IV, covers Pseudomonas",
+   "tag": "penicillins",
+   "src": "slide 31 + 00:43:24"
+  },
+  {
+   "id": "fc-031",
+   "front": "What clavulanate and tazobactam do",
+   "back": "Block β-lactamases so the paired penicillin reaches its PBP · useless alone",
+   "tag": "penicillins",
+   "src": "slide 32 + 00:43:58"
+  },
+  {
+   "id": "fc-032",
+   "front": "Penicillin allergy numbers",
+   "back": "10% report · ~1% truly allergic",
+   "tag": "penicillins",
+   "src": "slide 33 + 00:45:08"
+  },
+  {
+   "id": "fc-033",
+   "front": "True allergy to one penicillin means…",
+   "back": "Allergic to all penicillins + some cross-sensitivity with cephalosporins",
+   "tag": "penicillins",
+   "src": "slide 33 + 00:46:15"
+  },
+  {
+   "id": "fc-034",
+   "front": "Wheezing/swelling during a penicillin infusion",
+   "back": "STOP the infusion, then notify the provider",
+   "tag": "penicillins",
+   "src": "slide 33 + 00:58:33"
+  },
+  {
+   "id": "fc-035",
+   "front": "Penicillin + methotrexate",
+   "back": "Some penicillins ↓ methotrexate elimination → toxicity",
+   "tag": "penicillins",
+   "src": "slide 34 + 00:54:00"
+  },
+  {
+   "id": "fc-036",
+   "front": "Cephalosporin name clue & prototype",
+   "back": "cef- / ceph- · ceftriaxone (Rocephin)",
+   "tag": "cephs-carbapenems",
+   "src": "slides 36–37 + 01:00:10"
+  },
+  {
+   "id": "fc-037",
+   "front": "Cefazolin — flagged use",
+   "back": "Surgical prophylaxis",
+   "tag": "cephs-carbapenems",
+   "src": "slide 37 + 01:03:31"
+  },
+  {
+   "id": "fc-038",
+   "front": "Cefepime / ceftaroline — flagged uses",
+   "back": "Cefepime → Pseudomonas · ceftaroline → MRSA (binds the altered PBP)",
+   "tag": "cephs-carbapenems",
+   "src": "slide 37 + 01:04:01"
+  },
+  {
+   "id": "fc-039",
+   "front": "Ceftriaxone + calcium-containing IV solution",
+   "back": "Precipitate → deposits in lungs & kidneys; fatal in infants — never together in one line",
+   "tag": "cephs-carbapenems",
+   "src": "slide 38 + 01:06:07"
+  },
+  {
+   "id": "fc-040",
+   "front": "Cephalosporin adverse effects",
+   "back": "Allergy (PCN cross!) · thrombophlebitis · rare hemolytic anemia · diarrhea/C. diff",
+   "tag": "cephs-carbapenems",
+   "src": "slide 38 + 01:04:34"
+  },
+  {
+   "id": "fc-041",
+   "front": "Carbapenem prototype & spectrum",
+   "back": "Imipenem/cilastatin (Primaxin) · broadest β-lactam, mixed infections, anaerobes — NOT MRSA",
+   "tag": "cephs-carbapenems",
+   "src": "slide 39 + 01:10:53"
+  },
+  {
+   "id": "fc-042",
+   "front": "Cilastatin does what?",
+   "back": "Blocks the KIDNEY enzyme that breaks down imipenem",
+   "tag": "cephs-carbapenems",
+   "src": "slide 39 + 01:11:24"
+  },
+  {
+   "id": "fc-043",
+   "front": "Imipenem + valproic acid",
+   "back": "Valproic acid levels drop → breakthrough seizures",
+   "tag": "cephs-carbapenems",
+   "src": "slide 39 + 01:12:26"
+  },
+  {
+   "id": "fc-044",
+   "front": "Vancomycin class & why it beats MRSA",
+   "back": "Glycopeptide, not a β-lactam — binds peptidoglycan building blocks, not PBPs",
+   "tag": "vancomycin",
+   "src": "slide 40 + 01:14:34"
+  },
+  {
+   "id": "fc-045",
+   "front": "IV vs oral vancomycin",
+   "back": "IV → systemic (MRSA) · oral → not absorbed → intestinal C. diff only",
+   "tag": "vancomycin",
+   "src": "slide 40 + 01:15:12"
+  },
+  {
+   "id": "fc-046",
+   "front": "Vanco + ? (her phrase)",
+   "back": "\"Really put together vanco and kidneys\" — creatinine, BUN, urine output",
+   "tag": "vancomycin",
+   "src": "slide 41 + 01:15:46"
+  },
+  {
+   "id": "fc-047",
+   "front": "When is a vanco trough drawn?",
+   "back": "Right before the next dose (lowest point)",
+   "tag": "vancomycin",
+   "src": "slide 41 + 01:17:32"
+  },
+  {
+   "id": "fc-048",
+   "front": "Vanco infusion reaction",
+   "back": "Histamine: flushing, itching, hypotension → stop, notify; restart slower",
+   "tag": "vancomycin",
+   "src": "slide 41 + 01:18:35"
+  },
+  {
+   "id": "fc-049",
+   "front": "Ribosome subunits (on slides & charts)",
+   "back": "Bacterial 70S vs human 80S — she: \"just know that it's the ribosomes\"",
+   "tag": "protein-synthesis",
+   "src": "slide 44 + 01:24:09"
+  },
+  {
+   "id": "fc-050",
+   "front": "30S vs 50S drugs (chart)",
+   "back": "30S: doxycycline, gentamicin · 50S: azithromycin, clindamycin, linezolid",
+   "tag": "protein-synthesis",
+   "src": "slides 44, 52"
+  },
+  {
+   "id": "fc-051",
+   "front": "Bacteriostatic — what's required?",
+   "back": "A functioning immune system to finish the job → avoid in immunocompromised",
+   "tag": "protein-synthesis",
+   "src": "slide 45 + 01:24:46"
+  },
+  {
+   "id": "fc-052",
+   "front": "The bactericidal protein-synthesis inhibitor",
+   "back": "Gentamicin — misread mRNA → abnormal proteins",
+   "tag": "protein-synthesis",
+   "src": "slide 50 + 01:37:28"
+  },
+  {
+   "id": "fc-053",
+   "front": "Doxycycline — trade name & teaching",
+   "back": "Vibramycin · full glass of water, upright 30 min, not at bedtime, sun protection",
+   "tag": "protein-synthesis",
+   "src": "slide 46 + 01:29:36"
+  },
+  {
+   "id": "fc-054",
+   "front": "Doxycycline — who should never get it? (her rule)",
+   "back": "Pregnant women and children under 7 (permanent tooth discoloration, bone)",
+   "tag": "protein-synthesis",
+   "src": "slide 46 + 01:27:31"
+  },
+  {
+   "id": "fc-055",
+   "front": "Doxycycline + antacids/minerals",
+   "back": "Al, Ca, Fe, Mg bind it — separate ~2–3 h; no need to stop them",
+   "tag": "protein-synthesis",
+   "src": "slide 46 + 01:28:34"
+  },
+  {
+   "id": "fc-056",
+   "front": "Azithromycin — trade name & big risk",
+   "back": "Zithromax · QT prolongation → fatal dysrhythmia (also hepatotoxicity)",
+   "tag": "protein-synthesis",
+   "src": "slide 47 + 01:31:10"
+  },
+  {
+   "id": "fc-057",
+   "front": "Azithromycin dysrhythmia risk factors",
+   "back": "Other QT drugs · low K⁺ or Mg²⁺ · rhythm disorders · women (longer baseline QT)",
+   "tag": "protein-synthesis",
+   "src": "slide 47 + 01:32:10"
+  },
+  {
+   "id": "fc-058",
+   "front": "Clindamycin — one thing to remember",
+   "back": "Clinda → C. diff (Cleocin)",
+   "tag": "protein-synthesis",
+   "src": "slide 48 + 01:33:36"
+  },
+  {
+   "id": "fc-059",
+   "front": "Linezolid — trade name & flagged use",
+   "back": "Zyvox · MRSA and VRE (a protected drug)",
+   "tag": "protein-synthesis",
+   "src": "slide 49 + 01:34:40"
+  },
+  {
+   "id": "fc-060",
+   "front": "Linezolid + SSRIs/SNRIs",
+   "back": "Serotonin syndrome: agitation, confusion, diaphoresis, tremor, fever, rigidity",
+   "tag": "protein-synthesis",
+   "src": "slide 49 + 01:36:26 + 01:36:58"
+  },
+  {
+   "id": "fc-061",
+   "front": "Linezolid — marrow effect",
+   "back": "Thrombocytopenia → CBC; watch gums, urine, IV-site bleeding",
+   "tag": "protein-synthesis",
+   "src": "slide 49 + 01:36:58"
+  },
+  {
+   "id": "fc-062",
+   "front": "Gentamicin — two big toxicities",
+   "back": "Nephrotoxicity + ototoxicity (tinnitus, vertigo, hearing loss — may be irreversible)",
+   "tag": "protein-synthesis",
+   "src": "slide 50 + 01:38:35"
+  },
+  {
+   "id": "fc-063",
+   "front": "Ciprofloxacin — target & effect",
+   "back": "Bacterial DNA replication (DNA gyrase/topoisomerase IV) · bactericidal",
+   "tag": "dna-folate",
+   "src": "slide 55 + 02:19:03"
+  },
+  {
+   "id": "fc-064",
+   "front": "Cipro — signature adverse effect",
+   "back": "Tendinitis / tendon rupture, usually the Achilles",
+   "tag": "dna-folate",
+   "src": "slide 56 + 02:10:07"
+  },
+  {
+   "id": "fc-065",
+   "front": "Cipro tendon-risk factors",
+   "back": "Older age · corticosteroids · kidney/heart/lung transplant · kidney impairment",
+   "tag": "dna-folate",
+   "src": "slide 56 + 02:10:40"
+  },
+  {
+   "id": "fc-066",
+   "front": "Cipro — age rule (her pearl)",
+   "back": "Avoided under age 18 (tendon rupture risk)",
+   "tag": "dna-folate",
+   "src": "02:09:36"
+  },
+  {
+   "id": "fc-067",
+   "front": "Cipro — never give with…",
+   "back": "Tizanidine (contraindicated)",
+   "tag": "dna-folate",
+   "src": "slide 56 + 02:11:13"
+  },
+  {
+   "id": "fc-068",
+   "front": "Metronidazole — trade name & harmless effects to warn about",
+   "back": "Flagyl · metallic taste, darkened urine",
+   "tag": "dna-folate",
+   "src": "slide 57 + 02:12:17"
+  },
+  {
+   "id": "fc-069",
+   "front": "Metronidazole + alcohol",
+   "back": "Antabuse-like reaction — avoid during and ≥ 3 days after",
+   "tag": "dna-folate",
+   "src": "slide 57 + 02:13:56"
+  },
+  {
+   "id": "fc-070",
+   "front": "TMP-SMX — trade names & mechanism",
+   "back": "Bactrim, Septra · blocks two sequential steps of bacterial folate synthesis",
+   "tag": "dna-folate",
+   "src": "slides 58–59 + 02:14:26"
+  },
+  {
+   "id": "fc-071",
+   "front": "TMP-SMX serious effects",
+   "back": "SJS/TEN · marrow suppression · hyperkalemia · kidney injury/crystals · liver",
+   "tag": "dna-folate",
+   "src": "slide 59 + 02:16:00"
+  },
+  {
+   "id": "fc-072",
+   "front": "TMP-SMX — ask before the first dose",
+   "back": "Sulfa (sulfonamide) allergy",
+   "tag": "dna-folate",
+   "src": "slide 60 + 02:17:11"
+  },
+  {
+   "id": "fc-073",
+   "front": "Warfarin interactions in this lecture",
+   "back": "Metronidazole · TMP-SMX · fluconazole → ↑ INR/bleeding",
+   "tag": "dna-folate",
+   "src": "slides 57, 60, 64"
+  },
+  {
+   "id": "fc-074",
+   "front": "Why fungi are hard to treat",
+   "back": "Eukaryotic like us → fewer targets, more toxicity, long treatment",
+   "tag": "antifungals",
+   "src": "slide 63 + 02:20:53"
+  },
+  {
+   "id": "fc-075",
+   "front": "Fluconazole — trade name & mechanism",
+   "back": "Diflucan · inhibits ergosterol synthesis · fungistatic",
+   "tag": "antifungals",
+   "src": "slide 64 + 02:22:01"
+  },
+  {
+   "id": "fc-076",
+   "front": "Fluconazole — adverse effects & interaction",
+   "back": "Hepatotoxicity, QT · ↑ warfarin effect",
+   "tag": "antifungals",
+   "src": "slide 64 + 02:23:37"
+  },
+  {
+   "id": "fc-077",
+   "front": "Amphotericin B — mechanism & effect",
+   "back": "Binds ergosterol → membrane pores → fungicidal",
+   "tag": "antifungals",
+   "src": "slide 65 + 02:24:40"
+  },
+  {
+   "id": "fc-078",
+   "front": "Ampho B infusion reaction",
+   "back": "Fever, shaking chills, N/V, headache, hypotension — \"flu times 10… not deadly\"",
+   "tag": "antifungals",
+   "src": "slide 66 + 02:25:10"
+  },
+  {
+   "id": "fc-079",
+   "front": "Ampho B labs to watch",
+   "back": "Creatinine/BUN · K⁺ & Mg²⁺ (both drop) · CBC · LFTs · I&O",
+   "tag": "antifungals",
+   "src": "slide 66 + 02:27:30"
+  },
+  {
+   "id": "fc-080",
+   "front": "Nystatin — how it's used",
+   "back": "Locally only — swish and hold (inactivated by stomach acid); thrush, skin",
+   "tag": "antifungals",
+   "src": "slide 67 + 02:29:05"
+  },
+  {
+   "id": "fc-081",
+   "front": "Oseltamivir — trade name & mechanism",
+   "back": "Tamiflu · neuraminidase inhibitor — new flu viruses aren't released",
+   "tag": "antiviral",
+   "src": "slide 71 + 02:32:16"
+  },
+  {
+   "id": "fc-082",
+   "front": "Oseltamivir timing",
+   "back": "Start ASAP, within 48 h of symptoms (severe/hospitalized/high-risk may still benefit later)",
+   "tag": "antiviral",
+   "src": "slide 71 + 02:32:56"
+  },
+  {
+   "id": "fc-083",
+   "front": "Oseltamivir and the flu vaccine",
+   "back": "Not a vaccine — get both; may interfere with the live intranasal vaccine",
+   "tag": "antiviral",
+   "src": "slide 72 + 02:34:29 + 02:34:59"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "(student asked) [question not audible — about resistance]",
+   "a": "\"I'm going to get to that. I have a whole slide on that\" → <b>selection pressure</b> and resistance development (slides 11–12).",
+   "src": "00:07:16"
+  },
+  {
+   "id": "qa-002",
+   "q": "(student asked) Does the β-lactam work on MRSA?",
+   "a": "<b>No</b> — \"the β-lactam ring cannot bind to the PBP, so it's basically ineffective.\"",
+   "src": "00:38:40"
+  },
+  {
+   "id": "qa-003",
+   "q": "(student asked) How common is MRSA — are healthcare workers carriers?",
+   "a": "About <b>30%</b> of people carry S. aureus, but only about <b>1–2%</b> carry MRSA. \"I would guess that a lot of healthcare workers are colonized.\"",
+   "src": "00:39:13"
+  },
+  {
+   "id": "qa-004",
+   "q": "(student asked) Can colonizing staph turn into an infection?",
+   "a": "<b>Yes</b> — any staph you're colonized with can infect broken skin \"in the right situation\"; a MRSA strain is just harder to treat.",
+   "src": "00:41:03"
+  },
+  {
+   "id": "qa-005",
+   "q": "Why is MRSA such a big deal? Why do we have such a hard time attacking it?",
+   "a": "Our biggest gun for a long time worked on <b>PBPs</b>, and MRSA has <b>totally different PBPs</b>.",
+   "src": "00:41:38"
+  },
+  {
+   "id": "qa-006",
+   "q": "(student asked) What if the allergy was reported years ago in childhood — \"my mom told me I was allergic\"?",
+   "a": "Clarify it — \"we don't know that.\" Most of the time we just choose <b>something other than a penicillin</b>.",
+   "src": "00:46:49"
+  },
+  {
+   "id": "qa-007",
+   "q": "(student asked) What if penicillin is the only option (e.g. syphilis)?",
+   "a": "Patients with anaphylactic reactions may be <b>admitted to the ICU</b> and given penicillin (desensitization), prepared for anaphylaxis.",
+   "src": "00:47:29"
+  },
+  {
+   "id": "qa-008",
+   "q": "(student asked) Is C. diff contagious to healthy people?",
+   "a": "She didn't think it tends to be — \"it can't take hold\" unless the normal flora is disrupted. A student had caught it after a lot of antibiotics for a bad sinus infection.",
+   "src": "00:49:21"
+  },
+  {
+   "id": "qa-009",
+   "q": "(student asked) How do you treat C. diff?",
+   "a": "<b>More antibiotics</b> — because it's still a bacterium — which disrupt the flora more. Fecal transplant (healthy stool into the patient) is being researched.",
+   "src": "00:51:00"
+  },
+  {
+   "id": "qa-010",
+   "q": "(student asked) Can penicillin cause neurotoxicity?",
+   "a": "At <b>really high concentrations</b> it can cause neurotoxicity or seizures, \"but it's pretty uncommon in any doses that we get.\"",
+   "src": "00:53:27"
+  },
+  {
+   "id": "qa-011",
+   "q": "(Kahoot) How do β-lactam antibiotics weaken the bacterial cell wall?",
+   "a": "Answer not audible. They <b>bind PBPs</b> → no peptidoglycan cross-linking → wall weakens → <b>osmotic lysis</b> (from slide 25).",
+   "src": "00:56:34"
+  },
+  {
+   "id": "qa-012",
+   "q": "(Kahoot) How does clavulanate work with amoxicillin?",
+   "a": "It's a <b>β-lactamase inhibitor</b> — \"going to fight back against the resistance mechanism that some bacteria have developed.\"",
+   "src": "00:56:34 + 00:57:24"
+  },
+  {
+   "id": "qa-013",
+   "q": "(Kahoot) What causes MRSA's resistance to most β-lactam antibiotics? (stem partly heard)",
+   "a": "Answer not audible. <b>Altered PBPs</b> with low affinity for β-lactams (from slide 29).",
+   "src": "00:57:54"
+  },
+  {
+   "id": "qa-014",
+   "q": "(Kahoot) A patient develops wheezing and facial swelling during a penicillin infusion. What should the nurse do first?",
+   "a": "<b>Stop the infusion</b>, then notify — \"pretty much any time we have some kind of a reaction.\"",
+   "src": "00:57:54 + 00:58:33"
+  },
+  {
+   "id": "qa-015",
+   "q": "(student asked) Do cephalosporins bind the same PBPs?",
+   "a": "<b>Yes</b> — same PBPs, same general target; the rest of the molecule is different enough to be a separate class (different spectrum, affinity, ability to reach the PBPs).",
+   "src": "01:00:42"
+  },
+  {
+   "id": "qa-016",
+   "q": "(student asked) Will the exam use generic or trade names?",
+   "a": "\"If there is a test question, you will <b>always get the generic</b>. And if I provided you with the trade, I'll also usually throw the trade in there.\"",
+   "src": "01:00:42 + 01:01:14"
+  },
+  {
+   "id": "qa-017",
+   "q": "(student asked) If someone has a severe penicillin allergy, would they get a cephalosporin instead?",
+   "a": "First look for something with no risk — there's <b>crossover risk</b> because the structures are similar. If the infection is really severe, it may be considered.",
+   "src": "01:01:48 + 01:02:18"
+  },
+  {
+   "id": "qa-018",
+   "q": "(student asked) What if there's only one IV line for ceftriaxone and a calcium-containing solution?",
+   "a": "Use <b>separate lumens</b> if available; otherwise give one, <b>stop, flush</b>, then give the other sequentially.",
+   "src": "01:06:38 + 01:07:10"
+  },
+  {
+   "id": "qa-019",
+   "q": "(student asked) Shouldn't this interaction be caught before it reaches the nurse?",
+   "a": "Yes — EMR alerts and pharmacy checks should catch it, but think of the <b>Swiss cheese</b> model: the nurse is the last layer, so know the really big ones.",
+   "src": "01:07:10 + 01:07:41"
+  },
+  {
+   "id": "qa-020",
+   "q": "(student asked) Why is it dangerous in the line but not in the body?",
+   "a": "<b>Concentration</b> — in the line it's highly concentrated; once in the bloodstream it's diluted. Infants have \"a lot less body to distribute through.\"",
+   "src": "01:08:45"
+  },
+  {
+   "id": "qa-021",
+   "q": "(student asked) Why do creatinine and BUN reflect kidney damage?",
+   "a": "The kidneys normally clear them, so when they <b>build up</b> the kidneys aren't clearing as well.",
+   "src": "01:16:24 + 01:16:56"
+  },
+  {
+   "id": "qa-022",
+   "q": "(Kahoot) Why is identifying valproic acid use important before giving imipenem-cilastatin?",
+   "a": "Carbapenems <b>reduce valproic acid levels</b>, so a patient with a seizure disorder can have <b>seizures</b>.",
+   "src": "01:20:38 + 01:21:22"
+  },
+  {
+   "id": "qa-023",
+   "q": "(Kahoot) Which form of vancomycin is used for intestinal C. difficile infection?",
+   "a": "Answer not audible. <b>Oral</b> vancomycin — it stays in the intestine (from slide 40).",
+   "src": "01:21:22"
+  },
+  {
+   "id": "qa-024",
+   "q": "(Kahoot) A patient develops flushing and hypotension during IV vancomycin. What action is appropriate?",
+   "a": "Answer not audible. <b>Stop the infusion and notify the provider</b>; future doses may be infused more slowly (from slide 41).",
+   "src": "01:21:22 + 01:22:07"
+  },
+  {
+   "id": "qa-025",
+   "q": "(Kahoot) Which finding is most concerning during IV vancomycin therapy?",
+   "a": "A <b>kidney</b> finding (rising creatinine, falling urine output) — \"really put those together, vanco and kidney function.\"",
+   "src": "01:22:07 + 01:23:00"
+  },
+  {
+   "id": "qa-026",
+   "q": "(student asked) With doxycycline, do antacids and minerals have to be stopped?",
+   "a": "<b>No</b> — just separate them in the GI tract, \"usually they say 2–3 hours.\"",
+   "src": "01:28:34 + 01:29:06"
+  },
+  {
+   "id": "qa-027",
+   "q": "(Kahoot) Which instruction is correct for oral doxycycline?",
+   "a": "Answer not audible. Take with a <b>full glass of water</b> and stay <b>upright at least 30 minutes</b>; not right before bed (from slide 46).",
+   "src": "01:40:10"
+  },
+  {
+   "id": "qa-028",
+   "q": "(Kahoot) What is the greatest risk from azithromycin?",
+   "a": "Answer not audible. <b>QT prolongation</b> → dysrhythmia (from slide 47).",
+   "src": "01:41:16"
+  },
+  {
+   "id": "qa-029",
+   "q": "(Kahoot) Which finding during or after clindamycin therapy requires follow-up?",
+   "a": "<b>Diarrhea</b> (watery or bloody stools) — \"that really strong correlation between clinda and C. diff.\"",
+   "src": "01:41:16 + 01:41:50"
+  },
+  {
+   "id": "qa-030",
+   "q": "(Kahoot) Which monitoring is most important during gentamicin therapy?",
+   "a": "Answer not audible. <b>Kidney function</b> (creatinine, urine output) and <b>hearing/balance</b>, with levels drawn at the specified times (from slides 50–51).",
+   "src": "01:41:50"
+  },
+  {
+   "id": "qa-031",
+   "q": "(Kahoot) [stem not audible]",
+   "a": "Her only words: \"That's a <b>bacteriostatic</b> antibiotic.\" Likely the item on needing a functioning immune system (from slide 45).",
+   "src": "01:42:24"
+  },
+  {
+   "id": "qa-032",
+   "q": "(Kahoot) What does ciprofloxacin target in bacteria?",
+   "a": "<b>DNA replication</b> — \"one of the two that we looked at that are going to be messing with DNA replication\" (DNA gyrase/topoisomerase IV).",
+   "src": "02:19:03"
+  },
+  {
+   "id": "qa-033",
+   "q": "(Kahoot) Which report requires immediate follow-up during ciprofloxacin therapy?",
+   "a": "Answer not audible. <b>Tendon pain or swelling</b> (from slide 56).",
+   "src": "02:19:43"
+  },
+  {
+   "id": "qa-034",
+   "q": "(Kahoot) Which teaching is correct for metronidazole?",
+   "a": "Answer not clearly audible. <b>Avoid alcohol</b> (and propylene glycol) during treatment and for <b>at least 3 days</b> after the last dose (from slide 57).",
+   "src": "02:19:43 + 02:20:20"
+  },
+  {
+   "id": "qa-035",
+   "q": "(Kahoot) [stem not audible — likely why TMP and SMX are combined]",
+   "a": "\"<b>The two different steps</b> that they're working at, ultimately, getting more suppression\" — they block two sequential steps of folate synthesis (from slide 58).",
+   "src": "02:36:38"
+  },
+  {
+   "id": "qa-036",
+   "q": "(Kahoot) How does fluconazole inhibit fungal growth?",
+   "a": "It <b>inhibits ergosterol synthesis</b> — \"remember, this is for a fungus,\" so not PBPs (from slide 64).",
+   "src": "02:36:38"
+  },
+  {
+   "id": "qa-037",
+   "q": "(Kahoot) Which finding is most concerning during amphotericin B therapy?",
+   "a": "Answer not audible. <b>Declining urine output or rising creatinine</b> (nephrotoxicity), with low K⁺ and Mg²⁺ (from slide 66).",
+   "src": "02:37:22"
+  },
+  {
+   "id": "qa-038",
+   "q": "(Kahoot) Which instruction is correct for nystatin oral suspension?",
+   "a": "<b>Swish and hold</b> it in the mouth before swallowing — \"it's essentially topical\" for oral and sometimes esophageal thrush.",
+   "src": "02:37:22 + 02:38:20"
+  },
+  {
+   "id": "qa-039",
+   "q": "(Kahoot) How does oseltamivir limit the spread of influenza?",
+   "a": "It <b>inhibits neuraminidase</b> so new viruses aren't released. Her hint: most antivirals end in <b>-vir</b>.",
+   "src": "02:38:20"
+  },
+  {
+   "id": "qa-040",
+   "q": "(Kahoot) Which statement about oseltamivir is accurate?",
+   "a": "Start it <b>as early as possible</b> — \"within 48 hours is really the cutoff for it being good.\"",
+   "src": "02:39:05"
+  }
+ ]
+}

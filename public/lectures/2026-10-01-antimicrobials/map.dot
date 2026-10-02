@@ -1,0 +1,32 @@
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.5, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Antimicrobials — Concept Map (NURS 419, Lecture 10/1/2026)<BR/>Cultures BEFORE the first dose · culture 24–48 h · PCN allergy 10% report / 1% true · vanco trough right before the next dose · oseltamivir ≤ 48 h>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  core   [fillcolor="#fff2cc", label=<<B>Will this drug work?</B><BR ALIGN="LEFT"/>right bug · reaches the site · beats resistance · fits the patient<BR ALIGN="LEFT"/>selective toxicity — selective ≠ harmless<BR ALIGN="LEFT"/>narrow preferred · broad ≠ more powerful<BR ALIGN="LEFT"/>>];
+  resist [fillcolor="#fff2cc", label=<<B>Resistance</B><BR ALIGN="LEFT"/>inactivation · target alteration · reduced entry · efflux<BR ALIGN="LEFT"/>selection pressure favors resistant mutants<BR ALIGN="LEFT"/>the bacteria become resistant, not the patient<BR ALIGN="LEFT"/>>];
+  culture [fillcolor="#fff2cc", label=<<B>Cultures &amp; therapy</B><BR ALIGN="LEFT"/>cultures before the first dose<BR ALIGN="LEFT"/>Gram stain 15–20 min · culture 24–48 h<BR ALIGN="LEFT"/>empiric (broad) → targeted (narrow)<BR ALIGN="LEFT"/>>];
+  wall   [fillcolor="#ddebf7", label=<<B>Cell wall — bactericidal</B><BR ALIGN="LEFT"/>β-lactams bind PBPs → osmotic lysis<BR ALIGN="LEFT"/>β-lactamase cleaves the ring · MRSA = altered PBPs<BR ALIGN="LEFT"/>>];
+  pcn    [fillcolor="#bdd7ee", label=<<B>Penicillins &amp; cephalosporins</B><BR ALIGN="LEFT"/>amoxicillin · Augmentin (food) · Zosyn (Pseudomonas)<BR ALIGN="LEFT"/>allergy: clarify; all PCNs + some ceph cross<BR ALIGN="LEFT"/>ceftriaxone ✗ calcium IV solutions<BR ALIGN="LEFT"/>>];
+  carba  [fillcolor="#bdd7ee", label=<<B>Carbapenems &amp; vancomycin</B><BR ALIGN="LEFT"/>imipenem/cilastatin: broadest, not MRSA, ↓ valproic acid → seizures<BR ALIGN="LEFT"/>vanco: MRSA (IV) · C. diff (oral only)<BR ALIGN="LEFT"/>vanco + kidneys · trough · infusion reaction<BR ALIGN="LEFT"/>>];
+  ribo   [fillcolor="#fce4d6", label=<<B>Ribosome — mostly bacteriostatic</B><BR ALIGN="LEFT"/>needs a working immune system<BR ALIGN="LEFT"/>doxy: water, upright 30 min, minerals, sun, not &lt; 7<BR ALIGN="LEFT"/>azithro: QT (women, low K⁺/Mg²⁺)<BR ALIGN="LEFT"/>>];
+  ribo2  [fillcolor="#f8cbad", label=<<B>Clinda · linezolid · gentamicin</B><BR ALIGN="LEFT"/>clinda → C. diff<BR ALIGN="LEFT"/>linezolid: MRSA/VRE · SSRIs → serotonin syndrome · platelets<BR ALIGN="LEFT"/>gentamicin (cidal): kidneys + ears<BR ALIGN="LEFT"/>>];
+  dna    [fillcolor="#e4dfec", label=<<B>DNA &amp; folate</B><BR ALIGN="LEFT"/>cipro: tendons (&lt; 18), minerals, tizanidine, QT<BR ALIGN="LEFT"/>metronidazole: no alcohol + 3 days, warfarin<BR ALIGN="LEFT"/>TMP-SMX: K⁺, sulfa, SJS, fluids, INR<BR ALIGN="LEFT"/>>];
+  fungi  [fillcolor="#e4dfec", label=<<B>Antifungals (ergosterol)</B><BR ALIGN="LEFT"/>fluconazole: static · liver, QT, warfarin<BR ALIGN="LEFT"/>ampho B: cidal · chills, kidneys, ↓ K⁺/Mg²⁺<BR ALIGN="LEFT"/>nystatin: local — swish and hold<BR ALIGN="LEFT"/>>];
+  virus  [fillcolor="#e4dfec", label=<<B>Oseltamivir (Tamiflu)</B><BR ALIGN="LEFT"/>neuraminidase · suppresses, doesn't kill<BR ALIGN="LEFT"/>within 48 h · flu only · not a vaccine<BR ALIGN="LEFT"/>>];
+  nurse  [fillcolor="#e2efda", label=<<B>Nursing every time</B><BR ALIGN="LEFT"/>allergy history · kidney/liver · other meds<BR ALIGN="LEFT"/>on schedule · watch diarrhea (C. diff), superinfection<BR ALIGN="LEFT"/>take as prescribed · never save or share<BR ALIGN="LEFT"/>>];
+
+  core -> resist [label=" threatened by"];
+  core -> culture [label=" guided by"];
+  resist -> wall [label=" e.g. β-lactamase, MRSA"];
+  culture -> wall [label=" target 1"];
+  culture -> ribo [label=" target 2"];
+  culture -> dna [label=" targets 3–4"];
+  wall -> pcn;
+  wall -> carba;
+  ribo -> ribo2;
+  core -> fungi [label=" eukaryotic = harder"];
+  core -> virus [label=" host cell = few targets"];
+  pcn -> nurse; carba -> nurse; ribo2 -> nurse; dna -> nurse;
+}

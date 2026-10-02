@@ -71,7 +71,8 @@
                 "options": { "$ref": "#/$defs/options" },
                 "answer": { "$ref": "#/$defs/letters" },
                 "rationale": { "type": "string" },
-                "src": { "$ref": "#/$defs/src" }
+                "src": { "$ref": "#/$defs/src" },
+                "step": { "enum": ["recognize", "analyze", "prioritize", "generate", "act", "evaluate"], "description": "NGN clinical-judgment step this question measures (shown as a label)." }
               }
             }
           }

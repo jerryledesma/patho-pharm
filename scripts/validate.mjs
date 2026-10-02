@@ -96,6 +96,11 @@ for (const dir of dirs) {
   if (gone.length) errs.push(`published ids removed (would erase progress): ${gone.join(', ')}`);
   if (updateLedger && !errs.length) ledger[dir] = [...new Set([...published, ...ids])];
 
+  // Test-wise guessing: the correct option shouldn't usually be the longest (IMP-02).
+  const mcs = [...(L.practice || []), ...(L.clinical || []).flatMap(s => s.questions || [])].filter(q => q.type === 'mc' && q.options && q.answer);
+  const tell = mcs.filter(q => { const i = 'ABCDEF'.indexOf(q.answer), a = q.options[i]?.length || 0;
+    return a > 1.3 * Math.max(...q.options.filter((_, k) => k !== i).map(o => o.length)); }).length;
+  if (mcs.length && tell / mcs.length > 0.10) warns.push(`${tell} of ${mcs.length} multiple-choice answers are >1.3× longer than every distractor (keep ≤ 10%)`);
   const items = [...(L.practice || []), ...(L.clinical || []).flatMap(s => s.questions || []), ...(L.cards || []), ...(L.qa || [])];
   const noSrc = items.filter(x => !x.src).length;
   if (noSrc) warns.push(`${noSrc} of ${items.length} items have no "src" (source link for review)`);
