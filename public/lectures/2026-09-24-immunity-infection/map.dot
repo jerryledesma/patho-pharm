@@ -1,0 +1,41 @@
+// Immunity, Infection & Defects in Defense — concept map (NURS 419, 9/24/2026)
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.45, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Immunity, Infection &amp; Defects in Defense — Concept Map (NURS 419, Lecture 9/24/2026)<BR/>C → I → V = pathogenicity · adaptive kicks in 7–14 days · APCs present on MHC II · type IV = 24–72 h>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  // core #fff2cc · humoral (system A) #ddebf7 / #bdd7ee · cell-mediated (system B) #fce4d6 / #f8cbad
+  // treatment/nursing #e2efda · pathogens & drugs #e4dfec
+
+  cip   [fillcolor="#fff2cc", label=<<B>How you get sick</B><BR ALIGN="LEFT"/>Communicability → infectivity → virulence<BR ALIGN="LEFT"/>= pathogenicity · immunogenicity<BR ALIGN="LEFT"/>Antigen = anything the immune system recognizes<BR ALIGN="LEFT"/>>];
+  path  [fillcolor="#e4dfec", label=<<B>Pathogens &amp; antimicrobials</B><BR ALIGN="LEFT"/>Prions · viruses · bacteria · fungi · parasites<BR ALIGN="LEFT"/>Gram-negative = armored tank · exo = exit, endo = inside<BR ALIGN="LEFT"/>Antibiotics don't kill fungi (antifungals: ergosterol, glucan)<BR ALIGN="LEFT"/>>];
+  course[fillcolor="#e2efda", label=<<B>Disease course &amp; control</B><BR ALIGN="LEFT"/>Incubation → prodromal → acute → convalescent<BR ALIGN="LEFT"/>Subclinical · chronic (TB) · death<BR ALIGN="LEFT"/>Hand washing, masks, isolation: stop it before it starts<BR ALIGN="LEFT"/>>];
+  innate[fillcolor="#fff2cc", label=<<B>Innate</B><BR ALIGN="LEFT"/>At birth · quick · nonspecific<BR ALIGN="LEFT"/>Inflammation · could be the final step<BR ALIGN="LEFT"/>>];
+  select[fillcolor="#fff2cc", label=<<B>Step 1: build the repertoire</B><BR ALIGN="LEFT"/>10¹² receptors by DNA rearrangement<BR ALIGN="LEFT"/>B: bone marrow · T: thymus<BR ALIGN="LEFT"/>+/− selection = tolerance → wait in lymph node<BR ALIGN="LEFT"/>>];
+  apc   [fillcolor="#bdd7ee", label=<<B>APC → lymph node</B><BR ALIGN="LEFT"/>Antigen on MHC II (HLA)<BR ALIGN="LEFT"/>Closest node · matching T cell binds<BR ALIGN="LEFT"/>Clonal proliferation = swollen node<BR ALIGN="LEFT"/>>];
+  humoral[fillcolor="#ddebf7", label=<<B>Humoral</B><BR ALIGN="LEFT"/>B cells → plasma cells → antibodies<BR ALIGN="LEFT"/>Neutralize · agglutinate · precipitate<BR ALIGN="LEFT"/>+ inflammation, phagocytosis, complement<BR ALIGN="LEFT"/>>];
+  cell  [fillcolor="#fce4d6", label=<<B>Cell-mediated</B><BR ALIGN="LEFT"/>T helpers coordinate (hands clean)<BR ALIGN="LEFT"/>Effectors: cytotoxic T cells, macrophages<BR ALIGN="LEFT"/>>];
+  memory[fillcolor="#e2efda", label=<<B>Memory &amp; vaccines</B><BR ALIGN="LEFT"/>Primary 2–3 wk · secondary within days<BR ALIGN="LEFT"/>Boosters → secondary response<BR ALIGN="LEFT"/>mRNA: 24–48 h side effects · 10–14 days<BR ALIGN="LEFT"/>Pertussis vaccine targets the toxin<BR ALIGN="LEFT"/>>];
+  hyper [fillcolor="#bdd7ee", label=<<B>Hypersensitivity I–III (antibodies)</B><BR ALIGN="LEFT"/>I IgE/histamine: allergy, anaphylaxis<BR ALIGN="LEFT"/>II IgG/IgM vs tissue: myasthenia gravis<BR ALIGN="LEFT"/>III complexes: serum sickness, SLE, Arthus<BR ALIGN="LEFT"/>Needs a sensitizing event<BR ALIGN="LEFT"/>>];
+  type4 [fillcolor="#f8cbad", label=<<B>Type IV (T cells)</B><BR ALIGN="LEFT"/>Delayed 24–72 h<BR ALIGN="LEFT"/>TB skin test · poison ivy · MS<BR ALIGN="LEFT"/>Acute/chronic rejection · GVHD<BR ALIGN="LEFT"/>>];
+  auto  [fillcolor="#e4dfec", label=<<B>Auto vs allo</B><BR ALIGN="LEFT"/>Auto: genetics · tolerance breakdown · mimicry<BR ALIGN="LEFT"/>Allo: ABO (O donor, AB recipient) · Rh (2nd baby)<BR ALIGN="LEFT"/>Transplant: hyperacute = type II (crossmatch)<BR ALIGN="LEFT"/>>];
+  tx    [fillcolor="#e2efda", label=<<B>Drugs &amp; treatment</B><BR ALIGN="LEFT"/>H1 blockers: 1st gen sedating; 2nd gen not<BR ALIGN="LEFT"/>No antihistamines when nursing, 3rd trimester, newborn<BR ALIGN="LEFT"/>MG: pyridostigmine, steroids, plasma exchange/IVIG<BR ALIGN="LEFT"/>Rho(D) immune globulin IM<BR ALIGN="LEFT"/>>];
+  defic [fillcolor="#fce4d6", label=<<B>Deficiencies</B><BR ALIGN="LEFT"/>Primary: SCID, C3, CGD (single gene)<BR ALIGN="LEFT"/>Acquired (more common): pregnancy,<BR ALIGN="LEFT"/>diabetes, cirrhosis, AIDS<BR ALIGN="LEFT"/>>];
+
+  cip -> path [label=" agents"];
+  path -> course [label=" cause"];
+  course -> innate [label=" first defense"];
+  select -> apc [label=" cells waiting"];
+  innate -> apc [label=" if not cleared"];
+  apc -> humoral [label=" activates B"];
+  apc -> cell [label=" activates T"];
+  humoral -> memory; cell -> memory [label=" leaves"];
+  humoral -> hyper [label=" too much"];
+  cell -> type4 [label=" too much"];
+  select -> auto [label=" tolerance fails"];
+  hyper -> tx [label=" treated by"];
+  hyper -> auto [style=dashed, label=" II/III"];
+  type4 -> auto [style=dashed, label=" rejection"];
+  select -> defic [label=" too little"];
+}
