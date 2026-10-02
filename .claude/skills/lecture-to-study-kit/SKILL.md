@@ -198,19 +198,27 @@ Target 30–45. Mix roughly ⅓ per tier; Tier 3 can be smaller if the lecture h
   (the build warns when more than 10% are > 1.3× the longest distractor).
 - No questions on FYI-only topics.
 
-### Clinical cases (`clinical`)
+### Clinical cases (`clinical`) — Next-Gen NCLEX (NGN) style
 
-Target 8–13 scenarios, 40–55 questions total (Acid–Base: 13 / 51). Fewer is fine for a short lecture — say so at gate 2.
+Angelina sits the NCLEX-RN in 2028, so cases follow the NGN case-study shape (IMP-03). Target 7–9 NGN cases of
+exactly 6 questions, plus one closing "Rapid rounds" scenario of 4–6 standalone items (no `step`). Fewer cases for a
+short lecture — say so at gate 2.
 
 - Write scenarios in the order they should appear; `assign-ids` numbers them `c01, c02…` by position, so N in the
   title must match the position.
-- Each scenario: `title` ("Scenario N — Setting"), `setting` (unit + timing), `text` (patient, history, meds, vitals, labs;
-  `<b>` for key data; `\n` for line breaks).
-- Questions unfold: identify → prioritize → intervene → evaluate, and later questions can add new data.
-- Types: `mc` (4 options); `sata` (5–6 options, 2–4 correct, answer like `"A, C, D"`); `order` (4 options, answer is
-  the full sequence like `"B, D, C, A"`). Include several SATA and at least one priority-order item.
-- One "rapid rounds" scenario of quick single-patient items is a good closer.
-- Nursing actions must match what she or the slides said to do.
+- `title` "Scenario N — Setting"; `setting` = unit + time span + "6 questions"; `text` = the client chart in NCLEX
+  layout: `<b>Nurses' Notes — Day 1, 1400</b>` narrative, then `<b>Vital Signs</b>`, `<b>Laboratory Results</b>`,
+  `<b>Orders</b>` lines (`\n` between). Say "the client". Include a few irrelevant or normal findings (cues must be
+  discriminated, not handed over).
+- The 6 questions follow the clinical-judgment steps in order, each with a `step` field:
+  `recognize` (which findings are relevant / need follow-up / are risk factors) → `analyze` (what the findings are
+  consistent with; which drugs/causes fit) → `prioritize` (the client is most likely experiencing… / highest priority)
+  → `generate` (which interventions/plan items to anticipate) → `act` (what the nurse does first / now; order items fit
+  here) → `evaluate` (which findings show the plan is working vs need follow-up).
+- The case unfolds: new data goes at the start of a later stem, bold and time-stamped (`<b>Day 3, 0800.</b> …`).
+- Types: `mc` (4 options); `sata` (5–6 options, 2–4 correct — stands in for NGN highlight/matrix items); `order`
+  (4 options, full sequence). At least 2 SATA per case.
+- Nursing actions must match what the instructor or slides said to do; no facts beyond the sources.
 
 ### Flashcards (`cards`)
 
