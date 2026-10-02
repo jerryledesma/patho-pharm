@@ -1,13 +1,16 @@
-// Step 1 of lecture-to-study-kit: sort the inbox into a class folder named per the convention.
+// Step 1 of lecture-to-study-kit: sort the inbox into class folders named per the convention.
 //
-//   node tools/intake.mjs [<inbox> <course-dir>]          → dry run: prints the plan as JSON
+//   node tools/intake.mjs [<inbox> <course-dir>]          → dry run: prints one plan per lecture as JSON
 //     (defaults: sources/inbox and sources/nurs419 in this repo — git-ignored)
-//   node tools/intake.mjs [<inbox> <course-dir>] --apply [--date YYYY-MM-DD] [--title "..."]
-//                                             [--slug x-y] [--instructor "..."]
+//   node tools/intake.mjs [...] --apply [--only <inbox-folder>] [--date YYYY-MM-DD] [--title "..."]
+//                                       [--slug x-y] [--instructor "..."]
 //
-// Files are classified by content: a deck → slides, timestamped speaker text → transcript,
-// anything else → supplemental (supp-NN_description). Nothing is overwritten; moves only.
-// If a class folder for the same date already exists, files are added to it (add-only mode).
+// Each folder in the inbox is one lecture (its name is a date/title hint, e.g. 2026_10_01_Antimicrobial).
+// Files sitting loose in the inbox form one more lecture. With several lectures, --apply needs --only.
+// Files are classified by content: decks → slides (slides-1, slides-2… if several), timestamped speaker
+// text → transcript, recordings → audio-NN, anything else → supplemental (supp-NN_description).
+// Nothing is overwritten; files are moved. If a class folder with the same date AND slug exists, files are
+// added to it (add-only mode); a different slug on the same date is a separate lecture.
 import { readdirSync, statSync, mkdirSync, renameSync, existsSync, writeFileSync, readFileSync, copyFileSync, unlinkSync, rmdirSync } from 'node:fs';
 import { join, extname, basename, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -16,99 +19,117 @@ import { pptxSlides } from './lib/office.mjs';
 import { cleanTitle, slugFrom, cleanInstructor, findDate, lectureId, folderName } from './lib/naming.mjs';
 
 const args = process.argv.slice(2);
-// Defaults: the git-ignored sources/ folder in the repo (course material never leaves this Mac).
 const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
-const positional = args.filter(a => !a.startsWith('--') && !args[args.indexOf(a) - 1]?.startsWith('--'));
+const valued = new Set(['--only', '--date', '--title', '--slug', '--instructor']);
+const positional = args.filter((a, i) => !a.startsWith('--') && !valued.has(args[i - 1]));
 const [inbox, courseDir] = [positional[0] || join(REPO, 'sources/inbox'), positional[1] || join(REPO, 'sources/nurs419')];
 const opt = k => { const i = args.indexOf('--' + k); return i > -1 ? args[i + 1] : undefined; };
-if (!existsSync(inbox)) { console.error(`no inbox at ${inbox} — usage: node tools/intake.mjs [<inbox> <course-dir>] [--apply] [--date] [--title] [--slug] [--instructor]`); process.exit(1); }
+if (!existsSync(inbox)) { console.error(`no inbox at ${inbox}`); process.exit(1); }
+mkdirSync(courseDir, { recursive: true });
 
 const TS = /^\s*\[?\(?\d{1,2}:\d{2}(?::\d{2})?/m;
-mkdirSync(courseDir, { recursive: true });
-// Files may sit directly in the inbox or one folder down (e.g. inbox/2026-09-17_topic/…); the folder name counts as a date hint.
-const files = readdirSync(inbox).filter(f => !f.startsWith('.')).flatMap(f =>
-  statSync(join(inbox, f)).isDirectory()
-    ? readdirSync(join(inbox, f)).filter(g => !g.startsWith('.') && statSync(join(inbox, f, g)).isFile()).map(g => join(f, g))
-    : [f]).sort();
-const AUDIO = new Set(['.m4a', '.mp3', '.wav', '.aac', '.mp4', '.mov', '.webm']);
-const plan = { files: [], warnings: [] };
-let slidesMeta = null, transcriptHeader = '';
+const AUDIO = new Set(['.m4a', '.mp3', '.wav', '.aac', '.mp4', '.mov', '.webm', '.ogg', '.opus', '.flac']);
+const visible = d => readdirSync(d).filter(f => !f.startsWith('.'));
+const year = new Date().getFullYear();
 
-for (const f of files) {
-  const p = join(inbox, f), ext = extname(f).toLowerCase();
-  let role = 'supplemental', note = '';
-  if (ext === '.pptx') { role = 'slides'; slidesMeta ??= pptxSlides(p)[0]; }
-  else if (ext === '.key' || ext === '.ppt' || ext === '.doc') { role = 'unsupported'; note = `export as ${ext === '.doc' ? '.docx' : '.pptx or .pdf'} first`; }
-  else if (AUDIO.has(ext)) { role = 'audio'; note = 'recording — needs a transcript before conversion'; }
-  else if (ext === '.pdf') { role = /slide|lecture|deck|ppt/i.test(f) ? 'slides' : 'supplemental'; note = 'PDF — role guessed from the file name; confirm'; }
-  else {
-    try {
-      const text = extractFile(p) || '';
-      const stamps = (text.match(new RegExp(TS.source, 'gm')) || []).length;
-      if (stamps >= 10) { role = 'transcript'; transcriptHeader = text.split('\n').filter(l => l.trim() && !l.startsWith('Words per speaker')).slice(0, 3).join(' '); }
-    } catch (e) { role = 'unsupported'; note = e.message; }
+// Group the inbox: one group per subfolder, plus one for loose files.
+const groups = [];
+const loose = visible(inbox).filter(f => statSync(join(inbox, f)).isFile());
+if (loose.length) groups.push({ name: '', files: loose.sort() });
+for (const d of visible(inbox).filter(f => statSync(join(inbox, f)).isDirectory()).sort())
+  groups.push({ name: d, files: visible(join(inbox, d)).filter(f => statSync(join(inbox, d, f)).isFile()).sort().map(f => join(d, f)) });
+
+// A title hint from the folder name: "2026_10_01_Autonomic_Nervous_System" → "Autonomic Nervous System".
+const folderTitle = name => name.replace(/^\d{4}[-_]\d{2}[-_]\d{2}[-_ ]*/, '').replace(/[_+]+/g, ' ').trim();
+
+function planGroup(g, overrides = {}) {
+  const plan = { inboxFolder: g.name || '(loose files)', files: [], warnings: [] };
+  const decks = []; let transcriptHeader = '';
+  for (const f of g.files) {
+    const p = join(inbox, f), ext = extname(f).toLowerCase();
+    let role = 'supplemental', note = '';
+    if (ext === '.pptx') { role = 'slides'; try { decks.push(pptxSlides(p)[0]); } catch (e) { note = e.message; } }
+    else if (['.key', '.ppt', '.doc'].includes(ext)) { role = 'unsupported'; note = `export as ${ext === '.doc' ? '.docx' : '.pptx or .pdf'} first`; }
+    else if (AUDIO.has(ext)) role = 'audio';
+    else if (ext === '.pdf') { role = /slide|lecture|deck|ppt/i.test(f) ? 'slides' : 'supplemental'; note = 'PDF — role guessed from the file name; confirm'; }
+    else {
+      try {
+        const text = extractFile(p) || '';
+        if ((text.match(new RegExp(TS.source, 'gm')) || []).length >= 10) {
+          role = 'transcript';
+          transcriptHeader = text.split('\n').filter(l => l.trim() && !l.startsWith('Words per speaker')).slice(0, 3).join(' ');
+        }
+      } catch (e) { role = 'unsupported'; note = e.message; }
+    }
+    plan.files.push({ file: f, role, note });
   }
-  plan.files.push({ file: f, role, note });
-}
+  const n = r => plan.files.filter(x => x.role === r).length;
+  if (n('transcript') > 1) plan.warnings.push('more than one transcript — merge them or mark extras supplemental');
+  for (const x of plan.files.filter(x => x.role === 'unsupported')) plan.warnings.push(`${x.file}: ${x.note}`);
+  if (!n('transcript') && n('audio')) plan.warnings.push('no transcript — run tools/transcribe.py after intake (audio is kept in order of file name; rename first if that order is wrong)');
+  if (!n('slides')) plan.warnings.push('no slide deck — title comes from the folder name; notes will be built from the transcript and supplements');
 
-const slidesN = plan.files.filter(x => x.role === 'slides').length, trN = plan.files.filter(x => x.role === 'transcript').length;
-if (slidesN > 1) plan.warnings.push('more than one slide deck — keep one as slides, mark the rest supplemental');
-if (trN > 1) plan.warnings.push('more than one transcript — merge them or mark extras supplemental');
-for (const x of plan.files.filter(x => x.role === 'unsupported')) plan.warnings.push(`${x.file}: ${x.note}`);
-if (!trN && plan.files.some(x => x.role === 'audio')) plan.warnings.push('no transcript — only audio recordings; transcribe them (keep timestamps) and add the transcript to the inbox');
-
-const rawTitle = slidesMeta?.title || '';
-const title = opt('title') || cleanTitle(rawTitle);
-const instructorRaw = slidesMeta?.paragraphs?.find(p => /\b(DNP|PhD|RN|MD|PharmD|APRN|MSN|NP|DrPH|EdD)\b/.test(p)) || '';
-const instructor = opt('instructor') || (instructorRaw ? cleanInstructor(instructorRaw) : '');
-const found = findDate([transcriptHeader, ...files], new Date().getFullYear());  // files include any subfolder name
-const date = opt('date') || found;
-const dateSource = opt('date') ? '--date' : found ? (findDate([transcriptHeader], new Date().getFullYear()) ? `transcript header: "${transcriptHeader.slice(0, 80).trim()}…"` : 'file names') : null;
-const slug = opt('slug') || slugFrom(title);
-const existing = date && existsSync(courseDir) ? readdirSync(courseDir).find(d => d.startsWith(date + '_')) : null;
-if (!date) plan.warnings.push('no class date found — pass --date YYYY-MM-DD');
-if (!existing) {   // a new lecture needs its own metadata; add-only reuses the folder's intake.json
-  if (!title) plan.warnings.push('no title found on slide 1 — pass --title');
-  if (title.length > 45) plan.warnings.push(`title is ${title.length} characters (max 45) — shorten with --title`);
-  if (!instructor) plan.warnings.push('no instructor found on slide 1 — pass --instructor');
-}
-const folder = date && slug ? join(courseDir, folderName(date, slug)) : null;
-const target = existing ? join(courseDir, existing) : folder;
-let nextSupp = 1;
-if (target && existsSync(target)) for (const f of readdirSync(target)) { const m = f.match(/^supp-(\d{2})_/); if (m) nextSupp = Math.max(nextSupp, +m[1] + 1); }
-
-for (const x of plan.files) {
-  const ext = extname(x.file).toLowerCase();
-  if (x.role === 'slides') x.to = 'slides' + ext;
-  else if (x.role === 'transcript') x.to = 'transcript' + ext;
-  else if (x.role === 'audio') { const n = plan.files.filter(y => y.role === 'audio').indexOf(x) + 1; x.to = `audio-${String(n).padStart(2, '0')}${ext}`; }
-  else if (x.role === 'supplemental') {
-    const desc = basename(x.file, ext).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').split('-').slice(0, 5).join('-');
-    x.to = `supp-${String(nextSupp++).padStart(2, '0')}_${desc}${ext}`;
+  // Title: --title > single deck's slide 1 > folder name (no deck, or several decks).
+  const hint = folderTitle(g.name);
+  const rawTitle = decks.length === 1 ? decks[0].title || '' : hint;
+  const title = overrides.title || cleanTitle(rawTitle || hint);
+  const instructorRaw = decks.flatMap(d => d.paragraphs || []).find(p => /\b(DNP|PhD|RN|MD|PharmD|APRN|MSN|NP|DrPH|EdD)\b/.test(p)) || '';
+  const instructor = overrides.instructor || (instructorRaw ? cleanInstructor(instructorRaw) : '');
+  const found = findDate([g.name, transcriptHeader, ...g.files], year);
+  const date = overrides.date || found;
+  const dateSource = overrides.date ? '--date' : !found ? null : findDate([g.name], year) ? `folder name "${g.name}"` : findDate([transcriptHeader], year) ? 'transcript header' : 'file names';
+  const slug = overrides.slug || slugFrom(title);
+  const sameDate = date ? visible(courseDir).filter(d => d.startsWith(date + '_')) : [];
+  const existing = sameDate.find(d => d === folderName(date, slug));
+  if (!date) plan.warnings.push('no class date found — pass --date YYYY-MM-DD');
+  if (!existing) {
+    if (!title) plan.warnings.push('no title found — pass --title');
+    if (title.length > 45) plan.warnings.push(`title is ${title.length} characters (max 45) — shorten with --title`);
+    if (!instructor) plan.warnings.push('no instructor found on the slides — pass --instructor');
+    if (sameDate.length) plan.warnings.push(`note: ${sameDate.join(', ')} is on the same date — this will be a separate lecture (use that folder's --slug to add to it instead)`);
   }
-  if (x.to && target && existsSync(join(target, x.to))) { plan.warnings.push(`${x.to} already exists in ${basename(target)} — rename or remove before applying`); x.to = null; }
+  const target = date && slug ? join(courseDir, folderName(date, slug)) : null;
+  let nextSupp = 1;
+  if (target && existsSync(target)) for (const f of visible(target)) { const m = f.match(/^supp-(\d{2})_/); if (m) nextSupp = Math.max(nextSupp, +m[1] + 1); }
+  const audio = plan.files.filter(x => x.role === 'audio'), slides = plan.files.filter(x => x.role === 'slides');
+  for (const x of plan.files) {
+    const ext = extname(x.file).toLowerCase();
+    if (x.role === 'slides') x.to = slides.length > 1 ? `slides-${slides.indexOf(x) + 1}${ext}` : 'slides' + ext;
+    else if (x.role === 'transcript') x.to = 'transcript' + ext;
+    else if (x.role === 'audio') x.to = `audio-${String(audio.indexOf(x) + 1).padStart(2, '0')}${ext}`;
+    else if (x.role === 'supplemental') {
+      const desc = basename(x.file, ext).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').split('-').slice(0, 6).join('-');
+      x.to = `supp-${String(nextSupp++).padStart(2, '0')}_${desc}${ext}`;
+    }
+    if (x.to && target && existsSync(join(target, x.to))) { plan.warnings.push(`${x.to} already exists in ${basename(target)} — rename or remove before applying`); x.to = null; }
+  }
+  return Object.assign(plan, {
+    mode: existing ? 'add-only (class folder exists)' : 'new lecture',
+    id: date && slug ? lectureId(date, slug) : null, folder: target, date, dateSource, title, rawTitle, instructor, slug,
+  });
 }
 
-Object.assign(plan, {
-  mode: existing ? 'add-only (class folder exists)' : 'new lecture',
-  id: existing ? existing.replace('_', '-') : (date && slug ? lectureId(date, slug) : null),
-  folder: target, date, dateSource, title, rawTitle, instructor, slug,
-});
+if (!args.includes('--apply')) {
+  console.log(JSON.stringify(groups.map(g => planGroup(g)), null, 2));
+  process.exit(0);
+}
 
-if (!args.includes('--apply')) { console.log(JSON.stringify(plan, null, 2)); process.exit(0); }
-
-const blocking = plan.warnings.filter(w => /no class date|no title|max 45|already exists|more than one/.test(w));
-if (!target || blocking.length) { console.error('Not applying:\n- ' + (blocking.join('\n- ') || 'missing date/slug')); process.exit(1); }
-mkdirSync(target, { recursive: true });
+const only = opt('only');
+const chosen = only !== undefined ? groups.filter(g => g.name === only || (only === '' && !g.name)) : groups;
+if (groups.length > 1 && only === undefined) { console.error(`The inbox holds ${groups.length} lectures — apply one at a time with --only "<inbox folder>".`); process.exit(1); }
+if (!chosen.length) { console.error(`no inbox folder named "${only}"`); process.exit(1); }
+const plan = planGroup(chosen[0], { date: opt('date'), title: opt('title'), slug: opt('slug'), instructor: opt('instructor') });
+const blocking = plan.warnings.filter(w => /no class date|no title|max 45|already exists|more than one transcript/.test(w));
+if (!plan.folder || blocking.length) { console.error('Not applying:\n- ' + (blocking.join('\n- ') || 'missing date/slug')); process.exit(1); }
+mkdirSync(plan.folder, { recursive: true });
 for (const x of plan.files) if (x.to) {
-  const from = join(inbox, x.file), to = join(target, x.to);
+  const from = join(inbox, x.file), to = join(plan.folder, x.to);
   try { renameSync(from, to); } catch { copyFileSync(from, to); try { unlinkSync(from); } catch { plan.warnings.push(`copied ${x.file} but could not remove it from the inbox`); } }
 }
-for (const d of new Set(plan.files.filter(x => x.to && x.file.includes('/')).map(x => join(inbox, dirname(x.file)))))
-  try { for (const f of readdirSync(d)) if (f === '.DS_Store') unlinkSync(join(d, f)); rmdirSync(d); } catch {}
-const metaPath = join(target, 'intake.json');
+if (chosen[0].name) try { const d = join(inbox, chosen[0].name); for (const f of readdirSync(d)) if (f === '.DS_Store') unlinkSync(join(d, f)); rmdirSync(d); } catch {}
+const metaPath = join(plan.folder, 'intake.json');
 const prev = existsSync(metaPath) ? JSON.parse(readFileSync(metaPath, 'utf8')) : {};
-const meta = { ...prev, id: plan.id, date, title: prev.title || title, instructor: prev.instructor || instructor,
+const meta = { ...prev, id: plan.id, date: plan.date, title: prev.title || plan.title, instructor: prev.instructor || plan.instructor,
   sources: [...new Set([...(prev.sources || []), ...plan.files.filter(x => x.to).map(x => x.to)])].sort() };
 writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');
-console.log(JSON.stringify({ applied: true, folder: target, meta, warnings: plan.warnings }, null, 2));
+console.log(JSON.stringify({ applied: true, folder: plan.folder, meta, warnings: plan.warnings }, null, 2));

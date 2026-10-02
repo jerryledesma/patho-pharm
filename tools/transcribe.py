@@ -7,17 +7,18 @@ Reads audio-NN.* in the folder (in name order), writes transcript.txt: one block
 "=== audio-NN ===" marker shows where each recording starts.
 
 Needs `pip install faster-whisper` and network access to huggingface.co (model download, once).
---slides seeds the recognizer with terms from slides.pptx so drug and disease names come out right.
+--slides seeds the recognizer with terms from slides*.pptx and supp-*.docx so drug and disease names come out right.
 Whisper doesn't tell speakers apart; the transcript has no speaker labels.
 """
 import argparse, glob, os, re, subprocess, sys, json, zipfile
 
-def slide_terms(pptx, limit=180):
+def slide_terms(paths, limit=180):
     words = {}
-    with zipfile.ZipFile(pptx) as z:
+    for path in paths:
+      with zipfile.ZipFile(path) as z:
         for n in z.namelist():
-            if re.match(r'ppt/(slides/slide|diagrams/data)\d+\.xml$', n):
-                for t in re.findall(r'<a:t>([^<]+)</a:t>', z.read(n).decode('utf8', 'ignore')):
+            if re.match(r'(ppt/(slides/slide|diagrams/data)\d+|word/document)\.xml$', n):
+                for t in re.findall(r'<(?:a|w):t(?: [^>]*)?>([^<]+)</(?:a|w):t>', z.read(n).decode('utf8', 'ignore')):
                     for w in re.findall(r"[A-Za-z][A-Za-z\-]{5,}", t):
                         words[w.lower()] = words.get(w.lower(), 0) + 1
     common = set('because between patient patients clinical process response cells important different through during'.split())
@@ -36,8 +37,9 @@ def main():
     files = sorted(f for f in glob.glob(os.path.join(a.folder, 'audio-*')) if not f.endswith('.txt'))
     if not files: sys.exit('no audio-NN files in ' + a.folder)
     prompt = None
-    if a.slides and os.path.exists(os.path.join(a.folder, 'slides.pptx')):
-        prompt = 'Nursing pathophysiology lecture. Terms: ' + slide_terms(os.path.join(a.folder, 'slides.pptx'))
+    docs = sorted(glob.glob(os.path.join(a.folder, 'slides*.pptx')) + glob.glob(os.path.join(a.folder, 'supp-*.docx')))
+    if a.slides and docs:
+        prompt = 'Nursing pathophysiology and pharmacology lecture. Terms: ' + slide_terms(docs)
     model = WhisperModel(a.model, device='cpu', compute_type='int8', cpu_threads=a.threads)
     out, offset = [], 0.0
     for f in files:
