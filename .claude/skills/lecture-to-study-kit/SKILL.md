@@ -193,6 +193,9 @@ Target 30–45. Mix roughly ⅓ per tier; Tier 3 can be smaller if the lecture h
   "all/none of the above".
 - The rationale says why the answer is right **and** why the tempting wrong ones are wrong, in a sentence or two, and
   uses her words or trick when she had one.
+- Don't let length give the answer away: write distractors as specific as the correct option. The correct option
+  should be the strictly longest in no more than about a third of items, and never much longer than every distractor
+  (the build warns when more than 10% are > 1.3× the longest distractor).
 - No questions on FYI-only topics.
 
 ### Clinical cases (`clinical`)
