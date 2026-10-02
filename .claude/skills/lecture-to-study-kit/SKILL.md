@@ -33,6 +33,13 @@ move them into `public/`, and never run `git clean -x`/`-X` (it would delete the
 
 Create a task list with these steps. Stop at each **GATE** and wait for Jerry's answer.
 
+### 0. Improvement gate (before intake)
+
+Read `~/dev/obs_vault/patho-pharm/improvement-log.md`. If any item marked *before the next lecture* is still open
+and not deferred by Jerry, list those items and ask whether to do them first or defer them (record a deferral in the
+log). Also run `git fetch && git branch --no-merged origin/main`: start from a fresh `origin/main`, never from another
+unmerged branch.
+
 ### 1. Intake — GATE 1
 
 ```bash
@@ -156,6 +163,21 @@ Then Jerry opens a pull request on GitHub; Netlify posts a Deploy Preview link. 
 - anything you weren't sure about.
 
 **Merging the pull request is what publishes the lecture.** Don't merge for him.
+
+### 8. Post-deployment review (after Jerry says it's live)
+
+Continuous-improvement step — design doc §7.1. Run it after every deploy to `main`, lecture or site change:
+
+1. **Verify live:** home order, each new lecture × every tab, login (`npm run smoke` once it exists).
+2. **Nothing stranded:** no local branch unmerged or unpushed; IMP items in the deploy marked done.
+3. **Measure on `main`:** validator warnings; correct-answer letter share per lecture (flag > 40%); option-length
+   stats; counts vs the quantity guide; notes length; items without `src`.
+4. **Feedback:** Angelina's flagged items and comments since the last review.
+5. **Retro:** what broke, slowed down or needed rework during the conversion.
+6. **Log:** write `~/dev/obs_vault/patho-pharm/reviews/YYYY-MM-DD-post-deployment-review.md` (findings `F-##`,
+   content checks for Angelina) and add `IMP-##` items to the improvement log, each marked *before the next lecture*
+   or *backlog*, plus a row in its "Post-deployment reviews" table.
+7. **Gate:** the next intake waits on the *before the next lecture* items (step 0).
 
 ## Content rules
 
