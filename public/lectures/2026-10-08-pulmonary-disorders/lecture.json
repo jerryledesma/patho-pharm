@@ -1,0 +1,2712 @@
+{
+ "id": "2026-10-08-pulmonary-disorders",
+ "date": "2026-10-08",
+ "title": "Pulmonary Disorders",
+ "instructor": "Michael W. Calik, PhD",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.ogg",
+  "slides.pdf"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "read the PFT & pick the step"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which muscle did he say you definitely need to know as the main muscle of inspiration?",
+   "options": [
+    "The internal intercostals",
+    "The diaphragm",
+    "The scalenes",
+    "The sternocleidomastoid"
+   ],
+   "answer": "B",
+   "rationale": "\"One that you definitely need to know, though, is the diaphragm. The diaphragm is the main inspiratory muscle.\" The intercostals and sternocleidomastoid are accessory muscles he said not to memorize; the internal intercostals help with forced exhalation.",
+   "src": "slide 5 + 00:09:17"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Low lung compliance means that the lungs:",
+   "options": [
+    "Are stiff, so inflating them takes more force",
+    "Spring back too quickly after each breath",
+    "Stretch so easily that air gets trapped inside",
+    "Have lost their pleural fluid and collapsed"
+   ],
+   "answer": "A",
+   "rationale": "Compliance is the ability to stretch — \"the stiffness of the spring.\" Low compliance = stiff = the diaphragm has to spend more energy. Air trapping is the problem with a spring that is <i>too</i> compliant and won't spring back.",
+   "src": "slide 5 + 00:11:00 + 00:11:34"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which layer of the pleura lines the chest (thoracic) cavity?",
+   "options": [
+    "Visceral pleura",
+    "Pleural fluid layer",
+    "Alveolocapillary membrane",
+    "Parietal pleura"
+   ],
+   "answer": "D",
+   "rationale": "Kahoot: the parietal pleura lines the thoracic cavity; the visceral pleura attaches to the lung itself. The pleural space between them holds the pleural fluid.",
+   "src": "slide 7 + 00:15:43 + 00:54:33"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which description of type I and type II alveolar cells is correct?",
+   "options": [
+    "Type I are thin and can't divide; type II make surfactant",
+    "Type I line about 5% of the alveoli and can regenerate",
+    "Both types make surfactant, but only type II can divide",
+    "Type I make surfactant; type II are thin and can't divide"
+   ],
+   "answer": "A",
+   "rationale": "Type I cells are very thin (95% of the alveoli) and cannot regenerate — \"they're purposely kept very thin and small\" for diffusion. Type II cells are ~5%, make surfactant and can divide to replace type I or type II cells.",
+   "src": "slide 14 + 00:25:26 + 00:25:56"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which vessel supplies the lung tissue itself with oxygenated blood?",
+   "options": [
+    "The superior vena cava",
+    "The bronchial artery",
+    "The pulmonary artery",
+    "The pulmonary veins"
+   ],
+   "answer": "B",
+   "rationale": "Kahoot: the bronchial artery is \"the main artery that supplies all the cells of the lungs with oxygen.\" The pulmonary artery carries deoxygenated blood to the lungs to be oxygenated; the pulmonary veins carry it back to the left atrium.",
+   "src": "slides 2, 16 + 00:28:07 + 00:53:59"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What is the normal ventilation–perfusion (V/Q) ratio?",
+   "options": [
+    "About 0.8",
+    "About 5.0",
+    "About 1.2",
+    "About 0.4"
+   ],
+   "answer": "A",
+   "rationale": "Normal V/Q ≈ 0.8: about 4 L/min of alveolar ventilation for about 5 L/min of perfusion (cardiac output). 0.4 was one of his mismatch examples.",
+   "src": "slide 18 + 00:33:27"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What is the normal oxygen saturation (SaO₂) on a pulse oximeter?",
+   "options": [
+    "88% to 92%",
+    "90% to 100%",
+    "95% to 100%",
+    "90% to 94%"
+   ],
+   "answer": "C",
+   "rationale": "Slide 22: normal SaO₂ is 95–100% — the percent of available hemoglobin bound to oxygen. 88–92% is the target in a COPD exacerbation, not normal.",
+   "src": "slide 22"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "In the \"CADET, face Right!\" mnemonic, what does the D stand for?",
+   "options": [
+    "Dissolved oxygen",
+    "2,3-DPG",
+    "Diffusion distance",
+    "Deoxyhemoglobin"
+   ],
+   "answer": "B",
+   "rationale": "CADET = CO₂, Acid, 2,3-DPG, Exercise and Temperature — increases in any of them shift the oxyhemoglobin curve to the right, so hemoglobin releases O₂.",
+   "src": "slide 23 + 00:52:32"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which definition of hypoxemia matches the terminology slide?",
+   "options": [
+    "Reduced arterial oxygenation from respiratory causes, PO₂ < 60",
+    "Bluish skin from increasing amounts of desaturated hemoglobin",
+    "Reduced oxygenation of cells, caused by other body systems",
+    "Increased carbon dioxide concentration in the blood"
+   ],
+   "answer": "A",
+   "rationale": "Hypoxemia = reduced oxygenation of arterial blood caused by respiratory alterations, PO₂ less than 60 mm Hg. Hypoxia is reduced oxygenation of the tissues from other systems; the bluish color is cyanosis; increased CO₂ is hypercapnia.",
+   "src": "slide 25 + 00:59:54"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What does the FEV1 measure on a pulmonary function test?",
+   "options": [
+    "All the air a person can forcefully exhale after a full breath",
+    "The total amount of air the lungs hold, including residual air",
+    "The air a person can forcefully exhale in the first second",
+    "The air moved in and out during quiet, relaxed breathing"
+   ],
+   "answer": "C",
+   "rationale": "FEV1 = forced expiratory volume in 1 second of the FVC test — \"how quickly you can blow out air in that first second.\" The full forced exhale is the FVC; total lung capacity can't be measured by spirometry; quiet breathing is tidal volume.",
+   "src": "slides 30, 32 + 01:06:40"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement about short- and long-acting β₂ agonists is correct?",
+   "options": [
+    "The LABA works quickly enough to stop an attack",
+    "The SABA lasts 4–6 hours and is taken PRN",
+    "The LABA can be used alone in asthma",
+    "The SABA lasts about 12 hours and is scheduled"
+   ],
+   "answer": "B",
+   "rationale": "SABA: 4–6 hours, very quick, PRN for an attack. LABA: 12 hours, not quick-acting, scheduled dosing — and always with an ICS in asthma.",
+   "src": "slide 51 + 01:27:28 + 01:28:03"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What is the mechanism of SAMA and LAMA drugs?",
+   "options": [
+    "They stabilize mast cells so they release less histamine",
+    "They suppress inflammatory mediators like a steroid",
+    "They block muscarinic receptors in the bronchi",
+    "They activate β₂ receptors on airway smooth muscle"
+   ],
+   "answer": "C",
+   "rationale": "SAMA/LAMA are anticholinergic (antimuscarinic) drugs: they block muscarinic receptors in the bronchi → bronchodilation. Activating β₂ receptors is the SABA/LABA mechanism; mast-cell stabilizers and glucocorticoids are anti-inflammatory.",
+   "src": "slide 52 + 01:28:37"
+  },
+  {
+   "id": "p-013",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How long is treatment for active TB on the slides?",
+   "options": [
+    "8 weeks of 4 drugs, then 18 weeks of 2 drugs",
+    "9 months of a single drug taken every day",
+    "2 weeks of 4 drugs, then stop if cultures are negative",
+    "4 weeks of 2 drugs, then 22 weeks of 4 drugs"
+   ],
+   "answer": "A",
+   "rationale": "Induction: 8 weeks of 4 drugs; continuation: 18 weeks of 2 drugs (INH + rifampin) — 26 weeks total. Nine months of INH alone is the latent-TB regimen.",
+   "src": "slide 84 + 01:51:12"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How do sympathomimetic decongestants relieve nasal congestion?",
+   "options": [
+    "Thin the mucus so that it drains out more easily",
+    "Suppress the IgE response to the allergen",
+    "Block histamine at its receptors in the nose",
+    "Activate α₁ receptors and constrict nasal vessels"
+   ],
+   "answer": "D",
+   "rationale": "They activate alpha-1 receptors on nasal blood vessels → vasoconstriction. \"Decongestants do nothing to the immune response.\" Blocking histamine is an antihistamine; thinning mucus is an expectorant.",
+   "src": "slide 88 + 01:53:30"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client has a puncture wound to the chest wall. Why does the lung on that side collapse?",
+   "options": [
+    "Air enters the pleural space, and the pressure gradient that held the lung open is lost",
+    "The diaphragm on that side is paralyzed and can no longer create negative pressure",
+    "The puncture drains away the surfactant, so surface tension inside the alveoli rises sharply",
+    "Blood from the wound fills the alveoli, so air can no longer enter them"
+   ],
+   "answer": "A",
+   "rationale": "The fluid-filled pleural sac keeps the flimsy lung \"popped open.\" A hole on the chest side (or the lung side) lets air in, the pressures equalize, and the lung — \"as flimsy as a grocery bag\" — collapses either way.",
+   "src": "slides 7–10 + 00:17:48 + 00:18:57"
+  },
+  {
+   "id": "p-016",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A child with cystic fibrosis has thick mucus and repeated lung infections. What is the underlying defect?",
+   "options": [
+    "Type II cells make too little surfactant for the alveoli",
+    "Goblet cells secrete too much water into the airways",
+    "Cilia beat far too fast and sweep away the protective layer of mucus",
+    "Chloride can't move into the airway lumen, so water doesn't follow"
+   ],
+   "answer": "D",
+   "rationale": "The CFTR channel is defective, so Cl⁻ isn't secreted into the lumen; sodium never follows, water never follows, and the mucus stays very thick — blocking airways (hypoxia) and feeding bacteria.",
+   "src": "slide 13 + 00:22:44 + 00:23:17"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client's alveoli tend to collapse because the surface tension inside them is too high. Which substance is lacking?",
+   "options": [
+    "Saline from ciliated cells",
+    "Mucus from the goblet cells",
+    "Surfactant from type II cells",
+    "Pleural fluid from the serosa"
+   ],
+   "answer": "C",
+   "rationale": "Inside the alveoli we don't want surface tension — \"they'll collapse.\" Type II cells make surfactant, \"a fancy word for soap,\" to break it. Pleural fluid surface tension is wanted (it holds the lung to the chest wall); mucus and saline line the airways.",
+   "src": "slide 14 + 00:26:59 + 00:27:33"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Part of a client's lung is poorly ventilated. How does a healthy lung try to limit the hypoxemia?",
+   "options": [
+    "The heart rate rises to push much more blood through that same region",
+    "Type II cells divide to rebuild the poorly ventilated region",
+    "The vessels to that region constrict and send blood elsewhere",
+    "The bronchioles to that region dilate to pull in more air"
+   ],
+   "answer": "C",
+   "rationale": "V/Q matching: ↓ airflow → ↓ PO₂ → pulmonary vasoconstriction, diverting blood to healthy areas. The capillary says \"I am not wasting my time here.\" (Low alveolar PO₂ is the most important cause of pulmonary-artery constriction.)",
+   "src": "slides 16–17 + 00:30:16 + 00:31:49"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client has damaged alveoli over a large area of both lungs for years. Which long-term complication should the nurse expect?",
+   "options": [
+    "A higher V/Q ratio that improves oxygen delivery",
+    "Left-sided heart failure from too much oxygenated blood",
+    "Pulmonary hypertension that strains the right heart",
+    "Systemic hypotension from wide pulmonary vasodilation"
+   ],
+   "answer": "C",
+   "rationale": "Large areas of mismatch → many capillaries constrict → ↑ pressure in the lungs; constant constriction also causes smooth-muscle hypertrophy. That's pulmonary hypertension, which makes the right ventricle hypertrophy and can lead to right-sided failure.",
+   "src": "slide 93 + 00:36:03 + 00:42:12 + 01:57:49"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client develops pulmonary edema. How does the fluid reduce oxygen diffusion?",
+   "options": [
+    "It makes the alveolar membrane itself thicker and fibrotic",
+    "It narrows the bronchioles, so less fresh air arrives",
+    "It increases the distance gas must travel to the capillary",
+    "It destroys alveolar walls, so less surface area is left"
+   ],
+   "answer": "C",
+   "rationale": "Edema: water pushes the capillary away → ↑ diffusion distance → ↓ diffusion. Destroyed walls (less area) = emphysema; narrowed bronchioles (↓ gradient) = asthma; a thickened membrane = fibrotic lung disease.",
+   "src": "slide 19 + 00:39:44 + 00:40:55"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client has COPD with an FEV1/FVC ratio of 0.55. Why is the ratio low?",
+   "options": [
+    "The lungs hold less air, so the FVC falls more than the FEV1",
+    "Airflow obstruction slows the exhale, so the FEV1 falls more than the FVC",
+    "The diaphragm is weak, so both values fall by the same amount",
+    "Fluid fills the alveoli, so the FVC rises while the FEV1 stays where it was"
+   ],
+   "answer": "B",
+   "rationale": "Obstructive disease: \"the FEV1 dropped a lot more than FVC,\" so the ratio falls below 0.70. In restrictive disease both fall about the same, so the ratio is unchanged.",
+   "src": "slides 30, 33, 43 + 01:11:59 + 01:13:44"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Why are pulmonary function tests built around a forced <b>exhalation</b> rather than inhalation?",
+   "options": [
+    "The diaphragm can overpower some resistance, but nothing pushes air out",
+    "Inhalation can't be measured by spirometry at all",
+    "Exhalation is the only phase of breathing that actually uses the alveoli",
+    "Inhaled air is too cold for the sensor to read accurately"
+   ],
+   "answer": "A",
+   "rationale": "\"We actually have a muscle that's involved in inhalation\" — the diaphragm can overcome some airway resistance. No muscle pushes air out, so obstruction shows up on the exhale.",
+   "src": "01:14:49 + 01:15:21"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with asthma is prescribed an ICS daily and a SABA. Which statement shows correct understanding?",
+   "options": [
+    "\"I'll use the steroid inhaler only when I start wheezing.\"",
+    "\"On my good days the rescue inhaler can replace the daily steroid inhaler.\"",
+    "\"I can stop the steroid once a week goes by without an attack.\"",
+    "\"I'll take the steroid every day and use the rescue inhaler for attacks.\""
+   ],
+   "answer": "D",
+   "rationale": "Glucocorticoids are the foundation: daily, long-term dosing. The SABA is the quick-acting drug for an attack (PRN). Stopping or skipping the ICS on good days defeats its anti-inflammatory purpose.",
+   "src": "slides 48, 51 + 01:25:18 + 01:27:28"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client using an inhaled corticosteroid asks whether it will cause bone loss or high blood sugar. What is the best response?",
+   "options": [
+    "\"Those only happen if you take it together with your rescue inhaler.\"",
+    "\"Inhaled steroids have no side effects at all, even when overused.\"",
+    "\"Those effects are expected with any dose, so we'll check labs weekly.\"",
+    "\"Taken as directed, it stays in the lungs; those effects come with overuse.\""
+   ],
+   "answer": "D",
+   "rationale": "\"If you're properly taking inhaled corticosteroids, should you be getting a big systemic effect? No.\" Adrenal suppression, slowed growth, bone loss and hyperglycemia are systemic glucocorticoid effects that appear if the ICS is overused.",
+   "src": "slide 48 + 01:25:52 + 01:26:24"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client who uses albuterol for an asthma attack reports shakiness and a racing heart. These effects are best explained by:",
+   "options": [
+    "Muscarinic blockade causing a dry mouth",
+    "β₂-agonist effects on muscle and the heart",
+    "An allergic reaction to the inhaler propellant",
+    "Adrenal suppression from an inhaled steroid"
+   ],
+   "answer": "B",
+   "rationale": "Slide 51 lists the β₂-agonist side effects: tremors (muscle / possibly hypokalemia) and tachycardia/palpitations. Dry mouth is the anticholinergic (SAMA/LAMA) side effect; adrenal suppression comes from glucocorticoids.",
+   "src": "slide 51 + 01:28:37"
+  },
+  {
+   "id": "p-026",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Ipratropium (a SAMA) is ordered for a client. For which diagnosis does this drug class fit best?",
+   "options": [
+    "Acute pulmonary embolism",
+    "Allergic rhinitis",
+    "Mild intermittent asthma",
+    "COPD with chronic sputum"
+   ],
+   "answer": "D",
+   "rationale": "Anticholinergics (SAMA/LAMA) are \"only used for COPD… these anticholinergics do not work at all for asthma.\" They aren't used for rhinitis or PE.",
+   "src": "slides 47, 52 + 01:25:18 + 01:28:37"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "An older adult had abdominal surgery yesterday. Which nursing action best prevents atelectasis?",
+   "options": [
+    "Limit oral fluids to keep new secretions from forming",
+    "Coach coughing, deep breathing and the incentive spirometer",
+    "Give the cough suppressant around the clock",
+    "Keep the client flat in bed so the lungs can rest and heal"
+   ],
+   "answer": "B",
+   "rationale": "Atelectasis is frequent after surgery; treatment and prevention are cough and deep-breathing exercises — \"as nurses, you're going to give them a spirometer.\" Lying flat, drying secretions and suppressing the cough work against lung expansion.",
+   "src": "slide 68 + 01:41:33 + 01:42:05"
+  },
+  {
+   "id": "p-028",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Which client is at greatest risk for aspiration?",
+   "options": [
+    "A 45-year-old with well-controlled asthma on a daily ICS",
+    "A 25-year-old with seasonal allergic rhinitis",
+    "A 30-year-old after knee surgery, alert and eating",
+    "An 84-year-old with an impaired swallow, lying flat"
+   ],
+   "answer": "D",
+   "rationale": "Aspiration occurs when the swallow and cough reflexes are impaired; the elderly are especially at risk — \"keep HOB elevated!\" Lying flat adds to the risk.",
+   "src": "slide 67 + 01:39:54"
+  },
+  {
+   "id": "p-029",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with hypertension asks which cold product to avoid. The nurse explains that oral decongestants like pseudoephedrine:",
+   "options": [
+    "Cause rebound congestion within a few days of starting them",
+    "Can raise heart and blood-pressure risk, so they're hazardous in HTN",
+    "Suppress the immune response that causes the congestion",
+    "Are safe in HTN because they act only on nasal vessels"
+   ],
+   "answer": "B",
+   "rationale": "Sympathomimetics cause CNS excitation and are \"hazardous to those with HTN/CVD\"; oral forms carry the higher risk of systemic effects. Rebound congestion is the risk of topical forms; they do nothing to the immune response.",
+   "src": "slide 88 + 01:54:04"
+  },
+  {
+   "id": "p-030",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with a cold asks for an antihistamine to dry it up. What should the nurse explain?",
+   "options": [
+    "Antihistamines work, but only the first-generation drugs",
+    "Antihistamines cure the cold if started on the first day",
+    "Antihistamines help a cold but are unsafe to take with zinc lozenges",
+    "Antihistamines don't help: a cold isn't a type I, histamine reaction"
+   ],
+   "answer": "D",
+   "rationale": "\"Antihistamines do not work for a cold because a cold virus is not a type 1 immune response. You're not going to get a histamine release.\" Colds are self-limiting with no cure; treat the symptoms.",
+   "src": "slide 91 + 01:56:40"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "PFT: FVC 62% of predicted · FEV1 60% of predicted · FEV1/FVC 0.80. This pattern is most consistent with:",
+   "options": [
+    "Obstructive disease",
+    "Asthma during an attack",
+    "Restrictive disease",
+    "Normal lung function"
+   ],
+   "answer": "C",
+   "rationale": "Both FVC and FEV1 are low (normal ≥ 80% predicted), but the ratio is preserved (≥ 0.70). That's restrictive: \"if you see a change in FVC but not a change in ratio, it's restrictive disease.\" An asthma attack is obstructive and would drop the ratio.",
+   "src": "slides 31–33 + 01:11:59"
+  },
+  {
+   "id": "p-032",
+   "tier": "3",
+   "type": "mc",
+   "stem": "PFT: FVC 85% of predicted · FEV1 52% of predicted · FEV1/FVC 0.55. This pattern is most consistent with:",
+   "options": [
+    "Obstructive disease",
+    "Normal lung function",
+    "Restrictive disease",
+    "A pleural effusion"
+   ],
+   "answer": "A",
+   "rationale": "FEV1 has fallen much more than FVC, so the ratio is below 0.70 — obstructive (asthma, COPD). Effusions are restrictive: both values fall and the ratio holds.",
+   "src": "slides 33, 36 + 01:13:44"
+  },
+  {
+   "id": "p-033",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Using his example, a client's FVC falls to 0.7 L and the FEV1 to 0.3 L. What is the ratio and what does it mean?",
+   "options": [
+    "About 0.70 — restrictive",
+    "About 0.43 — obstructive",
+    "About 2.3 — normal",
+    "About 0.43 — restrictive"
+   ],
+   "answer": "B",
+   "rationale": "0.3 ÷ 0.7 ≈ 0.43 (he said 0.42): the FEV1 fell at a sharper rate than the FVC → obstructive. In his restrictive example (0.49 ÷ 0.7) the ratio stayed at 0.7.",
+   "src": "01:13:14 + 01:13:44"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "PFT: FVC 92% of predicted · FEV1 90% of predicted · FEV1/FVC 0.82. The nurse interprets this as:",
+   "options": [
+    "Obstructive",
+    "Mixed",
+    "Restrictive",
+    "Normal"
+   ],
+   "answer": "D",
+   "rationale": "FVC and FEV1 are both ≥ 80% of predicted and the ratio is ≥ 0.70 — all normal.",
+   "src": "slides 31–33"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A 58-year-old smoker reports 3 years of daily cough, sputum and shortness of breath. Before COPD can be diagnosed, which finding is required?",
+   "options": [
+    "An SpO₂ below 88% on room air",
+    "A sputum culture growing bacteria",
+    "Spirometry showing FEV1/FVC < 0.70",
+    "A chest X-ray showing hyperinflation"
+   ],
+   "answer": "C",
+   "rationale": "Slide 43: \"Presence of spirometry is required to make diagnosis\" — anyone over 40 with dyspnea, cough and sputum needs PFTs, and FEV1/FVC < 0.70 confirms airflow limitation.",
+   "src": "slides 43, 60 + 01:21:57"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "An adult with asthma on step 1 (SABA PRN) used the SABA on 2 days this week and on 3 days last week. What should happen?",
+   "options": [
+    "Step down",
+    "Stay on step 1",
+    "Step up to step 3",
+    "Step up to step 2"
+   ],
+   "answer": "D",
+   "rationale": "The rule he taught: two or more attacks a week → step up — and one step at a time, so step 2 (scheduled low-dose ICS). The printed slide says \"> 2 days a week\"; he corrected it in class and inked \"2 or more.\"",
+   "src": "slide 57 + 01:31:26 + 01:32:02"
+  },
+  {
+   "id": "p-037",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A client on step 2 (daily low-dose ICS) has used the SABA once a week for the last month and sleeps through the night. What is the plan?",
+   "options": [
+    "Step up to step 3",
+    "Step down to step 1",
+    "Stay on step 2",
+    "Add an oral steroid"
+   ],
+   "answer": "C",
+   "rationale": "One use a week is under the 2-or-more threshold: \"if they have an attack, once in one week, that's fine. You don't need to step up.\" Stepping down needs good control for at least 3 months.",
+   "src": "slide 57 + 01:33:13"
+  },
+  {
+   "id": "p-038",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A client has been on step 4 (medium-dose ICS + LABA) for 6 months with no attacks. What is the best plan?",
+   "options": [
+    "Step down to step 3 and keep a SABA on hand",
+    "Stop the ICS and the LABA, keeping the SABA",
+    "Step down two steps since control is so good",
+    "Stay on step 4 because asthma never improves"
+   ],
+   "answer": "A",
+   "rationale": "Well controlled ≥ 3 months → step down — one step at a time (\"I don't think you should ever go two steps\") — and keep carrying a SABA, watching for 2 or more attacks a week.",
+   "src": "slide 57 + 01:33:44 + 01:36:04"
+  },
+  {
+   "id": "p-039",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A client on step 3 (low-dose ICS + LABA) reports using the SABA 3 times a week. What should the nurse check <b>before</b> the step-up?",
+   "options": [
+    "Whether a SAMA could be added for better bronchodilation",
+    "Adherence, inhaler technique and environmental triggers",
+    "Whether the client has had a recent sputum culture",
+    "Whether the client can stop the ICS and use the LABA alone"
+   ],
+   "answer": "B",
+   "rationale": "Slide 57: step up if needed — \"first, check adherence, environmental control, and comorbid conditions.\" A LABA is never used without an ICS in asthma, and anticholinergics don't work for asthma.",
+   "src": "slide 57 + 01:34:49"
+  },
+  {
+   "id": "p-040",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A client with COPD has been stable on a LAMA for a year. His symptoms are slowly worsening. What does the stepwise approach for COPD predict?",
+   "options": [
+    "Treatment moves forward to longer-acting or added drugs, rarely back",
+    "Treatment stops, since COPD is irreversible and drugs no longer help",
+    "Treatment switches to the asthma steps with an ICS alone",
+    "Treatment steps down once symptoms settle for 3 months"
+   ],
+   "answer": "A",
+   "rationale": "\"The difference between COPD and asthma is that for COPD, you're never going to go backwards. It's always going to go forwards\" — on to longer-acting drugs and eventually an ICS (always with a LABA).",
+   "src": "slides 60, 63 + 01:37:11 + 01:38:17"
+  },
+  {
+   "id": "p-041",
+   "tier": "3",
+   "type": "mc",
+   "stem": "A client hyperventilates during a panic attack, and the PaCO₂ falls. How does this change hemoglobin's hold on oxygen?",
+   "options": [
+    "Shifts the curve right because the pH is lower",
+    "Shifts the curve left; Hgb holds O₂ more tightly",
+    "Shifts the curve right; Hgb releases O₂ more easily",
+    "No shift, because only temperature moves the curve"
+   ],
+   "answer": "B",
+   "rationale": "Slide 23: shift left — increased affinity for O₂ — with alkalosis and hypocapnia (deep or rapid breathing). A right shift follows CADET: more CO₂, acid, DPG, exercise or heat.",
+   "src": "slide 23 + 00:48:24 + 00:50:07"
+  },
+  {
+   "id": "p-042",
+   "tier": "3",
+   "type": "mc",
+   "stem": "During hard exercise, a muscle gets warmer and more acidic and makes more CO₂. What happens to oxygen release there?",
+   "options": [
+    "Release rises as the curve shifts right",
+    "Release is unchanged; only PO₂ matters",
+    "Release falls because Hgb holds O₂ tighter",
+    "Release falls because the curve shifts left"
+   ],
+   "answer": "A",
+   "rationale": "\"CADET, face Right!\" — CO₂, acid, exercise and temperature all shift the curve right: hemoglobin \"hates\" O₂ and kicks it off to the working cells.",
+   "src": "slide 23 + 00:49:02 + 00:52:32"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Pediatric clinic",
+   "setting": "Asthma that isn't controlled · weeks 0–12",
+   "text": "<b>Nurses' Notes — Week 0, 1000</b>\n15-year-old client with asthma here for a follow-up with her mother. Prescribed only an albuterol inhaler (SABA) as needed. Reports using it \"about 3 days a week\" for wheezing and cough, and woke up coughing 3 times this month. The family adopted a cat 2 months ago. Plays on the school soccer team. Mother has seasonal allergies.\n<b>Vital Signs</b> — T 36.8°C · HR 88 · BP 112/70 · RR 18 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — Spirometry: FEV1 84% of predicted · FEV1/FVC normal for age\n<b>Orders</b> — Review asthma control · update the asthma action plan",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "The nurse reviews the visit data. Which findings show that the client's asthma is <b>not well controlled</b> or need follow-up? Select all that apply.",
+     "options": [
+      "Woke up coughing 3 times this month",
+      "Plays school soccer",
+      "SpO₂ 98% on room air",
+      "A new cat in the home",
+      "Heart rate 88",
+      "SABA use about 3 days a week"
+     ],
+     "answer": "A, D, F",
+     "rationale": "SABA use and night waking above the intermittent limits (≤ 2 days/week, ≤ 2×/month) mean persistent, uncontrolled asthma, and a new pet is an indoor allergen — extrinsic asthma is a type I reaction. \"Somebody rubs a cat on their face\" was his example of a trigger. A normal SpO₂ and heart rate are reassuring; playing sports isn't a problem in itself.",
+     "src": "slides 39, 56, 86 + 01:16:58 + 01:33:13",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "Using the asthma severity table, the client's findings are most consistent with which class?",
+     "options": [
+      "Severe persistent asthma",
+      "Moderate persistent asthma",
+      "Intermittent asthma",
+      "Mild persistent asthma"
+     ],
+     "answer": "D",
+     "rationale": "Slide 56: symptoms and SABA use > 2 days/week but not daily, night waking 3–4×/month, FEV1 ≥ 80% with a normal ratio = mild persistent. Intermittent is ≤ 2 days/week and ≤ 2 nights/month; moderate means daily symptoms and FEV1 60–80%; severe means symptoms throughout the day.",
+     "src": "slide 56 + 01:29:41",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "The mother asks, \"Why not just keep using the rescue inhaler when she needs it?\" Which outcome of uncontrolled asthma is the nurse most concerned about?",
+     "options": [
+      "Hypertrophied, hyperreactive airway smooth muscle",
+      "Her asthma changing into COPD by her twenties",
+      "A permanent drop in her oxygen saturation",
+      "The SABA slowly losing its effect on her narrowed airways"
+     ],
+     "answer": "A",
+     "rationale": "\"Why is this important to step up their treatment? You want to prevent the hyperactivity of the smooth muscles, and you want to prevent the hypertrophy.\" Repeated attacks make the muscle bigger and so sensitive it constricts \"for no reason.\" The other choices aren't what he taught.",
+     "src": "slides 39–40 + 01:17:29 + 01:31:26 + 01:32:02",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "The provider steps her up to <b>step 2</b>. Which items belong in her plan? Select all that apply.",
+     "options": [
+      "Check inhaler use and adherence",
+      "Keep carrying the SABA for attacks",
+      "Add an anticholinergic (SAMA) inhaler",
+      "Add a LABA on its own, without an ICS",
+      "Reduce exposure to the cat",
+      "A low-dose inhaled corticosteroid every day"
+     ],
+     "answer": "A, B, E, F",
+     "rationale": "Step 2 = scheduled low-dose ICS every day. Every patient keeps a quick-relief SABA, and every step includes education and environmental control (adherence is the first thing checked before any step-up). A LABA is always combined with an ICS in asthma, and anticholinergics \"do not work at all for asthma.\"",
+     "src": "slides 51–52, 57 + 01:25:18 + 01:32:02 + 01:33:13",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "order",
+     "stem": "The mother asks what happens if step 2 isn't enough. The nurse uses the stepwise chart. Put the regimens in order, from the next step up (step 3) to the highest (step 6).",
+     "options": [
+      "High-dose ICS + LABA + oral corticosteroid",
+      "Low-dose ICS + LABA",
+      "High-dose ICS + LABA",
+      "Medium-dose ICS + LABA"
+     ],
+     "answer": "B, D, C, A",
+     "rationale": "\"If they're still having two or more attacks, they get placed on ICS and LABA… medium dose ICS and LABA… high dose ICS and LABA. And if they're still having more attacks… oral corticosteroid along with high dose ICS and LABA.\" One step at a time, checking adherence and triggers first.",
+     "src": "slide 57 + 01:32:36",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Week 12.</b> The client returns for follow-up. Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Skips the ICS on weekends",
+      "SABA used 3 days last week",
+      "Plays full soccer games",
+      "No night waking this month",
+      "SABA used once a week",
+      "FEV1 90% of predicted"
+     ],
+     "answer": "C, D, E, F",
+     "rationale": "Fewer than 2 uses a week, no night symptoms, good lung function and normal activity mean control. Skipping the daily ICS and using the SABA 3 days in one week need follow-up: \"if you're having more than two attacks, call me.\"",
+     "src": "slides 56–57, 59 + 01:33:44 + 01:34:49",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Emergency department",
+   "setting": "Acute asthma attack · hours 0–6",
+   "text": "<b>Nurses' Notes — Day 1, 0715</b>\n20-year-old client with asthma arrives after a morning run outside in freezing air. Wheezing, short of breath and coughing. Used the albuterol (SABA) inhaler 3 times at home without relief. Speaks in short phrases. Takes a low-dose inhaled corticosteroid daily. Bilateral expiratory wheezes; breath sounds present on both sides. Has a biology exam this afternoon.\n<b>Vital Signs</b> — T 37.0°C · HR 118 · BP 128/78 · RR 30 · SpO₂ 89% on room air\n<b>Laboratory Results</b> — Peak expiratory flow (PEF) 45% of predicted\n<b>Orders</b> — Oxygen via nasal cannula · nebulized albuterol · prednisone PO (systemic glucocorticoid) · reassess after each treatment",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Which findings require <b>immediate</b> follow-up? Select all that apply.",
+     "options": [
+      "Respiratory rate 30",
+      "No relief after 3 SABA doses",
+      "PEF 45% of predicted",
+      "SpO₂ 89% on room air",
+      "Temperature 37.0°C",
+      "Exam this afternoon"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "Low SpO₂, rapid breathing, a failed home SABA and a low peak expiratory flow (PEF reflects the degree of airway obstruction) show a severe attack. A normal temperature and the exam are not urgent findings.",
+     "src": "slides 22, 30, 58 + 01:36:34",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "The client's findings are most consistent with:",
+     "options": [
+      "A COPD exacerbation caused by a chest infection",
+      "A tension pneumothorax brought on by the hard run",
+      "A pulmonary embolism from her leg veins",
+      "Bronchospasm triggered by cold air and exercise"
+     ],
+     "answer": "D",
+     "rationale": "Cold air and exercise are classic minor triggers that cause intense bronchoconstriction in hyperreactive asthmatic airways (slide 39); wheeze, dyspnea and cough are the asthma S&amp;S. Breath sounds are present on both sides (no pneumothorax), there's no fever or sputum, and she has no PE risk factors.",
+     "src": "slides 39–40 + 01:18:03",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "Which problem is the <b>priority</b>?",
+     "options": [
+      "Hypoxemia from airflow obstruction",
+      "Dehydration from rapid breathing",
+      "Airway infection from the run",
+      "Anxiety about missing this afternoon's exam"
+     ],
+     "answer": "A",
+     "rationale": "SpO₂ 89% with a constricted airway: obstruction lowers alveolar ventilation, the gradient falls and less O₂ diffuses (slide 19's asthma panel). Anxiety is real but secondary; nothing points to dehydration or infection.",
+     "src": "slides 19, 58 + 00:40:21",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "Which treatments should the nurse anticipate for this acute attack? Select all that apply.",
+     "options": [
+      "An oral antihistamine",
+      "A systemic glucocorticoid",
+      "Oxygen to relieve hypoxemia",
+      "A LABA as the rescue drug",
+      "An anticholinergic alone",
+      "A nebulized SABA"
+     ],
+     "answer": "B, C, F",
+     "rationale": "Slide 58, acute attack: give oxygen for hypoxemia, a systemic glucocorticoid to reduce airway inflammation, and a nebulized SABA to reduce obstruction. A LABA isn't quick-acting (\"you take it on a schedule\"), anticholinergics don't work for asthma, and an antihistamine isn't part of attack care.",
+     "src": "slides 51–52, 58 + 01:28:03 + 01:36:34",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 0800.</b> After the second nebulized albuterol treatment the client's hands are shaky and her HR is 124. Wheezing is less. What should the nurse do?",
+     "options": [
+      "Switch the nebulizer to a LABA because it has fewer heart effects",
+      "Give an oral antihistamine to calm the reaction to the albuterol",
+      "Hold every further bronchodilator until her heart rate returns to normal",
+      "Recognize a β₂-agonist effect and keep reassessing her breathing"
+     ],
+     "answer": "D",
+     "rationale": "Tremors and tachycardia/palpitations are expected β₂-agonist effects (slide 51) — you have to take a lot to see them systemically, and a nebulized dose is a lot. The attack is improving, so the nurse monitors and reports rather than stopping treatment. A LABA isn't a rescue drug; this isn't an allergic reaction.",
+     "src": "slide 51 + 01:28:37",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 1300.</b> Before discharge, which findings show that treatment <b>worked</b>? Select all that apply.",
+     "options": [
+      "Respiratory rate 20",
+      "Speaks in full sentences",
+      "HR 132 with chest pounding",
+      "PEF 80% of predicted",
+      "Needs the SABA every hour",
+      "SpO₂ 96% on room air"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Oxygenation, breathing rate, airflow and work of breathing are back toward normal. Needing the SABA hourly means the attack isn't controlled, and marked tachycardia with palpitations needs follow-up.",
+     "src": "slides 51, 58 + 01:36:34",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Pulmonary clinic",
+   "setting": "New COPD diagnosis · months 0–6",
+   "text": "<b>Nurses' Notes — Visit 1, 0930</b>\n62-year-old client who has smoked a pack a day for 40 years. Daily cough with sputum for 3 years, worst in the morning. Short of breath climbing one flight of stairs. Gets \"chest colds\" every winter. Overweight, sleeps in a recliner, has mild swelling of both ankles. Retired bus driver; walks his dog daily.\n<b>Vital Signs</b> — T 36.9°C · HR 92 · BP 146/88 · RR 22 · SpO₂ 91% on room air\n<b>Laboratory Results</b> — Spirometry: FVC 78% of predicted · FEV1 45% of predicted · FEV1/FVC 0.58\n<b>Orders</b> — Spirometry · follow-up visit in 2 weeks",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which findings fit the requirements for evaluating this client for COPD? Select all that apply.",
+     "options": [
+      "Daily sputum production",
+      "Walks his dog daily",
+      "40 years of smoking",
+      "Chronic cough",
+      "Age over 40",
+      "Retired bus driver"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "Slide 43: anyone over 40 with dyspnea, cough and sputum needs PFTs; slide 41: the most common cause is tobacco, and chronic cough and chronic sputum are diagnostic S&amp;S. Walking the dog and his former job don't point to COPD.",
+     "src": "slides 41, 43 + 01:21:22",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "mc",
+     "stem": "How should the nurse interpret the spirometry?",
+     "options": [
+      "Restrictive: FVC is low, so the lungs hold less air",
+      "Obstructive: FEV1 fell more than FVC; ratio < 0.70",
+      "Normal for a 62-year-old who smokes",
+      "Restrictive and obstructive at the same time"
+     ],
+     "answer": "B",
+     "rationale": "FEV1 45% vs FVC 78%: the FEV1 fell much more, so FEV1/FVC is 0.58 — below 0.70, which \"confirms airflow limitation and therefore diagnosis.\" In restrictive disease both fall about the same and the ratio holds.",
+     "src": "slides 33, 43, 60 + 01:11:59 + 01:21:57",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "His heavier build, morning cough with lots of mucus and ankle swelling are most consistent with which form of COPD?",
+     "options": [
+      "Chronic bronchitis (\"blue bloater\")",
+      "Emphysema with destroyed alveolar walls (\"pink puffer\")",
+      "A restrictive lung disease",
+      "Intermittent allergic asthma"
+     ],
+     "answer": "A",
+     "rationale": "Slide 44: chronic bronchitis = mucus hypersecretion, cough worst in the AM, associated with obesity, edema, fatigue and OSA — the \"blue bloater\" (\"they tend to be on the heavier side… you sit in your chair all day\"). Pink puffers are thin with muscle wasting.",
+     "src": "slide 44 + 01:22:29 + 01:23:03",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "The provider confirms COPD. Which items fit the treatment plan he described? Select all that apply.",
+     "options": [
+      "Stepping down after 3 symptom-free months",
+      "Avoiding anticholinergics, which don't help COPD",
+      "A long-acting bronchodilator (LABA or LAMA)",
+      "An ICS on its own as the first drug",
+      "Screening for comorbidities such as depression",
+      "A plan that steps forward if symptoms worsen"
+     ],
+     "answer": "C, E, F",
+     "rationale": "GOLD: bronchodilators — a LABA or a LAMA. COPD comes with comorbidities (CV disease, osteoporosis, depression, metabolic syndrome, lung cancer). It \"is always going to go forward.\" An ICS is for severe symptoms and always with a LABA; stepping down is an asthma idea; anticholinergics work for COPD (they're the ones that fail in asthma).",
+     "src": "slides 43, 52, 63 + 01:37:11 + 01:38:17",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "mc",
+     "stem": "<b>Visit 2.</b> The client asks, \"If I use these inhalers every day, will my lungs go back to normal?\" What is the best response?",
+     "options": [
+      "\"No, and the inhalers won't change your symptoms, so they're optional.\"",
+      "\"Yes, most people's lungs return to normal within a year of treatment.\"",
+      "\"Yes, once the inflammation settles you can stop all the inhalers.\"",
+      "\"The inhalers can ease symptoms and slow it, but COPD doesn't reverse.\""
+     ],
+     "answer": "D",
+     "rationale": "COPD is chronic, progressive and irreversible: \"Once you start showing signs of COPD, it's not gonna get better… You could delay it, you could slow it down.\" The goals are fewer symptoms and fewer exacerbations — so the drugs still matter.",
+     "src": "slides 41, 61 + 01:21:22",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "<b>Month 6.</b> Which findings need follow-up? Select all that apply.",
+     "options": [
+      "FEV1/FVC still 0.59",
+      "Thicker sputum and a fever for 2 days",
+      "Mild dry mouth from his LAMA",
+      "New swelling of both lower legs",
+      "Uses pursed-lip breathing on stairs",
+      "Says he feels hopeless and stays home"
+     ],
+     "answer": "B, D, F",
+     "rationale": "New leg edema can mean right heart failure (slide 45); more sputum with fever suggests an exacerbation, often infectious (slide 61); depression is a COPD comorbidity. Pursed-lip breathing is a known COPD finding, an unchanged ratio is expected in an irreversible disease, and dry mouth is the minimal anticholinergic side effect.",
+     "src": "slides 43, 45, 52, 61 + 01:58:23",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Medical-surgical unit",
+   "setting": "COPD exacerbation · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 1100</b>\n70-year-old client with COPD who uses a LAMA inhaler at home. Admitted after 3 days of increasing shortness of breath, more cough, and sputum that has turned thick and yellow-green. Wheezing. Barrel chest and pursed-lip breathing (his baseline, per his wife).\n<b>Vital Signs</b> — T 38.4°C · HR 104 · BP 138/84 · RR 28 · SpO₂ 84% on room air\n<b>Laboratory Results</b> — ABG: pH 7.31 · PaCO₂ 56 mm Hg · HCO₃⁻ 27 mEq/L · PaO₂ 52 mm Hg · WBC 13,500/mm³ · sputum culture pending\n<b>Orders</b> — O₂ titrated to SpO₂ 88–92% · nebulized albuterol + ipratropium · IV antibiotic · repeat ABG in the morning",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which findings point to an <b>exacerbation</b> rather than his stable baseline? Select all that apply.",
+     "options": [
+      "Barrel chest",
+      "Pursed-lip breathing",
+      "Thick yellow-green sputum",
+      "WBC 13,500/mm³",
+      "Increasing shortness of breath",
+      "Temperature 38.4°C"
+     ],
+     "answer": "C, D, E, F",
+     "rationale": "An exacerbation is an acute worsening beyond day-to-day variation — more dyspnea, sputum and cough — often from a respiratory infection (fever, ↑ WBC). A barrel chest and pursed-lip breathing are chronic COPD findings that his wife says are his baseline.",
+     "src": "slides 45, 61 + 01:38:50",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "mc",
+     "stem": "How should the nurse interpret the ABG (pH 7.31 · PaCO₂ 56 · HCO₃⁻ 27)?",
+     "options": [
+      "Metabolic acidosis, uncompensated",
+      "Respiratory acidosis, partially compensated",
+      "Respiratory alkalosis, partially compensated",
+      "Respiratory acidosis, fully compensated"
+     ],
+     "answer": "B",
+     "rationale": "pH is low and PaCO₂ is high (> 45) — they move in opposite directions, so it's respiratory (ROME). HCO₃⁻ 27 is above 26, so the kidneys are compensating, but the pH is still outside 7.35–7.45: partial. COPD retains CO₂ (\"DEPRES\" — emphysema, spasm of the bronchioles).",
+     "src": "slides 23, 64 + 00:59:20 + Acid–Base (Lalani)",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "Which explanation best fits what is happening to this client?",
+     "options": [
+      "An infection is worsening airway obstruction, so he retains CO₂",
+      "Left-sided heart failure is flooding the alveoli with fluid",
+      "A blood clot from his legs has blocked part of his pulmonary circulation",
+      "Air in the pleural space has collapsed part of one lung"
+     ],
+     "answer": "A",
+     "rationale": "Sputum is \"a breeding ground for bacteria\"; the infection worsens the obstruction, exhalation is inefficient, and CO₂ builds up (pH falls). A PE would usually bring tachypnea and a low PaCO₂; a pneumothorax brings absent breath sounds; nothing here points to left heart failure.",
+     "src": "slides 43, 61, 64 + 01:39:21",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "Which interventions should the nurse anticipate? Select all that apply.",
+     "options": [
+      "Stepping his home inhaler down at discharge",
+      "Oxygen titrated to SpO₂ 88–92%",
+      "Oxygen titrated to SpO₂ 100%",
+      "A LABA alone as the rescue drug",
+      "A nebulized SABA + anticholinergic",
+      "An antibiotic for the infection"
+     ],
+     "answer": "B, E, F",
+     "rationale": "Slide 64: supplemental oxygen to sats > 88–92%; SABAs with inhaled anticholinergics for exacerbations (the \"DuoNeb\"); antibiotics if there are S&amp;S of infection. Pushing O₂ to 100% over-oxygenates a client who has adapted to low O₂ (Dr. Lalani). LABAs are for stable COPD, and COPD treatment never steps backward.",
+     "src": "slides 54, 64 + 01:37:11 + 01:39:21 + Acid–Base (Lalani)",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 1500.</b> On 2 L/min the client's SpO₂ is 90%. A new resident asks the nurse to switch him to a non-rebreather mask \"to get him to 100%.\" What should the nurse do?",
+     "options": [
+      "Apply the non-rebreather mask as asked",
+      "Question the order: his target is 88–92%",
+      "Raise the oxygen until the SpO₂ reaches 96%",
+      "Remove the oxygen, since 90% is adequate"
+     ],
+     "answer": "B",
+     "rationale": "His ordered target is SpO₂ 88–92%, and 90% is in range. Dr. Lalani's warning about the COPD client adapted to low O₂ and high CO₂: \"You'll get him in trouble.\" Removing oxygen that keeps him in range is also wrong.",
+     "src": "slide 64 + Acid–Base (Lalani)",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0800.</b> Which findings show that treatment is <b>working</b>? Select all that apply.",
+     "options": [
+      "Less sputum and easier breathing",
+      "SpO₂ 99% on 6 L/min",
+      "SpO₂ 90% on 1 L/min",
+      "Temperature 37.1°C",
+      "WBC 9,000/mm³",
+      "New swelling of both ankles"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "In-range saturation on less oxygen, no fever, less sputum and dyspnea, and a normal WBC show improvement. New ankle edema can mean right heart failure and needs follow-up; 99% on 6 L is over-oxygenation for this client.",
+     "src": "slides 45, 64 + Acid–Base (Lalani)",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Surgical unit",
+   "setting": "Post-op atelectasis and aspiration risk · days 2–4",
+   "text": "<b>Nurses' Notes — Day 2, 0800</b>\n78-year-old client, post-op day 2 after open abdominal surgery. History of a stroke with a mild swallowing problem. Taking shallow breaths and refusing the incentive spirometer because coughing hurts the incision. Prefers to lie flat. Breath sounds diminished at both bases. Incision dressing dry and intact.\n<b>Vital Signs</b> — T 38.2°C · HR 98 · BP 132/80 · RR 24 · SpO₂ 92% on room air\n<b>Laboratory Results</b> — WBC 12,800/mm³\n<b>Orders</b> — Incentive spirometer · cough and deep breathing · HOB elevated · advance diet as tolerated · O₂ PRN for SpO₂ below ordered level",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings need follow-up? Select all that apply.",
+     "options": [
+      "WBC 12,800/mm³",
+      "Temperature 38.2°C",
+      "Diminished breath sounds at the bases",
+      "Refusing the incentive spirometer",
+      "BP 132/80",
+      "Dressing dry and intact"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "Fever, leukocytosis and diminished bases after surgery fit atelectasis (slide 68: fever, cough, dyspnea, leukocytosis), and refusing the spirometer removes the main prevention. A dry dressing and a normal BP are expected.",
+     "src": "slide 68 + 01:41:33 + 01:42:05",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "mc",
+     "stem": "These findings on post-op day 2 are most consistent with:",
+     "options": [
+      "Exudative effusion caused by the surgery",
+      "Atelectasis — collapse of part of the lung tissue",
+      "Spontaneous pneumothorax of the whole lung",
+      "An acute asthma attack set off by her incision pain"
+     ],
+     "answer": "B",
+     "rationale": "Atelectasis = collapse of lung tissue (not the entire lung), frequent after surgery. Shallow breathing lets alveoli collapse; that tissue can't fill with air (restrictive). A pneumothorax would bring absent breath sounds and pleural pain; asthma would wheeze.",
+     "src": "slides 66, 68 + 01:40:30 + 01:41:03",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "<b>Day 2, 1215.</b> The client is found lying flat with a lunch tray. After sips of water she is coughing, choking and wheezing. Which problem is now the <b>priority</b>?",
+     "options": [
+      "Dehydration from limited intake",
+      "Anxiety about being in the hospital",
+      "Aspiration of liquid into the lungs",
+      "Pain from the abdominal incision"
+     ],
+     "answer": "C",
+     "rationale": "Aspiration = fluid or solids passing into the lungs when swallow and cough reflexes are impaired; the elderly are at risk. Coughing, choking and wheezing are its S&amp;S. Liquid takes the place of air and can lead to aspiration pneumonia.",
+     "src": "slide 67 + 01:39:54 + 01:40:30",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "Which interventions belong in her plan for the rest of the stay? Select all that apply.",
+     "options": [
+      "Keep the head of the bed elevated, especially for meals",
+      "Give a cough suppressant around the clock",
+      "Hold all activity until she is afebrile",
+      "Supplemental oxygen if her SpO₂ drops",
+      "Keep her flat to protect the incision",
+      "Coach cough and deep breathing and the spirometer"
+     ],
+     "answer": "A, D, F",
+     "rationale": "\"Elderly especially at risk, keep HOB elevated!\" Cough and deep-breathing exercises (the incentive spirometer) treat and prevent atelectasis; supplemental oxygen is part of aspiration care. Lying flat and suppressing the cough work against both problems.",
+     "src": "slides 67–68 + 01:40:30 + 01:42:05",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 1216.</b> What should the nurse do <b>first</b>?",
+     "options": [
+      "Stop the meal and sit her upright",
+      "Turn her flat onto her back",
+      "Give a cough suppressant",
+      "Offer her smaller sips of the water"
+     ],
+     "answer": "A",
+     "rationale": "Stop what is being aspirated and raise the head of the bed — the slide's prevention point. More liquid adds to the aspiration, a cough suppressant blocks her protective cough, and lying flat raises the risk.",
+     "src": "slide 67 + 01:39:54",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "sata",
+     "stem": "<b>Day 4.</b> Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Temperature 37.0°C",
+      "Clear breath sounds at the bases",
+      "Coughs and chokes at every meal",
+      "WBC 8,600/mm³",
+      "New fever 38.6°C with productive cough",
+      "Uses the spirometer on her own"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "No fever, a normal WBC, clear bases and independent deep breathing show the atelectasis resolving. Choking at meals means aspiration continues; a new fever with a productive cough raises concern for aspiration pneumonia.",
+     "src": "slides 67–68",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Emergency department",
+   "setting": "Chest trauma, then a tension pneumothorax · hours 0–3",
+   "text": "<b>Nurses' Notes — Day 1, 1400</b>\n26-year-old client fell from a ladder onto a metal fence; small wound on the right lateral chest. Sharp right-sided chest pain that worsens with breathing. Breath sounds absent on the right. Abrasions on both knees. No past medical history.\n<b>Vital Signs</b> — T 37.1°C · HR 112 · BP 118/74 · RR 30 · SpO₂ 90% on room air\n<b>Laboratory Results</b> — Chest X-ray: right pneumothorax · hemoglobin 14.2 g/dL\n<b>Orders</b> — Oxygen · continuous SpO₂ and vital signs · provider at bedside",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which findings are consistent with a pneumothorax? Select all that apply.",
+     "options": [
+      "Temperature 37.1°C",
+      "Chest pain that worsens with breathing",
+      "Absent breath sounds on the right",
+      "Abrasions on both knees",
+      "Shortness of breath",
+      "Respiratory rate 30"
+     ],
+     "answer": "B, C, E, F",
+     "rationale": "Slide 69 S&amp;S: pleural pain, tachypnea, dyspnea, absent or decreased breath sounds. The knee abrasions and a normal temperature aren't part of it.",
+     "src": "slide 69 + 01:42:05",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "Which statement best explains this client's pneumothorax?",
+     "options": [
+      "It is a primary pneumothorax, since he is a man in his twenties",
+      "Trauma let air into the pleural space; this is a secondary pneumothorax",
+      "Fluid in the pleural space has compressed the right lung",
+      "A blocked bronchiole caused a small area of the lung to collapse by resorption"
+     ],
+     "answer": "B",
+     "rationale": "Air in the pleural space destroys its negative pressure, so the lung can't expand (slides 10, 69). Secondary = chest trauma; primary occurs unexpectedly in healthy people, usually men 20–40 — but this one followed a wound. Fluid would be an effusion; a blocked bronchiole is resorption atelectasis.",
+     "src": "slides 10, 68–69 + 00:17:48 + 01:42:37",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "<b>Day 1, 1440.</b> The client is more short of breath. HR 138 · BP 84/50 · RR 36 · SpO₂ 82% on oxygen. A repeat X-ray shows the heart and the other lung shifted to the left. The client is most likely experiencing:",
+     "options": [
+      "A pulmonary embolism",
+      "An exudative effusion",
+      "An open pneumothorax, still reinflating",
+      "A tension pneumothorax"
+     ],
+     "answer": "D",
+     "rationale": "Tension: a flap \"snaps shut\" on the exhale, so air builds up with every breath and \"you're shifting everything to one side, including your heart and your other lung.\" An open pneumothorax lets air in and out, so the lung partly reinflates. \"Tension is always going to be worse than open.\"",
+     "src": "slide 69 + 01:42:37 + 01:43:07 + 01:43:37",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "Which actions should the nurse take now? Select all that apply.",
+     "options": [
+      "Keep the oxygen on",
+      "Coach him through the incentive spirometer",
+      "Stay with the client and monitor continuously",
+      "Lay him flat to rest",
+      "Recheck vital signs in an hour",
+      "Notify the provider of the change immediately"
+     ],
+     "answer": "A, C, F",
+     "rationale": "A tension pneumothorax is an emergency: the shift compromises the heart as well as the lungs. The nurse escalates at once, stays with the client and keeps the oxygen going. An incentive spirometer prevents atelectasis, not this; waiting an hour or lying flat delays care.",
+     "src": "slide 69 + 01:43:07 + 01:43:37",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 1442.</b> The nurse calls the provider, who is in another room. Which report best conveys the urgency?",
+     "options": [
+      "\"His pain is 8 out of 10; may I give him more pain medicine?\"",
+      "\"His knee abrasions are oozing and need a fresh dressing.\"",
+      "\"He is very anxious now; could he have something to calm him down a bit?\"",
+      "\"BP 84/50, SpO₂ 82%, and the X-ray shows his heart shifted left.\""
+     ],
+     "answer": "D",
+     "rationale": "Falling BP, worsening hypoxemia and a shift of the heart describe a tension pneumothorax — air building up and \"shifting everything to one side, including your heart and your other lung.\" Anxiety, pain and the abrasions are real but don't tell the provider what is threatening his life.",
+     "src": "slide 69 + 01:43:07 + 01:43:37",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 1700.</b> After emergency treatment by the provider, which findings show improvement? Select all that apply.",
+     "options": [
+      "Breath sounds still absent on the right",
+      "Breath sounds heard on the right",
+      "Chest X-ray: heart back to midline",
+      "SpO₂ 95% on 2 L/min",
+      "BP 116/72",
+      "RR 34 with new air hunger"
+     ],
+     "answer": "B, C, D, E",
+     "rationale": "Returning breath sounds, better oxygenation, a normal BP and a midline heart mean the lung re-expanded and the shift resolved. Persistent tachypnea with air hunger or still-absent breath sounds need immediate follow-up.",
+     "src": "slide 69 + 01:43:07",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Intensive care unit",
+   "setting": "ARDS in a client with COVID-19 and sepsis · days 1–6",
+   "text": "<b>Nurses' Notes — Day 1, 2200</b>\n67-year-old client admitted 2 days ago with COVID-19 pneumonia, now septic (BP 88/54 before fluids). Increasingly short of breath over 6 hours. Chest X-ray: new bilateral infiltrates (\"gray, cloudy lungs\"). Echocardiogram: normal left heart, no left atrial hypertension. Urine output 40 mL/h.\n<b>Vital Signs</b> — T 38.9°C · HR 116 · BP 102/60 · RR 34 · SpO₂ 86% on 6 L/min\n<b>Laboratory Results</b> — ABG: pH 7.49 · PaCO₂ 30 mm Hg · HCO₃⁻ 23 mEq/L · PaO₂ 54 mm Hg\n<b>Orders</b> — Oxygen and ventilatory support as needed · repeat ABG · infection-prevention bundle",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which findings support a diagnosis of ARDS? Select all that apply.",
+     "options": [
+      "Low PaO₂ (54 mm Hg)",
+      "No left atrial hypertension",
+      "Sepsis as a predisposing factor",
+      "Urine output 40 mL/h",
+      "Temperature 38.9°C",
+      "Acute bilateral infiltrates on chest X-ray"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Slide 73 defines ARDS by acute bilateral infiltrates, a low arterial PO₂ and the absence of left atrial hypertension; sepsis is a predisposing factor. Urine output is adequate, and fever reflects the infection, not the ARDS definition.",
+     "src": "slide 73 + 01:46:20",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "How should the nurse interpret the first ABG (pH 7.49 · PaCO₂ 30 · HCO₃⁻ 23)?",
+     "options": [
+      "Respiratory alkalosis, uncompensated",
+      "Metabolic alkalosis, partly compensated",
+      "Respiratory acidosis, uncompensated",
+      "Respiratory alkalosis, fully compensated"
+     ],
+     "answer": "A",
+     "rationale": "pH high, PaCO₂ low (opposite directions) = respiratory; HCO₃⁻ is normal, so no compensation yet. Slide 74: early ARDS brings dyspnea and hypoxemia with hyperventilation and respiratory alkalosis.",
+     "src": "slide 74 + Acid–Base (Lalani)",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "<b>Day 2, 0600.</b> The client is exhausted, with shallow breaths at RR 14. ABG: pH 7.28 · PaCO₂ 58 · HCO₃⁻ 25. What is most likely happening?",
+     "options": [
+      "The lungs are healing, so the breathing rate has slowed",
+      "The kidneys are now retaining acid to correct the alkalosis",
+      "Tiring muscles cause hypoventilation and respiratory acidosis",
+      "A new pulmonary embolism is causing the drop in her pH"
+     ],
+     "answer": "C",
+     "rationale": "Slide 74's progression: increased work of breathing, decreased tidal volume and hypoventilation → hypercapnia and respiratory acidosis → respiratory failure. A slower rate here is exhaustion, not recovery; HCO₃⁻ is normal, so this isn't a metabolic change.",
+     "src": "slide 74 + 01:46:20",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "The client is intubated. Which treatments should the nurse anticipate? Select all that apply.",
+     "options": [
+      "Ventilation that maintains oxygenation",
+      "An antihistamine to dry the alveolar fluid",
+      "A nasal decongestant to open the airways",
+      "A glucocorticoid to calm the immune response",
+      "Measures to prevent new infection",
+      "A SAMA inhaler as the main treatment"
+     ],
+     "answer": "A, D, E",
+     "rationale": "Slide 74: maintain adequate oxygenation and ventilation while preventing infection. In COVID ARDS, \"the immune system goes berserk,\" so \"you give them glucocorticoids to decrease their immune system response.\" Antihistamines and decongestants don't treat alveolar edema; anticholinergics are COPD drugs.",
+     "src": "slides 73–74 + 01:46:20 + 01:47:08",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 1000.</b> The provider orders a position change to improve the client's oxygenation. Which position should the nurse anticipate?",
+     "options": [
+      "Supine (flat on the back)",
+      "Trendelenburg",
+      "Prone (face down)",
+      "High Fowler's"
+     ],
+     "answer": "C",
+     "rationale": "Slide 74's treatment includes the prone position, and he stressed it: \"make sure [they are prone] to breathe better.\" The other positions aren't what he taught for ARDS.",
+     "src": "slide 74 + 01:47:08",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Day 6.</b> Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Respiratory rate 38 at rest",
+      "New fever with purulent secretions",
+      "SpO₂ 94% on lower settings",
+      "Blood glucose 260 mg/dL on steroids",
+      "pH 7.38 · PaCO₂ 42",
+      "PaO₂ 82 mm Hg on less oxygen"
+     ],
+     "answer": "C, E, F",
+     "rationale": "Better oxygenation and a normal ABG show improvement. Hyperglycemia is a glucocorticoid side effect to report; a new fever with purulent secretions suggests a new infection (prevention is part of the plan); a rate of 38 means distress.",
+     "src": "slides 48, 74 + Acid–Base (Lalani)",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Employee health clinic",
+   "setting": "Positive TST, then active TB · weeks 0–6",
+   "text": "<b>Nurses' Notes — Week 0, 0900</b>\n34-year-old new hire for a nursing-home job. Moved to the U.S. 3 years ago; received the BCG vaccine as a child. Pre-employment TB skin test read today at 60 hours: 14 mm of induration. Reports a productive cough for 6 weeks, night sweats, \"low fevers,\" and a 5-kg weight loss. Thought it was a bad cold.\n<b>Vital Signs</b> — T 37.9°C · HR 94 · BP 118/72 · RR 20 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — none yet\n<b>Orders</b> — Chest X-ray · sputum culture · NAA test · refer to the TB clinic",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "sata",
+     "stem": "Which findings suggest <b>active</b> TB disease rather than latent infection? Select all that apply.",
+     "options": [
+      "Night sweats",
+      "Moved to the U.S. 3 years ago",
+      "Productive cough for 6 weeks",
+      "BCG vaccine as a child",
+      "5-kg weight loss",
+      "Low-grade fever"
+     ],
+     "answer": "A, C, E, F",
+     "rationale": "Active TB is symptomatic: it often starts like a bad cold, then low-grade fever, night sweats, fatigue, a deep productive cough, chest pain and weight loss. Latent TB has no symptoms. The BCG explains a possible false-positive skin test, and recent immigration is a risk factor — neither is a sign of disease.",
+     "src": "slides 75, 77, 80–81 + 01:47:38",
+     "step": "recognize"
+    },
+    {
+     "id": "c08-q02",
+     "type": "mc",
+     "stem": "The client says, \"The skin test is only positive because of my BCG shot.\" Which response is most accurate?",
+     "options": [
+      "\"BCG can cause a false positive, but your symptoms need a full workup.\"",
+      "\"You're right; with a BCG history we stop here and just repeat it next year.\"",
+      "\"The bigger your induration, the more certain it is that you have active TB.\"",
+      "\"BCG never affects the test, so the result proves you have active TB.\""
+     ],
+     "answer": "A",
+     "rationale": "Slide 81: BCG causes a false + result, and induration size doesn't predict current active disease. But testing is indicated for anyone with clinical signs of TB; the definitive diagnosis is chest X-ray, sputum culture and NAA test.",
+     "src": "slides 79, 81 + 01:49:28",
+     "step": "analyze"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "<b>Week 1.</b> The chest X-ray shows a cavity in the right upper lobe and the sputum culture grows <i>M. tuberculosis</i>. The client most likely has:",
+     "options": [
+      "Latent TB that is walled off",
+      "Pneumococcal pneumonia",
+      "Active TB that is contagious",
+      "An exudative pleural effusion"
+     ],
+     "answer": "C",
+     "rationale": "Active TB = symptomatic and contagious, with necrosis and cavitation of lung tissue — TB \"eats your lungs.\" Latent TB is dormant, walled off in a granuloma, without symptoms. The culture names the organism.",
+     "src": "slides 75–76, 78 + 01:48:20",
+     "step": "prioritize"
+    },
+    {
+     "id": "c08-q04",
+     "type": "sata",
+     "stem": "Which items belong in her treatment plan? Select all that apply.",
+     "options": [
+      "Directly observed therapy if adherence slips",
+      "Daily vitamin B6 with isoniazid",
+      "Isoniazid alone for 9 months",
+      "Repeat sputum cultures every 2–4 weeks",
+      "Stop when symptoms go away",
+      "Four drugs for 8 weeks, then two for 18"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Active TB: induction with INH, rifampin, pyrazinamide and ethambutol for 8 weeks, then INH + rifampin for 18 weeks (26 total). Evaluate with sputum cultures every 2–4 weeks; use DOT when compliance is an issue; B6 prevents INH neuropathy. INH alone for 9 months is the latent regimen, and stopping early breeds drug-resistant TB.",
+     "src": "slides 83–85 + 01:51:12 + 01:51:51",
+     "step": "generate"
+    },
+    {
+     "id": "c08-q05",
+     "type": "mc",
+     "stem": "The nurse teaches about the medications. Which statement by the client shows a need for <b>more</b> teaching?",
+     "options": [
+      "\"I can stop the pills once the cough and sweats are gone.\"",
+      "\"I'll take the vitamin B6 every day with my isoniazid.\"",
+      "\"My sweat or urine may turn a reddish color on rifampin.\"",
+      "\"I'll report numbness or tingling in my feet right away.\""
+     ],
+     "answer": "A",
+     "rationale": "Stopping early is how MDR-TB develops: \"If they don't take this properly, they run the risk of developing… antibiotic-resistant TB.\" Red body fluids are an expected rifampin effect (\"a white shirt… might look a little bit red-tinged\"); neuropathy must be reported; B6 prevents it.",
+     "src": "slides 83–84 + 01:50:40 + 01:51:51",
+     "step": "act"
+    },
+    {
+     "id": "c08-q06",
+     "type": "sata",
+     "stem": "<b>Week 6.</b> Which findings need follow-up? Select all that apply.",
+     "options": [
+      "Missed six doses this month",
+      "Numbness and tingling in both feet",
+      "New pain in several joints",
+      "Reddish-orange tears and sweat",
+      "ALT four times the upper limit of normal",
+      "Night sweats have stopped"
+     ],
+     "answer": "A, B, C, E",
+     "rationale": "Most TB drugs are \"heavy on the liver\" (hepatotoxicity); peripheral neuropathy (INH, ethambutol) and joint pain (pyrazinamide) are listed side effects; missed doses call for DOT to prevent resistance. Red-orange body fluids are an expected rifampin effect, and fewer night sweats mean improvement.",
+     "src": "slides 83–84 + 01:50:40",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "title": "Scenario 9 — Orthopedic unit",
+   "setting": "Pulmonary embolism after surgery · day 3 to month 6",
+   "text": "<b>Nurses' Notes — Day 3, 0300</b>\n38-year-old client, post-op day 3 after knee surgery, has been mostly in bed. Takes birth-control pills. Woke with sudden sharp chest pain that worsens on inspiration and says, \"I feel like something terrible is happening.\" Right calf swollen and tender. Nonsmoker; takes a daily multivitamin.\n<b>Vital Signs</b> — T 37.9°C · HR 122 · BP 124/80 · RR 30 · SpO₂ 89% on room air\n<b>Laboratory Results</b> — ABG: pH 7.50 · PaCO₂ 30 mm Hg · HCO₃⁻ 24 mEq/L\n<b>Orders</b> — Oxygen · CT of the chest · anticoagulant per protocol",
+   "questions": [
+    {
+     "id": "c09-q01",
+     "type": "sata",
+     "stem": "Which findings are risk factors for, or a likely source of, a pulmonary embolism? Select all that apply.",
+     "options": [
+      "Nonsmoker",
+      "Takes a daily multivitamin",
+      "Mostly in bed since surgery",
+      "Swollen, tender right calf",
+      "Takes birth-control pills",
+      "Recent knee surgery"
+     ],
+     "answer": "C, D, E, F",
+     "rationale": "Slide 92 risk factors: immobilization, surgery, BCPs (also heart failure, inherited clotting disorders, malignancy), and the lower-leg DVT is the usual source. Being a nonsmoker and taking a multivitamin aren't on the list.",
+     "src": "slide 92 + 01:56:40",
+     "step": "recognize"
+    },
+    {
+     "id": "c09-q02",
+     "type": "mc",
+     "stem": "How should the nurse interpret the ABG (pH 7.50 · PaCO₂ 30 · HCO₃⁻ 24)?",
+     "options": [
+      "Respiratory acidosis, partly compensated",
+      "Respiratory alkalosis, uncompensated",
+      "Metabolic alkalosis, uncompensated",
+      "Metabolic acidosis, fully compensated"
+     ],
+     "answer": "B",
+     "rationale": "pH high, PaCO₂ low = respiratory alkalosis; HCO₃⁻ normal = uncompensated. She is hyperventilating — Dr. Lalani's TACHYPNEA list includes E for embolism.",
+     "src": "slide 92 + Acid–Base (Lalani)",
+     "step": "analyze"
+    },
+    {
+     "id": "c09-q03",
+     "type": "mc",
+     "stem": "The client is most likely experiencing:",
+     "options": [
+      "An acute asthma attack",
+      "Post-op atelectasis",
+      "A panic attack",
+      "A pulmonary embolism"
+     ],
+     "answer": "D",
+     "rationale": "Pleuritic chest pain, dyspnea, tachycardia, anxiety and fever after surgery and immobility, with a swollen calf: the S&amp;S on slide 92. Atelectasis brings fever and diminished bases without sudden pleuritic pain; there's no wheeze for asthma; anxiety is one of the PE signs, not the diagnosis.",
+     "src": "slide 92 + 01:57:15",
+     "step": "prioritize"
+    },
+    {
+     "id": "c09-q04",
+     "type": "sata",
+     "stem": "Which treatments should the nurse anticipate? Select all that apply.",
+     "options": [
+      "An antihistamine",
+      "Oxygen for the low SpO₂",
+      "An expectorant",
+      "A nebulized SABA",
+      "A fibrinolytic if ordered",
+      "An anticoagulant"
+     ],
+     "answer": "B, E, F",
+     "rationale": "Slide 92: treat with anticoagulants and fibrinolytics — \"to bust the clots\" — and oxygen for her hypoxemia. A PE isn't bronchospasm, mucus or an allergy.",
+     "src": "slide 92 + 01:57:15",
+     "step": "generate"
+    },
+    {
+     "id": "c09-q05",
+     "type": "mc",
+     "stem": "<b>Day 3, 0310.</b> The client says, \"I think I'm just having a panic attack.\" What is the nurse's best response?",
+     "options": [
+      "\"I'll get you a sedative so you can go back to sleep tonight.\"",
+      "\"You're right; try slow breaths into a paper bag for a while.\"",
+      "\"Anxiety can be a sign of this problem; I'm staying with you.\"",
+      "\"Let's wait and see if the chest pain passes in an hour or so.\""
+     ],
+     "answer": "C",
+     "rationale": "Anxiety is listed among the PE S&amp;S on slide 92, so it's a cue, not a reason to dismiss her. The nurse stays, monitors and escalates; rebreathing, waiting or sedating misses a time-sensitive diagnosis.",
+     "src": "slide 92 + 01:57:15",
+     "step": "act"
+    },
+    {
+     "id": "c09-q06",
+     "type": "sata",
+     "stem": "<b>Month 6.</b> At follow-up, which findings suggest <b>pulmonary hypertension</b> and need follow-up? Select all that apply.",
+     "options": [
+      "Calf swelling has resolved",
+      "Short of breath on exertion",
+      "Chest discomfort when walking",
+      "SpO₂ 97% at rest",
+      "Fatigue with everyday activity",
+      "New swelling of both ankles"
+     ],
+     "answer": "B, C, E, F",
+     "rationale": "Slide 93: pulmonary hypertension is \"usually not detected until severe\" — fatigue, chest discomfort, tachypnea, dyspnea, peripheral edema. Pulmonary vascular obstruction is a secondary cause; the right heart hypertrophies and can fail. A normal resting SpO₂ and a resolved calf are reassuring.",
+     "src": "slide 93 + 01:57:49 + 01:58:23",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "title": "Scenario 10 — Rapid rounds",
+   "setting": "Clinic, pharmacy and inpatient · one question each",
+   "text": "Six clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c10-q01",
+     "type": "sata",
+     "stem": "A client with seasonal hay fever starts a daily intranasal glucocorticoid (fluticasone). Which side effects should the nurse teach? Select all that apply.",
+     "options": [
+      "Drying of the nasal mucosa",
+      "A burning feeling in the nose",
+      "Reddish urine",
+      "Nosebleeds",
+      "Rebound congestion",
+      "Tremor and palpitations"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Slide 87: intranasal glucocorticoids — daily dosing; side effects are drying of the nasal mucosa, burning and nosebleeds. Rebound congestion belongs to topical decongestants; tremor and palpitations are β₂-agonist effects; red fluids come from rifampin.",
+     "src": "slides 86–87 + 01:53:30"
+    },
+    {
+     "id": "c10-q02",
+     "type": "mc",
+     "stem": "A client has used an over-the-counter decongestant nasal spray several times a day for two weeks and now feels more congested than before. The nurse recognizes:",
+     "options": [
+      "Worsening allergic rhinitis from IgE",
+      "Rebound congestion from a topical decongestant",
+      "A new allergy to the propellant in the nasal spray",
+      "Systemic CNS stimulation from the drug"
+     ],
+     "answer": "B",
+     "rationale": "Slide 88: topical decongestants act faster but carry a higher risk of rebound congestion; oral forms act longer with a higher risk of systemic effects. Decongestants don't act on the IgE response at all.",
+     "src": "slide 88 + 01:54:04"
+    },
+    {
+     "id": "c10-q03",
+     "type": "mc",
+     "stem": "A client recovering from surgery is prescribed a codeine cough syrup. Which finding should the nurse watch for most closely?",
+     "options": [
+      "Reddish-orange urine and tears",
+      "Shakiness with a fast, pounding heart rate",
+      "A slow, shallow respiratory rate",
+      "Rebound nasal congestion"
+     ],
+     "answer": "C",
+     "rationale": "Opioid antitussives raise the cough threshold, but their side effects are suppression of respiration and abuse liability — \"there are some complications with opioids.\" The other findings belong to rifampin, topical decongestants and β₂ agonists.",
+     "src": "slide 89 + 01:55:05 + 01:55:37"
+    },
+    {
+     "id": "c10-q04",
+     "type": "mc",
+     "stem": "A client with a chest cold and thick sputum buys guaifenesin. Which teaching is correct?",
+     "options": [
+      "Take it at bedtime only, because it suppresses the cough reflex in the brain",
+      "Take it with a glass of water; it thins the mucus so it can be coughed up",
+      "Take it with an antihistamine, which is what actually treats the cold",
+      "Don't drink water with it, since extra fluid makes the mucus thicker"
+     ],
+     "answer": "B",
+     "rationale": "Guaifenesin is an expectorant: it increases the volume and reduces the viscosity of secretions so the \"gunk\" can be coughed up — take it with a glass of water. Suppressing the cough is an antitussive's job, and antihistamines don't work for a cold.",
+     "src": "slides 90–91 + 01:56:07 + 01:56:40"
+    },
+    {
+     "id": "c10-q05",
+     "type": "mc",
+     "stem": "A client with carbon monoxide poisoning has an SpO₂ that looks acceptable, yet she is confused. The provider orders high-flow oxygen. What was his explanation for giving oxygen?",
+     "options": [
+      "Oxygen raises the breathing rate so the CO can be exhaled within minutes",
+      "Oxygen shifts the curve to the left so the tissues receive more oxygen",
+      "CO occupies the Hgb binding sites, so extra O₂ is forced to dissolve in plasma",
+      "Oxygen makes the kidneys excrete the carbon monoxide quickly in the urine"
+     ],
+     "answer": "C",
+     "rationale": "Spoken only (not on the slides): CO binds where oxygen should bind on hemoglobin — he called it irreversible — so you \"put fresh oxygen to force dissolved oxygen into the blood,\" like a bubbler. Normally only 1.5% of O₂ is dissolved.",
+     "src": "slide 22 + 00:45:31 + 00:46:04"
+    },
+    {
+     "id": "c10-q06",
+     "type": "mc",
+     "stem": "Pleural fluid from a client with pneumonia is high in protein. Which statement explains how this effusion formed?",
+     "options": [
+      "Transudative: high hydrostatic pressure forces fluid into the pleural space",
+      "Transudative: low plasma oncotic pressure lets fluid leak out of the vessels",
+      "Exudative: inflammation adds protein that pulls fluid into the pleural space",
+      "Hemothorax: blood from damaged vessels has filled the pleural space"
+     ],
+     "answer": "C",
+     "rationale": "\"That high protein is going to do what? To fluid? Pull it in\" — exudative effusions come from inflammation. Transudative effusions come from increased hydrostatic or decreased plasma oncotic pressure; a hemothorax is blood.",
+     "src": "slide 70 + 01:44:24 + 01:45:15"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "Primary function of the lungs",
+   "back": "Exchange gases between the environmental air and the blood — working \"in concert\" with the heart",
+   "tag": "ventilation",
+   "src": "slide 2 + 00:02:09"
+  },
+  {
+   "id": "fc-002",
+   "front": "Ventilation vs diffusion vs perfusion",
+   "back": "Moving air in and out · transfer of gases · blood flow",
+   "tag": "ventilation",
+   "src": "slide 2 + 00:01:37"
+  },
+  {
+   "id": "fc-003",
+   "front": "Minute volume",
+   "back": "Ventilatory rate × volume of air per breath",
+   "tag": "ventilation",
+   "src": "slide 2 + 00:03:14"
+  },
+  {
+   "id": "fc-004",
+   "front": "Main inspiratory muscle",
+   "back": "The diaphragm — contracts and flattens → negative pressure \"like a vacuum\"",
+   "tag": "ventilation",
+   "src": "slide 5 + 00:09:17"
+  },
+  {
+   "id": "fc-005",
+   "front": "Elastic recoil",
+   "back": "Lungs return to resting state after inspiration — the wound-up spring pushes the air out",
+   "tag": "ventilation",
+   "src": "slide 5 + 00:10:27"
+  },
+  {
+   "id": "fc-006",
+   "front": "Low compliance means…",
+   "back": "Stiff lungs/chest → more force (diaphragm energy) to inflate",
+   "tag": "ventilation",
+   "src": "slide 5 + 00:11:34"
+  },
+  {
+   "id": "fc-007",
+   "front": "Parietal vs visceral pleura",
+   "back": "Parietal lines the chest cavity · visceral attaches to the lung",
+   "tag": "pleura",
+   "src": "slide 7 + 00:15:43 + 00:54:33"
+  },
+  {
+   "id": "fc-008",
+   "front": "What keeps the flimsy lungs open?",
+   "back": "Surface tension of the pleural fluid linking lung to chest wall",
+   "tag": "pleura",
+   "src": "slide 8 + 00:16:48"
+  },
+  {
+   "id": "fc-009",
+   "front": "Why are lungs \"as flimsy as a grocery bag\"?",
+   "back": "They must be very thin for gas diffusion",
+   "tag": "pleura",
+   "src": "00:15:12"
+  },
+  {
+   "id": "fc-010",
+   "front": "A hole in the chest wall or the lung →",
+   "back": "Pressures equalize → the lung collapses \"either way\"",
+   "tag": "pleura",
+   "src": "slide 10 + 00:17:48 + 00:18:57"
+  },
+  {
+   "id": "fc-011",
+   "front": "How does water reach the airway lumen?",
+   "back": "Cl⁻ out (CFTR) → Na⁺ follows → water follows",
+   "tag": "alveoli",
+   "src": "slide 13 + 00:22:44"
+  },
+  {
+   "id": "fc-012",
+   "front": "Cystic fibrosis defect",
+   "back": "CFTR can't move Cl⁻ → no Na⁺/water → thick mucus → hypoxia, infections",
+   "tag": "alveoli",
+   "src": "slide 13 + 00:23:17"
+  },
+  {
+   "id": "fc-013",
+   "front": "Type I alveolar cells",
+   "back": "Very thin · 95% of alveoli · cannot regenerate",
+   "tag": "alveoli",
+   "src": "slide 14 + 00:25:26"
+  },
+  {
+   "id": "fc-014",
+   "front": "Type II alveolar cells",
+   "back": "~5% · make surfactant · divide to replace type I or II",
+   "tag": "alveoli",
+   "src": "slide 14 + 00:25:56"
+  },
+  {
+   "id": "fc-015",
+   "front": "Surfactant",
+   "back": "\"A fancy word for soap\" — breaks surface tension so alveoli don't collapse",
+   "tag": "alveoli",
+   "src": "slide 14 + 00:27:33"
+  },
+  {
+   "id": "fc-016",
+   "front": "Which artery feeds the lung tissue itself?",
+   "back": "The bronchial artery (not the pulmonary artery)",
+   "tag": "alveoli",
+   "src": "slides 2, 16 + 00:28:07"
+  },
+  {
+   "id": "fc-017",
+   "front": "Normal V/Q ratio",
+   "back": "≈ 0.8 (4 L/min ventilation ÷ 5 L/min perfusion)",
+   "tag": "vq-diffusion",
+   "src": "slide 18 + 00:33:27"
+  },
+  {
+   "id": "fc-018",
+   "front": "Poorly ventilated region → local response",
+   "back": "Vessels constrict → blood diverted to healthy alveoli",
+   "tag": "vq-diffusion",
+   "src": "slides 17, 20 + 00:31:49"
+  },
+  {
+   "id": "fc-019",
+   "front": "Widespread mismatch, long term →",
+   "back": "Capillaries constrict + smooth-muscle hypertrophy → pulmonary hypertension",
+   "tag": "vq-diffusion",
+   "src": "00:36:03 + 00:42:12"
+  },
+  {
+   "id": "fc-020",
+   "front": "Four things that raise diffusion",
+   "back": "Bigger gradient · more surface area · thinner membrane · shorter distance",
+   "tag": "vq-diffusion",
+   "src": "slide 19 + 00:37:37"
+  },
+  {
+   "id": "fc-021",
+   "front": "Emphysema ↓ diffusion by…",
+   "back": "Less surface area (alveoli destroyed)",
+   "tag": "vq-diffusion",
+   "src": "slide 19 + 00:39:13"
+  },
+  {
+   "id": "fc-022",
+   "front": "Pulmonary edema ↓ diffusion by…",
+   "back": "Increasing the diffusion distance",
+   "tag": "vq-diffusion",
+   "src": "slide 19 + 00:40:55"
+  },
+  {
+   "id": "fc-023",
+   "front": "How CO₂ travels in venous blood",
+   "back": "~60% bicarbonate · ~30% carbaminohemoglobin · ~10% dissolved",
+   "tag": "gas-transport",
+   "src": "slide 21 + 00:43:18"
+  },
+  {
+   "id": "fc-024",
+   "front": "PaCO₂ and pH relationship",
+   "back": "Inverse — CO₂ up, pH down (not directly correlated)",
+   "tag": "gas-transport",
+   "src": "slide 21 + 00:59:20"
+  },
+  {
+   "id": "fc-025",
+   "front": "How much O₂ is dissolved in blood?",
+   "back": "1.5% — the rest rides on hemoglobin (the fish-tank \"bubbler\")",
+   "tag": "gas-transport",
+   "src": "slide 22 + 00:45:01"
+  },
+  {
+   "id": "fc-026",
+   "front": "Normal SaO₂",
+   "back": "95–100% (pulse oximeter: % of Hgb bound to O₂)",
+   "tag": "gas-transport",
+   "src": "slide 22"
+  },
+  {
+   "id": "fc-027",
+   "front": "Left shift",
+   "back": "Hgb \"loves\" O₂ (↑ affinity) — lungs: alkalosis, hypocapnia, cooler",
+   "tag": "gas-transport",
+   "src": "slide 23 + 00:48:24 + 00:50:07"
+  },
+  {
+   "id": "fc-028",
+   "front": "Right shift",
+   "back": "Hgb \"hates\" O₂ (↓ affinity) — tissues: acidosis, hypercapnia, warmer",
+   "tag": "gas-transport",
+   "src": "slide 23 + 00:49:02"
+  },
+  {
+   "id": "fc-029",
+   "front": "CADET, face Right!",
+   "back": "CO₂ · Acid · 2,3-DPG · Exercise · Temperature ↑ → right shift",
+   "tag": "gas-transport",
+   "src": "slide 23 + 00:52:32"
+  },
+  {
+   "id": "fc-030",
+   "front": "Hypoxemia",
+   "back": "Low arterial oxygenation from respiratory causes — PO₂ < 60 mm Hg",
+   "tag": "terminology",
+   "src": "slide 25"
+  },
+  {
+   "id": "fc-031",
+   "front": "Hypoxia",
+   "back": "Low oxygenation of cells/tissues from other systems",
+   "tag": "terminology",
+   "src": "slide 25"
+  },
+  {
+   "id": "fc-032",
+   "front": "Clubbing",
+   "back": "Bulbous enlargement of the end of a digit — chronic disease / chronic hypoxia",
+   "tag": "terminology",
+   "src": "slide 25 + 00:59:54"
+  },
+  {
+   "id": "fc-033",
+   "front": "Orthopnea",
+   "back": "Dyspnea when lying flat (e.g. heart failure)",
+   "tag": "terminology",
+   "src": "slide 26 + 01:01:18"
+  },
+  {
+   "id": "fc-034",
+   "front": "FVC",
+   "back": "All the air you can forcefully exhale after a full breath — \"the gas tank\"",
+   "tag": "pft",
+   "src": "slides 30–31 + 01:06:09"
+  },
+  {
+   "id": "fc-035",
+   "front": "FEV1",
+   "back": "Air forcefully exhaled in the first second — tests ventilation via the conducting pathways",
+   "tag": "pft",
+   "src": "slides 30, 32 + 01:06:40 + 01:08:12"
+  },
+  {
+   "id": "fc-036",
+   "front": "Normal FVC and FEV1",
+   "back": "≥ 80% of predicted",
+   "tag": "pft",
+   "src": "slides 31–32"
+  },
+  {
+   "id": "fc-037",
+   "front": "Normal FEV1/FVC",
+   "back": "≥ 0.70",
+   "tag": "pft",
+   "src": "slide 33"
+  },
+  {
+   "id": "fc-038",
+   "front": "Restrictive pattern",
+   "back": "FVC and FEV1 fall together → ratio unchanged",
+   "tag": "pft",
+   "src": "slides 30, 33 + 01:11:59"
+  },
+  {
+   "id": "fc-039",
+   "front": "Obstructive pattern",
+   "back": "FEV1 falls more than FVC → ratio < 0.70",
+   "tag": "pft",
+   "src": "slides 30, 33 + 01:11:59"
+  },
+  {
+   "id": "fc-040",
+   "front": "Main mediator released in allergic asthma",
+   "back": "Histamine (mast cells)",
+   "tag": "asthma-copd",
+   "src": "slide 40 + 01:17:29"
+  },
+  {
+   "id": "fc-041",
+   "front": "Why control asthma?",
+   "back": "Repeated attacks → smooth-muscle hypertrophy + hyperreactivity",
+   "tag": "asthma-copd",
+   "src": "slide 39 + 01:17:29 + 01:31:26"
+  },
+  {
+   "id": "fc-042",
+   "front": "COPD in one line",
+   "back": "Chronic, progressive, irreversible airflow obstruction — most often from tobacco",
+   "tag": "asthma-copd",
+   "src": "slide 41 + 01:21:22"
+  },
+  {
+   "id": "fc-043",
+   "front": "What confirms a COPD diagnosis?",
+   "back": "Spirometry: FEV1/FVC < 0.70 (+ symptoms)",
+   "tag": "asthma-copd",
+   "src": "slides 43, 60"
+  },
+  {
+   "id": "fc-044",
+   "front": "Chronic bronchitis = \"blue bloater\"",
+   "back": "Mucus hypersecretion, AM cough, heavier, cyanotic",
+   "tag": "asthma-copd",
+   "src": "slide 44 + 01:22:29"
+  },
+  {
+   "id": "fc-045",
+   "front": "Emphysema = \"pink puffer\"",
+   "back": "Air trapping → enlarged, destroyed alveoli, lost recoil; thin, muscle wasting",
+   "tag": "asthma-copd",
+   "src": "slide 44 + 01:20:17 + 01:23:03"
+  },
+  {
+   "id": "fc-046",
+   "front": "Foundation of asthma & COPD therapy",
+   "back": "Glucocorticoids — inhaled (ICS), daily, long term",
+   "tag": "resp-drugs",
+   "src": "slide 48 + 01:25:18"
+  },
+  {
+   "id": "fc-047",
+   "front": "Systemic glucocorticoid side effects",
+   "back": "Adrenal suppression, slowed growth, bone loss, hyperglycemia",
+   "tag": "resp-drugs",
+   "src": "slide 48 + 01:25:52"
+  },
+  {
+   "id": "fc-048",
+   "front": "β₂ agonist mechanism",
+   "back": "Activate β₂ receptors on airway smooth muscle → bronchodilation",
+   "tag": "resp-drugs",
+   "src": "slide 51 + 01:24:47"
+  },
+  {
+   "id": "fc-049",
+   "front": "SABA",
+   "back": "4–6 h · quick · PRN for an attack",
+   "tag": "resp-drugs",
+   "src": "slide 51 + 01:27:28"
+  },
+  {
+   "id": "fc-050",
+   "front": "LABA",
+   "back": "12 h · scheduled · always with an ICS in asthma",
+   "tag": "resp-drugs",
+   "src": "slide 51 + 01:28:03"
+  },
+  {
+   "id": "fc-051",
+   "front": "β₂ agonist side effects",
+   "back": "Tremor (± hypokalemia), tachycardia/palpitations",
+   "tag": "resp-drugs",
+   "src": "slide 51 + 01:28:37"
+  },
+  {
+   "id": "fc-052",
+   "front": "SAMA/LAMA",
+   "back": "Block muscarinic receptors → bronchodilation · COPD only · dry mouth",
+   "tag": "resp-drugs",
+   "src": "slide 52 + 01:28:37"
+  },
+  {
+   "id": "fc-053",
+   "front": "Decongestant mechanism",
+   "back": "α₁ agonist → vasoconstriction of nasal vessels",
+   "tag": "resp-drugs",
+   "src": "slide 88 + 01:53:30"
+  },
+  {
+   "id": "fc-054",
+   "front": "Guaifenesin",
+   "back": "Expectorant — ↑ volume, ↓ viscosity of secretions; take with water",
+   "tag": "resp-drugs",
+   "src": "slide 90 + 01:56:07"
+  },
+  {
+   "id": "fc-055",
+   "front": "Opioid antitussive side effect",
+   "back": "Respiratory suppression (+ abuse liability)",
+   "tag": "resp-drugs",
+   "src": "slide 89 + 01:55:05"
+  },
+  {
+   "id": "fc-056",
+   "front": "Antihistamines for a cold?",
+   "back": "Don't work — a cold isn't a type I (histamine) response",
+   "tag": "resp-drugs",
+   "src": "slide 91 + 01:56:40"
+  },
+  {
+   "id": "fc-057",
+   "front": "Step-up trigger in asthma",
+   "back": "SABA/attacks 2 or more times a week (he corrected the slide's \"> 2\")",
+   "tag": "stepwise",
+   "src": "slide 57 + 01:31:26"
+  },
+  {
+   "id": "fc-058",
+   "front": "Asthma step 1 and step 2",
+   "back": "Step 1: SABA PRN · step 2: daily low-dose ICS",
+   "tag": "stepwise",
+   "src": "slide 57 + 01:32:02"
+  },
+  {
+   "id": "fc-059",
+   "front": "Asthma steps 3–6",
+   "back": "Low ICS + LABA → medium ICS + LABA → high ICS + LABA → + oral corticosteroid",
+   "tag": "stepwise",
+   "src": "slide 57 + 01:32:36"
+  },
+  {
+   "id": "fc-060",
+   "front": "When can asthma step down?",
+   "back": "Well controlled ≥ 3 months — one step at a time, keep a SABA",
+   "tag": "stepwise",
+   "src": "slide 57 + 01:33:44 + 01:36:04"
+  },
+  {
+   "id": "fc-061",
+   "front": "Before any step-up, check…",
+   "back": "Adherence, environmental control, comorbid conditions",
+   "tag": "stepwise",
+   "src": "slide 57"
+  },
+  {
+   "id": "fc-062",
+   "front": "COPD stepwise rule",
+   "back": "Only goes forward, never back",
+   "tag": "stepwise",
+   "src": "01:37:11 + 01:38:17"
+  },
+  {
+   "id": "fc-063",
+   "front": "O₂ target in a COPD exacerbation",
+   "back": "Sats > 88–92% — don't over-oxygenate",
+   "tag": "stepwise",
+   "src": "slide 64"
+  },
+  {
+   "id": "fc-064",
+   "front": "COPD exacerbation drugs",
+   "back": "SABA + inhaled anticholinergic; antibiotics if infected (LABAs for stable)",
+   "tag": "stepwise",
+   "src": "slide 64 + 01:38:50"
+  },
+  {
+   "id": "fc-065",
+   "front": "Aspiration — who and what to do",
+   "back": "Impaired swallow/cough, elderly — keep the HOB elevated",
+   "tag": "restrictive",
+   "src": "slide 67 + 01:39:54"
+  },
+  {
+   "id": "fc-066",
+   "front": "Atelectasis S&S and prevention",
+   "back": "Fever, cough, dyspnea, leukocytosis · cough & deep breathing, incentive spirometer",
+   "tag": "restrictive",
+   "src": "slide 68 + 01:41:33"
+  },
+  {
+   "id": "fc-067",
+   "front": "Pneumothorax S&S",
+   "back": "Pleural pain, tachypnea, dyspnea, absent/↓ breath sounds",
+   "tag": "restrictive",
+   "src": "slide 69"
+  },
+  {
+   "id": "fc-068",
+   "front": "Tension vs open pneumothorax",
+   "back": "Tension: air trapped by a flap, shifts heart and lung — always worse",
+   "tag": "restrictive",
+   "src": "slide 69 + 01:43:07"
+  },
+  {
+   "id": "fc-069",
+   "front": "Transudative vs exudative effusion",
+   "back": "Transudate: ↑ hydrostatic / ↓ oncotic · exudate: protein pulls fluid in (inflammation)",
+   "tag": "restrictive",
+   "src": "slide 70 + 01:44:24"
+  },
+  {
+   "id": "fc-070",
+   "front": "PE risk factors",
+   "back": "Immobilization, surgery, heart failure, BCPs, clotting disorders, malignancy",
+   "tag": "restrictive",
+   "src": "slide 92"
+  },
+  {
+   "id": "fc-071",
+   "front": "Pulmonary hypertension leads to…",
+   "back": "RV hypertrophy → right-sided failure (cor pulmonale)",
+   "tag": "restrictive",
+   "src": "slide 93 + 01:57:49"
+  },
+  {
+   "id": "fc-072",
+   "front": "Latent vs active TB",
+   "back": "Latent: walled off, no symptoms · active: symptomatic, contagious, cavitation",
+   "tag": "tb",
+   "src": "slides 75, 78 + 01:48:20"
+  },
+  {
+   "id": "fc-073",
+   "front": "TB symptoms",
+   "back": "Bad cold → low fever, night sweats, productive cough, weight loss",
+   "tag": "tb",
+   "src": "slide 77 + 01:47:38"
+  },
+  {
+   "id": "fc-074",
+   "front": "Definitive TB diagnosis",
+   "back": "Chest X-ray, sputum culture, NAA test",
+   "tag": "tb",
+   "src": "slide 79"
+  },
+  {
+   "id": "fc-075",
+   "front": "When is a TST read?",
+   "back": "48–72 hours — positive = induration",
+   "tag": "tb",
+   "src": "slide 81"
+  },
+  {
+   "id": "fc-076",
+   "front": "Active TB regimen",
+   "back": "4 drugs × 8 weeks, then INH + rifampin × 18 weeks (26 total)",
+   "tag": "tb",
+   "src": "slide 84 + 01:51:12"
+  },
+  {
+   "id": "fc-077",
+   "front": "Latent TB regimen",
+   "back": "INH for 9 months (38 weeks)",
+   "tag": "tb",
+   "src": "slide 85 + 01:52:53"
+  },
+  {
+   "id": "fc-078",
+   "front": "INH: what to add and why",
+   "back": "Daily vitamin B6 — prevents peripheral neuropathy",
+   "tag": "tb",
+   "src": "slide 83"
+  },
+  {
+   "id": "fc-079",
+   "front": "Rifampin's harmless but alarming effect",
+   "back": "Red body fluids — a red-tinged white shirt",
+   "tag": "tb",
+   "src": "slide 83 + 01:50:40"
+  },
+  {
+   "id": "fc-080",
+   "front": "Preventing MDR-TB",
+   "back": "Full course, right dose and regimen, adherence — DOT if needed",
+   "tag": "tb",
+   "src": "slides 84–85 + 01:51:51"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "Why do you think the lungs care about things that constrict blood vessels?",
+   "a": "There are \"a ton of blood vessels in the lungs,\" vital for gas exchange, so the lungs break down vasoconstrictor molecules. (A student's answer, \"potassium,\" wasn't taken up.)",
+   "src": "00:00:31"
+  },
+  {
+   "id": "qa-002",
+   "q": "Have you guys heard of lumen before?",
+   "a": "<b>The inside of any structure</b>: the lumen of an alveolus or of a blood vessel.",
+   "src": "00:04:54"
+  },
+  {
+   "id": "qa-003",
+   "q": "What's one way that we can reduce resistance in a closed space?",
+   "a": "<b>Make it bigger.</b> A wider tube means less airway resistance; \"this will come into play\" with asthma and COPD.",
+   "src": "00:08:40"
+  },
+  {
+   "id": "qa-004",
+   "q": "If compliance is low, meaning that's very stiff, what does that mean for your breathing?",
+   "a": "You need to <b>spend more energy from your diaphragm</b> to expand your chest.",
+   "src": "00:11:34"
+  },
+  {
+   "id": "qa-005",
+   "q": "What if you have really easy compliance?",
+   "a": "Student: less work to breathe. \"Sure… but will that compliant spring spring back?\" <b>The air gets trapped</b>, so you can't exchange air properly.",
+   "src": "00:11:34 + 00:12:08"
+  },
+  {
+   "id": "qa-006",
+   "q": "What happens to somebody if it doesn't have recoil?",
+   "a": "You can't blow off enough CO₂, so you're not getting enough oxygen down: they become <b>hypoxic</b>.",
+   "src": "00:13:20 + 00:13:53"
+  },
+  {
+   "id": "qa-007",
+   "q": "(student asked, partly inaudible) About breathing out with the accessory muscles.",
+   "a": "Exhaling with accessory muscles normally isn't much work, \"but yeah, you have problems with exhale\" in these patients.",
+   "src": "00:13:53 + 00:14:36"
+  },
+  {
+   "id": "qa-008",
+   "q": "Why are lungs as flimsy as a thin grocery bag?",
+   "a": "They <b>have to be very thin for gas diffusion</b>, so they need the fluid-filled pleural sac to stay expanded.",
+   "src": "00:15:12"
+  },
+  {
+   "id": "qa-009",
+   "q": "(student asked) Does the pleural cavity just fill up with more [fluid] to protect the lung?",
+   "a": "A puncture on the chest side fills it with <b>air</b>; a hole on the lung side leaks inhaled air into it. \"Your lungs are going to collapse either way.\"",
+   "src": "00:18:57 + 00:19:29"
+  },
+  {
+   "id": "qa-010",
+   "q": "What is the point of branching this many times?",
+   "a": "<b>More surface area</b> for gas exchange.",
+   "src": "00:20:00"
+  },
+  {
+   "id": "qa-011",
+   "q": "Why secrete both mucus and a watery fluid? What could be the problem if the mucus is too thick?",
+   "a": "<b>You clog your pipes</b>, like pouring bacon fat down the drain.",
+   "src": "00:21:39 + 00:22:10"
+  },
+  {
+   "id": "qa-012",
+   "q": "Chloride is a negative charge. What follows? And then what follows sodium?",
+   "a": "<b>Sodium, then water</b>, which thins the mucus. In cystic fibrosis Cl⁻ isn't secreted, so the mucus stays thick.",
+   "src": "00:22:44 + 00:23:17"
+  },
+  {
+   "id": "qa-013",
+   "q": "What is this red stuff around the bronchiole?",
+   "a": "<b>Smooth muscle</b>, which contracts and constricts the airways.",
+   "src": "00:24:54"
+  },
+  {
+   "id": "qa-014",
+   "q": "Why can't type I cells divide?",
+   "a": "They're <b>purposely kept very thin and small</b> so gas can diffuse. Type II cells have the machinery to divide and replace them.",
+   "src": "00:25:56 + 00:26:27"
+  },
+  {
+   "id": "qa-015",
+   "q": "What did I tell you about the pleural cavity and the fluid that's in it?",
+   "a": "<b>Surface tension</b> keeps the lungs open.",
+   "src": "00:26:27 + 00:26:59"
+  },
+  {
+   "id": "qa-016",
+   "q": "Do we really want surface tension inside the lumen of the alveoli? What would happen?",
+   "a": "<b>No, they'd collapse.</b> Type II cells make surfactant, \"a fancy word for soap,\" to break it.",
+   "src": "00:26:59 + 00:27:33"
+  },
+  {
+   "id": "qa-017",
+   "q": "What is the definition of an artery?",
+   "a": "<b>Away from the heart.</b>",
+   "src": "00:28:38"
+  },
+  {
+   "id": "qa-018",
+   "q": "99.9% of arteries carry what kind of blood?",
+   "a": "<b>Oxygenated.</b> The pulmonary artery is the one exception, and the pulmonary veins carry oxygenated blood back to the heart.",
+   "src": "00:29:10"
+  },
+  {
+   "id": "qa-019",
+   "q": "This alveolus is damaged — why is its capillary constricting? Where would the blood go otherwise?",
+   "a": "Past a dead alveolus the blood picks up no O₂ and goes to the body: <b>wasted</b>. So the capillary constricts (\"I am not wasting my time here\") and redirects blood to working alveoli.",
+   "src": "00:30:16 + 00:31:19 + 00:31:49"
+  },
+  {
+   "id": "qa-020",
+   "q": "When you have a mismatch, are they going to get the right amount of oxygen, too much, or low oxygen?",
+   "a": "<b>Low oxygen</b>: they become hypoxic.",
+   "src": "00:35:00"
+  },
+  {
+   "id": "qa-021",
+   "q": "A large area of alveoli is damaged. What are all these capillaries going to do?",
+   "a": "<b>Constrict.</b>",
+   "src": "00:35:31 + 00:36:03"
+  },
+  {
+   "id": "qa-022",
+   "q": "What does that mean for your heart and your lungs?",
+   "a": "<b>Increased blood pressure in the lungs</b>, which puts work on the heart: pulmonary hypertension.",
+   "src": "00:36:03"
+  },
+  {
+   "id": "qa-023",
+   "q": "(student asked) If you have a low V/Q or a high V/Q, do they both lead to constriction and higher blood pressure?",
+   "a": "<b>Yes.</b>",
+   "src": "00:36:35 + 00:37:06"
+  },
+  {
+   "id": "qa-024",
+   "q": "What does a delta of concentration mean? Where do you have more oxygen, in front of your face or in your lungs?",
+   "a": "Gas flows from high to low concentration. Breathing in replenishes alveolar O₂ and keeps the <b>gradient</b> big, so more diffuses.",
+   "src": "00:37:37 + 00:38:08"
+  },
+  {
+   "id": "qa-025",
+   "q": "Why is a normal alveolus puffed like a cloud? What is that increasing?",
+   "a": "<b>Surface area.</b>",
+   "src": "00:38:41 + 00:39:13"
+  },
+  {
+   "id": "qa-026",
+   "q": "(diffusion panels) What happened to this alveolus? A thicker membrane? Fluid? A tight bronchiole?",
+   "a": "Less surface area; a thicker membrane (↓ permeability); ↑ distance; not enough fresh air (↓ gradient). <b>All decrease diffusion</b>, so less oxygen.",
+   "src": "00:39:13 + 00:39:44 + 00:40:21"
+  },
+  {
+   "id": "qa-027",
+   "q": "(student asked) So pulmonary edema increases the distance?",
+   "a": "<b>Yes.</b> Water pushes the capillary away, so distance goes up and diffusion goes down.",
+   "src": "00:40:55 + 00:41:30"
+  },
+  {
+   "id": "qa-028",
+   "q": "(student asked) Is fibrotic lung disease the same as cystic fibrosis?",
+   "a": "<b>No.</b> CF can cause scarring after many infections, but fibrotic lung disease is something else (partly genetic): the membranes get very thick.",
+   "src": "00:41:30"
+  },
+  {
+   "id": "qa-029",
+   "q": "What happens to your muscles when you lift weights?",
+   "a": "<b>They get bigger.</b> Constantly constricting vascular and airway smooth muscle does the same, narrowing the lumen and raising pressure: pulmonary hypertension.",
+   "src": "00:42:12 + 00:42:47"
+  },
+  {
+   "id": "qa-030",
+   "q": "For you that owns a fish, what do you have to do to make sure they stay alive?",
+   "a": "<b>A bubbler.</b> Oxygen doesn't like to dissolve in water, so we need hemoglobin; only 1.5% of O₂ is dissolved.",
+   "src": "00:43:50 + 00:44:25 + 00:45:01"
+  },
+  {
+   "id": "qa-031",
+   "q": "Can anybody tell me a time where you would force more oxygen to be carried in the blood?",
+   "a": "<b>Carbon monoxide poisoning.</b> CO binds where oxygen should (\"irreversibly\"), so you give oxygen to force dissolved O₂ into the blood.",
+   "src": "00:45:01 + 00:45:31 + 00:46:04"
+  },
+  {
+   "id": "qa-032",
+   "q": "What are some things that can change a protein?",
+   "a": "<b>Temperature, pH and partial pressures</b>, which is why hemoglobin's affinity changes (the Bohr effect).",
+   "src": "00:46:39"
+  },
+  {
+   "id": "qa-033",
+   "q": "Where does oxygen bind hemoglobin? What does oxygen need to do when it gets to my finger?",
+   "a": "It binds in the <b>lungs</b> and must <b>unbind</b> into the tissues.",
+   "src": "00:47:12 + 00:47:48"
+  },
+  {
+   "id": "qa-034",
+   "q": "Why are we saying alkalosis in the lungs? Why a lower temperature?",
+   "a": "<b>CO₂ is leaving the blood</b>, so it's slightly basic (hypocapnia), and inhaled air is cooler than 98.6°. That makes Hgb love O₂ (left shift).",
+   "src": "00:48:24 + 00:49:02"
+  },
+  {
+   "id": "qa-035",
+   "q": "What happens in your periphery, in your finger?",
+   "a": "Metabolism → <b>more CO₂, slightly acidic, warmer</b>, so hemoglobin kicks oxygen off (right shift).",
+   "src": "00:49:02 + 00:49:35"
+  },
+  {
+   "id": "qa-036",
+   "q": "(student asked) Are there clinical examples? Does a 110-degree day make a difference?",
+   "a": "\"That's a cool question.\" He didn't know; he guessed there's an upper limit and said he'd look it up.",
+   "src": "00:51:46 + 00:52:32"
+  },
+  {
+   "id": "qa-037",
+   "q": "(Kahoot) The lung tissue gets its oxygen from…?",
+   "a": "<b>The bronchial artery.</b> The pulmonary artery does not supply the lung tissue.",
+   "src": "00:53:59 + 00:54:33"
+  },
+  {
+   "id": "qa-038",
+   "q": "(Kahoot) Which serous membrane lines the thoracic cavity?",
+   "a": "<b>The parietal pleura.</b> The visceral pleura lines the lung tissue.",
+   "src": "00:54:33 + 00:55:11"
+  },
+  {
+   "id": "qa-039",
+   "q": "(Kahoot) True or false: during inhalation, the diaphragm contracts and flattens.",
+   "a": "<b>True.</b> The U shape flattens, pulling everything down and increasing the negative pressure, \"kind of like a vacuum.\"",
+   "src": "00:55:11 + 00:55:45"
+  },
+  {
+   "id": "qa-040",
+   "q": "(Kahoot) [Gas] exchange occurs in the…",
+   "a": "Not clear in the recording. From slide 14: gas exchange occurs across the <b>alveolocapillary membrane</b> (the shared alveolar and capillary walls).",
+   "src": "00:55:45"
+  },
+  {
+   "id": "qa-041",
+   "q": "(Kahoot) Which of the following is true regarding the pulmonary system?",
+   "a": "The answer wasn't stated. From slides 2 and 4: the <b>larynx is the boundary</b> between the upper and lower airways, and the left lung has two lobes, not three.",
+   "src": "00:55:45 + 00:56:26"
+  },
+  {
+   "id": "qa-042",
+   "q": "(Kahoot) More or less energy is required to inflate the lungs when compliance is decreased?",
+   "a": "<b>More.</b> \"If your lungs are very stiff, less compliant, it's going to take more energy.\"",
+   "src": "00:56:26 + 00:57:03"
+  },
+  {
+   "id": "qa-043",
+   "q": "(Kahoot) True or false: ventilation–perfusion mismatch results in hypoxia.",
+   "a": "<b>True.</b>",
+   "src": "00:57:03 + 00:57:37"
+  },
+  {
+   "id": "qa-044",
+   "q": "(Kahoot) Increased or decreased gas diffusion: less surface area, a shorter alveolus–capillary distance, edema, a thickened membrane, bronchodilation?",
+   "a": "Less surface area <b>↓</b> · shorter distance <b>↑</b> · edema <b>↓</b> · thickened membrane <b>↓</b> · bronchodilation: not voiced (↑ by the same logic, slide 19).",
+   "src": "00:58:10 + 00:58:43 + 00:59:20"
+  },
+  {
+   "id": "qa-045",
+   "q": "(Kahoot) True or false: PaCO₂ and pH are directly correlated.",
+   "a": "<b>False.</b> \"When CO₂ goes up, what happens to pH? It goes down\" (Dr. Lalani's lecture).",
+   "src": "00:59:20 + 00:59:54"
+  },
+  {
+   "id": "qa-046",
+   "q": "In that first second, should you be able to blow out most of your air?",
+   "a": "<b>Yes.</b> FEV1 is very close to FVC in normal lungs.",
+   "src": "01:06:40 + 01:07:10"
+  },
+  {
+   "id": "qa-047",
+   "q": "What do you think FEV1 is testing: ventilation, diffusion or perfusion?",
+   "a": "<b>Ventilation.</b>",
+   "src": "01:07:10 + 01:07:41"
+  },
+  {
+   "id": "qa-048",
+   "q": "Which lung part is crucial for ventilation?",
+   "a": "<b>The conducting pathways.</b> FEV1 measures how air moves through them; FVC measures how much air the lungs hold.",
+   "src": "01:08:12"
+  },
+  {
+   "id": "qa-049",
+   "q": "Why does FEV1 go down in restrictive disease, and why does FVC go down in obstructive disease?",
+   "a": "The <b>balloon</b> and <b>one-nostril</b> demos: a half-filled lung pushes less air out in the first second; a narrowed airway never lets the lungs fill completely.",
+   "src": "01:09:17 + 01:09:54 + 01:10:26"
+  },
+  {
+   "id": "qa-050",
+   "q": "A balloon blown up fully vs halfway: will you have as much air coming out in the first second?",
+   "a": "<b>No.</b> The bigger the balloon, the more pressure on the air, so a restrictive lung's FEV1 falls too.",
+   "src": "01:09:54 + 01:10:26"
+  },
+  {
+   "id": "qa-051",
+   "q": "Breathe out with two nostrils, then one: which took longer?",
+   "a": "<b>One nostril</b> (about 1.5 s vs about 1 s). An obstructed client never fills the lungs, so FVC goes down too.",
+   "src": "01:10:58 + 01:11:29"
+  },
+  {
+   "id": "qa-052",
+   "q": "If both FEV1 and FVC go down for both diseases, how do you tell the difference?",
+   "a": "<b>The FEV1/FVC ratio.</b> In restrictive disease it stays about the same; in obstructive disease it falls below 0.7.",
+   "src": "01:11:29 + 01:11:59"
+  },
+  {
+   "id": "qa-053",
+   "q": "(student asked) Can you say that again?",
+   "a": "FVC 0.7 and FEV1 0.49 → ratio still <b>0.7</b> (restrictive). FVC 0.7 and FEV1 0.3 → ratio about <b>0.42</b> (he said 0.42; 0.3 ÷ 0.7 ≈ 0.43): FEV1 fell faster, so it's obstructive.",
+   "src": "01:12:30 + 01:13:14 + 01:13:44"
+  },
+  {
+   "id": "qa-054",
+   "q": "Why do we care about expiration, not inspiration? Is it easier to breathe in or to breathe out?",
+   "a": "<b>Breathing in</b> is easier: the diaphragm can overcome some airway resistance, but no muscle pushes air out, so obstruction shows on the exhale.",
+   "src": "01:14:49 + 01:15:21"
+  },
+  {
+   "id": "qa-055",
+   "q": "What's the main mediator that's released [in allergic asthma]?",
+   "a": "<b>Histamine.</b>",
+   "src": "01:16:58 + 01:17:29"
+  },
+  {
+   "id": "qa-056",
+   "q": "Bronchitis. What does that word mean to you?",
+   "a": "<b>Inflammation of the bronchi(oles).</b>",
+   "src": "01:19:38"
+  },
+  {
+   "id": "qa-057",
+   "q": "With a mucus plug, can exhalation overcome it?",
+   "a": "<b>No.</b> Air gets stuck (air trapping), and each new breath inflates the alveoli further.",
+   "src": "01:20:17 + 01:20:50"
+  },
+  {
+   "id": "qa-058",
+   "q": "What's the problem with inflating your alveoli too much and making them bigger?",
+   "a": "A student's first answer wasn't right. The answer is <b>less surface area</b>, which is emphysema.",
+   "src": "01:20:50"
+  },
+  {
+   "id": "qa-059",
+   "q": "Why do we call it chronic?",
+   "a": "Once you show signs of COPD, <b>it's not going to get better</b>: \"you could slow it down, but it's going to get worse.\"",
+   "src": "01:21:22"
+  },
+  {
+   "id": "qa-060",
+   "q": "When you have COPD and you are struggling to breathe, what do you tend to do?",
+   "a": "<b>You don't move.</b> \"You sit in your chair all day,\" which is why \"blue bloaters\" tend to be heavier.",
+   "src": "01:22:29 + 01:23:03"
+  },
+  {
+   "id": "qa-061",
+   "q": "(student asked) Do all obstructive diseases decrease the ratio?",
+   "a": "<b>Yes.</b> All of the obstructive diseases decrease the FEV1/FVC ratio.",
+   "src": "01:23:34"
+  },
+  {
+   "id": "qa-062",
+   "q": "Beta-2 adrenergic agonists: what does that mean?",
+   "a": "They <b>activate β₂ receptors</b> to dilate the conducting pathways (the bronchioles).",
+   "src": "01:24:47"
+  },
+  {
+   "id": "qa-063",
+   "q": "Why is inhaled the preferred route for glucocorticoids?",
+   "a": "You <b>deliver it right to the place that's having the problem</b>.",
+   "src": "01:25:18 + 01:25:52"
+  },
+  {
+   "id": "qa-064",
+   "q": "If you're properly taking inhaled corticosteroids, should you be getting a big systemic effect?",
+   "a": "<b>No.</b> Only with overuse: adrenal suppression, slowed growth, bone loss, hyperglycemia.",
+   "src": "01:25:52 + 01:26:24"
+  },
+  {
+   "id": "qa-065",
+   "q": "SABA, you take it when you're having an attack. How do you take a LABA?",
+   "a": "<b>On a schedule</b> (scheduled dosing), and always with an ICS. \"The ICS is the foundational treatment.\"",
+   "src": "01:28:03"
+  },
+  {
+   "id": "qa-066",
+   "q": "(student asked) Can the ICS and LABA be combined?",
+   "a": "<b>Yes:</b> in one spray, or as two different sprays.",
+   "src": "01:29:41 + 01:30:14"
+  },
+  {
+   "id": "qa-067",
+   "q": "(student asked) Why is the oral bronchodilator (theophylline) on the slide?",
+   "a": "\"You might see that sometimes.\" It's approved for asthma, but he personally doesn't know anybody on it.",
+   "src": "01:30:50"
+  },
+  {
+   "id": "qa-068",
+   "q": "Why is it important to step up their treatment?",
+   "a": "To <b>prevent smooth-muscle hyperreactivity and hypertrophy</b>, and \"the only way of doing that is by making sure they are not getting their attacks.\"",
+   "src": "01:31:26 + 01:32:02"
+  },
+  {
+   "id": "qa-069",
+   "q": "Let's say they've been on step four for six months without any attack. Can you step them down?",
+   "a": "<b>Yes</b>, but tell them to keep their SABA on them and make sure they're not having two or more attacks a week.",
+   "src": "01:33:44"
+  },
+  {
+   "id": "qa-070",
+   "q": "(student asked) Are these attacks per week? What about nighttime?",
+   "a": "\"The rule of thumb is <b>two or more attacks per week</b>.\" He thought there might be a separate nighttime limit (\"I think… one\") but wasn't sure; slide 56 lists night awakenings by class.",
+   "src": "01:34:15"
+  },
+  {
+   "id": "qa-071",
+   "q": "(student asked) Why can someone outgrow asthma?",
+   "a": "Your immune system goes through changes; <b>puberty</b> is a big reset.",
+   "src": "01:35:21"
+  },
+  {
+   "id": "qa-072",
+   "q": "(student asked) Could they reduce the ICS, stepping down two steps?",
+   "a": "\"I don't think you should <b>ever go two steps</b>. Just go stepwise,\" and check back after a few months.",
+   "src": "01:35:21 + 01:36:04"
+  },
+  {
+   "id": "qa-073",
+   "q": "How does aspiration reduce air?",
+   "a": "Say a friend makes you laugh while you're drinking: <b>liquid gets into your alveoli</b>, and where liquid is, air can't be.",
+   "src": "01:39:54"
+  },
+  {
+   "id": "qa-074",
+   "q": "That high protein in the pleural sac is going to do what to fluid?",
+   "a": "<b>Pull it in.</b> That's an exudative effusion, usually from inflammation.",
+   "src": "01:44:24 + 01:45:15"
+  },
+  {
+   "id": "qa-075",
+   "q": "Has anybody been vaccinated for TB?",
+   "a": "The U.S. doesn't vaccinate: it's a mediocre vaccine and it gives you a <b>false-positive TB skin test</b>, so we rely on a good screening program instead.",
+   "src": "01:49:28 + 01:49:59"
+  },
+  {
+   "id": "qa-076",
+   "q": "(student asked, partly inaudible) Do patients [on treatment] still have TB?",
+   "a": "The exchange isn't clear in the recording. From slides 84–85: active TB is treated for <b>26 weeks</b> (4 drugs × 8 weeks, then 2 drugs × 18 weeks), latent TB with INH for 9 months, with DOT if adherence is an issue.",
+   "src": "01:52:22"
+  },
+  {
+   "id": "qa-077",
+   "q": "(student asked) I had a positive TB skin test, then an X-ray, and wasn't put on any medication?",
+   "a": "\"You probably had, at some point… some run-in with the TB,\" and the chest X-ray looked fine, \"so you don't have TB.\" (Slides 81 and 85: a positive TST means evaluate for disease; latent TB is treated with INH for 9 months.)",
+   "src": "01:52:53 + 01:53:30"
+  },
+  {
+   "id": "qa-078",
+   "q": "(student asked after class, partly inaudible) About vaping or marijuana and the lungs.",
+   "a": "\"In general, though, the rule of thumb is that <b>if you don't have to, don't put the stuff in your lungs</b>.\"",
+   "src": "02:00:35"
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+<svg id="cmap" width="1219pt" height="581pt"
+ viewBox="0.00 0.00 1219.00 581.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 559.4)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-559.4 1197.41,-559.4 1197.41,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="360.83" y="-517.8" font-family="Helvetica,sans-Serif" font-size="16.00">Pulmonary Disorders — Concept Map (NURS 419, Lecture 10/8/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="249.22" y="-498.6" font-family="Helvetica,sans-Serif" font-size="16.00">V/Q ≈ 0.8 · SaO₂ 95–100% · FEV1/FVC &lt; 0.70 = obstructive · step up at 2+/week · TB 8 + 18 weeks</text>
+<!-- mech -->
+<g id="node1" class="node">
+<title>mech</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M516.84,-491.4C516.84,-491.4 286.06,-491.4 286.06,-491.4 280.06,-491.4 274.06,-485.4 274.06,-479.4 274.06,-479.4 274.06,-447.88 274.06,-447.88 274.06,-441.88 280.06,-435.88 286.06,-435.88 286.06,-435.88 516.84,-435.88 516.84,-435.88 522.84,-435.88 528.84,-441.88 528.84,-447.88 528.84,-447.88 528.84,-479.4 528.84,-479.4 528.84,-485.4 522.84,-491.4 516.84,-491.4"/>
+<text xml:space="preserve" text-anchor="start" x="284.86" y="-476.74" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Getting air in</text>
+<text xml:space="preserve" text-anchor="start" x="284.86" y="-465.74" font-family="Helvetica,sans-Serif" font-size="11.00">Diaphragm = main inspiratory muscle</text>
+<text xml:space="preserve" text-anchor="start" x="284.86" y="-454.74" font-family="Helvetica,sans-Serif" font-size="11.00">Recoil pushes air out · low compliance = more work</text>
+<text xml:space="preserve" text-anchor="start" x="284.86" y="-443.74" font-family="Helvetica,sans-Serif" font-size="11.00">Pleural surface tension holds lungs open</text>
+</g>
+<!-- alv -->
+<g id="node2" class="node">
+<title>alv</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M379.3,-390.68C379.3,-390.68 177.6,-390.68 177.6,-390.68 171.6,-390.68 165.6,-384.68 165.6,-378.68 165.6,-378.68 165.6,-347.16 165.6,-347.16 165.6,-341.16 171.6,-335.16 177.6,-335.16 177.6,-335.16 379.3,-335.16 379.3,-335.16 385.3,-335.16 391.3,-341.16 391.3,-347.16 391.3,-347.16 391.3,-378.68 391.3,-378.68 391.3,-384.68 385.3,-390.68 379.3,-390.68"/>
+<text xml:space="preserve" text-anchor="start" x="176.4" y="-376.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Airways &amp; alveoli</text>
+<text xml:space="preserve" text-anchor="start" x="176.4" y="-365.02" font-family="Helvetica,sans-Serif" font-size="11.00">Cl⁻ → Na⁺ → water thins mucus (CF: CFTR)</text>
+<text xml:space="preserve" text-anchor="start" x="176.4" y="-354.02" font-family="Helvetica,sans-Serif" font-size="11.00">Type I thin · type II surfactant (soap)</text>
+<text xml:space="preserve" text-anchor="start" x="176.4" y="-343.02" font-family="Helvetica,sans-Serif" font-size="11.00">Bronchial artery feeds lung tissue</text>
+</g>
+<!-- mech&#45;&gt;alv -->
+<g id="edge1" class="edge">
+<title>mech&#45;&gt;alv</title>
+<path fill="none" stroke="#555555" d="M367.52,-435.4C352.46,-423.32 334.62,-409 318.88,-396.37"/>
+<polygon fill="#555555" stroke="#555555" points="320.45,-394.49 313.46,-392.02 317.38,-398.31 320.45,-394.49"/>
+<text xml:space="preserve" text-anchor="middle" x="372.35" y="-409.98" font-family="Helvetica,sans-Serif" font-size="11.00"> air reaches</text>
+</g>
+<!-- pft -->
+<g id="node5" class="node">
+<title>pft</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M628.36,-390.68C628.36,-390.68 434.54,-390.68 434.54,-390.68 428.54,-390.68 422.54,-384.68 422.54,-378.68 422.54,-378.68 422.54,-347.16 422.54,-347.16 422.54,-341.16 428.54,-335.16 434.54,-335.16 434.54,-335.16 628.36,-335.16 628.36,-335.16 634.36,-335.16 640.36,-341.16 640.36,-347.16 640.36,-347.16 640.36,-378.68 640.36,-378.68 640.36,-384.68 634.36,-390.68 628.36,-390.68"/>
+<text xml:space="preserve" text-anchor="start" x="433.34" y="-376.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">PFTs</text>
+<text xml:space="preserve" text-anchor="start" x="433.34" y="-365.02" font-family="Helvetica,sans-Serif" font-size="11.00">FVC = how much air the lungs hold</text>
+<text xml:space="preserve" text-anchor="start" x="433.34" y="-354.02" font-family="Helvetica,sans-Serif" font-size="11.00">FEV1 = air out in 1 s (conducting pathways)</text>
+<text xml:space="preserve" text-anchor="start" x="433.34" y="-343.02" font-family="Helvetica,sans-Serif" font-size="11.00">Normal ≥ 80% predicted · ratio ≥ 0.70</text>
+</g>
+<!-- mech&#45;&gt;pft -->
+<g id="edge4" class="edge">
+<title>mech&#45;&gt;pft</title>
+<path fill="none" stroke="#555555" d="M437.32,-435.4C453.37,-423.21 472.42,-408.75 489.17,-396.03"/>
+<polygon fill="#555555" stroke="#555555" points="490.4,-398.17 494.5,-391.98 487.44,-394.27 490.4,-398.17"/>
+<text xml:space="preserve" text-anchor="middle" x="503.56" y="-409.98" font-family="Helvetica,sans-Serif" font-size="11.00"> measured by</text>
+</g>
+<!-- vq -->
+<g id="node3" class="node">
+<title>vq</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M350.13,-284.46C350.13,-284.46 166.77,-284.46 166.77,-284.46 160.77,-284.46 154.77,-278.46 154.77,-272.46 154.77,-272.46 154.77,-240.94 154.77,-240.94 154.77,-234.94 160.77,-228.94 166.77,-228.94 166.77,-228.94 350.13,-228.94 350.13,-228.94 356.13,-228.94 362.13,-234.94 362.13,-240.94 362.13,-240.94 362.13,-272.46 362.13,-272.46 362.13,-278.46 356.13,-284.46 350.13,-284.46"/>
+<text xml:space="preserve" text-anchor="start" x="165.57" y="-269.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">V/Q matching &amp; diffusion</text>
+<text xml:space="preserve" text-anchor="start" x="165.57" y="-258.8" font-family="Helvetica,sans-Serif" font-size="11.00">Normal V/Q ≈ 0.8 · mismatch → hypoxia</text>
+<text xml:space="preserve" text-anchor="start" x="165.57" y="-247.8" font-family="Helvetica,sans-Serif" font-size="11.00">↓ diffusion: ↓ area, ↑ thickness,</text>
+<text xml:space="preserve" text-anchor="start" x="165.57" y="-236.8" font-family="Helvetica,sans-Serif" font-size="11.00">↑ distance, ↓ gradient</text>
+</g>
+<!-- alv&#45;&gt;vq -->
+<g id="edge2" class="edge">
+<title>alv&#45;&gt;vq</title>
+<path fill="none" stroke="#555555" d="M273.25,-334.81C270.81,-322.12 267.88,-306.85 265.27,-293.25"/>
+<polygon fill="#555555" stroke="#555555" points="267.71,-292.94 263.98,-286.52 262.9,-293.86 267.71,-292.94"/>
+<text xml:space="preserve" text-anchor="middle" x="301.09" y="-309.26" font-family="Helvetica,sans-Serif" font-size="11.00"> gas exchange</text>
+</g>
+<!-- gas -->
+<g id="node4" class="node">
+<title>gas</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M381.14,-172.74C381.14,-172.74 135.76,-172.74 135.76,-172.74 129.76,-172.74 123.76,-166.74 123.76,-160.74 123.76,-160.74 123.76,-129.22 123.76,-129.22 123.76,-123.22 129.76,-117.22 135.76,-117.22 135.76,-117.22 381.14,-117.22 381.14,-117.22 387.14,-117.22 393.14,-123.22 393.14,-129.22 393.14,-129.22 393.14,-160.74 393.14,-160.74 393.14,-166.74 387.14,-172.74 381.14,-172.74"/>
+<text xml:space="preserve" text-anchor="start" x="134.56" y="-158.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">O₂ &amp; CO₂ transport</text>
+<text xml:space="preserve" text-anchor="start" x="134.56" y="-147.08" font-family="Helvetica,sans-Serif" font-size="11.00">CO₂: 60% HCO₃⁻ · 30% carbamino · 10% dissolved</text>
+<text xml:space="preserve" text-anchor="start" x="134.56" y="-136.08" font-family="Helvetica,sans-Serif" font-size="11.00">O₂: 1.5% dissolved, rest on Hgb</text>
+<text xml:space="preserve" text-anchor="start" x="134.56" y="-125.08" font-family="Helvetica,sans-Serif" font-size="11.00">Left shift in lungs · CADET face Right</text>
+</g>
+<!-- vq&#45;&gt;gas -->
+<g id="edge3" class="edge">
+<title>vq&#45;&gt;gas</title>
+<path fill="none" stroke="#555555" d="M258.45,-228.58C258.45,-214.34 258.45,-196.71 258.45,-181.4"/>
+<polygon fill="#555555" stroke="#555555" points="260.9,-181.68 258.45,-174.68 256,-181.68 260.9,-181.68"/>
+<text xml:space="preserve" text-anchor="middle" x="306.71" y="-197.54" font-family="Helvetica,sans-Serif" font-size="11.00"> then carried by blood</text>
+</g>
+<!-- vasc -->
+<g id="node12" class="node">
+<title>vasc</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M358.82,-61.02C358.82,-61.02 150.09,-61.02 150.09,-61.02 144.09,-61.02 138.09,-55.02 138.09,-49.02 138.09,-49.02 138.09,-17.5 138.09,-17.5 138.09,-11.5 144.09,-5.5 150.09,-5.5 150.09,-5.5 358.82,-5.5 358.82,-5.5 364.82,-5.5 370.82,-11.5 370.82,-17.5 370.82,-17.5 370.82,-49.02 370.82,-49.02 370.82,-55.02 364.82,-61.02 358.82,-61.02"/>
+<text xml:space="preserve" text-anchor="start" x="148.89" y="-46.36" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">PE &amp; pulmonary HTN</text>
+<text xml:space="preserve" text-anchor="start" x="148.89" y="-35.36" font-family="Helvetica,sans-Serif" font-size="11.00">PE: immobility, surgery, BCPs · anticoagulants</text>
+<text xml:space="preserve" text-anchor="start" x="148.89" y="-24.36" font-family="Helvetica,sans-Serif" font-size="11.00">Pulmonary HTN → RV hypertrophy</text>
+<text xml:space="preserve" text-anchor="start" x="148.89" y="-13.36" font-family="Helvetica,sans-Serif" font-size="11.00">→ right&#45;sided failure (cor pulmonale)</text>
+</g>
+<!-- vq&#45;&gt;vasc -->
+<g id="edge12" class="edge">
+<title>vq&#45;&gt;vasc</title>
+<path fill="none" stroke="#555555" d="M154.26,-250.48C103.01,-242.01 45.44,-222.37 13.09,-178.24 -4.39,-154.39 -4.33,-135.61 13.09,-111.72 40.19,-74.56 85.38,-54.84 129.38,-44.5"/>
+<polygon fill="#555555" stroke="#555555" points="129.79,-46.91 136.1,-43 128.73,-42.13 129.79,-46.91"/>
+<text xml:space="preserve" text-anchor="middle" x="62.27" y="-141.68" font-family="Helvetica,sans-Serif" font-size="11.00"> widespread mismatch</text>
+</g>
+<!-- obs -->
+<g id="node6" class="node">
+<title>obs</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M837.34,-278.96C837.34,-278.96 701.56,-278.96 701.56,-278.96 695.56,-278.96 689.56,-272.96 689.56,-266.96 689.56,-266.96 689.56,-246.44 689.56,-246.44 689.56,-240.44 695.56,-234.44 701.56,-234.44 701.56,-234.44 837.34,-234.44 837.34,-234.44 843.34,-234.44 849.34,-240.44 849.34,-246.44 849.34,-246.44 849.34,-266.96 849.34,-266.96 849.34,-272.96 843.34,-278.96 837.34,-278.96"/>
+<text xml:space="preserve" text-anchor="start" x="700.36" y="-264.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Obstructive</text>
+<text xml:space="preserve" text-anchor="start" x="700.36" y="-253.3" font-family="Helvetica,sans-Serif" font-size="11.00">↑ resistance to airflow</text>
+<text xml:space="preserve" text-anchor="start" x="700.36" y="-242.3" font-family="Helvetica,sans-Serif" font-size="11.00">FEV1 falls more → ratio &lt; 0.70</text>
+</g>
+<!-- pft&#45;&gt;obs -->
+<g id="edge5" class="edge">
+<title>pft&#45;&gt;obs</title>
+<path fill="none" stroke="#555555" d="M593.67,-334.67C630.32,-318.63 676.35,-298.47 712.11,-282.81"/>
+<polygon fill="#555555" stroke="#555555" points="712.76,-285.2 718.19,-280.15 710.8,-280.71 712.76,-285.2"/>
+<text xml:space="preserve" text-anchor="middle" x="684.52" y="-309.26" font-family="Helvetica,sans-Serif" font-size="11.00"> ratio &lt; 0.70</text>
+</g>
+<!-- res -->
+<g id="node10" class="node">
+<title>res</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M633.65,-289.96C633.65,-289.96 429.25,-289.96 429.25,-289.96 423.25,-289.96 417.25,-283.96 417.25,-277.96 417.25,-277.96 417.25,-235.44 417.25,-235.44 417.25,-229.44 423.25,-223.44 429.25,-223.44 429.25,-223.44 633.65,-223.44 633.65,-223.44 639.65,-223.44 645.65,-229.44 645.65,-235.44 645.65,-235.44 645.65,-277.96 645.65,-277.96 645.65,-283.96 639.65,-289.96 633.65,-289.96"/>
+<text xml:space="preserve" text-anchor="start" x="428.05" y="-275.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Restrictive</text>
+<text xml:space="preserve" text-anchor="start" x="428.05" y="-264.3" font-family="Helvetica,sans-Serif" font-size="11.00">Can&#39;t hold air · FEV1 &amp; FVC fall, ratio holds</text>
+<text xml:space="preserve" text-anchor="start" x="428.05" y="-253.3" font-family="Helvetica,sans-Serif" font-size="11.00">Aspiration (HOB up) · atelectasis (spirometer)</text>
+<text xml:space="preserve" text-anchor="start" x="428.05" y="-242.3" font-family="Helvetica,sans-Serif" font-size="11.00">Pneumothorax: tension worse than open</text>
+<text xml:space="preserve" text-anchor="start" x="428.05" y="-231.3" font-family="Helvetica,sans-Serif" font-size="11.00">Effusion: exudate pulls fluid · ARDS: prone</text>
+</g>
+<!-- pft&#45;&gt;res -->
+<g id="edge6" class="edge">
+<title>pft&#45;&gt;res</title>
+<path fill="none" stroke="#555555" d="M531.45,-334.81C531.45,-323.73 531.45,-310.69 531.45,-298.5"/>
+<polygon fill="#555555" stroke="#555555" points="533.9,-298.76 531.45,-291.76 529,-298.76 533.9,-298.76"/>
+<text xml:space="preserve" text-anchor="middle" x="556.2" y="-309.26" font-family="Helvetica,sans-Serif" font-size="11.00"> ratio holds</text>
+</g>
+<!-- asthma -->
+<g id="node7" class="node">
+<title>asthma</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M1101.07,-172.74C1101.07,-172.74 905.83,-172.74 905.83,-172.74 899.83,-172.74 893.83,-166.74 893.83,-160.74 893.83,-160.74 893.83,-129.22 893.83,-129.22 893.83,-123.22 899.83,-117.22 905.83,-117.22 905.83,-117.22 1101.07,-117.22 1101.07,-117.22 1107.07,-117.22 1113.07,-123.22 1113.07,-129.22 1113.07,-129.22 1113.07,-160.74 1113.07,-160.74 1113.07,-166.74 1107.07,-172.74 1101.07,-172.74"/>
+<text xml:space="preserve" text-anchor="start" x="904.63" y="-158.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Asthma</text>
+<text xml:space="preserve" text-anchor="start" x="904.63" y="-147.08" font-family="Helvetica,sans-Serif" font-size="11.00">Chronic inflammation, type I · histamine</text>
+<text xml:space="preserve" text-anchor="start" x="904.63" y="-136.08" font-family="Helvetica,sans-Serif" font-size="11.00">Reversible · triggers: cold air, exercise</text>
+<text xml:space="preserve" text-anchor="start" x="904.63" y="-125.08" font-family="Helvetica,sans-Serif" font-size="11.00">Uncontrolled → hypertrophy, hyperreactivity</text>
+</g>
+<!-- obs&#45;&gt;asthma -->
+<g id="edge7" class="edge">
+<title>obs&#45;&gt;asthma</title>
+<path fill="none" stroke="#555555" d="M815.96,-233.89C850.82,-217.55 899,-194.96 937.78,-176.77"/>
+<polygon fill="#555555" stroke="#555555" points="938.74,-179.03 944.04,-173.84 936.66,-174.59 938.74,-179.03"/>
+</g>
+<!-- copd -->
+<g id="node8" class="node">
+<title>copd</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M856.42,-172.74C856.42,-172.74 682.48,-172.74 682.48,-172.74 676.48,-172.74 670.48,-166.74 670.48,-160.74 670.48,-160.74 670.48,-129.22 670.48,-129.22 670.48,-123.22 676.48,-117.22 682.48,-117.22 682.48,-117.22 856.42,-117.22 856.42,-117.22 862.42,-117.22 868.42,-123.22 868.42,-129.22 868.42,-129.22 868.42,-160.74 868.42,-160.74 868.42,-166.74 862.42,-172.74 856.42,-172.74"/>
+<text xml:space="preserve" text-anchor="start" x="681.28" y="-158.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">COPD</text>
+<text xml:space="preserve" text-anchor="start" x="681.28" y="-147.08" font-family="Helvetica,sans-Serif" font-size="11.00">Progressive, irreversible · tobacco</text>
+<text xml:space="preserve" text-anchor="start" x="681.28" y="-136.08" font-family="Helvetica,sans-Serif" font-size="11.00">Bronchitis = blue bloater</text>
+<text xml:space="preserve" text-anchor="start" x="681.28" y="-125.08" font-family="Helvetica,sans-Serif" font-size="11.00">Emphysema = pink puffer (air trapping)</text>
+</g>
+<!-- obs&#45;&gt;copd -->
+<g id="edge8" class="edge">
+<title>obs&#45;&gt;copd</title>
+<path fill="none" stroke="#555555" d="M769.45,-234.02C769.45,-219 769.45,-198.65 769.45,-181.3"/>
+<polygon fill="#555555" stroke="#555555" points="771.9,-181.57 769.45,-174.57 767,-181.57 771.9,-181.57"/>
+</g>
+<!-- drugs -->
+<g id="node9" class="node">
+<title>drugs</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M878,-66.52C878,-66.52 660.91,-66.52 660.91,-66.52 654.91,-66.52 648.91,-60.52 648.91,-54.52 648.91,-54.52 648.91,-12 648.91,-12 648.91,-6 654.91,0 660.91,0 660.91,0 878,0 878,0 884,0 890,-6 890,-12 890,-12 890,-54.52 890,-54.52 890,-60.52 884,-66.52 878,-66.52"/>
+<text xml:space="preserve" text-anchor="start" x="659.71" y="-51.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Drugs &amp; steps</text>
+<text xml:space="preserve" text-anchor="start" x="659.71" y="-40.86" font-family="Helvetica,sans-Serif" font-size="11.00">ICS = foundation · SABA = attack (PRN)</text>
+<text xml:space="preserve" text-anchor="start" x="659.71" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">LABA = schedule, always with ICS</text>
+<text xml:space="preserve" text-anchor="start" x="659.71" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">SAMA/LAMA = COPD only · asthma steps 1–6</text>
+<text xml:space="preserve" text-anchor="start" x="659.71" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">COPD only forward · O₂ 88–92%</text>
+</g>
+<!-- asthma&#45;&gt;drugs -->
+<g id="edge9" class="edge">
+<title>asthma&#45;&gt;drugs</title>
+<path fill="none" stroke="#555555" d="M945.31,-116.72C915.61,-102.79 879.07,-85.66 847.01,-70.62"/>
+<polygon fill="#555555" stroke="#555555" points="848.14,-68.45 840.76,-67.69 846.06,-72.88 848.14,-68.45"/>
+<text xml:space="preserve" text-anchor="middle" x="920.78" y="-85.82" font-family="Helvetica,sans-Serif" font-size="11.00"> stepwise</text>
+</g>
+<!-- upper -->
+<g id="node13" class="node">
+<title>upper</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M1163.81,-61.02C1163.81,-61.02 927.09,-61.02 927.09,-61.02 921.09,-61.02 915.09,-55.02 915.09,-49.02 915.09,-49.02 915.09,-17.5 915.09,-17.5 915.09,-11.5 921.09,-5.5 927.09,-5.5 927.09,-5.5 1163.81,-5.5 1163.81,-5.5 1169.81,-5.5 1175.81,-11.5 1175.81,-17.5 1175.81,-17.5 1175.81,-49.02 1175.81,-49.02 1175.81,-55.02 1169.81,-61.02 1163.81,-61.02"/>
+<text xml:space="preserve" text-anchor="start" x="925.89" y="-46.36" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Upper airway &amp; OTC</text>
+<text xml:space="preserve" text-anchor="start" x="925.89" y="-35.36" font-family="Helvetica,sans-Serif" font-size="11.00">Rhinitis: intranasal steroid · α₁ decongestant</text>
+<text xml:space="preserve" text-anchor="start" x="925.89" y="-24.36" font-family="Helvetica,sans-Serif" font-size="11.00">Avoid decongestants in HTN · rebound (topical)</text>
+<text xml:space="preserve" text-anchor="start" x="925.89" y="-13.36" font-family="Helvetica,sans-Serif" font-size="11.00">Guaifenesin + water · antihistamines don&#39;t help a cold</text>
+</g>
+<!-- asthma&#45;&gt;upper -->
+<g id="edge14" class="edge">
+<title>asthma&#45;&gt;upper</title>
+<path fill="none" stroke="#555555" stroke-dasharray="5,2" d="M1013.83,-116.86C1019.34,-102.48 1026.16,-84.66 1032.06,-69.26"/>
+<polygon fill="#555555" stroke="#555555" points="1034.29,-70.28 1034.5,-62.86 1029.71,-68.53 1034.29,-70.28"/>
+<text xml:space="preserve" text-anchor="middle" x="1068.97" y="-85.82" font-family="Helvetica,sans-Serif" font-size="11.00"> type I, like rhinitis</text>
+</g>
+<!-- copd&#45;&gt;drugs -->
+<g id="edge10" class="edge">
+<title>copd&#45;&gt;drugs</title>
+<path fill="none" stroke="#555555" d="M769.45,-116.86C769.45,-104.35 769.45,-89.23 769.45,-75.37"/>
+<polygon fill="#555555" stroke="#555555" points="771.9,-75.44 769.45,-68.44 767,-75.44 771.9,-75.44"/>
+<text xml:space="preserve" text-anchor="middle" x="799.39" y="-85.82" font-family="Helvetica,sans-Serif" font-size="11.00"> only forward</text>
+</g>
+<!-- copd&#45;&gt;vasc -->
+<g id="edge13" class="edge">
+<title>copd&#45;&gt;vasc</title>
+<path fill="none" stroke="#555555" d="M677.03,-116.65C670.42,-114.92 663.85,-113.25 657.45,-111.72 564.85,-89.53 459.08,-69.4 379.15,-55.22"/>
+<polygon fill="#555555" stroke="#555555" points="379.81,-52.85 372.49,-54.04 378.96,-57.68 379.81,-52.85"/>
+<text xml:space="preserve" text-anchor="middle" x="606.68" y="-85.82" font-family="Helvetica,sans-Serif" font-size="11.00"> hypoxemia</text>
+</g>
+<!-- tb -->
+<g id="node11" class="node">
+<title>tb</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M633.06,-178.24C633.06,-178.24 429.84,-178.24 429.84,-178.24 423.84,-178.24 417.84,-172.24 417.84,-166.24 417.84,-166.24 417.84,-123.72 417.84,-123.72 417.84,-117.72 423.84,-111.72 429.84,-111.72 429.84,-111.72 633.06,-111.72 633.06,-111.72 639.06,-111.72 645.06,-117.72 645.06,-123.72 645.06,-123.72 645.06,-166.24 645.06,-166.24 645.06,-172.24 639.06,-178.24 633.06,-178.24"/>
+<text xml:space="preserve" text-anchor="start" x="428.64" y="-163.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">TB</text>
+<text xml:space="preserve" text-anchor="start" x="428.64" y="-152.58" font-family="Helvetica,sans-Serif" font-size="11.00">Latent (walled off) vs active (contagious)</text>
+<text xml:space="preserve" text-anchor="start" x="428.64" y="-141.58" font-family="Helvetica,sans-Serif" font-size="11.00">TST read 48–72 h · BCG → false +</text>
+<text xml:space="preserve" text-anchor="start" x="428.64" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">4 drugs × 8 wk → 2 × 18 wk · latent INH 9 mo</text>
+<text xml:space="preserve" text-anchor="start" x="428.64" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">Liver · red fluids · B6 for neuropathy · DOT</text>
+</g>
+<!-- res&#45;&gt;tb -->
+<g id="edge11" class="edge">
+<title>res&#45;&gt;tb</title>
+<path fill="none" stroke="#555555" d="M531.45,-223.08C531.45,-211.79 531.45,-199 531.45,-187.12"/>
+<polygon fill="#555555" stroke="#555555" points="533.9,-187.18 531.45,-180.18 529,-187.18 533.9,-187.18"/>
+<text xml:space="preserve" text-anchor="middle" x="551.16" y="-197.54" font-family="Helvetica,sans-Serif" font-size="11.00"> includes</text>
+</g>
+</g>
+</svg>

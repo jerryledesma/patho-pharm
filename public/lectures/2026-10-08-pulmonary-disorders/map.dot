@@ -1,0 +1,35 @@
+// Pulmonary Disorders — concept map (NURS 419, Oct 8 2026, Calik)
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.45, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Pulmonary Disorders — Concept Map (NURS 419, Lecture 10/8/2026)<BR/>V/Q ≈ 0.8 · SaO₂ 95–100% · FEV1/FVC &lt; 0.70 = obstructive · step up at 2+/week · TB 8 + 18 weeks>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  mech  [fillcolor="#fff2cc", label=<<B>Getting air in</B><BR ALIGN="LEFT"/>Diaphragm = main inspiratory muscle<BR ALIGN="LEFT"/>Recoil pushes air out · low compliance = more work<BR ALIGN="LEFT"/>Pleural surface tension holds lungs open<BR ALIGN="LEFT"/>>];
+  alv   [fillcolor="#fff2cc", label=<<B>Airways &amp; alveoli</B><BR ALIGN="LEFT"/>Cl⁻ → Na⁺ → water thins mucus (CF: CFTR)<BR ALIGN="LEFT"/>Type I thin · type II surfactant (soap)<BR ALIGN="LEFT"/>Bronchial artery feeds lung tissue<BR ALIGN="LEFT"/>>];
+  vq    [fillcolor="#fff2cc", label=<<B>V/Q matching &amp; diffusion</B><BR ALIGN="LEFT"/>Normal V/Q ≈ 0.8 · mismatch → hypoxia<BR ALIGN="LEFT"/>↓ diffusion: ↓ area, ↑ thickness,<BR ALIGN="LEFT"/>↑ distance, ↓ gradient<BR ALIGN="LEFT"/>>];
+  gas   [fillcolor="#fff2cc", label=<<B>O₂ &amp; CO₂ transport</B><BR ALIGN="LEFT"/>CO₂: 60% HCO₃⁻ · 30% carbamino · 10% dissolved<BR ALIGN="LEFT"/>O₂: 1.5% dissolved, rest on Hgb<BR ALIGN="LEFT"/>Left shift in lungs · CADET face Right<BR ALIGN="LEFT"/>>];
+  pft   [fillcolor="#e4dfec", label=<<B>PFTs</B><BR ALIGN="LEFT"/>FVC = how much air the lungs hold<BR ALIGN="LEFT"/>FEV1 = air out in 1 s (conducting pathways)<BR ALIGN="LEFT"/>Normal ≥ 80% predicted · ratio ≥ 0.70<BR ALIGN="LEFT"/>>];
+  obs   [fillcolor="#ddebf7", label=<<B>Obstructive</B><BR ALIGN="LEFT"/>↑ resistance to airflow<BR ALIGN="LEFT"/>FEV1 falls more → ratio &lt; 0.70<BR ALIGN="LEFT"/>>];
+  asthma[fillcolor="#bdd7ee", label=<<B>Asthma</B><BR ALIGN="LEFT"/>Chronic inflammation, type I · histamine<BR ALIGN="LEFT"/>Reversible · triggers: cold air, exercise<BR ALIGN="LEFT"/>Uncontrolled → hypertrophy, hyperreactivity<BR ALIGN="LEFT"/>>];
+  copd  [fillcolor="#bdd7ee", label=<<B>COPD</B><BR ALIGN="LEFT"/>Progressive, irreversible · tobacco<BR ALIGN="LEFT"/>Bronchitis = blue bloater<BR ALIGN="LEFT"/>Emphysema = pink puffer (air trapping)<BR ALIGN="LEFT"/>>];
+  drugs [fillcolor="#e2efda", label=<<B>Drugs &amp; steps</B><BR ALIGN="LEFT"/>ICS = foundation · SABA = attack (PRN)<BR ALIGN="LEFT"/>LABA = schedule, always with ICS<BR ALIGN="LEFT"/>SAMA/LAMA = COPD only · asthma steps 1–6<BR ALIGN="LEFT"/>COPD only forward · O₂ 88–92%<BR ALIGN="LEFT"/>>];
+  res   [fillcolor="#fce4d6", label=<<B>Restrictive</B><BR ALIGN="LEFT"/>Can't hold air · FEV1 &amp; FVC fall, ratio holds<BR ALIGN="LEFT"/>Aspiration (HOB up) · atelectasis (spirometer)<BR ALIGN="LEFT"/>Pneumothorax: tension worse than open<BR ALIGN="LEFT"/>Effusion: exudate pulls fluid · ARDS: prone<BR ALIGN="LEFT"/>>];
+  tb    [fillcolor="#f8cbad", label=<<B>TB</B><BR ALIGN="LEFT"/>Latent (walled off) vs active (contagious)<BR ALIGN="LEFT"/>TST read 48–72 h · BCG → false +<BR ALIGN="LEFT"/>4 drugs × 8 wk → 2 × 18 wk · latent INH 9 mo<BR ALIGN="LEFT"/>Liver · red fluids · B6 for neuropathy · DOT<BR ALIGN="LEFT"/>>];
+  vasc  [fillcolor="#e4dfec", label=<<B>PE &amp; pulmonary HTN</B><BR ALIGN="LEFT"/>PE: immobility, surgery, BCPs · anticoagulants<BR ALIGN="LEFT"/>Pulmonary HTN → RV hypertrophy<BR ALIGN="LEFT"/>→ right-sided failure (cor pulmonale)<BR ALIGN="LEFT"/>>];
+  upper [fillcolor="#e2efda", label=<<B>Upper airway &amp; OTC</B><BR ALIGN="LEFT"/>Rhinitis: intranasal steroid · α₁ decongestant<BR ALIGN="LEFT"/>Avoid decongestants in HTN · rebound (topical)<BR ALIGN="LEFT"/>Guaifenesin + water · antihistamines don't help a cold<BR ALIGN="LEFT"/>>];
+
+  mech -> alv [label=" air reaches"];
+  alv -> vq [label=" gas exchange"];
+  vq -> gas [label=" then carried by blood"];
+  mech -> pft [label=" measured by"];
+  pft -> obs [label=" ratio < 0.70"];
+  pft -> res [label=" ratio holds"];
+  obs -> asthma; obs -> copd;
+  asthma -> drugs [label=" stepwise"];
+  copd -> drugs [label=" only forward"];
+  res -> tb [label=" includes"];
+  vq -> vasc [label=" widespread mismatch"];
+  copd -> vasc [label=" hypoxemia"];
+  asthma -> upper [label=" type I, like rhinitis", style=dashed];
+}

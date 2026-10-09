@@ -651,7 +651,7 @@
   {
    "id": "c01",
    "title": "Scenario 1 — Medical-surgical unit",
-   "setting": "Post-op urinary retention · day 2 · 6 questions",
+   "setting": "Post-op urinary retention · day 2",
    "text": "<b>Nurses' Notes — Post-op Day 2, 0800</b>\n67-year-old client 2 days after abdominal surgery. Has not voided for 9 hours; says she feels the urge but \"nothing comes.\" Bladder scan shows a large volume of retained urine. History of kidney stones; reports new dull left flank pain since 0600. Mild asthma — uses a rescue inhaler a few times a year. Bowel sounds present in all quadrants, passing flatus. Incision clean and dry.\n<b>Vital Signs</b> — T 37.1°C · HR 78 · BP 124/72 · RR 16 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — Creatinine 0.9 mg/dL · K⁺ 4.1 mEq/L\n<b>Orders</b> — Bethanechol PO · bladder scan after each void · vital signs every 4 h",
    "questions": [
     {
@@ -755,7 +755,7 @@
   {
    "id": "c02",
    "title": "Scenario 2 — Emergency department → medical unit",
-   "setting": "Bradycardia, then anticholinergic burden · days 1–3 · 6 questions",
+   "setting": "Bradycardia, then anticholinergic burden · days 1–3",
    "text": "<b>Nurses' Notes — Day 1, 0930</b>\n81-year-old client brought in by his daughter after nearly fainting at home; dizzy, pale and cool. History: benign prostatic hyperplasia (BPH), hypertension, and an eye doctor once told him he has narrow-angle glaucoma. Home medications include <b>two drugs with anticholinergic properties</b> — one prescribed, one an OTC sleep aid. Lives alone and walks daily.\n<b>Vital Signs</b> — HR <b>38</b> · BP 82/48 · RR 18 · SpO₂ 95% · T 36.9°C\n<b>Laboratory Results</b> — K⁺ 4.2 mEq/L · glucose 102 mg/dL\n<b>Orders</b> — Atropine IV · continuous cardiac monitoring · admit to medical unit",
    "questions": [
     {
@@ -859,7 +859,7 @@
   {
    "id": "c03",
    "title": "Scenario 3 — Emergency department",
-   "setting": "Myasthenia gravis on pyridostigmine · evening · 6 questions",
+   "setting": "Myasthenia gravis on pyridostigmine · evening",
    "text": "<b>Nurses' Notes — Day 1, 1900</b>\n41-year-old client with <b>myasthenia gravis</b> takes <b>pyridostigmine</b>. She took extra doses this week because her eyelids were drooping. Now drooling, eyes watering, urinating frequently, diarrhea, vomited 3 times, abdominal cramping. Visible twitching in the arms and face. Pupils small. Allergic to penicillin (rash). Works as a teacher.\n<b>Vital Signs</b> — HR 50 · BP 98/60 · RR 22 · SpO₂ 93% · T 37.0°C · lungs: wheezes with copious secretions\n<b>Laboratory Results</b> — Glucose 96 mg/dL · K⁺ 3.9 mEq/L\n<b>Orders</b> — Atropine IV · continuous cardiac monitoring and pulse oximetry · respiratory assessment every 15 min",
    "questions": [
     {
@@ -963,7 +963,7 @@
   {
    "id": "c04",
    "title": "Scenario 4 — Medical ICU",
-   "setting": "Ventilated client on rocuronium · days 1–4 · 6 questions",
+   "setting": "Ventilated client on rocuronium · days 1–4",
    "text": "<b>Nurses' Notes — Day 1, 1100</b>\n58-year-old client with severe respiratory failure, intubated and mechanically ventilated, keeps fighting the ventilator. The provider starts a <b>rocuronium infusion</b>. He is also being treated for pneumonia with <b>gentamicin IV</b>, and <b>magnesium sulfate IV</b> is ordered for a low magnesium level. Eyes partly open. Wife at the bedside.\n<b>Vital Signs</b> — T 38.2°C · HR 96 · BP 118/70 · ventilator rate 18 · SpO₂ 92%\n<b>Laboratory Results</b> — WBC 15,000/mm³ · Mg 1.4 mg/dL (low) · K⁺ 4.0 mEq/L\n<b>Orders</b> — Rocuronium infusion · gentamicin IV · magnesium sulfate IV · peripheral nerve stimulation (train-of-four)",
    "questions": [
     {
@@ -1067,7 +1067,7 @@
   {
    "id": "c05",
    "title": "Scenario 5 — Pre-op holding → operating room",
-   "setting": "Burn debridement · one morning · 6 questions",
+   "setting": "Burn debridement · one morning",
    "text": "<b>Nurses' Notes — Day 1, 0700</b>\n34-year-old client with <b>major burns 2 weeks ago</b>, past the acute phase, on bed rest for most of the last 10 days. Scheduled for surgical debridement under general anesthesia with a <b>volatile inhaled anesthetic</b>; the anesthesia plan lists <b>succinylcholine</b> for intubation. During the pre-op interview he says his uncle \"had a bad reaction to anesthesia once — he got really hot.\" NPO since midnight. Nonsmoker.\n<b>Vital Signs</b> — T 37.2°C · HR 98 · BP 128/78 · RR 18 · SpO₂ 97%\n<b>Laboratory Results</b> — K⁺ 4.6 mEq/L · Hgb 11.8 g/dL · glucose 110 mg/dL\n<b>Orders</b> — General anesthesia · pre-op checklist · dantrolene available in the OR",
    "questions": [
     {
@@ -1171,7 +1171,7 @@
   {
    "id": "c06",
    "title": "Scenario 6 — Emergency department",
-   "setting": "Anaphylaxis · 2 hours · 6 questions",
+   "setting": "Anaphylaxis · 2 hours",
    "text": "<b>Nurses' Notes — Day 1, 1915</b>\n19-year-old college student with a known peanut allergy ate a cookie containing peanuts 15 minutes ago. Hives on the chest and arms, swollen lips, wheezing and a hoarse voice. She carries an epinephrine autoinjector but didn't use it. Reports palpitations \"sometimes when I drink a lot of coffee.\" Takes no daily medications.\n<b>Vital Signs</b> — BP <b>78/40</b> · HR 128 · RR 28 · SpO₂ 90% · T 36.8°C\n<b>Laboratory Results</b> — Glucose 98 mg/dL\n<b>Orders</b> — Epinephrine IM now · continuous cardiac monitoring · pulse oximetry",
    "questions": [
     {
@@ -1274,7 +1274,7 @@
   {
    "id": "c07",
    "title": "Scenario 7 — Medical ICU",
-   "setting": "Septic shock on vasopressors · days 1–2 · 6 questions",
+   "setting": "Septic shock on vasopressors · days 1–2",
    "text": "<b>Nurses' Notes — Day 1, 1000</b>\n66-year-old client with <b>septic shock</b> from pneumonia remains hypotensive. IV fluids are running. A <b>norepinephrine (Levophed)</b> infusion is started through a peripheral IV in the left forearm and titrated to a prescribed BP target. History: type 2 diabetes.\n<b>Vital Signs</b> — BP 78/42 · HR 118 · T 38.9°C · RR 24 · SpO₂ 94% · urine output 15 mL/h\n<b>Laboratory Results</b> — WBC 18,000/mm³ · glucose 168 mg/dL\n<b>Orders</b> — Norepinephrine infusion titrated to BP target · IV fluids · continuous BP and ECG monitoring · hourly urine output",
    "questions": [
     {
@@ -1377,7 +1377,7 @@
   {
    "id": "c08",
    "title": "Scenario 8 — Cardiac step-down unit",
-   "setting": "Low-output heart failure · days 1–5 · 6 questions",
+   "setting": "Low-output heart failure · days 1–5",
    "text": "<b>Nurses' Notes — Day 1, 1200</b>\n70-year-old client with <b>heart failure and coronary artery disease</b> admitted with signs of low cardiac output: cool extremities, low urine output, fatigue. History of episodes of atrial fibrillation. Took his home <b>metoprolol</b> this morning. A <b>dobutamine</b> infusion is started.\n<b>Vital Signs</b> — HR 88 · BP 92/58 · RR 20 · SpO₂ 94% · T 36.7°C\n<b>Laboratory Results</b> — K⁺ 4.3 mEq/L · creatinine 1.3 mg/dL\n<b>Orders</b> — Dobutamine infusion · continuous ECG and BP monitoring · strict intake and output",
    "questions": [
     {
@@ -1481,7 +1481,7 @@
   {
    "id": "c09",
    "title": "Scenario 9 — Primary care clinic",
-   "setting": "Hypertension, asthma and diabetes · 3 visits · 6 questions",
+   "setting": "Hypertension, asthma and diabetes · 3 visits",
    "text": "<b>Nurses' Notes — Visit 1, 0900</b>\n52-year-old client with hypertension on <b>clonidine</b>, asthma treated with an <b>albuterol</b> rescue inhaler, and type 1 diabetes on insulin. Ran out of clonidine 2 days ago. Reports a pounding headache and feeling \"jittery.\" Has used albuterol about 8 times a day this week; hands have a fine tremor. Up to date on vaccines.\n<b>Vital Signs</b> — BP <b>188/108</b> · HR 110 · RR 20 · SpO₂ 96% · T 36.8°C\n<b>Laboratory Results</b> — K⁺ <b>3.3 mEq/L</b> (low) · glucose 142 mg/dL\n<b>Orders</b> — Provider to see client · renew clonidine",
    "questions": [
     {
@@ -1585,7 +1585,7 @@
   {
    "id": "c10",
    "title": "Scenario 10 — Rapid rounds",
-   "setting": "Clinic, procedure unit and ED · one question each · 6 questions",
+   "setting": "Clinic, procedure unit and ED · one question each",
    "text": "Six clients, one question each. Use the receptor, then predict the drug effect.",
    "questions": [
     {

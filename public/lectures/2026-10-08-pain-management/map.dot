@@ -1,0 +1,36 @@
+// Pain & Pharmacologic Management — concept map (NURS 419, 10/8/2026)
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.45, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Pain &amp; Pharmacologic Management — Concept Map (NURS 419, Lecture 10/8/2026)<BR/>Tylenol ≤ 4,000 mg/day (3,000 undernourished · 2,000 drinking) · NAC 8–10 h · RR 12–20 · patch 72 h · only the patient presses the PCA>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  pain   [fillcolor="#fff2cc", label=<<B>Pain = the 5th vital sign</B><BR ALIGN="LEFT"/>"What the patient tells you"<BR ALIGN="LEFT"/>Unrelieved → ↑ HR, BP, RR, glucose<BR ALIGN="LEFT"/>Shallow breaths, slow healing<BR ALIGN="LEFT"/>>];
+  noci   [fillcolor="#e2efda", label=<<B>Nociception</B><BR ALIGN="LEFT"/>Transduction → transmission →<BR ALIGN="LEFT"/>perception → modulation<BR ALIGN="LEFT"/>Aδ myelinated/fast · C slow<BR ALIGN="LEFT"/>Contralateral organization<BR ALIGN="LEFT"/>>];
+  types  [fillcolor="#fff2cc", label=<<B>Kinds of pain</B><BR ALIGN="LEFT"/>Acute: heals in ~3 months<BR ALIGN="LEFT"/>Neuropathic: burning, shooting<BR ALIGN="LEFT"/>Visceral → referred (MI → jaw: EKG)<BR ALIGN="LEFT"/>Fibromyalgia · cancer<BR ALIGN="LEFT"/>>];
+  assess [fillcolor="#fff2cc", label=<<B>Assess</B><BR ALIGN="LEFT"/>Numeric 0–10 · OLDCARTS · FACES<BR ALIGN="LEFT"/>FLACC: age 2–7, nonverbal ICU<BR ALIGN="LEFT"/>Before + 1 h after · function<BR ALIGN="LEFT"/>>];
+  rec    [fillcolor="#e4dfec", label=<<B>Opioid receptors</B><BR ALIGN="LEFT"/>μ: euphoria, addiction,<BR ALIGN="LEFT"/>respiratory depression<BR ALIGN="LEFT"/>κ: dysphoria, sedation<BR ALIGN="LEFT"/>>];
+  cox    [fillcolor="#fce4d6", label=<<B>COX enzymes</B><BR ALIGN="LEFT"/>COX-1 "good": stomach, kidney, platelets<BR ALIGN="LEFT"/>COX-2 "bad": inflammation, fever,<BR ALIGN="LEFT"/>vasodilation<BR ALIGN="LEFT"/>>];
+  nsaid  [fillcolor="#f8cbad", label=<<B>NSAIDs &amp; aspirin</B><BR ALIGN="LEFT"/>1st gen: COX-1 + 2 · Celebrex: COX-2<BR ALIGN="LEFT"/>GI bleed, kidneys, MI/stroke<BR ALIGN="LEFT"/>Aspirin: stop 1 wk pre-op, tinnitus,<BR ALIGN="LEFT"/>no kids (Reye's)<BR ALIGN="LEFT"/>>];
+  apap   [fillcolor="#f8cbad", label=<<B>Acetaminophen</B><BR ALIGN="LEFT"/>COX in CNS only — not anti-inflammatory<BR ALIGN="LEFT"/>NAPQI ← glutathione (alcohol depletes)<BR ALIGN="LEFT"/>≤ 4,000 mg · NAC within 8–10 h<BR ALIGN="LEFT"/>>];
+  opi    [fillcolor="#bdd7ee", label=<<B>Opioids</B><BR ALIGN="LEFT"/>Agonists: morphine, codeine<BR ALIGN="LEFT"/>Agonist-antagonist: butorphanol<BR ALIGN="LEFT"/>Morphine: resp. depression, constipation,<BR ALIGN="LEFT"/>sedation, orthostasis · withdrawal 10 d<BR ALIGN="LEFT"/>>];
+  other  [fillcolor="#ddebf7", label=<<B>Other opioids &amp; PCA</B><BR ALIGN="LEFT"/>Fentanyl patch 72 h, never cut<BR ALIGN="LEFT"/>Norco q4–6h · codeine ceiling, cough<BR ALIGN="LEFT"/>PCA: only the patient presses<BR ALIGN="LEFT"/>>];
+  rev    [fillcolor="#ddebf7", label=<<B>Reversal &amp; partial agonist</B><BR ALIGN="LEFT"/>Naloxone: short half-life → repeat<BR ALIGN="LEFT"/>Buprenorphine: partial μ, ceiling, OUD<BR ALIGN="LEFT"/>>];
+  adj    [fillcolor="#e4dfec", label=<<B>Neuropathic drugs</B><BR ALIGN="LEFT"/>Gabapentin/pregabalin: fall risk<BR ALIGN="LEFT"/>SNRIs/TCAs (duloxetine)<BR ALIGN="LEFT"/>"Morphine's not going to help"<BR ALIGN="LEFT"/>>];
+  nurse  [fillcolor="#e2efda", label=<<B>Nursing safety</B><BR ALIGN="LEFT"/>Sedation precedes resp. depression<BR ALIGN="LEFT"/>RR 8 → naloxone · total all Tylenol<BR ALIGN="LEFT"/>Melena, ↓ Hgb on NSAIDs + blood thinners<BR ALIGN="LEFT"/>Lowest dose, shortest time<BR ALIGN="LEFT"/>>];
+
+  pain -> noci   [label=" sensed by"];
+  pain -> assess [label=" measured with"];
+  noci -> types  [label=" gives"];
+  noci -> rec    [label=" modulated at"];
+  types -> cox   [label=" inflammatory /\n mild pain"];
+  types -> opi   [label=" severe acute"];
+  types -> adj   [label=" neuropathic"];
+  cox -> nsaid   [label=" blocked by"];
+  cox -> apap    [label=" blocked (CNS) by"];
+  rec -> opi     [label=" activated by"];
+  opi -> other;
+  opi -> rev     [label=" reversed by"];
+  assess -> nurse [label=" guides"];
+  nsaid -> nurse; apap -> nurse; other -> nurse; rev -> nurse;
+}
