@@ -40,7 +40,9 @@ for (const d of visible(inbox).filter(f => statSync(join(inbox, f)).isDirectory(
   groups.push({ name: d, files: visible(join(inbox, d)).filter(f => statSync(join(inbox, d, f)).isFile()).sort().map(f => join(d, f)) });
 
 // A title hint from the folder name: "2026_10_01_Autonomic_Nervous_System" → "Autonomic Nervous System".
-const folderTitle = name => name.replace(/^\d{4}[-_]\d{2}[-_]\d{2}[-_ ]*/, '').replace(/[_+]+/g, ' ').trim();
+// A lowercase slug folder ("2026-10-08_pain-management") uses hyphens as spaces, not as paired terms.
+const folderTitle = name => { const t = name.replace(/^\d{4}[-_]\d{2}[-_]\d{2}[-_ ]*/, '').replace(/[_+]+/g, ' ').trim();
+  return t === t.toLowerCase() ? t.replace(/-+/g, ' ').replace(/\b[a-z]/g, c => c.toUpperCase()) : t; };
 
 function planGroup(g, overrides = {}) {
   const plan = { inboxFolder: g.name || '(loose files)', files: [], warnings: [] };
@@ -51,7 +53,7 @@ function planGroup(g, overrides = {}) {
     if (ext === '.pptx') { role = 'slides'; try { decks.push(pptxSlides(p)[0]); } catch (e) { note = e.message; } }
     else if (['.key', '.ppt', '.doc'].includes(ext)) { role = 'unsupported'; note = `export as ${ext === '.doc' ? '.docx' : '.pptx or .pdf'} first`; }
     else if (AUDIO.has(ext)) role = 'audio';
-    else if (ext === '.pdf') { role = /slide|lecture|deck|ppt/i.test(f) ? 'slides' : 'supplemental'; note = 'PDF — role guessed from the file name; confirm'; }
+    else if (ext === '.pdf') { role = /slide|lecture|deck|ppt|\bpp\b|powerpoint/i.test(f.replace(/[+_]/g, ' ')) ? 'slides' : 'pdf?'; note = 'PDF — role guessed; confirm'; }
     else {
       try {
         const text = extractFile(p) || '';
@@ -63,11 +65,16 @@ function planGroup(g, overrides = {}) {
     }
     plan.files.push({ file: f, role, note });
   }
+  // An unnamed PDF is the deck when the folder has no other deck (decks exported from an iPad/Keynote arrive as PDFs).
+  const unsure = plan.files.filter(x => x.role === 'pdf?');
+  const hasDeck = plan.files.some(x => x.role === 'slides');
+  unsure.forEach((x, i) => { x.role = !hasDeck && i === 0 ? 'slides' : 'supplemental'; });
   const n = r => plan.files.filter(x => x.role === r).length;
   if (n('transcript') > 1) plan.warnings.push('more than one transcript — merge them or mark extras supplemental');
   for (const x of plan.files.filter(x => x.role === 'unsupported')) plan.warnings.push(`${x.file}: ${x.note}`);
   if (!n('transcript') && n('audio')) plan.warnings.push('no transcript — run tools/transcribe.py after intake (audio is kept in order of file name; rename first if that order is wrong)');
   if (!n('slides')) plan.warnings.push('no slide deck — title comes from the folder name; notes will be built from the transcript and supplements');
+  if (plan.files.some(x => x.role === 'slides' && /\.pdf$/i.test(x.file))) plan.warnings.push('slide deck is a PDF — extract it with python3 tools/pdf_slides.py <class folder> (OCR when the text layer is scrambled); the title and instructor come from the folder name / --instructor');
 
   // Title: --title > single deck's slide 1 > folder name (no deck, or several decks).
   const hint = folderTitle(g.name);

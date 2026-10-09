@@ -64,8 +64,10 @@ node tools/extract.mjs sources/nurs419/<folder>
 
 Writes `extracted/slides.md` (`## Slide N` headings, tables, SmartArt lines marked `[diagram]`, image and chart
 markers), `extracted/images/slide-NN-k.*` (every picture in the deck), `extracted/transcript.md` (timestamps kept,
-with a words-per-speaker line at the top) and one file per supplement. PDFs are skipped by the tool — open them with
-the Read tool page by page.
+with a words-per-speaker line at the top) and one file per supplement. PDFs are skipped by the tool. A slide deck
+that arrived as a PDF (`slides.pdf` — iPad/Keynote exports) goes through `python3 tools/pdf_slides.py <class folder>`:
+it writes the same `extracted/slides.md` plus one image per page, reading the text layer or, when that is scrambled,
+OCR (marked `[ocr]` — check drug names and numbers against the page image). Other PDFs: read them page by page.
 
 Look at the saved image for any slide marked "no text found", any chart, and any slide whose picture seems to carry
 content (a diagram, an ABG table as a picture). Don't guess what an image showed.
