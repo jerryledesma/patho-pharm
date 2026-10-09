@@ -55,9 +55,9 @@
    "stem": "Which cells cannot undergo hyperplasia?",
    "options": [
     "Cardiac muscle cells and neurons",
-    "Endometrial cells",
-    "Skin epithelial cells",
-    "Hepatocytes"
+    "Endometrial and breast epithelial cells",
+    "Skin epithelial cells (as in warts)",
+    "Hepatocytes after partial liver removal"
    ],
    "answer": "A",
    "rationale": "Cells that don't divide — cardiac muscle and neurons — can't add cell number, so they only hypertrophy or atrophy. Liver, endometrium and skin all proliferate (liver regrows, warts are skin hyperplasia).",
@@ -84,8 +84,8 @@
    "type": "mc",
    "stem": "What is the most common cause of hypoxia?",
    "options": [
-    "Anemia",
-    "High altitude",
+    "Anemia (fewer red blood cells)",
+    "High altitude (low O2 in the air)",
     "Carbon monoxide poisoning",
     "Ischemia (decreased blood flow)"
    ],
@@ -250,9 +250,9 @@
    "stem": "Which change is pathologic hypertrophy?",
    "options": [
     "A thickened left ventricle from long-standing hypertension",
-    "A uterus enlarging during pregnancy",
-    "A runner's slightly larger heart",
-    "A weight lifter's enlarged biceps"
+    "A uterus enlarging from hormonal stimulation during pregnancy",
+    "A runner's slightly larger heart after years of endurance training",
+    "A weight lifter's enlarged biceps after months of training"
    ],
    "answer": "A",
    "rationale": "The HTN heart is maladaptive — the wall thickens against high pressure until the ventricle can't fill. Exercise-related enlargement is physiologic; pregnancy is hormonal (physiologic) growth.",
@@ -265,7 +265,7 @@
    "stem": "After a nephrectomy, the remaining kidney enlarges. The best description is:",
    "options": [
     "Compensatory hypertrophy",
-    "Dysplasia",
+    "Compensatory hyperplasia",
     "Pathologic atrophy",
     "Metaplasia"
    ],
@@ -279,10 +279,10 @@
    "type": "mc",
    "stem": "A long-term smoker's airway loses its ciliated cells, replaced by squamous cells. Which statement is true?",
    "options": [
-    "It is irreversible necrosis",
-    "It is a harmless physiologic adaptation",
+    "It is irreversible necrosis caused by the toxins in cigarette smoke",
+    "It is a harmless physiologic adaptation that strengthens and protects the airway lining",
     "It is a maladaptation that removes a protective function and raises cancer risk",
-    "It is caused by denervation"
+    "It is caused by denervation of the airway after years of smoking"
    ],
    "answer": "C",
    "rationale": "Metaplasia protects the cells from the irritants they were catching, but now nothing is caught — maladaptation. Switching cell type means genes are up/down-regulated, which can progress to cancer.",
@@ -296,7 +296,7 @@
    "options": [
     "Metaplasia",
     "Pathologic (viral) hyperplasia",
-    "Physiologic hyperplasia",
+    "Physiologic (hormonal) hyperplasia",
     "Atrophy"
    ],
    "answer": "B",
@@ -310,9 +310,9 @@
    "stem": "Blood flow is restored to an ischemic area of heart muscle, yet more cells die afterward. What explains this?",
    "options": [
     "Ischemia-reperfusion injury from oxidative stress, calcium overload, inflammation and complement",
-    "Metastatic calcification",
-    "Compensatory hyperplasia",
-    "Apoptosis caused by estrogen loss"
+    "Metastatic calcification as calcium salts deposit in the reperfused heart muscle and kill cells",
+    "Compensatory hyperplasia as surviving cells divide to replace the dead ones",
+    "Apoptosis caused by estrogen loss, the same process that shrinks tissue after menopause"
    ],
    "answer": "A",
    "rationale": "Reperfusion adds injury when O₂ returns — free radicals, intracellular Ca²⁺, inflammation and complement. His point: a large share of cells die after flow is restored.",
@@ -324,9 +324,9 @@
    "type": "mc",
    "stem": "A patient with cirrhosis has repeated infections. Which explanation fits the lecture?",
    "options": [
-    "Mast cells release less histamine",
-    "Too many plasma-derived mediators",
-    "IL-10 production is increased",
+    "Mast cells release less histamine, so fewer leukocytes are called in",
+    "Too many plasma-derived mediators keep the patient in constant inflammation",
+    "IL-10 production is increased, turning the inflammatory response off",
     "The liver makes fewer complement, clotting and kinin proteins"
    ],
    "answer": "D",
@@ -340,9 +340,9 @@
    "stem": "A patient takes aspirin for a headache. How does this reduce inflammation?",
    "options": [
     "It blocks cyclooxygenase, reducing prostaglandins",
-    "It increases IL-6",
-    "It activates complement",
-    "It blocks histamine receptors"
+    "It increases IL-6, which turns inflammation back off",
+    "It activates complement to clear the injured cells",
+    "It blocks histamine receptors on the blood vessels"
    ],
    "answer": "A",
    "rationale": "Aspirin and NSAIDs block the COX pathway from arachidonic acid, lowering prostaglandins (pain, permeability). Corticosteroids act earlier, at membrane phospholipids; antihistamines block histamine.",
@@ -369,10 +369,10 @@
    "type": "mc",
    "stem": "A patient with the flu is lethargic, sleepy and has no appetite. These symptoms are driven mainly by:",
    "options": [
-    "Histamine and leukotrienes",
+    "Histamine and leukotrienes (allergic response)",
     "IL-1, IL-6 and TNF-α (sickness behavior)",
-    "Complement C3 and C5",
-    "Fibrinogen"
+    "Complement C3 and C5 (opsonization and lysis)",
+    "Fibrinogen and other acute-phase proteins"
    ],
    "answer": "B",
    "rationale": "IL-1, IL-6 and TNF-α act on the brain to cause sickness behavior. NSAIDs or Tylenol make you \"perk up\" — the infection isn't gone.",
@@ -385,9 +385,9 @@
    "stem": "Why did he describe inflammation as nonspecific?",
    "options": [
     "It produces the same response no matter what caused the injury",
-    "It occurs only in avascular tissue",
-    "It targets one antigen at a time",
-    "It only responds to bacteria"
+    "It occurs only in avascular tissue, away from the bloodstream",
+    "It targets one specific antigen at a time, like adaptive immunity",
+    "It only responds to bacteria, not to physical or chemical injury"
    ],
    "answer": "A",
    "rationale": "\"No matter the injury, it's the same response.\" Cells don't know the cause, so they go all out — lifesaving for a snake bite, overkill for a sprained ankle.",
@@ -429,9 +429,9 @@
    "type": "mc",
    "stem": "Why does diabetes delay wound healing?",
    "options": [
-    "It speeds collagen remodeling",
-    "It increases platelet count",
-    "It causes metastatic calcification",
+    "It speeds collagen remodeling, so the scar forms before the wound has closed",
+    "It increases platelet count, so excess clotting blocks blood flow to the wound",
+    "It causes metastatic calcification of the wound bed, which blocks new tissue growth",
     "Small-vessel disease impairs microcirculation and hyperglycemia impairs macrophages"
    ],
    "answer": "D",
@@ -639,9 +639,9 @@
    "type": "mc",
    "stem": "Temp 101.8°F, WBC 13,500/mm³, CRP and ESR elevated, 3 days after a large injury.",
    "options": [
-    "Chronic granulomatous inflammation",
+    "Chronic inflammation walled off by a granuloma",
     "Systemic manifestations of acute inflammation",
-    "Anti-inflammatory cytokine excess",
+    "Anti-inflammatory cytokine excess (IL-10, TGF-β)",
     "Normal findings"
    ],
    "answer": "B",
@@ -675,10 +675,10 @@
      "type": "mc",
      "stem": "Why did these airway cells lose their cilia?",
      "options": [
-      "Nicotine directly dissolves cilia",
-      "The cilia were trapping the inhaled irritants that injured the cells, so the cells changed to avoid catching them",
-      "The cells were dying by apoptosis",
-      "Cilia are lost normally with age"
+      "Nicotine directly dissolves the cilia, leaving the cells bare and unable to clear mucus",
+      "The cilia trapped the inhaled irritants that injured the cells, so the cells changed to stop catching them",
+      "The ciliated cells were dying by apoptosis and were being replaced by scar tissue along the airway lining",
+      "Cilia are lost normally with age, and smoking only speeds up this expected change"
      ],
      "answer": "B",
      "rationale": "His explanation: cilia catch everything inhaled; for a smoker that's toxic, so the cells \"get rid of our cilia\" to stop grabbing it. It's an adaptation, not cell death or normal aging.",
@@ -690,9 +690,9 @@
      "stem": "How should the nurse describe this change to the patient?",
      "options": [
       "It is a maladaptation that can reverse if he stops smoking, but it can progress toward dysplasia and cancer",
-      "It is a healthy adaptation that protects his lungs",
-      "It is irreversible cell death",
-      "It is cancer"
+      "It is a healthy adaptation that protects his lungs, so there's no need to change his smoking",
+      "It is irreversible cell death, so the damaged airway lining will never recover even if he quits smoking",
+      "It is cancer that has already formed in the airway and will spread unless it is removed"
      ],
      "answer": "A",
      "rationale": "Metaplasia is reversible but maladaptive — nothing gets caught anymore — and switching cell type involves gene up/down-regulation that can progress to dysplasia and neoplasm. Quitting lets cells recover.",
@@ -740,10 +740,10 @@
      "type": "mc",
      "stem": "Why does this adaptation cause her symptoms?",
      "options": [
-      "The heart cells are dying by apoptosis",
-      "The ventricle has too many new cells",
+      "The heart cells are dying by apoptosis, so too few muscle cells are left to pump the blood",
+      "The ventricle has too many new cells, so it beats too fast to fill",
       "The thick wall leaves too little chamber space for blood to fill the ventricle",
-      "The heart has become metaplastic"
+      "The heart has become metaplastic, replacing muscle with weaker cells"
      ],
      "answer": "C",
      "rationale": "His answer to \"why is this a bad thing?\": so much hypertrophy that blood can't fill the ventricle — the cells adapt to the pressure but make function worse.",
@@ -754,9 +754,9 @@
      "type": "mc",
      "stem": "How does the daughter's heart differ?",
      "options": [
-      "It is cardiac hyperplasia",
-      "It is the same pathologic process",
-      "It is compensatory atrophy",
+      "It is cardiac hyperplasia, with more muscle cells added from exercise",
+      "It is the same pathologic process, just at an earlier and milder stage",
+      "It is compensatory atrophy after her heart adapted to training",
       "It is physiologic hypertrophy from exercise and still fills normally"
      ],
      "answer": "D",
@@ -768,7 +768,7 @@
      "type": "mc",
      "stem": "Which statement about cardiac muscle cells is correct?",
      "options": [
-      "They respond to stress mainly by hyperplasia",
+      "They respond to stress mainly by hyperplasia, adding new cells",
       "They cannot undergo hyperplasia because they don't divide",
       "They regenerate completely after injury",
       "They undergo metaplasia with hypertension"
@@ -806,7 +806,7 @@
      "options": [
       "Metaplasia",
       "Physiologic atrophy",
-      "Pathologic hyperplasia",
+      "Compensatory hyperplasia",
       "Compensatory hypertrophy"
      ],
      "answer": "D",
@@ -834,10 +834,10 @@
      "type": "mc",
      "stem": "A patient's liver regrows after 70% was removed. How does this compare with Patient B?",
      "options": [
-      "It is dysplasia",
+      "It is dysplasia — the regrown liver cells vary in size, shape and organization",
       "It is compensatory hyperplasia — cell number increases, rather than cell size",
-      "It is metaplasia",
-      "It is the same as Patient B — hypertrophy"
+      "It is metaplasia — one liver cell type is replaced by another",
+      "It is the same as Patient B — hypertrophy, with cell size increasing"
      ],
      "answer": "B",
      "rationale": "Liver regenerates by increasing cell number (compensatory hyperplasia, ~2 weeks after removal of 70%); the kidney example is cell size (hypertrophy).",
@@ -886,7 +886,7 @@
      "type": "mc",
      "stem": "Why are CK and AST elevated?",
      "options": [
-      "The liver is producing acute-phase proteins",
+      "The liver is producing them as acute-phase proteins",
       "Injured heart muscle cells release these enzymes",
       "They are anti-inflammatory cytokines",
       "Platelets release them during clotting"
@@ -914,9 +914,9 @@
      "type": "mc",
      "stem": "His WBC count of 11,800/mm³ and low-grade fever are best explained by:",
      "options": [
-      "Chronic granulomatous inflammation",
+      "Chronic inflammation from a granuloma walling off injury",
       "Anti-inflammatory cytokine excess",
-      "Normal values",
+      "Normal values within the expected range",
       "Systemic response to cell injury and inflammation"
      ],
      "answer": "D",
@@ -979,9 +979,9 @@
      "type": "mc",
      "stem": "If the wound eventually heals as an open wound filling from the base, it heals by:",
      "options": [
-      "Primary intention — fast, minimal scarring",
-      "Hemostasis alone",
-      "Metaplasia",
+      "Primary intention — faster, with minimal scarring and infection risk",
+      "Hemostasis alone — a fibrin clot seals the wound bed",
+      "Metaplasia — new cell types replace the lost tissue",
       "Secondary intention — slower, more scarring, higher infection risk"
      ],
      "answer": "D",
@@ -1032,9 +1032,9 @@
      "stem": "Why does the body mount the same intense response to a sprained ankle?",
      "options": [
       "Inflammation is nonspecific — cells don't know the cause, so they go all out",
-      "The ankle contains venom",
-      "Sprains always become infected",
-      "Adaptive immunity directs it"
+      "The ankle injury releases toxins as dangerous as venom",
+      "Sprains always become infected, so a full response is needed",
+      "Adaptive immunity directs it, copying the response it learned from earlier injuries"
      ],
      "answer": "A",
      "rationale": "\"No matter the injury, it's always going to be the same response.\" Cells can't tell a sprain from a bite, so the response is all or nothing.",
@@ -1081,10 +1081,10 @@
      "type": "mc",
      "stem": "Which explanation is best supported by the lecture?",
      "options": [
-      "His liver makes too much complement",
+      "His liver makes too much complement, which attacks his own healthy cells and weakens his defenses",
       "His liver makes fewer plasma-derived proteins such as complement, so his defenses are weaker",
-      "Cirrhosis increases IL-10",
-      "His mast cells can't release histamine"
+      "Cirrhosis increases IL-10, which turns off his inflammatory response to infection",
+      "His mast cells can't release histamine, so leukocytes are never called in"
      ],
      "answer": "B",
      "rationale": "The complement, clotting and kinin systems are made by the liver. His answer: a cirrhotic liver means decreased complement → less opsonization and lysis → more infections.",
@@ -1096,9 +1096,9 @@
      "stem": "Complement normally helps phagocytes by:",
      "options": [
       "Opsonization — marking bacteria so phagocytes can recognize and eat them",
-      "Producing antibodies",
-      "Dissolving clots",
-      "Lowering body temperature"
+      "Producing antibodies that bind bacteria so phagocytes can find them",
+      "Dissolving fibrin clots so phagocytes can travel into the infected tissue",
+      "Lowering body temperature so phagocytes work more efficiently"
      ],
      "answer": "A",
      "rationale": "\"Placing a marker on the bacteria\" — opsonization. Without it, bacteria are harder for phagocytes to find. Antibodies come from B/plasma cells.",
@@ -1125,9 +1125,9 @@
      "stem": "His prolonged clotting times fit which fact about the clotting system?",
      "options": [
       "Clotting proteins like fibrinogen are plasma-derived and made by the liver",
-      "Fibrin is made by neutrophils",
-      "Clotting factors come from mast cells",
-      "Platelets make fibrinogen"
+      "Fibrin is made by neutrophils, which a cirrhotic patient has too few of",
+      "Clotting factors come from mast cells, which degranulate less in cirrhosis",
+      "Platelets make fibrinogen, and cirrhosis lowers the platelet count"
      ],
      "answer": "A",
      "rationale": "Fibrinogen and the other clotting proteins circulate from the liver and are activated at injury; less liver function means less of them.",
@@ -1161,9 +1161,9 @@
      "stem": "What causes her hypotension?",
      "options": [
       "Massive vasodilation from too much TNF-α",
-      "Metaplasia of vessel walls",
-      "Hypertrophy of the heart",
-      "Too little histamine"
+      "Metaplasia of the smooth muscle in vessel walls",
+      "Hypertrophy of the heart limiting its filling",
+      "Too little histamine to keep the vessels open"
      ],
      "answer": "A",
      "rationale": "His answer to \"what's the problem with too much TNF-α?\": vasodilation, which is why it's called septic shock.",
@@ -1189,10 +1189,10 @@
      "type": "mc",
      "stem": "Her fever is best explained by:",
      "options": [
-      "Low acute-phase proteins",
-      "Complement lysing her red cells",
+      "Low acute-phase proteins slowing her immune response",
+      "Complement lysing her red blood cells and releasing their contents into the blood",
       "Cytokines such as IL-1 and TNF-α acting as endogenous pyrogens",
-      "Dystrophic calcification"
+      "Dystrophic calcification of the injured tissue"
      ],
      "answer": "C",
      "rationale": "IL-1 is an endogenous pyrogen (\"if they give IL-1… there is a fever response\"), and TNF-α also induces fever.",
@@ -1203,10 +1203,10 @@
      "type": "mc",
      "stem": "Which lab finding would you expect to rise as part of the acute-phase response?",
      "options": [
-      "Platelet serotonin",
+      "Platelet-derived serotonin",
       "C-reactive protein (CRP)",
       "IL-10",
-      "Albumin"
+      "Serum albumin"
      ],
      "answer": "B",
      "rationale": "The liver makes acute-phase reactants — CRP, complement components, fibrinogen — during inflammation, and ESR rises.",
@@ -1239,9 +1239,9 @@
      "type": "mc",
      "stem": "The drainage is serosanguineous. This means:",
      "options": [
-      "Pus with many neutrophils",
-      "Thick fibrin-rich exudate",
-      "Pure blood",
+      "Pus with many neutrophils and debris",
+      "Thick, fibrin-rich exudate from severe injury",
+      "Very bloody, hemorrhagic drainage",
       "Serous (watery) fluid with some blood"
      ],
      "answer": "D",
@@ -1268,8 +1268,8 @@
      "type": "mc",
      "stem": "Which surgical approach did he say reduces complications like this?",
      "options": [
-      "Longer incisions",
-      "Leaving wounds open",
+      "Longer incisions that are easier to close",
+      "Leaving wounds open to heal by secondary intention",
       "Delaying surgery by 2 weeks",
       "Laparoscopic surgery with small incisions"
      ],
@@ -1347,9 +1347,9 @@
      "stem": "A patient on long-term steroids asks how they reduce inflammation. Using the arachidonic acid pathway, corticosteroids act:",
      "options": [
       "Early, at membrane phospholipids — before arachidonic acid is made",
-      "By activating complement",
-      "By increasing histamine",
-      "Only on cyclooxygenase, like aspirin"
+      "By activating complement to clear the inflamed tissue",
+      "By increasing histamine release from mast cells",
+      "Only on cyclooxygenase, like aspirin — after arachidonic acid is made"
      ],
      "answer": "A",
      "rationale": "Slide 67: corticosteroids block the step from membrane phospholipids to arachidonic acid; aspirin and NSAIDs block cyclooxygenase further down.",
@@ -1360,10 +1360,10 @@
      "type": "mc",
      "stem": "A burn patient's wound shows new capillaries and red, bumpy tissue on day 8. This tissue is:",
      "options": [
-      "Keloid",
-      "Caseous necrosis",
+      "Keloid (excess scar tissue)",
+      "Caseous necrosis (cheese-like)",
       "Granulation tissue (proliferative phase)",
-      "Fibrinous exudate"
+      "Fibrinous exudate (thick, fibrin-rich fluid)"
      ],
      "answer": "C",
      "rationale": "Granulation tissue — new capillaries, very red — fills the wound in the proliferative phase (days 3–14).",

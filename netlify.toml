@@ -4,3 +4,4 @@
 
 [build.environment]
   NODE_VERSION = "22"
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = "1"

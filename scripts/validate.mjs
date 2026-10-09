@@ -101,6 +101,12 @@ for (const dir of dirs) {
   const tell = mcs.filter(q => { const i = 'ABCDEF'.indexOf(q.answer), a = q.options[i]?.length || 0;
     return a > 1.3 * Math.max(...q.options.filter((_, k) => k !== i).map(o => o.length)); }).length;
   if (mcs.length && tell / mcs.length > 0.10) warns.push(`${tell} of ${mcs.length} multiple-choice answers are >1.3× longer than every distractor (keep ≤ 10%)`);
+  // Answer position: no letter should be the correct answer far more often than the others (IMP-06).
+  if (mcs.length >= 10) {
+    const byLetter = {}; for (const q of mcs) byLetter[q.answer] = (byLetter[q.answer] || 0) + 1;
+    const [top, n] = Object.entries(byLetter).sort((a, b) => b[1] - a[1])[0];
+    if (n / mcs.length > 0.40) warns.push(`"${top}" is the correct answer in ${n} of ${mcs.length} multiple-choice items (keep ≤ 40% per letter)`);
+  }
   const items = [...(L.practice || []), ...(L.clinical || []).flatMap(s => s.questions || []), ...(L.cards || []), ...(L.qa || [])];
   const noSrc = items.filter(x => !x.src).length;
   if (noSrc) warns.push(`${noSrc} of ${items.length} items have no "src" (source link for review)`);

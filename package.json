@@ -6,12 +6,15 @@
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/validate.mjs && node scripts/build-index.mjs",
     "hash-password": "node scripts/hash-password.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "smoke": "node scripts/build-index.mjs && node tests/smoke.mjs",
+    "release-check": "node tools/release-check.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.1.1"
   },
   "devDependencies": {
-    "@viz-js/viz": "^3.30.0"
+    "@viz-js/viz": "^3.30.0",
+    "playwright": "~1.55.0"
   }
 }

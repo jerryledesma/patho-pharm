@@ -20,12 +20,12 @@
    "type": "mc",
    "stem": "The normal arterial pH range is:",
    "options": [
-    "7.25–7.35",
-    "7.35–7.45",
     "7.45–7.55",
-    "35–45"
+    "35–45",
+    "7.35–7.45",
+    "7.25–7.35"
    ],
-   "answer": "B",
+   "answer": "C",
    "rationale": "Blood is held slightly alkaline at 7.35–7.45 — a window of only 0.10. (Her trick: 7.35–7.45 pairs with PaCO2 35–45.)"
   },
   {
@@ -35,11 +35,11 @@
    "stem": "Which set of values is normal for PaCO2 and HCO3- respectively?",
    "options": [
     "22–26 mm Hg; 35–45 mEq/L",
-    "35–45 mm Hg; 22–26 mEq/L",
+    "35–45 mm Hg; 3–11 mEq/L",
     "7.35–7.45 mm Hg; 22–26 mEq/L",
-    "35–45 mm Hg; 3–11 mEq/L"
+    "35–45 mm Hg; 22–26 mEq/L"
    ],
-   "answer": "B",
+   "answer": "D",
    "rationale": "PaCO2 35–45 mm Hg is the respiratory value; HCO3- 22–26 mEq/L is the metabolic value. 3–11 is the anion gap, which is not tested."
   },
   {
@@ -50,10 +50,10 @@
    "options": [
     "Potassium",
     "Bicarbonate",
-    "Hydrogen",
-    "Sodium"
+    "Sodium",
+    "Hydrogen"
    ],
-   "answer": "C",
+   "answer": "D",
    "rationale": "\"Power/potential of hydrogen.\" More H+ = lower pH = more acidic."
   },
   {
@@ -62,12 +62,12 @@
    "type": "mc",
    "stem": "A substance that can donate hydrogen ions is a(n):",
    "options": [
-    "Base",
     "Buffer",
     "Acid",
-    "Electrolyte"
+    "Electrolyte",
+    "Base"
    ],
-   "answer": "C",
+   "answer": "B",
    "rationale": "Acid donates H+; base accepts H+; a buffer can do either and therefore resists changes in pH."
   },
   {
@@ -76,12 +76,12 @@
    "type": "mc",
    "stem": "The primary buffer system of the extracellular fluid is the:",
    "options": [
-    "Hemoglobin buffer",
-    "Protein buffer",
+    "Carbonic acid–bicarbonate buffer",
+    "Hemoglobin buffer in red blood cells",
     "Phosphate buffer",
-    "Carbonic acid–bicarbonate buffer"
+    "Protein buffer (–NH2 and –COOH groups)"
    ],
-   "answer": "D",
+   "answer": "A",
    "rationale": "The bicarbonate system is \"the most important one to remember\"; hemoglobin and protein buffers are FYI only."
   },
   {
@@ -104,10 +104,10 @@
    "type": "mc",
    "stem": "The most accurate sample for determining acid-base status is drawn from:",
    "options": [
-    "A peripheral vein",
+    "A capillary stick",
     "A central venous catheter",
     "An artery",
-    "A capillary stick"
+    "A peripheral vein"
    ],
    "answer": "C",
    "rationale": "Arterial blood gives the accurate oxygenation and CO2 picture. Sites: radial, brachial, femoral, or an arterial line."
@@ -118,12 +118,12 @@
    "type": "mc",
    "stem": "The word \"hypercapnia\" means:",
    "options": [
-    "Low oxygen",
     "Excess CO2",
-    "Low CO2",
-    "Excess bicarbonate"
+    "Low oxygen",
+    "Excess bicarbonate",
+    "Low CO2"
    ],
-   "answer": "B",
+   "answer": "A",
    "rationale": "Hypercapnia = CO2 retained (respiratory acidosis). Hypocapnia = CO2 blown off (respiratory alkalosis). She put both in the same Kahoot to trick you."
   },
   {
@@ -132,12 +132,12 @@
    "type": "mc",
    "stem": "ROME stands for:",
    "options": [
-    "Respiratory Only, Metabolic Equal",
     "Respiratory Opposite, Metabolic Equal",
-    "Renal Opposite, Metabolic Equal",
-    "Respiratory Opposite, Metabolic Elevated"
+    "Respiratory Opposite, Metabolic Elevated",
+    "Respiratory Only, Metabolic Equal",
+    "Renal Opposite, Metabolic Equal"
    ],
-   "answer": "B",
+   "answer": "A",
    "rationale": "In respiratory disorders pH and PaCO2 move in opposite directions; in metabolic disorders pH and HCO3- move together."
   },
   {
@@ -147,11 +147,11 @@
    "stem": "Which system compensates for an acid-base disorder more quickly?",
    "options": [
     "Kidneys",
-    "Lungs",
     "Liver",
+    "Lungs",
     "Both equally"
    ],
-   "answer": "B",
+   "answer": "C",
    "rationale": "Lungs adjust \"relatively quick\"; kidneys are \"slow and steady,\" taking hours to days but fixing it \"for good.\""
   },
   {
@@ -161,11 +161,11 @@
    "stem": "The mnemonic DEPRES lists causes of:",
    "options": [
     "Metabolic acidosis",
-    "Metabolic alkalosis",
     "Respiratory acidosis",
-    "Respiratory alkalosis"
+    "Respiratory alkalosis",
+    "Metabolic alkalosis"
    ],
-   "answer": "C",
+   "answer": "B",
    "rationale": "Drugs, Edema (pulmonary), Pneumonia, Respiratory alterations (stroke), Emphysema, Spasm of bronchioles (asthma/COPD) — all hypoventilation."
   },
   {
@@ -175,9 +175,9 @@
    "stem": "The mnemonic TACHYPNEA lists causes of:",
    "options": [
     "Respiratory alkalosis",
-    "Respiratory acidosis",
     "Metabolic acidosis",
-    "Metabolic alkalosis"
+    "Metabolic alkalosis",
+    "Respiratory acidosis"
    ],
    "answer": "A",
    "rationale": "Temperature, Aspirin, Controlled ventilation, Hyperventilation, Yelp/anxiety, Pneumothorax, Neuro, Embolism, Altitude — all hyperventilation."
@@ -188,12 +188,12 @@
    "type": "mc",
    "stem": "In acidosis, excess H+ moves into the cell. Which electrolyte change results?",
    "options": [
-    "Hypokalemia",
     "Hyperkalemia",
-    "Hyponatremia",
-    "Hypocalcemia"
+    "Hypocalcemia",
+    "Hypokalemia",
+    "Hyponatremia"
    ],
-   "answer": "B",
+   "answer": "A",
    "rationale": "K+ leaves the cell to maintain electrical neutrality → hyperkalemia. H+ also displaces Ca++ from albumin → hypercalcemia. \"Hyper and hyper.\""
   },
   {
@@ -216,9 +216,9 @@
    "type": "mc",
    "stem": "The nurse monitors the EKG of a patient with an acid-base disorder primarily because of shifts in which electrolyte?",
    "options": [
-    "Sodium",
     "Calcium",
     "Chloride",
+    "Sodium",
     "Potassium"
    ],
    "answer": "D",
@@ -230,10 +230,10 @@
    "type": "mc",
    "stem": "A patient with chronic COPD breathes on 2 L of oxygen. A new resident orders 4 L via nasal cannula. The nurse's best action is to:",
    "options": [
-    "Apply the 4 L as ordered",
+    "Apply a non-rebreather mask instead, so the saturation rises quickly into the normal range",
     "Question the order because the patient's respiratory drive is regulated by chronically low O2 and high CO2",
-    "Apply a non-rebreather instead",
-    "Increase to 6 L until saturation reaches 98%"
+    "Apply the 4 L as ordered, because higher-flow oxygen will correct the patient's low saturation more quickly",
+    "Increase to 6 L until saturation reaches 98%, then wean the oxygen as the patient tolerates"
    ],
    "answer": "B",
    "rationale": "COPD patients autoregulate to a hypoxic drive; over-oxygenating \"will get him in trouble.\" Her clinic examples sat at 82–85%; \"you won't get them above 90, maybe 92.\""
@@ -245,9 +245,9 @@
    "stem": "A post-operative patient is not waking from anesthesia as expected. The PACU nurse anticipates the ABG will show:",
    "options": [
     "Metabolic alkalosis",
-    "Respiratory alkalosis",
+    "Metabolic acidosis",
     "Respiratory acidosis",
-    "Metabolic acidosis"
+    "Respiratory alkalosis"
    ],
    "answer": "C",
    "rationale": "Oversedation (fentanyl, Versed, opioids) → hypoventilation → CO2 retention. Anticipate naloxone as a reversal agent."
@@ -258,12 +258,12 @@
    "type": "mc",
    "stem": "A patient with severe anxiety is breathing rapidly and complains of tingling in the fingers. Which is the priority nursing intervention?",
    "options": [
-    "Administer high-flow oxygen",
-    "Coach slow diaphragmatic breathing and use therapeutic communication",
-    "Prepare for hemodialysis",
-    "Administer sodium bicarbonate"
+    "Administer high-flow oxygen by non-rebreather mask to relieve the tingling",
+    "Administer sodium bicarbonate IV to correct the acid-base imbalance",
+    "Prepare for hemodialysis to correct the patient's calcium imbalance",
+    "Coach slow diaphragmatic breathing and use therapeutic communication"
    ],
-   "answer": "B",
+   "answer": "D",
    "rationale": "Respiratory alkalosis from hyperventilation; tingling is from low ionized calcium. REST: Rebreather/slow breathing, Electrolytes, Sedative if needed, Teach relaxation."
   },
   {
@@ -272,12 +272,12 @@
    "type": "mc",
    "stem": "A patient has had severe diarrhea for three days. The nurse expects which acid-base disorder?",
    "options": [
-    "Metabolic alkalosis",
-    "Respiratory acidosis",
+    "Respiratory alkalosis",
     "Metabolic acidosis",
-    "Respiratory alkalosis"
+    "Respiratory acidosis",
+    "Metabolic alkalosis"
    ],
-   "answer": "C",
+   "answer": "B",
    "rationale": "Diarrhea loses bicarbonate → HCO3- deficit → relative excess of H+. \"This is an NCLEX question, and we will ask you.\""
   },
   {
@@ -286,12 +286,12 @@
    "type": "mc",
    "stem": "A patient has had an NG tube to continuous suction for two days. The nurse expects which acid-base disorder?",
    "options": [
-    "Metabolic acidosis",
-    "Metabolic alkalosis",
     "Respiratory acidosis",
-    "Respiratory alkalosis"
+    "Respiratory alkalosis",
+    "Metabolic acidosis",
+    "Metabolic alkalosis"
    ],
-   "answer": "B",
+   "answer": "D",
    "rationale": "Suction (like vomiting) removes hydrochloric acid → loss of H+ → relative excess of bicarbonate."
   },
   {
@@ -300,10 +300,10 @@
    "type": "mc",
    "stem": "A patient in diabetic ketoacidosis has deep, rapid respirations. The nurse interprets this as:",
    "options": [
-    "Respiratory acidosis from CO2 retention",
+    "A sign the acidosis has resolved and the patient's breathing is returning to normal",
     "Kussmaul respirations — the lungs compensating for metabolic acidosis by blowing off CO2",
-    "Anxiety requiring a sedative",
-    "A sign the acidosis has resolved"
+    "Anxiety-driven hyperventilation that requires a sedative to slow the breathing",
+    "Respiratory acidosis — CO2 is being retained because the lungs are tiring and failing"
    ],
    "answer": "B",
    "rationale": "Kussmaul breathing is the respiratory compensation for metabolic acidosis; do not suppress it."
@@ -315,11 +315,11 @@
    "stem": "A patient in DKA has a potassium of 5.8 mEq/L. After insulin is started, the nurse should monitor for:",
    "options": [
     "Hyperkalemia",
-    "Hypokalemia",
     "Hypercalcemia",
-    "Hypernatremia"
+    "Hypernatremia",
+    "Hypokalemia"
    ],
-   "answer": "B",
+   "answer": "D",
    "rationale": "Insulin drives glucose into cells and potassium follows → serum K+ falls. \"When you fix one thing it's easy to throw the balance.\""
   },
   {
@@ -328,12 +328,12 @@
    "type": "mc",
    "stem": "Which IV fluid does the nurse anticipate for a patient in metabolic acidosis?",
    "options": [
-    "0.9% normal saline only",
-    "Lactated Ringer's (lactate is converted to bicarbonate by the liver)",
-    "D5W",
-    "3% saline"
+    "3% saline (hypertonic sodium buffers the excess hydrogen ions)",
+    "D5W (free water dilutes the excess acid in the bloodstream)",
+    "0.9% normal saline only (the fluid of choice for any acid-base disorder)",
+    "Lactated Ringer's (lactate is converted to bicarbonate by the liver)"
    ],
-   "answer": "B",
+   "answer": "D",
    "rationale": "Balanced crystalloids like LR supply bicarbonate precursors. Sodium bicarbonate is reserved for severe/emergency acidosis. Normal saline is the usual choice in metabolic alkalosis."
   },
   {
@@ -342,10 +342,10 @@
    "type": "mc",
    "stem": "An order reads \"KCl 40 mEq IV over 1 hour.\" The nurse should:",
    "options": [
-    "Give it as ordered",
-    "Push it slowly over 5 minutes",
+    "Give it as ordered, since 40 mEq over 1 hour is a standard rate",
+    "Give it IM instead, because the IV route irritates the veins",
     "Question the order — IV potassium should not exceed 10 mEq/hr",
-    "Give it IM instead"
+    "Push it slowly over 5 minutes, then monitor the EKG closely"
    ],
    "answer": "C",
    "rationale": "Potassium is never pushed and is limited to 10 mEq/hr. Anticipate a BMP within about 6 hours and EKG monitoring."
@@ -356,12 +356,12 @@
    "type": "mc",
    "stem": "A patient with a pulmonary embolism is anxious, tachypneic, and reports chest pain. The nurse expects the ABG to show:",
    "options": [
-    "pH ↓, PaCO2 ↑",
     "pH ↑, PaCO2 ↓",
-    "pH ↓, HCO3- ↓",
-    "pH ↑, HCO3- ↑"
+    "pH ↑, HCO3- ↑",
+    "pH ↓, PaCO2 ↑",
+    "pH ↓, HCO3- ↓"
    ],
-   "answer": "B",
+   "answer": "A",
    "rationale": "Air hunger drives hyperventilation → CO2 blown off → respiratory alkalosis. \"PE is a big one.\""
   },
   {
@@ -370,12 +370,12 @@
    "type": "mc",
    "stem": "A patient in respiratory acidosis has a normal HCO3-. Which statement about compensation is correct?",
    "options": [
-    "The kidneys have fully compensated",
-    "Compensation is partial",
-    "No compensation has occurred because the metabolic value has not moved",
-    "The lungs are compensating"
+    "Compensation is partial, because HCO3- stays within the normal range",
+    "The lungs are compensating by adjusting the PaCO2 back toward normal",
+    "The kidneys have fully compensated, since the pH is the only abnormal value",
+    "No compensation has occurred because the metabolic value has not moved"
    ],
-   "answer": "C",
+   "answer": "D",
    "rationale": "For a respiratory disorder the kidneys compensate by moving HCO3-; a normal HCO3- means \"bicarb is not moving in any direction.\" A value near the edge but still within range does not count."
   },
   {
@@ -384,10 +384,10 @@
    "type": "mc",
    "stem": "A patient is vomiting from DKA and a classmate suggests the vomiting is helping compensate. The best response is:",
    "options": [
-    "Correct — losing acid raises pH",
+    "Vomiting causes hyperkalemia, which shifts hydrogen ions back into cells",
     "Vomiting is a side effect of the disease, not a compensatory mechanism",
-    "Vomiting causes respiratory alkalosis",
-    "Vomiting causes hyperkalemia"
+    "Correct — losing stomach acid through vomiting raises the pH toward normal",
+    "Vomiting causes respiratory alkalosis, which offsets the metabolic acidosis"
    ],
    "answer": "B",
    "rationale": "Per the co-instructor: compensation is done by the lungs and kidneys. Vomiting is a symptom of DKA even though losing acid could technically help."
@@ -412,10 +412,10 @@
    "type": "mc",
    "stem": "pH 7.15, PaCO2 30, HCO3- 10",
    "options": [
-    "Uncompensated respiratory acidosis",
+    "Fully compensated metabolic acidosis",
     "Partially compensated metabolic acidosis",
-    "Mixed acidosis",
-    "Fully compensated metabolic acidosis"
+    "Uncompensated respiratory acidosis",
+    "Mixed respiratory and metabolic acidosis"
    ],
    "answer": "B",
    "rationale": "Acid / Base / Acid. pH matches HCO3- → metabolic acidosis. PaCO2 is low (lungs blowing off CO2) but pH still abnormal → partial. Don't let the 30 throw you — look at how low pH and HCO3- are."
@@ -426,10 +426,10 @@
    "type": "mc",
    "stem": "pH 7.49, PaCO2 40, HCO3- 29",
    "options": [
-    "Uncompensated respiratory alkalosis",
     "Partially compensated metabolic alkalosis",
+    "Fully compensated metabolic alkalosis",
     "Uncompensated metabolic alkalosis",
-    "Fully compensated metabolic alkalosis"
+    "Uncompensated respiratory alkalosis"
    ],
    "answer": "C",
    "rationale": "Base / Normal / Base → metabolic alkalosis. PaCO2 normal → not compensating \"yet\"; it would have to rise."
@@ -440,10 +440,10 @@
    "type": "mc",
    "stem": "pH 7.44, PaCO2 50, HCO3- 35",
    "options": [
-    "Fully compensated respiratory acidosis",
+    "Mixed disorder",
     "Fully compensated metabolic alkalosis",
     "Partially compensated metabolic alkalosis",
-    "Mixed disorder"
+    "Fully compensated respiratory acidosis"
    ],
    "answer": "B",
    "rationale": "pH normal → full compensation. pH is above 7.40, leaning base; HCO3- is the base value → metabolic alkalosis is the disorder; the high PaCO2 is the lungs compensating."
@@ -454,10 +454,10 @@
    "type": "mc",
    "stem": "pH 7.30, PaCO2 55, HCO3- 22",
    "options": [
-    "Partially compensated respiratory acidosis",
+    "Fully compensated respiratory acidosis",
     "Uncompensated respiratory acidosis",
     "Uncompensated metabolic acidosis",
-    "Fully compensated respiratory acidosis"
+    "Partially compensated respiratory acidosis"
    ],
    "answer": "B",
    "rationale": "Acid / Acid / Normal → respiratory acidosis. HCO3- of 22 is still normal, so no compensation."
@@ -468,12 +468,12 @@
    "type": "mc",
    "stem": "pH 7.25, PaCO2 28, HCO3- 15",
    "options": [
-    "Uncompensated metabolic acidosis",
-    "Partially compensated metabolic acidosis",
     "Partially compensated respiratory alkalosis",
-    "Mixed disorder"
+    "Mixed disorder",
+    "Uncompensated metabolic acidosis",
+    "Partially compensated metabolic acidosis"
    ],
-   "answer": "B",
+   "answer": "D",
    "rationale": "Acid / Base / Acid → metabolic acidosis; low PaCO2 = lungs compensating; pH still low → partial. \"Even 7.34 is not there yet.\""
   },
   {
@@ -482,12 +482,12 @@
    "type": "mc",
    "stem": "pH 7.35, PaCO2 51, HCO3- 30",
    "options": [
-    "Fully compensated respiratory acidosis",
     "Fully compensated metabolic alkalosis",
     "Partially compensated respiratory acidosis",
+    "Fully compensated respiratory acidosis",
     "Uncompensated metabolic alkalosis"
    ],
-   "answer": "A",
+   "answer": "C",
    "rationale": "pH normal (7.35) but below 7.40, leaning acid; PaCO2 is the acid value → respiratory acidosis; kidneys raised HCO3- → full compensation. \"Our chronic COPD friends.\""
   },
   {
@@ -496,12 +496,12 @@
    "type": "mc",
    "stem": "pH 7.27, PaCO2 70, HCO3- 11",
    "options": [
-    "Partially compensated respiratory acidosis",
-    "Partially compensated metabolic acidosis",
     "Mixed respiratory and metabolic acidosis",
+    "Partially compensated metabolic acidosis",
+    "Partially compensated respiratory acidosis",
     "Fully compensated respiratory acidosis"
    ],
-   "answer": "C",
+   "answer": "A",
    "rationale": "Acid / Acid / Acid — \"all screaming acid.\" Two primary problems, e.g., a COPD patient with severe diarrhea. No compensation possible."
   },
   {
@@ -510,12 +510,12 @@
    "type": "mc",
    "stem": "In-class case: a patient with type 2 diabetes has been vomiting; HR 124, BP low, respirations deep and rapid. ABG: pH 7.25, PaCO2 31, HCO3- low (about 14). Interpretation?",
    "options": [
-    "Uncompensated metabolic alkalosis from vomiting",
-    "Partially compensated metabolic acidosis",
+    "Fully compensated respiratory acidosis",
     "Uncompensated respiratory alkalosis",
-    "Fully compensated respiratory acidosis"
+    "Uncompensated metabolic alkalosis from vomiting",
+    "Partially compensated metabolic acidosis"
    ],
-   "answer": "B",
+   "answer": "D",
    "rationale": "Acid / Base / Acid → metabolic acidosis (DKA). If it were respiratory, PaCO2 would be high, not 31. The rapid breathing is the lungs partially compensating; pH is still abnormal."
   },
   {
@@ -526,8 +526,8 @@
    "options": [
     "Uncompensated respiratory alkalosis",
     "Partially compensated respiratory alkalosis",
-    "Uncompensated metabolic alkalosis",
-    "Fully compensated respiratory alkalosis"
+    "Fully compensated respiratory alkalosis",
+    "Uncompensated metabolic alkalosis"
    ],
    "answer": "A",
    "rationale": "Base / Base / Normal → respiratory alkalosis. HCO3- of 23 is inside normal range, so it does not count as compensation even though it is near the lower limit."
@@ -538,12 +538,12 @@
    "type": "mc",
    "stem": "In-class case: an 83-year-old with COPD reports shortness of breath. pH is normal on the low side, PaCO2 is high, HCO3- is high (illustrative values: 7.36 / 58 / 32). Interpretation?",
    "options": [
-    "Uncompensated respiratory acidosis",
-    "Fully compensated metabolic alkalosis",
     "Fully compensated respiratory acidosis",
-    "Mixed disorder"
+    "Fully compensated metabolic alkalosis",
+    "Uncompensated respiratory acidosis",
+    "Mixed respiratory and metabolic acidosis"
    ],
-   "answer": "C",
+   "answer": "A",
    "rationale": "pH normal but < 7.40 (leans acid); PaCO2 is acid → respiratory acidosis is the disorder; HCO3- raised by the kidneys → full compensation. Classic chronic COPD."
   },
   {
@@ -552,13 +552,13 @@
    "type": "mc",
    "stem": "A patient with a 20-year history of COPD develops severe diarrhea. Which ABG pattern would the nurse expect?",
    "options": [
-    "pH ↑, PaCO2 ↓, HCO3- ↓",
+    "pH normal, PaCO2 ↑, HCO3- ↑",
     "pH ↓, PaCO2 ↑, HCO3- ↓",
-    "pH ↓, PaCO2 ↑, HCO3- ↑",
-    "pH normal, PaCO2 ↑, HCO3- ↑"
+    "pH ↑, PaCO2 ↓, HCO3- ↓",
+    "pH ↓, PaCO2 ↑, HCO3- ↑"
    ],
    "answer": "B",
-   "rationale": "Respiratory acidosis (retained CO2) plus metabolic acidosis (lost bicarbonate) = mixed acidosis. Option D is the compensated COPD baseline before the diarrhea."
+   "rationale": "Respiratory acidosis (retained CO2) plus metabolic acidosis (lost bicarbonate) = mixed acidosis. Option A is the compensated COPD baseline before the diarrhea."
   }
  ],
  "clinical": [
@@ -573,10 +573,10 @@
      "type": "mc",
      "stem": "Using the four-step method, the nurse interprets this ABG as:",
      "options": [
-      "Partially compensated respiratory acidosis",
-      "Uncompensated respiratory acidosis",
       "Uncompensated metabolic acidosis",
-      "Fully compensated respiratory acidosis"
+      "Uncompensated respiratory acidosis",
+      "Fully compensated respiratory acidosis",
+      "Partially compensated respiratory acidosis"
      ],
      "answer": "B",
      "rationale": "pH acid, PaCO2 acid, HCO3- normal. pH matches PaCO2 (opposite directions) → respiratory acidosis. HCO3- has not moved → uncompensated. Kidneys take hours to days, so 45 minutes post-op you expect no metabolic compensation."
@@ -586,12 +586,12 @@
      "type": "mc",
      "stem": "The most likely cause of this patient's acid-base disorder is:",
      "options": [
-      "Loss of bicarbonate from bowel prep",
       "Hypoventilation from residual sedation (the \"D\" in DEPRES)",
-      "Hyperventilation from post-operative pain",
-      "Lactic acidosis from surgical blood loss"
+      "Hyperventilation from post-operative pain (the \"Y\" in TACHYPNEA)",
+      "Loss of bicarbonate from bowel prep diarrhea (the \"C\" in ACIDS)",
+      "Lactic acidosis from surgical blood loss (the \"A\" in ACIDS)"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "Too much fentanyl/Versed on board depresses ventilation → CO2 retention → hypercapnia. She told the class this exact PACU story: the patient \"was just not coming out of the sedation like they should have.\""
     },
     {
@@ -614,12 +614,12 @@
      "type": "mc",
      "stem": "Her son says, \"She's older — isn't it normal for her to be slow to wake?\" The nurse's best response reflects which lecture point?",
      "options": [
-      "Older patients always take longer, so no action is needed",
+      "The ABG is unreliable in older adults, so the nurse should rely on the bedside assessment",
+      "Older patients always take longer to clear anesthesia, so no action is needed beyond routine monitoring",
       "Age can slow drug clearance, but you compare against the patient's own baseline and act on an abnormal ABG",
-      "The ABG is unreliable in older adults",
-      "Grogginess after anesthesia never requires an ABG"
+      "Grogginess after anesthesia is expected at her age, so the ABG does not need to be reported right now"
      ],
-     "answer": "B",
+     "answer": "C",
      "rationale": "She said older patients may take longer to clear medications, but \"it's good to know what your baseline was\" and patients \"can turn 180 in a couple hours.\" The ABG is objective evidence to act on."
     }
    ]
@@ -636,11 +636,11 @@
      "stem": "The nurse interprets the ABG as:",
      "options": [
       "Uncompensated respiratory acidosis",
-      "Fully compensated respiratory acidosis",
+      "Mixed respiratory and metabolic disorder",
       "Fully compensated metabolic alkalosis",
-      "Mixed respiratory and metabolic disorder"
+      "Fully compensated respiratory acidosis"
      ],
-     "answer": "B",
+     "answer": "D",
      "rationale": "pH is normal but below 7.40, so it leans acid. PaCO2 is the acid value → respiratory acidosis is the disorder; the kidneys have raised HCO3- to compensate. \"Every time I hear COPD, I think fully compensated respiratory acidosis.\""
     },
     {
@@ -648,12 +648,12 @@
      "type": "mc",
      "stem": "Regarding the oxygen order, the nurse should:",
      "options": [
-      "Increase to 4 L as ordered because the saturation is below 90%",
-      "Question the order — this patient's respiratory drive is autoregulated to chronically low O2 and high CO2, and 88% may be his baseline",
-      "Place the patient on a non-rebreather mask",
-      "Turn the oxygen off to stimulate breathing"
+      "Place the patient on a non-rebreather mask so his saturation rises quickly above 90% and he can rest",
+      "Increase to 4 L as ordered, because a saturation below 90% means hypoxemia that must be corrected right away",
+      "Turn the oxygen off completely to stimulate his breathing, then recheck the saturation in an hour",
+      "Question the order — his drive is autoregulated to chronically low O2 and high CO2; 88% may be his baseline"
      ],
-     "answer": "B",
+     "answer": "D",
      "rationale": "Her pearl, repeated several times: COPDers adapted to low O2/high CO2; putting a 2-liter patient on 4 liters or a non-rebreather \"will get him in trouble.\" Her clinic patients sat at 82–85%; \"you won't get them above 90, maybe 92.\""
     },
     {
@@ -675,12 +675,12 @@
      "type": "mc",
      "stem": "That afternoon the patient develops profuse watery diarrhea. A repeat ABG shows pH 7.27, PaCO2 62, HCO3- 18. This now represents:",
      "options": [
-      "Fully compensated respiratory acidosis",
+      "Metabolic alkalosis from fluid loss",
       "Partially compensated metabolic acidosis",
-      "Mixed respiratory and metabolic acidosis",
-      "Metabolic alkalosis from fluid loss"
+      "Fully compensated respiratory acidosis",
+      "Mixed respiratory and metabolic acidosis"
      ],
-     "answer": "C",
+     "answer": "D",
      "rationale": "All three values now read acid. Her exact example of a mixed disorder: a COPD patient who develops severe diarrhea and loses bicarbonate on top of retained CO2. No compensation is possible when both systems are the problem."
     }
    ]
@@ -697,9 +697,9 @@
      "stem": "The ABG shows:",
      "options": [
       "Uncompensated respiratory alkalosis",
+      "Fully compensated respiratory alkalosis",
       "Partially compensated respiratory alkalosis",
-      "Uncompensated metabolic alkalosis",
-      "Fully compensated respiratory alkalosis"
+      "Uncompensated metabolic alkalosis"
      ],
      "answer": "A",
      "rationale": "pH base, PaCO2 base (low CO2 = base), HCO3- normal → respiratory alkalosis, uncompensated. The \"Y\" in TACHYPNEA: yelp/help — anxiety and fear."
@@ -709,12 +709,12 @@
      "type": "mc",
      "stem": "The tingling and finger spasm are best explained by:",
      "options": [
-      "Hyperkalemia from acidosis",
       "Hypocalcemia — with H+ leaving the cells, albumin binding sites open and ionized calcium falls",
-      "Hypernatremia from hyperventilation",
-      "Cerebral vasodilation"
+      "Hyperkalemia — with H+ moving into the cells, potassium shifts out and irritates the nerves",
+      "Cerebral vasodilation — rising CO2 widens the brain's vessels and triggers spasms",
+      "Hypernatremia — rapid breathing loses free water, concentrating sodium and irritating the nerves"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "Slide 22: paresthesias, tetany, carpopedal spasm due to hypocalcemia. In alkalosis, \"you have hypokalemia and hypocalcemia.\""
     },
     {
@@ -735,12 +735,12 @@
      "type": "mc",
      "stem": "The patient asks for oxygen because she \"can't get enough air.\" The nurse understands that:",
      "options": [
-      "High-flow oxygen will correct the alkalosis",
+      "She should receive a non-rebreather at 15 L, because her air hunger means her tissues are not getting enough O2",
+      "High-flow oxygen will correct the alkalosis by easing her air hunger and slowing her breathing",
       "Her saturation is 99% — the problem is blowing off CO2, not lack of O2, so oxygen does not fix it",
-      "Oxygen will raise her PaCO2",
-      "She should receive a non-rebreather at 15 L"
+      "Oxygen will raise her PaCO2 back into the normal range and correct her pH"
      ],
-     "answer": "B",
+     "answer": "C",
      "rationale": "\"Exclusively a function of ventilation.\" She is hyperventilating; the sensation of air hunger is anxiety-driven. The fix is slowing the breathing."
     }
    ]
@@ -756,10 +756,10 @@
      "type": "mc",
      "stem": "The nurse interprets the ABG as:",
      "options": [
-      "Uncompensated metabolic alkalosis from vomiting",
-      "Partially compensated metabolic acidosis",
       "Uncompensated respiratory alkalosis",
-      "Mixed acidosis"
+      "Partially compensated metabolic acidosis",
+      "Mixed acidosis",
+      "Uncompensated metabolic alkalosis from vomiting"
      ],
      "answer": "B",
      "rationale": "pH acid, PaCO2 base, HCO3- acid → pH matches HCO3- → metabolic acidosis. PaCO2 is low because the lungs are blowing off CO2, but pH is still abnormal → partial. Her in-class check applies: if this were respiratory acidosis, the PaCO2 would be high, not 30."
@@ -769,12 +769,12 @@
      "type": "mc",
      "stem": "The deep, rapid breathing pattern should be documented and understood as:",
      "options": [
-      "Kussmaul respirations — the lungs compensating by blowing off CO2; do not suppress",
-      "Respiratory distress requiring a sedative",
-      "Hyperventilation from anxiety",
-      "A sign the patient is developing respiratory acidosis"
+      "Hyperventilation from anxiety and pain — coach slow breathing into a paper bag",
+      "A sign the patient is developing respiratory acidosis and may need ventilatory support",
+      "Respiratory distress requiring a sedative to slow the rate and reduce oxygen demand",
+      "Kussmaul respirations — the lungs compensating by blowing off CO2; do not suppress"
      ],
-     "answer": "A",
+     "answer": "D",
      "rationale": "Slide 31: Kussmaul respirations are deep and rapid breathing, an attempt to blow off CO2 to lower carbonic acid. This is compensation, not a problem to treat."
     },
     {
@@ -782,12 +782,12 @@
      "type": "mc",
      "stem": "A nursing student says the vomiting is \"helping because he's losing acid.\" The nurse corrects this by explaining:",
      "options": [
-      "Vomiting is the primary compensation for DKA",
-      "Vomiting is a side effect of the disease process, not a compensatory mechanism — compensation is done by the lungs and kidneys",
-      "Vomiting causes respiratory alkalosis",
-      "Vomiting has no effect on acid-base status"
+      "Vomiting has no effect on acid-base status, because stomach acid never enters the bloodstream",
+      "Vomiting is the primary compensation for DKA — losing stomach acid is how the body raises the pH back to normal",
+      "Vomiting causes respiratory alkalosis, which cancels out the metabolic acidosis from the ketones",
+      "Vomiting is a side effect of the disease, not compensation — compensation is done by the lungs and kidneys"
      ],
-     "answer": "B",
+     "answer": "D",
      "rationale": "A student asked this exact question in class. Co-instructor: \"No, that is not going to be a form of compensation. That is a side effect of the diabetic ketoacidosis.\""
     },
     {
@@ -809,12 +809,12 @@
      "type": "mc",
      "stem": "Which IV fluid does the nurse anticipate and why?",
      "options": [
-      "3% saline to correct sodium",
-      "Lactated Ringer's — the liver converts lactate to bicarbonate, which the patient is short of",
-      "D5W to provide calories",
-      "Sodium bicarbonate as the routine first-line fluid"
+      "Sodium bicarbonate as the routine first-line fluid, since the patient is short of bicarbonate",
+      "3% saline to correct the sodium lost with vomiting and pull fluid back into the vessels",
+      "D5W to provide calories and free water while the insulin drip is titrated",
+      "Lactated Ringer's — the liver converts lactate to bicarbonate, which the patient is short of"
      ],
-     "answer": "B",
+     "answer": "D",
      "rationale": "Slide 46: balanced crystalloids like LR containing bicarbonate precursors. Sodium bicarbonate is reserved for severe metabolic acidosis / emergencies."
     }
    ]
@@ -831,11 +831,11 @@
      "stem": "The nurse interprets the ABG as:",
      "options": [
       "Uncompensated metabolic alkalosis",
+      "Partially compensated respiratory acidosis",
       "Partially compensated metabolic alkalosis",
-      "Uncompensated respiratory acidosis",
       "Fully compensated metabolic alkalosis"
      ],
-     "answer": "B",
+     "answer": "C",
      "rationale": "pH base, PaCO2 acid (high), HCO3- base → pH matches HCO3- → metabolic alkalosis. PaCO2 has risen above normal (lungs hypoventilating to retain CO2) but pH is still abnormal → partial. Her RR of 10 is the compensation you can see at the bedside."
     },
     {
@@ -843,12 +843,12 @@
      "type": "mc",
      "stem": "The cause of the disorder is:",
      "options": [
-      "Loss of bicarbonate through the NG tube",
       "Loss of hydrochloric acid (H+) through gastric suction, leaving a relative excess of bicarbonate",
-      "Retention of CO2 from lying flat",
-      "Lactic acid from bowel ischemia"
+      "Loss of bicarbonate through the NG tube, leaving a relative excess of hydrogen ions in the blood",
+      "Lactic acid production from bowel ischemia after the abdominal surgery",
+      "Retention of CO2 from lying flat, which raises bicarbonate as the kidneys respond"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "\"If you are suctioning somebody or they're vomiting, what are they losing? Hydrochloric acid.\" Slide 38 lists vomiting and NG suction as the most common causes."
     },
     {
@@ -856,12 +856,12 @@
      "type": "mc",
      "stem": "The provider orders potassium chloride 40 mEq IV to run over 1 hour. The nurse:",
      "options": [
-      "Administers it as ordered because the potassium is critically low",
       "Questions the order — IV potassium should not exceed 10 mEq/hr and is never pushed",
-      "Gives it IV push over 5 minutes",
-      "Holds all potassium until the pH is normal"
+      "Administers it as ordered because the potassium is critically low and must be replaced quickly",
+      "Holds all potassium until the pH is normal, since alkalosis will correct it on its own",
+      "Gives it IV push over 5 minutes to correct the hypokalemia before the EKG changes"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "\"10 milliequivalents per hour. That's all you can push the potassium.\" Given slowly, over an hour, with EKG monitoring. She called this an NCLEX question."
     },
     {
@@ -893,11 +893,11 @@
      "stem": "The nurse interprets the ABG as:",
      "options": [
       "Partially compensated respiratory alkalosis because HCO3- is near the low end",
-      "Uncompensated respiratory alkalosis",
       "Uncompensated metabolic alkalosis",
-      "Fully compensated respiratory alkalosis"
+      "Fully compensated respiratory alkalosis",
+      "Uncompensated respiratory alkalosis"
      ],
-     "answer": "B",
+     "answer": "D",
      "rationale": "pH base, PaCO2 base, HCO3- 23 is inside the normal range. A student argued the kidneys had \"just started\" compensating; co-instructor: it is not outside normal, \"maybe it started at 26 — we don't know for sure.\" No compensation."
     },
     {
@@ -905,10 +905,10 @@
      "type": "mc",
      "stem": "Which statement about this presentation reflects the lecture?",
      "options": [
-      "PE always presents with chest pain",
+      "The saturation of 93% rules out a PE, because a clot large enough to matter would drop it below 90%",
       "A PE patient may present with back pain and an inability to do usual activity; the air hunger drives hyperventilation",
-      "A young athlete cannot have a PE",
-      "The saturation of 93% rules out PE"
+      "PE always presents with chest pain, so this patient's back pain points to a musculoskeletal injury from sports",
+      "A young, fit athlete cannot have a PE, so the hyperventilation is most likely from anxiety"
      ],
      "answer": "B",
      "rationale": "Her story from vascular: patients \"won't have chest pain; they would have back pain,\" and \"I can't go up the flight of stairs.\" PE is \"a big one\" under E in TACHYPNEA."
@@ -918,10 +918,10 @@
      "type": "mc",
      "stem": "The mother is more panicked than the patient. The priority nursing communication is:",
      "options": [
-      "Reassure the mother that nothing is wrong",
+      "Ask the patient to breathe into a paper bag while the nurse calms the mother down",
       "Explain the plan calmly, notify the team promptly of the findings, and keep the patient on the monitor",
-      "Send the mother to the waiting room",
-      "Ask the patient to breathe into a bag"
+      "Send the mother to the waiting room so her panic doesn't spread and the patient can slow his breathing",
+      "Reassure the mother that nothing is wrong and that her son is only anxious about the test"
      ],
      "answer": "B",
      "rationale": "Timely notification and therapeutic communication. The patient \"indeed had to be admitted.\" Bag rebreathing is an anxiety intervention; this hyperventilation is driven by a clot and hypoxemia."
@@ -939,12 +939,12 @@
      "type": "mc",
      "stem": "The disorder and its cause are:",
      "options": [
-      "Respiratory acidosis from inadequate ventilation",
-      "Respiratory alkalosis from excessive mechanical ventilation (the \"C\" in TACHYPNEA — controlled ventilation)",
-      "Metabolic alkalosis from sedation",
-      "Metabolic acidosis from trauma"
+      "Metabolic acidosis from trauma (the \"A\" in ACIDS — lactate accumulating from blood loss)",
+      "Respiratory acidosis from inadequate mechanical ventilation (a listed cause alongside DEPRES)",
+      "Metabolic alkalosis from sedation slowing the breathing and holding on to bicarbonate",
+      "Respiratory alkalosis from excessive mechanical ventilation (the \"C\" in TACHYPNEA)"
      ],
-     "answer": "B",
+     "answer": "D",
      "rationale": "Slide 23 and 24 list excessive mechanical ventilation / controlled ventilation as a cause. pH and PaCO2 both read base → respiratory alkalosis."
     },
     {
@@ -975,11 +975,11 @@
      "stem": "The nurse interprets the ABG as:",
      "options": [
       "Uncompensated metabolic acidosis",
-      "Partially compensated metabolic acidosis",
       "Uncompensated respiratory acidosis",
-      "Mixed acidosis"
+      "Partially compensated metabolic acidosis",
+      "Mixed respiratory and metabolic acidosis"
      ],
-     "answer": "B",
+     "answer": "C",
      "rationale": "pH acid, PaCO2 base (33 is below 35), HCO3- acid → metabolic acidosis with the lungs partially compensating. Renal failure is the \"I\" in ACIDS: the kidneys cannot excrete H+ or regenerate bicarbonate."
     },
     {
@@ -987,10 +987,10 @@
      "type": "mc",
      "stem": "The potassium of 6.8 is explained by:",
      "options": [
-      "Alkalosis driving potassium into cells",
+      "Alkalosis — H+ leaves the cells and K+ moves in — plus the kidneys' inability to retain potassium",
       "Acidosis — H+ enters cells and pushes K+ out — plus the kidneys' inability to excrete potassium",
-      "Dietary intake alone",
-      "Hyperventilation"
+      "Dietary intake alone — high-potassium foods that the failing kidneys would normally have cleared",
+      "Hyperventilation — blowing off CO2 shifts potassium out of the cells"
      ],
      "answer": "B",
      "rationale": "\"When hydrogen accumulates in the bloodstream, it changes position with potassium.\" In renal failure the kidneys also cannot clear the potassium."
@@ -1000,10 +1000,10 @@
      "type": "mc",
      "stem": "The priority nursing action is:",
      "options": [
-      "Encourage oral fluids",
+      "Administer oral potassium supplements to stabilize the heart's electrical activity",
       "Notify the team immediately of the potassium and EKG change and prepare the patient for hemodialysis",
-      "Administer oral potassium supplements",
-      "Place the patient on 4 L oxygen"
+      "Place the patient on 4 L oxygen, then recheck the ABG and potassium level with the morning labs",
+      "Encourage oral fluids so the kidneys can flush out the excess potassium and acid over the next few hours"
      ],
      "answer": "B",
      "rationale": "Peaked T waves with K+ 6.8 is the life-threatening EKG change she warned about (\"lethal injection is potassium\"). Slide 36: hemodialysis for renal failure; \"help prepare patients for that.\" Timely notification is life or death."
@@ -1021,12 +1021,12 @@
      "type": "mc",
      "stem": "The nurse expects and confirms which disorder?",
      "options": [
-      "Metabolic alkalosis from fluid loss",
       "Metabolic acidosis from bicarbonate loss in stool",
-      "Respiratory alkalosis from tachypnea",
-      "Respiratory acidosis from weakness"
+      "Metabolic alkalosis from losing fluid through diarrhea",
+      "Respiratory acidosis from muscle weakness and shallow breathing",
+      "Respiratory alkalosis from tachypnea and blowing off CO2"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "\"Somebody using a laxative — what's going to happen? Diarrhea. And you're going to lose what? Bicarb.\" pH acid, HCO3- acid, PaCO2 base → partially compensated metabolic acidosis. Her NCLEX-flagged item."
     },
     {
@@ -1034,10 +1034,10 @@
      "type": "mc",
      "stem": "The RR of 26 and deep is:",
      "options": [
-      "A reason to give a sedative",
+      "A sign of respiratory acidosis from CO2 retention",
       "The lungs compensating quickly by blowing off CO2",
-      "Evidence of pneumonia",
-      "A sign of respiratory acidosis"
+      "A sign of anxiety and a reason to give a sedative",
+      "Evidence of a developing pneumonia or lung infection"
      ],
      "answer": "B",
      "rationale": "\"What are the lungs doing in acidosis? Blow off the CO2.\" Lungs compensate relatively quickly; the low PaCO2 confirms it."
@@ -1069,12 +1069,12 @@
      "type": "mc",
      "stem": "The disorder is:",
      "options": [
-      "Respiratory alkalosis from neurologic stimulation",
       "Respiratory acidosis — the \"R\" in DEPRES, respiratory alteration from stroke",
-      "Metabolic acidosis",
-      "Metabolic alkalosis"
+      "Metabolic acidosis — the \"A\" in ACIDS, lactate accumulation from the stroke",
+      "Respiratory alkalosis — the \"N\" in TACHYPNEA, neurologic stimulation from stroke",
+      "Metabolic alkalosis — loss of acid from vomiting after the stroke"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "Slide 20 R: respiratory alterations such as stroke. Lecture: a stroke \"harms the neural circuit that regulates the breathing rate\" → holding on to CO2. pH acid, PaCO2 acid, HCO3- normal → uncompensated."
     },
     {
@@ -1082,12 +1082,12 @@
      "type": "mc",
      "stem": "Twenty-four hours later a repeat ABG shows pH 7.33, PaCO2 56, HCO3- 29. The nurse recognizes:",
      "options": [
-      "The patient is worsening",
+      "Full compensation has occurred, because both the PaCO2 and the HCO3- are now outside the normal range",
+      "The patient is worsening, because the pH has stayed below 7.35 a full day after the stroke",
       "The kidneys have begun to compensate by retaining bicarbonate — partial compensation, pH still below 7.35",
-      "Full compensation has occurred",
-      "The disorder has become metabolic"
+      "The disorder has become metabolic, since the HCO3- is now the abnormal value driving the pH"
      ],
-     "answer": "B",
+     "answer": "C",
      "rationale": "HCO3- has risen above normal in the correcting direction, but pH is still outside range → partial. Kidneys are \"slow and steady friends\" — a day in, this is what you expect to see."
     }
    ]
@@ -1103,10 +1103,10 @@
      "type": "mc",
      "stem": "The first ABG shows:",
      "options": [
-      "Respiratory alkalosis — fever and early sepsis driving hyperventilation (T and \"early sepsis\" in TACHYPNEA)",
-      "Respiratory acidosis from pneumonia",
-      "Metabolic alkalosis",
-      "Metabolic acidosis"
+      "Respiratory alkalosis — fever and early sepsis driving hyperventilation (TACHYPNEA)",
+      "Metabolic acidosis — lactic acid from early sepsis (the \"A\" in ACIDS)",
+      "Metabolic alkalosis — fever and fluid loss concentrating the bicarbonate",
+      "Respiratory acidosis from pneumonia — the \"P\" in DEPRES, CO2 trapped in the lungs"
      ],
      "answer": "A",
      "rationale": "pH base, PaCO2 base, HCO3- normal → uncompensated respiratory alkalosis. Slide 23: early sepsis, hypermetabolic state (fever)."
@@ -1116,12 +1116,12 @@
      "type": "mc",
      "stem": "The second ABG shows:",
      "options": [
-      "Compensated respiratory alkalosis",
       "Partially compensated metabolic acidosis from lactic acid accumulation (the \"A\" in ACIDS)",
-      "Respiratory acidosis from pneumonia",
-      "Mixed alkalosis"
+      "Mixed respiratory and metabolic alkalosis from the sepsis",
+      "Compensated respiratory alkalosis — the kidneys have dumped bicarbonate to normalize pH",
+      "Respiratory acidosis from pneumonia — the \"P\" in DEPRES, the lungs now retaining CO2"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "pH acid, HCO3- acid, PaCO2 base → metabolic acidosis with the lungs compensating. Slide 32: anaerobic metabolism → lactic acid; sepsis. The picture flipped in four hours — \"our patients can turn 180 in a couple hours.\""
     },
     {
@@ -1151,9 +1151,9 @@
      "type": "mc",
      "stem": "Which patient does the nurse assess first?",
      "options": [
+      "Patient Y",
       "Patient W",
       "Patient X",
-      "Patient Y",
       "Patient Z"
      ],
      "answer": "D",
@@ -1165,9 +1165,9 @@
      "stem": "Which patient's ABG is expected for their condition and least likely to need a new intervention?",
      "options": [
       "Patient W",
-      "Patient X",
       "Patient Y",
-      "Patient Z"
+      "Patient Z",
+      "Patient X"
      ],
      "answer": "A",
      "rationale": "Fully compensated respiratory acidosis — \"our chronic COPD friends.\" Baseline for this patient."
@@ -1177,12 +1177,12 @@
      "type": "mc",
      "stem": "Which patient is most likely to need a reversal agent?",
      "options": [
+      "Patient Y",
       "Patient W",
       "Patient X",
-      "Patient Y",
       "Patient Z"
      ],
-     "answer": "B",
+     "answer": "C",
      "rationale": "Uncompensated respiratory acidosis in a drowsy post-op patient — anticipate naloxone for oversedation."
     },
     {
@@ -1190,12 +1190,12 @@
      "type": "mc",
      "stem": "For Patient Y, the first-line intervention is:",
      "options": [
-      "IV lorazepam",
+      "IV lorazepam (Ativan) to slow the breathing before anything else is tried",
+      "Increase oxygen with a non-rebreather mask, then check electrolytes and the EKG",
       "Coaching slow breathing and therapeutic communication, then electrolytes and EKG",
-      "Sodium bicarbonate",
-      "Increase oxygen"
+      "Sodium bicarbonate IV to buffer the acid-base imbalance quickly"
      ],
-     "answer": "B",
+     "answer": "C",
      "rationale": "Uncompensated respiratory alkalosis from anxiety. REST starts with slowing the breathing; sedatives come after non-drug measures."
     }
    ]
@@ -1211,12 +1211,12 @@
      "type": "mc",
      "stem": "A 9-year-old is pulled from a backyard pool after a near-drowning and arrives with pulmonary edema, RR 8, and gurgling respirations. The nurse anticipates:",
      "options": [
-      "Respiratory alkalosis",
+      "Respiratory alkalosis — the \"H\" in TACHYPNEA, hyperventilation",
+      "Metabolic acidosis — the \"I\" in ACIDS, impaired renal function",
       "Respiratory acidosis — the \"E\" in DEPRES, pulmonary edema",
-      "Metabolic alkalosis",
-      "Metabolic acidosis"
+      "Metabolic alkalosis — vomiting swallowed water, losing HCl"
      ],
-     "answer": "B",
+     "answer": "C",
      "rationale": "Slide 17 and 20: acute pulmonary edema; her example was \"a drowning victim.\" Fluid in the alveoli blocks gas exchange → CO2 retention."
     },
     {
@@ -1224,12 +1224,12 @@
      "type": "mc",
      "stem": "A 30-year-old in status asthmaticus is exhausted after 6 hours of bronchospasm; RR has fallen from 36 to 12 and she is becoming drowsy. The nurse is most concerned about:",
      "options": [
-      "Respiratory alkalosis from earlier hyperventilation",
       "Respiratory acidosis — the \"S\" in DEPRES, spasm of the bronchioles, now with a failing drive",
-      "Metabolic acidosis",
-      "Metabolic alkalosis"
+      "Respiratory alkalosis from earlier hyperventilation — the \"H\" in TACHYPNEA, still blowing off CO2",
+      "Metabolic acidosis from exhaustion, with the lungs now compensating",
+      "Metabolic alkalosis, with the falling RR as the lungs' compensation"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "Slide 20 S: spasms of bronchioles such as asthma or COPD. The falling RR with drowsiness is the \"RR initially rapid, then depressed\" pattern on slide 16 — a deteriorating patient, report promptly."
     },
     {
@@ -1237,12 +1237,12 @@
      "type": "mc",
      "stem": "A patient with Guillain-Barré syndrome has ascending weakness that now involves the chest. Serial assessments show shallower breaths. The nurse anticipates which disorder and action?",
      "options": [
-      "Respiratory alkalosis; coach slow breathing",
       "Respiratory acidosis from respiratory-muscle failure; notify the team promptly and anticipate ABGs and possible ventilatory support",
-      "Metabolic acidosis; give LR",
-      "No acid-base change is expected"
+      "Metabolic acidosis from muscle breakdown and lactate; give Lactated Ringer's and monitor the potassium",
+      "No acid-base change is expected, because Guillain-Barré affects the nerves and muscles rather than the lungs themselves",
+      "Respiratory alkalosis from anxiety about the spreading weakness; coach slow diaphragmatic breathing and teach relaxation"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "Lecture: \"Guillain-Barré comes to mind — the muscles just don't work.\" Slide 17: disorders of respiratory muscles or chest wall."
     },
     {
@@ -1250,12 +1250,12 @@
      "type": "mc",
      "stem": "A 22-year-old is admitted after an intentional aspirin (salicylate) overdose and is breathing rapidly. The nurse anticipates the initial ABG will show:",
      "options": [
+      "Respiratory acidosis (aspirin depresses the drive, the \"D\" in DEPRES)",
+      "No change (the overdose is too recent to affect the ABG)",
       "Respiratory alkalosis (aspirin toxicity is the \"A\" in TACHYPNEA)",
-      "Respiratory acidosis",
-      "Metabolic alkalosis",
-      "No change"
+      "Metabolic alkalosis (ingested salicylate raising the bicarbonate)"
      ],
-     "answer": "A",
+     "answer": "C",
      "rationale": "Slide 24 A: aspirin toxicity, and salicylates are listed under ingestion causes of metabolic acidosis on slide 32 — the lecture did not go further than that, so the tested association is aspirin ↔ hyperventilation."
     },
     {
@@ -1264,9 +1264,9 @@
      "stem": "A patient with a spontaneous pneumothorax is anxious and tachypneic with sharp chest pain. The expected acid-base disorder is:",
      "options": [
       "Respiratory alkalosis (the \"P\" in TACHYPNEA)",
-      "Respiratory acidosis",
-      "Metabolic acidosis",
-      "Metabolic alkalosis"
+      "Metabolic acidosis (lactate from the collapsed lung)",
+      "Metabolic alkalosis (acid lost through rapid breathing)",
+      "Respiratory acidosis (the \"P\" in DEPRES)"
      ],
      "answer": "A",
      "rationale": "Slide 24 P: pneumothorax — \"you just took out that lung\"; the patient hyperventilates."
@@ -1276,12 +1276,12 @@
      "type": "mc",
      "stem": "A hiker develops shortness of breath and rapid breathing at high altitude. The nurse at the mountain clinic anticipates:",
      "options": [
-      "Respiratory acidosis from thin air",
       "Respiratory alkalosis — hypoxemia at altitude drives hyperventilation (the second \"A\" in TACHYPNEA)",
-      "Metabolic acidosis",
-      "Metabolic alkalosis"
+      "Metabolic acidosis — lactate from exertion at altitude (the \"A\" in ACIDS)",
+      "Metabolic alkalosis — fluid lost through rapid breathing concentrates the bicarbonate",
+      "Respiratory acidosis from the thin air — too little oxygen at altitude leaves CO2 trapped in the lungs"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "Slide 23/24: high altitude, hypoxemia. \"You just don't have enough oxygen, so it can cause hyperventilation.\""
     },
     {
@@ -1289,10 +1289,10 @@
      "type": "mc",
      "stem": "A 74-year-old with heartburn has been taking a handful of calcium-carbonate antacids (Tums) several times a day for weeks and now has muscle cramps and confusion. The nurse anticipates:",
      "options": [
-      "Metabolic acidosis",
+      "Respiratory alkalosis from pain-driven hyperventilation",
       "Metabolic alkalosis from bicarbonate/base ingestion",
-      "Respiratory alkalosis",
-      "Respiratory acidosis"
+      "Metabolic acidosis from calcium and acid ingestion",
+      "Respiratory acidosis from confusion and shallow breathing"
      ],
      "answer": "B",
      "rationale": "Slide 38: increased HCO3- from ingestion — antacids, bicarbonate. Lecture: \"too much antacids, so that could cause that as well.\""
@@ -1302,12 +1302,12 @@
      "type": "mc",
      "stem": "A heart-failure patient on high-dose furosemide (a loop diuretic) has a potassium of 2.8 and an ABG of pH 7.50, PaCO2 44, HCO3- 33. The nurse recognizes:",
      "options": [
+      "Respiratory alkalosis — heart failure causing rapid breathing and low CO2",
       "Uncompensated metabolic alkalosis — loop diuretics and hypokalemia are listed causes",
-      "Metabolic acidosis",
-      "Respiratory alkalosis",
-      "Fully compensated metabolic alkalosis"
+      "Metabolic acidosis — diuretic-induced kidney injury, the \"I\" in ACIDS",
+      "Fully compensated metabolic alkalosis — the PaCO2 of 44 shows the lungs retaining CO2"
      ],
-     "answer": "A",
+     "answer": "B",
      "rationale": "pH base, PaCO2 normal, HCO3- base → metabolic alkalosis, uncompensated. Slide 38: medications (loop diuretics, steroids), hypokalemia."
     },
     {
@@ -1315,12 +1315,12 @@
      "type": "mc",
      "stem": "A patient in severe metabolic acidosis (pH 7.05) is receiving IV sodium bicarbonate. The nurse understands this drug is:",
      "options": [
-      "The routine first-line fluid for any acidosis",
       "Reserved for severe or emergency metabolic acidosis because it can reverse the situation rapidly — monitor the EKG",
-      "Used to treat respiratory acidosis",
-      "Given IV push for hypokalemia"
+      "Used to treat respiratory acidosis in COPD, because it replaces the bicarbonate the kidneys haven't yet retained",
+      "The routine first-line fluid for any acidosis, given early to keep the pH from falling further",
+      "Given IV push for hypokalemia, because it raises the serum potassium level quickly"
      ],
-     "answer": "B",
+     "answer": "A",
      "rationale": "Slide 46 and lecture: sodium bicarbonate \"is only given in emergency situations because sometimes it can revert the situation fast\"; monitor for EKG changes (potassium)."
     },
     {
@@ -1328,10 +1328,10 @@
      "type": "mc",
      "stem": "A patient receiving hemodialysis is given lactate in the dialysate. The nurse knows this can contribute to:",
      "options": [
-      "Metabolic acidosis",
+      "Hyperkalemia — lactate pushes potassium out of the cells",
       "Metabolic alkalosis — lactate is converted to bicarbonate",
-      "Respiratory acidosis",
-      "Hyperkalemia"
+      "Metabolic acidosis — lactate is an acid that lowers the pH",
+      "Respiratory acidosis — lactate slows the breathing"
      ],
      "answer": "B",
      "rationale": "Slide 38: lactate given during dialysis is an increased-HCO3- cause. Lecture: lactate \"gets converted into bicarb by the liver.\""
