@@ -155,7 +155,13 @@ git commit -m "Add lecture <id>: <title>"
 git push -u origin lecture/<id>
 ```
 
-Then Jerry opens a pull request on GitHub; Netlify posts a Deploy Preview link. Give Jerry:
+Before handing over, run `npm run smoke` (local build, every lecture × tab at phone and iPad width) and
+`npm run release-check` (nothing unpushed, nothing stacked). One branch per batch, created from a fresh
+`origin/main` — never build a branch on another unmerged branch. If you work on a cloud copy, take it with
+`git archive origin/main` for this task and bring changes back as a patch, never by copying whole files.
+
+Then Jerry opens a pull request on GitHub; Netlify posts a Deploy Preview link (send it to Angelina for a look
+before merging). Give Jerry:
 
 - counts (practice by tier, cases / clinical questions, cards, in-class questions) and the exam-scope summary;
 - a **spot-check list**: ~10 items worth verifying, each with its `src`, favoring dosages, numbers, and anything from a
@@ -168,8 +174,9 @@ Then Jerry opens a pull request on GitHub; Netlify posts a Deploy Preview link. 
 
 Continuous-improvement step — design doc §7.1. Run it after every deploy to `main`, lecture or site change:
 
-1. **Verify live:** home order, each new lecture × every tab, login (`npm run smoke` once it exists).
-2. **Nothing stranded:** no local branch unmerged or unpushed; IMP items in the deploy marked done.
+1. **Verify live:** `SMOKE_URL=<site> SMOKE_PASSWORD=… npm run smoke` (Jerry runs it — the password stays on his Mac), or
+   Jerry opens the site if he prefers.
+2. **Nothing stranded:** `npm run release-check` passes; IMP items in the deploy marked done.
 3. **Measure on `main`:** validator warnings; correct-answer letter share per lecture (flag > 40%); option-length
    stats; counts vs the quantity guide; notes length; items without `src`.
 4. **Feedback:** Angelina's flagged items and comments since the last review.
