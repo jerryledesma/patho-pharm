@@ -1,0 +1,2413 @@
+{
+ "id": "2026-10-08-pain-management",
+ "date": "2026-10-08",
+ "title": "Pain & Pharmacologic Management",
+ "instructor": "Nisa Lalani, DNP, RN",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.mp3",
+  "slides.pdf",
+  "supp-01_study-guide-on-pain-management.docx"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "pain med safety check"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement best defines a client's pain for nursing assessment?",
+   "options": [
+    "A number the nurse estimates from heart rate and blood pressure",
+    "Whatever the nurse sees in the client's face and body language",
+    "Whatever the client says it is, wherever the client says it is",
+    "Only pain that matches a visible injury or an abnormal test"
+   ],
+   "answer": "C",
+   "rationale": "\"It is what the patient tells you. It is where they tell you.\" Pain is subjective (McCaffery) and is the 5th vital sign. Facial expression and vital signs vary widely between people, and pain doesn't need a visible injury.",
+   "src": "slide 3 + 00:00:30 + 00:02:00"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which sequence lists the four stages of nociception in order?",
+   "options": [
+    "Perception → transduction → transmission → modulation",
+    "Transduction → perception → transmission → modulation",
+    "Transduction → transmission → perception → modulation",
+    "Transmission → transduction → modulation → perception"
+   ],
+   "answer": "C",
+   "rationale": "It \"starts with transduction\" in the periphery (stimulus → action potential), then transmission up the cord, perception in the brain, and modulation (inhibition) last. This was a Kahoot item: \"transduction first.\"",
+   "src": "slides 6–7 + 00:06:04 + 00:19:30"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "A client touches a hot pan and feels an immediate sharp, stinging pain. Which fibers carried this signal?",
+   "options": [
+    "C fibers, which are unmyelinated",
+    "Aδ fibers, which are unmyelinated",
+    "C fibers, which are myelinated",
+    "Aδ fibers, which are myelinated"
+   ],
+   "answer": "D",
+   "rationale": "\"Do remember that A-delta fibers are the myelinated fibers\" — fast (5–10 m/s), sharp, stinging, cutting. C fibers are unmyelinated and slow (0.6–2 m/s) and carry dull, burning, aching pain.",
+   "src": "slide 8 + 00:08:26 + 00:08:57"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement about pain threshold and pain tolerance is accurate?",
+   "options": [
+    "Tolerance is fairly even between people; threshold varies widely",
+    "Threshold is fairly even between people; tolerance varies widely",
+    "Both depend mainly on culture, so neither can be compared",
+    "Both are fixed at birth and don't change with age or experience"
+   ],
+   "answer": "B",
+   "rationale": "Threshold (stimulation needed to perceive pain) is \"very even across individuals.\" Tolerance (how much one will bear before seeking relief) differs by age, culture, past pain and sleep — \"in our household, men don't cry.\"",
+   "src": "slide 9 + 00:10:01 + 00:10:31"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Activation of which opioid receptor is linked to euphoria, addiction and respiratory depression?",
+   "options": [
+    "COX-2",
+    "Kappa (κ)",
+    "Mu (μ)",
+    "Alpha-2-delta (α2δ)"
+   ],
+   "answer": "C",
+   "rationale": "Her \"memorization slide\": μ activation → euphoria, addiction, respiratory depression (and pain relief); κ → dysphoria and sedation (and pain relief). COX-2 is an enzyme NSAIDs block; α2δ is where gabapentinoids bind.",
+   "src": "slide 12 + 00:14:32"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which is a function of COX-1, the \"good COX\"?",
+   "options": [
+    "Promoting vasodilation in vessels",
+    "Producing fever in the brain",
+    "Mediating inflammation at the injury",
+    "Promoting platelet aggregation"
+   ],
+   "answer": "D",
+   "rationale": "COX-1 is the housekeeping enzyme: protects the gastric mucosa, supports the kidneys and makes thromboxane A₂ so platelets clump. Inflammation at the injury, fever and vasodilation are COX-2 jobs.",
+   "src": "slide 24 + 00:40:00"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Celecoxib (Celebrex) is a second-generation NSAID. Which enzyme does it block?",
+   "options": [
+    "Cyclooxygenase in the CNS only",
+    "None — it binds mu receptors",
+    "COX-2 only",
+    "Both COX-1 and COX-2"
+   ],
+   "answer": "C",
+   "rationale": "\"Celebrex… is a COX-2 inhibitor\" — second-generation NSAIDs block COX-2 only, which is why they were made: fewer GI effects. First-generation NSAIDs (aspirin, ibuprofen) block both; acetaminophen blocks COX in the CNS only.",
+   "src": "slide 28 + 00:38:07 + 00:43:07"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which effect does acetaminophen NOT have?",
+   "options": [
+    "Relieving mild pain",
+    "Reducing fever",
+    "Reducing inflammation",
+    "Liver toxicity in overdose"
+   ],
+   "answer": "C",
+   "rationale": "Acetaminophen blocks COX only in the CNS, so it relieves pain and fever but \"doesn't do a lot to reduce the inflammation.\" It also doesn't affect platelets, the stomach or the kidneys — but in overdose it damages the liver.",
+   "src": "slides 26, 29 + 00:43:07"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "In acetaminophen overdose, what does the liver run out of?",
+   "options": [
+    "Endorphins, which block pain signals",
+    "Thromboxane, which clumps platelets",
+    "Prostaglandins, which guard the stomach",
+    "Glutathione, which neutralizes NAPQI"
+   ],
+   "answer": "D",
+   "rationale": "A small share of acetaminophen becomes the toxic metabolite NAPQI; glutathione neutralizes it. Overdose (and alcohol) deplete glutathione — \"the liver is not able to keep up\" — so NAPQI damages liver cells.",
+   "src": "slides 29–31 + 00:52:35 + 00:53:06"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Butorphanol (IM or nasal spray) is classified as:",
+   "options": [
+    "An agonist-antagonist",
+    "A pure opioid antagonist",
+    "A pure opioid agonist",
+    "A partial mu agonist for OUD"
+   ],
+   "answer": "A",
+   "rationale": "Butorphanol gives low to moderate receptor activity alone but blocks a full agonist if both are given. Morphine and codeine are pure agonists; naloxone is the pure antagonist; buprenorphine is the partial mu agonist used for opioid use disorder.",
+   "src": "slides 34, 45 + 01:04:05"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How long does withdrawal from morphine take, and how dangerous is it?",
+   "options": [
+    "About 72 hours; life-threatening without naloxone",
+    "About 24 hours; mild, with almost no symptoms",
+    "About 10 days; very uncomfortable but not dangerous",
+    "About 3 weeks; dangerous mainly from seizures"
+   ],
+   "answer": "C",
+   "rationale": "\"Withdrawal takes 10 days… you may have an NCLEX question.\" The slide: very uncomfortable but not dangerous. Long-term patients should be tapered. Naloxone causes withdrawal; it doesn't treat it.",
+   "src": "slide 37 + 01:06:51"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "To which opioid effects does very little tolerance develop?",
+   "options": [
+    "Nausea and orthostatic hypotension",
+    "Respiratory depression and sedation",
+    "Constipation and miosis",
+    "Analgesia and euphoria"
+   ],
+   "answer": "C",
+   "rationale": "Tolerance to opioids is \"quite pronounced\" — larger doses for the same pain relief, and tolerance even develops to respiratory depression with prolonged use — but very little develops to constipation and miosis, so those persist.",
+   "src": "slides 35, 37 + 01:06:51"
+  },
+  {
+   "id": "p-013",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How often is a fentanyl transdermal patch changed, per her correction in class?",
+   "options": [
+    "Every 12 hours",
+    "Every 7 days",
+    "Every 24 hours",
+    "Every 72 hours"
+   ],
+   "answer": "D",
+   "rationale": "A student said \"the slide says 24\"; she answered \"72, so, yes, 72.\" Clean the skin, pat dry, never cut or fold, and follow the disposal policy.",
+   "src": "slide 39 + 01:09:03 + 01:09:35"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which client is the FLACC scale meant for?",
+   "options": [
+    "A teenager who prefers to point to a number",
+    "An alert adult who can rate pain from 0 to 10",
+    "A 4-year-old or a nonverbal client in the ICU",
+    "A client who can describe onset and character"
+   ],
+   "answer": "C",
+   "rationale": "FLACC is \"used for pediatrics, usually from two to seven… and for nonverbal ICU patients\" who can't tell you where they hurt. Alert adults use the numeric 0–10 scale; describing onset and character is OLDCARTS.",
+   "src": "slides 19, 21 + 00:30:00"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with a fresh abdominal incision is taking shallow breaths and won't cough because \"it hurts too much.\" Unrelieved, this puts the client at risk for:",
+   "options": [
+    "Respiratory alkalosis only",
+    "Opioid-induced hyperalgesia",
+    "Allodynia of the chest wall",
+    "Atelectasis and pneumonia"
+   ],
+   "answer": "D",
+   "rationale": "Pain in the thoracic or abdominal area → shallow breaths and a reduced ability to breathe deeply and cough → atelectasis and pneumonia. Unrelieved pain also depresses the immune system.",
+   "src": "slide 5 + 00:04:31 + 00:05:04"
+  },
+  {
+   "id": "p-016",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with diabetes has had poorly controlled pain since surgery. Which finding would the nurse expect?",
+   "options": [
+    "Lower heart rate from vagal stimulation",
+    "Hypoglycemia from the stress hormones",
+    "Hyperglycemia and slower wound healing",
+    "Better glucose control from cortisol"
+   ],
+   "answer": "C",
+   "rationale": "Pain's stress response releases glucagon and cortisol → hyperglycemia → delayed wound healing — \"a double whammy.\" She always asks the last A1c. Unrelieved pain raises the heart rate.",
+   "src": "slides 5, 15 + 00:05:34"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client's right index finger is crushed in a car door. Which statement about the pathway is correct?",
+   "options": [
+    "The left side of the brain detects the injury",
+    "The signal stays in the spinal cord on the right",
+    "Both sides of the brain detect it equally",
+    "The right side of the brain detects the injury"
+   ],
+   "answer": "A",
+   "rationale": "Contralateral organization: one side of the brain handles the opposite side of the body — \"the right finger is cut… the left side of the brain is going to detect that injury.\" She said she might ask this.",
+   "src": "slide 8 + 00:08:57 + 01:22:57"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with diabetic neuropathy says even the bedsheet touching her feet hurts. The nurse recognizes this as:",
+   "options": [
+    "Hyperalgesia",
+    "Referred pain",
+    "Pain tolerance",
+    "Allodynia"
+   ],
+   "answer": "D",
+   "rationale": "Allodynia: a normally non-painful stimulus is felt as pain — \"your clothing on your skin, air brushing against your face.\" Hyperalgesia is an overreaction to something that is painful. Referred pain is felt away from its source.",
+   "src": "slide 7 + 00:07:55"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A 58-year-old in the ED says his jaw and left shoulder ache and he feels sweaty. What should the nurse do first?",
+   "options": [
+    "Rate the pain with FLACC",
+    "Give ibuprofen for the shoulder",
+    "Apply heat to the jaw",
+    "Get an EKG"
+   ],
+   "answer": "D",
+   "rationale": "Jaw, shoulder, scapula or back pain can be referred pain from a heart attack — \"the first thing… you want to do an EKG.\" Treating it as joint pain misses an MI; FLACC is for young children and nonverbal clients.",
+   "src": "slide 16 + 00:24:29 + 00:24:59"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client has widespread pain in all four extremities that waxes and wanes, poor sleep and irritable bowel symptoms. Tests show no tissue damage. This pattern fits:",
+   "options": [
+    "Acute nociceptive pain",
+    "Visceral pain",
+    "Referred cardiac pain",
+    "Fibromyalgia"
+   ],
+   "answer": "D",
+   "rationale": "Fibromyalgia (nociplastic): no clear physiologic cause, widespread pain in all four extremities that doesn't follow dermatomes, with sleep disturbance, IBS, depression and anxiety — central sensitization. \"I'm tricking you… it's chronic, it's widespread.\"",
+   "src": "slide 18 + 00:26:59 + 00:35:26"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with long-standing diabetic neuropathy describes burning, shooting foot pain. Which drug fits this pain type best?",
+   "options": [
+    "Gabapentin",
+    "Acetaminophen",
+    "Morphine",
+    "Celecoxib"
+   ],
+   "answer": "A",
+   "rationale": "Neuropathic pain: \"morphine's not going to help them… they need more multimodal.\" Gabapentinoids (and SNRIs) work on it; Tylenol \"doesn't do anything\" for it, and NSAIDs target inflammatory pain.",
+   "src": "slides 17, 54 + 00:16:11 + 00:40:00"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "An oral opioid is given at 1400 for incision pain. When should the nurse reassess the pain?",
+   "options": [
+    "At about 1500",
+    "At the next scheduled vital signs",
+    "At about 1430",
+    "When the client asks for more"
+   ],
+   "answer": "A",
+   "rationale": "\"Assess before and one hour after the administration… Always assess before, always assess after.\" Waiting for routine vitals or for the client to ask misses whether the dose worked.",
+   "src": "slide 42 + 01:11:40 + 01:12:10"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The day after knee surgery, PT will walk the client at 1000. PRN pain medication is ordered. What should the nurse do?",
+   "options": [
+    "Ask PT to come back once pain is 0/10",
+    "Give the PRN dose before PT, then reassess",
+    "Wait for the client to ask during PT",
+    "Hold it so the client can feel the knee during PT"
+   ],
+   "answer": "B",
+   "rationale": "\"PT is coming at 10 o'clock. Please, please, please give your patients their pain medications\" — unrelieved pain keeps clients from taking part in rehab. Pain-free (0/10) isn't required to start.",
+   "src": "slide 15 + 00:22:57 + 01:05:42"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client received IV morphine after surgery and wants to walk to the bathroom right away. What should the nurse do?",
+   "options": [
+    "Have the client sit up first, then stand slowly",
+    "Give a second dose so the walk isn't painful",
+    "Encourage a quick walk to reduce clot risk",
+    "Keep the client in bed for 4 hours after each dose"
+   ],
+   "answer": "A",
+   "rationale": "Morphine blunts the baroreceptor reflex → orthostatic hypotension. \"Get up and get going — are you going to do that?… You're going to sit them up\" — change position slowly.",
+   "src": "slide 35 + 01:05:09 + 01:05:42"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client says, \"I took my aspirin yesterday,\" during a call before an elective colonoscopy. What does the nurse expect?",
+   "options": [
+    "The client should double the next dose",
+    "The aspirin won't affect the procedure",
+    "Only the morning dose needs to be skipped",
+    "The procedure will likely be postponed"
+   ],
+   "answer": "D",
+   "rationale": "One aspirin dose suppresses platelets for the platelet's life (8 days), so aspirin is stopped about 1 week before planned invasive procedures. \"I took my aspirin yesterday — your procedure will be [cancelled]. No doubt.\"",
+   "src": "slides 26–27 + 00:44:41"
+  },
+  {
+   "id": "p-026",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client taking large amounts of aspirin for arthritis reports ringing in the ears, sweating and dizziness. The nurse suspects:",
+   "options": [
+    "Reye's syndrome",
+    "Salicylism",
+    "Opioid withdrawal",
+    "Allodynia"
+   ],
+   "answer": "B",
+   "rationale": "Salicylism is aspirin toxicity: tinnitus, sweating, headache, dizziness — a Kahoot item (constipation was the distractor). Reye's syndrome is the reason aspirin isn't given to children.",
+   "src": "slide 27 + 01:00:40"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A parent asks whether to give children's aspirin to a 6-year-old with a fever. The nurse's best response:",
+   "options": [
+    "\"Aspirin isn't given to children — ask about other options\"",
+    "\"Yes, as long as it's given with food\"",
+    "\"Yes, aspirin is the first choice for fever in children\"",
+    "\"Only if the fever lasts longer than 3 days\""
+   ],
+   "answer": "A",
+   "rationale": "Reye's syndrome: \"You don't give it to children.\" It can cause severe liver damage (and encephalopathy). Food protects the stomach but not against Reye's.",
+   "src": "slide 27 + 00:46:20"
+  },
+  {
+   "id": "p-028",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with a history of MI and a sulfa allergy is prescribed celecoxib (Celebrex) for arthritis. What should the nurse do?",
+   "options": [
+    "Question the order before giving it",
+    "Give it with aspirin to block COX-1",
+    "Give it — sulfa allergy isn't relevant",
+    "Give it — coxibs spare the heart"
+   ],
+   "answer": "A",
+   "rationale": "Blocking COX-2 removes vasodilation → vasoconstriction → MI and stroke risk (avoid in heart disease), and celecoxib contains a sulfur molecule, so a sulfonamide allergy matters. It spares the stomach, not the heart.",
+   "src": "slides 25, 28 + 00:41:30 + 00:49:02"
+  },
+  {
+   "id": "p-029",
+   "tier": "2",
+   "type": "mc",
+   "stem": "After naloxone, a client on IV morphine wakes and breathes 16 times a minute. Forty-five minutes later the client is drowsy again with RR 9. The most likely reason:",
+   "options": [
+    "Naloxone itself causes sedation",
+    "Naloxone wore off before the morphine did",
+    "The client is now allergic to naloxone",
+    "Morphine withdrawal is starting"
+   ],
+   "answer": "B",
+   "rationale": "Naloxone's half-life is shorter than most opioids', \"so sometimes you have to give another dose.\" Expect re-sedation and recurrent respiratory depression; withdrawal looks like yawning, sweating, runny nose — not sedation.",
+   "src": "slides 44, 52 + 01:13:13"
+  },
+  {
+   "id": "p-030",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client asks for his Norco (hydrocodone/acetaminophen) every 2 hours. Which response is correct?",
+   "options": [
+    "It can be given as often as needed",
+    "It's usually every 4–6 hours",
+    "Every 2 hours is fine if pain is 7/10",
+    "Every 2 hours is fine with food"
+   ],
+   "answer": "B",
+   "rationale": "\"Can they take it every two hours? Majority of the time, no. It's usually four to six hours.\" Hydrocodone comes combined with acetaminophen, so the dose is also limited by the daily acetaminophen total.",
+   "src": "slide 41 + 01:16:46"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Post-op day 1.</b> Morphine IV PRN. 0200: RR 16, easily aroused. 0400: RR 12, drifts off mid-sentence. 0600: RR 8, hard to arouse, SpO₂ 86%. The nurse's first action:",
+   "options": [
+    "Give naloxone as ordered and support breathing",
+    "Give the next morphine dose since pain is likely",
+    "Elevate the head of the bed and wait",
+    "Recheck the RR and sedation level in 1 hour"
+   ],
+   "answer": "A",
+   "rationale": "Normal RR is 12–20. \"If somebody's breathing at eight… bring out your Narcan\" — another dose? \"No.\" Note the trend: increasing sedation preceded the respiratory depression. Rechecking later delays the reversal.",
+   "src": "slides 44, 51–52 + 01:05:09 + 01:19:20 + 01:24:17"
+  },
+  {
+   "id": "p-032",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Med list:</b> hydrocodone/acetaminophen (Norco) PRN · NyQuil at bedtime · 3–4 beers daily. <b>Reports</b> 2 days of nausea, sweating and upper abdominal pain. The danger the nurse recognizes:",
+   "options": [
+    "Opioid respiratory depression",
+    "Acetaminophen liver toxicity",
+    "Salicylism from aspirin",
+    "NSAID GI bleeding"
+   ],
+   "answer": "B",
+   "rationale": "Norco and cold products both contain acetaminophen, and alcohol drives NAPQI production and depletes glutathione. Nausea, vomiting, sweating and abdominal pain are the early signs of hepatotoxicity.",
+   "src": "slides 29, 31, 50 + 00:53:06 + 00:54:07"
+  },
+  {
+   "id": "p-033",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Med list:</b> ibuprofen OTC 3×/day for arthritis · apixaban (Eliquis) started 2 weeks ago for AFib. <b>Today:</b> black, tarry stools · Hgb 9.1 g/dL (was 12.6). Most likely cause:",
+   "options": [
+    "GI bleeding from NSAID plus anticoagulant",
+    "Opioid-induced constipation",
+    "Iron-deficiency anemia from a poor diet alone",
+    "Acetaminophen hepatotoxicity"
+   ],
+   "answer": "A",
+   "rationale": "Ibuprofen blocks COX-1 (stomach protection, platelet clumping); adding an anticoagulant raises bleeding risk. Melena and falling Hgb/Hct are the GI-bleeding signs on her nursing slide — \"go to the emergency room right away.\"",
+   "src": "slides 25, 50 + 00:47:58 + 01:17:47"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Client:</b> undernourished, no alcohol, no liver disease, asks the most acetaminophen he can take per day. The nurse teaches:",
+   "options": [
+    "No more than 2,000 mg per day",
+    "No more than 3,000 mg per day",
+    "No more than 4,000 mg per day",
+    "No more than 6,000 mg per day"
+   ],
+   "answer": "B",
+   "rationale": "Undernourished = low glutathione stores → ≤ 3,000 mg/day. The general limit is 4,000 mg/day; ≤ 2,000 mg/day is for a client who won't stop drinking.",
+   "src": "slide 31"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Client:</b> drinks daily and says he won't stop. Takes acetaminophen for back pain. Maximum daily dose to teach:",
+   "options": [
+    "4,000 mg",
+    "Any dose, if taken with food",
+    "3,000 mg",
+    "2,000 mg"
+   ],
+   "answer": "D",
+   "rationale": "\"If patient will not stop drinking, they should take no more than 2,000 mg/day.\" Alcohol uses the same pathway that makes NAPQI and depletes glutathione; food doesn't change that.",
+   "src": "slide 31 + 00:53:06 + 00:53:36"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>ED, 1600.</b> Client took a large amount of acetaminophen at about 0900. No symptoms yet. Acetylcysteine is ordered. The nurse's priority:",
+   "options": [
+    "Give naloxone to reverse the overdose",
+    "Start the acetylcysteine without delay",
+    "Wait for liver symptoms to confirm toxicity",
+    "Give ibuprofen for the abdominal pain"
+   ],
+   "answer": "B",
+   "rationale": "Acetylcysteine (NAC, Mucomyst) replenishes glutathione; given within 8–10 hours it can prevent injury almost 100%, and it still protects up to 24 hours. At 7 hours, waiting for symptoms wastes the window. Naloxone reverses opioids, not acetaminophen.",
+   "src": "slides 30–31 + 00:55:42 + 00:56:43"
+  },
+  {
+   "id": "p-037",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>OA client.</b> Takes aspirin 81 mg daily and OTC ibuprofen; now asks to add naproxen (Aleve) \"because it's a different drug.\" The nurse's teaching:",
+   "options": [
+    "Naproxen is safe because it's not ibuprofen",
+    "Avoid duplicate NSAIDs; use the lowest dose",
+    "Take all three with food to protect the stomach",
+    "Add naproxen and stop the aspirin"
+   ],
+   "answer": "B",
+   "rationale": "Aspirin, ibuprofen and naproxen are all first-generation NSAIDs. Her nursing slide: avoid duplicate NSAID-containing products, lowest effective dose for the shortest time. Stopping aspirin is a prescriber decision.",
+   "src": "slides 28, 50 + 01:17:47"
+  },
+  {
+   "id": "p-038",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>PCA, post-op day 0.</b> The nurse finds the client asleep and his son pressing the PCA button \"so Dad won't wake up in pain.\" The nurse should:",
+   "options": [
+    "Let him continue — the lockout prevents overdose",
+    "Stop him and teach that only the patient presses",
+    "Turn off the lockout so the son needn't wait",
+    "Ask him to press only when Dad wakes up crying"
+   ],
+   "answer": "B",
+   "rationale": "\"Who can only push the PCA button? The patient.\" Teach family never to press it. The lockout limits repeated dosing, but respiratory depression is still possible — and the nurse checks sedation and RR.",
+   "src": "slides 43, 52 + 01:12:10 + 01:19:52"
+  },
+  {
+   "id": "p-039",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Order:</b> butorphanol nasal spray PRN headache. <b>Client:</b> on a fentanyl patch and morphine for cancer pain for 8 months. The nurse's concern:",
+   "options": [
+    "Butorphanol has no interaction risk",
+    "Butorphanol may cause withdrawal",
+    "Butorphanol will double the fentanyl effect",
+    "Butorphanol is a pure opioid antagonist"
+   ],
+   "answer": "B",
+   "rationale": "An agonist-antagonist blocks a full agonist given with it, and can precipitate withdrawal in a client taking long-term agonists. It isn't a pure antagonist (that's naloxone) and it doesn't simply add to the fentanyl.",
+   "src": "slides 34, 38 + 01:04:05"
+  },
+  {
+   "id": "p-040",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Home care.</b> A client on a fentanyl patch says the new patch \"is too strong,\" so his daughter cut it in half. The nurse's response:",
+   "options": [
+    "Fold the patch instead to halve the dose",
+    "Never cut or fold the patch; tell the provider",
+    "Change it every 24 hours instead to lower the dose",
+    "Cutting is fine if both halves are used"
+   ],
+   "answer": "B",
+   "rationale": "\"Can you cut the patch? Can you fold the patch? No.\" The patch stays on for 72 hours; concerns about strength go to the provider. Used patches go in the special disposal container.",
+   "src": "slide 39 + 01:09:03 + 01:09:35"
+  },
+  {
+   "id": "p-041",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Client:</b> 78 years old, BPH, IV morphine after hip surgery. <b>8 hours:</b> no urine, lower abdomen firm and tender. The nurse suspects:",
+   "options": [
+    "Morphine allergy",
+    "Urinary retention from morphine",
+    "Expected post-op fluid shift",
+    "Acute kidney injury from NSAIDs"
+   ],
+   "answer": "B",
+   "rationale": "Morphine raises bladder sphincter tone and dulls awareness of a full bladder; clients with BPH have more urinary retention, and older adults are more sensitive. Monitoring urinary retention is on the after-administration checklist.",
+   "src": "slides 36, 38, 51"
+  },
+  {
+   "id": "p-042",
+   "tier": "3",
+   "type": "mc",
+   "stem": "<b>Client:</b> metastatic cancer, on opioids for months. Pain control is stable, but he has had hard stools every 4–5 days since starting. Which statement is accurate?",
+   "options": [
+    "Constipation persists; little tolerance develops",
+    "This is early opioid withdrawal; slow the taper down",
+    "This means the opioid dose is too low",
+    "His bowels will adjust within a few more weeks"
+   ],
+   "answer": "A",
+   "rationale": "Very little tolerance develops to constipation (or miosis), unlike pain relief and sedation. Opioids slow GI contractions, tighten the anal sphincter and reduce fluid secretion — impaction is a risk, so keep monitoring.",
+   "src": "slides 35, 37, 51 + 01:03:33"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Orthopedic unit",
+   "setting": "Total knee replacement · days 1–2",
+   "text": "<b>Nurses' Notes — Day 1, 0800</b>\n68-year-old client, post-op day 1 after a right total knee replacement. Rates pain 8/10 on the numeric scale, guarding the knee, taking shallow breaths, refused breakfast. Says, \"I'll be fine — the men in my family don't complain.\" History: type 2 diabetes, hypertension. Wears reading glasses. His goal: walk to the bathroom on his own. Last pain medication at 0200.\n<b>Vital Signs</b> — T 37.2°C · HR 112 · BP 158/92 · RR 24, shallow · SpO₂ 94% on room air\n<b>Laboratory Results</b> — Glucose 248 mg/dL (fasting) · Hgb 12.1 g/dL\n<b>Orders</b> — Hydrocodone/acetaminophen (Norco) PO every 4–6 h PRN moderate pain · morphine IV PRN severe pain · PT to walk the client at 1000 · fall precautions",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "Which findings reflect the body's physiologic response to <b>unrelieved pain</b>? Select all that apply.",
+     "options": [
+      "T 37.2°C",
+      "HR 112",
+      "Fasting glucose 248 mg/dL",
+      "Wears reading glasses",
+      "BP 158/92",
+      "Shallow breathing, RR 24"
+     ],
+     "answer": "B, C, E, F",
+     "rationale": "Unrelieved pain triggers fight-or-flight: increased HR, BP and RR, shallow breathing, and increased blood glucose from glucagon and cortisol. A temperature of 37.2°C is normal and his glasses are irrelevant. His remark about not complaining is a barrier to reporting, not a physiologic sign.",
+     "src": "slides 5, 15 + 00:04:31 + 00:22:27",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "What best explains the client's glucose of 248 mg/dL?",
+     "options": [
+      "Glucose is unrelated to pain and reflects only his diabetes",
+      "Morphine stimulates the liver to release stored glucose",
+      "The acetaminophen in Norco raises his blood glucose directly",
+      "Pain's stress hormones raise glucose, which slows healing"
+     ],
+     "answer": "D",
+     "rationale": "The neuroendocrine stress response releases glucagon and cortisol → hyperglycemia → delayed wound healing — for a diabetic in pain \"it's like a double whammy.\" The sources don't link acetaminophen or morphine to glucose.",
+     "src": "slide 5 + 00:05:34",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "Which problem should the nurse address first?",
+     "options": [
+      "Poor appetite that needs a nutrition consult",
+      "Unrelieved pain that is driving his stress response",
+      "Hypertension that needs a new antihypertensive drug",
+      "The risk of opioid addiction from his PRN morphine order"
+     ],
+     "answer": "B",
+     "rationale": "The pain is driving the tachycardia, hypertension, shallow breathing and hyperglycemia, and \"if they're in so much pain… they're not going to be wanting to do any therapy.\" Treating it addresses the other findings. Fear of addiction isn't a reason to leave pain unrelieved.",
+     "src": "slide 15 + 00:22:57 + 01:05:42",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "Which items should the nurse include in the plan of care? Select all that apply.",
+     "options": [
+      "Use his goal — walking to the bathroom — to judge relief",
+      "Reassess pain about 1 hour after each dose",
+      "Avoid opioids because he has diabetes",
+      "Give the PRN pain medication before PT at 1000",
+      "Ask whether doses can be scheduled to stay ahead of the pain",
+      "Delay PT until his pain is 0/10"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "Give pain medication before PT; assess the functional impact and goal; reassess 1 hour after. Many opioids are ordered PRN, but they \"should be scheduled so that dose is given before pain returns\" — PRN dosing swings into pain and back. Zero pain isn't required, and diabetes isn't a reason to withhold opioids.",
+     "src": "slides 19, 42, 51 + 01:05:42 + 01:11:40",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 0930.</b> Morphine IV was given at 0915. PT arrives early and the client says, \"Let's go — I'll just hop up.\" What should the nurse do first?",
+     "options": [
+      "Sit him on the edge of the bed, then have him stand slowly",
+      "Give a Norco dose too so the walk is pain-free",
+      "Let him stand quickly so he doesn't lose his PT slot",
+      "Cancel PT because morphine was given within the hour"
+     ],
+     "answer": "A",
+     "rationale": "Morphine blunts the baroreceptor reflex → orthostatic hypotension, so change position slowly: \"Get up and get going? … You're going to sit them up.\" Morphine doesn't cancel PT — it's given so he can participate. Stacking another opioid adds sedation.",
+     "src": "slide 35 + 01:05:09 + 01:05:42",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Day 2, 1100.</b> Which findings show the pain plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Fasting glucose 162 mg/dL",
+      "HR 84, BP 134/80",
+      "Refuses PT because of pain",
+      "Drifts off mid-sentence, RR 10",
+      "Pain 3/10 one hour after the dose",
+      "Walked to the bathroom with PT"
+     ],
+     "answer": "A, B, E, F",
+     "rationale": "Reaching his functional goal, a lower pain score at the 1-hour reassessment, and vital signs and glucose coming down as the stress response settles all show improvement. Drifting off with RR 10 is increasing sedation, which can precede respiratory depression; refusing PT means pain still limits function.",
+     "src": "slides 15, 51 + 01:11:40 + 01:19:20",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Surgical unit",
+   "setting": "Morphine PCA after abdominal surgery · day 0–1",
+   "text": "<b>Nurses' Notes — Day 0, 1900</b>\n72-year-old client back from the PACU after an open bowel resection. Morphine PCA started in the PACU. History: emphysema, obesity (BMI 36), hypertension. Pain 6/10, drowsy but answers questions. His son is staying overnight. Takes a daily multivitamin at home.\n<b>Vital Signs</b> — T 37.0°C · HR 92 · BP 134/78 · RR 16 · SpO₂ 95% on 2 L\n<b>Laboratory Results</b> — Hgb 11.8 g/dL · creatinine 1.0 mg/dL\n<b>Orders</b> — Morphine PCA per protocol · naloxone IV PRN respiratory depression · continuous pulse oximetry · sedation level and RR per protocol",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Which findings increase this client's risk of <b>respiratory depression</b> on the PCA? Select all that apply.",
+     "options": [
+      "Age 72",
+      "History of emphysema",
+      "Hgb 11.8 g/dL",
+      "Obesity, BMI 36",
+      "Takes a daily multivitamin",
+      "Pain 6/10"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Decreased respiratory reserve (asthma, emphysema, kyphoscoliosis, obesity) and older age (\"infants and elderly particularly sensitive to respiratory depression\") are morphine precautions. Pain, a multivitamin and a mildly low Hgb aren't on the list.",
+     "src": "slide 38",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "<b>Day 0, 2200.</b> The nurse finds the client asleep and his son pressing the PCA button \"so Dad won't wake up hurting.\" Why is this unsafe?",
+     "options": [
+      "It's only unsafe if the son presses during the lockout period",
+      "Only the patient should press it; extra doses can depress breathing",
+      "The lockout stops working once anyone else presses the button",
+      "The son could absorb morphine through his skin from the button"
+     ],
+     "answer": "B",
+     "rationale": "\"ONLY THE PATIENT presses the PCA button\" — teach family never to press it. The lockout limits repeated dosing, but \"respiratory depression remains possible.\" Her patient asked his son to push it: \"uh-uh, that's a no-no.\"",
+     "src": "slides 43, 52 + 01:12:10",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "<b>Day 0, 2330.</b> The client is hard to arouse. RR 8, shallow · SpO₂ 87% · pupils pinpoint · BP 118/70. The client is most likely experiencing:",
+     "options": [
+      "Opioid-induced respiratory depression",
+      "Normal deep sleep after a long surgery",
+      "Hypovolemic shock from bleeding",
+      "Atelectasis from shallow breathing"
+     ],
+     "answer": "A",
+     "rationale": "Rising sedation → RR 8 with pinpoint pupils (miosis) on morphine = respiratory depression, the most serious, potentially deadly side effect. Normal RR is 12–20; normal sleep doesn't drop the SpO₂ to 87%. His BP and the miosis don't fit shock.",
+     "src": "slides 35–36 + 01:05:09 + 01:24:50",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "Which interventions should the nurse anticipate? Select all that apply.",
+     "options": [
+      "Support the airway and ventilation",
+      "Naloxone IV as ordered",
+      "Frequent reassessment of RR and level of consciousness",
+      "Possible repeat naloxone doses",
+      "A morphine bolus once he is awake",
+      "Teach the son to press only while Dad sleeps"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "RR 8 → \"bring out your Narcan,\" support the airway and ventilation, reassess RR and LOC often, and anticipate repeat dosing because naloxone may wear off before the opioid. Another opioid dose now is \"no, no\"; only the patient presses the button.",
+     "src": "slides 44, 52 + 01:05:09 + 01:13:13 + 01:24:17",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "order",
+     "stem": "<b>Day 0, 2335.</b> Put the nurse's actions in order.",
+     "options": [
+      "Reassess RR, SpO₂ and level of consciousness",
+      "Stop further morphine by pausing the PCA",
+      "Give naloxone as ordered while supporting the airway",
+      "Keep watching for re-sedation as the naloxone wears off"
+     ],
+     "answer": "B, C, A, D",
+     "rationale": "Stop the source of more opioid, reverse it with naloxone while supporting ventilation, then reassess respiratory status and LOC frequently. Because naloxone's half-life is shorter than most opioids', monitor for re-sedation and recurrent respiratory depression afterward.",
+     "src": "slides 44, 52 + 01:05:09 + 01:13:13",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 0015.</b> After naloxone the client is awake, RR 14, SpO₂ 94%. Which findings need <b>follow-up</b>? Select all that apply.",
+     "options": [
+      "RR 14 at 0015",
+      "Pain 7/10 now that the morphine is reversed",
+      "SpO₂ 94% on 2 L",
+      "At 0100 he is drowsy again, RR 10",
+      "Oriented to person, place and time",
+      "The son says he'll push the button if Dad's asleep"
+     ],
+     "answer": "B, D, F",
+     "rationale": "The goal is adequate ventilation, \"not complete elimination of analgesia\" — new severe pain needs a plan with the provider. Drowsiness with RR 10 an hour later is re-sedation as naloxone wears off. The son's plan means teaching isn't done. The other findings show the reversal worked.",
+     "src": "slides 44, 52 + 01:12:41 + 01:13:13",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Emergency department",
+   "setting": "Acetaminophen overdose · day 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 1600</b>\n45-year-old client with back pain and a cold. For 3 days has taken hydrocodone/acetaminophen (Norco) \"every 2–3 hours because it isn't working,\" plus NyQuil at night. At about 0900 today took \"a handful\" of extra-strength Tylenol for a headache. Since noon: nausea, vomiting, sweating and upper abdominal pain. Drinks 4–5 beers daily. Thin; says she has barely eaten for weeks. Allergic to penicillin.\n<b>Vital Signs</b> — T 37.4°C · HR 104 · BP 118/72 · RR 18 · SpO₂ 98%\n<b>Laboratory Results</b> — Acetaminophen level and liver function tests drawn, results pending\n<b>Orders</b> — Acetylcysteine (Acetadote) IV now · hold all acetaminophen-containing products · monitor for signs of hepatotoxicity",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which findings increase this client's risk of <b>liver injury</b>? Select all that apply.",
+     "options": [
+      "Norco every 2–3 hours",
+      "4–5 beers a day",
+      "Allergic to penicillin",
+      "Has barely eaten for weeks",
+      "SpO₂ 98%",
+      "NyQuil every night"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Norco and cold products both contain acetaminophen — \"imperative to calculate total acetaminophen from all sources.\" Alcohol induces the pathway that makes NAPQI and depletes glutathione; being undernourished means low glutathione stores. The allergy and a normal SpO₂ don't affect the liver risk.",
+     "src": "slides 29, 31, 50 + 00:53:06 + 00:54:07",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "mc",
+     "stem": "Which statement best explains how her liver is being injured?",
+     "options": [
+      "Hydrocodone slows her breathing and starves the liver of oxygen",
+      "Alcohol blocks the minor pathway, so the drug stays unchanged",
+      "Excess drug makes more NAPQI than her glutathione can neutralize",
+      "Acetaminophen blocks COX-1, so the liver loses blood flow"
+     ],
+     "answer": "C",
+     "rationale": "Most acetaminophen leaves by the major nontoxic pathway; the minor P450 pathway makes NAPQI, which glutathione neutralizes. Too much drug — plus alcohol, which induces that pathway and depletes glutathione — means \"the liver is not able to keep up,\" and NAPQI damages hepatic cells. Acetaminophen acts on COX only in the CNS.",
+     "src": "slide 29 + 00:52:05 + 00:52:35 + 00:53:06",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "Which detail makes treatment <b>most time-critical</b>?",
+     "options": [
+      "Her heart rate is 104",
+      "She drinks 4–5 beers a day, every day",
+      "The large dose was about 7 hours ago",
+      "She has a penicillin allergy"
+     ],
+     "answer": "C",
+     "rationale": "Acetylcysteine given within 8–10 hours of the overdose can prevent liver injury almost 100% (still some protection up to 24 hours). At about 7 hours she is near the end of that window. Her alcohol use raises the risk but doesn't set the clock.",
+     "src": "slide 31 + 00:55:42 + 00:56:43",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "Which items should the nurse anticipate in her care? Select all that apply.",
+     "options": [
+      "Naloxone to reverse the acetaminophen",
+      "Assessing her alcohol use and liver history",
+      "Ibuprofen for the headache instead",
+      "Acetylcysteine as soon as possible",
+      "Monitoring for signs of hepatotoxicity",
+      "Totaling acetaminophen from every product she took"
+     ],
+     "answer": "B, D, E, F",
+     "rationale": "Her nursing slide for acetaminophen: calculate the total from all sources, assess alcohol use and liver disease, monitor for hepatotoxicity, and know NAC as the antidote. Naloxone reverses opioids, not acetaminophen; a new NSAID isn't part of the overdose plan.",
+     "src": "slides 31, 50 + 00:53:36",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "order",
+     "stem": "<b>Day 1, 1610.</b> Put the nurse's actions in order.",
+     "options": [
+      "Start the acetylcysteine infusion as ordered",
+      "Once she is stable, total every acetaminophen source with her",
+      "Monitor for worsening signs of liver injury",
+      "Before discharge, teach her to read OTC and combination labels"
+     ],
+     "answer": "A, C, B, D",
+     "rationale": "The antidote is time-critical, so it goes first; then monitor for hepatotoxicity during treatment. Assessment and teaching follow once she's stable — total the acetaminophen from OTC and opioid combinations, then teach label reading so it doesn't happen again.",
+     "src": "slides 31, 50 + 00:55:42",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "<b>Day 3.</b> She is preparing for discharge. Which statements show the teaching was <b>effective</b>? Select all that apply.",
+     "options": [
+      "\"Norco every 2 hours is fine once I'm home.\"",
+      "\"Beer and Tylenol only matter if I drink liquor.\"",
+      "\"I'll check cold medicine labels for acetaminophen.\"",
+      "\"Extra-strength Tylenol is fine if I take it with food.\"",
+      "\"The Tylenol in my Norco counts toward my daily total.\"",
+      "\"If I keep drinking, I can't go over 2,000 mg a day.\""
+     ],
+     "answer": "C, E, F",
+     "rationale": "Read OTC and combination labels and count every source; if a client won't stop drinking, no more than 2,000 mg/day (3,000 if undernourished). Food doesn't protect the liver, any alcohol counts, and Norco is usually every 4–6 hours.",
+     "src": "slides 31, 41, 50 + 00:54:07 + 01:16:46",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Primary care clinic → ED",
+   "setting": "NSAIDs + anticoagulant · days 1–4",
+   "text": "<b>Nurses' Notes — Day 1, 1000 (clinic)</b>\n74-year-old client with knee osteoarthritis. Takes OTC ibuprofen three times a day and aspirin 81 mg daily. Started apixaban (Eliquis) 2 weeks ago for atrial fibrillation. Reports black, tarry stools for 2 days, fatigue and dizziness when standing. History of MI 6 years ago. Allergy: sulfa drugs. Enjoys gardening.\n<b>Vital Signs</b> — T 36.8°C · HR 108 · BP 102/60 · RR 18 · SpO₂ 97%\n<b>Laboratory Results</b> — Hgb 9.2 g/dL (3 months ago: 12.8) · Hct 28% · creatinine 1.4 mg/dL (baseline 1.0)\n<b>Orders</b> — Send to the ED · hold ibuprofen · repeat Hgb/Hct · provider to review aspirin and apixaban",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which findings need <b>immediate follow-up</b>? Select all that apply.",
+     "options": [
+      "Creatinine 1.4 mg/dL (baseline 1.0)",
+      "Hgb 9.2 g/dL, down from 12.8",
+      "Enjoys gardening",
+      "T 36.8°C",
+      "Black, tarry stools for 2 days",
+      "Dizzy on standing with HR 108"
+     ],
+     "answer": "A, B, E, F",
+     "rationale": "Melena and falling Hgb/Hct are the GI-bleeding signs on her NSAID slide; dizziness and a fast heart rate fit blood loss. A rising creatinine fits NSAID renal impairment (\"monitor renal function and hydration\"). Temperature is normal; gardening is irrelevant.",
+     "src": "slides 25, 50 + 00:47:58",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "mc",
+     "stem": "Which explanation best fits her bleeding?",
+     "options": [
+      "Ibuprofen and aspirin block COX-1; apixaban adds anticoagulation",
+      "Ibuprofen blocks COX-2, which mainly protects the stomach lining",
+      "Apixaban alone causes it; NSAIDs don't affect bleeding risk",
+      "Aspirin toxicity (salicylism) is causing GI bleeding"
+     ],
+     "answer": "A",
+     "rationale": "Blocking COX-1 removes stomach protection (erosion, ulcers) and reduces platelet aggregation; an anticoagulant on top raises bleeding further — \"patients will drop like a gram of hemoglobin in a day\" on two drugs. COX-1, not COX-2, protects the stomach; salicylism is tinnitus, sweating, headache, dizziness.",
+     "src": "slides 24–25, 27 + 00:40:59 + 00:47:58",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "The client is most likely experiencing:",
+     "options": [
+      "Orthostatic hypotension from morphine",
+      "Acetaminophen liver injury causing GI symptoms",
+      "GI bleeding from NSAIDs plus an anticoagulant",
+      "Opioid-induced constipation"
+     ],
+     "answer": "C",
+     "rationale": "Black, tarry stools (melena), falling Hgb/Hct, tachycardia and dizziness on NSAIDs plus an anticoagulant point to GI bleeding. She takes no acetaminophen or opioids.",
+     "src": "slide 50 + 00:47:58 + 01:17:47",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "<b>Day 1, 1300 (ED).</b> Which items should the nurse anticipate? Select all that apply.",
+     "options": [
+      "Hold the ibuprofen per the order",
+      "Trend Hgb and Hct",
+      "Switch the ibuprofen to naproxen (Aleve)",
+      "Have her stop apixaban on her own for good",
+      "Review every anticoagulant, aspirin and NSAID she takes",
+      "Monitor renal function and hydration"
+     ],
+     "answer": "A, B, E, F",
+     "rationale": "Her NSAID nursing slide: assess for GI bleeding (↓ Hgb/Hct), review anticoagulants, corticosteroids, aspirin and other NSAIDs, monitor renal function and hydration. Naproxen is another first-generation NSAID. Anticoagulant changes are the provider's decision — \"we can't stop their Eliquis, they're going to get a stroke.\"",
+     "src": "slides 28, 50 + 01:17:47 + 01:18:49",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "mc",
+     "stem": "<b>Day 4.</b> Bleeding has stopped. The provider is considering celecoxib (Celebrex) for her knee pain because it is \"easier on the stomach.\" What should the nurse do?",
+     "options": [
+      "Point out her MI history and sulfa allergy before it's ordered",
+      "Agree, because sulfa allergy only matters for antibiotics",
+      "Agree, because coxibs have no cardiovascular risk at all",
+      "Suggest giving it together with ibuprofen for better relief"
+     ],
+     "answer": "A",
+     "rationale": "Celecoxib may be safer for the stomach, but blocking COX-2 → vasoconstriction → MI and stroke (avoid in heart disease and renal impairment), and it contains a sulfur molecule (sulfonamide allergy). Adding ibuprofen duplicates NSAIDs.",
+     "src": "slide 28 + 00:41:30 + 00:49:02",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "sata",
+     "stem": "<b>Day 4, discharge.</b> Which statements show she understands the teaching? Select all that apply.",
+     "options": [
+      "\"Blood in my stool or urine means I go to the ER.\"",
+      "\"I won't take two NSAID products together.\"",
+      "\"If I need ibuprofen, it's the lowest dose for the shortest time.\"",
+      "\"Aleve is fine since it isn't ibuprofen.\"",
+      "\"I'll skip my Eliquis on days I take ibuprofen.\"",
+      "\"Eliquis protects my stomach, so extra ibuprofen is OK.\""
+     ],
+     "answer": "A, B, C",
+     "rationale": "Avoid duplicate NSAIDs, lowest effective dose for the shortest duration, and \"if you see blood in your stool or in your urine, you go to the emergency room right away.\" Naproxen is an NSAID; skipping the anticoagulant risks a stroke; nothing about apixaban protects the stomach.",
+     "src": "slides 28, 50 + 00:47:58 + 01:18:49",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Wound & endocrine clinic",
+   "setting": "Diabetic neuropathy · weeks 0–6",
+   "text": "<b>Nurses' Notes — Week 0, 1030</b>\n62-year-old client with type 2 diabetes for 15 years and a slow-healing wound on the left heel. Describes burning, shooting pain in both feet, worse for the past year; \"even the bedsheet touching my feet hurts.\" Sleeps poorly, says she feels \"hopeless and tired all the time.\" Smokes 1 pack a day. Asks for \"something strong, like morphine — the Tylenol does nothing.\"\n<b>Vital Signs</b> — T 36.9°C · HR 78 · BP 128/78 · RR 16\n<b>Laboratory Results</b> — A1c 9.8% · glucose 232 mg/dL · creatinine 0.9 mg/dL\n<b>Orders</b> — Wound care weekly · PT referral · provider to choose between gabapentin and duloxetine",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings are consistent with <b>neuropathic</b> pain? Select all that apply.",
+     "options": [
+      "Burning, shooting pain in both feet",
+      "Creatinine 0.9 mg/dL",
+      "The bedsheet on her feet hurts",
+      "BP 128/78",
+      "Feels hopeless and tired",
+      "15 years of poorly controlled diabetes"
+     ],
+     "answer": "A, C, E, F",
+     "rationale": "Neuropathic pain: nerve damage (diabetes is the classic cause), burning, electrical or shooting pain, hyperalgesia/allodynia, and symptoms that become increasingly psychological — depression, fatigue, hopelessness. Her BP and creatinine are normal.",
+     "src": "slide 17 + 00:24:59 + 00:25:29",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "mc",
+     "stem": "Her statement that the bedsheet hurts her feet describes:",
+     "options": [
+      "Hyperalgesia",
+      "Low pain tolerance",
+      "Referred pain",
+      "Allodynia"
+     ],
+     "answer": "D",
+     "rationale": "Allodynia: a non-painful stimulus (sheets, clothing, air) is felt as painful. Hyperalgesia is an exaggerated response to something that is painful. Referred pain is felt away from its origin; tolerance is how much pain someone will bear.",
+     "src": "slide 7 + 00:07:55",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "Which statement best explains why morphine is a poor main treatment for her?",
+     "options": [
+      "Neuropathic pain responds poorly to opioids; it needs a multimodal plan",
+      "Her pain is acute and will resolve on its own within 3 months",
+      "Opioids are never used for any client who has diabetes, even after surgery",
+      "Morphine would raise her blood glucose and slow the heel wound"
+     ],
+     "answer": "A",
+     "rationale": "\"If they have diabetic neuropathy and they're having nerve pain… morphine's not going to help them. Maybe short-term after a procedure, but they need more multimodal.\" The slide: opioids not very useful. Her pain is chronic, not acute.",
+     "src": "slide 17 + 00:16:11 + 00:25:29",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "Which treatments fit her pain type? Select all that apply.",
+     "options": [
+      "Duloxetine (an SNRI)",
+      "Gabapentin or pregabalin",
+      "Better glucose control to help the wound heal",
+      "Scheduled morphine long term",
+      "A higher acetaminophen dose",
+      "PT and other non-drug therapy"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Neuropathic pain: gabapentin/pregabalin (↓ excitatory transmission) or SNRIs/TCAs (↑ descending inhibition), plus PT/OT and other non-drug options — multimodal. Hyperglycemia delays wound healing. Morphine doesn't help this pain, and \"Tylenol doesn't do anything\" for it.",
+     "src": "slides 22, 54 + 00:05:34 + 00:31:45 + 00:40:00",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "mc",
+     "stem": "<b>Week 1.</b> Gabapentin is started. Which teaching point is the priority?",
+     "options": [
+      "Watch for black, tarry stools, its main serious side effect",
+      "Stop it if the first dose doesn't take away all the pain",
+      "Take it with alcohol at bedtime to help with sleep",
+      "Get up slowly and watch for dizziness — it can cause falls"
+     ],
+     "answer": "D",
+     "rationale": "Her summary slide: gabapentin/pregabalin → CNS effects and fall risk. Black, tarry stools are the NSAID bleeding sign. The sources don't support stopping after one dose, and adding alcohol to a CNS-acting drug isn't safe teaching.",
+     "src": "slide 54",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "sata",
+     "stem": "<b>Week 6.</b> Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "A1c 8.6% and the heel wound is smaller",
+      "Bedsheets on her feet still feel unbearable",
+      "Asks another provider for morphine",
+      "Sleeps through most nights",
+      "Walks with PT twice a week",
+      "Two falls at home since starting gabapentin"
+     ],
+     "answer": "A, D, E",
+     "rationale": "Better sleep, function and glucose control with a healing wound show progress. Falls are the gabapentin warning (CNS effects/fall risk); seeking opioids from another prescriber needs follow-up (\"find out… if anybody else is prescribing\"); unchanged allodynia means the pain isn't controlled.",
+     "src": "slides 17, 54 + 01:11:40",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Emergency department",
+   "setting": "Referred pain · hours 0–4",
+   "text": "<b>Nurses' Notes — Day 1, 0615</b>\n58-year-old client woke with an ache in his jaw and left shoulder that spreads toward the left scapula. Nauseated and sweaty. Says, \"It's just my arthritis acting up.\" History: hypertension, smokes, had his gallbladder removed 3 years ago after attacks of right-shoulder pain. Takes no daily aspirin. Brought his own reading glasses.\n<b>Vital Signs</b> — T 36.8°C · HR 104 · BP 150/94 · RR 20 · SpO₂ 95%\n<b>Laboratory Results</b> — Cardiac labs drawn, results pending\n<b>Orders</b> — EKG now · aspirin PO · morphine IV PRN chest pain · cardiac monitoring",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which findings need <b>immediate follow-up</b>? Select all that apply.",
+     "options": [
+      "HR 104",
+      "Nausea and sweating",
+      "Gallbladder removed 3 years ago",
+      "Jaw ache",
+      "Brought his own reading glasses",
+      "Left shoulder pain spreading to the scapula"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Jaw, shoulder, scapula and back pain are classic heart-attack (referred) pain; sweating, nausea and tachycardia fit the stress response. His gallbladder is already out, so it can't be the source this time; the glasses are irrelevant.",
+     "src": "slides 15–16 + 00:24:29",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "Pain felt in his jaw and shoulder when the problem is in his heart is called:",
+     "options": [
+      "Somatic pain",
+      "Fibromyalgia pain",
+      "Referred pain",
+      "Neuropathic pain"
+     ],
+     "answer": "C",
+     "rationale": "Referred pain is perceived at a site different from the point of origin but innervated by the same spinal segment — common with visceral pain. His gallbladder attacks felt in the right shoulder were the same thing. Somatic pain comes from skin, muscles and joints.",
+     "src": "slides 14, 16 + 00:23:59 + 00:24:29",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "What should the nurse do first?",
+     "options": [
+      "Apply heat to the left shoulder",
+      "Give acetaminophen for the arthritis",
+      "Ask him to rate the pain on FLACC",
+      "Obtain the EKG"
+     ],
+     "answer": "D",
+     "rationale": "\"What is the first thing that you will do?… you want to do an EKG and figure out if indeed they're having… an MI.\" Treating it as arthritis misses the MI; FLACC is for young children and nonverbal clients.",
+     "src": "slide 16 + 00:24:59",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "<b>0630.</b> The EKG suggests an MI. Which orders fit the drug actions taught in class? Select all that apply.",
+     "options": [
+      "Check RR and sedation before morphine",
+      "Morphine IV for the MI pain",
+      "Ibuprofen for the shoulder ache",
+      "Aspirin — it reduces platelet aggregation",
+      "Celecoxib to reduce inflammation",
+      "Cardiac monitoring"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Blocking COX-1 protects against MI and stroke (less thromboxane → less platelet aggregation) — \"given a lot after a heart attack.\" MI pain is one of morphine's uses; before any opioid, assess RR and sedation. Non-aspirin NSAIDs and coxibs block COX-2 → vasoconstriction → raise MI and stroke risk.",
+     "src": "slides 25, 28, 35, 51 + 00:41:30",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "mc",
+     "stem": "<b>0700.</b> Morphine IV was given at 0640. He now asks to walk to the bathroom. What should the nurse do?",
+     "options": [
+      "Let him walk alone so he stays active and independent",
+      "Tell him he can't get up for 24 hours",
+      "Give naloxone first so he can walk safely",
+      "Help him sit up first, then rise slowly with help"
+     ],
+     "answer": "D",
+     "rationale": "Morphine causes orthostatic hypotension by blunting the baroreceptor reflex — change position slowly, with fall precautions. Naloxone isn't given to prevent dizziness; it reverses respiratory depression.",
+     "src": "slides 35, 51 + 01:05:09",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "sata",
+     "stem": "<b>1000.</b> Which findings show his treatment is <b>working</b>? Select all that apply.",
+     "options": [
+      "Pain 8/10 an hour after morphine",
+      "New vomiting after each dose",
+      "RR 16, awake and talking",
+      "RR 9 and hard to wake",
+      "BP 128/80 when sitting up slowly",
+      "Jaw and shoulder pain 1/10"
+     ],
+     "answer": "C, E, F",
+     "rationale": "Pain relieved without sedation, and BP steady with slow position changes, show improvement. RR 9 and hard to wake is respiratory depression; 8/10 at the 1-hour reassessment means the pain isn't relieved; emesis (the opioid stimulates the CTZ) may need an antiemetic.",
+     "src": "slides 35–36, 51 + 01:11:40 + 01:19:20",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Home care",
+   "setting": "Cancer pain on long-term opioids · months 0–8",
+   "text": "<b>Nurses' Notes — Month 0, home visit 1100</b>\n66-year-old client with metastatic lung cancer, on a fentanyl transdermal patch for 8 months plus a short-acting opioid PRN for breakthrough pain. Needs more breakthrough doses than last month. No bowel movement for 4 days. Last week his daughter cut a new patch in half \"because it seemed too strong.\" Used patches go in the kitchen trash. An urgent-care provider prescribed butorphanol nasal spray yesterday for a headache. Patch is on clean, dry skin on the upper arm.\n<b>Vital Signs</b> — T 36.7°C · HR 86 · BP 124/76 · RR 16\n<b>Laboratory Results</b> — None new\n<b>Orders</b> — Fentanyl patch, change every 72 h · breakthrough opioid PRN · home care weekly",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which findings need <b>follow-up</b>? Select all that apply.",
+     "options": [
+      "Used patches go in the kitchen trash",
+      "RR 16",
+      "The daughter cut a patch in half",
+      "No bowel movement for 4 days",
+      "Patch on clean, dry skin of the upper arm",
+      "New butorphanol prescription"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Never cut or fold a fentanyl patch; used patches need the special disposal policy; opioid constipation can lead to impaction; and butorphanol, an agonist-antagonist, can block his opioids and trigger withdrawal. Clean, dry skin is the correct site prep and RR 16 is normal.",
+     "src": "slides 34–35, 38–39 + 01:09:03 + 01:09:35",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "Why does he need more breakthrough doses than he did months ago?",
+     "options": [
+      "He is addicted, so the doses no longer relieve pain",
+      "The patch loses its strength after the first 24 hours",
+      "Tolerance, as the cancer spreads and infiltrates organs",
+      "Constipation keeps the opioid from being absorbed"
+     ],
+     "answer": "C",
+     "rationale": "Tolerance — larger doses for the same effect — is \"quite pronounced\" with opioids, and \"as the cancer is spreading, they probably need a lot more than their original starting dose.\" Cancer pain is multifactorial: tumors infiltrate organs and compress structures. The patch lasts 72 hours.",
+     "src": "slides 18, 37 + 00:27:29 + 01:06:51",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "Which finding poses the greatest <b>immediate</b> risk?",
+     "options": [
+      "Needing more breakthrough doses",
+      "The butorphanol prescription",
+      "No bowel movement for 4 days",
+      "Patches in the kitchen trash"
+     ],
+     "answer": "B",
+     "rationale": "An agonist-antagonist blocks a full agonist if both are given and can precipitate withdrawal in a client on long-term agonists — a sudden, severe problem as soon as he uses it. The others matter and need teaching, but the new drug can hurt him today.",
+     "src": "slides 34, 38 + 01:04:05",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "Which items belong in the plan? Select all that apply.",
+     "options": [
+      "Dispose of used patches per the disposal policy",
+      "Change the patch every 72 h on clean, dry skin",
+      "Call the provider about the butorphanol order",
+      "Expect the constipation to fade with time",
+      "Stop the fentanyl for a few days to reset tolerance",
+      "Teach never to cut or fold the patch"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Patch rules: 72 hours, clean and pat dry, never cut or fold, special disposal. The butorphanol needs the prescriber. Stopping long-term opioids abruptly causes withdrawal — they're tapered — and very little tolerance develops to constipation.",
+     "src": "slides 37, 39 + 01:06:51 + 01:09:03",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "He asks, \"Will my bowels get used to this medicine?\" The nurse's best response:",
+     "options": [
+      "\"Yes — it only happens during the first week of each new patch\"",
+      "\"Yes — within about 10 days your bowels will adjust\"",
+      "\"Probably not — it tends to persist, so we'll watch it\"",
+      "\"It means the dose is too high, so cut back on your own\""
+     ],
+     "answer": "C",
+     "rationale": "Very little tolerance develops to constipation and miosis, so it persists and can lead to impaction — keep monitoring. Ten days is the withdrawal timeline, not bowel adaptation, and dose changes go through the provider.",
+     "src": "slides 35, 37, 51 + 01:03:33",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Month 8.</b> His tumor has responded and the provider plans to stop the opioids. Which statements show he <b>understands</b>? Select all that apply.",
+     "options": [
+      "\"Cutting the patch smaller is how we'll taper.\"",
+      "\"Withdrawal can take about 10 days.\"",
+      "\"Withdrawal is life-threatening, so I'll need the ICU.\"",
+      "\"The dose will be tapered, not stopped all at once.\"",
+      "\"I may yawn, sweat and have a runny nose.\"",
+      "\"I'll use naloxone to ease the withdrawal.\""
+     ],
+     "answer": "B, D, E",
+     "rationale": "Long-term clients should taper. Withdrawal takes 10 days and is \"very uncomfortable but not dangerous\": yawning, rhinorrhea, sweating, goosebumps, then sneezing, N/V, cramps, aches. Naloxone precipitates withdrawal rather than easing it, and patches are never cut.",
+     "src": "slides 37, 39, 44 + 01:06:51",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Pediatric unit",
+   "setting": "Child after appendectomy · day 1",
+   "text": "<b>Nurses' Notes — Day 1, 0900</b>\n4-year-old client, post-op day 1 after an appendectomy. Crying, grimacing and guarding the abdomen when moved; won't give a number when asked about pain. Dressing clean and dry. Ate half of breakfast. A parent brought children's aspirin from home \"for the fever\" and plans to use an OTC children's cold-and-fever syrup at home.\n<b>Vital Signs</b> — T 38.3°C · SpO₂ 98% on room air\n<b>Laboratory Results</b> — No new results\n<b>Orders</b> — Acetaminophen PO, weight-based, PRN pain or fever · morphine IV, weight-based, PRN severe pain · reassess pain per unit policy",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "sata",
+     "stem": "Which findings need <b>follow-up</b>? Select all that apply.",
+     "options": [
+      "Dressing clean and dry",
+      "Grimacing",
+      "Parent plans to give children's aspirin",
+      "Ate half of breakfast",
+      "T 38.3°C",
+      "Crying and guarding the abdomen when moved"
+     ],
+     "answer": "B, C, E, F",
+     "rationale": "Crying, grimacing and guarding are pain expressions; aspirin isn't given to children (Reye's syndrome); the fever needs treatment and follow-up. A clean, dry dressing and eating half a meal are reassuring.",
+     "src": "slides 9, 27 + 00:46:20",
+     "step": "recognize"
+    },
+    {
+     "id": "c08-q02",
+     "type": "mc",
+     "stem": "Which tool should the nurse use to assess this child's pain?",
+     "options": [
+      "The parent's 0–10 rating",
+      "OLDCARTS interview",
+      "FLACC",
+      "Numeric 0–10 rating"
+     ],
+     "answer": "C",
+     "rationale": "FLACC is \"used for pediatrics, usually from two to seven,\" and for nonverbal clients — he's 4 and won't give a number. The numeric scale and OLDCARTS need a client who can describe and rate his own pain; \"it is what the patient tells you,\" not the parent.",
+     "src": "slides 19–21 + 00:30:00",
+     "step": "analyze"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "What is the priority concern about the aspirin the parent brought?",
+     "options": [
+      "Aspirin would make the fever drop too quickly",
+      "Aspirin works only for adult joint pain and not for a child's fever",
+      "Aspirin should be crushed and mixed with food first",
+      "Aspirin isn't given to children because of Reye's syndrome"
+     ],
+     "answer": "D",
+     "rationale": "\"Do remember Reye's syndrome… You don't give it to children.\" It can cause severe liver damage (and encephalopathy). Aspirin does reduce fever in adults — that isn't the issue.",
+     "src": "slide 27 + 00:46:20",
+     "step": "prioritize"
+    },
+    {
+     "id": "c08-q04",
+     "type": "sata",
+     "stem": "Which items belong in his plan? Select all that apply.",
+     "options": [
+      "Give the cold syrup along with each acetaminophen dose",
+      "Count acetaminophen from every source, including home products",
+      "Give the children's aspirin with food",
+      "Give acetaminophen as ordered for pain and fever",
+      "Use comfort measures along with medication",
+      "Reassess with FLACC after each intervention"
+     ],
+     "answer": "B, D, E, F",
+     "rationale": "Acetaminophen covers pain and fever; total it from all sources because OTC cold products often contain it. Assess before and after interventions with the right scale, and add non-drug measures (multimodal). No aspirin for children; doubling up acetaminophen sources is the overdose trap.",
+     "src": "slides 19, 22, 26, 50 + 00:29:02 + 00:54:07",
+     "step": "generate"
+    },
+    {
+     "id": "c08-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 1400.</b> The parent shows the nurse the cold-and-fever syrup she plans to use at home. What should the nurse do?",
+     "options": [
+      "Read the label with her for acetaminophen and count it in the total",
+      "Tell her OTC syrups are safe to give with any prescription",
+      "Tell her to switch to the children's aspirin she brought instead",
+      "Tell her to give the syrup and the acetaminophen at the same time"
+     ],
+     "answer": "A",
+     "rationale": "\"What else is Tylenol?… cold medications\" — teach parents to read OTC and combination labels and count every source toward the total. OTC doesn't mean safe to combine, and aspirin is out for children.",
+     "src": "slide 50 + 00:54:07 + 00:54:37",
+     "step": "act"
+    },
+    {
+     "id": "c08-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 1600.</b> Acetaminophen was given at 1500. Which findings show the intervention <b>worked</b>? Select all that apply.",
+     "options": [
+      "Grimaces when the nurse touches the bed",
+      "Playing quietly with a toy",
+      "Easily comforted when held",
+      "Lower FLACC score than at 1500",
+      "Still drawing his legs up and crying",
+      "T 38.6°C"
+     ],
+     "answer": "B, C, D",
+     "rationale": "Reassessing about an hour after the dose shows relief: calmer activity, a lower FLACC score, consolable. Ongoing crying and guarding, a rising temperature or grimacing at a light touch mean the pain or fever isn't controlled yet.",
+     "src": "slides 9, 21, 42 + 01:11:40",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "title": "Scenario 9 — Rapid rounds",
+   "setting": "Clinic and inpatient · 6 standalone questions",
+   "text": "Six clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c09-q01",
+     "type": "mc",
+     "stem": "A client in recovery from opioid use disorder asks why buprenorphine (Suboxone) is safer than the opioids he used before. The nurse explains:",
+     "options": [
+      "It has a short half-life, so it leaves the body within a few hours",
+      "As a partial mu agonist it has a ceiling, so less respiratory depression",
+      "It works on COX enzymes instead of on any opioid receptors",
+      "It is a pure antagonist that blocks every opioid effect completely and fast"
+     ],
+     "answer": "B",
+     "rationale": "Buprenorphine is a partial mu agonist with high affinity and low intrinsic activity; the ceiling effect means less respiratory depression, sedation and euphoria, and a lower risk of misuse. It has a long half-life (24–42 h SL/buccal). Naloxone is the pure antagonist.",
+     "src": "slide 45 + 01:13:43 + 01:14:13"
+    },
+    {
+     "id": "c09-q02",
+     "type": "mc",
+     "stem": "A client with a cough is prescribed acetaminophen with codeine. Which statement about codeine is accurate?",
+     "options": [
+      "Its pain relief keeps rising as the dose goes up",
+      "It is a strong opioid like morphine for severe pain",
+      "It suppresses cough at less than its pain dose",
+      "It has no constipation risk because it is moderate"
+     ],
+     "answer": "C",
+     "rationale": "Codeine is a moderate opioid for mild to moderate pain with a ceiling effect on pain relief, and a very effective cough suppressant at a dose lower than the analgesic dose. As a pure agonist it still causes constipation — and its combination with Tylenol counts toward the acetaminophen total.",
+     "src": "slide 40 + 01:09:35 + 01:10:09"
+    },
+    {
+     "id": "c09-q03",
+     "type": "sata",
+     "stem": "A client on long-term morphine is being assessed before the next dose. Which assessments belong on the <b>before-administration</b> checklist? Select all that apply.",
+     "options": [
+      "Daily weight",
+      "Blood pressure",
+      "Pupil size in bright light",
+      "Pain and the functional goal",
+      "Sedation / level of consciousness",
+      "Respiratory rate and quality"
+     ],
+     "answer": "B, D, E, F",
+     "rationale": "Before an opioid: assess pain and functional impact/goal, respiratory rate and quality, sedation/LOC, BP, current opioid exposure/tolerance, and baseline renal/hepatic function. Miosis is a known effect but isn't a pre-dose check on her slide; weight isn't listed.",
+     "src": "slide 51 + 01:19:20"
+    },
+    {
+     "id": "c09-q04",
+     "type": "mc",
+     "stem": "A client says, \"My sister and I burned our hands on the same pan, but she barely complained and I was in tears.\" Which explanation fits?",
+     "options": [
+      "Her sister must have had more nerve damage from the burn",
+      "Only her sister's C fibers carried a signal to the brain",
+      "Their threshold differs, though their tolerance is similar",
+      "Their tolerance differs, though their threshold is similar"
+     ],
+     "answer": "D",
+     "rationale": "Threshold — the stimulation needed to perceive pain — is very similar between people. Tolerance varies widely with age, culture, past pain and sleep: \"in our household, men don't cry.\"",
+     "src": "slide 9 + 00:10:01 + 00:10:31"
+    },
+    {
+     "id": "c09-q05",
+     "type": "sata",
+     "stem": "A client takes aspirin daily. Which findings suggest <b>salicylism</b>? Select all that apply.",
+     "options": [
+      "Headache",
+      "Sweating",
+      "Ringing in the ears",
+      "Constipation",
+      "Pinpoint pupils",
+      "Dizziness"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Salicylism (aspirin toxicity): tinnitus, sweating, headache, dizziness — the Kahoot item. Constipation was the distractor (\"we will encounter constipation in the next few slides\" — it's an opioid effect), and pinpoint pupils (miosis) are opioid too.",
+     "src": "slide 27 + 01:00:40"
+    },
+    {
+     "id": "c09-q06",
+     "type": "mc",
+     "stem": "A client with fibromyalgia asks why her pain doesn't show up on any test. The nurse's explanation:",
+     "options": [
+      "The pain comes from joint damage that worsens every year",
+      "It is referred pain from an organ that hasn't been found",
+      "It is acute pain that will clear when the injury heals",
+      "The CNS amplifies pain signals, lowering her pain threshold"
+     ],
+     "answer": "D",
+     "rationale": "Fibromyalgia (nociplastic): no clear physiologic cause, neither degenerative nor progressive; disordered CNS pain processing (central sensitization) gives a lower pain threshold overall. Referred pain comes from an organ; acute pain resolves with healing.",
+     "src": "slide 18 + 00:26:59 + 00:27:29"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "The 5th vital sign",
+   "back": "Pain — \"it is what the patient tells you… where they tell you\"; assess every shift",
+   "tag": "nociception",
+   "src": "slide 3 + 00:00:30 + 00:02:30"
+  },
+  {
+   "id": "fc-002",
+   "front": "Unrelieved pain: 4 body effects to know",
+   "back": "Tachycardia · delayed peristalsis, N/V · shallow breaths → atelectasis/pneumonia · immune depression, slow healing",
+   "tag": "nociception",
+   "src": "slide 5 + 00:04:31"
+  },
+  {
+   "id": "fc-003",
+   "front": "Diabetic in unrelieved pain — the \"double whammy\"",
+   "back": "Glucagon + cortisol → hyperglycemia → delayed wound healing; ask the last A1c",
+   "tag": "nociception",
+   "src": "slide 5 + 00:05:34"
+  },
+  {
+   "id": "fc-004",
+   "front": "4 stages of nociception, in order",
+   "back": "Transduction → transmission → perception → modulation",
+   "tag": "nociception",
+   "src": "slide 6 + 00:06:04"
+  },
+  {
+   "id": "fc-005",
+   "front": "Transduction",
+   "back": "Painful stimulus → action potential at the nociceptor (chemicals like prostaglandins, bradykinin, substance P)",
+   "tag": "nociception",
+   "src": "slides 6–7 + 00:06:36"
+  },
+  {
+   "id": "fc-006",
+   "front": "Perception — the brain's \"relay station\"",
+   "back": "Thalamus (\"the radio station\"); somatosensory cortex = location, intensity, quality",
+   "tag": "nociception",
+   "src": "slide 9 + 00:09:30"
+  },
+  {
+   "id": "fc-007",
+   "front": "Modulation",
+   "back": "Body changes pain intensity — nociceptive inhibition by endorphins/enkephalins (or morphine)",
+   "tag": "nociception",
+   "src": "slide 10 + 00:11:07 + 00:11:42"
+  },
+  {
+   "id": "fc-008",
+   "front": "Hyperalgesia",
+   "back": "Overreaction to a painful stimulus — a little stimulus, amplified response",
+   "tag": "nociception",
+   "src": "slide 7 + 00:07:23"
+  },
+  {
+   "id": "fc-009",
+   "front": "Allodynia",
+   "back": "A non-painful stimulus felt as pain — clothing or air brushing the skin",
+   "tag": "nociception",
+   "src": "slide 7 + 00:07:55"
+  },
+  {
+   "id": "fc-010",
+   "front": "Aδ fibers",
+   "back": "Myelinated · fast (5–10 m/s) · sharp, stinging, cutting pain",
+   "tag": "nociception",
+   "src": "slide 8 + 00:08:26"
+  },
+  {
+   "id": "fc-011",
+   "front": "C fibers",
+   "back": "Unmyelinated · slow (0.6–2 m/s) · dull, burning, aching pain · 90% of fibers",
+   "tag": "nociception",
+   "src": "slide 8 + 00:08:57"
+  },
+  {
+   "id": "fc-012",
+   "front": "Contralateral organization",
+   "back": "One side of the brain handles the opposite side of the body — right finger cut → left brain",
+   "tag": "nociception",
+   "src": "slide 8 + 00:08:57"
+  },
+  {
+   "id": "fc-013",
+   "front": "Pain threshold",
+   "back": "Stimulation needed to perceive pain — very similar between people",
+   "tag": "nociception",
+   "src": "slide 9 + 00:10:01"
+  },
+  {
+   "id": "fc-014",
+   "front": "Pain tolerance",
+   "back": "How much pain one will bear before seeking relief — varies with age, culture, past pain, sleep",
+   "tag": "nociception",
+   "src": "slide 9 + 00:10:31"
+  },
+  {
+   "id": "fc-015",
+   "front": "Mu (μ) receptor effects",
+   "back": "Euphoria · addiction · respiratory depression · physical dependence · pain relief",
+   "tag": "receptors",
+   "src": "slide 12 + 00:14:32"
+  },
+  {
+   "id": "fc-016",
+   "front": "Kappa (κ) receptor effects",
+   "back": "Dysphoria · sedation · pain relief",
+   "tag": "receptors",
+   "src": "slide 12 + 00:14:32"
+  },
+  {
+   "id": "fc-017",
+   "front": "Acute pain",
+   "back": "Tissue injury that resolves as it heals, usually within 3 months — a cut, burn, fall; responds to non-opioids",
+   "tag": "pain-types",
+   "src": "slide 15 + 00:22:27 + 00:23:27"
+  },
+  {
+   "id": "fc-018",
+   "front": "Neuropathic (chronic) pain",
+   "back": "Injury gone but pain persists — burning, electrical, shooting; opioids not very useful",
+   "tag": "pain-types",
+   "src": "slide 17 + 00:24:59"
+  },
+  {
+   "id": "fc-019",
+   "front": "Central sensitization",
+   "back": "Changes along the rest of the pain pathway — brain and cord become over-sensitive",
+   "tag": "pain-types",
+   "src": "slide 17 + 00:25:29"
+  },
+  {
+   "id": "fc-020",
+   "front": "Visceral pain",
+   "back": "From internal organs — dull, aching, squeezing, poorly localized (\"it hurts all over\")",
+   "tag": "pain-types",
+   "src": "slide 16 + 00:23:27"
+  },
+  {
+   "id": "fc-021",
+   "front": "Referred pain",
+   "back": "Felt away from its origin, same spinal segment — gallbladder → right shoulder; MI → jaw, shoulder, scapula",
+   "tag": "pain-types",
+   "src": "slide 16 + 00:24:29"
+  },
+  {
+   "id": "fc-022",
+   "front": "Fibromyalgia",
+   "back": "Widespread pain in all 4 extremities, waxes and wanes, no clear cause; sleep problems, IBS; central sensitization",
+   "tag": "pain-types",
+   "src": "slide 18 + 00:26:59"
+  },
+  {
+   "id": "fc-023",
+   "front": "Cancer-related pain",
+   "back": "Multifactorial — tumors infiltrate organs, compress structures; treatments damage tissue; \"more like visceral\"",
+   "tag": "pain-types",
+   "src": "slide 18 + 00:27:29 + 00:27:59"
+  },
+  {
+   "id": "fc-024",
+   "front": "FLACC scale — who?",
+   "back": "Children about age 2–7 and nonverbal ICU clients",
+   "tag": "assessment",
+   "src": "slide 21 + 00:30:00"
+  },
+  {
+   "id": "fc-025",
+   "front": "OLDCARTS",
+   "back": "Onset, Location, Duration, Character, Alleviating, Radiation, Temporal pattern/treatment, Symptoms",
+   "tag": "assessment",
+   "src": "slide 20 + 00:30:00"
+  },
+  {
+   "id": "fc-026",
+   "front": "Pain-scale nursing priorities (slide 19)",
+   "back": "Assess before and after interventions · functional impact · barriers to reporting",
+   "tag": "assessment",
+   "src": "slide 19 + 00:29:02"
+  },
+  {
+   "id": "fc-027",
+   "front": "Reassess after an opioid dose — when?",
+   "back": "About 1 hour after — \"always assess before, always assess after\"",
+   "tag": "assessment",
+   "src": "slide 42 + 01:11:40"
+  },
+  {
+   "id": "fc-028",
+   "front": "Non-drug pain options",
+   "back": "PT/OT (\"they do miracles\"), pain psychology, massage, acupuncture",
+   "tag": "assessment",
+   "src": "slide 22 + 00:31:45"
+  },
+  {
+   "id": "fc-029",
+   "front": "Multimodal analgesia",
+   "back": "More than one medication (e.g. long- and short-acting) — one drug often isn't enough",
+   "tag": "assessment",
+   "src": "slide 22 + 00:33:01"
+  },
+  {
+   "id": "fc-030",
+   "front": "COX-1 — the \"good COX\"",
+   "back": "Housekeeping: protects gastric mucosa, supports kidneys, platelet aggregation (thromboxane A₂)",
+   "tag": "cox",
+   "src": "slide 24 + 00:40:00"
+  },
+  {
+   "id": "fc-031",
+   "front": "COX-2 — the \"bad COX\"",
+   "back": "Inflammation at injury sites; fever in the brain; kidneys; vasodilation in vessels",
+   "tag": "cox",
+   "src": "slide 24 + 00:40:00"
+  },
+  {
+   "id": "fc-032",
+   "front": "Blocking COX-1 — harm vs benefit",
+   "back": "Harm: GI erosion, ulcers, bleeding, renal impairment · Benefit: less MI and stroke (↓ platelet aggregation)",
+   "tag": "cox",
+   "src": "slide 25 + 00:40:59"
+  },
+  {
+   "id": "fc-033",
+   "front": "Blocking COX-2 — harm vs benefit",
+   "back": "Harm: renal impairment, MI and stroke (no vasodilation) · Benefit: less inflammation, pain, fever",
+   "tag": "cox",
+   "src": "slide 25 + 00:41:30"
+  },
+  {
+   "id": "fc-034",
+   "front": "1st-generation NSAIDs",
+   "back": "Block COX-1 and COX-2 — aspirin, ibuprofen (Advil), naproxen (Aleve), ketorolac (Toradol)",
+   "tag": "nsaids-aspirin",
+   "src": "slides 26, 28 + 00:43:07"
+  },
+  {
+   "id": "fc-035",
+   "front": "2nd-generation NSAIDs",
+   "back": "COX-2 only — celecoxib (Celebrex); lower GI-bleed risk but ↑ MI/stroke; sulfa allergy",
+   "tag": "nsaids-aspirin",
+   "src": "slide 28 + 00:43:07 + 01:01:19"
+  },
+  {
+   "id": "fc-036",
+   "front": "Aspirin before an elective procedure",
+   "back": "Stop about 1 week before — one dose affects platelets for their 8-day life",
+   "tag": "nsaids-aspirin",
+   "src": "slides 26–27 + 00:44:41"
+  },
+  {
+   "id": "fc-037",
+   "front": "Salicylism",
+   "back": "Aspirin toxicity: tinnitus, sweating, headache, dizziness",
+   "tag": "nsaids-aspirin",
+   "src": "slide 27 + 01:00:40"
+  },
+  {
+   "id": "fc-038",
+   "front": "Aspirin and children",
+   "back": "Don't — Reye's syndrome",
+   "tag": "nsaids-aspirin",
+   "src": "slide 27 + 00:46:20"
+  },
+  {
+   "id": "fc-039",
+   "front": "Aspirin in pregnancy",
+   "back": "Contraindicated (case by case in some high-risk pregnancies)",
+   "tag": "nsaids-aspirin",
+   "src": "slide 27 + 00:46:52"
+  },
+  {
+   "id": "fc-040",
+   "front": "NSAID + warfarin or Eliquis — teach",
+   "back": "Blood in stool or urine → go to the ER right away",
+   "tag": "nsaids-aspirin",
+   "src": "00:47:58 + 01:17:47"
+  },
+  {
+   "id": "fc-041",
+   "front": "Acetaminophen — what it does and doesn't",
+   "back": "Pain + fever (COX in CNS only); NOT anti-inflammatory; no platelet, GI or kidney effects",
+   "tag": "acetaminophen",
+   "src": "slide 29 + 00:43:07"
+  },
+  {
+   "id": "fc-042",
+   "front": "NAPQI",
+   "back": "Acetaminophen's toxic metabolite (minor P450 pathway) — neutralized by glutathione, which alcohol and overdose deplete",
+   "tag": "acetaminophen",
+   "src": "slide 29 + 00:52:05"
+  },
+  {
+   "id": "fc-043",
+   "front": "Acetaminophen daily limits",
+   "back": "≤ 4,000 mg · ≤ 3,000 if undernourished · ≤ 2,000 if they won't stop drinking",
+   "tag": "acetaminophen",
+   "src": "slide 31 + 00:52:35"
+  },
+  {
+   "id": "fc-044",
+   "front": "Why no alcohol with Tylenol?",
+   "back": "Alcohol uses the same pathway → more NAPQI, less glutathione → liver damage",
+   "tag": "acetaminophen",
+   "src": "slide 29 + 00:53:06"
+  },
+  {
+   "id": "fc-045",
+   "front": "Acetaminophen antidote and its timing",
+   "back": "Acetylcysteine (NAC, Mucomyst) replenishes glutathione — within 8–10 h prevents injury ~100%; protects up to 24 h",
+   "tag": "acetaminophen",
+   "src": "slides 30–31 + 00:54:37 + 00:55:42"
+  },
+  {
+   "id": "fc-046",
+   "front": "Early signs of acetaminophen toxicity",
+   "back": "N/V, diarrhea, sweating, abdominal pain → fulminant liver failure",
+   "tag": "acetaminophen",
+   "src": "slide 31"
+  },
+  {
+   "id": "fc-047",
+   "front": "Hidden acetaminophen sources",
+   "back": "Cold medicines (NyQuil), codeine combos (Tylenol #3), Norco, Percocet",
+   "tag": "acetaminophen",
+   "src": "slides 41, 50 + 00:54:07"
+  },
+  {
+   "id": "fc-048",
+   "front": "Pure opioid agonists",
+   "back": "Strong: morphine · moderate: codeine — activate μ and κ",
+   "tag": "opioids",
+   "src": "slide 34 + 01:03:33"
+  },
+  {
+   "id": "fc-049",
+   "front": "Agonist-antagonist",
+   "back": "Butorphanol — low–moderate activity alone; blocks a full agonist given with it",
+   "tag": "opioids",
+   "src": "slide 34 + 01:04:05"
+  },
+  {
+   "id": "fc-050",
+   "front": "Morphine — most serious adverse effect",
+   "back": "Respiratory depression (worse with other CNS depressants)",
+   "tag": "opioids",
+   "src": "slide 35 + 01:04:36"
+  },
+  {
+   "id": "fc-051",
+   "front": "Morphine's most-seen side effects",
+   "back": "Respiratory depression, constipation, sedation",
+   "tag": "opioids",
+   "src": "01:05:42 + 01:06:18"
+  },
+  {
+   "id": "fc-052",
+   "front": "Morphine + standing up",
+   "back": "Orthostatic hypotension — sit up first, change position slowly",
+   "tag": "opioids",
+   "src": "slide 35 + 01:05:09"
+  },
+  {
+   "id": "fc-053",
+   "front": "Opioid effects with little tolerance",
+   "back": "Constipation and miosis",
+   "tag": "opioids",
+   "src": "slide 37 + 01:06:51"
+  },
+  {
+   "id": "fc-054",
+   "front": "Morphine withdrawal",
+   "back": "About 10 days; uncomfortable, not dangerous — taper long-term clients",
+   "tag": "opioids",
+   "src": "slide 37 + 01:06:51"
+  },
+  {
+   "id": "fc-055",
+   "front": "Fentanyl patch",
+   "back": "Change every 72 h · clean, pat dry · never cut or fold · special disposal",
+   "tag": "opioids",
+   "src": "slide 39 + 01:09:03"
+  },
+  {
+   "id": "fc-056",
+   "front": "Codeine",
+   "back": "Moderate; ceiling effect on pain relief; strong cough suppressant; usually with Tylenol",
+   "tag": "opioids",
+   "src": "slide 40 + 01:09:35 + 01:10:09"
+  },
+  {
+   "id": "fc-057",
+   "front": "Percodan vs Percocet",
+   "back": "Percodan = oxycodone + aspirin · Percocet = oxycodone + acetaminophen",
+   "tag": "opioids",
+   "src": "slide 41 + 01:10:09"
+  },
+  {
+   "id": "fc-058",
+   "front": "Norco interval",
+   "back": "Hydrocodone/acetaminophen — usually every 4–6 h, not every 2",
+   "tag": "opioids",
+   "src": "slide 41 + 01:16:46"
+  },
+  {
+   "id": "fc-059",
+   "front": "Schedule II",
+   "back": "High potential for abuse — morphine, oxycodone, Dilaudid, fentanyl, methadone (also Adderall, Ritalin)",
+   "tag": "opioids",
+   "src": "slide 35 + 01:15:15"
+  },
+  {
+   "id": "fc-060",
+   "front": "Normal respiratory rate",
+   "back": "12–20 — RR 8 on an opioid → naloxone",
+   "tag": "opioid-safety",
+   "src": "01:05:09 + 01:24:50"
+  },
+  {
+   "id": "fc-061",
+   "front": "What comes before respiratory depression?",
+   "back": "Increasing sedation",
+   "tag": "opioid-safety",
+   "src": "slide 51 + 01:19:20"
+  },
+  {
+   "id": "fc-062",
+   "front": "Who presses the PCA button?",
+   "back": "Only the patient — never family",
+   "tag": "opioid-safety",
+   "src": "slides 43, 52 + 01:12:10"
+  },
+  {
+   "id": "fc-063",
+   "front": "Can a client overdose on the PCA?",
+   "back": "No — the lockout limits doses; still monitor sedation and RR",
+   "tag": "opioid-safety",
+   "src": "slides 43, 52 + 01:12:41"
+  },
+  {
+   "id": "fc-064",
+   "front": "Naloxone — why repeat doses?",
+   "back": "Half-life shorter than most opioids → re-sedation",
+   "tag": "opioid-safety",
+   "src": "slide 44 + 01:13:13"
+  },
+  {
+   "id": "fc-065",
+   "front": "Naloxone in an opioid-dependent client",
+   "back": "Precipitates immediate withdrawal",
+   "tag": "opioid-safety",
+   "src": "slides 44, 52"
+  },
+  {
+   "id": "fc-066",
+   "front": "Naloxone — nursing priority",
+   "back": "Restore adequate ventilation, not eliminate all analgesia",
+   "tag": "opioid-safety",
+   "src": "slide 52"
+  },
+  {
+   "id": "fc-067",
+   "front": "Buprenorphine",
+   "back": "Partial μ agonist — ceiling effect, less respiratory depression; used for OUD (Suboxone)",
+   "tag": "opioid-safety",
+   "src": "slide 45 + 01:13:43"
+  },
+  {
+   "id": "fc-068",
+   "front": "Gabapentin / pregabalin",
+   "back": "Neuropathic pain — α2δ Ca²⁺ channel → ↓ excitatory transmission; watch CNS effects, falls",
+   "tag": "adjuvants",
+   "src": "slides 48, 54 + 00:40:00"
+  },
+  {
+   "id": "fc-069",
+   "front": "SNRIs / TCAs for pain",
+   "back": "Duloxetine, venlafaxine, amitriptyline — ↑ descending inhibition; neuropathic/chronic pain",
+   "tag": "adjuvants",
+   "src": "slides 23, 48, 54"
+  },
+  {
+   "id": "fc-070",
+   "front": "NSAID nursing checks",
+   "back": "GI bleeding (melena, hematemesis, ↓ Hgb/Hct) · anticoagulants · renal function · CV risk",
+   "tag": "nursing",
+   "src": "slide 50 + 01:17:47"
+  },
+  {
+   "id": "fc-071",
+   "front": "NSAID teaching",
+   "back": "Avoid duplicate NSAIDs · lowest dose, shortest time",
+   "tag": "nursing",
+   "src": "slide 50 + 01:17:47"
+  },
+  {
+   "id": "fc-072",
+   "front": "Acetaminophen nursing steps",
+   "back": "Total all sources → alcohol/liver history → watch hepatotoxicity → know NAC → teach labels",
+   "tag": "nursing",
+   "src": "slide 50"
+  },
+  {
+   "id": "fc-073",
+   "front": "Opioid selection rule",
+   "back": "Minimize use, lowest effective dose; IV for the shortest time",
+   "tag": "nursing",
+   "src": "slide 49 + 01:16:46"
+  },
+  {
+   "id": "fc-074",
+   "front": "PRN vs scheduled opioids",
+   "back": "Schedule so the dose comes before pain returns — PRN swings into pain and oversedation",
+   "tag": "nursing",
+   "src": "slide 42"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "Which is the fifth vital sign?",
+   "a": "<b>Pain.</b> She always asks — \"a lot of students are still missing\" it, \"so kind of make it a habit.\"",
+   "src": "00:02:30"
+  },
+  {
+   "id": "qa-002",
+   "q": "What is the physiologic response of all of this [the hormone surge in unrelieved pain]?",
+   "a": "She answered: <b>tachycardia, delayed peristalsis</b>, decreased ability to breathe deeply, slowed motility, immune depression and <b>delayed wound healing</b> — \"the right side of the screen.\"",
+   "src": "00:04:31 + 00:05:04"
+  },
+  {
+   "id": "qa-003",
+   "q": "A diabetic patient whose glucose is not in control is in pain — what's going to happen?",
+   "a": "Glucagon (and cortisol) → <b>hyperglycemia</b> → delayed wound healing. \"It's like a double whammy.\" She always asks the last A1c.",
+   "src": "00:05:34"
+  },
+  {
+   "id": "qa-004",
+   "q": "(student asked) Is that [pulling your finger away from a burn] the body's response?",
+   "a": "\"Yes… it's a way you are <b>inhibiting that stimuli</b> from going all the way up to the brain\" — modulation / nociceptive inhibition.",
+   "src": "00:11:42 + 00:12:22"
+  },
+  {
+   "id": "qa-005",
+   "q": "(Kahoot) Round 1 — first item",
+   "a": "Not audible on the recording. Round 1 covered unrelieved pain and the four stages (slides 5–10); the other round-1 items are below.",
+   "src": "00:17:21"
+  },
+  {
+   "id": "qa-006",
+   "q": "(Kahoot) A C-fiber item (stem not read aloud)",
+   "a": "\"I only saw like one question asking about the C-fiber.\" From slide 8: C fibers are <b>unmyelinated, slow, dull/burning</b>; Aδ are myelinated and fast.",
+   "src": "00:18:12 + 00:18:49"
+  },
+  {
+   "id": "qa-007",
+   "q": "(Kahoot) Activation of pain receptors — which stage comes first?",
+   "a": "<b>Transduction</b> — \"transduction first, transmission, perception and modulation.\"",
+   "src": "00:18:49 + 00:19:30"
+  },
+  {
+   "id": "qa-008",
+   "q": "(Kahoot) Unrelieved pain — what is the physiologic response? (only one option correct)",
+   "a": "<b>Increased heart rate and decreased immune function</b> — \"your body is just not doing well in this case.\"",
+   "src": "00:19:30"
+  },
+  {
+   "id": "qa-009",
+   "q": "(Kahoot) Modulation stage — what is the primary purpose?",
+   "a": "<b>Inhibition</b> — nociceptive inhibition, so that \"not every signal gets to the brain.\"",
+   "src": "00:19:30 + 00:21:04"
+  },
+  {
+   "id": "qa-010",
+   "q": "(Kahoot) Out of the four, which one is the movement of the action potential to the spine and up?",
+   "a": "<b>Transmission</b> (from slide 6).",
+   "src": "00:21:04"
+  },
+  {
+   "id": "qa-011",
+   "q": "What would be a classic example of acute pain — an injury that resolves shortly?",
+   "a": "\"<b>A cut, a burn, a fall</b>, something like that\" — e.g. an orthopedic injury.",
+   "src": "00:21:57 + 00:22:27"
+  },
+  {
+   "id": "qa-012",
+   "q": "Somebody's having a gallbladder attack — where does it hurt? What are the classic symptoms of a heart attack?",
+   "a": "Gallbladder → <b>right shoulder</b> (her mom). Heart attack → <b>jaw, shoulder, scapula, back pain</b> — referred pain. First thing: <b>an EKG</b>.",
+   "src": "00:24:29 + 00:24:59"
+  },
+  {
+   "id": "qa-013",
+   "q": "Neuropathic pain — what did we say?",
+   "a": "<b>Amplified response</b> (hyperalgesia), and central sensitization — the brain and spinal cord become over-sensitive.",
+   "src": "00:24:59 + 00:25:29"
+  },
+  {
+   "id": "qa-014",
+   "q": "(student asked) Is cancer pain a different kind of pain?",
+   "a": "It's pain from the cancer <b>infiltrating other organs</b> — \"more like a visceral pain.\"",
+   "src": "00:27:59"
+  },
+  {
+   "id": "qa-015",
+   "q": "Nursing priorities: assess before and after intervention — which intervention?",
+   "a": "A student: <b>pain medication</b> — \"very good.\"",
+   "src": "00:29:02"
+  },
+  {
+   "id": "qa-016",
+   "q": "(student asked) FLACC is used for ages 2 to 7 — what about infants?",
+   "a": "\"Good question… I will check back on this… I'll post it.\" For younger kids, possibly the faces scale (unclear). <i>Not posted yet.</i>",
+   "src": "00:31:04"
+  },
+  {
+   "id": "qa-017",
+   "q": "(Kahoot) How does chronic pain differ from acute pain?",
+   "a": "\"Everybody should get this.\" From slides 15 and 17: <b>acute</b> resolves as the injury heals (usually within 3 months); <b>chronic/neuropathic</b> persists after the injury is gone, no longer protective.",
+   "src": "00:33:31"
+  },
+  {
+   "id": "qa-018",
+   "q": "(Kahoot) Pain felt in a remote area — what kind?",
+   "a": "<b>Referred pain</b> — the heart-attack example; appendicitis can be very localized (her nephew).",
+   "src": "00:34:34"
+  },
+  {
+   "id": "qa-019",
+   "q": "(Kahoot) Widespread chronic pain (\"I'm tricking you\")",
+   "a": "\"It's chronic, it's widespread\" → <b>fibromyalgia</b> (slide 18). \"Visceral pain — yep\" was also called out, possibly a separate item.",
+   "src": "00:35:26"
+  },
+  {
+   "id": "qa-020",
+   "q": "(Kahoot) Round 2 — last item (\"a giveaway\")",
+   "a": "Stem and answer not audible on the recording.",
+   "src": "00:36:36"
+  },
+  {
+   "id": "qa-021",
+   "q": "(student asked) Why use the FLACC scale instead of the faces scale for kids?",
+   "a": "\"Every kid is different. Some kids may not be able to\" use faces — <b>institution policy</b> decides.",
+   "src": "00:36:36 + 00:37:30"
+  },
+  {
+   "id": "qa-022",
+   "q": "Has anybody gone to an orthopedist for back pain? What did they give you first?",
+   "a": "An <b>NSAID</b> — \"take 15 mg of meloxicam daily.\" \"Do they ever tell you to take Tylenol? No.\" Maybe a steroid pack later.",
+   "src": "00:43:37 + 00:44:07"
+  },
+  {
+   "id": "qa-023",
+   "q": "(student asked) Are these uses on the right side of the slide for NSAIDs and aspirin?",
+   "a": "Yes — <b>the same category</b>. (A follow-up about \"cinnamon\" is garbled on the recording.)",
+   "src": "00:45:15 + 00:45:48"
+  },
+  {
+   "id": "qa-024",
+   "q": "(student asked) Is low-dose aspirin contraindicated in pregnancy?",
+   "a": "\"Majority of the time, it's <b>contraindicated</b>,\" but some high-risk pregnancies need it — case by case, from the physician's perspective.",
+   "src": "00:46:20 + 00:46:52"
+  },
+  {
+   "id": "qa-025",
+   "q": "A lot of our patients are not on warfarin now. What are the two magic drugs?",
+   "a": "Students said heparin (that's usually sub-Q in the hospital). Outpatient: <b>Eliquis</b> (\"very good\") and <b>Xarelto</b>.",
+   "src": "00:49:33 + 00:50:03"
+  },
+  {
+   "id": "qa-026",
+   "q": "Why so much emphasis on Tylenol? What else has Tylenol?",
+   "a": "\"Very good\" — <b>cold medications</b>, codeine combinations (Tylenol #3), OTC products like NyQuil.",
+   "src": "00:54:07 + 00:54:37"
+  },
+  {
+   "id": "qa-027",
+   "q": "(student asked) How big is Tylenol's interaction with vaccines?",
+   "a": "It blunts the immune response — the vaccine is <b>less effective</b>.",
+   "src": "00:56:13 + 00:56:43"
+  },
+  {
+   "id": "qa-028",
+   "q": "(student asked) Can you say again what we need to know about the treatment?",
+   "a": "<b>Acetylcysteine</b> within <b>8–10 hours</b> of the Tylenol overdose. She added the NAPQI/NAC line to slide 30 in class.",
+   "src": "00:56:43"
+  },
+  {
+   "id": "qa-029",
+   "q": "(Kahoot) COX — \"one of the primary functions\" (stem partly heard)",
+   "a": "\"Remember, inflammation.\" From slide 24: <b>COX-2 mediates inflammation</b>; COX-1 does housekeeping (stomach, kidneys, platelets).",
+   "src": "00:58:16 + 00:59:29"
+  },
+  {
+   "id": "qa-030",
+   "q": "(Kahoot) Round 3 — item whose answer was \"not aspirin\"",
+   "a": "Stem not audible on the recording.",
+   "src": "00:59:29"
+  },
+  {
+   "id": "qa-031",
+   "q": "(Kahoot) Acetaminophen overdose — primary treatment?",
+   "a": "<b>Acetylcysteine</b> — \"I just said that.\"",
+   "src": "01:00:00"
+  },
+  {
+   "id": "qa-032",
+   "q": "(Kahoot) Aspirin overdose — what are the symptoms?",
+   "a": "<b>Salicylism: tinnitus, sweating, headache, dizziness</b> (slide 27). Constipation was the distractor — \"we will encounter constipation in the next few slides.\"",
+   "src": "01:00:40"
+  },
+  {
+   "id": "qa-033",
+   "q": "(Kahoot) Primary advantage of second-generation NSAIDs?",
+   "a": "\"This should be easy\" — <b>lower risk of GI bleeding</b>; that's why Celebrex was made.",
+   "src": "01:01:19"
+  },
+  {
+   "id": "qa-034",
+   "q": "(Kahoot) Acetaminophen-overdose antidote — how does it work?",
+   "a": "It <b>replenishes glutathione</b>, so NAPQI is neutralized.",
+   "src": "01:01:54 + 01:02:31"
+  },
+  {
+   "id": "qa-035",
+   "q": "What is the normal respiration rate? If somebody's breathing at eight, what are you going to do?",
+   "a": "Normal: up to 20 (later: <b>12–20</b>). At 8: \"<b>bring out your Narcan</b>.\"",
+   "src": "01:04:36 + 01:05:09"
+  },
+  {
+   "id": "qa-036",
+   "q": "Morphine for post-op pain — \"get up and get going.\" Are you going to do that?",
+   "a": "No — \"<b>you're going to sit them up</b>\" first and take your time (orthostatic hypotension). And give pain meds before PT.",
+   "src": "01:05:09 + 01:05:42"
+  },
+  {
+   "id": "qa-037",
+   "q": "(student asked) Do adverse effects or dependence vary with the route? Do we need to know dosages?",
+   "a": "It depends on <b>how long</b> the patient has taken it, not the route. Dosages and the conversion chart: <b>not expected</b> — FYI.",
+   "src": "01:07:25 + 01:07:58"
+  },
+  {
+   "id": "qa-038",
+   "q": "Can you cut the patch? Can you fold the patch?",
+   "a": "<b>No.</b> Clean the skin, pat dry, apply; follow the disposal policy.",
+   "src": "01:09:03"
+  },
+  {
+   "id": "qa-039",
+   "q": "(student asked) The slide says the transdermal patch is used for 24 hours?",
+   "a": "\"<b>72</b>, so, yes, 72.\"",
+   "src": "01:09:35"
+  },
+  {
+   "id": "qa-040",
+   "q": "Who can only push the PCA button? Can they overdose themselves?",
+   "a": "<b>The patient.</b> \"There will be a question, I'm telling you.\" Overdose? <b>No</b> — the lockout. Her patient asked his son to push it: \"uh-uh, that's a no-no.\"",
+   "src": "01:12:10 + 01:12:41"
+  },
+  {
+   "id": "qa-041",
+   "q": "(student asked) On the morphine slide — what does Schedule II mean?",
+   "a": "Schedule II drugs have a <b>higher potential for abuse</b>.",
+   "src": "01:14:44 + 01:15:15"
+  },
+  {
+   "id": "qa-042",
+   "q": "(student asked) Is buprenorphine (Suboxone) used in conjunction with other opioids?",
+   "a": "<b>Both</b> — by itself, and when patients are coming off opioids (detox).",
+   "src": "01:15:15"
+  },
+  {
+   "id": "qa-043",
+   "q": "(student asked) The fentanyl slide says a loading dose is not recommended — but what about epidurals in L&amp;D?",
+   "a": "\"I may have put it in wrong… it's more for the <b>PCA pump</b>.\" (PCA doses are FYI.)",
+   "src": "01:15:45 + 01:16:15"
+  },
+  {
+   "id": "qa-044",
+   "q": "\"I can take this Norco every two hours?\" Can they?",
+   "a": "\"Majority of the time, no. It's usually <b>four to six hours</b>.\"",
+   "src": "01:16:46"
+  },
+  {
+   "id": "qa-045",
+   "q": "If they're taking NSAIDs, what other medication do we watch? What's the number one medication for atrial fibrillation?",
+   "a": "<b>Blood thinners — warfarin, Eliquis.</b> If they fall and need ibuprofen: the shortest period possible; you can't stop the Eliquis (stroke).",
+   "src": "01:17:47 + 01:18:17 + 01:18:49"
+  },
+  {
+   "id": "qa-046",
+   "q": "(Kahoot) Pain threshold",
+   "a": "From slide 9: the <b>level of stimulation needed to perceive pain</b> — very similar between people (tolerance is what varies).",
+   "src": "01:20:28"
+  },
+  {
+   "id": "qa-047",
+   "q": "(Kahoot) How much do you have to take to go into liver failure?",
+   "a": "<b>More than 4,000 mg/day</b> of acetaminophen — then the Margie story: \"don't worry about my liver, just give it to me.\"",
+   "src": "01:21:07 + 01:21:37"
+  },
+  {
+   "id": "qa-048",
+   "q": "(Kahoot) Round 4 — three items not clear on the recording",
+   "a": "\"Take your best guess\" (stem not audible); \"they'll take more and more, it won't help, but then the side effects are worse\" — probably codeine's <b>ceiling effect</b> (slide 40), unconfirmed; \"a nurse recognizes that…\" (not audible).",
+   "src": "01:21:37 + 01:22:19 + 01:23:47"
+  },
+  {
+   "id": "qa-049",
+   "q": "(Kahoot) Contralateral organization",
+   "a": "\"Go back to the earlier slides\" — <b>opposite side</b>.",
+   "src": "01:22:19 + 01:22:57"
+  },
+  {
+   "id": "qa-050",
+   "q": "(Kahoot) What are some of the issues of chronic opioid use?",
+   "a": "From slide 46: <b>tolerance, dependence, misuse or overdose, constipation/nausea/drowsiness/urinary retention, opioid-induced hyperalgesia</b>.",
+   "src": "01:22:57"
+  },
+  {
+   "id": "qa-051",
+   "q": "(Kahoot) A patient is breathing 8 times a minute — what are you giving? Another dose?",
+   "a": "<b>No more opioid — naloxone.</b> Normal RR is \"twelve to twenty, guys.\"",
+   "src": "01:24:17 + 01:24:50"
+  },
+  {
+   "id": "qa-052",
+   "q": "(Kahoot) Last one — what are you going to monitor [on NSAIDs]?",
+   "a": "\"We talked about this over and over\" — <b>GI bleeding</b>, \"because it's inhibiting COX-1.\"",
+   "src": "01:24:50 + 01:25:25"
+  }
+ ]
+}

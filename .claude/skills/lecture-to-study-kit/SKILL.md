@@ -235,7 +235,7 @@ short lecture — say so at gate 2.
 
 - Write scenarios in the order they should appear; `assign-ids` numbers them `c01, c02…` by position, so N in the
   title must match the position.
-- `title` "Scenario N — Setting"; `setting` = unit + time span + "6 questions"; `text` = the client chart in NCLEX
+- `title` "Scenario N — Setting"; `setting` = unit + time span (the app adds the question count); `text` = the client chart in NCLEX
   layout: `<b>Nurses' Notes — Day 1, 1400</b>` narrative, then `<b>Vital Signs</b>`, `<b>Laboratory Results</b>`,
   `<b>Orders</b>` lines (`\n` between). Say "the client". Include a few irrelevant or normal findings (cues must be
   discriminated, not handed over).

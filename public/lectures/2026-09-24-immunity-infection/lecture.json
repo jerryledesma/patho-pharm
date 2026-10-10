@@ -696,7 +696,7 @@
   {
    "id": "c01",
    "title": "Scenario 1 — Medical-surgical unit",
-   "setting": "Infected abdominal wound with septicemia · days 1–4 · 6 questions",
+   "setting": "Infected abdominal wound with septicemia · days 1–4",
    "text": "<b>Nurses' Notes — Day 1, 1400</b>\n64-year-old client, post-op day 6 after bowel surgery. Reports chills, aching muscles, a headache and feeling \"wiped out.\" The lower end of the incision is red and swollen, with a fluctuant pocket draining cloudy fluid. History of type 2 diabetes. Ambulating in the hall twice a day. Wife visits every afternoon.\n<b>Vital Signs</b> — T 39.1°C · HR 112 · BP 98/60 · RR 22 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — Blood cultures ×2 and wound culture: collected 1330, pending\n<b>Orders</b> — IV antibiotic · surgical consult for the wound · vital signs every 2 h",
    "questions": [
     {
@@ -800,7 +800,7 @@
   {
    "id": "c02",
    "title": "Scenario 2 — Pediatric clinic",
-   "setting": "Pertussis exposure in a household · days 1–12 · 6 questions",
+   "setting": "Pertussis exposure in a household · days 1–12",
    "text": "<b>Nurses' Notes — Day 1, 1000</b>\n6-week-old infant brought in by the mother for a weight check. The father has had a cough for 2 weeks and today was diagnosed with pertussis at urgent care. He was vaccinated against pertussis as a teenager. The mother is up to date on her vaccines. The infant is exclusively breastfed and has not yet received any pertussis vaccine. A 4-year-old sibling has never been vaccinated. The infant has a mild runny nose and is feeding well.\n<b>Vital Signs</b> — Infant: T 37.0°C · HR 140 · RR 38 · SpO₂ 99% · weight up 30 g/day since birth\n<b>Orders</b> — Teach household infection-control measures · follow-up visit in 1 week",
    "questions": [
     {
@@ -904,7 +904,7 @@
   {
    "id": "c03",
    "title": "Scenario 3 — Employee health clinic",
-   "setting": "mRNA vaccine, then an exposure · weeks 0–3 · 6 questions",
+   "setting": "mRNA vaccine, then an exposure · weeks 0–3",
    "text": "<b>Nurses' Notes — Day 0, 0800</b>\n34-year-old client (a hospital unit clerk) received an mRNA COVID vaccine in the <b>left deltoid</b>. Observed 15 minutes with no problems. Takes loratadine (Claritin) daily for seasonal allergies.\n<b>Nurses' Notes — Day 1, 1600 (phone call)</b>\nThe client reports fever, muscle aches, fatigue and a headache since this morning, plus a tender, pea-sized lump in the <b>left armpit</b>. Breathing comfortably; no hives, no throat tightness. Sore at the injection site.\n<b>Vital Signs</b> — Day 1 (self-reported): T 38.1°C · HR 92\n<b>Orders</b> — Employee-health vaccine teaching · follow-up as needed",
    "questions": [
     {
@@ -1008,7 +1008,7 @@
   {
    "id": "c04",
    "title": "Scenario 4 — Primary care clinic",
-   "setting": "Heel infection with a swollen node · days 1–10 · 6 questions",
+   "setting": "Heel infection with a swollen node · days 1–10",
    "text": "<b>Nurses' Notes — Day 1, 1100</b>\n58-year-old client with type 2 diabetes stepped on a shell at the beach 5 days ago. The right heel wound is red, warm, swollen and painful. Palpation finds a <b>tender, enlarged lymph node behind the right knee</b>; nodes in both groins are not enlarged. Scaly, itchy skin between the toes of both feet (the client calls it athlete's foot). Works as a mail carrier.\n<b>Vital Signs</b> — T 38.0°C · HR 94 · BP 134/82 · RR 16\n<b>Laboratory Results</b> — Fingerstick glucose 238 mg/dL · wound culture: sent\n<b>Orders</b> — Oral antibiotic · topical antifungal to the toe webs · recheck in 10 days",
    "questions": [
     {
@@ -1114,7 +1114,7 @@
   {
    "id": "c05",
    "title": "Scenario 5 — Emergency department",
-   "setting": "Second bee sting in a breastfeeding client · 3 hours · 6 questions",
+   "setting": "Second bee sting in a breastfeeding client · 3 hours",
    "text": "<b>Nurses' Notes — Day 1, 1430</b>\n29-year-old client stung on the forearm by a bee 20 minutes ago at a picnic. Last summer she was stung once and had only a small local bump. Now: hives on the arms and chest, intense itching, runny nose, red watery eyes and one episode of vomiting. Speaking in full sentences; no wheezing. She is <b>breastfeeding a 4-month-old</b> and plans to drive home.\n<b>Vital Signs</b> — T 36.9°C · HR 104 · BP 116/72 · RR 20 · SpO₂ 98% on room air\n<b>Orders</b> — Diphenhydramine IV once · monitor vital signs every 15 min",
    "questions": [
     {
@@ -1219,7 +1219,7 @@
   {
    "id": "c06",
    "title": "Scenario 6 — Neurology clinic → emergency department",
-   "setting": "Myasthenia gravis · months 0–6 · 6 questions",
+   "setting": "Myasthenia gravis · months 0–6",
    "text": "<b>Nurses' Notes — Month 0, 0930</b>\n36-year-old client reports a drooping right eyelid and arm weakness when brushing her hair. Her mother has rheumatoid arthritis. Takes cetirizine (Zyrtec) for seasonal allergies. Walks her dog daily.\n<b>Vital Signs</b> — T 36.8°C · HR 76 · BP 118/74 · RR 14 · SpO₂ 99%\n<b>Laboratory Results</b> — Acetylcholine-receptor antibodies: <b>positive</b>\n<b>Orders</b> — Pyridostigmine PO · corticosteroid PO · neurology follow-up",
    "questions": [
     {
@@ -1321,7 +1321,7 @@
   {
    "id": "c07",
    "title": "Scenario 7 — Emergency department → medical unit",
-   "setting": "Antivenom, then serum sickness · days 1–14 · 6 questions",
+   "setting": "Antivenom, then serum sickness · days 1–14",
    "text": "<b>Nurses' Notes — Day 1, 1500</b>\n46-year-old client bitten on the left ankle by a rattlesnake while hiking. Received antivenom in the ED and was discharged on Day 3.\n<b>Nurses' Notes — Day 10, 1100</b>\nReturns with fever, an itchy rash on the trunk, painful swollen knees and wrists, and tender swollen nodes in the neck and groin. The bite site is healing well. Urine is foamy.\n<b>Vital Signs</b> — T 38.4°C · HR 98 · BP 132/84 · RR 18 · SpO₂ 98%\n<b>Laboratory Results</b> — Urine protein: positive · creatinine: higher than at discharge\n<b>Orders</b> — Admit · strict intake and output · daily kidney labs",
    "questions": [
     {
@@ -1425,7 +1425,7 @@
   {
    "id": "c08",
    "title": "Scenario 8 — Rheumatology clinic",
-   "setting": "Systemic lupus erythematosus · months 0–3 · 6 questions",
+   "setting": "Systemic lupus erythematosus · months 0–3",
    "text": "<b>Nurses' Notes — Month 0, 1000</b>\n27-year-old client with 6 weeks of painful, swollen finger joints and knees, a rash across the cheeks and fatigue. Had strep throat 2 months ago. Her older sister has lupus. Works as a dental hygienist. Up to date on vaccines.\n<b>Vital Signs</b> — T 37.6°C · HR 88 · BP 126/80 · RR 16\n<b>Laboratory Results</b> — Hemoglobin: low (anemia) · urine protein: positive · antibodies to nuclear material (histones, nucleic acids): positive\n<b>Orders</b> — Hydroxychloroquine · glucocorticoid · NSAID as needed for joint pain · recheck in 3 months",
    "questions": [
     {
@@ -1530,7 +1530,7 @@
   {
    "id": "c09",
    "title": "Scenario 9 — Labor & delivery → postpartum unit",
-   "setting": "Rh-negative mother with a postpartum hemorrhage · days 1–2 · 6 questions",
+   "setting": "Rh-negative mother with a postpartum hemorrhage · days 1–2",
    "text": "<b>Nurses' Notes — Day 1, 0610</b>\n31-year-old client delivered her <b>first</b> baby vaginally after an epidural. Mother's blood type: <b>O, Rh-negative</b>. Father: Rh-positive. Newborn: <b>Rh-positive</b>, Apgar 8 and 9, breastfeeding well.\n<b>Nurses' Notes — Day 1, 0745</b>\nHeavy vaginal bleeding; the fundus is boggy.\n<b>Vital Signs</b> — 0745: HR 122 · BP 88/54 · RR 22 · SpO₂ 97%\n<b>Laboratory Results</b> — Hemoglobin falling · type and crossmatch: in progress\n<b>Orders</b> — Transfuse packed red blood cells when crossmatched · Rho(D) immune globulin IM before discharge",
    "questions": [
     {
@@ -1632,7 +1632,7 @@
   {
    "id": "c10",
    "title": "Scenario 10 — Rapid rounds",
-   "setting": "Transplant unit, clinic and ED · one question each · 6 questions",
+   "setting": "Transplant unit, clinic and ED · one question each",
    "text": "Six clients, one question each. Read each stem on its own.",
    "questions": [
     {

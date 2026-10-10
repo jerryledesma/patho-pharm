@@ -653,7 +653,7 @@
   {
    "id": "c01",
    "title": "Scenario 1 — Emergency department",
-   "setting": "Suspected urosepsis · hours 0–72 · 6 questions",
+   "setting": "Suspected urosepsis · hours 0–72",
    "text": "<b>Nurses' Notes — Day 1, 0950</b>\n68-year-old client brought in by his daughter for new confusion after 2 days of fever and painful urination. History of hypertension (takes amlodipine). Allergy history not yet obtained: the client is confused and the daughter is unsure. No antibiotics given yet. The provider suspects sepsis from a urinary source.\n<b>Vital Signs</b> — T 39.2°C · HR 118 · BP 88/52 · RR 24 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — Blood cultures ×2: ordered, not yet collected · Urine culture: ordered, not yet collected\n<b>Orders</b> — Blood cultures ×2 · urine culture · piperacillin/tazobactam (Zosyn) IV now · document specimen and dose times",
    "questions": [
     {
@@ -757,7 +757,7 @@
   {
    "id": "c02",
    "title": "Scenario 2 — Medical-surgical unit",
-   "setting": "Pneumonia with a penicillin allergy · days 1–3 · 6 questions",
+   "setting": "Pneumonia with a penicillin allergy · days 1–3",
    "text": "<b>Nurses' Notes — Day 1, 1600</b>\n45-year-old client admitted with pneumonia. Allergy band reads \"penicillin.\" One peripheral IV in the left forearm with a calcium-containing IV solution infusing. Sputum culture collected at 1530. Reports heartburn after spicy food.\n<b>Vital Signs</b> — T 38.4°C · HR 98 · BP 128/80 · RR 22 · SpO₂ 93% on 2 L\n<b>Laboratory Results</b> — Creatinine 0.7 mg/dL · sputum culture pending\n<b>Orders</b> — Ceftriaxone (Rocephin) IV daily, first dose now · acetaminophen PRN fever",
    "questions": [
     {
@@ -861,7 +861,7 @@
   {
    "id": "c03",
    "title": "Scenario 3 — Medical-surgical unit",
-   "setting": "Thigh abscess · days 1–5 · 6 questions",
+   "setting": "Thigh abscess · days 1–5",
    "text": "<b>Nurses' Notes — Day 1, 1400</b>\n19-year-old client admitted from urgent care with a large, draining abscess on the right thigh and spreading redness and warmth around it (cellulitis). Wrestles on his college team and lives in a campus dorm. No known drug allergies. Reports the area has worsened over 3 days.\n<b>Vital Signs</b> — T 38.6°C · HR 104 · BP 124/76 · RR 18\n<b>Laboratory Results</b> — Creatinine 0.8 mg/dL · wound culture pending\n<b>Orders</b> — Vancomycin IV every 12 h · vancomycin trough before the 4th dose · creatinine daily · strict intake and output",
    "questions": [
     {
@@ -967,7 +967,7 @@
   {
    "id": "c04",
    "title": "Scenario 4 — Long-term care facility",
-   "setting": "C. difficile after clindamycin · days 8–14 · 6 questions",
+   "setting": "C. difficile after clindamycin · days 8–14",
    "text": "<b>Nurses' Notes — Day 8, 0700</b>\n82-year-old resident on day 8 of oral clindamycin for a dental infection; her tooth pain has improved. Overnight: 7 watery stools with a strong, distinctive odor and abdominal cramping. Hip replacement 3 years ago. Takes a daily multivitamin. Her daughter asks the nurse to give an over-the-counter antidiarrheal so her mother can rest.\n<b>Vital Signs</b> — T 38.3°C · HR 96 · BP 118/70 · RR 18\n<b>Laboratory Results</b> — None new; stool testing not yet ordered\n<b>Orders</b> — Clindamycin PO (next dose 1200) · acetaminophen PRN",
    "questions": [
     {
@@ -1071,7 +1071,7 @@
   {
    "id": "c05",
    "title": "Scenario 5 — Surgical intensive care unit",
-   "setting": "Perforated bowel · days 1–7 · 6 questions",
+   "setting": "Perforated bowel · days 1–7",
    "text": "<b>Nurses' Notes — Day 1, 0800</b>\n56-year-old client, post-op day 1 after surgery for a perforated bowel with a mixed intra-abdominal infection. Home medications: valproic acid for a seizure disorder (last seizure 2 years ago) and atorvastatin. Alert and oriented. Baseline hearing and balance recorded as normal.\n<b>Vital Signs</b> — T 38.2°C · HR 102 · BP 112/70 · RR 20\n<b>Laboratory Results</b> — Creatinine 1.0 mg/dL on admission → 1.3 mg/dL today · peritoneal fluid culture pending\n<b>Orders</b> — Imipenem/cilastatin (Primaxin) IV · gentamicin IV, planned 10-day course · gentamicin levels at specified times · creatinine daily · neuro checks every 4 h · strict intake and output · continue home valproic acid",
    "questions": [
     {
@@ -1177,7 +1177,7 @@
   {
    "id": "c06",
    "title": "Scenario 6 — Primary care clinic",
-   "setting": "Tick bite · clinic visit and day-4 call · 6 questions",
+   "setting": "Tick bite · clinic visit and day-4 call",
    "text": "<b>Nurses' Notes — Day 1, 1100</b>\n34-year-old client found an attached tick 3 days ago and now has a spreading rash at the bite. Doxycycline PO is prescribed. Takes a calcium supplement every morning and antacids for frequent heartburn. Last menstrual period 5 weeks ago; hasn't taken a pregnancy test. Plans a camping weekend. Her 6-year-old son was also bitten. Works as an accountant.\n<b>Vital Signs</b> — T 37.2°C · HR 76 · BP 118/74 · RR 16\n<b>Laboratory Results</b> — Urine pregnancy test ordered\n<b>Orders</b> — Doxycycline PO · urine pregnancy test before the first dose",
    "questions": [
     {
@@ -1281,7 +1281,7 @@
   {
    "id": "c07",
    "title": "Scenario 7 — Medical unit",
-   "setting": "VRE wound infection · days 1–12 · 6 questions",
+   "setting": "VRE wound infection · days 1–12",
    "text": "<b>Nurses' Notes — Day 1, 1000</b>\n70-year-old client with an infected surgical wound on the left leg; the wound culture grew <b>vancomycin-resistant enterococci (VRE)</b>. Home medications: sertraline (an SSRI) for depression, buspirone for anxiety, and metformin for type 2 diabetes. No known drug allergies.\n<b>Vital Signs</b> — T 38.1°C · HR 92 · BP 136/82 · RR 18\n<b>Laboratory Results</b> — CBC within normal limits, including platelets\n<b>Orders</b> — Linezolid (Zyvox) IV · CBC weekly · medication reconciliation on admission",
    "questions": [
     {
@@ -1385,7 +1385,7 @@
   {
    "id": "c08",
    "title": "Scenario 8 — Clinic, then emergency department",
-   "setting": "Complicated UTI · days 1–7 · 6 questions",
+   "setting": "Complicated UTI · days 1–7",
    "text": "<b>Nurses' Notes — Day 1, 0930 (clinic)</b>\n72-year-old client with a complicated urinary tract infection. Ciprofloxacin PO is prescribed. Medications: prednisone daily, a multivitamin with minerals, antacids as needed, tizanidine for muscle spasms, lisinopril (an ACE inhibitor) and warfarin. History: type 2 diabetes, reduced kidney function, cataract surgery last year.\n<b>Vital Signs</b> — T 37.9°C · HR 88 · BP 134/78 · RR 16\n<b>Laboratory Results</b> — Creatinine 1.6 mg/dL (reduced kidney function) · urine culture pending\n<b>Orders</b> — Ciprofloxacin PO · urine culture",
    "questions": [
     {
@@ -1490,7 +1490,7 @@
   {
    "id": "c09",
    "title": "Scenario 9 — Oncology unit",
-   "setting": "Invasive fungal infection · weeks 1–3 · 6 questions",
+   "setting": "Invasive fungal infection · weeks 1–3",
    "text": "<b>Nurses' Notes — Week 1, Day 1, 1400</b>\n58-year-old client receiving chemotherapy for leukemia; severely immunosuppressed, with an invasive fungal infection. White patches in the mouth diagnosed as oral thrush. Takes warfarin for a blood clot. Wears reading glasses.\n<b>Vital Signs (pre-infusion)</b> — T 37.0°C · HR 84 · BP 124/70 · RR 16 · SpO₂ 97%\n<b>Laboratory Results</b> — Creatinine 0.8 mg/dL · K⁺ and Mg²⁺ within normal limits\n<b>Orders</b> — Amphotericin B IV at the prescribed rate, start 1400 · infusion-reaction protocol · nystatin oral suspension · creatinine, BUN, K⁺, Mg²⁺, CBC and liver tests as ordered · strict intake and output",
    "questions": [
     {

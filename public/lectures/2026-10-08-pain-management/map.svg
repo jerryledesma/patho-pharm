@@ -1,0 +1,245 @@
+<svg id="cmap" width="1006pt" height="747pt"
+ viewBox="0.00 0.00 1006.00 747.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 725.44)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-725.44 984.22,-725.44 984.22,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="206.26" y="-683.84" font-family="Helvetica,sans-Serif" font-size="16.00">Pain &amp; Pharmacologic Management — Concept Map (NURS 419, Lecture 10/8/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="23.14" y="-664.64" font-family="Helvetica,sans-Serif" font-size="16.00">Tylenol ≤ 4,000 mg/day (3,000 undernourished · 2,000 drinking) · NAC 8–10 h · RR 12–20 · patch 72 h · only the patient presses the PCA</text>
+<!-- pain -->
+<g id="node1" class="node">
+<title>pain</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M283.3,-657.44C283.3,-657.44 118.58,-657.44 118.58,-657.44 112.58,-657.44 106.58,-651.44 106.58,-645.44 106.58,-645.44 106.58,-613.92 106.58,-613.92 106.58,-607.92 112.58,-601.92 118.58,-601.92 118.58,-601.92 283.3,-601.92 283.3,-601.92 289.3,-601.92 295.3,-607.92 295.3,-613.92 295.3,-613.92 295.3,-645.44 295.3,-645.44 295.3,-651.44 289.3,-657.44 283.3,-657.44"/>
+<text xml:space="preserve" text-anchor="start" x="117.38" y="-642.78" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Pain = the 5th vital sign</text>
+<text xml:space="preserve" text-anchor="start" x="117.38" y="-631.78" font-family="Helvetica,sans-Serif" font-size="11.00">&quot;What the patient tells you&quot;</text>
+<text xml:space="preserve" text-anchor="start" x="117.38" y="-620.78" font-family="Helvetica,sans-Serif" font-size="11.00">Unrelieved → ↑ HR, BP, RR, glucose</text>
+<text xml:space="preserve" text-anchor="start" x="117.38" y="-609.78" font-family="Helvetica,sans-Serif" font-size="11.00">Shallow breaths, slow healing</text>
+</g>
+<!-- noci -->
+<g id="node2" class="node">
+<title>noci</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M344.94,-556.72C344.94,-556.72 208.94,-556.72 208.94,-556.72 202.94,-556.72 196.94,-550.72 196.94,-544.72 196.94,-544.72 196.94,-502.2 196.94,-502.2 196.94,-496.2 202.94,-490.2 208.94,-490.2 208.94,-490.2 344.94,-490.2 344.94,-490.2 350.94,-490.2 356.94,-496.2 356.94,-502.2 356.94,-502.2 356.94,-544.72 356.94,-544.72 356.94,-550.72 350.94,-556.72 344.94,-556.72"/>
+<text xml:space="preserve" text-anchor="start" x="207.74" y="-542.06" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Nociception</text>
+<text xml:space="preserve" text-anchor="start" x="207.74" y="-531.06" font-family="Helvetica,sans-Serif" font-size="11.00">Transduction → transmission →</text>
+<text xml:space="preserve" text-anchor="start" x="207.74" y="-520.06" font-family="Helvetica,sans-Serif" font-size="11.00">perception → modulation</text>
+<text xml:space="preserve" text-anchor="start" x="207.74" y="-509.06" font-family="Helvetica,sans-Serif" font-size="11.00">Aδ myelinated/fast · C slow</text>
+<text xml:space="preserve" text-anchor="start" x="207.74" y="-498.06" font-family="Helvetica,sans-Serif" font-size="11.00">Contralateral organization</text>
+</g>
+<!-- pain&#45;&gt;noci -->
+<g id="edge1" class="edge">
+<title>pain&#45;&gt;noci</title>
+<path fill="none" stroke="#555555" d="M220.71,-601.57C229.1,-590.07 239.04,-576.44 248.21,-563.86"/>
+<polygon fill="#555555" stroke="#555555" points="250.17,-565.32 252.32,-558.22 246.21,-562.44 250.17,-565.32"/>
+<text xml:space="preserve" text-anchor="middle" x="264.13" y="-576.02" font-family="Helvetica,sans-Serif" font-size="11.00"> sensed by</text>
+</g>
+<!-- assess -->
+<g id="node4" class="node">
+<title>assess</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M189.88,-474.2C189.88,-474.2 12,-474.2 12,-474.2 6,-474.2 0,-468.2 0,-462.2 0,-462.2 0,-430.68 0,-430.68 0,-424.68 6,-418.68 12,-418.68 12,-418.68 189.88,-418.68 189.88,-418.68 195.88,-418.68 201.88,-424.68 201.88,-430.68 201.88,-430.68 201.88,-462.2 201.88,-462.2 201.88,-468.2 195.88,-474.2 189.88,-474.2"/>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-459.54" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Assess</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-448.54" font-family="Helvetica,sans-Serif" font-size="11.00">Numeric 0–10 · OLDCARTS · FACES</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-437.54" font-family="Helvetica,sans-Serif" font-size="11.00">FLACC: age 2–7, nonverbal ICU</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-426.54" font-family="Helvetica,sans-Serif" font-size="11.00">Before + 1 h after · function</text>
+</g>
+<!-- pain&#45;&gt;assess -->
+<g id="edge2" class="edge">
+<title>pain&#45;&gt;assess</title>
+<path fill="none" stroke="#555555" d="M171.14,-601.51C166.64,-596.59 162.32,-591.3 158.74,-585.92 137.17,-553.51 121.09,-511.74 111.43,-482.59"/>
+<polygon fill="#555555" stroke="#555555" points="113.84,-482.07 109.35,-476.16 109.18,-483.58 113.84,-482.07"/>
+<text xml:space="preserve" text-anchor="middle" x="192.34" y="-576.02" font-family="Helvetica,sans-Serif" font-size="11.00"> measured with</text>
+</g>
+<!-- types -->
+<g id="node3" class="node">
+<title>types</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M359.12,-402.68C359.12,-402.68 194.76,-402.68 194.76,-402.68 188.76,-402.68 182.76,-396.68 182.76,-390.68 182.76,-390.68 182.76,-348.16 182.76,-348.16 182.76,-342.16 188.76,-336.16 194.76,-336.16 194.76,-336.16 359.12,-336.16 359.12,-336.16 365.12,-336.16 371.12,-342.16 371.12,-348.16 371.12,-348.16 371.12,-390.68 371.12,-390.68 371.12,-396.68 365.12,-402.68 359.12,-402.68"/>
+<text xml:space="preserve" text-anchor="start" x="193.56" y="-388.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Kinds of pain</text>
+<text xml:space="preserve" text-anchor="start" x="193.56" y="-377.02" font-family="Helvetica,sans-Serif" font-size="11.00">Acute: heals in ~3 months</text>
+<text xml:space="preserve" text-anchor="start" x="193.56" y="-366.02" font-family="Helvetica,sans-Serif" font-size="11.00">Neuropathic: burning, shooting</text>
+<text xml:space="preserve" text-anchor="start" x="193.56" y="-355.02" font-family="Helvetica,sans-Serif" font-size="11.00">Visceral → referred (MI → jaw: EKG)</text>
+<text xml:space="preserve" text-anchor="start" x="193.56" y="-344.02" font-family="Helvetica,sans-Serif" font-size="11.00">Fibromyalgia · cancer</text>
+</g>
+<!-- noci&#45;&gt;types -->
+<g id="edge3" class="edge">
+<title>noci&#45;&gt;types</title>
+<path fill="none" stroke="#555555" d="M276.94,-489.84C276.94,-466.97 276.94,-436.22 276.94,-411.65"/>
+<polygon fill="#555555" stroke="#555555" points="279.39,-411.76 276.94,-404.76 274.49,-411.76 279.39,-411.76"/>
+<text xml:space="preserve" text-anchor="middle" x="289.93" y="-443.14" font-family="Helvetica,sans-Serif" font-size="11.00"> gives</text>
+</g>
+<!-- rec -->
+<g id="node5" class="node">
+<title>rec</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M507.23,-397.18C507.23,-397.18 410.65,-397.18 410.65,-397.18 404.65,-397.18 398.65,-391.18 398.65,-385.18 398.65,-385.18 398.65,-353.66 398.65,-353.66 398.65,-347.66 404.65,-341.66 410.65,-341.66 410.65,-341.66 507.23,-341.66 507.23,-341.66 513.23,-341.66 519.23,-347.66 519.23,-353.66 519.23,-353.66 519.23,-385.18 519.23,-385.18 519.23,-391.18 513.23,-397.18 507.23,-397.18"/>
+<text xml:space="preserve" text-anchor="start" x="409.45" y="-382.52" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Opioid receptors</text>
+<text xml:space="preserve" text-anchor="start" x="409.45" y="-371.52" font-family="Helvetica,sans-Serif" font-size="11.00">μ: euphoria, addiction,</text>
+<text xml:space="preserve" text-anchor="start" x="409.45" y="-360.52" font-family="Helvetica,sans-Serif" font-size="11.00">respiratory depression</text>
+<text xml:space="preserve" text-anchor="start" x="409.45" y="-349.52" font-family="Helvetica,sans-Serif" font-size="11.00">κ: dysphoria, sedation</text>
+</g>
+<!-- noci&#45;&gt;rec -->
+<g id="edge4" class="edge">
+<title>noci&#45;&gt;rec</title>
+<path fill="none" stroke="#555555" d="M315.98,-489.84C346.7,-464.18 389.29,-428.6 419.99,-402.96"/>
+<polygon fill="#555555" stroke="#555555" points="421.38,-404.99 425.19,-398.62 418.24,-401.23 421.38,-404.99"/>
+<text xml:space="preserve" text-anchor="middle" x="430.01" y="-443.14" font-family="Helvetica,sans-Serif" font-size="11.00"> modulated at</text>
+</g>
+<!-- cox -->
+<g id="node6" class="node">
+<title>cox</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M725.83,-272.26C725.83,-272.26 542.05,-272.26 542.05,-272.26 536.05,-272.26 530.05,-266.26 530.05,-260.26 530.05,-260.26 530.05,-228.74 530.05,-228.74 530.05,-222.74 536.05,-216.74 542.05,-216.74 542.05,-216.74 725.83,-216.74 725.83,-216.74 731.83,-216.74 737.83,-222.74 737.83,-228.74 737.83,-228.74 737.83,-260.26 737.83,-260.26 737.83,-266.26 731.83,-272.26 725.83,-272.26"/>
+<text xml:space="preserve" text-anchor="start" x="540.85" y="-257.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">COX enzymes</text>
+<text xml:space="preserve" text-anchor="start" x="540.85" y="-246.6" font-family="Helvetica,sans-Serif" font-size="11.00">COX&#45;1 &quot;good&quot;: stomach, kidney, platelets</text>
+<text xml:space="preserve" text-anchor="start" x="540.85" y="-235.6" font-family="Helvetica,sans-Serif" font-size="11.00">COX&#45;2 &quot;bad&quot;: inflammation, fever,</text>
+<text xml:space="preserve" text-anchor="start" x="540.85" y="-224.6" font-family="Helvetica,sans-Serif" font-size="11.00">vasodilation</text>
+</g>
+<!-- types&#45;&gt;cox -->
+<g id="edge5" class="edge">
+<title>types&#45;&gt;cox</title>
+<path fill="none" stroke="#555555" d="M317.86,-335.67C323.71,-330.62 329.57,-325.35 334.94,-320.16 346.26,-309.23 344.5,-300.91 358.51,-293.76 421.16,-261.81 446.8,-290.63 515.94,-277.76 520.94,-276.83 526.04,-275.79 531.17,-274.67"/>
+<polygon fill="#555555" stroke="#555555" points="531.49,-277.11 537.78,-273.18 530.42,-272.33 531.49,-277.11"/>
+<text xml:space="preserve" text-anchor="middle" x="392.73" y="-310.26" font-family="Helvetica,sans-Serif" font-size="11.00"> inflammatory /</text>
+<text xml:space="preserve" text-anchor="middle" x="392.73" y="-297.06" font-family="Helvetica,sans-Serif" font-size="11.00"> mild pain</text>
+</g>
+<!-- opi -->
+<g id="node9" class="node">
+<title>opi</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M491.78,-277.76C491.78,-277.76 312.1,-277.76 312.1,-277.76 306.1,-277.76 300.1,-271.76 300.1,-265.76 300.1,-265.76 300.1,-223.24 300.1,-223.24 300.1,-217.24 306.1,-211.24 312.1,-211.24 312.1,-211.24 491.78,-211.24 491.78,-211.24 497.78,-211.24 503.78,-217.24 503.78,-223.24 503.78,-223.24 503.78,-265.76 503.78,-265.76 503.78,-271.76 497.78,-277.76 491.78,-277.76"/>
+<text xml:space="preserve" text-anchor="start" x="310.9" y="-263.1" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Opioids</text>
+<text xml:space="preserve" text-anchor="start" x="310.9" y="-252.1" font-family="Helvetica,sans-Serif" font-size="11.00">Agonists: morphine, codeine</text>
+<text xml:space="preserve" text-anchor="start" x="310.9" y="-241.1" font-family="Helvetica,sans-Serif" font-size="11.00">Agonist&#45;antagonist: butorphanol</text>
+<text xml:space="preserve" text-anchor="start" x="310.9" y="-230.1" font-family="Helvetica,sans-Serif" font-size="11.00">Morphine: resp. depression, constipation,</text>
+<text xml:space="preserve" text-anchor="start" x="310.9" y="-219.1" font-family="Helvetica,sans-Serif" font-size="11.00">sedation, orthostasis · withdrawal 10 d</text>
+</g>
+<!-- types&#45;&gt;opi -->
+<g id="edge6" class="edge">
+<title>types&#45;&gt;opi</title>
+<path fill="none" stroke="#555555" d="M268.71,-335.86C267.03,-321.79 267.85,-305.83 276.15,-293.76 280.82,-286.97 286.59,-281.13 293.06,-276.11"/>
+<polygon fill="#555555" stroke="#555555" points="294.23,-278.28 298.53,-272.24 291.4,-274.29 294.23,-278.28"/>
+<text xml:space="preserve" text-anchor="middle" x="304.54" y="-303.66" font-family="Helvetica,sans-Serif" font-size="11.00"> severe acute</text>
+</g>
+<!-- adj -->
+<g id="node12" class="node">
+<title>adj</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M260.69,-272.26C260.69,-272.26 123.19,-272.26 123.19,-272.26 117.19,-272.26 111.19,-266.26 111.19,-260.26 111.19,-260.26 111.19,-228.74 111.19,-228.74 111.19,-222.74 117.19,-216.74 123.19,-216.74 123.19,-216.74 260.69,-216.74 260.69,-216.74 266.69,-216.74 272.69,-222.74 272.69,-228.74 272.69,-228.74 272.69,-260.26 272.69,-260.26 272.69,-266.26 266.69,-272.26 260.69,-272.26"/>
+<text xml:space="preserve" text-anchor="start" x="121.99" y="-257.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Neuropathic drugs</text>
+<text xml:space="preserve" text-anchor="start" x="121.99" y="-246.6" font-family="Helvetica,sans-Serif" font-size="11.00">Gabapentin/pregabalin: fall risk</text>
+<text xml:space="preserve" text-anchor="start" x="121.99" y="-235.6" font-family="Helvetica,sans-Serif" font-size="11.00">SNRIs/TCAs (duloxetine)</text>
+<text xml:space="preserve" text-anchor="start" x="121.99" y="-224.6" font-family="Helvetica,sans-Serif" font-size="11.00">&quot;Morphine&#39;s not going to help&quot;</text>
+</g>
+<!-- types&#45;&gt;adj -->
+<g id="edge7" class="edge">
+<title>types&#45;&gt;adj</title>
+<path fill="none" stroke="#555555" d="M203.87,-335.57C198.95,-331.02 194.63,-325.91 191.27,-320.16 184.51,-308.59 183.32,-294.2 184.3,-281.14"/>
+<polygon fill="#555555" stroke="#555555" points="186.72,-281.53 185.05,-274.3 181.85,-280.99 186.72,-281.53"/>
+<text xml:space="preserve" text-anchor="middle" x="218.6" y="-303.66" font-family="Helvetica,sans-Serif" font-size="11.00"> neuropathic</text>
+</g>
+<!-- nurse -->
+<g id="node13" class="node">
+<title>nurse</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M503.62,-66.52C503.62,-66.52 308.26,-66.52 308.26,-66.52 302.26,-66.52 296.26,-60.52 296.26,-54.52 296.26,-54.52 296.26,-12 296.26,-12 296.26,-6 302.26,0 308.26,0 308.26,0 503.62,0 503.62,0 509.62,0 515.62,-6 515.62,-12 515.62,-12 515.62,-54.52 515.62,-54.52 515.62,-60.52 509.62,-66.52 503.62,-66.52"/>
+<text xml:space="preserve" text-anchor="start" x="307.06" y="-51.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Nursing safety</text>
+<text xml:space="preserve" text-anchor="start" x="307.06" y="-40.86" font-family="Helvetica,sans-Serif" font-size="11.00">Sedation precedes resp. depression</text>
+<text xml:space="preserve" text-anchor="start" x="307.06" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">RR 8 → naloxone · total all Tylenol</text>
+<text xml:space="preserve" text-anchor="start" x="307.06" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">Melena, ↓ Hgb on NSAIDs + blood thinners</text>
+<text xml:space="preserve" text-anchor="start" x="307.06" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">Lowest dose, shortest time</text>
+</g>
+<!-- assess&#45;&gt;nurse -->
+<g id="edge13" class="edge">
+<title>assess&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M85.36,-418.24C71.34,-391.18 52.94,-348.03 52.94,-307.96 52.94,-307.96 52.94,-307.96 52.94,-131.78 52.94,-82.02 184.88,-56.66 287.44,-44.45"/>
+<polygon fill="#555555" stroke="#555555" points="287.53,-46.91 294.2,-43.67 286.96,-42.04 287.53,-46.91"/>
+<text xml:space="preserve" text-anchor="middle" x="68.68" y="-241.2" font-family="Helvetica,sans-Serif" font-size="11.00"> guides</text>
+</g>
+<!-- rec&#45;&gt;opi -->
+<g id="edge10" class="edge">
+<title>rec&#45;&gt;opi</title>
+<path fill="none" stroke="#555555" d="M451.16,-341.19C446.62,-326.77 440.33,-308.94 432.94,-293.76 431.6,-291 430.13,-288.21 428.58,-285.43"/>
+<polygon fill="#555555" stroke="#555555" points="430.74,-284.27 425.11,-279.44 426.5,-286.72 430.74,-284.27"/>
+<text xml:space="preserve" text-anchor="middle" x="471.97" y="-303.66" font-family="Helvetica,sans-Serif" font-size="11.00"> activated by</text>
+</g>
+<!-- nsaid -->
+<g id="node7" class="node">
+<title>nsaid</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M950.62,-166.04C950.62,-166.04 777.26,-166.04 777.26,-166.04 771.26,-166.04 765.26,-160.04 765.26,-154.04 765.26,-154.04 765.26,-111.52 765.26,-111.52 765.26,-105.52 771.26,-99.52 777.26,-99.52 777.26,-99.52 950.62,-99.52 950.62,-99.52 956.62,-99.52 962.62,-105.52 962.62,-111.52 962.62,-111.52 962.62,-154.04 962.62,-154.04 962.62,-160.04 956.62,-166.04 950.62,-166.04"/>
+<text xml:space="preserve" text-anchor="start" x="776.06" y="-151.38" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">NSAIDs &amp; aspirin</text>
+<text xml:space="preserve" text-anchor="start" x="776.06" y="-140.38" font-family="Helvetica,sans-Serif" font-size="11.00">1st gen: COX&#45;1 + 2 · Celebrex: COX&#45;2</text>
+<text xml:space="preserve" text-anchor="start" x="776.06" y="-129.38" font-family="Helvetica,sans-Serif" font-size="11.00">GI bleed, kidneys, MI/stroke</text>
+<text xml:space="preserve" text-anchor="start" x="776.06" y="-118.38" font-family="Helvetica,sans-Serif" font-size="11.00">Aspirin: stop 1 wk pre&#45;op, tinnitus,</text>
+<text xml:space="preserve" text-anchor="start" x="776.06" y="-107.38" font-family="Helvetica,sans-Serif" font-size="11.00">no kids (Reye&#39;s)</text>
+</g>
+<!-- cox&#45;&gt;nsaid -->
+<g id="edge8" class="edge">
+<title>cox&#45;&gt;nsaid</title>
+<path fill="none" stroke="#555555" d="M691.09,-216.24C720.28,-202.31 756.2,-185.18 787.71,-170.14"/>
+<polygon fill="#555555" stroke="#555555" points="788.57,-172.45 793.83,-167.22 786.46,-168.03 788.57,-172.45"/>
+<text xml:space="preserve" text-anchor="middle" x="788.37" y="-185.34" font-family="Helvetica,sans-Serif" font-size="11.00"> blocked by</text>
+</g>
+<!-- apap -->
+<g id="node8" class="node">
+<title>apap</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M728.53,-160.54C728.53,-160.54 539.35,-160.54 539.35,-160.54 533.35,-160.54 527.35,-154.54 527.35,-148.54 527.35,-148.54 527.35,-117.02 527.35,-117.02 527.35,-111.02 533.35,-105.02 539.35,-105.02 539.35,-105.02 728.53,-105.02 728.53,-105.02 734.53,-105.02 740.53,-111.02 740.53,-117.02 740.53,-117.02 740.53,-148.54 740.53,-148.54 740.53,-154.54 734.53,-160.54 728.53,-160.54"/>
+<text xml:space="preserve" text-anchor="start" x="538.15" y="-145.88" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Acetaminophen</text>
+<text xml:space="preserve" text-anchor="start" x="538.15" y="-134.88" font-family="Helvetica,sans-Serif" font-size="11.00">COX in CNS only — not anti&#45;inflammatory</text>
+<text xml:space="preserve" text-anchor="start" x="538.15" y="-123.88" font-family="Helvetica,sans-Serif" font-size="11.00">NAPQI ← glutathione (alcohol depletes)</text>
+<text xml:space="preserve" text-anchor="start" x="538.15" y="-112.88" font-family="Helvetica,sans-Serif" font-size="11.00">≤ 4,000 mg · NAC within 8–10 h</text>
+</g>
+<!-- cox&#45;&gt;apap -->
+<g id="edge9" class="edge">
+<title>cox&#45;&gt;apap</title>
+<path fill="none" stroke="#555555" d="M633.94,-216.38C633.94,-202.14 633.94,-184.51 633.94,-169.2"/>
+<polygon fill="#555555" stroke="#555555" points="636.39,-169.48 633.94,-162.48 631.49,-169.48 636.39,-169.48"/>
+<text xml:space="preserve" text-anchor="middle" x="675.34" y="-185.34" font-family="Helvetica,sans-Serif" font-size="11.00"> blocked (CNS) by</text>
+</g>
+<!-- nsaid&#45;&gt;nurse -->
+<g id="edge14" class="edge">
+<title>nsaid&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M764.82,-102.46C760.82,-101.44 756.84,-100.45 752.94,-99.52 677.31,-81.46 591.44,-65.28 524.04,-53.54"/>
+<polygon fill="#555555" stroke="#555555" points="524.72,-51.18 517.41,-52.39 523.88,-56 524.72,-51.18"/>
+</g>
+<!-- apap&#45;&gt;nurse -->
+<g id="edge15" class="edge">
+<title>apap&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M570.13,-104.49C545.43,-93.92 516.8,-81.68 490.43,-70.4"/>
+<polygon fill="#555555" stroke="#555555" points="491.49,-68.19 484.09,-67.69 489.56,-72.69 491.49,-68.19"/>
+</g>
+<!-- other -->
+<g id="node10" class="node">
+<title>other</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M490.12,-160.54C490.12,-160.54 321.76,-160.54 321.76,-160.54 315.76,-160.54 309.76,-154.54 309.76,-148.54 309.76,-148.54 309.76,-117.02 309.76,-117.02 309.76,-111.02 315.76,-105.02 321.76,-105.02 321.76,-105.02 490.12,-105.02 490.12,-105.02 496.12,-105.02 502.12,-111.02 502.12,-117.02 502.12,-117.02 502.12,-148.54 502.12,-148.54 502.12,-154.54 496.12,-160.54 490.12,-160.54"/>
+<text xml:space="preserve" text-anchor="start" x="320.56" y="-145.88" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Other opioids &amp; PCA</text>
+<text xml:space="preserve" text-anchor="start" x="320.56" y="-134.88" font-family="Helvetica,sans-Serif" font-size="11.00">Fentanyl patch 72 h, never cut</text>
+<text xml:space="preserve" text-anchor="start" x="320.56" y="-123.88" font-family="Helvetica,sans-Serif" font-size="11.00">Norco q4–6h · codeine ceiling, cough</text>
+<text xml:space="preserve" text-anchor="start" x="320.56" y="-112.88" font-family="Helvetica,sans-Serif" font-size="11.00">PCA: only the patient presses</text>
+</g>
+<!-- opi&#45;&gt;other -->
+<g id="edge11" class="edge">
+<title>opi&#45;&gt;other</title>
+<path fill="none" stroke="#555555" d="M403.13,-210.88C403.61,-197.82 404.16,-182.74 404.64,-169.4"/>
+<polygon fill="#555555" stroke="#555555" points="407.09,-169.51 404.9,-162.43 402.19,-169.34 407.09,-169.51"/>
+</g>
+<!-- rev -->
+<g id="node11" class="node">
+<title>rev</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M273.19,-155.04C273.19,-155.04 102.69,-155.04 102.69,-155.04 96.69,-155.04 90.69,-149.04 90.69,-143.04 90.69,-143.04 90.69,-122.52 90.69,-122.52 90.69,-116.52 96.69,-110.52 102.69,-110.52 102.69,-110.52 273.19,-110.52 273.19,-110.52 279.19,-110.52 285.19,-116.52 285.19,-122.52 285.19,-122.52 285.19,-143.04 285.19,-143.04 285.19,-149.04 279.19,-155.04 273.19,-155.04"/>
+<text xml:space="preserve" text-anchor="start" x="101.49" y="-140.38" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Reversal &amp; partial agonist</text>
+<text xml:space="preserve" text-anchor="start" x="101.49" y="-129.38" font-family="Helvetica,sans-Serif" font-size="11.00">Naloxone: short half&#45;life → repeat</text>
+<text xml:space="preserve" text-anchor="start" x="101.49" y="-118.38" font-family="Helvetica,sans-Serif" font-size="11.00">Buprenorphine: partial μ, ceiling, OUD</text>
+</g>
+<!-- opi&#45;&gt;rev -->
+<g id="edge12" class="edge">
+<title>opi&#45;&gt;rev</title>
+<path fill="none" stroke="#555555" d="M338.02,-210.73C306.01,-194.31 267.81,-174.73 237.96,-159.43"/>
+<polygon fill="#555555" stroke="#555555" points="239.26,-157.34 231.91,-156.32 237.02,-161.7 239.26,-157.34"/>
+<text xml:space="preserve" text-anchor="middle" x="334.63" y="-185.34" font-family="Helvetica,sans-Serif" font-size="11.00"> reversed by</text>
+</g>
+<!-- other&#45;&gt;nurse -->
+<g id="edge16" class="edge">
+<title>other&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M405.94,-104.62C405.94,-95.46 405.94,-85.03 405.94,-75.05"/>
+<polygon fill="#555555" stroke="#555555" points="408.39,-75.33 405.94,-68.33 403.49,-75.33 408.39,-75.33"/>
+</g>
+<!-- rev&#45;&gt;nurse -->
+<g id="edge17" class="edge">
+<title>rev&#45;&gt;nurse</title>
+<path fill="none" stroke="#555555" d="M236.59,-110.02C262.62,-98.37 295.35,-83.73 325.09,-70.43"/>
+<polygon fill="#555555" stroke="#555555" points="325.81,-72.79 331.19,-67.7 323.8,-68.32 325.81,-72.79"/>
+</g>
+</g>
+</svg>
