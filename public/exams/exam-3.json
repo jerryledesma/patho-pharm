@@ -1,0 +1,1058 @@
+{
+ "id": "exam-3",
+ "title": "Practice Exam 3",
+ "lectures": [
+  "2026-09-17-inflammation",
+  "2026-09-24-immunity-infection",
+  "2026-10-01-antimicrobials",
+  "2026-10-01-autonomic-nervous-system",
+  "2026-10-08-pain-management",
+  "2026-10-08-pulmonary-disorders"
+ ],
+ "minutes": 90,
+ "items": [
+  {
+   "id": "x3-q01",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "recall",
+   "topic": "mediators",
+   "type": "mc",
+   "stem": "Where are the plasma-derived mediators (complement, clotting and kinin proteins) made?",
+   "options": [
+    "Bone marrow",
+    "Endothelium",
+    "Spleen",
+    "Liver"
+   ],
+   "answer": "D",
+   "rationale": "Plasma-derived mediators are made by the liver, circulate inactive, and are activated at the injury site. Bone marrow makes the cell-derived side (cells that travel in blood); the endothelium signals immune cells but doesn't make these proteins.",
+   "src": "slides 57–58 + 00:44:03"
+  },
+  {
+   "id": "x3-q02",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "recall",
+   "topic": "wound-healing",
+   "type": "mc",
+   "stem": "During which period is a surgical wound at highest risk for dehiscence?",
+   "options": [
+    "After 6 weeks",
+    "Postoperative days 1–2",
+    "Postoperative days 5–12",
+    "Postoperative days 15–20"
+   ],
+   "answer": "C",
+   "rationale": "Dehiscence risk peaks on days 5–12, especially with obesity and abdominal wounds, and evisceration can follow. Days 1–2 are the inflammatory phase, and later periods fall in remodeling.",
+   "src": "slide 92"
+  },
+  {
+   "id": "x3-q03",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "recall",
+   "topic": "leukocytes",
+   "type": "mc",
+   "stem": "Which cells link innate immunity to adaptive immunity through T lymphocytes?",
+   "options": [
+    "Mast cells near vessels",
+    "Neutrophils",
+    "Dendritic cells",
+    "Eosinophils"
+   ],
+   "answer": "C",
+   "rationale": "Dendritic cells are the link between innate and adaptive immunity (T cells). Neutrophils are the first phagocytes, eosinophils handle parasites and allergies, and mast cells are sentinels near vessels that activate inflammation.",
+   "src": "slide 54"
+  },
+  {
+   "id": "x3-q04",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "application",
+   "topic": "inflammation",
+   "type": "mc",
+   "stem": "The nurse teaches a client with a sprained ankle why rest, ice and elevation are recommended. Which statement indicates teaching was effective?",
+   "options": [
+    "\"My body responds the same to every injury, so limiting it can help.\"",
+    "\"Sprains cause a special kind of swelling that only injured joints can make.\"",
+    "\"Inflammation is always harmful, so my body shouldn't make it.\"",
+    "\"My ankle is red and warm because bacteria got into the joint.\""
+   ],
+   "answer": "A",
+   "rationale": "Inflammation is nonspecific — cells don't know the cause, so they \"go all out\" every time; limiting it after a sprain can speed healing. Inflammation is generally good, not always harmful; redness and heat are cardinal signs, not proof of infection; and the response is the same for any injury.",
+   "src": "slide 45 + 00:30:27–00:32:36"
+  },
+  {
+   "id": "x3-q05",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "application",
+   "topic": "acute-chronic",
+   "type": "mc",
+   "stem": "A client's wound drainage has become thick, with visible strands of fibrin. The nurse recognizes that this type of exudate indicates:",
+   "options": [
+    "Frank bleeding from the wound bed",
+    "Severe or advanced inflammation",
+    "A large load of neutrophils and debris",
+    "Early, mild inflammation"
+   ],
+   "answer": "B",
+   "rationale": "Fibrinous exudate (thick, fibrin) = severe/advanced inflammation. Serous (watery) is early and mild, purulent is pus full of neutrophils and debris, and sanguineous is very bloody.",
+   "src": "slide 80 + 01:08:00"
+  },
+  {
+   "id": "x3-q06",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "application",
+   "topic": "injury",
+   "type": "mc",
+   "stem": "A client has severe anemia with a markedly low red blood cell count. This client is at greatest risk for cell injury from which cause?",
+   "options": [
+    "Free radicals from a chemical toxin",
+    "Ionizing radiation",
+    "Nutritional imbalance",
+    "Hypoxia"
+   ],
+   "answer": "D",
+   "rationale": "Hypoxia — the most common cause of cell injury — can come from fewer RBCs or less effective hemoglobin, not only from ischemia or low O₂ in air. Radiation, chemical toxins and nutrition are separate causes not explained by a low RBC count.",
+   "src": "slide 24"
+  },
+  {
+   "id": "x3-q07",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "application",
+   "topic": "mediators",
+   "type": "sata",
+   "stem": "A client is started on a corticosteroid for a chronic inflammatory condition. Production of which mediators will the drug reduce? Select all that apply.",
+   "options": [
+    "Bradykinin",
+    "Prostaglandins",
+    "Leukotrienes",
+    "Complement proteins C3 and C5",
+    "Thromboxane",
+    "Histamine stored in mast cells"
+   ],
+   "answer": "B, C, E",
+   "rationale": "Corticosteroids act at the first step (membrane phospholipids → arachidonic acid), so both branches drop: leukotrienes (lipoxygenase) and prostaglandins and thromboxane (COX). Aspirin/NSAIDs block only COX. Histamine, complement and bradykinin aren't arachidonic acid products.",
+   "src": "slide 67 + 00:56:01"
+  },
+  {
+   "id": "x3-q08",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "concept",
+   "topic": "cell-death",
+   "type": "sata",
+   "stem": "Which features distinguish apoptosis from necrosis? Select all that apply.",
+   "options": [
+    "No inflammation in adjacent tissue",
+    "The nucleus dissolves (karyolysis)",
+    "The cell shrinks in size",
+    "It is invariably pathologic",
+    "The cell swells and its membrane is disrupted",
+    "Contents stay packaged in apoptotic bodies"
+   ],
+   "answer": "A, C, F",
+   "rationale": "Apoptosis: reduced cell size, intact membrane, contents kept in apoptotic bodies, no nearby inflammation, often physiologic (\"programmed\"). Swelling, membrane disruption, karyolysis and being invariably pathologic are features of necrosis.",
+   "src": "slide 33"
+  },
+  {
+   "id": "x3-q09",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "concept",
+   "topic": "cytokines",
+   "type": "mc",
+   "stem": "What is the main role of IL-10 and TGF-β in the inflammatory response?",
+   "options": [
+    "They act as endogenous pyrogens and raise body temperature",
+    "They protect neighboring cells against viral infection",
+    "They turn the inflammatory response back off",
+    "They signal the liver to make C-reactive protein"
+   ],
+   "answer": "C",
+   "rationale": "IL-10 and TGF-β are the anti-inflammatory cytokines that switch inflammation back off. The pyrogen is IL-1, viral protection is the interferons, and IL-6 drives liver acute-phase reactants such as CRP.",
+   "src": "slide 77 + 01:03:07"
+  },
+  {
+   "id": "x3-q10",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "concept",
+   "topic": "adaptation",
+   "type": "mc",
+   "stem": "A smoker's bronchial biopsy shows dysplasia. Why did he say quitting smoking still matters?",
+   "options": [
+    "Quitting makes the dysplastic cells grow cilia that clear the airway",
+    "Quitting converts dysplasia into healthy physiologic hyperplasia",
+    "Dysplasia is permanent, but quitting stops the cancer from spreading",
+    "Dysplasia can sometimes go back to metaplasia, and metaplasia back to normal"
+   ],
+   "answer": "D",
+   "rationale": "Dysplasia can sometimes reverse to metaplasia and then to normal — quitting smoking lets airway cells recover. It isn't automatically permanent or already cancer, and the recovery path runs back through metaplasia, not into hyperplasia.",
+   "src": "slide 11 + 00:15:30"
+  },
+  {
+   "id": "x3-q11",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "recall",
+   "topic": "terminology",
+   "type": "mc",
+   "stem": "Infectivity is best defined as the:",
+   "options": [
+    "Ability to spread from one person to others",
+    "Ability to invade and multiply in the host",
+    "Proportion of sick people who become severely ill or die",
+    "Ability to induce an immune response"
+   ],
+   "answer": "B",
+   "rationale": "Slide 3: infectivity is the ability to invade and multiply in the host (the proportion of exposed people who become infected). Spreading to others is communicability, the severely ill or dead are virulence, and inducing an immune response is immunogenicity.",
+   "src": "slide 3 + 00:04:57"
+  },
+  {
+   "id": "x3-q12",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "recall",
+   "topic": "vaccines",
+   "type": "mc",
+   "stem": "According to the vaccination deck, why do some vaccines contain an adjuvant?",
+   "options": [
+    "They aren't very immunogenic, so it increases the inflammatory/immune response",
+    "It lets the vaccine skip the lymph node and activate T cells at the injection site",
+    "It blocks the innate response so that side effects don't occur",
+    "It converts the vaccine into live virus so that memory lasts longer"
+   ],
+   "answer": "A",
+   "rationale": "V-slide 4: mRNA is very immunogenic and riles up the innate immune cells. Vaccines that are not immunogenic contain an adjuvant to increase the inflammatory/immune response. That innate response is what drives APC presentation, and it also causes the 24–48 h side effects. Activation still happens in the closest lymph node.",
+   "src": "V-slides 4–6"
+  },
+  {
+   "id": "x3-q13",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "recall",
+   "topic": "antihistamines",
+   "type": "mc",
+   "stem": "Which H1 antagonist is the highly sedating first-generation drug named in the lecture?",
+   "options": [
+    "Fexofenadine (Allegra)",
+    "Cetirizine (Zyrtec)",
+    "Diphenhydramine (Benadryl)",
+    "Loratadine (Claritin)"
+   ],
+   "answer": "C",
+   "rationale": "Slide 61: first-generation H1 antagonists are highly sedating, e.g. diphenhydramine (Benadryl). \"Histamine [is] responsible for keeping you awake. If you block those receptors, you go to sleep.\" Loratadine, cetirizine and fexofenadine are second generation (slide 65); they cross the BBB poorly and sedate much less.",
+   "src": "slides 61, 65 + 01:31:05"
+  },
+  {
+   "id": "x3-q14",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "application",
+   "topic": "apc-activation",
+   "type": "mc",
+   "stem": "A client with strep throat is partway through the step-by-step: activated T cells are now leaving the lymph node. What are the matching B cells doing at this step?",
+   "options": [
+    "Recruiting macrophages and cytotoxic T cells to the throat",
+    "Turning into plasma cells that churn out antibodies",
+    "Undergoing negative selection in the bone marrow",
+    "Dying off because the innate system already cleared it"
+   ],
+   "answer": "B",
+   "rationale": "Step 8 (slide 47): T cells leave the lymph tissue, and B cells turn into plasma cells churning out antibodies. Selection happened before the infection (step 1), and recruiting effector cells is the T cells' job at step 10. The innate system could have been the final step, but this infection has already reached the adaptive steps.",
+   "src": "slides 46–47 + 01:05:27"
+  },
+  {
+   "id": "x3-q15",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "application",
+   "topic": "deficiencies",
+   "type": "sata",
+   "stem": "The nurse reviews the histories of several clients with frequent infections. Which clients most likely have a primary (congenital) immunodeficiency? Select all that apply.",
+   "options": [
+    "A child with severe, recurrent Candida albicans infections of the skin and mucosa",
+    "A client taking immunosuppressants after a kidney transplant",
+    "An infant who has never made B or T cells",
+    "A child with recurrent life-threatening infections from missing C3",
+    "An older adult with poorly controlled diabetes",
+    "An adult with alcoholic cirrhosis"
+   ],
+   "answer": "A, C, D",
+   "rationale": "Primary deficiencies are congenital/genetic, usually a single-gene defect: SCID (combined B/T), C3 deficiency (complement) and chronic mucocutaneous candidiasis (innate). Cirrhosis, immunosuppressant drugs, aging and diabetes are acquired (secondary) causes; the immune system is fine, but another condition impairs it. Acquired deficiencies are the more common kind.",
+   "src": "slides 82–85 + 01:51:04 + 01:52:39"
+  },
+  {
+   "id": "x3-q16",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "application",
+   "topic": "hypersensitivity",
+   "type": "mc",
+   "stem": "The nurse teaches a client with a grass allergy who is starting weekly allergy shots containing small amounts of grass antigen. Which statement by the client indicates teaching was effective?",
+   "options": [
+    "\"The shots will destroy the mast cells that release my histamine.\"",
+    "\"The shots block histamine at its receptors, the same way my antihistamine does.\"",
+    "\"The first shot is a sensitizing event, so later exposures can't cause a reaction.\"",
+    "\"Getting a little grass antigen every week helps my immune system build tolerance.\""
+   ],
+   "answer": "D",
+   "rationale": "He described allergy shots (weekly grass antigens) as building tolerance, the same idea as farm kids and dogs. Blocking H1 receptors is what antihistamines do, and they \"don't do anything with the actual immune system.\" A sensitizing event is what makes later exposures cause a reaction, not what prevents one.",
+   "src": "slide 57 + 01:27:13 + 01:30:28"
+  },
+  {
+   "id": "x3-q17",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "application",
+   "topic": "pathogens",
+   "type": "mc",
+   "stem": "Which client is at greatest risk for a deep (serious) fungal infection?",
+   "options": [
+    "A client taking immunosuppressants after a kidney transplant",
+    "A healthy teenager who has tinea capitis after sharing a teammate's hat",
+    "A healthy adult with gram-positive strep throat",
+    "A healthy college athlete with tinea pedis"
+   ],
+   "answer": "A",
+   "rationale": "Slide 12: deep mycoses are serious and do not develop in people with intact immune systems. Immunosuppressant drugs cause an acquired immunodeficiency (slide 82). Tineas (pedis, capitis) are superficial mycoses and relatively mild, and strep throat is bacterial.",
+   "src": "slides 12, 82 + 00:19:05"
+  },
+  {
+   "id": "x3-q18",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "concept",
+   "topic": "innate-adaptive",
+   "type": "mc",
+   "stem": "Which statement correctly contrasts humoral and cell-mediated immunity?",
+   "options": [
+    "Humoral: IgE on mast cells. Cell-mediated: driven by complement and neutrophils.",
+    "Humoral: innate and nonspecific. Cell-mediated: adaptive and very specific.",
+    "Humoral: T cells secrete antibodies into the bloodstream. Cell-mediated: B cells directly kill infected cells.",
+    "Humoral: B cells secrete antibodies into the blood. Cell-mediated: T cells coordinate effector cells."
+   ],
+   "answer": "D",
+   "rationale": "Slide 26: both are adaptive. Humoral immunity is B cells secreting antibodies (into the bloodstream). Cell-mediated immunity is T cells coordinating the attack of effector cells (T helpers \"don't get their hands dirty\"). Neither is innate, and IgE/mast cells are type I hypersensitivity.",
+   "src": "slide 26 + 00:41:37 + 00:42:07"
+  },
+  {
+   "id": "x3-q19",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "concept",
+   "topic": "vaccines",
+   "type": "sata",
+   "stem": "Which statements correctly compare the primary and secondary immune responses? Select all that apply.",
+   "options": [
+    "A first vaccination produces a primary response",
+    "In a secondary response, memory B cells respond to the antigen immediately",
+    "A secondary response starts over with naive cells, like the first exposure",
+    "Antibody levels rise within days in a secondary response",
+    "A booster causes a secondary response, so antibody levels are high before the disease is met",
+    "Memory cells form only after the actual infection, never after a vaccine"
+   ],
+   "answer": "A, B, D, E",
+   "rationale": "Slides 51–52: vaccination produces a primary response and makes memory B cells. On later exposure, memory B cells respond immediately and antibody levels rise within days. Boosters cause a secondary response, so levels are high before the disease is encountered. Vaccinated T cells find nothing to attack but leave a bigger memory population.",
+   "src": "slides 51–52 + 01:07:24"
+  },
+  {
+   "id": "x3-q20",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "concept",
+   "topic": "terminology",
+   "type": "mc",
+   "stem": "Rabies is highly virulent, yet a vaccine given after the bite can still prevent disease. Why?",
+   "options": [
+    "Rabies actually has low virulence, so most bitten people clear the virus without any help",
+    "The vaccine is an antitoxin that neutralizes the toxin causing the symptoms",
+    "The virus travels slowly from the bite to the brain, so there is time to respond",
+    "Rabies spreads only from symptomatic animals, so the dose of virus is small"
+   ],
+   "answer": "C",
+   "rationale": "The rabies virus travels slowly from a finger bite to the brain, which is why the vaccine given after the bite can still work. It is not low virulence: \"99.9% going to die\" once symptomatic. Needing a symptomatic animal concerns how it spreads, not the dose, and antitoxins are for exotoxins (pertussis, tetanus).",
+   "src": "slide 3 + 00:06:02 + 00:06:38"
+  },
+  {
+   "id": "x3-q21",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "recall",
+   "topic": "antiviral",
+   "type": "mc",
+   "stem": "Oseltamivir (Tamiflu) gives a meaningful benefit when started within how long of flu symptoms beginning?",
+   "options": [
+    "48 hours",
+    "72 hours",
+    "24 hours",
+    "7 days"
+   ],
+   "answer": "A",
+   "rationale": "\"Within 48 hours is really the cutoff\"; after that \"you're really not going to get enough benefit\" for most clients (severe, hospitalized or high-risk clients may still benefit later).",
+   "src": "slide 72 + 02:32:56 + 02:39:05"
+  },
+  {
+   "id": "x3-q22",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "recall",
+   "topic": "dna-folate",
+   "type": "mc",
+   "stem": "How does trimethoprim-sulfamethoxazole (TMP-SMX) work?",
+   "options": [
+    "It blocks DNA gyrase and topoisomerase IV",
+    "It blocks two steps of bacterial folate synthesis",
+    "It binds PBPs and stops cross-linking of the wall",
+    "It becomes reactive compounds inside anaerobes"
+   ],
+   "answer": "B",
+   "rationale": "The two drugs block two sequential steps of the same bacterial folate pathway, so they are stronger together; humans get folate from the diet. DNA gyrase is ciprofloxacin, reactive compounds in anaerobes is metronidazole, and PBPs are the β-lactams.",
+   "src": "slide 58 + 02:14:26 + 02:14:58"
+  },
+  {
+   "id": "x3-q23",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "recall",
+   "topic": "cell-wall",
+   "type": "mc",
+   "stem": "About 30% of people carry Staphylococcus aureus. About what share carry MRSA?",
+   "options": [
+    "About 50%",
+    "About 30%",
+    "10–15%",
+    "1–2%"
+   ],
+   "answer": "D",
+   "rationale": "Her numbers: ~30% carry S. aureus, only ~1–2% carry MRSA. 10% is the share who report a penicillin allergy, a different number from this lecture.",
+   "src": "slide 28 + 00:39:13"
+  },
+  {
+   "id": "x3-q24",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "application",
+   "topic": "cephs-carbapenems",
+   "type": "mc",
+   "stem": "A client receiving IV ceftriaxone (Rocephin) through a peripheral line has redness and tenderness along the vein above the site. Which administration approach reduces this effect?",
+   "options": [
+    "Flush with a calcium-containing fluid between doses",
+    "Dilute it and give it slowly, per the IV guidelines",
+    "Give it as a rapid IV push to shorten vein contact",
+    "Mix it into the calcium-containing IV fluid to buffer it"
+   ],
+   "answer": "B",
+   "rationale": "Cephalosporins are irritating to veins (thrombophlebitis), so they are diluted and given slowly. Ceftriaxone must never meet calcium-containing IV solutions in a line, because it forms a precipitate that deposits in the lungs and kidneys.",
+   "src": "slide 38 + 01:04:34 + 01:06:07"
+  },
+  {
+   "id": "x3-q25",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "application",
+   "topic": "nursing",
+   "type": "sata",
+   "stem": "The nurse is about to give the first dose of a newly ordered IV antibiotic. Which actions are appropriate? Select all that apply.",
+   "options": [
+    "Hold the dose until culture and sensitivity results return",
+    "Ask exactly what happened with any reported drug reaction",
+    "Review kidney and liver function, pregnancy status and other medications",
+    "Confirm that the ordered cultures have been collected",
+    "Record the client's past antibiotic diarrhea as a drug allergy"
+   ],
+   "answer": "B, C, D",
+   "rationale": "Before the first dose: specimens collected, reaction history clarified, patient factors reviewed. Results take 24–48 h, and empiric therapy is not delayed for them (\"start broad, but then we tailor\"). Diarrhea is a side effect, not an allergy.",
+   "src": "slides 13, 22 + 00:15:07 + 00:28:02"
+  },
+  {
+   "id": "x3-q26",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "application",
+   "topic": "dna-folate",
+   "type": "sata",
+   "stem": "A 70-year-old client is on day 3 of ciprofloxacin. Which reports require prompt follow-up? Select all that apply.",
+   "options": [
+    "Shakiness, sweating and a fingerstick glucose of 52 mg/dL",
+    "Mild nausea after each dose",
+    "New confusion and severe dizziness",
+    "Takes the multivitamin several hours apart from the cipro dose",
+    "New burning pain and tingling in both feet"
+   ],
+   "answer": "A, C, E",
+   "rationale": "Ciprofloxacin's serious effects include peripheral neuropathy, CNS effects and dysglycemia, so numbness, tingling, burning pain, confusion, severe dizziness and low glucose are reported promptly. Separating minerals by several hours is correct practice, and nausea is a common minor effect.",
+   "src": "slide 56 + 02:09:36 + 02:11:13"
+  },
+  {
+   "id": "x3-q27",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "application",
+   "topic": "antifungals",
+   "type": "mc",
+   "stem": "A client who takes warfarin is starting fluconazole (Diflucan). Which statement indicates the teaching was effective?",
+   "options": [
+    "\"I'll report unusual bleeding or bruising and keep my INR checks.\"",
+    "\"I'll swish each dose around my mouth before I swallow it.\"",
+    "\"I'll avoid alcohol until 3 days after my last fluconazole dose.\"",
+    "\"I'll expect shaking chills and fever with each of my doses.\""
+   ],
+   "answer": "A",
+   "rationale": "Fluconazole inhibits liver drug enzymes and raises the effect of other drugs; with warfarin, that means bleeding, so INR and bleeding signs are monitored. Avoiding alcohol for 3 days is metronidazole, swish-and-hold is nystatin, and chills and fever are amphotericin B infusion reactions.",
+   "src": "slide 64 + 02:22:01 + 02:22:33"
+  },
+  {
+   "id": "x3-q28",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "concept",
+   "topic": "principles",
+   "type": "mc",
+   "stem": "Once the organism is known and susceptible, why is a narrow-spectrum drug preferred?",
+   "options": [
+    "It is more powerful than a broad drug against any organism",
+    "It cannot cause allergic reactions or tissue damage",
+    "It hits the target bug while sparing more normal flora",
+    "It keeps the client from becoming resistant to drugs"
+   ],
+   "answer": "C",
+   "rationale": "Narrow spectrum kills the bug we want and very little normal flora, so less diarrhea, yeast, C. diff and selection pressure: \"the best choice for our patients if possible.\" Spectrum isn't power (\"broad spectrum doesn't mean more powerful\"), selective doesn't mean harmless, and bacteria, not patients, become resistant.",
+   "src": "slide 8 + 00:05:06 + 00:06:44"
+  },
+  {
+   "id": "x3-q29",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "concept",
+   "topic": "vancomycin",
+   "type": "mc",
+   "stem": "Why do drugs that damage the kidneys, such as vancomycin and gentamicin, often damage hearing as well?",
+   "options": [
+    "The kidneys and the ears share the same embryologic origin",
+    "Kidney damage raises potassium, which then injures the ear",
+    "Both drugs are β-lactams that bind proteins in the inner ear",
+    "The drugs are excreted mainly through the fluid of the ear"
+   ],
+   "answer": "A",
+   "rationale": "Kidneys and ears share an embryologic origin, so nephrotoxic drugs are often ototoxic. Vancomycin is a glycopeptide and gentamicin an aminoglycoside, neither is a β-lactam, and the kidneys, not the ear, clear these drugs.",
+   "src": "slide 41 + 01:18:04 + 01:18:35"
+  },
+  {
+   "id": "x3-q30",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "concept",
+   "topic": "protein-synthesis",
+   "type": "mc",
+   "stem": "Why does the instructor say women are automatically at higher risk of a dysrhythmia with azithromycin (Zithromax)?",
+   "options": [
+    "Women absorb more of the drug because of their smaller size",
+    "Women have a longer QT interval at baseline than men do",
+    "Estrogen blocks the liver enzymes that clear azithromycin",
+    "Women are more likely to have low potassium and magnesium"
+   ],
+   "answer": "B",
+   "rationale": "Her pearl: \"Women are automatically at increased risk, because at baseline we have a longer QT interval.\" Azithromycin prolongs the QT, so a longer starting QT adds risk. Low K⁺ or Mg²⁺ is a separate risk factor that applies to anyone, not the reason she gave for women.",
+   "src": "slide 47 + 01:32:10"
+  },
+  {
+   "id": "x3-q31",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "recall",
+   "topic": "cholinergic",
+   "type": "mc",
+   "stem": "How should oral bethanechol be given to reduce nausea and vomiting?",
+   "options": [
+    "With a full meal",
+    "At bedtime with a snack",
+    "With milk or an antacid",
+    "On an empty stomach"
+   ],
+   "answer": "D",
+   "rationale": "Give bethanechol on an empty stomach to reduce nausea/vomiting — food plus a drug that speeds GI motility and secretions makes GI upset worse.",
+   "src": "slide 30 + 00:47:43"
+  },
+  {
+   "id": "x3-q32",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "recall",
+   "topic": "receptors",
+   "type": "mc",
+   "stem": "What does α₁ stimulation do in the urinary tract?",
+   "options": [
+    "Increases urine production through renin release",
+    "Contracts the detrusor so the bladder empties",
+    "Contracts the bladder neck and prostate, causing retention",
+    "Relaxes the bladder neck to improve urine flow"
+   ],
+   "answer": "C",
+   "rationale": "α₁ = think contraction: it contracts bladder-neck/prostate smooth muscle → retention (which is why an α₁ blocker improves flow). Detrusor contraction is muscarinic; renin is β₁.",
+   "src": "slide 18 + 00:24:39"
+  },
+  {
+   "id": "x3-q33",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "recall",
+   "topic": "adrenergic-agonists",
+   "type": "sata",
+   "stem": "Which are adverse effects of clonidine (Catapres)? Select all that apply.",
+   "options": [
+    "Bradycardia",
+    "Dry mouth",
+    "Tremor",
+    "Hypotension",
+    "Hypokalemia",
+    "Sedation"
+   ],
+   "answer": "A, B, D, F",
+   "rationale": "Central α₂ → ↓ NE release → ↓ sympathetic outflow → hypotension, bradycardia, sedation, dizziness, dry mouth. Hypokalemia and tremor are albuterol (β₂) effects.",
+   "src": "slide 59"
+  },
+  {
+   "id": "x3-q34",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "application",
+   "topic": "adrenergic-agonists",
+   "type": "mc",
+   "stem": "A client uses an over-the-counter phenylephrine nasal spray for congestion. Which statement indicates a need for further teaching?",
+   "options": [
+    "\"It can raise my blood pressure if I use too much.\"",
+    "\"I'll keep using it several times a day for weeks.\"",
+    "\"It works by narrowing the blood vessels in my nose.\"",
+    "\"I'll mention my high blood pressure before using it.\""
+   ],
+   "answer": "B",
+   "rationale": "Phenylephrine is α₁ → vasoconstriction (decongestion); adverse effects include HTN, and the teaching point is to avoid excessive or prolonged OTC nasal spray use. Caution with significant hypertension.",
+   "src": "slide 56"
+  },
+  {
+   "id": "x3-q35",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "application",
+   "topic": "alpha-blockers",
+   "type": "mc",
+   "stem": "A 70-year-old man started tamsulosin for BPH and reports dizziness when he gets up at night to void. Which instruction should the nurse give?",
+   "options": [
+    "Sit at the edge of the bed before standing",
+    "Stop the drug until the dizziness resolves",
+    "Limit fluids so he needs to get up less often",
+    "Take each dose with a large glass of water"
+   ],
+   "answer": "A",
+   "rationale": "Tamsulosin's main adverse effects are dizziness and orthostatic hypotension — teach to change positions slowly. Stopping on his own isn't the teaching, and water or fluid restriction doesn't address orthostasis.",
+   "src": "slides 66, 74"
+  },
+  {
+   "id": "x3-q36",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "application",
+   "topic": "nmb",
+   "type": "mc",
+   "stem": "After surgery, neostigmine is given to reverse rocuronium. Which finding best shows it is safe to remove ventilatory support?",
+   "options": [
+    "The full neostigmine dose was given",
+    "The client is lying calm and still",
+    "Breathing and muscle strength have recovered",
+    "Heart rate has stayed above 60"
+   ],
+   "answer": "C",
+   "rationale": "Verify neuromuscular recovery before stopping respiratory support — \"make sure the patient can breathe before we pull that tube out.\" A given dose doesn't prove recovery, stillness may mean ongoing paralysis, and HR reflects neostigmine's muscarinic effects, not muscle function.",
+   "src": "slides 42, 48 + 01:15:01"
+  },
+  {
+   "id": "x3-q37",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "application",
+   "topic": "anticholinergic",
+   "type": "sata",
+   "stem": "An 82-year-old client takes three medications with anticholinergic properties. Which findings should the nurse recognize as possible anticholinergic burden? Select all that apply.",
+   "options": [
+    "Constipation",
+    "Heart rate of 50",
+    "New confusion",
+    "Dry mouth",
+    "Frequent loose stools",
+    "Urinary retention"
+   ],
+   "answer": "A, C, D, F",
+   "rationale": "Older adults are \"much more sensitive\" and anticholinergic effects add up: confusion/agitation, constipation, urinary retention, dry mouth, tachycardia. Bradycardia and diarrhea are the opposite (cholinergic) effects — her hint: the wrong options \"are all going to be opposite.\"",
+   "src": "slides 32–34 + 00:51:22 + 00:59:11"
+  },
+  {
+   "id": "x3-q38",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "concept",
+   "topic": "beta-blockers",
+   "type": "mc",
+   "stem": "Why is orthostatic hypotension a bigger concern with carvedilol than with metoprolol?",
+   "options": [
+    "Carvedilol stimulates α₂ and lowers NE release",
+    "Carvedilol blocks β₂, which dilates the vessels",
+    "Metoprolol constricts vessels by stimulating α₁",
+    "Carvedilol also blocks α₁, dilating vessels"
+   ],
+   "answer": "D",
+   "rationale": "Carvedilol blocks β₁ + β₂ + α₁ — the α₁ blockade causes vasodilation and ↓ SVR, so orthostasis is on its safety list. Metoprolol is a β₁-selective blocker with no α₁ action; α₂ stimulation is clonidine; β₂ blockade raises bronchoconstriction concern.",
+   "src": "slides 70, 72, 74"
+  },
+  {
+   "id": "x3-q39",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "concept",
+   "topic": "adrenergic-agonists",
+   "type": "mc",
+   "stem": "Why is epinephrine, not phenylephrine, the drug for anaphylaxis with wheezing and hypotension?",
+   "options": [
+    "Phenylephrine stimulates β₁ and causes dysrhythmias",
+    "Phenylephrine lowers BP through α₂, worsening shock",
+    "Epinephrine adds β₂ bronchodilation to the α₁ BP rise",
+    "Epinephrine is α₁-selective and spares the heart"
+   ],
+   "answer": "C",
+   "rationale": "Epinephrine hits α₁ (vasoconstriction, ↑ BP, ↓ mucosal edema), β₁ (↑ HR, contractility) and β₂ (bronchodilation) — \"ideal for anaphylaxis.\" Phenylephrine is α₁ only: it raises BP but does nothing for bronchoconstriction. Epinephrine is not selective.",
+   "src": "slides 52–53, 56, 62"
+  },
+  {
+   "id": "x3-q40",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "concept",
+   "topic": "ans-basics",
+   "type": "sata",
+   "stem": "Sweat glands are sympathetic but use ACh at muscarinic receptors. Which predictions follow from this? Select all that apply.",
+   "options": [
+    "Botulinum toxin injections can reduce excessive sweating",
+    "Sweating can still occur in hypoglycemia on a β-blocker",
+    "An α₁ blocker stops sweating",
+    "Bethanechol increases sweating",
+    "Atropine decreases sweating",
+    "Atropine causes heavy sweating"
+   ],
+   "answer": "A, B, D, E",
+   "rationale": "With drugs, \"sweating will follow the opposite of what you expect\": cholinergic drugs ↑ sweating, anticholinergics ↓ it. β-blockers blunt adrenergic hypoglycemia signs, but sweating persists. Botox blocks ACh release, so it treats hyperhidrosis. α₁ isn't the sweat-gland receptor.",
+   "src": "slides 16, 28, 46, 71 + 00:19:29"
+  },
+  {
+   "id": "x3-q41",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "recall",
+   "topic": "opioids",
+   "type": "sata",
+   "stem": "A client is being tapered off long-term morphine. Which statements about opioid withdrawal are accurate? Select all that apply.",
+   "options": [
+    "Pinpoint pupils are a key sign of withdrawal",
+    "Withdrawal causes a slow respiratory rate",
+    "Sweating and goosebumps are expected",
+    "Early signs include yawning and a runny nose",
+    "It is usually life-threatening without naloxone",
+    "It typically takes about 10 days"
+   ],
+   "answer": "C, D, F",
+   "rationale": "Withdrawal: yawning, rhinorrhea, sweating, goosebumps → sneezing, N/V, cramps; it takes about 10 days and is \"very uncomfortable but not dangerous.\" Pinpoint pupils and slow breathing are opioid effects, not withdrawal, and naloxone would precipitate withdrawal, not treat it.",
+   "src": "slide 37 + 01:06:51"
+  },
+  {
+   "id": "x3-q42",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "recall",
+   "topic": "assessment",
+   "type": "mc",
+   "stem": "The FLACC scale is designed for children of about which age range?",
+   "options": [
+    "2–7 years",
+    "18 years and older",
+    "8–12 years",
+    "13–17 years"
+   ],
+   "answer": "A",
+   "rationale": "FLACC is for children about 2–7 (and nonverbal ICU clients). Children who can rate a number use the numeric scale; FLACC scores behavior (face, legs, activity, cry, consolability) because the client can't self-report.",
+   "src": "slides 19, 21 + 00:30:00 + 00:31:04"
+  },
+  {
+   "id": "x3-q43",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "recall",
+   "topic": "nsaids-aspirin",
+   "type": "mc",
+   "stem": "How far ahead of a planned elective procedure is aspirin usually stopped, and why?",
+   "options": [
+    "About 72 hours, because platelets regenerate within 3 days",
+    "About 1 month, because aspirin thins the gastric lining",
+    "About 24 hours, because aspirin is cleared from the bloodstream within a day",
+    "About 1 week, because one dose affects platelets for their whole life"
+   ],
+   "answer": "D",
+   "rationale": "One aspirin dose suppresses platelets for the platelet's life (8 days), so it's stopped about 1 week before planned invasive procedures (vascular surgery may keep it). The shorter windows ignore platelet lifespan; gastric damage isn't the surgical concern.",
+   "src": "slides 26–27 + 00:44:41"
+  },
+  {
+   "id": "x3-q44",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "application",
+   "topic": "acetaminophen",
+   "type": "mc",
+   "stem": "A well-nourished client who does not drink alcohol takes acetaminophen for back pain plus a cold medicine at night. Which teaching about the daily limit is correct?",
+   "options": [
+    "No more than 2,000 mg, counting the acetaminophen in every product",
+    "No more than 4,000 mg, counting the acetaminophen in every product",
+    "No more than 6,000 mg if each dose is taken with food",
+    "No more than 4,000 mg of Tylenol; combination products don't count"
+   ],
+   "answer": "B",
+   "rationale": "Liver-injury risk rises above 4,000 mg/day, and the nursing step is to total acetaminophen from all sources (cold medicines, codeine combos). The 3,000 and 2,000 mg limits are for undernourished clients and those who keep drinking; food doesn't protect the liver.",
+   "src": "slides 31, 50 + 00:52:35 + 00:54:07"
+  },
+  {
+   "id": "x3-q45",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "application",
+   "topic": "opioids",
+   "type": "sata",
+   "stem": "A client is discharged with hydrocodone/acetaminophen (Norco) after foot surgery. Which statements indicate the teaching was effective? Select all that apply.",
+   "options": [
+    "\"I can add Tylenol PM at bedtime since it's a different drug.\"",
+    "\"A glass of wine with my dose will help me sleep.\"",
+    "\"I'll tell you if another doctor also prescribes pain pills.\"",
+    "\"I'll get up slowly from the bed or a chair.\"",
+    "\"I'll take it about every 4 to 6 hours, not every 2.\""
+   ],
+   "answer": "C, D, E",
+   "rationale": "Norco is usually every 4–6 h; opioids cause orthostatic hypotension (change position slowly); in med rec ask who else is prescribing (patient–provider agreements). Tylenol PM stacks acetaminophen on the Norco, and alcohol adds CNS depression and liver risk.",
+   "src": "slides 35, 41 + 01:05:09 + 01:11:40 + 01:16:46"
+  },
+  {
+   "id": "x3-q46",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "application",
+   "topic": "adjuvants",
+   "type": "mc",
+   "stem": "A client with chronic burning neuropathic pain is prescribed duloxetine (Cymbalta). She says, \"I'm not depressed — why this drug?\" The nurse explains that duloxetine:",
+   "options": [
+    "Blocks COX-2 to reduce inflammation around the damaged nerves",
+    "Activates mu receptors in the spinal cord the way morphine does",
+    "Blocks NE and serotonin reuptake, strengthening descending inhibition",
+    "Blocks sodium channels to numb the nerves where the pain starts"
+   ],
+   "answer": "C",
+   "rationale": "SNRIs (duloxetine) block norepinephrine and serotonin reuptake → more descending inhibition, a fit for neuropathic/chronic pain. COX-2 is NSAIDs, mu is opioids (\"morphine's not going to help them\"), and sodium-channel block is local anesthetics.",
+   "src": "slides 23, 48, 54 + 00:39:07"
+  },
+  {
+   "id": "x3-q47",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "application",
+   "topic": "opioid-safety",
+   "type": "mc",
+   "stem": "The nurse receives report on four clients. Which client should the nurse see first?",
+   "options": [
+    "Post-op client on a morphine PCA, RR 9 and hard to arouse",
+    "4-year-old after a tonsillectomy with a FLACC score of 3",
+    "Client on celecoxib reporting mild heartburn after breakfast",
+    "Client whose fentanyl patch is due to be changed in 2 hours"
+   ],
+   "answer": "A",
+   "rationale": "RR 9 is below the normal 12–20 and hard to arouse means sedation has progressed — airway and breathing come first, with naloxone ready. Mild heartburn, a patch change due later and a mild FLACC score are not immediately life-threatening.",
+   "src": "slides 43, 51–52 + 01:04:36 + 01:24:17"
+  },
+  {
+   "id": "x3-q48",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "concept",
+   "topic": "cox",
+   "type": "sata",
+   "stem": "Which effects of NSAIDs result from blocking COX-1? Select all that apply.",
+   "options": [
+    "Gastric erosion, ulcers and bleeding",
+    "Renal impairment",
+    "Less platelet aggregation, protecting against MI",
+    "Reduced fever",
+    "Vasoconstriction leading to stroke"
+   ],
+   "answer": "A, B, C",
+   "rationale": "COX-1 is housekeeping — gastric mucosa, kidneys, platelets via thromboxane A₂ — so blocking it causes GI erosion/bleeding and renal impairment but protects against MI and stroke (why aspirin follows a heart attack). Less fever and vasoconstriction come from blocking COX-2.",
+   "src": "slides 24–25 + 00:40:00 + 00:40:59"
+  },
+  {
+   "id": "x3-q49",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "concept",
+   "topic": "nociception",
+   "type": "mc",
+   "stem": "Prostaglandins released at injured tissue help start the pain signal. At which stage of nociception do NSAIDs therefore act?",
+   "options": [
+    "Perception, because they stop the thalamus from relaying the signal",
+    "Modulation, because they release endorphins in the spinal cord",
+    "Transmission, because they keep C fibers from conducting the signal",
+    "Transduction, because fewer prostaglandins means fewer action potentials start"
+   ],
+   "answer": "D",
+   "rationale": "Transduction converts the stimulus into an action potential at the nociceptor, driven by chemicals like prostaglandins, bradykinin and substance P; NSAIDs block COX → ↓ prostaglandins → less peripheral sensitization. NSAIDs don't act on the thalamus, endorphins or fiber conduction.",
+   "src": "slides 7, 48, 53 + 00:06:36"
+  },
+  {
+   "id": "x3-q50",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "concept",
+   "topic": "nursing",
+   "type": "mc",
+   "stem": "Why should post-op opioids be given on a schedule rather than only PRN?",
+   "options": [
+    "PRN doses cause tolerance to develop much faster",
+    "Scheduled doses keep levels steady in the therapeutic range",
+    "PRN doses can't be reassessed one hour later",
+    "Scheduled dosing prevents opioid constipation"
+   ],
+   "answer": "B",
+   "rationale": "Doses should be scheduled so the next one comes before pain returns; PRN dosing swings into pain and then up into mental clouding and respiratory depression (the slide 42 graph). Scheduling doesn't prevent constipation, and every dose is reassessed about 1 h later.",
+   "src": "slide 42 + 01:11:40"
+  },
+  {
+   "id": "x3-q51",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "recall",
+   "topic": "resp-drugs",
+   "type": "mc",
+   "stem": "Which anti-inflammatory drug category for asthma works by preventing mast-cell degranulation?",
+   "options": [
+    "Methylxanthine",
+    "Inhaled anticholinergic",
+    "Mast-cell stabilizer",
+    "Leukotriene modifier"
+   ],
+   "answer": "C",
+   "rationale": "Slide 49: the mast-cell stabilizer (e.g., cromolyn, inhaled) ↓ degranulation — but it isn't preferred; glucocorticoids work better. Leukotriene modifiers ↓ eosinophil recruitment, bronchoconstriction, edema and mucus; methylxanthines and anticholinergics are bronchodilators.",
+   "src": "slide 49"
+  },
+  {
+   "id": "x3-q52",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "recall",
+   "topic": "stepwise",
+   "type": "mc",
+   "stem": "According to the asthma stepwise chart, when can therapy be stepped down?",
+   "options": [
+    "When the asthma is well controlled for at least 3 months, one step at a time",
+    "As soon as the FEV1 returns to normal, by stopping the daily ICS completely",
+    "When there are no attacks for 2 weeks, by two steps at once to save time",
+    "Never; once a client steps up for asthma, the plan only moves forward"
+   ],
+   "answer": "A",
+   "rationale": "Slide 57: step down if well controlled at least 3 months — \"I don't think you should ever go two steps. Just go stepwise.\" Stopping the ICS removes the foundation, and \"only forward\" is the COPD rule, not asthma's.",
+   "src": "slide 57 + 01:33:44 + 01:36:04"
+  },
+  {
+   "id": "x3-q53",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "recall",
+   "topic": "tb",
+   "type": "mc",
+   "stem": "When macrophages can't kill Mycobacterium tuberculosis, the immune system walls off the bacteria. What is this walled-off structure called?",
+   "options": [
+    "A pleural effusion",
+    "A granuloma (Ghon focus)",
+    "A cavity from necrosis",
+    "An empyema"
+   ],
+   "answer": "B",
+   "rationale": "Slides 75–76: the bacilli resist macrophages and neutrophils, so a granuloma (Ghon focus) of macrophages, T cells and inactive bacteria walls them off — that's latent TB. Cavitation comes with necrosis in active disease, an empyema is pus in the pleural space, and an effusion is fluid in the pleural space.",
+   "src": "slides 75–76 + 01:47:38 + 01:48:20"
+  },
+  {
+   "id": "x3-q54",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "application",
+   "topic": "tb",
+   "type": "mc",
+   "stem": "A 45-year-old client with active TB has taken the 4-drug regimen for 3 weeks, feels much better and wants to stop. What is the nurse's best response?",
+   "options": [
+    "\"You can stop the pills now that you are no longer contagious to others around you.\"",
+    "\"You can stop once you feel well, as long as you keep coming in for your monthly checkups.\"",
+    "\"You can drop to two drugs now, since the intensive phase only needs to last 3 weeks.\"",
+    "\"Stopping early or skipping doses can lead to drug-resistant TB, so finish the full course.\""
+   ],
+   "answer": "D",
+   "rationale": "MDR-TB comes from too-short therapy, wrong doses and poor adherence — \"If they don't take this properly, they run the risk of developing… antibiotic-resistant TB.\" The intensive 4-drug phase is 8 weeks, then 18 weeks of 2 drugs (26 total); sputum cultures, not how the client feels, guide progress, and DOT is used if adherence is a problem.",
+   "src": "slides 84–85 + 01:51:12 + 01:51:51"
+  },
+  {
+   "id": "x3-q55",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "application",
+   "topic": "pft",
+   "type": "mc",
+   "stem": "A client with asthma tracks her peak expiratory flow (PEF) at home. Over three days her PEF falls well below her usual value. The nurse interprets this as:",
+   "options": [
+    "Improving control as the airways relax",
+    "Weaker inspiration from diaphragm fatigue",
+    "Increasing obstruction of the airways",
+    "Reduced lung volume from a restrictive process"
+   ],
+   "answer": "C",
+   "rationale": "Slide 30: PEF is the maximal flow rate during expiration and reflects the degree of obstruction in the airways — a falling PEF means more obstruction. In restrictive disease the PEF stays normal or slightly reduced (slide 34), and PEF measures expiration, not inspiration.",
+   "src": "slides 30, 34 + 01:14:49"
+  },
+  {
+   "id": "x3-q56",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "application",
+   "topic": "restrictive",
+   "type": "sata",
+   "stem": "The nurse reviews clients on a medical unit. Which clients are at increased risk for pneumonia? Select all that apply.",
+   "options": [
+    "A 68-year-old on bed rest after a hip fracture",
+    "A 50-year-old receiving chemotherapy who is immunocompromised",
+    "A 26-year-old marathon runner with a sprained ankle",
+    "An 84-year-old who lives in a nursing home",
+    "A 31-year-old with seasonal allergic rhinitis"
+   ],
+   "answer": "A, B, D",
+   "rationale": "Slide 71 risks: old age, immunocompromise, immobilization, malnutrition, cardiac or liver disease, and nursing-home residence. A healthy young runner and a client with seasonal allergic rhinitis (an upper-airway allergy) have none of these.",
+   "src": "slide 71 + 01:45:15"
+  },
+  {
+   "id": "x3-q57",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "application",
+   "topic": "resp-drugs",
+   "type": "mc",
+   "stem": "A client with asthma asks whether she can use her father's long-acting anticholinergic (LAMA) inhaler for COPD during her next attack. Which client statement after teaching indicates understanding?",
+   "options": [
+    "\"His inhaler should work for me, because all bronchodilators open the airways the same way.\"",
+    "\"I can use his inhaler, but only after my rescue inhaler fails to work three times.\"",
+    "\"I'll swap it in for my daily steroid inhaler, since both of them reduce inflammation.\"",
+    "\"I'll use my short-acting β₂ agonist for an attack; that drug class won't help asthma.\""
+   ],
+   "answer": "D",
+   "rationale": "Anticholinergics (SAMA/LAMA) block muscarinic receptors and are only for COPD — \"these anticholinergics do not work at all for asthma\" (slide 52). For an attack she uses her SABA. They are bronchodilators, not anti-inflammatories, so they can't replace the ICS.",
+   "src": "slides 47, 52 + 01:25:18 + 01:28:37"
+  },
+  {
+   "id": "x3-q58",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "concept",
+   "topic": "asthma-copd",
+   "type": "mc",
+   "stem": "In chronic obstructive bronchitis, how does a mucus plug lead to emphysema-like damage?",
+   "options": [
+    "Exhalation can't push air past the plug, so alveoli over-inflate and lose surface area",
+    "The plug raises the surface tension inside the alveoli and inactivates surfactant",
+    "The plug blocks inspiration, so the alveoli collapse and never refill with air",
+    "The plug shunts blood away from the alveoli, causing local pulmonary vasoconstriction"
+   ],
+   "answer": "A",
+   "rationale": "\"With a mucus plug, can exhalation overcome it?\" No — the diaphragm can pull air in past resistance, but nothing pushes it out, so air is trapped; over-inflated alveoli have less surface area → emphysema (slide 42 handwriting). Collapse behind a block is resorption atelectasis, not air trapping.",
+   "src": "slide 42 + 01:20:17 + 01:20:50"
+  },
+  {
+   "id": "x3-q59",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "concept",
+   "topic": "pleura",
+   "type": "mc",
+   "stem": "What keeps the thin, flimsy lungs held open against the chest wall?",
+   "options": [
+    "Contraction of the diaphragm, which holds the lungs open during exhalation too",
+    "Surface tension of the pleural fluid linking the visceral and parietal pleura",
+    "The bronchial smooth muscle, which keeps the alveoli stretched and inflated",
+    "Surfactant in the pleural space that lowers the surface tension between layers"
+   ],
+   "answer": "B",
+   "rationale": "Slide 8: the pleural fluid's surface tension (hydrogen bonds between water molecules) links the lung to the chest wall and keeps the lungs \"popped open\" — the water-balloon model. Surfactant works inside the alveoli to break surface tension, and the diaphragm relaxes during exhalation.",
+   "src": "slide 8 + 00:15:12 + 00:16:48"
+  },
+  {
+   "id": "x3-q60",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "concept",
+   "topic": "vq-diffusion",
+   "type": "sata",
+   "stem": "A region of a client's lung is well ventilated but receives almost no blood flow (a high V/Q). Which statements are accurate? Select all that apply.",
+   "options": [
+    "Local pulmonary vasoconstriction diverts blood away",
+    "The client can become hypoxemic from this mismatch",
+    "The V/Q in that region falls below the normal 0.8",
+    "This is a shunt, the same as a collapsed alveolus",
+    "Alveolar PO₂ rises and PCO₂ falls in that region",
+    "Local bronchoconstriction diverts air toward healthier areas"
+   ],
+   "answer": "B, E, F",
+   "rationale": "Slides 17–18: ↓ blood flow → ↑ PO₂, ↓ PCO₂ → bronchoconstriction diverts air to healthy areas; a high V/Q (alveolar dead space) still causes hypoxemia. Pulmonary vasoconstriction is the response to poor ventilation (low V/Q), and a shunt is a very low V/Q from blocked ventilation.",
+   "src": "slides 17–18 + 00:31:49 + 00:35:00"
+  }
+ ]
+}

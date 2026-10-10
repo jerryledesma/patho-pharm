@@ -116,8 +116,47 @@ for (const dir of dirs) {
   for (const w of warns) { warned++; console.warn(`  ! ${w}`); }
 }
 
+// ---- practice exams (public/exams, IMP-15) ----
+const EXDIR = join(ROOT, 'public/exams');
+if (existsSync(join(EXDIR, 'exams.json'))) {
+  const errs = [], warns = [], ids = [];
+  let man = { exams: [] };
+  try { man = JSON.parse(readFileSync(join(EXDIR, 'exams.json'), 'utf8')); } catch (e) { errs.push(`exams.json unreadable — ${e.message}`); }
+  const tagsOf = id => { try { return new Set(JSON.parse(readFileSync(join(LECTURES, id, 'lecture.json'), 'utf8')).cards.map(c => c.tag)); } catch { return null; } };
+  for (const m of man.exams || []) {
+    let X; try { X = JSON.parse(readFileSync(join(EXDIR, `${m.id}.json`), 'utf8')); } catch (e) { errs.push(`${m.id}.json unreadable — ${e.message}`); continue; }
+    if (X.id !== m.id) errs.push(`${m.id}: id "${X.id}" doesn't match exams.json`);
+    if (X.items?.length !== m.questions) errs.push(`${m.id}: exams.json says ${m.questions} questions, file has ${X.items?.length}`);
+    const tags = Object.fromEntries((X.lectures || []).map(id => [id, tagsOf(id)]));
+    for (const [id, t] of Object.entries(tags)) if (!t) errs.push(`${m.id}: lecture ${id} not found`);
+    (X.items || []).forEach((q, i) => {
+      const at = `${m.id} ${q.id ?? i}`; ids.push(q.id);
+      if (!/^x\d+-q\d{2}$/.test(q.id || '')) errs.push(`${at}: id must look like x1-q01`);
+      for (const k of ['lecture', 'kind', 'topic', 'type', 'stem', 'options', 'answer', 'rationale', 'src']) if (!q[k]) errs.push(`${at}: missing "${k}"`);
+      if (!['mc', 'sata'].includes(q.type)) errs.push(`${at}: type must be mc or sata`);
+      if (!['recall', 'application', 'concept'].includes(q.kind)) errs.push(`${at}: kind must be recall, application or concept`);
+      if (!(q.lecture in tags)) errs.push(`${at}: lecture ${q.lecture} isn't one of the exam's lectures`);
+      else if (tags[q.lecture] && !tags[q.lecture].has(q.topic)) errs.push(`${at}: topic "${q.topic}" isn't a flashcard tag of ${q.lecture}`);
+      if (q.options && q.answer) checkAnswer(q, at, errs);
+    });
+    const mcs = (X.items || []).filter(q => q.type === 'mc');
+    const tell = mcs.filter(q => { const i = 'ABCDEF'.indexOf(q.answer), a = q.options[i]?.length || 0; return a > 1.3 * Math.max(...q.options.filter((_, k) => k !== i).map(o => o.length)); }).length;
+    if (mcs.length && tell / mcs.length > 0.10) warns.push(`${m.id}: ${tell} of ${mcs.length} answers are >1.3× longer than every distractor`);
+    const byLetter = {}; for (const q of mcs) byLetter[q.answer] = (byLetter[q.answer] || 0) + 1;
+    const top = Math.max(0, ...Object.values(byLetter)); if (mcs.length >= 10 && top / mcs.length > 0.40) warns.push(`${m.id}: one letter is the answer in ${top} of ${mcs.length} items`);
+  }
+  const dupes = ids.filter((x, i) => ids.indexOf(x) !== i);
+  if (dupes.length) errs.push(`duplicate exam ids: ${[...new Set(dupes)].join(', ')}`);
+  const gone = (ledger.exams || []).filter(x => !ids.includes(x));
+  if (gone.length) errs.push(`published exam ids removed (would erase progress): ${gone.join(', ')}`);
+  if (updateLedger && !errs.length) ledger.exams = [...new Set([...(ledger.exams || []), ...ids])];
+  if (errs.length) { failed++; console.error(`✗ exams\n  - ${errs.join('\n  - ')}`); }
+  else console.log(`✓ exams — ${(man.exams || []).length} exam(s), ${ids.length} questions`);
+  for (const w of warns) { warned++; console.warn(`  ! ${w}`); }
+}
+
 // A lecture in the ledger whose folder is gone is also a removal.
-for (const id of Object.keys(ledger)) if (!dirs.includes(id)) { failed++; console.error(`✗ ${id}: published lecture folder was removed`); }
+for (const id of Object.keys(ledger)) if (id !== 'exams' && !dirs.includes(id)) { failed++; console.error(`✗ ${id}: published lecture folder was removed`); }
 
 if (updateLedger && !failed) { writeFileSync(LEDGER, JSON.stringify(ledger, null, 1) + '\n'); console.log('ledger updated'); }
 if (failed) { console.error(`\n${failed} lecture(s) failed validation`); process.exit(1); }

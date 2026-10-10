@@ -49,7 +49,7 @@ try {
     const ids = index.lectures.map(l => l.id);
 
     await page.goto(base + '/#/'); await page.waitForSelector('.lecture-card');
-    const home = await page.locator('.lecture-card .t').allInnerTexts();
+    const home = (await page.locator('.lecture-card .t').allInnerTexts()).filter(t => /^\d+ ·/.test(t));   // lecture cards (exams are listed too)
     const nums = home.map(t => parseInt(t, 10));
     if (home.length !== ids.length) fails.push(`${w}px home: ${home.length} lectures shown, index has ${ids.length}`);
     if (nums.some((n, i) => i && n > nums[i - 1])) fails.push(`${w}px home: not newest first (${nums.join(', ')})`);
@@ -64,7 +64,21 @@ try {
       if (sw > w + 1) fails.push(`${w}px ${id}/${tab}: scrolls sideways (${sw}px wide)`);
       if (errs.length) fails.push(`${w}px ${id}/${tab}: ${errs.slice(0, 2).join(' | ')}`);
     }
-    console.log(`${w}px: home + ${ids.length} lectures × ${TABS.length} tabs checked`);
+    // Practice exams (IMP-15): each intro page opens and shows its start button.
+    const exRes = await page.request.get(base + '/exams/exams.json');
+    const exams = exRes.ok() ? (await exRes.json()).exams : [];
+    for (const x of exams) {
+      errs.length = 0;
+      await page.goto(`${base}/#/exam/${x.id}`);
+      try { await page.waitForSelector('text=Start exam', { timeout: 8000 }); } catch { fails.push(`${w}px exam ${x.id}: intro didn't render`); continue; }
+      if (errs.length) fails.push(`${w}px exam ${x.id}: ${errs.slice(0, 2).join(' | ')}`);
+    }
+    if (exams.length) {
+      await page.goto(base + '/#/');
+      try { await page.locator('.lecture-card', { hasText: exams[0].title }).first().waitFor({ timeout: 8000 }); }
+      catch { fails.push(`${w}px home: practice exams not listed`); }
+    }
+    console.log(`${w}px: home + ${ids.length} lectures × ${TABS.length} tabs + ${exams.length} exams checked`);
     await ctx.close();
   }
 } finally {

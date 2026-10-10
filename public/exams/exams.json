@@ -1,0 +1,46 @@
+{
+ "exams": [
+  {
+   "id": "exam-1",
+   "title": "Practice Exam 1",
+   "questions": 60,
+   "lectures": [
+    "2026-09-17-inflammation",
+    "2026-09-24-immunity-infection",
+    "2026-10-01-antimicrobials",
+    "2026-10-01-autonomic-nervous-system",
+    "2026-10-08-pain-management",
+    "2026-10-08-pulmonary-disorders"
+   ],
+   "minutes": 90
+  },
+  {
+   "id": "exam-2",
+   "title": "Practice Exam 2",
+   "questions": 60,
+   "lectures": [
+    "2026-09-17-inflammation",
+    "2026-09-24-immunity-infection",
+    "2026-10-01-antimicrobials",
+    "2026-10-01-autonomic-nervous-system",
+    "2026-10-08-pain-management",
+    "2026-10-08-pulmonary-disorders"
+   ],
+   "minutes": 90
+  },
+  {
+   "id": "exam-3",
+   "title": "Practice Exam 3",
+   "questions": 60,
+   "lectures": [
+    "2026-09-17-inflammation",
+    "2026-09-24-immunity-infection",
+    "2026-10-01-antimicrobials",
+    "2026-10-01-autonomic-nervous-system",
+    "2026-10-08-pain-management",
+    "2026-10-08-pulmonary-disorders"
+   ],
+   "minutes": 90
+  }
+ ]
+}

@@ -7,7 +7,8 @@ import { getStore } from '@netlify/blobs';
 import { isAuthed } from '../lib/session.mjs';
 import { merge, invalid, empty } from '../lib/merge.mjs';
 
-const LECTURE = /^\d{4}-\d{2}-\d{2}-[a-z0-9]+(-[a-z0-9]+){0,2}$/;
+// A lecture id, or "exams" for the course-level practice exams (IMP-15).
+const LECTURE = /^(\d{4}-\d{2}-\d{2}-[a-z0-9]+(-[a-z0-9]+){0,2}|exams)$/;
 const MAX_BODY = 256 * 1024;
 const json = (body, status = 200) => new Response(JSON.stringify(body), {
   status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' },
