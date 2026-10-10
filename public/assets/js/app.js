@@ -1,5 +1,6 @@
 // Study Notebook app — ported from NURS419_Study_Notebook.html.
-// Routes: #/                     home (lecture picker)
+// Routes: #/                     home (lecture picker + practice exams)
+//         #/exam/<exam-id>[/results]  a practice exam
 //         #/<lecture-id>/<tab>   a lecture tab (notes, practice, clinical, cards, qa, map)
 'use strict';
 
@@ -89,7 +90,8 @@ const go = h => { if(location.hash===h) route(); else location.hash=h; };
 async function route(){
   const [id,tab]=location.hash.replace(/^#\/?/,'').split('/');
   try{
-    if(!id){ L=null; loading(); await Promise.all([loadIndex(), Sync.pullAll()]); return home(); }
+    if(!id){ L=null; loading(); await Promise.all([loadIndex(), Sync.pullAll(), loadExams()]); return home(); }
+    if(id==='exam'){ await loadExams(); const [, x, view]=location.hash.replace(/^#\/?/,'').split('/'); return examRoute(x, view); }
     const t=TABS.some(([k])=>k===tab)?tab:'notes';
     if(!L||L.id!==id){ loading(); [L]=await Promise.all([loadLecture(id), Sync.pull(id)]); }
     $('#lec').textContent=`${L.num} · ${L.title}`;
@@ -119,6 +121,7 @@ function home(){
     if(qs.length){ const miss=qs.filter(([,v])=>v.last===0).length; b.append(el('div',{class:'m',html:`<b>${qs.length} / ${l.questions} answered</b> · ${miss ? miss+' to revisit' : 'nothing to revisit ✓'}`})); }
     pg.append(b);
   });
+  examCards(pg);
   m.append(pg);
 }
 
@@ -239,9 +242,12 @@ function cards(){
   const pg=el('section',{class:'page'});
   pg.append(el('h2',{class:'banner mint',html:'flashcards'}));
   pg.append(el('p',{html:'Tap a card to flip. <b>Again</b> puts it back a few cards later; <b>Got it</b> retires it for this round. Pick tags to narrow the deck.'}));
-  const tags=[...new Set(L.cards.map(c=>c.tag))]; let active=new Set(tags);
+  const tags=[...new Set(L.cards.map(c=>c.tag))];
+  // An exam's "focus on" list can open this deck with one topic pre-selected.
+  let pre=null; try{ pre=JSON.parse(sessionStorage.getItem('pp:cardtags')||'null'); sessionStorage.removeItem('pp:cardtags'); }catch{}
+  let active=new Set(pre?.some(t=>tags.includes(t)) ? tags.filter(t=>pre.includes(t)) : tags);
   const chips=el('div',{class:'chips'});
-  tags.forEach(t=>chips.append(el('button',{class:'chip','aria-pressed':'true',onclick:e=>{ if(active.has(t)) active.delete(t); else active.add(t); e.currentTarget.setAttribute('aria-pressed',active.has(t)); count(); }},t)));
+  tags.forEach(t=>chips.append(el('button',{class:'chip','aria-pressed':String(active.has(t)),onclick:e=>{ if(active.has(t)) active.delete(t); else active.add(t); e.currentTarget.setAttribute('aria-pressed',active.has(t)); count(); }},t)));
   const cnt=el('div',{class:'m',role:'status',style:'font-family:Kalam,cursive;color:#666'});
   function count(){ cnt.textContent=`${L.cards.filter(c=>active.has(c.tag)).length} cards selected`; }
   count();
@@ -297,6 +303,162 @@ async function map(){
   let zoom=1400;
   const z=el('div',{class:'qnav',style:'justify-content:flex-start'}, el('button',{class:'btn','aria-label':'zoom out',html:'−',onclick:()=>{zoom=Math.max(900,zoom-250);w.style.setProperty('--mapw',zoom+'px');}}), el('button',{class:'btn','aria-label':'zoom in',html:'+',onclick:()=>{zoom=Math.min(3200,zoom+250);w.style.setProperty('--mapw',zoom+'px');}}), el('span',{class:'tiny',style:'align-self:center',html:'scroll to pan · pinch to zoom'}));
   pg.append(z,w); m.append(pg);
+}
+
+// ---------- practice exams (IMP-15) ----------
+// Course-level NCLEX-style exams across several lectures: one question at a time, no feedback and no going back
+// until the end, optional timer; results by lecture, question kind and topic, then a review of missed items.
+// Progress lives under the progress-API record "exams": items (per question) and sessions (in-progress + results).
+let EXAMS = null;
+const examCache = new Map();
+const EX = 'exams';
+const KIND = { recall: 'Memorization (drugs, numbers, definitions)', application: 'Application (clinical)', concept: 'Key concepts' };
+async function loadExams(){ if(!EXAMS){ try { EXAMS=(await getJSON('exams/exams.json')).exams; } catch(e){ if(e.message==='auth') throw e; EXAMS=[]; } } return EXAMS; }
+async function loadExam(id){ if(!examCache.has(id)) examCache.set(id, await getJSON(`exams/${id}.json`)); return examCache.get(id); }
+const lecNum = id => INDEX.lectures.find(l=>l.id===id);
+const results = id => Object.entries(Sync.rec(EX).sessions).filter(([k,v])=>k.startsWith(id+':result:')&&v.total).map(([,v])=>v).sort((a,b)=>b.t-a.t);
+const pct = (c,n) => n ? Math.round(c/n*100) : 0;
+const fmtMin = s => `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
+
+function examCards(pg){
+  if(!EXAMS?.length) return;
+  pg.append(el('p',{class:'lead',html:'practice exams ✎'}));
+  EXAMS.forEach(x=>{
+    const nums=x.lectures.map(id=>lecNum(id)?.num).filter(Boolean).sort((a,b)=>a-b);
+    const b=el('button',{class:'lecture-card',style:'background:var(--yel)',onclick:()=>go(`#/exam/${x.id}`)});
+    b.append(el('div',{class:'t',html:x.title}), el('div',{class:'m',html:`${x.questions} NCLEX-style questions · lectures ${nums[0]}–${nums[nums.length-1]}`}));
+    const r=results(x.id), live=Sync.session(EX,x.id);
+    if(live) b.append(el('div',{class:'m',html:`<b>in progress · question ${live.i+1} of ${live.order.length}</b>`}));
+    else if(r.length) b.append(el('div',{class:'m',html:`<b>last score ${pct(r[0].correct,r[0].total)}%</b> · best ${Math.max(...r.map(v=>pct(v.correct,v.total)))}% · ${r.length} attempt${r.length>1?'s':''}`}));
+    pg.append(b);
+  });
+}
+
+async function examRoute(id, view){
+  L=null; loading();
+  await Promise.all([loadIndex(), Sync.pull(EX)]);
+  const X=await loadExam(id);
+  $('#lec').textContent=X.title; $('#tabs').classList.add('hidden');
+  document.title=`${X.title} · Study Notebook`; window.scrollTo(0,0);
+  if(view==='results'){ const r=results(id)[0]; return r ? examResults(X,r) : examIntro(X); }
+  examIntro(X);
+}
+
+function examIntro(X){
+  const m=$('main'); m.innerHTML='';
+  const pg=el('section',{class:'page'});
+  pg.append(el('h2',{class:'banner yel',html:X.title.toLowerCase()}));
+  const lecs=X.lectures.map(lecNum).filter(Boolean).sort((a,b)=>a.num-b.num);
+  pg.append(el('p',{html:`<b>${X.items.length} questions</b>, ${X.items.length/lecs.length} from each lecture: ${lecs.map(l=>`${l.num} · ${l.title}`).join('; ')}.`}));
+  pg.append(el('p',{html:'Like the NCLEX: one question at a time in mixed order, <b>no answers shown until the end</b>, and no going back once you move on. Select-all items count only when every choice is right. At the end you get your score by lecture, by kind of question and by topic, with what to review and every missed question explained.'}));
+  const live=Sync.session(EX,X.id);
+  if(live){
+    const left = live.deadline ? Math.max(0,(live.deadline-Date.now())/1000) : null;
+    pg.append(el('button',{class:'lecture-card',style:'background:var(--yel)',onclick:()=>runExam(X,live)}, el('div',{class:'t',html:'Resume exam'}), el('div',{class:'m',html:`question ${live.i+1} of ${live.order.length}${left!=null?` · ${fmtMin(left)} left`:''}`})));
+  }
+  const timed=el('input',{type:'checkbox',id:'timed'}); timed.checked=true;
+  pg.append(el('label',{class:'m',for:'timed',style:'display:flex;gap:.5rem;align-items:center;margin:1rem 0'}, timed, el('span',{html:`Timed — ${X.minutes} minutes (about 1½ minutes a question). When time runs out, unanswered questions count as missed.`})));
+  pg.append(el('div',{class:'qnav',style:'justify-content:flex-start'},
+    el('button',{class:'btn primary',html:live?'Start over':'Start exam',onclick:()=>{ if(live) Sync.put(EX,'sessions',X.id,{fin:1}); runExam(X,null,timed.checked); }}),
+    el('button',{class:'btn ghost',html:'Home',onclick:()=>go('#/')})));
+  const r=results(X.id);
+  if(r.length){
+    pg.append(el('h3',{html:'past attempts'}));
+    r.slice(0,5).forEach(v=>pg.append(el('button',{class:'lecture-card',onclick:()=>examResults(X,v)}, el('div',{class:'t',html:`${pct(v.correct,v.total)}% · ${v.correct} / ${v.total}`}), el('div',{class:'m',html:`${new Date(v.t).toLocaleDateString(undefined,{month:'short',day:'numeric'})}${v.secs?` · ${Math.round(v.secs/60)} min`:''} · tap for results`}))));
+  }
+  m.append(pg);
+}
+
+function runExam(X, resume, timed){
+  const byId=new Map(X.items.map(q=>[q.id,q]));
+  const s = resume || { order: shuffle(X.items.map(q=>q.id)), i:0, answers:{}, start:Date.now(), deadline: timed ? Date.now()+X.minutes*60000 : 0 };
+  const save=()=>Sync.put(EX,'sessions',X.id,{order:s.order,i:s.i,answers:s.answers,start:s.start,deadline:s.deadline});
+  if(!resume) save();
+  const m=$('main'); let tick=null;
+  function render(){
+    clearInterval(tick); m.innerHTML='';
+    if(s.i>=s.order.length) return submit();
+    const q=byId.get(s.order[s.i]), n=s.order.length;
+    const wrap=el('section',{class:'page'});
+    const pr=el('div',{class:'prog'}); pr.append(el('i',{style:`width:${s.i/n*100}%`})); wrap.append(pr);
+    const clock=el('span');
+    const card=el('div',{class:'qcard'});
+    card.append(el('div',{class:'qmeta'}, el('span',{html:`${s.i+1} / ${n}`}), el('span',{html:q.type==='sata'?'select all that apply':''}), clock));
+    card.append(el('div',{class:'qstem',html:q.stem}));
+    let sel=[];
+    q.options.forEach((o,k)=>{ const letter='ABCDEF'[k];
+      const b=el('button',{class:'opt','aria-pressed':'false',onclick:()=>{
+        if(q.type==='mc'){ sel=[letter]; card.querySelectorAll('.opt').forEach(x=>x.setAttribute('aria-pressed','false')); b.setAttribute('aria-pressed','true'); }
+        else { sel=sel.includes(letter)?sel.filter(x=>x!==letter):[...sel,letter]; b.setAttribute('aria-pressed',sel.includes(letter)); }
+        next.disabled=!sel.length; }});
+      b.append(el('span',{class:'l',html:letter}), el('span',{html:o})); card.append(b); });
+    const next=el('button',{class:'btn primary',html:s.i===n-1?'Finish exam':'Next →',onclick:()=>{ if(!sel.length) return; s.answers[q.id]=sel.sort().join(', '); s.i++; save(); render(); }});
+    next.disabled=true;
+    card.append(el('div',{class:'qnav'}, el('button',{class:'btn ghost',html:'Pause',onclick:()=>{ clearInterval(tick); examIntro(X); }}), next));
+    wrap.append(card); m.append(wrap); window.scrollTo(0,0);
+    const upd=()=>{ if(s.deadline){ const left=(s.deadline-Date.now())/1000; clock.textContent=`⏱ ${fmtMin(Math.max(0,left))}`; if(left<=0){ clearInterval(tick); s.i=n; save(); render(); } } else clock.textContent=`⏱ ${fmtMin((Date.now()-s.start)/1000)}`; };
+    upd(); tick=setInterval(upd,1000);
+  }
+  function submit(){
+    let correct=0; const missed=[];
+    for(const id of s.order){
+      const q=byId.get(id), a=s.answers[id]||'';
+      const ok = a===parseAns(q.answer).sort().join(', ');
+      if(ok) correct++; else missed.push(id);
+      const prev=Sync.item(EX,id)||{};
+      if(a) Sync.put(EX,'items',id,{a:(prev.a||0)+1,c:(prev.c||0)+(ok?1:0),last:ok?1:0});
+    }
+    const r={correct,total:s.order.length,answers:s.answers,missed,secs:Math.round((Math.min(Date.now(),s.deadline||Infinity)-s.start)/1000),t:Date.now()};
+    Sync.put(EX,'sessions',`${X.id}:result:${s.start}`,r);
+    Sync.put(EX,'sessions',X.id,{fin:1});
+    if(location.hash!==`#/exam/${X.id}/results`) history.replaceState(null,'',`#/exam/${X.id}/results`);
+    examResults(X,{...r,t:Date.now()});
+  }
+  render();
+}
+
+function examResults(X, r){
+  const m=$('main'); m.innerHTML=''; window.scrollTo(0,0);
+  const pg=el('section',{class:'page'});
+  const miss=new Set(r.missed);
+  pg.append(el('h2',{class:'banner yel',html:`${X.title.toLowerCase()} · results`}));
+  const s=el('div',{class:'qcard score'});
+  s.append(el('div',{class:'big-n',html:`${r.correct} / ${r.total}`}), el('div',{class:'lead',html:`${pct(r.correct,r.total)}%${r.secs?` · ${Math.round(r.secs/60)} min`:''}${Object.keys(r.answers).length<r.total?` · ${r.total-Object.keys(r.answers).length} unanswered (time ran out)`:''}`}));
+  pg.append(s);
+  const group = key => { const g=new Map(); for(const q of X.items){ const k=key(q); const v=g.get(k)||{n:0,c:0,ids:[]}; v.n++; if(!miss.has(q.id)) v.c++; v.ids.push(q.id); g.set(k,v); } return g; };
+  const bar = (label, v, extra='') => { const row=el('div',{class:'m',style:'margin:.45rem 0'}); const p=pct(v.c,v.n);
+    row.append(el('div',{html:`<b>${label}</b> — ${v.c} / ${v.n} (${p}%)${extra}`})); const b=el('div',{class:'prog'}); b.append(el('i',{style:`width:${p}%;background:${p>=80?'var(--mint-d,#5a9)':p>=60?'var(--yel-d,#c90)':'var(--pink-d,#c55)'}`})); row.append(b); return row; };
+  pg.append(el('h3',{html:'by lecture'}));
+  const lecs=[...group(q=>q.lecture)].map(([id,v])=>[lecNum(id),v]).filter(([l])=>l).sort((a,b)=>a[0].num-b[0].num);
+  lecs.forEach(([l,v])=>pg.append(bar(`${l.num} · ${l.title}`,v)));
+  pg.append(el('h3',{html:'by kind of question'}));
+  [...group(q=>q.kind)].forEach(([k,v])=>pg.append(bar(KIND[k]||k,v)));
+  // Topics to review: every topic with a miss, weakest first.
+  const topics=[...group(q=>q.lecture+'|'+q.topic)].map(([k,v])=>{ const [lec,topic]=k.split('|'); return {lec,topic,...v}; }).filter(t=>t.c<t.n).sort((a,b)=>a.c/a.n-b.c/b.n||b.n-a.n);
+  pg.append(el('h3',{html:'focus on'}));
+  if(!topics.length) pg.append(el('p',{html:'Nothing missed — clean sweep ✎'}));
+  // One card per lecture (weakest lecture first), its missed topics as flashcard shortcuts.
+  const byLec=new Map(); topics.forEach(t=>{ if(!byLec.has(t.lec)) byLec.set(t.lec,[]); byLec.get(t.lec).push(t); });
+  [...byLec].sort((a,b)=>b[1].reduce((n,t)=>n+t.n-t.c,0)-a[1].reduce((n,t)=>n+t.n-t.c,0)).forEach(([lec,ts])=>{ const l=lecNum(lec); if(!l) return;
+    const row=el('div',{class:'lecture-card'});
+    row.append(el('div',{class:'t',html:`${l.num} · ${l.title}`}), el('div',{class:'m',html:ts.map(t=>`<b>${t.topic.replace(/-/g,' ')}</b> ${t.n-t.c}/${t.n} missed`).join(' · ')}));
+    const nav=el('div',{class:'qnav',style:'justify-content:flex-start;flex-wrap:wrap;margin-top:.4rem'});
+    nav.append(el('button',{class:'btn',html:'Notes',onclick:()=>go(`#/${lec}/notes`)}),
+      el('button',{class:'btn',html:`Flashcards · ${ts.length>1?ts.length+' topics':ts[0].topic.replace(/-/g,' ')}`,onclick:()=>{ try{ sessionStorage.setItem('pp:cardtags',JSON.stringify(ts.map(t=>t.topic))); }catch{} go(`#/${lec}/cards`); }}));
+    row.append(nav); pg.append(row); });
+  pg.append(el('h3',{html:`missed questions (${r.missed.length})`}));
+  const byId=new Map(X.items.map(q=>[q.id,q]));
+  r.missed.map(id=>byId.get(id)).filter(Boolean).forEach((q,k)=>{
+    const c=el('div',{class:'qcard'}); const l=lecNum(q.lecture);
+    c.append(el('div',{class:'qmeta'}, el('span',{html:`${k+1}`}), el('span',{html:`lecture ${l?.num??''} · ${q.topic.replace(/-/g,' ')}`})));
+    c.append(el('div',{class:'qstem',html:q.stem}));
+    const ans=parseAns(q.answer), mine=(r.answers[q.id]||'').split(', ').filter(Boolean);
+    q.options.forEach((o,i)=>{ const letter='ABCDEF'[i]; const b=el('div',{class:'opt'}); b.append(el('span',{class:'l',html:letter}), el('span',{html:o}));
+      if(ans.includes(letter)) b.classList.add(mine.includes(letter)?'correct':'missed'); else if(mine.includes(letter)) b.classList.add('wrong'); c.append(b); });
+    c.append(el('div',{class:'verdict no',html:mine.length?`Your answer: ${mine.join(', ')} · correct: ${q.answer}`:`Not answered · correct: ${q.answer}`}), el('div',{class:'rat',html:q.rationale}));
+    pg.append(c); });
+  pg.append(el('div',{class:'qnav',style:'justify-content:center'}, el('button',{class:'btn primary',html:'Retake',onclick:()=>examIntro(X)}), el('button',{class:'btn ghost',html:'Home',onclick:()=>go('#/')})));
+  m.append(pg);
 }
 
 // ---------- boot ----------

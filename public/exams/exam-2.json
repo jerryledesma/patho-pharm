@@ -1,0 +1,1060 @@
+{
+ "id": "exam-2",
+ "title": "Practice Exam 2",
+ "lectures": [
+  "2026-09-17-inflammation",
+  "2026-09-24-immunity-infection",
+  "2026-10-01-antimicrobials",
+  "2026-10-01-autonomic-nervous-system",
+  "2026-10-08-pain-management",
+  "2026-10-08-pulmonary-disorders"
+ ],
+ "minutes": 90,
+ "items": [
+  {
+   "id": "x2-q01",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "recall",
+   "topic": "cytokines",
+   "type": "mc",
+   "stem": "Which cytokine signals the liver to make acute-phase reactants such as CRP?",
+   "options": [
+    "IL-6",
+    "IL-10",
+    "Interferon",
+    "IL-1"
+   ],
+   "answer": "A",
+   "rationale": "IL-6 (from macrophages, lymphocytes, fibroblasts, muscle) drives liver acute-phase reactants. IL-1 is the endogenous pyrogen, IL-10 is anti-inflammatory, and interferons protect against viruses.",
+   "src": "slide 75"
+  },
+  {
+   "id": "x2-q02",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "recall",
+   "topic": "wound-healing",
+   "type": "mc",
+   "stem": "According to the lecture, repaired tissue regains about how much of its original strength?",
+   "options": [
+    "About 30%",
+    "About 50%",
+    "Fully 100%",
+    "About 80%"
+   ],
+   "answer": "D",
+   "rationale": "Repaired tissue is about 80% as strong as the original, and the replacement cells usually aren't the ones that were lost (except epithelium, bone marrow and liver). It never returns fully to 100%.",
+   "src": "slide 85"
+  },
+  {
+   "id": "x2-q03",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "recall",
+   "topic": "acute-chronic",
+   "type": "mc",
+   "stem": "Which cells dominate the tissue in chronic inflammation?",
+   "options": [
+    "Eosinophils and basophils",
+    "Platelets and mast cells",
+    "Lymphocytes and macrophages",
+    "Neutrophils"
+   ],
+   "answer": "C",
+   "rationale": "Chronic inflammation (> 2 weeks, the acute response failed) shows dense lymphocytes and macrophages, often walled off in a granuloma. Neutrophils are the acute first responders; eosinophils/basophils are allergy cells, and platelets and mast cells start the response.",
+   "src": "slide 82"
+  },
+  {
+   "id": "x2-q04",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "application",
+   "topic": "adaptation",
+   "type": "mc",
+   "stem": "A client with 20 years of hypertension learns that his left ventricular wall is thickened. Which statement by the client indicates a need for further teaching?",
+   "options": [
+    "\"My heart adapted to pumping against high pressure for years.\"",
+    "\"A thicker heart is a stronger heart.\"",
+    "\"My heart muscle cells got bigger in size; there aren't more of them.\"",
+    "\"A thick wall can keep the ventricle from filling with blood.\""
+   ],
+   "answer": "B",
+   "rationale": "Cardiac hypertrophy from HTN is pathologic/maladaptive — the wall gets so thick the ventricle can't fill. Comparing it to a weightlifter's muscle confuses it with physiologic hypertrophy. The other statements are correct: bigger cells (not more), an adaptation to high pressure.",
+   "src": "slide 7 + 00:05:46"
+  },
+  {
+   "id": "x2-q05",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "application",
+   "topic": "mediators",
+   "type": "mc",
+   "stem": "A client stung by a bee develops hives within minutes, and the swelling persists for several hours. Which mast-cell mediator is made after degranulation and accounts for the slower, longer-lasting response?",
+   "options": [
+    "Leukotrienes",
+    "Bradykinin",
+    "Complement C5",
+    "Histamine"
+   ],
+   "answer": "A",
+   "rationale": "Mast cells first degranulate histamine (fast: dilates venules, ↑ permeability), then make leukotrienes, which act slower and longer, plus prostaglandins and PAF. Histamine is the immediate mediator; bradykinin comes from the plasma kinin system, and complement is a plasma-derived (liver) protein, not a mast-cell product.",
+   "src": "slide 70 + 00:57:43"
+  },
+  {
+   "id": "x2-q06",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "application",
+   "topic": "cell-death",
+   "type": "sata",
+   "stem": "A client is admitted with acute pancreatitis. Which findings fit the lecture's description of this injury? Select all that apply.",
+   "options": [
+    "Caseous, cheese-like necrosis walled off by a granuloma",
+    "Elevated serum amylase",
+    "Fat necrosis",
+    "Firm, opaque coagulative necrosis",
+    "Lipases breaking down fat into soaps (saponification)"
+   ],
+   "answer": "B, C, E",
+   "rationale": "Injured pancreatic cells release amylase, and the pancreas undergoes fat necrosis — lipases turn triglycerides into soap (saponification). Caseous necrosis is the TB pattern; coagulative necrosis is kidney, heart and adrenals.",
+   "src": "slides 30, 35"
+  },
+  {
+   "id": "x2-q07",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "application",
+   "topic": "wound-healing",
+   "type": "sata",
+   "stem": "A client has a large open pressure injury with tissue loss that must heal from the base. Compared with a closed surgical incision, what should the nurse anticipate? Select all that apply.",
+   "options": [
+    "Much higher risk of infection",
+    "Faster closure than the incision",
+    "More scar formation",
+    "Slower healing",
+    "Minimal tissue loss at the site"
+   ],
+   "answer": "A, C, D",
+   "rationale": "An open wound with tissue loss heals by secondary intention: slower, more scarring and far more infection. Minimal tissue loss and faster healing describe primary intention.",
+   "src": "slide 85 + 01:14:57"
+  },
+  {
+   "id": "x2-q08",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "concept",
+   "topic": "mediators",
+   "type": "mc",
+   "stem": "Complement, clotting and kinin systems amplify one another once activated. Which consequence did he stress?",
+   "options": [
+    "They stay permanently active once a person is first injured",
+    "Each system acts alone, which keeps the response small",
+    "They must be tightly regulated, because too much is damaging",
+    "Bone marrow cells release them only at the injury site"
+   ],
+   "answer": "C",
+   "rationale": "\"Effective, but too much is damaging\" — the three liver-made systems amplify each other, so they must be tightly regulated. They interact rather than act alone, they are plasma-derived (made by the liver), not cell-derived, and they circulate inactive until injury.",
+   "src": "slides 57–58 + 01:04:29"
+  },
+  {
+   "id": "x2-q09",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "concept",
+   "topic": "inflammation",
+   "type": "mc",
+   "stem": "Increased vascular permeability during acute inflammation directly causes which finding?",
+   "options": [
+    "Pallor, as blood flow to the injured area decreases",
+    "Fever, as cytokines reset the body's temperature",
+    "A clot that seals the injured vessel and stops bleeding",
+    "Swelling, as fluid leaks out of the vessels into the tissue"
+   ],
+   "answer": "D",
+   "rationale": "↑ Permeability lets fluid leak out (exudate, edema), and the concentrated RBCs left behind add redness and heat. Blood flow increases rather than decreases; clotting is hemostasis; fever is a systemic cytokine (pyrogen) effect, not a direct result of leaky vessels.",
+   "src": "slide 47 + 00:33:50"
+  },
+  {
+   "id": "x2-q10",
+   "lecture": "2026-09-17-inflammation",
+   "kind": "concept",
+   "topic": "adaptation",
+   "type": "sata",
+   "stem": "Hyperplasia means more cells, not bigger cells. Which situations from the lecture involve hyperplasia? Select all that apply.",
+   "options": [
+    "A liver regrowing after 70% is removed",
+    "Heart muscle replacing cells lost in a heart attack",
+    "Skeletal muscle enlarging with weight lifting",
+    "Ciliated airway cells replaced by squamous cells in a smoker",
+    "Breast and uterine growth driven by estrogen",
+    "Common warts"
+   ],
+   "answer": "A, E, F",
+   "rationale": "Hyperplasia = more cells: compensatory (liver regrowth), physiologic hormonal (estrogen), pathologic viral (warts). Weight lifting enlarges cells (hypertrophy), the smoker's airway is metaplasia, and cardiac muscle can't do hyperplasia because it doesn't divide.",
+   "src": "slide 9 + 00:09:50–00:10:21"
+  },
+  {
+   "id": "x2-q11",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "recall",
+   "topic": "pathogens",
+   "type": "mc",
+   "stem": "Antitoxins are best described as:",
+   "options": [
+    "Antibodies directed against bacterial exotoxins",
+    "Enzymes bacteria use to inactivate antibiotics",
+    "Drugs that block the release of endotoxin (LPS)",
+    "Antibodies against the gram-negative cell wall"
+   ],
+   "answer": "A",
+   "rationale": "Slide 10: exotoxins are proteins released during growth (diphtheria, tetanus, pertussis), and antitoxins are antibodies against them. That's why the pertussis and tetanus vaccines are anti-toxin. Endotoxin is the LPS released when gram-negative bacteria are lysed, and inactivating antibiotics is a slide-17 bacterial defense.",
+   "src": "slide 10 + 00:18:01 + 01:13:36"
+  },
+  {
+   "id": "x2-q12",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "recall",
+   "topic": "apc-activation",
+   "type": "mc",
+   "stem": "Which cells act as antigen-presenting cells (APCs)?",
+   "options": [
+    "T helper cells, cytotoxic T cells and plasma cells",
+    "Neutrophils, mast cells and NK cells",
+    "Dendritic cells, macrophages and B cells",
+    "Plasma cells, memory T cells and neutrophils"
+   ],
+   "answer": "C",
+   "rationale": "Slide 33: macrophages, dendritic cells and B cells take in the invader, process it and present it on MHC II. They are the \"scouts in the field.\" T helpers receive the signal and coordinate, and plasma cells make antibodies. Neutrophils, mast cells and NK cells are innate cells that the slide doesn't list as APCs.",
+   "src": "slide 33 + 00:56:06 + 00:57:01"
+  },
+  {
+   "id": "x2-q13",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "recall",
+   "topic": "deficiencies",
+   "type": "mc",
+   "stem": "Hypogammaglobulinemia is a primary immunodeficiency of which component?",
+   "options": [
+    "Combined B and T cells: neither is made",
+    "B cells (antibody): not enough IgG",
+    "Complement: missing C3",
+    "Phagocytes: can't kill what they engulf"
+   ],
+   "answer": "B",
+   "rationale": "Slide 83: hypogammaglobulinemia is a B-cell (antibody) deficiency, and he said it means not enough IgG. Missing C3 is the complement deficiency, phagocytes that can't kill are chronic granulomatous disease, and never making B or T cells is SCID.",
+   "src": "slide 83 + 01:52:39"
+  },
+  {
+   "id": "x2-q14",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "application",
+   "topic": "antihistamines",
+   "type": "mc",
+   "stem": "A client taking an H1 antagonist for allergies reports nausea and loss of appetite since starting the drug. Which instruction should the nurse give?",
+   "options": [
+    "Stop it; nausea means an allergy to the drug.",
+    "Take it on an empty stomach so it absorbs faster.",
+    "Switch to a first-generation product to settle the stomach.",
+    "Take each dose of the antihistamine with food."
+   ],
+   "answer": "D",
+   "rationale": "Slide 62: GI adverse effects of H1 antagonists are nausea, vomiting, loss of appetite and constipation, so give with food. These are expected adverse effects, not an allergy. First-generation drugs add sedation, not stomach relief, and an empty stomach is the opposite of the slide's advice.",
+   "src": "slide 62"
+  },
+  {
+   "id": "x2-q15",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "application",
+   "topic": "hypersensitivity",
+   "type": "sata",
+   "stem": "The nurse teaches the parents of an infant with a family history of peanut allergy. Which statements by the parents indicate teaching was effective? Select all that apply.",
+   "options": [
+    "\"We'll avoid all peanuts until she's a year old, to be safe.\"",
+    "\"Keeping her away from pets and dirt will lower her chance of allergies.\"",
+    "\"We'll watch for signs like hives or wheezing after she eats peanut foods.\"",
+    "\"We won't keep peanuts out of her diet just because of our family history.\"",
+    "\"I can keep eating peanut butter while I'm breastfeeding.\"",
+    "\"A varied diet early on gives her gut more chances to build tolerance.\""
+   ],
+   "answer": "C, D, E, F",
+   "rationale": "He called first-year peanut avoidance \"horrible, horrible advice.\" Now the advice is: don't forgo peanuts even with a family history, watch for S&S, keep a diverse diet, and mom can eat peanut butter while breastfeeding, so the gut builds tolerance. Kids with dogs or time on a farm develop fewer allergies because constant, varied exposure lets selection work correctly.",
+   "src": "slide 57 + 01:25:06 + 01:26:06 + 01:27:43"
+  },
+  {
+   "id": "x2-q16",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "application",
+   "topic": "alloimmunity",
+   "type": "mc",
+   "stem": "A client with type AB blood is scheduled for surgery and asks what her blood type means for a transfusion. Which statement by the nurse is accurate?",
+   "options": [
+    "\"Your red cells carry neither the A nor the B antigen, so AB is the universal donor.\"",
+    "\"A mismatched transfusion would cause an IgE-mediated type I reaction.\"",
+    "\"You can safely receive only type AB red cells in any transfusion.\"",
+    "\"Your red cells carry both the A and B antigens, and AB is the universal recipient.\""
+   ],
+   "answer": "D",
+   "rationale": "Slide 77: blood types are based on the A and B carbohydrate antigens. Type O expresses neither, and AB expresses both. Type O is the universal donor; type AB is the universal recipient. A wrong-type transfusion is an alloimmune transfusion reaction (type II on the slide), not an IgE reaction.",
+   "src": "slide 77 + 01:45:23"
+  },
+  {
+   "id": "x2-q17",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "application",
+   "topic": "disease-course",
+   "type": "mc",
+   "stem": "A client's rapid strep test is negative, but the nurse also sends a throat swab for culture. The client asks why. Which explanation is accurate?",
+   "options": [
+    "\"Rapid tests aren't perfect; a culture grows the organism outside the host.\"",
+    "\"The negative test points to a fungus, and the culture will show which one.\"",
+    "\"A culture shows which stage of the disease course you are in right now.\"",
+    "\"A culture measures the antibodies your body has already made against strep.\""
+   ],
+   "answer": "A",
+   "rationale": "Slide 14: a culture propagates the microorganism outside the host. He noted that rapid antigen tests aren't perfect, so cultures are still sent (a throat swab for strep). Measuring serum antibodies is serology, and a negative strep test says nothing about fungi.",
+   "src": "slide 14 + 00:23:15"
+  },
+  {
+   "id": "x2-q18",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "concept",
+   "topic": "selection",
+   "type": "mc",
+   "stem": "There are only about 26,000 protein-coding genes but more than 10¹² different antigen receptors. How do developing lymphocytes make this possible?",
+   "options": [
+    "APCs edit each receptor to fit after the antigen is presented",
+    "Clonal proliferation creates a new receptor with each division",
+    "They cut and rejoin a few gene segments, imprecisely on purpose",
+    "Each receptor is coded by its own separate gene in the DNA"
+   ],
+   "answer": "C",
+   "rationale": "Slide 28: there are far too few genes for one per receptor. Immune cells purposely recombine a few gene segments and cut them imprecisely (somatic variation/hypermutation) to generate diversity: \"hitting the lottery.\" APCs only present antigen, and clonal proliferation copies the same cell.",
+   "src": "slide 28 + 00:44:52 + 00:45:52"
+  },
+  {
+   "id": "x2-q19",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "concept",
+   "topic": "hypersensitivity",
+   "type": "sata",
+   "stem": "Which statements accurately describe type III (immune complex) hypersensitivity? Select all that apply.",
+   "options": [
+    "Antigen and antibody form circulating complexes that deposit in vessel walls and tissues",
+    "Sensitized T cells cause the damage without any antibodies",
+    "It is not organ specific; blood vessels, joints and kidneys are often affected",
+    "IgE on mast cells releases histamine within minutes",
+    "Deposited complexes activate complement, and released enzymes damage the tissue",
+    "The antigens can come only from outside the body"
+   ],
+   "answer": "A, C, E",
+   "rationale": "Slide 69: free antigen + antibody form circulating complexes (\"giant roaming balls\") that deposit, activate complement and release enzymes that damage tissue. Type III is not organ specific; serum sickness hits blood vessels, joints and kidneys. Its antigens are exo- or endogenous (penicillin, or DNA in lupus). T cells without antibodies are type IV, and IgE/histamine is type I.",
+   "src": "slides 69–70 + 01:37:51 + 01:39:11"
+  },
+  {
+   "id": "x2-q20",
+   "lecture": "2026-09-24-immunity-infection",
+   "kind": "concept",
+   "topic": "autoimmunity",
+   "type": "mc",
+   "stem": "Weeks after a viral infection, a client develops an autoimmune disorder: immune cells activated against the virus also react to a similar self-protein. Which cause of autoimmunity does this illustrate?",
+   "options": [
+    "Genetic predisposition",
+    "Molecular mimicry",
+    "Alloimmunity",
+    "A sensitizing event"
+   ],
+   "answer": "B",
+   "rationale": "Slide 73 lists molecular mimicry (MS and flu, Epstein-Barr, coronavirus) as one of the three causes he wants you to know. \"It's not a perfect system\": a cell that fits only ~80% can still react. Genetic predisposition is inherited risk (more common in women), alloimmunity targets another person's tissue, and a sensitizing event is the first exposure in allergy.",
+   "src": "slide 73 + 01:31:41 + 01:43:05"
+  },
+  {
+   "id": "x2-q21",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "recall",
+   "topic": "resistance",
+   "type": "mc",
+   "stem": "The antibiotic gets inside the bacterium, but its binding site has changed shape or charge, so the drug binds poorly. Which resistance mechanism is this?",
+   "options": [
+    "Drug inactivation",
+    "Reduced entry",
+    "Efflux",
+    "Target alteration"
+   ],
+   "answer": "D",
+   "rationale": "Target alteration: the drug reaches the bacterium but \"the key no longer fits into the lock.\" Inactivation is an enzyme breaking the drug down, reduced entry means too little gets in, and efflux pumps it back out.",
+   "src": "slide 10 + 00:08:56 + 00:35:46"
+  },
+  {
+   "id": "x2-q22",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "recall",
+   "topic": "cephs-carbapenems",
+   "type": "mc",
+   "stem": "Which cephalosporin is the one that binds MRSA's altered PBPs?",
+   "options": [
+    "Cefepime",
+    "Cefazolin",
+    "Ceftaroline",
+    "Ceftriaxone"
+   ],
+   "answer": "C",
+   "rationale": "Ceftaroline is the cephalosporin she flagged for MRSA (\"ceftaroline got weird with it\"). Cefazolin is her surgical-prophylaxis example, cefepime covers Pseudomonas, and ceftriaxone is the prototype.",
+   "src": "slide 37 + 01:03:31"
+  },
+  {
+   "id": "x2-q23",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "recall",
+   "topic": "protein-synthesis",
+   "type": "mc",
+   "stem": "Which protein-synthesis inhibitor has \"fallen out of favor\" because of its strong link to C. difficile diarrhea?",
+   "options": [
+    "Gentamicin",
+    "Clindamycin",
+    "Linezolid",
+    "Doxycycline"
+   ],
+   "answer": "B",
+   "rationale": "\"If nothing else, just be like, clinda → C. diff.\" Linezolid is remembered for MRSA/VRE, platelets and serotonergic drugs; gentamicin for kidneys and ears; doxycycline for the esophagus, minerals and sun.",
+   "src": "slide 48 + 01:33:00 + 01:33:36"
+  },
+  {
+   "id": "x2-q24",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "application",
+   "topic": "nursing",
+   "type": "sata",
+   "stem": "A client is going home on an oral antibiotic. Which statements indicate a need for further teaching? Select all that apply.",
+   "options": [
+    "\"Once I feel better, I'll stop taking them on my own.\"",
+    "\"I'll save any leftover pills for the next time I get sick.\"",
+    "\"If my husband gets this cough, I'll give him some of mine.\"",
+    "\"If a side effect makes me want to stop, I'll call my prescriber first.\"",
+    "\"I'll take each dose on schedule, the way it's prescribed.\""
+   ],
+   "answer": "A, B, C",
+   "rationale": "Teach: take it exactly as prescribed, contact the prescriber before stopping for a concern, and don't save or share leftovers. She updated the old \"always finish your antibiotics\" to \"really just follow the directions,\" because the team, not the client, may change or shorten the plan.",
+   "src": "slides 18, 22 + 00:23:35 + 00:24:08"
+  },
+  {
+   "id": "x2-q25",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "application",
+   "topic": "vancomycin",
+   "type": "mc",
+   "stem": "IV vancomycin is due. The nurse finds the pump programmed to run the dose over 15 minutes. What should the nurse do?",
+   "options": [
+    "Reprogram it to the prescribed rate, about 1–1.5 hours, because it is never given fast",
+    "Run it as programmed, since a faster dose gives a higher peak and better killing",
+    "Give it as programmed but hold the infusion if the client's face becomes flushed",
+    "Run it as programmed and draw the trough 30 minutes after the infusion ends"
+   ],
+   "answer": "A",
+   "rationale": "Vancomycin is infused at the prescribed rate, over about 1–1.5 hours, never fast; slowing the rate is also how infusion reactions (flushing, itching, hypotension) are managed. A trough is drawn right before the next dose, not after the infusion, and waiting for a reaction is not prevention.",
+   "src": "slide 41 + 01:18:35 + 01:19:07"
+  },
+  {
+   "id": "x2-q26",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "application",
+   "topic": "protein-synthesis",
+   "type": "sata",
+   "stem": "A client is receiving IV gentamicin. Which findings should the nurse report? Select all that apply.",
+   "options": [
+    "Urine output of 15 mL/h for the past 3 hours",
+    "A metallic taste after each dose",
+    "Ringing in the ears that began yesterday",
+    "Feeling unsteady and dizzy when walking to the bathroom",
+    "Sunburn after a short walk outside"
+   ],
+   "answer": "A, C, D",
+   "rationale": "Gentamicin is nephrotoxic and ototoxic, and ear damage \"may be irreversible\": tinnitus, hearing loss, vertigo and balance trouble are reported, as is falling urine output. A metallic taste is metronidazole; photosensitivity belongs to doxycycline and ciprofloxacin.",
+   "src": "slides 50–51 + 01:38:02 + 01:38:35"
+  },
+  {
+   "id": "x2-q27",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "application",
+   "topic": "dna-folate",
+   "type": "mc",
+   "stem": "On day 5 of trimethoprim-sulfamethoxazole (Bactrim), a client reports a spreading, blistering rash and painful sores in the mouth. What should the nurse do?",
+   "options": [
+    "Encourage extra fluids, since the drug can form crystals",
+    "Reassure the client that a rash is a common side effect",
+    "Teach sun protection, since this is photosensitivity",
+    "Notify the provider promptly before the next dose is given"
+   ],
+   "answer": "D",
+   "rationale": "Rash with mucosal lesions can signal Stevens-Johnson syndrome / toxic epidermal necrolysis, which can be fatal, so it is reported promptly. Fluids prevent crystalluria and sun protection addresses photosensitivity, but neither addresses a blistering rash with mouth sores, and it isn't something to reassure away.",
+   "src": "slides 59–60 + 02:16:00"
+  },
+  {
+   "id": "x2-q28",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "concept",
+   "topic": "antifungals",
+   "type": "mc",
+   "stem": "Why are fungal infections harder to treat safely than bacterial infections?",
+   "options": [
+    "Fungi are eukaryotic like us: fewer unique targets, more toxicity",
+    "Fungal walls are made of peptidoglycan that β-lactams cannot reach",
+    "Fungi reproduce inside human cells, where drugs cannot follow them",
+    "Fungal membranes contain cholesterol, the same sterol as human cells"
+   ],
+   "answer": "A",
+   "rationale": "Fungi are eukaryotic like human cells, so there are fewer unique targets, more toxicity and long treatment. Their membranes use ergosterol (not cholesterol) and their wall has β-glucan (not peptidoglycan). Living inside our cells describes viruses.",
+   "src": "slide 63 + 02:20:53"
+  },
+  {
+   "id": "x2-q29",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "concept",
+   "topic": "penicillins",
+   "type": "mc",
+   "stem": "A client had hives and throat tightness after amoxicillin. Why should the nurse question a new order for piperacillin/tazobactam (Zosyn)?",
+   "options": [
+    "Broad-spectrum drugs cause allergy more often than narrow ones",
+    "Piperacillin is a penicillin, and true allergy to one means all",
+    "Tazobactam raises amoxicillin levels left over in the blood",
+    "Tazobactam is a cephalosporin, which carries cross-sensitivity"
+   ],
+   "answer": "B",
+   "rationale": "True allergy to one penicillin means allergy to all penicillins, and piperacillin ends in -cillin. Tazobactam is a β-lactamase inhibitor, not a cephalosporin (cephalosporins carry some cross-sensitivity), and spectrum doesn't determine allergy.",
+   "src": "slides 31, 33 + 00:42:47 + 00:46:15"
+  },
+  {
+   "id": "x2-q30",
+   "lecture": "2026-10-01-antimicrobials",
+   "kind": "concept",
+   "topic": "culture-therapy",
+   "type": "mc",
+   "stem": "On a disk-diffusion plate, drug X has the largest clear zone but is highly nephrotoxic, and the client has kidney damage. Which principle explains choosing a drug with a smaller zone?",
+   "options": [
+    "Nephrotoxicity only matters after the full culture result is finalized",
+    "The largest clear zone shows the drug the organism has become resistant to",
+    "\"Susceptible\" describes the organism in the lab; the choice must also fit the client",
+    "A smaller zone means a narrower spectrum, and narrow is always the better choice"
+   ],
+   "answer": "C",
+   "rationale": "The biggest clear circle means the drug works best on that strain, but \"if the two best are nephrotoxic and the patient has kidney damage, go down the list.\" Susceptibility is a lab finding; site and patient factors also decide. The zone shows effectiveness, not resistance or spectrum.",
+   "src": "slides 13, 16 + 00:17:49 + 00:18:52"
+  },
+  {
+   "id": "x2-q31",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "recall",
+   "topic": "ans-basics",
+   "type": "sata",
+   "stem": "At rest, sympathetic tone predominates in which structures? Select all that apply.",
+   "options": [
+    "GI tract",
+    "Heart",
+    "Arterioles",
+    "Sweat glands",
+    "Veins",
+    "Urinary bladder"
+   ],
+   "answer": "C, D, E",
+   "rationale": "Autonomic tone: arterioles, veins and sweat glands are sympathetic-dominant; the heart, iris, ciliary muscle, GI tract, bladder and salivary glands are parasympathetic-dominant at rest.",
+   "src": "slide 12 + 00:10:39"
+  },
+  {
+   "id": "x2-q32",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "recall",
+   "topic": "ache-inhibitors",
+   "type": "mc",
+   "stem": "In the SLUDGE mnemonic for cholinergic excess, the \"L\" stands for:",
+   "options": [
+    "Laryngospasm",
+    "Lethargy",
+    "Lacrimation",
+    "Leg cramping"
+   ],
+   "answer": "C",
+   "rationale": "SLUDGE = Salivation, Lacrimation (tearing), Urination, Defecation, GI distress, Emesis — all \"more parasympathetic\" secretions and motility. The others aren't part of the mnemonic.",
+   "src": "slide 38 + 00:57:05"
+  },
+  {
+   "id": "x2-q33",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "recall",
+   "topic": "alpha-blockers",
+   "type": "mc",
+   "stem": "Tamsulosin (Flomax) selectively blocks which receptor?",
+   "options": [
+    "β₁",
+    "α₂",
+    "Muscarinic",
+    "α₁A"
+   ],
+   "answer": "D",
+   "rationale": "Tamsulosin blocks α₁A in prostate and bladder-neck smooth muscle → relaxation → improved urine flow in BPH. α₂ is clonidine's receptor (as an agonist), β₁ is metoprolol's, and blocking muscarinic receptors (atropine) causes urinary retention.",
+   "src": "slides 64, 66"
+  },
+  {
+   "id": "x2-q34",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "application",
+   "topic": "nmb",
+   "type": "sata",
+   "stem": "A client is about to receive rocuronium for emergent intubation. Which must be in place before the drug is given? Select all that apply.",
+   "options": [
+    "Dantrolene at the bedside as rocuronium's antidote",
+    "An analgesic ordered for the client",
+    "A sedative ordered for the client",
+    "A repeat K⁺ level, since rocuronium raises serum K⁺",
+    "Atropine to prevent the fasciculations it causes",
+    "Equipment and staff ready to ventilate the client"
+   ],
+   "answer": "B, C, F",
+   "rationale": "Nondepolarizers cause flaccid paralysis including the respiratory muscles — \"it will kill the patient if you don't have a way to make them breathe\" — and PARALYSIS ≠ SEDATION ≠ ANALGESIA. Fasciculations, hyperkalemia and MH (dantrolene) belong to succinylcholine, the depolarizer, not rocuronium.",
+   "src": "slides 40–41 + 01:10:58 + 01:13:30"
+  },
+  {
+   "id": "x2-q35",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "application",
+   "topic": "nursing",
+   "type": "mc",
+   "stem": "The nurse teaches a client who has a new epinephrine autoinjector. Which statement indicates teaching was effective?",
+   "options": [
+    "\"If my breathing improves after the shot, I don't need to be seen.\"",
+    "\"I'll inject it into the muscle on the side of my thigh.\"",
+    "\"I'll inject it into the muscle of my upper arm.\"",
+    "\"I'll skip it if my heart is already racing during a reaction.\""
+   ],
+   "answer": "B",
+   "rationale": "Anaphylaxis: epinephrine IM in the anterolateral thigh. Every use needs emergency evaluation, even if symptoms improve, and in anaphylaxis there is no absolute contraindication, so a fast heart rate is not a reason to withhold it.",
+   "src": "slides 53–54"
+  },
+  {
+   "id": "x2-q36",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "application",
+   "topic": "anticholinergic",
+   "type": "mc",
+   "stem": "A client received atropine to reduce secretions before a procedure. Which finding should the nurse report to the provider?",
+   "options": [
+    "No void for 9 hours with a distended bladder",
+    "Heart rate 88, up from 76 before the dose",
+    "Dilated pupils and mild blurred vision",
+    "Dry mouth when asked to swallow"
+   ],
+   "answer": "A",
+   "rationale": "Atropine = dry + fast + retention. Dry mouth, mydriasis and a modest HR rise are expected drug effects; urinary retention with a full bladder is an adverse effect that needs follow-up (her quiz: atropine produces urinary retention).",
+   "src": "slide 32 + 00:59:11"
+  },
+  {
+   "id": "x2-q37",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "application",
+   "topic": "beta-blockers",
+   "type": "mc",
+   "stem": "A client with diabetes who takes metoprolol is sweaty and confused at 1500. HR 66, no tremor. Which action should the nurse take first?",
+   "options": [
+    "Recheck in 30 minutes, since the HR is normal",
+    "Reassure the client that sweating is a common side effect",
+    "Hold the next metoprolol dose and notify the provider",
+    "Check the client's blood glucose"
+   ],
+   "answer": "D",
+   "rationale": "β-blockers mask hypoglycemia: the adrenergic warnings (tachycardia, tremor, anxiety) are blunted, but sweating usually still occurs because sweat glands use ACh at muscarinic receptors. A normal HR does not rule out low glucose — check it first.",
+   "src": "slides 71, 75"
+  },
+  {
+   "id": "x2-q38",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "concept",
+   "topic": "receptors",
+   "type": "mc",
+   "stem": "Why do muscarinic responses (such as slowing the heart) develop more slowly than nicotinic responses?",
+   "options": [
+    "Muscarinic receptors are G-protein-linked; nicotinic are ion channels",
+    "Muscarinic receptors bind norepinephrine instead of ACh",
+    "Muscarinic signals must cross two ganglia to reach the organ",
+    "Nicotinic receptors are G-protein-linked; muscarinic are ion channels"
+   ],
+   "answer": "A",
+   "rationale": "Nicotinic (Nn, Nm) = simple ion channels → fast (\"we want to move when we want to move\"); muscarinic = G-protein-linked → slower, bigger changes at the target organ. ACh is the transmitter at both.",
+   "src": "slide 14 + 00:15:18"
+  },
+  {
+   "id": "x2-q39",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "concept",
+   "topic": "reflex",
+   "type": "sata",
+   "stem": "A drug suddenly constricts the client's arterioles and raises SVR and BP. Which compensatory responses are expected? Select all that apply.",
+   "options": [
+    "Renin release increases to raise BP further",
+    "Cardiac output falls as heart rate slows",
+    "Heart rate increases to protect perfusion",
+    "Bronchodilation to improve oxygen delivery",
+    "Heart rate decreases",
+    "Baroreceptors in the carotid sinus and aortic arch sense the rise"
+   ],
+   "answer": "B, E, F",
+   "rationale": "BP = CO × SVR and CO = HR × SV: \"if my constriction has gone up, I can decrease my cardiac output by lowering my heart rate.\" ↑ BP → reflex bradycardia; reflex tachycardia is the response to a fall. More renin would push BP higher, the opposite of compensation.",
+   "src": "slide 23 + 00:36:05 + 00:41:49"
+  },
+  {
+   "id": "x2-q40",
+   "lecture": "2026-10-01-autonomic-nervous-system",
+   "kind": "concept",
+   "topic": "succinylcholine",
+   "type": "mc",
+   "stem": "Why is rising end-tidal CO₂ often the first sign of malignant hyperthermia, before the temperature climbs?",
+   "options": [
+    "Hyperkalemia directly raises CO₂ production",
+    "CO₂ reflects the sudden rise in metabolism",
+    "Succinylcholine paralyzes the respiratory muscles",
+    "Muscle rigidity blocks the airway and traps CO₂"
+   ],
+   "answer": "B",
+   "rationale": "In MH, abnormal Ca²⁺ release drives sustained muscle activity and a huge ↑ in metabolism — CO₂ reflects metabolism, so it rises early; hyperthermia is a later finding. Hyperkalemia and paralysis happen but don't explain the CO₂ rise.",
+   "src": "slide 44 + 01:20:41"
+  },
+  {
+   "id": "x2-q41",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "recall",
+   "topic": "opioids",
+   "type": "mc",
+   "stem": "Which instruction is correct for applying a fentanyl transdermal patch?",
+   "options": [
+    "Apply lotion first so the patch sticks better",
+    "Cut the patch to fit a smaller area of skin if the dose seems too strong",
+    "Clean the skin, pat it dry and change the patch every 72 hours",
+    "Fold the patch in half to lower the dose"
+   ],
+   "answer": "C",
+   "rationale": "Clean, pat dry, apply; changed every 72 h (her in-class correction of the slide) and disposed of per policy. Never cut or fold it, and lotion isn't part of her steps.",
+   "src": "slide 39 + 01:09:03 + 01:09:35"
+  },
+  {
+   "id": "x2-q42",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "recall",
+   "topic": "receptors",
+   "type": "mc",
+   "stem": "Activation of the kappa (κ) opioid receptor is associated with which effect?",
+   "options": [
+    "Dysphoria",
+    "Platelet aggregation",
+    "Euphoria",
+    "Addiction"
+   ],
+   "answer": "A",
+   "rationale": "Memorization slide: κ = dysphoria (plus pain relief); μ = euphoria, addiction, respiratory depression, physical dependence. Platelet aggregation is COX-1 (thromboxane).",
+   "src": "slide 12 + 00:13:57 + 00:14:32"
+  },
+  {
+   "id": "x2-q43",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "recall",
+   "topic": "nsaids-aspirin",
+   "type": "sata",
+   "stem": "Which drugs are first-generation NSAIDs that block both COX-1 and COX-2? Select all that apply.",
+   "options": [
+    "Celecoxib (Celebrex)",
+    "Naproxen (Aleve)",
+    "Aspirin",
+    "Acetaminophen (Tylenol)",
+    "Ketorolac (Toradol)",
+    "Gabapentin (Neurontin)"
+   ],
+   "answer": "B, C, E",
+   "rationale": "1st generation blocks COX-1 and COX-2: aspirin, ibuprofen, naproxen, ketorolac. Celecoxib is 2nd generation (COX-2 only), acetaminophen blocks COX in the CNS only, and gabapentin is an adjuvant (α2δ calcium-channel subunit).",
+   "src": "slides 26, 28 + 00:43:07"
+  },
+  {
+   "id": "x2-q44",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "application",
+   "topic": "pain-types",
+   "type": "mc",
+   "stem": "A 46-year-old client with gallstones reports aching pain in the right shoulder. He has no shoulder injury. The nurse recognizes this as:",
+   "options": [
+    "Allodynia from central sensitization",
+    "Neuropathic pain from nerve damage",
+    "Somatic pain from the shoulder joint",
+    "Referred pain from the gallbladder"
+   ],
+   "answer": "D",
+   "rationale": "Referred pain is felt away from its origin and often comes with visceral pain — her mother's gallbladder → right shoulder. Somatic pain would come from the joint itself, neuropathic pain is burning/shooting from nerve damage, and allodynia is a normally non-painful touch felt as pain.",
+   "src": "slide 16 + 00:23:59 + 00:24:29"
+  },
+  {
+   "id": "x2-q45",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "application",
+   "topic": "nursing",
+   "type": "sata",
+   "stem": "A client with osteoarthritis is about to start scheduled ibuprofen. Which findings should the nurse report to the provider before the first dose? Select all that apply.",
+   "options": [
+    "Takes warfarin for atrial fibrillation",
+    "Black, tarry stools last week",
+    "Takes acetaminophen now and then for headaches",
+    "History of chronic kidney disease",
+    "Myocardial infarction two years ago",
+    "Morning stiffness that eases by noon"
+   ],
+   "answer": "A, B, D, E",
+   "rationale": "NSAID checks (\"pay very close attention to this\"): anticoagulants, GI bleeding (melena), renal function and cardiovascular history. Occasional acetaminophen isn't an NSAID duplicate, and morning stiffness is the arthritis being treated.",
+   "src": "slides 25, 50 + 01:17:47 + 01:18:17"
+  },
+  {
+   "id": "x2-q46",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "application",
+   "topic": "acetaminophen",
+   "type": "mc",
+   "stem": "A client is discharged with oxycodone/acetaminophen (Percocet). Which statement indicates the client needs further teaching?",
+   "options": [
+    "\"I'll read cold medicine labels to see whether they contain acetaminophen.\"",
+    "\"Percocet has acetaminophen in it, so it counts toward my daily acetaminophen limit.\"",
+    "\"I can take Extra Strength Tylenol for headaches since it's a different drug.\"",
+    "\"I won't drink alcohol while I'm taking this pain medication.\""
+   ],
+   "answer": "C",
+   "rationale": "Percocet = oxycodone + acetaminophen, so adding Tylenol stacks acetaminophen — calculate the total from every source and teach label reading. Counting it, reading labels and avoiding alcohol are all correct.",
+   "src": "slides 41, 50 + 00:54:07 + 01:10:09"
+  },
+  {
+   "id": "x2-q47",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "application",
+   "topic": "opioid-safety",
+   "type": "mc",
+   "stem": "A client on morphine for cancer pain for 8 months receives naloxone for RR 7. Minutes later she is awake, yawning, sweating and has a runny nose and abdominal cramps. The nurse recognizes:",
+   "options": [
+    "An allergic reaction to the naloxone",
+    "Opioid withdrawal precipitated by naloxone",
+    "The morphine overdose returning",
+    "Salicylism from her other medications"
+   ],
+   "answer": "B",
+   "rationale": "In an opioid-dependent client naloxone precipitates immediate withdrawal — yawning, rhinorrhea, sweating, cramps. Returning overdose would look like re-sedation and slow breathing, and salicylism is tinnitus, sweating, headache, dizziness from aspirin.",
+   "src": "slides 37, 44, 52 + 01:13:13"
+  },
+  {
+   "id": "x2-q48",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "concept",
+   "topic": "acetaminophen",
+   "type": "mc",
+   "stem": "Why is acetaminophen a safer pain reliever than ibuprofen for a client with a recent GI bleed?",
+   "options": [
+    "It acts on COX in the CNS only, sparing the stomach and platelets",
+    "It binds mu receptors instead of acting on COX",
+    "It raises the prostaglandins that protect the lining of the stomach",
+    "It blocks only COX-2, the way celecoxib does"
+   ],
+   "answer": "A",
+   "rationale": "Acetaminophen blocks COX in the CNS only, so it doesn't affect platelets, cause GI bleeding or affect the kidneys (and isn't anti-inflammatory). Celecoxib is the COX-2-only drug; mu receptors are opioids; no analgesic raises protective prostaglandins.",
+   "src": "slides 29, 48, 53 + 00:43:07"
+  },
+  {
+   "id": "x2-q49",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "concept",
+   "topic": "opioid-safety",
+   "type": "mc",
+   "stem": "Why should the nurse assess the level of sedation, and not only the respiratory rate, before each opioid dose?",
+   "options": [
+    "Sedation is the effect most likely to cause opioid addiction",
+    "Clients develop no tolerance to sedation from opioids",
+    "Increasing sedation usually comes before respiratory depression",
+    "Sedation is the most reliable sign that the pain is fully relieved"
+   ],
+   "answer": "C",
+   "rationale": "\"Remember that increased sedation will precede respiratory depression\" — catch it before the RR drops to 8. Sedation doesn't measure relief, euphoria (μ) is tied to addiction, and the effects with little tolerance are constipation and miosis.",
+   "src": "slide 51 + 01:19:20"
+  },
+  {
+   "id": "x2-q50",
+   "lecture": "2026-10-08-pain-management",
+   "kind": "concept",
+   "topic": "pain-types",
+   "type": "sata",
+   "stem": "A client's acute post-op pain goes unrelieved for several days. Which consequences of constant sympathetic stimulation should the nurse anticipate? Select all that apply.",
+   "options": [
+    "Lower blood glucose levels",
+    "Delayed wound healing",
+    "Faster GI motility and diarrhea",
+    "Immune suppression and infection risk",
+    "Unwillingness to walk or do rehab"
+   ],
+   "answer": "B, D, E",
+   "rationale": "Prolonged unrelieved acute pain → constant SNS → delayed healing, immune suppression, and clients who won't walk or do rehab. The SNS raises blood glucose and slows GI motility — those options are reversed.",
+   "src": "slides 5, 15 + 00:04:31 + 00:22:27"
+  },
+  {
+   "id": "x2-q51",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "recall",
+   "topic": "resp-drugs",
+   "type": "mc",
+   "stem": "Compared with oral sympathomimetic decongestants, topical decongestants (drops, sprays):",
+   "options": [
+    "Constrict nasal vessels by blocking α₁ receptors on them",
+    "Reduce the allergic immune response as well as the swelling",
+    "Act longer and carry a higher risk of systemic side effects",
+    "Act faster and carry a higher risk of rebound congestion"
+   ],
+   "answer": "D",
+   "rationale": "Slide 88: topical = acts faster, higher risk of rebound congestion; oral = acts longer, higher risk of systemic effects. Both activate (not block) α₁ receptors on nasal vessels, and decongestants \"do nothing to the immune response\" — they just vasoconstrict and dry you up.",
+   "src": "slide 88 + 01:53:30"
+  },
+  {
+   "id": "x2-q52",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "recall",
+   "topic": "tb",
+   "type": "mc",
+   "stem": "Which adverse effect is shared by nearly all of the first-line drugs for TB, so the nurse monitors for it throughout therapy?",
+   "options": [
+    "Peripheral neuropathy",
+    "Hepatotoxicity",
+    "Red-orange body fluids",
+    "Joint pain (arthralgia)"
+   ],
+   "answer": "B",
+   "rationale": "\"Most of these drugs are going to be a little bit heavy on the liver\" — hepatotoxicity is listed for all four on slide 83. Red body fluids belong to one drug (rifampin), neuropathy to two (INH, ethambutol), and arthralgia to pyrazinamide.",
+   "src": "slide 83 + 01:50:40"
+  },
+  {
+   "id": "x2-q53",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "recall",
+   "topic": "pft",
+   "type": "mc",
+   "stem": "Which set of spirometry results is within normal limits?",
+   "options": [
+    "FVC 85% of predicted · FEV1 82% of predicted · FEV1/FVC 0.78",
+    "FVC 88% of predicted · FEV1 60% of predicted · FEV1/FVC 0.62",
+    "FVC 90% of predicted · FEV1 75% of predicted · FEV1/FVC 0.65",
+    "FVC 70% of predicted · FEV1 68% of predicted · FEV1/FVC 0.80"
+   ],
+   "answer": "A",
+   "rationale": "Normals (slides 31–33): FVC ≥ 80% and FEV1 ≥ 80% of predicted, FEV1/FVC ≥ 0.70. Both falling with a preserved ratio is the restrictive pattern; a ratio < 0.70 with the FEV1 down is obstructive.",
+   "src": "slides 31–33"
+  },
+  {
+   "id": "x2-q54",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "application",
+   "topic": "stepwise",
+   "type": "mc",
+   "stem": "A client with asthma calls during an attack. Her SABA gave partial relief 20 minutes ago. Per the stepwise chart, which quick-relief instruction is correct?",
+   "options": [
+    "Take an extra dose of the daily ICS now to open up the airways during the attack",
+    "Use the SABA up to 3 treatments at 20-minute intervals; seek care if it isn't working",
+    "Wait 4–6 hours for the first SABA dose to wear off before using the inhaler a second time",
+    "Switch to the scheduled LABA, since it works longer than the rescue inhaler does"
+   ],
+   "answer": "B",
+   "rationale": "Slide 57 quick relief: SABA up to 3 treatments at 20-minute intervals; if the SABA isn't working → ER (slide 58). A LABA is \"not quick\" and is taken on a schedule, and an ICS controls inflammation long term — neither opens the airways in an attack. Waiting 4–6 h confuses the SABA's duration with a dosing limit.",
+   "src": "slides 57–58 + 01:36:34"
+  },
+  {
+   "id": "x2-q55",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "application",
+   "topic": "resp-drugs",
+   "type": "sata",
+   "stem": "A 28-year-old client with moderate persistent asthma is prescribed a combination ICS + LABA inhaler and a SABA. Which statements by the client indicate the teaching was effective? Select all that apply.",
+   "options": [
+    "\"The short-acting inhaler is my main treatment, so I use it every day.\"",
+    "\"Taken as prescribed, the steroid shouldn't cause big whole-body effects.\"",
+    "\"I'll use the combination inhaler every day on schedule, even when I feel fine.\"",
+    "\"If my asthma calms down, I can drop the steroid and keep the LABA alone.\"",
+    "\"When I start wheezing, the long-acting inhaler is the one I should grab.\"",
+    "\"I'll keep my short-acting inhaler with me for sudden attacks.\""
+   ],
+   "answer": "B, C, F",
+   "rationale": "The ICS is \"the foundational treatment,\" taken daily; a LABA is scheduled and always paired with an ICS in asthma; the SABA is PRN for attacks and every patient carries one. Inhaled steroids go right to the site, so systemic effects appear only with overuse. A LABA isn't quick enough for an attack, never stands alone in asthma, and daily SABA use signals poor control.",
+   "src": "slides 48, 51, 54, 57 + 01:26:24 + 01:28:03"
+  },
+  {
+   "id": "x2-q56",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "application",
+   "topic": "restrictive",
+   "type": "mc",
+   "stem": "A client with long-standing hypertension has a pleural effusion. The fluid is thin and low in protein. The nurse recognizes this effusion as:",
+   "options": [
+    "Exudative, because inflammation raised the protein in the pleural space",
+    "An empyema, because pus collected in the pleural space",
+    "A hemothorax, because blood leaked into the pleural space",
+    "Transudative, because higher hydrostatic pressure forced fluid into the space"
+   ],
+   "answer": "D",
+   "rationale": "Slide 70: transudative = ↑ hydrostatic or ↓ plasma oncotic pressure forces fluid in (e.g., hypertension). Exudative effusions are high in protein from inflammation — \"that high protein is going to… pull it in.\" Empyema is pus and hemothorax is blood, not thin low-protein fluid.",
+   "src": "slide 70 + 01:43:37 + 01:44:24"
+  },
+  {
+   "id": "x2-q57",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "application",
+   "topic": "asthma-copd",
+   "type": "mc",
+   "stem": "A 66-year-old client with COPD is very thin, with muscle wasting, a barrel chest and pursed-lip breathing. Which process best explains this form of COPD?",
+   "options": [
+    "Allergen-triggered histamine release causing reversible bronchospasm",
+    "Chronic irritation with mucus hypersecretion and a cough worst in the morning",
+    "Destruction of alveolar walls, enlarged air spaces and loss of elastic recoil",
+    "Thickening of the alveolar membrane from scar tissue that limits stretch"
+   ],
+   "answer": "C",
+   "rationale": "A thin \"pink puffer\" with muscle wasting is emphysema (slide 44): permanent enlargement of the gas-exchange airways, destroyed alveolar walls, loss of elastic recoil. Mucus hypersecretion with a morning cough is chronic bronchitis (the heavier \"blue bloater\"), histamine-driven reversible spasm is asthma, and a thickened membrane is fibrotic (restrictive) disease.",
+   "src": "slides 44–45 + 01:20:17 + 01:23:03"
+  },
+  {
+   "id": "x2-q58",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "concept",
+   "topic": "alveoli",
+   "type": "mc",
+   "stem": "After an injury destroys many type I alveolar cells, how is the alveolar lining restored?",
+   "options": [
+    "Type II cells divide and can replace type I or type II cells",
+    "Alveolar macrophages change into new type I lining cells",
+    "The surviving type I cells divide to replace the lost ones",
+    "Goblet cells migrate into the alveoli and line the walls"
+   ],
+   "answer": "A",
+   "rationale": "Type I cells are purposely kept very thin for gas diffusion, so they can't divide; type II cells (~5%, larger, make surfactant) have the machinery to divide and replace type I or II (slide 14). Macrophages defend the alveoli, and goblet cells secrete mucus in the conducting airways.",
+   "src": "slide 14 + 00:25:26 + 00:25:56"
+  },
+  {
+   "id": "x2-q59",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "concept",
+   "topic": "ventilation",
+   "type": "mc",
+   "stem": "His spring analogy: if the lungs become too compliant and lose their elastic recoil, what happens during exhalation?",
+   "options": [
+    "The lungs empty faster, which blows off too much CO₂ with each breath",
+    "The lungs don't spring back, so air is trapped and CO₂ isn't blown off",
+    "Exhalation needs more effort from the diaphragm, which pushes the air out",
+    "Inspiration becomes harder, but exhalation stays normal and passive"
+   ],
+   "answer": "B",
+   "rationale": "Exhalation is mostly passive — \"the spring just goes right back.\" A too-compliant spring won't spring back, so air is trapped and \"you can't blow off enough CO₂\" → hypoxic. The diaphragm is an inspiratory muscle, and harder inspiration is the low-compliance (stiff) problem.",
+   "src": "slide 5 + 00:10:27 + 00:11:34 + 00:13:20"
+  },
+  {
+   "id": "x2-q60",
+   "lecture": "2026-10-08-pulmonary-disorders",
+   "kind": "concept",
+   "topic": "gas-transport",
+   "type": "sata",
+   "stem": "A client's PaCO₂ rises to 52 mm Hg. Which statements about this change are accurate? Select all that apply.",
+   "options": [
+    "Most of the extra CO₂ travels dissolved in plasma",
+    "This level of CO₂ in the blood is hypercapnia",
+    "The pH rises, because PaCO₂ and pH move together",
+    "Hemoglobin releases O₂ to the tissues more readily",
+    "Hemoglobin holds on to its O₂ more tightly",
+    "More carbonic acid forms, so the blood pH falls"
+   ],
+   "answer": "B, D, F",
+   "rationale": "CO₂ + H₂O ⇌ H₂CO₃ ⇌ HCO₃⁻ + H⁺ — \"when CO₂ goes up… pH goes down\" (PaCO₂ and pH are inversely related). A PaCO₂ above 45 is hypercapnia, and ↑ CO₂ shifts the curve right (CADET), so O₂ is released more readily. Most venous CO₂ travels as bicarbonate (~60%), only ~10% dissolved.",
+   "src": "slides 21, 23, 25 + 00:43:18 + 00:59:20 + Acid–Base (Lalani)"
+  }
+ ]
+}

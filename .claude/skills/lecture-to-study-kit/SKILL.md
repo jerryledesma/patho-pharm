@@ -268,6 +268,17 @@ instructor's explanation. If nobody answered, or the answer wasn't audible, give
 8–14 nodes, each a bold heading and 2–5 short lines; edges labeled with the relationship. Title line names the topic
 and date; second line holds the must-know numbers or rule. Use the template's palette by meaning.
 
+## Practice exams (course level)
+
+Angelina's NCLEX-style practice exams live in `public/exams/` (home page → Practice Exam N; IMP-15). Each exam is
+10 questions from each of six lectures — per lecture 3 `recall`, 4 `application`, 3 `concept`, ≥ 2 SATA — and the
+results page groups misses by lecture, kind and topic (`topic` = one of that lecture's flashcard tags).
+
+To add exams (e.g. for the next block of lectures): write the questions per `tools/reference/exam-brief.md` (one
+subagent per lecture works well), then `python3 tools/build-exams.py <items-dir> --first <next exam number>`,
+`npm run build`, `npm run smoke`. Never rebuild a published exam — its ids are in the ledger; add new exams instead.
+Questions must be new (not reworded practice/clinical items) and follow every content rule above.
+
 ## Adding a supplement to an existing lecture
 
 When intake reports **add-only**:
