@@ -4,6 +4,9 @@
 //     (defaults: sources/inbox and sources/nurs419 in this repo — git-ignored)
 //   node tools/intake.mjs [...] --apply [--only <inbox-folder>] [--date YYYY-MM-DD] [--title "..."]
 //                                       [--slug x-y] [--instructor "..."]
+//   --auto   (with or without --apply) resolve what a person would otherwise decide, and list each choice under
+//            "decisions": extra transcripts → supplemental (longest kept), long titles shortened, a missing date
+//            taken from the files' dates, name clashes → next supp number. Used by tools/autopilot.mjs.
 //
 // Each folder in the inbox is one lecture (its name is a date/title hint, e.g. 2026_10_01_Antimicrobial).
 // Files sitting loose in the inbox form one more lecture. With several lectures, --apply needs --only.
@@ -16,13 +19,14 @@ import { join, extname, basename, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { extractFile } from './extract.mjs';
 import { pptxSlides } from './lib/office.mjs';
-import { cleanTitle, slugFrom, cleanInstructor, findDate, lectureId, folderName } from './lib/naming.mjs';
+import { cleanTitle, shortenTitle, slugFrom, cleanInstructor, findDate, lectureId, folderName } from './lib/naming.mjs';
 
 const args = process.argv.slice(2);
 const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
 const valued = new Set(['--only', '--date', '--title', '--slug', '--instructor']);
 const positional = args.filter((a, i) => !a.startsWith('--') && !valued.has(args[i - 1]));
 const [inbox, courseDir] = [positional[0] || join(REPO, 'sources/inbox'), positional[1] || join(REPO, 'sources/nurs419')];
+const AUTO = args.includes('--auto');
 const opt = k => { const i = args.indexOf('--' + k); return i > -1 ? args[i + 1] : undefined; };
 if (!existsSync(inbox)) { console.error(`no inbox at ${inbox}`); process.exit(1); }
 mkdirSync(courseDir, { recursive: true });
@@ -45,7 +49,7 @@ const folderTitle = name => { const t = name.replace(/^\d{4}[-_]\d{2}[-_]\d{2}[-
   return t === t.toLowerCase() ? t.replace(/-+/g, ' ').replace(/\b[a-z]/g, c => c.toUpperCase()) : t; };
 
 function planGroup(g, overrides = {}) {
-  const plan = { inboxFolder: g.name || '(loose files)', files: [], warnings: [] };
+  const plan = { inboxFolder: g.name || '(loose files)', files: [], warnings: [], decisions: [] };
   const decks = []; let transcriptHeader = '';
   for (const f of g.files) {
     const p = join(inbox, f), ext = extname(f).toLowerCase();
@@ -58,8 +62,8 @@ function planGroup(g, overrides = {}) {
       try {
         const text = extractFile(p) || '';
         if ((text.match(new RegExp(TS.source, 'gm')) || []).length >= 10) {
-          role = 'transcript';
-          transcriptHeader = text.split('\n').filter(l => l.trim() && !l.startsWith('Words per speaker')).slice(0, 3).join(' ');
+          role = 'transcript'; note = text.length;
+          transcriptHeader ||= text.split('\n').filter(l => l.trim() && !l.startsWith('Words per speaker')).slice(0, 3).join(' ');
         }
       } catch (e) { role = 'unsupported'; note = e.message; }
     }
@@ -70,6 +74,12 @@ function planGroup(g, overrides = {}) {
   const hasDeck = plan.files.some(x => x.role === 'slides');
   unsure.forEach((x, i) => { x.role = !hasDeck && i === 0 ? 'slides' : 'supplemental'; });
   const n = r => plan.files.filter(x => x.role === r).length;
+  if (AUTO && n('transcript') > 1) {
+    const [keep, ...rest] = plan.files.filter(x => x.role === 'transcript').sort((a, b) => b.note - a.note);
+    for (const x of rest) x.role = 'supplemental';
+    plan.decisions.push(`${rest.length + 1} transcripts: kept the longest (${keep.file}) as the transcript; ${rest.map(x => x.file).join(', ')} → supplemental`);
+  }
+  for (const x of plan.files) if (x.role === 'transcript') x.note = '';
   if (n('transcript') > 1) plan.warnings.push('more than one transcript — merge them or mark extras supplemental');
   for (const x of plan.files.filter(x => x.role === 'unsupported')) plan.warnings.push(`${x.file}: ${x.note}`);
   if (!n('transcript') && n('audio')) plan.warnings.push('no transcript — run tools/transcribe.py after intake (audio is kept in order of file name; rename first if that order is wrong)');
@@ -79,16 +89,31 @@ function planGroup(g, overrides = {}) {
   // Title: --title > single deck's slide 1 > folder name (no deck, or several decks).
   const hint = folderTitle(g.name);
   const rawTitle = decks.length === 1 ? decks[0].title || '' : hint;
-  const title = overrides.title || cleanTitle(rawTitle || hint);
+  let title = overrides.title || cleanTitle(rawTitle || hint);
+  if (AUTO && !overrides.title && title.length > 45) {
+    const short = shortenTitle(title);
+    plan.decisions.push(`title "${title}" is ${title.length} characters — shortened to "${short}"`);
+    title = short;
+  }
   const instructorRaw = decks.flatMap(d => d.paragraphs || []).find(p => /\b(DNP|PhD|RN|MD|PharmD|APRN|MSN|NP|DrPH|EdD)\b/.test(p)) || '';
   const instructor = overrides.instructor || (instructorRaw ? cleanInstructor(instructorRaw) : '');
   const found = findDate([g.name, transcriptHeader, ...g.files], year);
-  const date = overrides.date || found;
-  const dateSource = overrides.date ? '--date' : !found ? null : findDate([g.name], year) ? `folder name "${g.name}"` : findDate([transcriptHeader], year) ? 'transcript header' : 'file names';
+  // Last resort in auto mode: the recording/transcript file's date (when the class was captured), else the deck's.
+  const fileDate = () => {
+    const pick = ['transcript', 'audio', 'slides'].map(r => plan.files.find(x => x.role === r)).find(Boolean);
+    if (!pick) return null;
+    const d = statSync(join(inbox, pick.file)).mtime;
+    return { date: `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`, file: pick.file };
+  };
+  const auto = AUTO && !overrides.date && !found ? fileDate() : null;
+  if (auto) plan.decisions.push(`no class date in names or transcript — used ${auto.file}'s modified date ${auto.date}`);
+  const date = overrides.date || found || auto?.date || null;
+  const dateSource = overrides.date ? '--date' : auto ? `file date of ${auto.file} (auto)` : !found ? null : findDate([g.name], year) ? `folder name "${g.name}"` : findDate([transcriptHeader], year) ? 'transcript header' : 'file names';
   const slug = overrides.slug || slugFrom(title);
   const sameDate = date ? visible(courseDir).filter(d => d.startsWith(date + '_')) : [];
   const existing = sameDate.find(d => d === folderName(date, slug));
   if (!date) plan.warnings.push('no class date found — pass --date YYYY-MM-DD');
+  if (AUTO && !existing && !instructor) plan.decisions.push('no instructor on the slides — intake.json leaves it blank; fill it from the transcript while mining (step 3)');
   if (!existing) {
     if (!title) plan.warnings.push('no title found — pass --title');
     if (title.length > 45) plan.warnings.push(`title is ${title.length} characters (max 45) — shorten with --title`);
@@ -108,7 +133,14 @@ function planGroup(g, overrides = {}) {
       const desc = basename(x.file, ext).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').split('-').slice(0, 6).join('-');
       x.to = `supp-${String(nextSupp++).padStart(2, '0')}_${desc}${ext}`;
     }
-    if (x.to && target && existsSync(join(target, x.to))) { plan.warnings.push(`${x.to} already exists in ${basename(target)} — rename or remove before applying`); x.to = null; }
+    if (x.to && target && existsSync(join(target, x.to))) {
+      if (AUTO) {
+        const desc = basename(x.file, ext).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').split('-').slice(0, 6).join('-');
+        const to = `supp-${String(nextSupp++).padStart(2, '0')}_${desc || x.role}${ext}`;
+        plan.decisions.push(`${x.to} already exists in ${basename(target)} — ${x.file} kept as ${to}`);
+        x.role = 'supplemental'; x.to = to;
+      } else { plan.warnings.push(`${x.to} already exists in ${basename(target)} — rename or remove before applying`); x.to = null; }
+    }
   }
   return Object.assign(plan, {
     mode: existing ? 'add-only (class folder exists)' : 'new lecture',
@@ -139,4 +171,4 @@ const prev = existsSync(metaPath) ? JSON.parse(readFileSync(metaPath, 'utf8')) :
 const meta = { ...prev, id: plan.id, date: plan.date, title: prev.title || plan.title, instructor: prev.instructor || plan.instructor,
   sources: [...new Set([...(prev.sources || []), ...plan.files.filter(x => x.to).map(x => x.to)])].sort() };
 writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');
-console.log(JSON.stringify({ applied: true, folder: plan.folder, meta, warnings: plan.warnings }, null, 2));
+console.log(JSON.stringify({ applied: true, folder: plan.folder, meta, warnings: plan.warnings, decisions: plan.decisions }, null, 2));

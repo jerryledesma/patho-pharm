@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Agent",
+      "Edit(public/lectures/**)",
+      "Write(public/lectures/**)",
+      "Edit(sources/**)",
+      "Write(sources/**)",
+      "Read(~/_dev/obs_vault/patho-pharm/**)",
+      "Edit(~/_dev/obs_vault/patho-pharm/improvement-log.md)",
+      "Read(~/dev/obs_vault/patho-pharm/**)",
+      "Edit(~/dev/obs_vault/patho-pharm/improvement-log.md)",
+      "Bash(node tools/*)",
+      "Bash(node scripts/*)",
+      "Bash(node tests/*)",
+      "Bash(npm run *)",
+      "Bash(npm ci*)",
+      "Bash(npx playwright install chromium)",
+      "Bash(python3 tools/*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git show*)",
+      "Bash(git fetch*)",
+      "Bash(git branch*)",
+      "Bash(git rev-parse*)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(sed -n *)",
+      "Bash(wc *)",
+      "Bash(grep *)",
+      "Bash(jq *)"
+    ],
+    "deny": [
+      "Bash(git clean*)",
+      "Bash(git add -f*)",
+      "Bash(git add --force*)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git stash*)",
+      "Bash(gh pr merge*)",
+      "Bash(rm -rf*)"
+    ]
+  }
+}
