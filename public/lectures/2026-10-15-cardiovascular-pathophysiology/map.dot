@@ -1,0 +1,34 @@
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.5, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Cardiovascular I: Hemodynamics, Atherosclerosis &amp; Lipids — Concept Map (NURS 419, Lecture 10/15/2026)<BR/>CO = HR × SV · BP = CO × SVR · preload = STRETCH, afterload = PRESSURE · TC &lt; 200 · LDL &lt; 100 · HDL &gt; 60 · TG &lt; 150>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  flow   [fillcolor="#fff2cc", label=<<B>Trace the blood</B><BR ALIGN="LEFT"/>filling: AV valves open, semilunar closed<BR ALIGN="LEFT"/>ejection: semilunar open, AV closed<BR ALIGN="LEFT"/>coronaries fill in DIASTOLE<BR ALIGN="LEFT"/>LAD = most of the LV (widowmaker)<BR ALIGN="LEFT"/>>];
+  hr     [fillcolor="#ddebf7", label=<<B>Heart rate</B><BR ALIGN="LEFT"/>SA node = pacemaker (60–100)<BR ALIGN="LEFT"/>SNS: NE → β₁ → ↑ HR, conduction, contractility<BR ALIGN="LEFT"/>PNS: ACh → muscarinic → ↓ HR, AV conduction<BR ALIGN="LEFT"/>>];
+  sv     [fillcolor="#bdd7ee", label=<<B>Stroke volume</B><BR ALIGN="LEFT"/>preload = STRETCH (venous return)<BR ALIGN="LEFT"/>Frank–Starling: rubber band, up to a point<BR ALIGN="LEFT"/>afterload = PRESSURE (SVR): BP 120 → make 121<BR ALIGN="LEFT"/>contractility = squeeze (SNS)<BR ALIGN="LEFT"/>>];
+  co     [fillcolor="#ddebf7", label=<<B>Cardiac output</B><BR ALIGN="LEFT"/>CO = HR × SV ≈ 5 L/min<BR ALIGN="LEFT"/>EF = % ejected per beat, 55–70%<BR ALIGN="LEFT"/>drugs change HR, preload, afterload, contractility<BR ALIGN="LEFT"/>>];
+  svr    [fillcolor="#fce4d6", label=<<B>Systemic vascular resistance</B><BR ALIGN="LEFT"/>arterioles = major site of resistance<BR ALIGN="LEFT"/>↓ diameter, ↑ length, ↑ viscosity → ↑ resistance<BR ALIGN="LEFT"/>obesity = more miles of vessels<BR ALIGN="LEFT"/>>];
+  bp     [fillcolor="#fff2cc", label=<<B>BP = CO × SVR</B><BR ALIGN="LEFT"/>ANS baroreceptors: seconds–minutes<BR ALIGN="LEFT"/>RAAS: angiotensin II (hours), aldosterone (days)<BR ALIGN="LEFT"/>kidneys: days–weeks<BR ALIGN="LEFT"/>ANP/BNP: diuresis, dilation (BNP = HF marker)<BR ALIGN="LEFT"/>>];
+  injury [fillcolor="#f8cbad", label=<<B>Endothelial injury starts it</B><BR ALIGN="LEFT"/>smoking · HTN · diabetes · dyslipidemia<BR ALIGN="LEFT"/>inflamed cells → sticky adhesion molecules<BR ALIGN="LEFT"/>free radicals oxidize LDL<BR ALIGN="LEFT"/>>];
+  plaque [fillcolor="#fce4d6", label=<<B>Plaque</B><BR ALIGN="LEFT"/>macrophage + oxidized LDL = foam cell<BR ALIGN="LEFT"/>foam cells → fatty streak<BR ALIGN="LEFT"/>smooth muscle + collagen → fibrous plaque (scab)<BR ALIGN="LEFT"/>chronic inflammation, not autoimmune<BR ALIGN="LEFT"/>>];
+  rupture[fillcolor="#f8cbad", label=<<B>Rupture = rip the scab off</B><BR ALIGN="LEFT"/>platelets + clotting → thrombus occludes<BR ALIGN="LEFT"/>coronary → ACS/MI<BR ALIGN="LEFT"/>cerebral → ischemic stroke<BR ALIGN="LEFT"/>peripheral → acute limb ischemia<BR ALIGN="LEFT"/>>];
+  lipids [fillcolor="#fff2cc", label=<<B>Cholesterol &amp; lipoproteins</B><BR ALIGN="LEFT"/>liver makes it (HMG-CoA reductase)<BR ALIGN="LEFT"/>LDL bad · HDL good (reverse transport)<BR ALIGN="LEFT"/>exercise = best way to raise HDL<BR ALIGN="LEFT"/>very high TG → pancreatitis risk<BR ALIGN="LEFT"/>>];
+  prev   [fillcolor="#e2efda", label=<<B>Who gets treated</B><BR ALIGN="LEFT"/>lifestyle is foundational (150 min/wk)<BR ALIGN="LEFT"/>primary: prevent the first ASCVD event<BR ALIGN="LEFT"/>secondary: high-intensity statin, LDL &lt; 70<BR ALIGN="LEFT"/>metabolic syndrome = 3 of 5<BR ALIGN="LEFT"/>>];
+  statin [fillcolor="#e4dfec", label=<<B>Statins (gold standard)</B><BR ALIGN="LEFT"/>block HMG-CoA reductase → ↑ LDL receptors<BR ALIGN="LEFT"/>high ≥ 50% · moderate 30–49% LDL drop<BR ALIGN="LEFT"/>RHABDO: muscle pain + Coca-Cola urine<BR ALIGN="LEFT"/>LFTs · stop in pregnancy · lifelong<BR ALIGN="LEFT"/>>];
+  other  [fillcolor="#e4dfec", label=<<B>Other lipid drugs</B><BR ALIGN="LEFT"/>ezetimibe: ↓ gut cholesterol absorption<BR ALIGN="LEFT"/>fenofibrate: high TG · muscle risk + statin<BR ALIGN="LEFT"/>niacin: flushing, rarely used<BR ALIGN="LEFT"/>>];
+
+  flow -> hr [label=" SA node sets"];
+  hr -> co [label=" ×"];
+  sv -> co [label=" ×"];
+  co -> bp [label=" ×"];
+  svr -> bp [label=" ×"];
+  svr -> sv [label=" sets afterload"];
+  bp -> injury [label=" HTN damages"];
+  injury -> plaque [label=" self-perpetuating"];
+  plaque -> rupture [label=" most never do"];
+  lipids -> injury [label=" high LDL, low HDL"];
+  lipids -> prev [label=" risk-based"];
+  prev -> statin [label=" first line"];
+  statin -> other [label=" add or replace"];
+}
