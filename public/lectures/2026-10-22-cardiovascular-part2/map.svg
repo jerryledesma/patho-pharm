@@ -1,0 +1,223 @@
+<svg id="cmap" width="1416pt" height="548pt"
+ viewBox="0.00 0.00 1416.00 548.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 526.4)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-526.4 1394.23,-526.4 1394.23,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="381.25" y="-484.8" font-family="Helvetica,sans-Serif" font-size="16.00">Cardiovascular II: Hypertension &amp; Rhythms — Concept Map (NURS 419, Lecture 10/22/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="407.09" y="-465.6" font-family="Helvetica,sans-Serif" font-size="16.00">BP = CO × SVR · goal &lt; 130/80 · K⁺ 3.5–5 · class I Na⁺ · II β · III K⁺ · IV Ca²⁺</text>
+<!-- htn -->
+<g id="node1" class="node">
+<title>htn</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M617.92,-458.4C617.92,-458.4 395.53,-458.4 395.53,-458.4 389.53,-458.4 383.53,-452.4 383.53,-446.4 383.53,-446.4 383.53,-414.88 383.53,-414.88 383.53,-408.88 389.53,-402.88 395.53,-402.88 395.53,-402.88 617.92,-402.88 617.92,-402.88 623.92,-402.88 629.92,-408.88 629.92,-414.88 629.92,-414.88 629.92,-446.4 629.92,-446.4 629.92,-452.4 623.92,-458.4 617.92,-458.4"/>
+<text xml:space="preserve" text-anchor="start" x="394.33" y="-443.74" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Hypertension — &quot;silent killer&quot;</text>
+<text xml:space="preserve" text-anchor="start" x="394.33" y="-432.74" font-family="Helvetica,sans-Serif" font-size="11.00">BP = CO × SVR</text>
+<text xml:space="preserve" text-anchor="start" x="394.33" y="-421.74" font-family="Helvetica,sans-Serif" font-size="11.00">primary 90–95% (no single cause)</text>
+<text xml:space="preserve" text-anchor="start" x="394.33" y="-410.74" font-family="Helvetica,sans-Serif" font-size="11.00">secondary: one fixable cause (renal artery stenosis)</text>
+</g>
+<!-- dmg -->
+<g id="node2" class="node">
+<title>dmg</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M1035.56,-357.68C1035.56,-357.68 855.9,-357.68 855.9,-357.68 849.9,-357.68 843.9,-351.68 843.9,-345.68 843.9,-345.68 843.9,-314.16 843.9,-314.16 843.9,-308.16 849.9,-302.16 855.9,-302.16 855.9,-302.16 1035.56,-302.16 1035.56,-302.16 1041.56,-302.16 1047.56,-308.16 1047.56,-314.16 1047.56,-314.16 1047.56,-345.68 1047.56,-345.68 1047.56,-351.68 1041.56,-357.68 1035.56,-357.68"/>
+<text xml:space="preserve" text-anchor="start" x="854.7" y="-343.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Target&#45;organ damage</text>
+<text xml:space="preserve" text-anchor="start" x="854.7" y="-332.02" font-family="Helvetica,sans-Serif" font-size="11.00">↑ afterload → LVH → HF</text>
+<text xml:space="preserve" text-anchor="start" x="854.7" y="-321.02" font-family="Helvetica,sans-Serif" font-size="11.00">atherosclerosis → MI, stroke</text>
+<text xml:space="preserve" text-anchor="start" x="854.7" y="-310.02" font-family="Helvetica,sans-Serif" font-size="11.00">kidney (CKD) · retina · aortic dissection</text>
+</g>
+<!-- htn&#45;&gt;dmg -->
+<g id="edge1" class="edge">
+<title>htn&#45;&gt;dmg</title>
+<path fill="none" stroke="#555555" d="M628.14,-402.34C692.99,-387.75 772.23,-369.93 835.34,-355.74"/>
+<polygon fill="#555555" stroke="#555555" points="835.58,-358.2 841.87,-354.28 834.5,-353.42 835.58,-358.2"/>
+<text xml:space="preserve" text-anchor="middle" x="781.23" y="-376.98" font-family="Helvetica,sans-Serif" font-size="11.00"> sustained → </text>
+</g>
+<!-- co -->
+<g id="node3" class="node">
+<title>co</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M263.45,-357.68C263.45,-357.68 12,-357.68 12,-357.68 6,-357.68 0,-351.68 0,-345.68 0,-345.68 0,-314.16 0,-314.16 0,-308.16 6,-302.16 12,-302.16 12,-302.16 263.45,-302.16 263.45,-302.16 269.45,-302.16 275.45,-308.16 275.45,-314.16 275.45,-314.16 275.45,-345.68 275.45,-345.68 275.45,-351.68 269.45,-357.68 263.45,-357.68"/>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-343.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">↓ Cardiac output</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-332.02" font-family="Helvetica,sans-Serif" font-size="11.00">diuretics: thiazide · loop (↓K⁺) · spironolactone (↑K⁺)</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-321.02" font-family="Helvetica,sans-Serif" font-size="11.00">beta blockers: hold HR &lt; 60, bronchospasm,</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-310.02" font-family="Helvetica,sans-Serif" font-size="11.00">mask hypoglycemia · clonidine rebound</text>
+</g>
+<!-- htn&#45;&gt;co -->
+<g id="edge2" class="edge">
+<title>htn&#45;&gt;co</title>
+<path fill="none" stroke="#555555" d="M404.92,-402.4C356.12,-389.35 297.59,-373.69 247.76,-360.36"/>
+<polygon fill="#555555" stroke="#555555" points="248.7,-358.07 241.3,-358.63 247.43,-362.81 248.7,-358.07"/>
+<text xml:space="preserve" text-anchor="middle" x="374.71" y="-376.98" font-family="Helvetica,sans-Serif" font-size="11.00"> treat CO side</text>
+</g>
+<!-- svr -->
+<g id="node4" class="node">
+<title>svr</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M779.69,-357.68C779.69,-357.68 577.77,-357.68 577.77,-357.68 571.77,-357.68 565.77,-351.68 565.77,-345.68 565.77,-345.68 565.77,-314.16 565.77,-314.16 565.77,-308.16 571.77,-302.16 577.77,-302.16 577.77,-302.16 779.69,-302.16 779.69,-302.16 785.69,-302.16 791.69,-308.16 791.69,-314.16 791.69,-314.16 791.69,-345.68 791.69,-345.68 791.69,-351.68 785.69,-357.68 779.69,-357.68"/>
+<text xml:space="preserve" text-anchor="start" x="576.57" y="-343.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">↓ Systemic vascular resistance</text>
+<text xml:space="preserve" text-anchor="start" x="576.57" y="-332.02" font-family="Helvetica,sans-Serif" font-size="11.00">&#45;pine (amlodipine): ankle edema</text>
+<text xml:space="preserve" text-anchor="start" x="576.57" y="-321.02" font-family="Helvetica,sans-Serif" font-size="11.00">prazosin: first&#45;dose orthostasis</text>
+<text xml:space="preserve" text-anchor="start" x="576.57" y="-310.02" font-family="Helvetica,sans-Serif" font-size="11.00">hydralazine: reflex tachycardia, fluid retention</text>
+</g>
+<!-- htn&#45;&gt;svr -->
+<g id="edge3" class="edge">
+<title>htn&#45;&gt;svr</title>
+<path fill="none" stroke="#555555" d="M554.18,-402.4C575.81,-389.99 601.53,-375.23 623.97,-362.35"/>
+<polygon fill="#555555" stroke="#555555" points="624.96,-364.6 629.82,-358.99 622.53,-360.35 624.96,-364.6"/>
+<text xml:space="preserve" text-anchor="middle" x="636.48" y="-376.98" font-family="Helvetica,sans-Serif" font-size="11.00"> treat SVR side</text>
+</g>
+<!-- raas -->
+<g id="node5" class="node">
+<title>raas</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M528.73,-357.68C528.73,-357.68 312.72,-357.68 312.72,-357.68 306.72,-357.68 300.72,-351.68 300.72,-345.68 300.72,-345.68 300.72,-314.16 300.72,-314.16 300.72,-308.16 306.72,-302.16 312.72,-302.16 312.72,-302.16 528.73,-302.16 528.73,-302.16 534.73,-302.16 540.73,-308.16 540.73,-314.16 540.73,-314.16 540.73,-345.68 540.73,-345.68 540.73,-351.68 534.73,-357.68 528.73,-357.68"/>
+<text xml:space="preserve" text-anchor="start" x="311.52" y="-343.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">RAAS drugs</text>
+<text xml:space="preserve" text-anchor="start" x="311.52" y="-332.02" font-family="Helvetica,sans-Serif" font-size="11.00">&#45;pril (ACEI): ↑ bradykinin → cough, angioedema</text>
+<text xml:space="preserve" text-anchor="start" x="311.52" y="-321.02" font-family="Helvetica,sans-Serif" font-size="11.00">&#45;sartan (ARB): no cough</text>
+<text xml:space="preserve" text-anchor="start" x="311.52" y="-310.02" font-family="Helvetica,sans-Serif" font-size="11.00">both: ↑K⁺, ↑ creatinine, no pregnancy</text>
+</g>
+<!-- htn&#45;&gt;raas -->
+<g id="edge4" class="edge">
+<title>htn&#45;&gt;raas</title>
+<path fill="none" stroke="#555555" d="M483,-402.4C472.75,-390.64 460.67,-376.77 449.88,-364.39"/>
+<polygon fill="#555555" stroke="#555555" points="451.82,-362.88 445.37,-359.21 448.12,-366.1 451.82,-362.88"/>
+<text xml:space="preserve" text-anchor="middle" x="498.52" y="-376.98" font-family="Helvetica,sans-Serif" font-size="11.00"> block RAAS</text>
+</g>
+<!-- why -->
+<g id="node7" class="node">
+<title>why</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M1051.61,-251.46C1051.61,-251.46 839.84,-251.46 839.84,-251.46 833.84,-251.46 827.84,-245.46 827.84,-239.46 827.84,-239.46 827.84,-218.94 827.84,-218.94 827.84,-212.94 833.84,-206.94 839.84,-206.94 839.84,-206.94 1051.61,-206.94 1051.61,-206.94 1057.61,-206.94 1063.61,-212.94 1063.61,-218.94 1063.61,-218.94 1063.61,-239.46 1063.61,-239.46 1063.61,-245.46 1057.61,-251.46 1051.61,-251.46"/>
+<text xml:space="preserve" text-anchor="start" x="838.64" y="-236.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Why rhythms go wrong</text>
+<text xml:space="preserve" text-anchor="start" x="838.64" y="-225.8" font-family="Helvetica,sans-Serif" font-size="11.00">automaticity · conduction block · reentry</text>
+<text xml:space="preserve" text-anchor="start" x="838.64" y="-214.8" font-family="Helvetica,sans-Serif" font-size="11.00">triggers: ischemia, hypoxia, K⁺ &amp; Mg²⁺, drugs</text>
+</g>
+<!-- dmg&#45;&gt;why -->
+<g id="edge8" class="edge">
+<title>dmg&#45;&gt;why</title>
+<path fill="none" stroke="#555555" d="M945.73,-301.68C945.73,-288.86 945.73,-273.51 945.73,-260.34"/>
+<polygon fill="#555555" stroke="#555555" points="948.18,-260.55 945.73,-253.55 943.28,-260.55 948.18,-260.55"/>
+<text xml:space="preserve" text-anchor="middle" x="996.74" y="-276.26" font-family="Helvetica,sans-Serif" font-size="11.00"> ischemia, LVH trigger</text>
+</g>
+<!-- misc -->
+<g id="node11" class="node">
+<title>misc</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M1360.63,-256.96C1360.63,-256.96 1114.83,-256.96 1114.83,-256.96 1108.83,-256.96 1102.83,-250.96 1102.83,-244.96 1102.83,-244.96 1102.83,-213.44 1102.83,-213.44 1102.83,-207.44 1108.83,-201.44 1114.83,-201.44 1114.83,-201.44 1360.63,-201.44 1360.63,-201.44 1366.63,-201.44 1372.63,-207.44 1372.63,-213.44 1372.63,-213.44 1372.63,-244.96 1372.63,-244.96 1372.63,-250.96 1366.63,-256.96 1360.63,-256.96"/>
+<text xml:space="preserve" text-anchor="start" x="1113.63" y="-242.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Structural &amp; vascular</text>
+<text xml:space="preserve" text-anchor="start" x="1113.63" y="-231.3" font-family="Helvetica,sans-Serif" font-size="11.00">tamponade: can&#39;t fill · stenosis pressure / regurg volume</text>
+<text xml:space="preserve" text-anchor="start" x="1113.63" y="-220.3" font-family="Helvetica,sans-Serif" font-size="11.00">PAD: cool, no pulses · CVI: warm, edema, brown</text>
+<text xml:space="preserve" text-anchor="start" x="1113.63" y="-209.3" font-family="Helvetica,sans-Serif" font-size="11.00">DVT: Virchow → PE · anticoagulants don&#39;t dissolve</text>
+</g>
+<!-- dmg&#45;&gt;misc -->
+<g id="edge15" class="edge">
+<title>dmg&#45;&gt;misc</title>
+<path fill="none" stroke="#555555" d="M1026.29,-301.68C1064.43,-288.79 1110.08,-273.35 1149.19,-260.13"/>
+<polygon fill="#555555" stroke="#555555" points="1149.64,-262.57 1155.49,-258 1148.07,-257.93 1149.64,-262.57"/>
+<text xml:space="preserve" text-anchor="middle" x="1146.33" y="-276.26" font-family="Helvetica,sans-Serif" font-size="11.00"> dissection, PAD</text>
+</g>
+<!-- pick -->
+<g id="node6" class="node">
+<title>pick</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M519.77,-256.96C519.77,-256.96 307.68,-256.96 307.68,-256.96 301.68,-256.96 295.68,-250.96 295.68,-244.96 295.68,-244.96 295.68,-213.44 295.68,-213.44 295.68,-207.44 301.68,-201.44 307.68,-201.44 307.68,-201.44 519.77,-201.44 519.77,-201.44 525.77,-201.44 531.77,-207.44 531.77,-213.44 531.77,-213.44 531.77,-244.96 531.77,-244.96 531.77,-250.96 525.77,-256.96 519.77,-256.96"/>
+<text xml:space="preserve" text-anchor="start" x="306.48" y="-242.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Choosing &amp; monitoring</text>
+<text xml:space="preserve" text-anchor="start" x="306.48" y="-231.3" font-family="Helvetica,sans-Serif" font-size="11.00">first&#45;line: thiazide · DHP CCB · ACEI/ARB</text>
+<text xml:space="preserve" text-anchor="start" x="306.48" y="-220.3" font-family="Helvetica,sans-Serif" font-size="11.00">CKD + albuminuria → ACEI/ARB</text>
+<text xml:space="preserve" text-anchor="start" x="306.48" y="-209.3" font-family="Helvetica,sans-Serif" font-size="11.00">K⁺ 3.2 → hold Lasix · weight · morning dosing</text>
+</g>
+<!-- co&#45;&gt;pick -->
+<g id="edge5" class="edge">
+<title>co&#45;&gt;pick</title>
+<path fill="none" stroke="#555555" d="M213.88,-301.68C249.78,-288.84 292.72,-273.48 329.58,-260.3"/>
+<polygon fill="#555555" stroke="#555555" points="330.16,-262.69 335.92,-258.03 328.51,-258.08 330.16,-262.69"/>
+</g>
+<!-- aad -->
+<g id="node10" class="node">
+<title>aad</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M735.91,-55.52C735.91,-55.52 505.54,-55.52 505.54,-55.52 499.54,-55.52 493.54,-49.52 493.54,-43.52 493.54,-43.52 493.54,-12 493.54,-12 493.54,-6 499.54,0 505.54,0 505.54,0 735.91,0 735.91,0 741.91,0 747.91,-6 747.91,-12 747.91,-12 747.91,-43.52 747.91,-43.52 747.91,-49.52 741.91,-55.52 735.91,-55.52"/>
+<text xml:space="preserve" text-anchor="start" x="504.34" y="-40.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Antidysrhythmics</text>
+<text xml:space="preserve" text-anchor="start" x="504.34" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">I lidocaine (CNS) · II metoprolol (brady)</text>
+<text xml:space="preserve" text-anchor="start" x="504.34" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">III amiodarone (lungs, thyroid, liver)</text>
+<text xml:space="preserve" text-anchor="start" x="504.34" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">IV verapamil/diltiazem (AV block) · not amlodipine</text>
+</g>
+<!-- co&#45;&gt;aad -->
+<g id="edge11" class="edge">
+<title>co&#45;&gt;aad</title>
+<path fill="none" stroke="#555555" stroke-dasharray="5,2" d="M164.37,-301.81C192.25,-274.37 238.09,-231.77 282.73,-201.44 368.97,-142.85 477.74,-90.71 548.23,-59.44"/>
+<polygon fill="#555555" stroke="#555555" points="548.98,-61.79 554.39,-56.72 547,-57.3 548.98,-61.79"/>
+<text xml:space="preserve" text-anchor="middle" x="378.22" y="-175.54" font-family="Helvetica,sans-Serif" font-size="11.00"> beta blockers = class II</text>
+</g>
+<!-- svr&#45;&gt;pick -->
+<g id="edge6" class="edge">
+<title>svr&#45;&gt;pick</title>
+<path fill="none" stroke="#555555" d="M594.45,-301.64C579.82,-296.65 564.79,-291.37 550.73,-286.16 529.58,-278.32 506.83,-269.27 486.05,-260.77"/>
+<polygon fill="#555555" stroke="#555555" points="487,-258.52 479.6,-258.12 485.14,-263.05 487,-258.52"/>
+</g>
+<!-- svr&#45;&gt;aad -->
+<g id="edge12" class="edge">
+<title>svr&#45;&gt;aad</title>
+<path fill="none" stroke="#555555" stroke-dasharray="5,2" d="M660.81,-301.64C640.39,-268.75 608.22,-211.05 595.73,-156.24 590.25,-132.18 591.62,-125.05 595.73,-100.72 597.82,-88.32 601.8,-75.21 605.99,-63.62"/>
+<polygon fill="#555555" stroke="#555555" points="608.2,-64.7 608.37,-57.29 603.61,-62.98 608.2,-64.7"/>
+<text xml:space="preserve" text-anchor="middle" x="675.77" y="-175.54" font-family="Helvetica,sans-Serif" font-size="11.00"> only non&#45;DHP CCBs = class IV</text>
+</g>
+<!-- raas&#45;&gt;pick -->
+<g id="edge7" class="edge">
+<title>raas&#45;&gt;pick</title>
+<path fill="none" stroke="#555555" d="M418.8,-301.68C418.01,-290.57 417.09,-277.57 416.25,-265.72"/>
+<polygon fill="#555555" stroke="#555555" points="418.7,-265.67 415.76,-258.86 413.81,-266.01 418.7,-265.67"/>
+</g>
+<!-- sv -->
+<g id="node8" class="node">
+<title>sv</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M1086.55,-156.24C1086.55,-156.24 890.9,-156.24 890.9,-156.24 884.9,-156.24 878.9,-150.24 878.9,-144.24 878.9,-144.24 878.9,-112.72 878.9,-112.72 878.9,-106.72 884.9,-100.72 890.9,-100.72 890.9,-100.72 1086.55,-100.72 1086.55,-100.72 1092.55,-100.72 1098.55,-106.72 1098.55,-112.72 1098.55,-112.72 1098.55,-144.24 1098.55,-144.24 1098.55,-150.24 1092.55,-156.24 1086.55,-156.24"/>
+<text xml:space="preserve" text-anchor="start" x="889.7" y="-141.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Supraventricular</text>
+<text xml:space="preserve" text-anchor="start" x="889.7" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">AFib: irregularly irregular → clot → stroke</text>
+<text xml:space="preserve" text-anchor="start" x="889.7" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">flutter: sawtooth, regular 250–350</text>
+<text xml:space="preserve" text-anchor="start" x="889.7" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">SVT: vagal → adenosine (rapid push + flush)</text>
+</g>
+<!-- why&#45;&gt;sv -->
+<g id="edge9" class="edge">
+<title>why&#45;&gt;sv</title>
+<path fill="none" stroke="#555555" d="M955.06,-206.78C960.48,-194.34 967.43,-178.37 973.61,-164.18"/>
+<polygon fill="#555555" stroke="#555555" points="975.8,-165.29 976.35,-157.9 971.31,-163.34 975.8,-165.29"/>
+</g>
+<!-- vent -->
+<g id="node9" class="node">
+<title>vent</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M841.49,-156.24C841.49,-156.24 619.96,-156.24 619.96,-156.24 613.96,-156.24 607.96,-150.24 607.96,-144.24 607.96,-144.24 607.96,-112.72 607.96,-112.72 607.96,-106.72 613.96,-100.72 619.96,-100.72 619.96,-100.72 841.49,-100.72 841.49,-100.72 847.49,-100.72 853.49,-106.72 853.49,-112.72 853.49,-112.72 853.49,-144.24 853.49,-144.24 853.49,-150.24 847.49,-156.24 841.49,-156.24"/>
+<text xml:space="preserve" text-anchor="start" x="618.76" y="-141.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Ventricular &amp; AV block</text>
+<text xml:space="preserve" text-anchor="start" x="618.76" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">VT → VF: CPR + defibrillation</text>
+<text xml:space="preserve" text-anchor="start" x="618.76" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">torsades (long QT) → IV magnesium</text>
+<text xml:space="preserve" text-anchor="start" x="618.76" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">AV block 1st · Mobitz I · Mobitz II · 3rd → pacer</text>
+</g>
+<!-- why&#45;&gt;vent -->
+<g id="edge10" class="edge">
+<title>why&#45;&gt;vent</title>
+<path fill="none" stroke="#555555" d="M898.28,-206.41C868.74,-192.85 830.3,-175.2 797.69,-160.23"/>
+<polygon fill="#555555" stroke="#555555" points="798.72,-158.01 791.34,-157.31 796.68,-162.46 798.72,-158.01"/>
+</g>
+<!-- sv&#45;&gt;aad -->
+<g id="edge13" class="edge">
+<title>sv&#45;&gt;aad</title>
+<path fill="none" stroke="#555555" d="M904.37,-100.15C873.76,-90.6 838.81,-80.13 806.73,-71.52 789.52,-66.9 771.34,-62.34 753.35,-58.01"/>
+<polygon fill="#555555" stroke="#555555" points="753.95,-55.64 746.57,-56.39 752.81,-60.4 753.95,-55.64"/>
+<text xml:space="preserve" text-anchor="middle" x="878.54" y="-74.82" font-family="Helvetica,sans-Serif" font-size="11.00"> rate control</text>
+</g>
+<!-- vent&#45;&gt;aad -->
+<g id="edge14" class="edge">
+<title>vent&#45;&gt;aad</title>
+<path fill="none" stroke="#555555" d="M694.09,-94.6C680.1,-82.04 664.31,-67.87 650.98,-55.91"/>
+<polygon fill="#555555" stroke="#555555" points="692.41,-96.38 699.25,-99.23 695.68,-92.73 692.41,-96.38"/>
+<text xml:space="preserve" text-anchor="middle" x="741.41" y="-74.82" font-family="Helvetica,sans-Serif" font-size="11.00"> can cause (proarrhythmia)</text>
+</g>
+<!-- myo -->
+<g id="node12" class="node">
+<title>myo</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M1353.65,-156.24C1353.65,-156.24 1135.81,-156.24 1135.81,-156.24 1129.81,-156.24 1123.81,-150.24 1123.81,-144.24 1123.81,-144.24 1123.81,-112.72 1123.81,-112.72 1123.81,-106.72 1129.81,-100.72 1135.81,-100.72 1135.81,-100.72 1353.65,-100.72 1353.65,-100.72 1359.65,-100.72 1365.65,-106.72 1365.65,-112.72 1365.65,-112.72 1365.65,-144.24 1365.65,-144.24 1365.65,-150.24 1359.65,-156.24 1353.65,-156.24"/>
+<text xml:space="preserve" text-anchor="start" x="1134.61" y="-141.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Myocardium &amp; endocardium</text>
+<text xml:space="preserve" text-anchor="start" x="1134.61" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">DCM: systolic · HCM: filling, sudden death</text>
+<text xml:space="preserve" text-anchor="start" x="1134.61" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">Takotsubo: stress, reversible</text>
+<text xml:space="preserve" text-anchor="start" x="1134.61" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">endocarditis: vegetations → emboli, valve damage</text>
+</g>
+<!-- misc&#45;&gt;myo -->
+<g id="edge16" class="edge">
+<title>misc&#45;&gt;myo</title>
+<path fill="none" stroke="#555555" d="M1239.66,-200.96C1240.45,-189.85 1241.37,-176.85 1242.21,-165"/>
+<polygon fill="#555555" stroke="#555555" points="1244.64,-165.29 1242.69,-158.14 1239.76,-164.95 1244.64,-165.29"/>
+<text xml:space="preserve" text-anchor="middle" x="1300.91" y="-175.54" font-family="Helvetica,sans-Serif" font-size="11.00"> valves link to endocarditis</text>
+</g>
+</g>
+</svg>

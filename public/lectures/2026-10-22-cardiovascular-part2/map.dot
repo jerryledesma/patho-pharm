@@ -1,0 +1,34 @@
+// Concept map — Cardiovascular II: Hypertension & Rhythms (NURS 419, 10/22/2026)
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.45, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Cardiovascular II: Hypertension &amp; Rhythms — Concept Map (NURS 419, Lecture 10/22/2026)<BR/>BP = CO × SVR · goal &lt; 130/80 · K⁺ 3.5–5 · class I Na⁺ · II β · III K⁺ · IV Ca²⁺>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  htn  [fillcolor="#fff2cc", label=<<B>Hypertension — "silent killer"</B><BR ALIGN="LEFT"/>BP = CO × SVR<BR ALIGN="LEFT"/>primary 90–95% (no single cause)<BR ALIGN="LEFT"/>secondary: one fixable cause (renal artery stenosis)<BR ALIGN="LEFT"/>>];
+  dmg  [fillcolor="#fff2cc", label=<<B>Target-organ damage</B><BR ALIGN="LEFT"/>↑ afterload → LVH → HF<BR ALIGN="LEFT"/>atherosclerosis → MI, stroke<BR ALIGN="LEFT"/>kidney (CKD) · retina · aortic dissection<BR ALIGN="LEFT"/>>];
+  co   [fillcolor="#ddebf7", label=<<B>↓ Cardiac output</B><BR ALIGN="LEFT"/>diuretics: thiazide · loop (↓K⁺) · spironolactone (↑K⁺)<BR ALIGN="LEFT"/>beta blockers: hold HR &lt; 60, bronchospasm,<BR ALIGN="LEFT"/>mask hypoglycemia · clonidine rebound<BR ALIGN="LEFT"/>>];
+  svr  [fillcolor="#fce4d6", label=<<B>↓ Systemic vascular resistance</B><BR ALIGN="LEFT"/>-pine (amlodipine): ankle edema<BR ALIGN="LEFT"/>prazosin: first-dose orthostasis<BR ALIGN="LEFT"/>hydralazine: reflex tachycardia, fluid retention<BR ALIGN="LEFT"/>>];
+  raas [fillcolor="#f8cbad", label=<<B>RAAS drugs</B><BR ALIGN="LEFT"/>-pril (ACEI): ↑ bradykinin → cough, angioedema<BR ALIGN="LEFT"/>-sartan (ARB): no cough<BR ALIGN="LEFT"/>both: ↑K⁺, ↑ creatinine, no pregnancy<BR ALIGN="LEFT"/>>];
+  pick [fillcolor="#e2efda", label=<<B>Choosing &amp; monitoring</B><BR ALIGN="LEFT"/>first-line: thiazide · DHP CCB · ACEI/ARB<BR ALIGN="LEFT"/>CKD + albuminuria → ACEI/ARB<BR ALIGN="LEFT"/>K⁺ 3.2 → hold Lasix · weight · morning dosing<BR ALIGN="LEFT"/>>];
+  why  [fillcolor="#e4dfec", label=<<B>Why rhythms go wrong</B><BR ALIGN="LEFT"/>automaticity · conduction block · reentry<BR ALIGN="LEFT"/>triggers: ischemia, hypoxia, K⁺ &amp; Mg²⁺, drugs<BR ALIGN="LEFT"/>>];
+  sv   [fillcolor="#e4dfec", label=<<B>Supraventricular</B><BR ALIGN="LEFT"/>AFib: irregularly irregular → clot → stroke<BR ALIGN="LEFT"/>flutter: sawtooth, regular 250–350<BR ALIGN="LEFT"/>SVT: vagal → adenosine (rapid push + flush)<BR ALIGN="LEFT"/>>];
+  vent [fillcolor="#e4dfec", label=<<B>Ventricular &amp; AV block</B><BR ALIGN="LEFT"/>VT → VF: CPR + defibrillation<BR ALIGN="LEFT"/>torsades (long QT) → IV magnesium<BR ALIGN="LEFT"/>AV block 1st · Mobitz I · Mobitz II · 3rd → pacer<BR ALIGN="LEFT"/>>];
+  aad  [fillcolor="#ddebf7", label=<<B>Antidysrhythmics</B><BR ALIGN="LEFT"/>I lidocaine (CNS) · II metoprolol (brady)<BR ALIGN="LEFT"/>III amiodarone (lungs, thyroid, liver)<BR ALIGN="LEFT"/>IV verapamil/diltiazem (AV block) · not amlodipine<BR ALIGN="LEFT"/>>];
+  misc [fillcolor="#e2efda", label=<<B>Structural &amp; vascular</B><BR ALIGN="LEFT"/>tamponade: can't fill · stenosis pressure / regurg volume<BR ALIGN="LEFT"/>PAD: cool, no pulses · CVI: warm, edema, brown<BR ALIGN="LEFT"/>DVT: Virchow → PE · anticoagulants don't dissolve<BR ALIGN="LEFT"/>>];
+  myo  [fillcolor="#e2efda", label=<<B>Myocardium &amp; endocardium</B><BR ALIGN="LEFT"/>DCM: systolic · HCM: filling, sudden death<BR ALIGN="LEFT"/>Takotsubo: stress, reversible<BR ALIGN="LEFT"/>endocarditis: vegetations → emboli, valve damage<BR ALIGN="LEFT"/>>];
+
+  htn -> dmg  [label=" sustained → "];
+  htn -> co   [label=" treat CO side"];
+  htn -> svr  [label=" treat SVR side"];
+  htn -> raas [label=" block RAAS"];
+  co -> pick; svr -> pick; raas -> pick;
+  dmg -> why  [label=" ischemia, LVH trigger"];
+  why -> sv; why -> vent;
+  co -> aad   [label=" beta blockers = class II", style=dashed];
+  svr -> aad  [label=" only non-DHP CCBs = class IV", style=dashed];
+  sv -> aad   [label=" rate control"];
+  vent -> aad [label=" can cause (proarrhythmia)", dir=back];
+  dmg -> misc [label=" dissection, PAD"];
+  misc -> myo [label=" valves link to endocarditis"];
+}
