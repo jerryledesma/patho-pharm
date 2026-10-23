@@ -24,6 +24,7 @@ The run stops early **only** for a hard blocker, which is something no amount of
 | Uncommitted changes in the working tree | Exit. Never stash or discard someone else's work. |
 | `git fetch` / `npm ci` fails (offline) | Exit with the error. |
 | No usable source: no deck, no transcript, no audio, or every file unreadable after conversion | Exit, naming the files. |
+| Audio but no transcript, and `transcribe.py` fails | Exit with its error. A slides-only kit has no in-class questions or exam-scope statements, so don't ship one. `python3 tools/transcribe.py --check` says what is missing. |
 | Secret scan hits the staged diff | Unstage, exit, and name the lines. |
 | `git push` fails | The commit stays local. Print the push command. |
 
@@ -45,13 +46,13 @@ the blockers (`ship --draft`), and that draft is how Jerry hears about it.
 | **Gate 1:** no instructor on the slides | Get it from the transcript while mining (self-introduction, how students address them). If it's still unknown, use the instructor of the most recent lecture with the same deck template; if nothing matches, use `NURS 419 Faculty`. Note it either way. |
 | **Gate 1:** two transcripts | Keep the longest one as the transcript, and treat the others as supplements. |
 | **Gate 1:** `.key` / `.ppt` / `.doc` | Convert with Keynote, LibreOffice or `textutil`, and keep the original in `sources/originals/`. A file that can't be converted gets skipped and noted. |
-| **Gate 1:** audio but no transcript | `start` runs `tools/transcribe.py --slides`. |
+| **Gate 1:** audio but no transcript | `start` runs `tools/transcribe.py --slides`. It needs only faster-whisper (preflight installs it); audio is decoded by the PyAV it ships, so no `ffmpeg`. |
 | **Gate 2:** outline approval | Self-check (step 4 in SKILL.md), then `quality-gate` checks slide coverage and question placement during verify. |
 | **Gate 2:** fewer cases or counts outside the guides | This is allowed when the lecture is short. Say why in a note, because the gate turns out-of-range counts into warnings, and the PR shows them. |
 | Missing handouts and on-screen Kahoot items | Generate without the missing handout. Rebuild the Kahoot question from what was said, mark it `(Kahoot)`, and list both in `mining.json` (`missing`, `kahoot`), which puts them in the PR for Angelina. |
 | Slide and speech disagree | The spoken version wins. List the conflict in `mining.json` `mismatches`. |
 | Unsure whether a fact is in the sources | Leave it out. If it matters, list it in `review.json` `uncertain`. |
-| **Gate 3:** push and open the PR | `ship` does both. Merging stays with Jerry. |
+| **Gate 3:** push and open the PR | `ship` does both. First it catches the branch up with `origin/main` (fast-forward, or a merge commit), so the ledger includes every lecture merged since the branch was cut; a conflict in `id-ledger.json` alone is settled by taking main's copy and re-adding this lecture. Any other conflict is a blocker: the merge is aborted and nothing is committed. Merging stays with Jerry. |
 
 ## Files the autopilot reads and writes
 

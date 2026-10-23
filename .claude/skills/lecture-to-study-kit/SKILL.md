@@ -55,8 +55,8 @@ If you're resuming, run `node tools/autopilot.mjs status <id>` first and continu
 node tools/autopilot.mjs preflight
 ```
 
-Fetches `origin`, clears stale git locks, refuses a dirty working tree, installs missing npm deps and Playwright,
-checks `gh`, lists inbox folders and the improvement-log items still marked *before the next lecture*. Settle each
+Fetches `origin`, clears stale git locks, refuses a dirty working tree, installs missing npm deps, Playwright and faster-whisper
+(for audio-only lectures), checks `gh`, lists inbox folders and the improvement-log items still marked *before the next lecture*. Settle each
 open item by the policy (apply it if it's a content rule you can follow while generating; otherwise defer it and
 mark the deferral in the log). `ok: false` is a hard blocker — stop and report it.
 

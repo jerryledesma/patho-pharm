@@ -21,7 +21,7 @@ test('expandSlides reads ranges, lists and deck prefixes', () => {
 
 // The gate is calibrated on the approved NGN-era lectures: they must keep passing with no errors.
 test('quality gate passes every approved NGN-era lecture', () => {
-  const ngn = readdirSync('public/lectures').filter(id => id >= '2026-09-24' &&
+  const ngn = readdirSync('public/lectures', { withFileTypes: true }).filter(d => d.isDirectory()).map(d => d.name).filter(id => id >= '2026-09-24' &&
     JSON.parse(readFileSync(`public/lectures/${id}/lecture.json`, 'utf8')).clinical.some(c => c.questions.some(q => q.step)));
   assert.ok(ngn.length >= 5);
   for (const id of ngn) {
