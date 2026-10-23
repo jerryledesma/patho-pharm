@@ -52,7 +52,7 @@ the blockers (`ship --draft`), and that draft is how Jerry hears about it.
 | Missing handouts and on-screen Kahoot items | Generate without the missing handout. Rebuild the Kahoot question from what was said, mark it `(Kahoot)`, and list both in `mining.json` (`missing`, `kahoot`), which puts them in the PR for Angelina. |
 | Slide and speech disagree | The spoken version wins. List the conflict in `mining.json` `mismatches`. |
 | Unsure whether a fact is in the sources | Leave it out. If it matters, list it in `review.json` `uncertain`. |
-| **Gate 3:** push and open the PR | `ship` does both. Merging stays with Jerry. |
+| **Gate 3:** push and open the PR | `ship` does both. First it catches the branch up with `origin/main` (fast-forward, or a merge commit), so the ledger includes every lecture merged since the branch was cut; a conflict in `id-ledger.json` alone is settled by taking main's copy and re-adding this lecture. Any other conflict is a blocker: the merge is aborted and nothing is committed. Merging stays with Jerry. |
 
 ## Files the autopilot reads and writes
 

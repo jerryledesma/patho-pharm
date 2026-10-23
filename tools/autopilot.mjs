@@ -10,7 +10,7 @@
 //   node tools/autopilot.mjs note <id> "<decision>"       record a decision made in place of asking (goes in the PR)
 //   node tools/autopilot.mjs review <id>                  count one content-review round (capped)
 //   node tools/autopilot.mjs report <id>                  write extracted/report.md (the PR body)
-//   node tools/autopilot.mjs ship <id> [--draft]          ledger, hygiene, secret scan, commit, push, pull request
+//   node tools/autopilot.mjs ship <id> [--draft]          catch up with main, ledger, hygiene, secret scan, commit, push, PR
 //
 // Every command prints JSON. State lives in <class folder>/extracted/autopilot.json (git-ignored with sources/).
 // Contract and file formats: tools/reference/autopilot.md.
@@ -18,6 +18,7 @@ import { execFileSync, spawnSync } from 'node:child_process';
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync, renameSync, statSync, unlinkSync } from 'node:fs';
 import { join, dirname, basename, extname, resolve } from 'node:path';
 import { homedir } from 'node:os';
+import { syncWithMain } from './lib/sync-main.mjs';
 import { fileURLToPath } from 'node:url';
 import { gate, classFolder, sourcesDir } from './quality-gate.mjs';
 
@@ -308,6 +309,13 @@ function ship(id) {
   const stray = changed.filter(p => !p.startsWith(`public/lectures/${id}/`) && p !== 'id-ledger.json' && p !== 'public/lectures/index.json');
   if (stray.length) return { ...r, blockers: [`unexpected changes outside the lecture (not committed): ${stray.join(', ')}`] };
   if (changed.some(p => p.startsWith('sources/'))) return { ...r, blockers: ['source files would be committed — stop'] };
+  const author = (process.env.AUTOPILOT_AUTHOR || 'v-jerryledesma <jerry@vertikals.ai>').match(/^(.*?)\s*<(.+)>$/);
+  const session = process.env.CLAUDE_SESSION_URL ? `\nClaude-Session: ${process.env.CLAUDE_SESSION_URL}` : '';
+  // Catch up with main first, so the ledger is written on top of every lecture already merged (see lib/sync-main.mjs).
+  const sync = syncWithMain(ROOT, { name: author[1], email: author[2],
+    message: `Merge origin/main into ${s.branch} before shipping\n\nKeeps id-ledger.json current with lectures merged since this branch was cut.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>${session}\n` });
+  if (!sync.ok) return { ...r, blockers: [sync.error] };
+  if (sync.step) r.steps.push(sync.step);
   if (v.pass) { const l = run('node', ['scripts/validate.mjs', '--update-ledger']); if (l.status !== 0) return { ...r, blockers: [`ledger update failed: ${tail(l.stderr)}`] }; r.steps.push('ledger updated'); }
   run('git', ['add', `public/lectures/${id}`, 'id-ledger.json']);
   const diff = git('diff', '--cached');
@@ -315,8 +323,6 @@ function ship(id) {
   if (hit.length) { run('git', ['reset', '-q']); return { ...r, blockers: [`secret scan matched ${hit.length} line(s) in the staged diff — nothing committed:\n${hit.slice(0, 3).map(l => l.slice(0, 120)).join('\n')}`] }; }
   r.steps.push('secret scan clean');
   const meta = JSON.parse(readFileSync(join(ROOT, 'public/lectures', id, 'lecture.json'), 'utf8'));
-  const author = (process.env.AUTOPILOT_AUTHOR || 'v-jerryledesma <jerry@vertikals.ai>').match(/^(.*?)\s*<(.+)>$/);
-  const session = process.env.CLAUDE_SESSION_URL ? `\nClaude-Session: ${process.env.CLAUDE_SESSION_URL}` : '';
   const msg = `${s.addOnly ? 'Add supplement to' : 'Add'} lecture ${id}: ${meta.title}${draft && !v.pass ? ' (draft — open blockers)' : ''}\n\nBuilt by the lecture-to-study-kit autopilot (${s.attempts.verify} verify attempt(s), ${s.attempts.review} review round(s)).\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>${session}\n`;
   if (git('diff', '--cached', '--name-only')) {
     const c = run('git', ['-c', `user.name=${author[1]}`, '-c', `user.email=${author[2]}`, 'commit', '-q', '-F', '-'], { input: msg });
