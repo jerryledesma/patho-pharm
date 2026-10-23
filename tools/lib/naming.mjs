@@ -27,6 +27,20 @@ export function cleanTitle(raw) {
   return s.split(' ').map((w, i) => (i > 0 && SMALL.has(w.toLowerCase())) ? w.toLowerCase() : titleCase(w)).join(' ');
 }
 
+/** Title over `max` characters → a shorter one: drop a subtitle or parenthetical, then trailing words.
+ *  "Pharmacology of the Autonomic Nervous System: Cholinergic & Adrenergic Drugs" → "Pharmacology of the Autonomic Nervous System" */
+export function shortenTitle(title, max = 45) {
+  let s = String(title).trim();
+  if (s.length <= max) return s;
+  const cut = s.split(/\s*(?::|\s[–—-]\s|\()\s*/)[0].trim();
+  if (cut.length >= 8) s = cut;
+  s = s.replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s+/g, ' ').trim();
+  const words = s.split(' ');
+  while (words.join(' ').length > max && words.length > 1) words.pop();
+  while (words.length > 1 && (SMALL.has(words.at(-1).toLowerCase()) || words.at(-1) === '&')) words.pop();
+  return words.join(' ').slice(0, max).trim();
+}
+
 /** Display title → 1–3 word slug. "Acid–Base Balance & Disorders" → "acid-base" */
 export function slugFrom(title) {
   const words = title.toLowerCase().replace(/[–—]/g, '-').replace(/&/g, ' ').replace(/[^a-z0-9\s-]/g, ' ')
