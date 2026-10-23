@@ -2,7 +2,7 @@
 // does the reading and writing; this script does everything deterministic around it and keeps the loop honest:
 // which stage is next, whether the checks pass, how many attempts are left, and what was decided along the way.
 //
-//   node tools/autopilot.mjs preflight                    clean tree, fresh origin/main, deps, open improvement items
+//   node tools/autopilot.mjs preflight                    clean tree, fresh origin/main, deps (npm, Chromium, faster-whisper), improvement items
 //   node tools/autopilot.mjs intake [--only <folder>]     convert .key/.ppt/.doc, plan with --auto, apply one lecture
 //   node tools/autopilot.mjs start <class-folder>         branch from origin/main, extract, transcribe if needed
 //   node tools/autopilot.mjs status <id>                  stage reached + the next action (resumable)
@@ -84,6 +84,12 @@ function preflight() {
   if (!chromiumWorks()) {
     const i = run('npx', ['playwright', 'install', 'chromium'], { timeout: 300e3 });
     i.status === 0 && chromiumWorks() ? r.fixed.push('installed Playwright Chromium') : r.notes.push('Playwright Chromium missing and could not be installed — smoke test will be skipped and reported');
+  }
+  // Audio-only lectures need faster-whisper (it brings PyAV, so no ffmpeg). Install it here, outside Claude's allowlist.
+  if (run('python3', ['tools/transcribe.py', '--check']).status !== 0) {
+    const i = run('python3', ['-m', 'pip', 'install', '--user', 'faster-whisper'], { timeout: 600e3 });
+    i.status === 0 && run('python3', ['tools/transcribe.py', '--check']).status === 0 ? r.fixed.push('installed faster-whisper for transcription')
+      : r.notes.push('faster-whisper missing and could not be installed — a lecture with audio but no transcript will block at start');
   }
   r.ghAuth = run('gh', ['auth', 'status']).status === 0;
   if (!r.ghAuth) r.notes.push('gh is not logged in — ship will push the branch and print the compare URL instead of opening the PR');
