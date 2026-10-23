@@ -1,0 +1,225 @@
+<svg id="cmap" width="918pt" height="839pt"
+ viewBox="0.00 0.00 918.00 839.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 817.84)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-817.84 896.46,-817.84 896.46,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="82.61" y="-776.24" font-family="Helvetica,sans-Serif" font-size="16.00">Cardiovascular I: Hemodynamics, Atherosclerosis &amp; Lipids — Concept Map (NURS 419, Lecture 10/15/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-757.04" font-family="Helvetica,sans-Serif" font-size="16.00">CO = HR × SV · BP = CO × SVR · preload = STRETCH, afterload = PRESSURE · TC &lt; 200 · LDL &lt; 100 · HDL &gt; 60 · TG &lt; 150</text>
+<!-- flow -->
+<g id="node1" class="node">
+<title>flow</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M226.64,-749.84C226.64,-749.84 45.74,-749.84 45.74,-749.84 39.74,-749.84 33.74,-743.84 33.74,-737.84 33.74,-737.84 33.74,-695.32 33.74,-695.32 33.74,-689.32 39.74,-683.32 45.74,-683.32 45.74,-683.32 226.64,-683.32 226.64,-683.32 232.64,-683.32 238.64,-689.32 238.64,-695.32 238.64,-695.32 238.64,-737.84 238.64,-737.84 238.64,-743.84 232.64,-749.84 226.64,-749.84"/>
+<text xml:space="preserve" text-anchor="start" x="44.54" y="-735.18" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Trace the blood</text>
+<text xml:space="preserve" text-anchor="start" x="44.54" y="-724.18" font-family="Helvetica,sans-Serif" font-size="11.00">filling: AV valves open, semilunar closed</text>
+<text xml:space="preserve" text-anchor="start" x="44.54" y="-713.18" font-family="Helvetica,sans-Serif" font-size="11.00">ejection: semilunar open, AV closed</text>
+<text xml:space="preserve" text-anchor="start" x="44.54" y="-702.18" font-family="Helvetica,sans-Serif" font-size="11.00">coronaries fill in DIASTOLE</text>
+<text xml:space="preserve" text-anchor="start" x="44.54" y="-691.18" font-family="Helvetica,sans-Serif" font-size="11.00">LAD = most of the LV (widowmaker)</text>
+</g>
+<!-- hr -->
+<g id="node2" class="node">
+<title>hr</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M245.9,-628.62C245.9,-628.62 26.48,-628.62 26.48,-628.62 20.48,-628.62 14.48,-622.62 14.48,-616.62 14.48,-616.62 14.48,-585.1 14.48,-585.1 14.48,-579.1 20.48,-573.1 26.48,-573.1 26.48,-573.1 245.9,-573.1 245.9,-573.1 251.9,-573.1 257.9,-579.1 257.9,-585.1 257.9,-585.1 257.9,-616.62 257.9,-616.62 257.9,-622.62 251.9,-628.62 245.9,-628.62"/>
+<text xml:space="preserve" text-anchor="start" x="25.28" y="-613.96" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Heart rate</text>
+<text xml:space="preserve" text-anchor="start" x="25.28" y="-602.96" font-family="Helvetica,sans-Serif" font-size="11.00">SA node = pacemaker (60–100)</text>
+<text xml:space="preserve" text-anchor="start" x="25.28" y="-591.96" font-family="Helvetica,sans-Serif" font-size="11.00">SNS: NE → β₁ → ↑ HR, conduction, contractility</text>
+<text xml:space="preserve" text-anchor="start" x="25.28" y="-580.96" font-family="Helvetica,sans-Serif" font-size="11.00">PNS: ACh → muscarinic → ↓ HR, AV conduction</text>
+</g>
+<!-- flow&#45;&gt;hr -->
+<g id="edge1" class="edge">
+<title>flow&#45;&gt;hr</title>
+<path fill="none" stroke="#555555" d="M136.19,-682.99C136.19,-668.73 136.19,-651.95 136.19,-637.37"/>
+<polygon fill="#555555" stroke="#555555" points="138.64,-637.59 136.19,-630.59 133.74,-637.59 138.64,-637.59"/>
+<text xml:space="preserve" text-anchor="middle" x="166.29" y="-655.42" font-family="Helvetica,sans-Serif" font-size="11.00"> SA node sets</text>
+</g>
+<!-- co -->
+<g id="node4" class="node">
+<title>co</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M518.04,-518.4C518.04,-518.4 302.35,-518.4 302.35,-518.4 296.35,-518.4 290.35,-512.4 290.35,-506.4 290.35,-506.4 290.35,-474.88 290.35,-474.88 290.35,-468.88 296.35,-462.88 302.35,-462.88 302.35,-462.88 518.04,-462.88 518.04,-462.88 524.04,-462.88 530.04,-468.88 530.04,-474.88 530.04,-474.88 530.04,-506.4 530.04,-506.4 530.04,-512.4 524.04,-518.4 518.04,-518.4"/>
+<text xml:space="preserve" text-anchor="start" x="301.15" y="-503.74" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Cardiac output</text>
+<text xml:space="preserve" text-anchor="start" x="301.15" y="-492.74" font-family="Helvetica,sans-Serif" font-size="11.00">CO = HR × SV ≈ 5 L/min</text>
+<text xml:space="preserve" text-anchor="start" x="301.15" y="-481.74" font-family="Helvetica,sans-Serif" font-size="11.00">EF = % ejected per beat, 55–70%</text>
+<text xml:space="preserve" text-anchor="start" x="301.15" y="-470.74" font-family="Helvetica,sans-Serif" font-size="11.00">drugs change HR, preload, afterload, contractility</text>
+</g>
+<!-- hr&#45;&gt;co -->
+<g id="edge2" class="edge">
+<title>hr&#45;&gt;co</title>
+<path fill="none" stroke="#555555" d="M205.33,-572.55C244.27,-557.17 293,-537.93 333.16,-522.06"/>
+<polygon fill="#555555" stroke="#555555" points="334.05,-524.35 339.66,-519.5 332.25,-519.79 334.05,-524.35"/>
+<text xml:space="preserve" text-anchor="middle" x="293.72" y="-539.7" font-family="Helvetica,sans-Serif" font-size="11.00"> ×</text>
+</g>
+<!-- sv -->
+<g id="node3" class="node">
+<title>sv</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M524.99,-634.12C524.99,-634.12 295.39,-634.12 295.39,-634.12 289.39,-634.12 283.39,-628.12 283.39,-622.12 283.39,-622.12 283.39,-579.6 283.39,-579.6 283.39,-573.6 289.39,-567.6 295.39,-567.6 295.39,-567.6 524.99,-567.6 524.99,-567.6 530.99,-567.6 536.99,-573.6 536.99,-579.6 536.99,-579.6 536.99,-622.12 536.99,-622.12 536.99,-628.12 530.99,-634.12 524.99,-634.12"/>
+<text xml:space="preserve" text-anchor="start" x="294.19" y="-619.46" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Stroke volume</text>
+<text xml:space="preserve" text-anchor="start" x="294.19" y="-608.46" font-family="Helvetica,sans-Serif" font-size="11.00">preload = STRETCH (venous return)</text>
+<text xml:space="preserve" text-anchor="start" x="294.19" y="-597.46" font-family="Helvetica,sans-Serif" font-size="11.00">Frank–Starling: rubber band, up to a point</text>
+<text xml:space="preserve" text-anchor="start" x="294.19" y="-586.46" font-family="Helvetica,sans-Serif" font-size="11.00">afterload = PRESSURE (SVR): BP 120 → make 121</text>
+<text xml:space="preserve" text-anchor="start" x="294.19" y="-575.46" font-family="Helvetica,sans-Serif" font-size="11.00">contractility = squeeze (SNS)</text>
+</g>
+<!-- sv&#45;&gt;co -->
+<g id="edge3" class="edge">
+<title>sv&#45;&gt;co</title>
+<path fill="none" stroke="#555555" d="M410.19,-567.1C410.19,-554.44 410.19,-539.93 410.19,-527.03"/>
+<polygon fill="#555555" stroke="#555555" points="412.64,-527.34 410.19,-520.34 407.74,-527.34 412.64,-527.34"/>
+<text xml:space="preserve" text-anchor="middle" x="414.32" y="-539.7" font-family="Helvetica,sans-Serif" font-size="11.00"> ×</text>
+</g>
+<!-- bp -->
+<g id="node6" class="node">
+<title>bp</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M600.44,-413.68C600.44,-413.68 385.94,-413.68 385.94,-413.68 379.94,-413.68 373.94,-407.68 373.94,-401.68 373.94,-401.68 373.94,-359.16 373.94,-359.16 373.94,-353.16 379.94,-347.16 385.94,-347.16 385.94,-347.16 600.44,-347.16 600.44,-347.16 606.44,-347.16 612.44,-353.16 612.44,-359.16 612.44,-359.16 612.44,-401.68 612.44,-401.68 612.44,-407.68 606.44,-413.68 600.44,-413.68"/>
+<text xml:space="preserve" text-anchor="start" x="384.74" y="-399.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">BP = CO × SVR</text>
+<text xml:space="preserve" text-anchor="start" x="384.74" y="-388.02" font-family="Helvetica,sans-Serif" font-size="11.00">ANS baroreceptors: seconds–minutes</text>
+<text xml:space="preserve" text-anchor="start" x="384.74" y="-377.02" font-family="Helvetica,sans-Serif" font-size="11.00">RAAS: angiotensin II (hours), aldosterone (days)</text>
+<text xml:space="preserve" text-anchor="start" x="384.74" y="-366.02" font-family="Helvetica,sans-Serif" font-size="11.00">kidneys: days–weeks</text>
+<text xml:space="preserve" text-anchor="start" x="384.74" y="-355.02" font-family="Helvetica,sans-Serif" font-size="11.00">ANP/BNP: diuresis, dilation (BNP = HF marker)</text>
+</g>
+<!-- co&#45;&gt;bp -->
+<g id="edge4" class="edge">
+<title>co&#45;&gt;bp</title>
+<path fill="none" stroke="#555555" d="M431.14,-462.33C440.79,-449.74 452.44,-434.56 463.02,-420.76"/>
+<polygon fill="#555555" stroke="#555555" points="464.88,-422.37 467.19,-415.32 460.99,-419.38 464.88,-422.37"/>
+<text xml:space="preserve" text-anchor="middle" x="458.31" y="-434.98" font-family="Helvetica,sans-Serif" font-size="11.00"> ×</text>
+</g>
+<!-- svr -->
+<g id="node5" class="node">
+<title>svr</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M600.59,-744.34C600.59,-744.34 385.79,-744.34 385.79,-744.34 379.79,-744.34 373.79,-738.34 373.79,-732.34 373.79,-732.34 373.79,-700.82 373.79,-700.82 373.79,-694.82 379.79,-688.82 385.79,-688.82 385.79,-688.82 600.59,-688.82 600.59,-688.82 606.59,-688.82 612.59,-694.82 612.59,-700.82 612.59,-700.82 612.59,-732.34 612.59,-732.34 612.59,-738.34 606.59,-744.34 600.59,-744.34"/>
+<text xml:space="preserve" text-anchor="start" x="384.59" y="-729.68" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Systemic vascular resistance</text>
+<text xml:space="preserve" text-anchor="start" x="384.59" y="-718.68" font-family="Helvetica,sans-Serif" font-size="11.00">arterioles = major site of resistance</text>
+<text xml:space="preserve" text-anchor="start" x="384.59" y="-707.68" font-family="Helvetica,sans-Serif" font-size="11.00">↓ diameter, ↑ length, ↑ viscosity → ↑ resistance</text>
+<text xml:space="preserve" text-anchor="start" x="384.59" y="-696.68" font-family="Helvetica,sans-Serif" font-size="11.00">obesity = more miles of vessels</text>
+</g>
+<!-- svr&#45;&gt;sv -->
+<g id="edge6" class="edge">
+<title>svr&#45;&gt;sv</title>
+<path fill="none" stroke="#555555" d="M473.31,-688.34C462.99,-674.2 450.19,-656.66 438.82,-641.08"/>
+<polygon fill="#555555" stroke="#555555" points="441.04,-639.98 434.94,-635.77 437.09,-642.87 441.04,-639.98"/>
+<text xml:space="preserve" text-anchor="middle" x="484.72" y="-655.42" font-family="Helvetica,sans-Serif" font-size="11.00"> sets afterload</text>
+</g>
+<!-- svr&#45;&gt;bp -->
+<g id="edge5" class="edge">
+<title>svr&#45;&gt;bp</title>
+<path fill="none" stroke="#555555" d="M518.05,-688.42C529.97,-673.55 542.98,-654.12 549.19,-634.12 557.15,-608.5 543.44,-466.86 542.19,-462.88 537.65,-448.4 530.04,-433.81 522.16,-421.06"/>
+<polygon fill="#555555" stroke="#555555" points="524.42,-420.04 518.59,-415.45 520.29,-422.67 524.42,-420.04"/>
+<text xml:space="preserve" text-anchor="middle" x="553.84" y="-539.7" font-family="Helvetica,sans-Serif" font-size="11.00"> ×</text>
+</g>
+<!-- injury -->
+<g id="node7" class="node">
+<title>injury</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M587.61,-292.46C587.61,-292.46 398.78,-292.46 398.78,-292.46 392.78,-292.46 386.78,-286.46 386.78,-280.46 386.78,-280.46 386.78,-248.94 386.78,-248.94 386.78,-242.94 392.78,-236.94 398.78,-236.94 398.78,-236.94 587.61,-236.94 587.61,-236.94 593.61,-236.94 599.61,-242.94 599.61,-248.94 599.61,-248.94 599.61,-280.46 599.61,-280.46 599.61,-286.46 593.61,-292.46 587.61,-292.46"/>
+<text xml:space="preserve" text-anchor="start" x="397.58" y="-277.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Endothelial injury starts it</text>
+<text xml:space="preserve" text-anchor="start" x="397.58" y="-266.8" font-family="Helvetica,sans-Serif" font-size="11.00">smoking · HTN · diabetes · dyslipidemia</text>
+<text xml:space="preserve" text-anchor="start" x="397.58" y="-255.8" font-family="Helvetica,sans-Serif" font-size="11.00">inflamed cells → sticky adhesion molecules</text>
+<text xml:space="preserve" text-anchor="start" x="397.58" y="-244.8" font-family="Helvetica,sans-Serif" font-size="11.00">free radicals oxidize LDL</text>
+</g>
+<!-- bp&#45;&gt;injury -->
+<g id="edge7" class="edge">
+<title>bp&#45;&gt;injury</title>
+<path fill="none" stroke="#555555" d="M493.19,-346.83C493.19,-332.57 493.19,-315.79 493.19,-301.21"/>
+<polygon fill="#555555" stroke="#555555" points="495.64,-301.43 493.19,-294.43 490.74,-301.43 495.64,-301.43"/>
+<text xml:space="preserve" text-anchor="middle" x="526.49" y="-319.26" font-family="Helvetica,sans-Serif" font-size="11.00"> HTN damages</text>
+</g>
+<!-- plaque -->
+<g id="node8" class="node">
+<title>plaque</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M590.93,-182.24C590.93,-182.24 371.46,-182.24 371.46,-182.24 365.46,-182.24 359.46,-176.24 359.46,-170.24 359.46,-170.24 359.46,-127.72 359.46,-127.72 359.46,-121.72 365.46,-115.72 371.46,-115.72 371.46,-115.72 590.93,-115.72 590.93,-115.72 596.93,-115.72 602.93,-121.72 602.93,-127.72 602.93,-127.72 602.93,-170.24 602.93,-170.24 602.93,-176.24 596.93,-182.24 590.93,-182.24"/>
+<text xml:space="preserve" text-anchor="start" x="370.26" y="-167.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Plaque</text>
+<text xml:space="preserve" text-anchor="start" x="370.26" y="-156.58" font-family="Helvetica,sans-Serif" font-size="11.00">macrophage + oxidized LDL = foam cell</text>
+<text xml:space="preserve" text-anchor="start" x="370.26" y="-145.58" font-family="Helvetica,sans-Serif" font-size="11.00">foam cells → fatty streak</text>
+<text xml:space="preserve" text-anchor="start" x="370.26" y="-134.58" font-family="Helvetica,sans-Serif" font-size="11.00">smooth muscle + collagen → fibrous plaque (scab)</text>
+<text xml:space="preserve" text-anchor="start" x="370.26" y="-123.58" font-family="Helvetica,sans-Serif" font-size="11.00">chronic inflammation, not autoimmune</text>
+</g>
+<!-- injury&#45;&gt;plaque -->
+<g id="edge8" class="edge">
+<title>injury&#45;&gt;plaque</title>
+<path fill="none" stroke="#555555" d="M490.32,-236.46C488.88,-222.82 487.11,-206.03 485.51,-190.88"/>
+<polygon fill="#555555" stroke="#555555" points="487.97,-190.87 484.8,-184.17 483.1,-191.39 487.97,-190.87"/>
+<text xml:space="preserve" text-anchor="middle" x="526.19" y="-203.54" font-family="Helvetica,sans-Serif" font-size="11.00"> self&#45;perpetuating</text>
+</g>
+<!-- rupture -->
+<g id="node9" class="node">
+<title>rupture</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M569.24,-66.52C569.24,-66.52 393.14,-66.52 393.14,-66.52 387.14,-66.52 381.14,-60.52 381.14,-54.52 381.14,-54.52 381.14,-12 381.14,-12 381.14,-6 387.14,0 393.14,0 393.14,0 569.24,0 569.24,0 575.24,0 581.24,-6 581.24,-12 581.24,-12 581.24,-54.52 581.24,-54.52 581.24,-60.52 575.24,-66.52 569.24,-66.52"/>
+<text xml:space="preserve" text-anchor="start" x="391.94" y="-51.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Rupture = rip the scab off</text>
+<text xml:space="preserve" text-anchor="start" x="391.94" y="-40.86" font-family="Helvetica,sans-Serif" font-size="11.00">platelets + clotting → thrombus occludes</text>
+<text xml:space="preserve" text-anchor="start" x="391.94" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">coronary → ACS/MI</text>
+<text xml:space="preserve" text-anchor="start" x="391.94" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">cerebral → ischemic stroke</text>
+<text xml:space="preserve" text-anchor="start" x="391.94" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">peripheral → acute limb ischemia</text>
+</g>
+<!-- plaque&#45;&gt;rupture -->
+<g id="edge9" class="edge">
+<title>plaque&#45;&gt;rupture</title>
+<path fill="none" stroke="#555555" d="M481.19,-115.39C481.19,-102.9 481.19,-88.49 481.19,-75.3"/>
+<polygon fill="#555555" stroke="#555555" points="483.64,-75.37 481.19,-68.37 478.74,-75.37 483.64,-75.37"/>
+<text xml:space="preserve" text-anchor="middle" x="513.73" y="-87.82" font-family="Helvetica,sans-Serif" font-size="11.00"> most never do</text>
+</g>
+<!-- lipids -->
+<g id="node10" class="node">
+<title>lipids</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M830.02,-413.68C830.02,-413.68 650.37,-413.68 650.37,-413.68 644.37,-413.68 638.37,-407.68 638.37,-401.68 638.37,-401.68 638.37,-359.16 638.37,-359.16 638.37,-353.16 644.37,-347.16 650.37,-347.16 650.37,-347.16 830.02,-347.16 830.02,-347.16 836.02,-347.16 842.02,-353.16 842.02,-359.16 842.02,-359.16 842.02,-401.68 842.02,-401.68 842.02,-407.68 836.02,-413.68 830.02,-413.68"/>
+<text xml:space="preserve" text-anchor="start" x="649.17" y="-399.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Cholesterol &amp; lipoproteins</text>
+<text xml:space="preserve" text-anchor="start" x="649.17" y="-388.02" font-family="Helvetica,sans-Serif" font-size="11.00">liver makes it (HMG&#45;CoA reductase)</text>
+<text xml:space="preserve" text-anchor="start" x="649.17" y="-377.02" font-family="Helvetica,sans-Serif" font-size="11.00">LDL bad · HDL good (reverse transport)</text>
+<text xml:space="preserve" text-anchor="start" x="649.17" y="-366.02" font-family="Helvetica,sans-Serif" font-size="11.00">exercise = best way to raise HDL</text>
+<text xml:space="preserve" text-anchor="start" x="649.17" y="-355.02" font-family="Helvetica,sans-Serif" font-size="11.00">very high TG → pancreatitis risk</text>
+</g>
+<!-- lipids&#45;&gt;injury -->
+<g id="edge10" class="edge">
+<title>lipids&#45;&gt;injury</title>
+<path fill="none" stroke="#555555" d="M669.08,-346.68C634.76,-330.88 593.82,-312.03 560.08,-296.49"/>
+<polygon fill="#555555" stroke="#555555" points="561.31,-294.36 553.93,-293.66 559.26,-298.82 561.31,-294.36"/>
+<text xml:space="preserve" text-anchor="middle" x="671" y="-319.26" font-family="Helvetica,sans-Serif" font-size="11.00"> high LDL, low HDL</text>
+</g>
+<!-- prev -->
+<g id="node11" class="node">
+<title>prev</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M835.83,-297.96C835.83,-297.96 650.56,-297.96 650.56,-297.96 644.56,-297.96 638.56,-291.96 638.56,-285.96 638.56,-285.96 638.56,-243.44 638.56,-243.44 638.56,-237.44 644.56,-231.44 650.56,-231.44 650.56,-231.44 835.83,-231.44 835.83,-231.44 841.83,-231.44 847.83,-237.44 847.83,-243.44 847.83,-243.44 847.83,-285.96 847.83,-285.96 847.83,-291.96 841.83,-297.96 835.83,-297.96"/>
+<text xml:space="preserve" text-anchor="start" x="649.36" y="-283.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Who gets treated</text>
+<text xml:space="preserve" text-anchor="start" x="649.36" y="-272.3" font-family="Helvetica,sans-Serif" font-size="11.00">lifestyle is foundational (150 min/wk)</text>
+<text xml:space="preserve" text-anchor="start" x="649.36" y="-261.3" font-family="Helvetica,sans-Serif" font-size="11.00">primary: prevent the first ASCVD event</text>
+<text xml:space="preserve" text-anchor="start" x="649.36" y="-250.3" font-family="Helvetica,sans-Serif" font-size="11.00">secondary: high&#45;intensity statin, LDL &lt; 70</text>
+<text xml:space="preserve" text-anchor="start" x="649.36" y="-239.3" font-family="Helvetica,sans-Serif" font-size="11.00">metabolic syndrome = 3 of 5</text>
+</g>
+<!-- lipids&#45;&gt;prev -->
+<g id="edge11" class="edge">
+<title>lipids&#45;&gt;prev</title>
+<path fill="none" stroke="#555555" d="M741.05,-346.83C741.38,-334.34 741.76,-319.93 742.11,-306.74"/>
+<polygon fill="#555555" stroke="#555555" points="744.56,-306.87 742.29,-299.81 739.66,-306.74 744.56,-306.87"/>
+<text xml:space="preserve" text-anchor="middle" x="765.76" y="-319.26" font-family="Helvetica,sans-Serif" font-size="11.00"> risk&#45;based</text>
+</g>
+<!-- statin -->
+<g id="node12" class="node">
+<title>statin</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M848.38,-182.24C848.38,-182.24 640.01,-182.24 640.01,-182.24 634.01,-182.24 628.01,-176.24 628.01,-170.24 628.01,-170.24 628.01,-127.72 628.01,-127.72 628.01,-121.72 634.01,-115.72 640.01,-115.72 640.01,-115.72 848.38,-115.72 848.38,-115.72 854.38,-115.72 860.38,-121.72 860.38,-127.72 860.38,-127.72 860.38,-170.24 860.38,-170.24 860.38,-176.24 854.38,-182.24 848.38,-182.24"/>
+<text xml:space="preserve" text-anchor="start" x="638.81" y="-167.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Statins (gold standard)</text>
+<text xml:space="preserve" text-anchor="start" x="638.81" y="-156.58" font-family="Helvetica,sans-Serif" font-size="11.00">block HMG&#45;CoA reductase → ↑ LDL receptors</text>
+<text xml:space="preserve" text-anchor="start" x="638.81" y="-145.58" font-family="Helvetica,sans-Serif" font-size="11.00">high ≥ 50% · moderate 30–49% LDL drop</text>
+<text xml:space="preserve" text-anchor="start" x="638.81" y="-134.58" font-family="Helvetica,sans-Serif" font-size="11.00">RHABDO: muscle pain + Coca&#45;Cola urine</text>
+<text xml:space="preserve" text-anchor="start" x="638.81" y="-123.58" font-family="Helvetica,sans-Serif" font-size="11.00">LFTs · stop in pregnancy · lifelong</text>
+</g>
+<!-- prev&#45;&gt;statin -->
+<g id="edge12" class="edge">
+<title>prev&#45;&gt;statin</title>
+<path fill="none" stroke="#555555" d="M743.48,-231.11C743.59,-218.62 743.71,-204.21 743.83,-191.02"/>
+<polygon fill="#555555" stroke="#555555" points="746.28,-191.11 743.89,-184.09 741.38,-191.06 746.28,-191.11"/>
+<text xml:space="preserve" text-anchor="middle" x="763.58" y="-203.54" font-family="Helvetica,sans-Serif" font-size="11.00"> first line</text>
+</g>
+<!-- other -->
+<g id="node13" class="node">
+<title>other</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M836.98,-61.02C836.98,-61.02 651.41,-61.02 651.41,-61.02 645.41,-61.02 639.41,-55.02 639.41,-49.02 639.41,-49.02 639.41,-17.5 639.41,-17.5 639.41,-11.5 645.41,-5.5 651.41,-5.5 651.41,-5.5 836.98,-5.5 836.98,-5.5 842.98,-5.5 848.98,-11.5 848.98,-17.5 848.98,-17.5 848.98,-49.02 848.98,-49.02 848.98,-55.02 842.98,-61.02 836.98,-61.02"/>
+<text xml:space="preserve" text-anchor="start" x="650.21" y="-46.36" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Other lipid drugs</text>
+<text xml:space="preserve" text-anchor="start" x="650.21" y="-35.36" font-family="Helvetica,sans-Serif" font-size="11.00">ezetimibe: ↓ gut cholesterol absorption</text>
+<text xml:space="preserve" text-anchor="start" x="650.21" y="-24.36" font-family="Helvetica,sans-Serif" font-size="11.00">fenofibrate: high TG · muscle risk + statin</text>
+<text xml:space="preserve" text-anchor="start" x="650.21" y="-13.36" font-family="Helvetica,sans-Serif" font-size="11.00">niacin: flushing, rarely used</text>
+</g>
+<!-- statin&#45;&gt;other -->
+<g id="edge13" class="edge">
+<title>statin&#45;&gt;other</title>
+<path fill="none" stroke="#555555" d="M744.19,-115.39C744.19,-101.13 744.19,-84.35 744.19,-69.77"/>
+<polygon fill="#555555" stroke="#555555" points="746.64,-69.99 744.19,-62.99 741.74,-69.99 746.64,-69.99"/>
+<text xml:space="preserve" text-anchor="middle" x="776.71" y="-87.82" font-family="Helvetica,sans-Serif" font-size="11.00"> add or replace</text>
+</g>
+</g>
+</svg>

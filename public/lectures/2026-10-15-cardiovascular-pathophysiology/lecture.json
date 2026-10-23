@@ -1,0 +1,2027 @@
+{
+ "id": "2026-10-15-cardiovascular-pathophysiology",
+ "date": "2026-10-15",
+ "title": "Cardiovascular I: Hemodynamics & Lipids",
+ "instructor": "Julie Schwind, DNP, RN",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.mp3",
+  "slides.pptx",
+  "supp-01_cardiology-part-i-guided-notes.docx",
+  "supp-02_cardiology-part-i-study-guide.docx",
+  "supp-03_lecture-cardiovascular-hemodynamics-atherosclerosis-and-hyperlipidemia.txt",
+  "transcript.txt"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "predict the effect & pick the drug"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "When does coronary perfusion mainly occur?",
+   "options": [
+    "During systole, when the squeeze pushes blood into the coronaries",
+    "During atrial contraction, when the atria top off the ventricles",
+    "During diastole, when the relaxed muscle lets the coronaries fill",
+    "During isovolumetric contraction, when every valve is closed"
+   ],
+   "answer": "C",
+   "rationale": "Coronary perfusion occurs primarily during diastole: \"During systole, the constriction of the heart kind of prevents blood flow from going through the coronary vessels.\" The squeeze of systole (or the moment contraction starts) is exactly when the coronaries are pressed shut.",
+   "src": "slide 9 + 00:05:59"
+  },
+  {
+   "id": "p-002",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client's angiogram shows the entire left anterior descending (LAD) artery is blocked. Which area of the heart is most at risk?",
+   "options": [
+    "The anterior left ventricle and the anterior interventricular septum",
+    "The lateral wall of the left ventricle and portions of the left atrium",
+    "The right ventricle along with portions of the heart's conduction system",
+    "The right atrium only, since it holds the SA node pacemaker"
+   ],
+   "answer": "A",
+   "rationale": "The LAD feeds most of the left ventricle — \"the biggest engine part of your heart\" — which is why a whole-LAD block is the widowmaker. The lateral LV and left atrium are circumflex territory, and the right ventricle is RCA territory.",
+   "src": "slide 9 + 00:03:35 + 00:05:27"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which receptor mediates sympathetic increases in heart rate and contractility?",
+   "options": [
+    "Muscarinic receptors, stimulated by acetylcholine",
+    "Beta-1 receptors, stimulated by norepinephrine",
+    "Beta-1 receptors, stimulated by acetylcholine",
+    "Muscarinic receptors, stimulated by norepinephrine"
+   ],
+   "answer": "B",
+   "rationale": "SNS: norepinephrine → β₁ → ↑ heart rate, conduction and contractility. Muscarinic receptors respond to acetylcholine from the parasympathetic side and do the opposite: ↓ heart rate and AV nodal conduction.",
+   "src": "slide 10 + 00:06:59 + 00:36:22"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement about ejection fraction (EF) is accurate?",
+   "options": [
+    "It is the total volume pumped out per minute, normally about 5 liters, measured by ECG",
+    "It is heart rate multiplied by stroke volume, measured with a twelve-lead electrocardiogram",
+    "It is the volume of blood left in the ventricle after systole, measured by a lipid panel",
+    "It is the percentage of ventricular blood pumped out with each beat, measured by echocardiogram"
+   ],
+   "answer": "D",
+   "rationale": "EF is \"the percentage of blood that is pumped out of the ventricle with each beat,\" and \"you need a echocardiogram in order to get this.\" About 5 L/min and HR × SV describe cardiac output, not EF.",
+   "src": "slide 12 + 00:11:55"
+  },
+  {
+   "id": "p-005",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client's heart rate rises from 70 to 100/min while stroke volume falls from 70 mL to 35 mL. What happens to cardiac output?",
+   "options": [
+    "It falls, from about 4.9 L/min to about 3.5 L/min",
+    "It rises, from about 4.9 L/min to about 7.0 L/min",
+    "It stays the same, because the two changes cancel out",
+    "It rises, because a faster heart rate always adds output"
+   ],
+   "answer": "A",
+   "rationale": "CO = HR × SV — multiply, don't add: 70 × 70 mL ≈ 4.9 L/min becomes 100 × 35 mL = 3.5 L/min. A faster rate only raises output if stroke volume holds; you have to weigh both variables.",
+   "src": "slide 12 + 00:11:25 + 00:33:18 + supp-02 ¶15"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which is the best description of preload?",
+   "options": [
+    "Pressure the ventricle must overcome to open the aortic valve",
+    "Force of the ventricular squeeze during systole",
+    "Stretch of the ventricular muscle at the end of diastole",
+    "Volume of blood the ventricle pumps out each minute"
+   ],
+   "answer": "C",
+   "rationale": "\"Stretch is the word\" — preload is ventricular stretch at end-diastole, set mostly by filling and venous return. Pressure to overcome is afterload, the force of the squeeze is contractility, and volume per minute is cardiac output.",
+   "src": "slides 15, 20 + 00:13:54 + 00:33:48"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement best describes the Frank–Starling law of the heart?",
+   "options": [
+    "More stretch always gives a stronger contraction, with no upper limit",
+    "More stretch gives a stronger contraction, but only up to a point",
+    "Contraction strength is set by hormones rather than by fiber stretch",
+    "More afterload gives a stronger contraction as the ventricle works harder"
+   ],
+   "answer": "B",
+   "rationale": "\"It's kind of like a rubber band. The further you stretch it out, the harder it bounces back\" — and it \"doesn't have to be regulated by any kinds of hormones.\" It works only up to a point: stretch too far and the cross-bridges no longer overlap enough to contract.",
+   "src": "slide 16 + 00:13:54 + 00:14:48"
+  },
+  {
+   "id": "p-008",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client's blood pressure is 150/90 mm Hg. To open the aortic valve, the left ventricle must generate at least:",
+   "options": [
+    "91 mm Hg",
+    "121 mm Hg",
+    "241 mm Hg",
+    "151 mm Hg"
+   ],
+   "answer": "D",
+   "rationale": "Afterload is set by the systemic pressure: at 120/80 \"you have to create at least 121 millimeters of mercury\" to open the aortic valve, and at 180 at least 181 — so 150 needs 151. 91 uses the diastolic number, and 121 is her normal-BP example.",
+   "src": "slide 17 + 00:15:45"
+  },
+  {
+   "id": "p-009",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client has long-standing hypertension with widespread arteriolar vasoconstriction. What is the main effect on the left ventricle?",
+   "options": [
+    "Afterload rises, so the ventricle must work harder to eject blood",
+    "Preload rises, so the ventricle stretches more and contracts harder",
+    "Afterload falls, so more blood leaves the ventricle with each beat",
+    "Contractility falls, because beta-1 receptors are being blocked"
+   ],
+   "answer": "A",
+   "rationale": "Hypertension and vasoconstriction raise SVR, and ↑ afterload = ↑ cardiac workload — like pushing a door open \"on a windy day… when the wind's coming back at you.\" That's why hypertension \"is rough on the heart\"; preload is about filling, not resistance.",
+   "src": "slides 17–18, 34 + 00:15:45"
+  },
+  {
+   "id": "p-010",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client loses a large volume of blood. Before any compensation kicks in, what happens?",
+   "options": [
+    "Venous return falls, so preload rises and stroke volume increases",
+    "Preload falls, but stroke volume rises through the Frank–Starling law",
+    "Venous return and preload fall, so stroke volume and cardiac output fall",
+    "Afterload rises first, so stroke volume falls while preload is unchanged"
+   ],
+   "answer": "C",
+   "rationale": "Less circulating volume means less blood returning to stretch the ventricle, so preload, stroke volume and CO drop (slide 27: ↓ circulating volume → ↓ CO). Frank–Starling works the other way here: less stretch gives a weaker contraction, not a stronger one.",
+   "src": "slides 15, 27 + 00:13:54 + supp-02 ¶19"
+  },
+  {
+   "id": "p-011",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client's legs are raised, increasing venous return to a healthy heart. What happens initially?",
+   "options": [
+    "Afterload rises → weaker contraction → stroke volume decreases",
+    "Preload rises → stronger contraction → stroke volume increases",
+    "Preload falls → heart rate rises → cardiac output stays the same",
+    "SVR rises → blood pressure rises → stroke volume decreases"
+   ],
+   "answer": "B",
+   "rationale": "\"If you put your legs up, you get more blood flow back to the heart\" — more venous return means more stretch, a harder contraction and a bigger stroke volume (Frank–Starling). Venous return changes preload, not afterload or SVR directly.",
+   "src": "slides 16, 31 + 00:29:30 + 00:34:46"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which vessels are the major determinant of the resistance blood meets in the systemic circulation?",
+   "options": [
+    "Elastic arteries such as the aorta, which absorb the heart's pressure",
+    "Veins, which hold most of the blood volume as a large reservoir",
+    "Muscular arteries, which divert blood toward organs that need it",
+    "Arterioles, which are mostly smooth muscle and hugely numerous"
+   ],
+   "answer": "D",
+   "rationale": "Arterioles are \"teeny tiny tiny ones, but there's so many of them,\" so a little constriction there changes pressure a lot. Elastic arteries absorb pressure, veins are the reservoir, and muscular arteries redirect flow (e.g., fight or flight).",
+   "src": "slide 22 + 00:19:14 + 00:20:14"
+  },
+  {
+   "id": "p-013",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Plaque narrows the diameter of the client's artery. What happens to resistance and flow through that vessel?",
+   "options": [
+    "Resistance falls and flow rises, like water through a big fat hose",
+    "Resistance rises and flow rises too, because pressure pushes blood through faster",
+    "Resistance rises and flow falls, like water forced through a tiny hose",
+    "Resistance is unchanged, because only blood viscosity sets resistance"
+   ],
+   "answer": "C",
+   "rationale": "Smaller vessel = more resistance = decreased flow — \"watering with a big fat hose versus a tiny hose.\" Diameter, length and viscosity all determine resistance, so viscosity is not the only factor.",
+   "src": "slide 25 + 00:22:11"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which equation did she give for blood pressure?",
+   "options": [
+    "BP = cardiac output × systemic vascular resistance",
+    "BP = heart rate × stroke volume",
+    "BP = cardiac output + systemic vascular resistance",
+    "BP = stroke volume × systemic vascular resistance"
+   ],
+   "answer": "A",
+   "rationale": "\"Blood pressure is cardiac output times systemic vascular resistance,\" and cardiac output is its own equation, HR × SV. HR × SV alone is cardiac output, and it's a times, not a plus.",
+   "src": "slides 26–27 + 00:24:56 + 00:25:36"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client's heart is being repeatedly overstretched by volume overload. Which response helps counteract it?",
+   "options": [
+    "Release of angiotensin II, which constricts arterioles and veins",
+    "Release of aldosterone, which makes the kidneys retain sodium and water",
+    "Release of renin, which converts angiotensinogen to angiotensin I",
+    "Release of BNP and ANP, which promote diuresis and vasodilation"
+   ],
+   "answer": "D",
+   "rationale": "Natriuretic peptides are released when the heart is stretched and \"counteract volume overload\" by promoting diuresis, dilating vessels and suppressing RAAS. Angiotensin II, aldosterone and renin are RAAS — \"when at least the kidney thinks there isn't enough volume.\"",
+   "src": "slide 30 + 00:28:31 + 00:38:16"
+  },
+  {
+   "id": "p-016",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client starts a drug that causes arteriolar vasodilation. Predict its effect.",
+   "options": [
+    "SVR rises, so blood pressure and afterload rise",
+    "SVR falls, so blood pressure and afterload fall",
+    "Preload rises, so blood pressure and afterload rise",
+    "SVR falls, but afterload rises as the heart compensates"
+   ],
+   "answer": "B",
+   "rationale": "Arteriolar vasodilation most directly decreases systemic vascular resistance (Kahoot), and with BP = CO × SVR, lower SVR means lower BP and less pressure for the ventricle to push against. Afterload follows SVR, so it can't rise when SVR falls.",
+   "src": "slide 27 + 00:37:18 + supp-01 ¶71"
+  },
+  {
+   "id": "p-017",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client starts a beta blocker. Using the blood pressure master equation, predict the main effect.",
+   "options": [
+    "Heart rate falls, but SVR rises enough that blood pressure rises",
+    "Heart rate and contractility fall, so cardiac output and BP fall",
+    "Circulating volume falls, so preload and stroke volume fall",
+    "Arterioles dilate, so SVR falls while cardiac output is unchanged"
+   ],
+   "answer": "B",
+   "rationale": "Slide 27 lists beta blockers under both ↓ heart rate and ↓ contractility — the CO side of BP = CO × SVR — consistent with blocking β₁ stimulation. Lowering circulating volume is the diuretic route, and vasodilation is the SVR route.",
+   "src": "slides 10, 27 + supp-02 ¶23"
+  },
+  {
+   "id": "p-018",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client starts a diuretic. On the blood pressure master equation, which variable does it lower, and with what result?",
+   "options": [
+    "Heart rate, lowering cardiac output and blood pressure",
+    "Contractility, lowering stroke volume and blood pressure",
+    "Circulating volume (preload), lowering cardiac output and BP",
+    "Arteriolar tone, lowering SVR and blood pressure"
+   ],
+   "answer": "C",
+   "rationale": "Slide 27 places diuretics under ↓ circulating volume (preload) on the CO side: less volume → less preload → less CO → lower BP. Heart rate and contractility are lowered by beta blockers and non-dihydropyridine CCBs, and arteriolar tone by vasodilators.",
+   "src": "slide 27 + 00:25:36"
+  },
+  {
+   "id": "p-019",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which sequence best describes atherosclerotic plaque formation?",
+   "options": [
+    "Endothelial injury → inflammation/adhesion → LDL oxidation → foam cells → fatty streak → fibrous plaque",
+    "LDL oxidation → endothelial injury → fatty streak → foam cells → inflammation → fibrous plaque",
+    "Endothelial injury → foam cells → fibrous plaque → LDL oxidation → inflammation → fatty streak",
+    "Inflammation/adhesion → fatty streak → endothelial injury → foam cells → LDL oxidation → fibrous plaque"
+   ],
+   "answer": "A",
+   "rationale": "\"The very first thing, what starts atherosclerosis, is injury to the endothelial cells\"; inflamed cells grow adhesion molecules, LDL is oxidized, macrophages engulf it to form foam cells, foam cells make a fatty streak, and collagen covers it as a fibrous plaque. Foam cells need oxidized LDL first, and the streak comes before the plaque.",
+   "src": "slides 37–39, 45 + 00:39:47 + 00:48:05"
+  },
+  {
+   "id": "p-020",
+   "tier": "1",
+   "type": "mc",
+   "stem": "In atherosclerosis, what is a foam cell?",
+   "options": [
+    "A smooth muscle cell that has laid collagen over a fatty streak",
+    "A platelet that has stuck to tissue exposed by a ruptured plaque",
+    "An endothelial cell that has sprouted sticky adhesion molecules",
+    "A macrophage that has engulfed oxidized LDL within the intima"
+   ],
+   "answer": "D",
+   "rationale": "Macrophages penetrate the intima and engulf oxidized LDL — \"a combination of an immune cell, macrophages, as well as low-density lipoprotein, that creates a foam cell.\" Collagen-producing cells form the fibrous plaque, and adhesion molecules (\"little sticky fingers\") come from inflamed endothelium.",
+   "src": "slides 38–39 + 00:41:44 + 00:42:42"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A plaque in the client's coronary artery ruptures. Why does this cause an acute myocardial infarction?",
+   "options": [
+    "The plaque keeps growing slowly, narrowing the lumen a little more each year until it closes",
+    "Exposed tissue triggers platelets and clotting, and a thrombus suddenly blocks the artery",
+    "Pieces of the fibrous cap travel downstream and lodge in the cerebral arteries",
+    "Smooth muscle in the plaque goes into spasm and permanently closes the artery"
+   ],
+   "answer": "B",
+   "rationale": "Rupture is like \"ripping a scab off of a wound\": the raw tissue underneath triggers platelet adhesion and clotting, and the clot can completely block an already-narrowed vessel. Slow growth narrows the lumen gradually; the sudden event is the thrombus. A coronary rupture causes ACS/MI, not a cerebral event, and the sources describe a clot — not smooth-muscle spasm — as what suddenly closes the vessel.",
+   "src": "slide 40 + 00:44:43 + 00:48:55"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client's atherosclerotic plaque ruptures in a cerebral artery. What is the expected consequence?",
+   "options": [
+    "Ischemic stroke",
+    "Acute coronary syndrome",
+    "Acute limb ischemia",
+    "Hemorrhagic stroke"
+   ],
+   "answer": "A",
+   "rationale": "\"Where the plaque ruptures determines the consequence\": coronary → ACS/MI, cerebral → ischemic stroke, peripheral → acute limb ischemia. A rupture makes a clot that blocks flow, so the stroke is ischemic, not hemorrhagic.",
+   "src": "slide 40 + 00:45:43"
+  },
+  {
+   "id": "p-023",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which set matches the lipid targets she said you should know?",
+   "options": [
+    "Total <240, LDL <130, HDL >40, triglycerides <200",
+    "Total <200, LDL <70, HDL >40, triglycerides <500",
+    "Total <200, LDL <100, HDL >60, triglycerides <150",
+    "Total <150, LDL <100, HDL >50, triglycerides <200"
+   ],
+   "answer": "C",
+   "rationale": "\"Our total cholesterol, we do want it to be less than 200. We want our LDL to be less than 100, our HDL to be greater than 60, and our triglycerides to be less than 150.\" LDL <70 is her post-MI goal, not the general target.",
+   "src": "slide 47 + 00:50:22"
+  },
+  {
+   "id": "p-024",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client's lipid panel: total cholesterol 185, LDL 92, HDL 38, triglycerides 140 mg/dL. Which value is off target, and what did she call the best way to fix it?",
+   "options": [
+    "LDL 92 — start a statin right away",
+    "Triglycerides 140 — start fenofibrate",
+    "HDL 38 — add niacin to raise it",
+    "HDL 38 — regular aerobic exercise"
+   ],
+   "answer": "D",
+   "rationale": "Only HDL misses its target (>60), and \"the best way that we have found to raise HDL is exercise.\" LDL 92 (<100) and triglycerides 140 (<150) are on target, and medications that raise HDL alone haven't consistently improved outcomes.",
+   "src": "slides 47, 50 + 00:50:22 + 00:51:53"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Which client is receiving secondary prevention for atherosclerotic cardiovascular disease (ASCVD)?",
+   "options": [
+    "A client with diabetes and a high LDL but no prior events",
+    "A client with a prior ischemic stroke due to atherosclerosis",
+    "A client who smokes and has a family history of early MI",
+    "A client with hypertension and a borderline total cholesterol"
+   ],
+   "answer": "B",
+   "rationale": "Secondary prevention prevents recurrent events in clients with established ASCVD — prior MI, ischemic stroke due to atherosclerosis or symptomatic PAD. Diabetes, smoking, hypertension and family history are risk factors; without an event, that's primary prevention.",
+   "src": "slide 49 + 00:54:19"
+  },
+  {
+   "id": "p-026",
+   "tier": "1",
+   "type": "mc",
+   "stem": "After a heart attack, she said she wants the client's LDL to be below:",
+   "options": [
+    "70 mg/dL",
+    "100 mg/dL",
+    "130 mg/dL",
+    "150 mg/dL"
+   ],
+   "answer": "A",
+   "rationale": "\"If someone has already had a heart attack, we want their LDL to be below seventy, so we get a lot more aggressive.\" Below 100 is the general LDL target, and 150 is the triglyceride target.",
+   "src": "00:56:19"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A younger, otherwise healthy client has an LDL of 115 mg/dL and no other risk factors. What first step did she describe?",
+   "options": [
+    "A high-intensity statin started at this visit, before any lifestyle trial",
+    "Ezetimibe alone as the first-line lipid-lowering drug for this client",
+    "About three months of lifestyle changes, then reassess",
+    "No action needed, because an LDL of 115 is already on target"
+   ],
+   "answer": "C",
+   "rationale": "\"If someone comes in and their LDL is one fifteen and they're younger and healthier… Let's do three months of lifestyle changes if you're willing.\" 115 is above the <100 target, high-intensity statins are for established ASCVD, and statins (not ezetimibe) are first-line.",
+   "src": "slide 49 + 00:56:19"
+  },
+  {
+   "id": "p-028",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client's triglycerides are very high. Besides ASCVD risk, which complication is the concern?",
+   "options": [
+    "Rhabdomyolysis",
+    "Acute limb ischemia",
+    "Liver damage",
+    "Acute pancreatitis"
+   ],
+   "answer": "D",
+   "rationale": "Elevated triglycerides are linked to ASCVD, but \"if you have really high triglyceride levels, we're also worried about pancreas.\" Rhabdomyolysis and liver damage are statin adverse effects, and acute limb ischemia comes from peripheral plaque rupture.",
+   "src": "slides 50, 58 + 00:55:22"
+  },
+  {
+   "id": "p-029",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client had an atherosclerotic MI last month. Which lipid strategy is generally indicated?",
+   "options": [
+    "High-intensity or maximally tolerated statin, plus lifestyle changes",
+    "Three months of lifestyle changes before any lipid-lowering drug",
+    "A low-intensity statin to keep muscle side effects to a minimum",
+    "Fenofibrate as the first-line agent to bring the LDL down"
+   ],
+   "answer": "A",
+   "rationale": "A prior MI is established ASCVD → secondary prevention: \"we get a lot more aggressive with our high-intensity statins.\" Lifestyle-first is for the younger, healthier client in primary prevention, and fenofibrate targets triglycerides, not LDL.",
+   "src": "slide 49 + 00:54:19 + 01:11:53"
+  },
+  {
+   "id": "p-030",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How do statins lower LDL?",
+   "options": [
+    "They block cholesterol absorption in the gut, so less dietary cholesterol reaches the blood",
+    "They inhibit HMG-CoA reductase, so the liver makes less cholesterol and expresses more LDL receptors",
+    "They activate PPAR-alpha, so the liver clears more triglycerides out of the circulation",
+    "They inhibit HMG-CoA reductase, so the liver makes less cholesterol and expresses fewer LDL receptors"
+   ],
+   "answer": "B",
+   "rationale": "Statins inhibit HMG-CoA reductase → less hepatic synthesis → more LDL receptors → more LDL removed: \"it also causes the liver to suck up some of the stuff that's in the bloodstream.\" Gut absorption is ezetimibe, PPAR-α is fenofibrate, and fewer receptors is the reversed direction.",
+   "src": "slide 52 + 00:59:46"
+  },
+  {
+   "id": "p-031",
+   "tier": "1",
+   "type": "mc",
+   "stem": "A high-intensity statin is expected to lower LDL by about:",
+   "options": [
+    "30–49%",
+    "Less than 30%",
+    "50% or more",
+    "75–90%"
+   ],
+   "answer": "C",
+   "rationale": "High intensity = ≥50% LDL reduction; moderate = 30–49%; low = less than 30%. Only the percentages are fair game — \"You don't need to know what doses are.\"",
+   "src": "slides 53, 58 + 00:59:46"
+  },
+  {
+   "id": "p-032",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client taking atorvastatin reports severe muscle pain and dark brown urine. What is the nurse's concern?",
+   "options": [
+    "Myalgia — expected aching that settles if the client keeps taking it",
+    "Liver damage — the dark urine reflects statin-induced hepatotoxicity",
+    "Dehydration — concentrated urine because fluid intake has been low",
+    "Rhabdomyolysis — muscle breakdown products can damage the kidneys"
+   ],
+   "answer": "D",
+   "rationale": "Severe muscle pain plus \"Coca-Cola urine\" is rhabdomyolysis: muscle contents are released and cause renal damage — the rare but serious effect she flagged for \"lots of questions for exams.\" Plain myalgia doesn't darken the urine; the dark color is pigment from inside the muscle cells, not a sign of liver damage (that's checked with LFTs) or of low fluid intake.",
+   "src": "slides 52, 54 + 01:00:44 + 01:01:42 + 01:12:51"
+  },
+  {
+   "id": "p-033",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client on a statin is being evaluated for rhabdomyolysis. Which plan matches what she described?",
+   "options": [
+    "Continue the statin and give an analgesic so the client can manage the aches at home",
+    "Stop the statin, admit the client, and give lots of fluids to protect the kidneys",
+    "Switch to fenofibrate and recheck a lipid panel in about three months",
+    "Hold the statin and restrict fluids to rest the injured kidneys"
+   ],
+   "answer": "B",
+   "rationale": "\"We want to stop this medication and usually… admit them to the hospital, lots of fluids, to flush all of these toxins out, and hopefully prevent long-term kidney damage.\" Restricting fluids works against flushing, and fenofibrate carries its own muscle toxicity risk.",
+   "src": "slides 52, 54 + 01:01:42 + 01:02:41"
+  },
+  {
+   "id": "p-034",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client starting a statin asks whether it will raise their risk of diabetes. Which response matches what she taught?",
+   "options": [
+    "There is a slight increase in diabetes risk, but the heart benefits outweigh it",
+    "Statins have no effect at all on the client's chance of getting diabetes",
+    "The diabetes risk is high enough that at-risk clients should avoid statins",
+    "Statins lower blood sugar, so they actually help prevent type 2 diabetes"
+   ],
+   "answer": "A",
+   "rationale": "\"It does have a slight increase in diabetes rates, but all the other benefits are so amazing\" that it's still worth it. So the risk is real (not zero) but small, and it doesn't make statins off-limits.",
+   "src": "slide 52 + 01:02:41 + 01:03:40"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client had an MI and takes a maximally tolerated statin, but the LDL is still above 70 mg/dL. Which add-on fits what she taught?",
+   "options": [
+    "Fenofibrate, which increases triglyceride clearance",
+    "Niacin, the routine second-line drug for LDL",
+    "Ezetimibe, which blocks intestinal cholesterol absorption",
+    "A second statin added to double the LDL effect"
+   ],
+   "answer": "C",
+   "rationale": "Ezetimibe (Zetia) is \"usually combined with… a statin just to give us an extra boost\" for additional LDL reduction. Fenofibrate is for severe hypertriglyceridemia, niacin is \"rarely used routinely anymore,\" and the client is already on the maximally tolerated statin, so another statin isn't the add-on.",
+   "src": "slides 49, 55 + 00:56:19 + 01:07:58 + 01:13:20"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client's LDL is at target, but the triglycerides are severely elevated (isolated hypertriglyceridemia). Which drug best fits?",
+   "options": [
+    "A statin, the gold standard for every type of lipid problem",
+    "Ezetimibe (Zetia), which blocks intestinal cholesterol absorption",
+    "Niacin, the routine first choice for lowering triglycerides",
+    "Fenofibrate (Tricor), which increases triglyceride clearance"
+   ],
+   "answer": "D",
+   "rationale": "Fenofibrate is \"the one that's going to work really well against triglycerides.\" Statins are the gold standard except for isolated hypertriglyceridemia — \"if your triglycerides are your only problem, statin is not the best choice\" — ezetimibe targets LDL, and niacin is \"rarely used routinely anymore.\"",
+   "src": "slides 50, 55 + 01:00:44 + 01:03:40 + 01:07:58"
+  },
+  {
+   "id": "p-037",
+   "tier": "3",
+   "type": "mc",
+   "stem": "The client takes atorvastatin, and fenofibrate is added for high triglycerides. What should the nurse monitor most closely?",
+   "options": [
+    "Muscle symptoms and renal function, since muscle toxicity risk rises",
+    "Flushing and liver enzymes, since this pairing mainly causes flushing",
+    "Bleeding and bruising, since fenofibrate adds an antiplatelet effect",
+    "Nothing new, since fenofibrate is generally very well tolerated"
+   ],
+   "answer": "A",
+   "rationale": "Fenofibrate: monitor renal function, and \"there is more of a muscle toxicity risk if it's combined with the statins, so you've got to be careful with that.\" Flushing belongs to niacin, \"generally well tolerated\" describes ezetimibe, and fenofibrate's listed mechanism is triglyceride clearance, not an antiplatelet effect.",
+   "src": "slide 55 + 01:07:58"
+  },
+  {
+   "id": "p-038",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Shortly after taking a lipid-lowering drug, the client's face looks flushed and rosy. Which drug most likely caused this?",
+   "options": [
+    "Ezetimibe",
+    "Niacin",
+    "Fenofibrate",
+    "Atorvastatin"
+   ],
+   "answer": "B",
+   "rationale": "Niacin causes flushing (plus hepatotoxicity and hyperglycemia) — her friend took a high dose to look \"all flushed and rosy\" and get sent home. Ezetimibe is generally well tolerated, fenofibrate's concerns are renal and muscle, and statins cause myalgia.",
+   "src": "slide 55 + 01:08:58"
+  },
+  {
+   "id": "p-039",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The client has high triglycerides, low HDL and high blood pressure; fasting glucose and waist circumference are normal. How should this be interpreted?",
+   "options": [
+    "Does not meet the criteria, because hyperglycemia must be present",
+    "Does not meet the criteria, because at least 4 of the 5 are needed",
+    "Meets metabolic syndrome criteria, because 3 of the 5 are present",
+    "Meets the criteria only if the waist circumference is also enlarged"
+   ],
+   "answer": "C",
+   "rationale": "Metabolic syndrome needs any three of five: high triglycerides, low HDL, high blood sugar, high blood pressure, large waist — \"you need at least three of these criteria.\" No single criterion is mandatory.",
+   "src": "slide 57 + 01:10:56"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Primary care clinic",
+   "setting": "Primary care clinic · first visit to month 3",
+   "text": "<b>Nurses' Notes — Day 1, 0900</b>\n52-year-old male client here for an annual physical. No history of heart attack, stroke or peripheral arterial disease. Smokes 1 pack of cigarettes a day. His father had a heart attack at age 58. Works a desk job and “doesn't really exercise.” Eats fast food for lunch most days. Takes loratadine for seasonal allergies. Fasting lipid panel drawn last week.\n<b>Vital Signs</b> — T 36.7°C · HR 76 · BP 128/80 · RR 16 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — Total cholesterol 246 mg/dL · LDL 168 mg/dL · HDL 38 mg/dL · Triglycerides 136 mg/dL\n<b>Orders</b> — Lifestyle counseling · provider to review statin therapy",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "The nurse reviews the chart. Which findings are risk factors for atherosclerotic cardiovascular disease that need follow-up? Select all that apply.",
+     "options": [
+      "LDL 168 mg/dL",
+      "Triglycerides 136 mg/dL",
+      "Smokes 1 pack a day",
+      "HDL 38 mg/dL",
+      "Takes loratadine for allergies",
+      "Father's heart attack at 58"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Judge each lipid against the targets she said to know: TC < 200, LDL < 100, HDL > 60, TG < 150. LDL 168 is high and HDL 38 is low (dyslipidemia injures the endothelium); smoking injures the endothelium and lowers HDL; family history is one of slide 49's statin indications. TG 136 is under 150, and an allergy medicine plays no part.",
+     "src": "slides 37, 47–49 + 00:50:22 + 00:54:19",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "Which statement best describes the goal of treating this client's lipids?",
+     "options": [
+      "Primary prevention — he has never had an ASCVD event",
+      "Secondary prevention — his father's MI counts as his established ASCVD",
+      "Secondary prevention — an LDL above 160 means he already has ASCVD",
+      "No prevention needed — his triglycerides and blood pressure are fine"
+     ],
+     "answer": "A",
+     "rationale": "Primary prevention prevents the first ASCVD event; secondary prevention is for clients who already have established ASCVD — a prior MI, an ischemic stroke due to atherosclerosis or symptomatic PAD (slide 49). A family member's MI is a risk factor, not his own disease, and a high LDL is a risk factor, not an event. A normal TG doesn't cancel out a high LDL.",
+     "src": "slide 49 + 00:53:49 + 00:54:19",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "Which lab result is the main treatment target for lowering this client's risk of a heart attack or stroke?",
+     "options": [
+      "HDL, because raising it with a drug is proven to prevent events",
+      "Triglycerides, because they are the main driver of plaque",
+      "LDL, because it is a major causal contributor to plaque",
+      "Total cholesterol, because only the total guides treatment"
+     ],
+     "answer": "C",
+     "rationale": "Slide 47: “LDL is a major causal contributor to atherosclerosis. Lowering LDL reduces the risk of cardiovascular events” — she said LDL is “almost always the main goal.” Low HDL matters, but drugs that raise HDL alone haven't consistently improved outcomes (exercise is the best way to raise it). His TG is already under 150.",
+     "src": "slides 47, 50 + 00:51:21 + 00:55:22",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "The provider prescribes moderate-intensity atorvastatin. Which items should the nurse anticipate in the plan of care? Select all that apply.",
+     "options": [
+      "Baseline liver enzymes before starting",
+      "Ezetimibe instead of the statin as the first-line drug",
+      "A follow-up lipid panel to check the response",
+      "Fenofibrate to bring his triglycerides down",
+      "Continued lifestyle changes alongside the statin",
+      "A drug to raise his HDL as the main treatment"
+     ],
+     "answer": "A, C, E",
+     "rationale": "Slide 54: obtain a baseline lipid profile and liver enzymes, then monitor the lipid response after starting; lifestyle modification stays foundational (slide 49). Statins are first-line — ezetimibe is an add-on for extra LDL lowering; fenofibrate is for severe hypertriglyceridemia (his TG is under 150); HDL-raising drugs haven't consistently improved outcomes.",
+     "src": "slides 49–50, 54–55 + 01:02:41 + 01:05:35",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "sata",
+     "stem": "The nurse teaches the client about atorvastatin and lifestyle changes. Which statements should the nurse include? Select all that apply.",
+     "options": [
+      "“Report severe muscle pain or urine that turns dark brown.”",
+      "“Aim for at least 150 minutes a week of moderate aerobic activity.”",
+      "“Stop the statin if your legs ache a little after yard work.”",
+      "“Exercise is the best way we have to raise your HDL.”",
+      "“The statin works by blocking cholesterol absorption in your gut.”",
+      "“Quitting smoking lowers your risk by reducing damage to your vessels.”"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Teach the rhabdomyolysis warning signs — severe muscle pain and dark “Coca-Cola” urine. Slide 51: ≥ 150 min/week of moderate aerobic activity and smoking cessation (reduces endothelial injury); “the best way that we have found to raise HDL is exercise.” A little muscle aching can occur (“a little bit of muscle pain has been reported”) and is assessed, not a reason to stop on his own. Blocking gut absorption is ezetimibe; statins inhibit HMG-CoA reductase in the liver.",
+     "src": "slides 51–52, 54 + 00:51:53 + 00:58:48 + 01:01:42",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Month 3, 0900.</b> Repeat lipid panel: total cholesterol 178 mg/dL · LDL 94 mg/dL · HDL 44 mg/dL · TG 120 mg/dL. The client quit smoking 6 weeks ago and walks 30 minutes 5 days a week, but still eats fast food for lunch most days. He says he skips the statin “on days I eat healthy.” Which findings show the plan is working? Select all that apply.",
+     "options": [
+      "LDL 94 mg/dL",
+      "Still eats fast food for lunch most days",
+      "Quit smoking 6 weeks ago",
+      "Skips the statin on healthy-eating days",
+      "Total cholesterol 178 mg/dL",
+      "Walks 150 minutes a week"
+     ],
+     "answer": "A, C, E, F",
+     "rationale": "LDL is now < 100 and TC < 200 — the targets she said to know — and quitting smoking plus 150 min/week of activity is the lifestyle plan in action. The fast-food lunches haven't changed — diet (less saturated and trans fat) is part of the plan, so that needs follow-up. Skipping doses needs follow-up: off the statin, levels “bounce back to where your higher level was, and then your risk factors go back up.”",
+     "src": "slides 47, 50–51 + 00:50:22 + 00:57:46",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Cardiac step-down unit",
+   "setting": "Cardiac step-down unit · hospital day 2 to week 6",
+   "text": "<b>Nurses' Notes — Day 2, 0800</b>\n58-year-old client admitted 2 days ago with an anterior wall MI. Cardiac catheterization showed a ruptured plaque with a thrombus in the proximal left anterior descending (LAD) artery. History of hypertension and type 2 diabetes; smokes ½ pack a day. Has osteoarthritis of both knees and takes acetaminophen as needed. Resting comfortably; asks, “How did this happen? I never had chest pain before.”\n<b>Vital Signs</b> — T 36.9°C · HR 78 · BP 132/80 · RR 16 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — Echocardiogram: ejection fraction 40% · Total cholesterol 226 mg/dL · LDL 142 mg/dL · HDL 40 mg/dL · Triglycerides 168 mg/dL\n<b>Orders</b> — High-intensity atorvastatin daily · antiplatelet therapy · smoking-cessation counseling · lifestyle teaching before discharge",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Which findings need follow-up? Select all that apply.",
+     "options": [
+      "Ejection fraction 40%",
+      "SpO₂ 97% on room air",
+      "LDL 142 mg/dL",
+      "Heart rate 78",
+      "Triglycerides 168 mg/dL",
+      "Smokes ½ pack a day"
+     ],
+     "answer": "A, C, E, F",
+     "rationale": "She said a healthy EF is 55–70% — at 40%, infarcted muscle “dies and does not contract anymore.” LDL 142 is far above the < 70 she wants after an MI, TG 168 is above 150, and smoking keeps injuring the endothelium. HR 78 and SpO₂ 97% need no follow-up.",
+     "src": "slides 9, 12, 37, 47 + 00:05:59 + 00:11:55 + 00:56:19",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "order",
+     "stem": "The client asks how a plaque he never felt caused a heart attack. Put the steps in order, from the first event to the MI.",
+     "options": [
+      "Macrophages engulf oxidized LDL, forming foam cells and a fatty streak",
+      "The plaque ruptures; platelets adhere and a thrombus blocks the LAD",
+      "Smoking, hypertension and diabetes injure the endothelium",
+      "Smooth muscle proliferates and collagen covers the streak as a fibrous plaque"
+     ],
+     "answer": "C, A, D, B",
+     "rationale": "Slides 37–40: endothelial injury → inflammation, adhesion molecules (“little sticky fingers”) and LDL oxidation → macrophages engulf oxidized LDL (foam cells) → fatty streak → smooth muscle + collagen form a fibrous plaque (“a scab over a wound”) → rupture (“ripping a scab off”) → platelet adhesion, clotting cascade, thrombus → infarction. Most plaques never rupture, which is why there may be no warning.",
+     "src": "slides 37–40 + 00:39:47 + 00:42:42 + 00:44:43",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "The cardiologist called the client's blocked LAD the “widowmaker.” The client is most likely experiencing which injury?",
+     "options": [
+      "Damage to the right ventricle, which pumps blood to the lungs",
+      "Damage confined to the lateral LV wall and the left atrium",
+      "Damage limited to one small, downstream coronary branch",
+      "Damage to much of the left ventricle, the heart's main pump"
+     ],
+     "answer": "D",
+     "rationale": "Slide 9: the LAD supplies the anterior left ventricle and anterior septum — “the biggest engine part of your heart,” so a full LAD blockage is very hard to survive. The right ventricle is RCA territory, the lateral LV and left atrium are circumflex territory, and a small-branch block is the less severe situation she contrasted with a whole-LAD block.",
+     "src": "slide 9 + 00:03:35 + 00:05:27 + 00:05:59",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "Which items should the nurse anticipate in the client's secondary-prevention plan? Select all that apply.",
+     "options": [
+      "An LDL goal below 70",
+      "Three months of lifestyle changes before any statin is started",
+      "High-intensity or maximally tolerated statin therapy",
+      "Additional LDL-lowering drugs if the goal isn't reached",
+      "Low-intensity statin to avoid raising his diabetes risk",
+      "Smoking cessation"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "After an MI he has established ASCVD: slide 49 calls for high-intensity or maximally tolerated statin therapy, with additional LDL-lowering drugs if needed, and she wants LDL “below seventy.” Smoking cessation reduces endothelial injury. A lifestyle-only trial fits a younger, healthier client in primary prevention (her LDL 115 example); the slight diabetes risk is outweighed by the cardiovascular benefit.",
+     "src": "slides 49, 51–52 + 00:54:19 + 00:56:19 + 01:02:41",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "mc",
+     "stem": "<b>Day 3, 1000.</b> The client says, “The atorvastatin is the strong kind? My LDL is only 142.” Which response by the nurse is best?",
+     "options": [
+      "“Everyone's goal is an LDL under 100, so you need about a 30% drop.”",
+      "“After a heart attack the goal is under 70; this lowers LDL by 50% or more.”",
+      "“The high intensity is mostly to raise your HDL above 60.”",
+      "“You'll only need the strong dose until the artery has fully healed after the MI.”"
+     ],
+     "answer": "B",
+     "rationale": "After an MI “we want their LDL to be below seventy, so we get a lot more aggressive,” and high-intensity statins lower LDL by ≥ 50% (moderate 30–49%). Under 100 is the general target, not the post-MI goal; statins don't do much for HDL (“we don't really have anything else for HDL”); and therapy is long-term, not until healing.",
+     "src": "slides 49, 53 + 00:56:19 + 00:59:46 + 01:06:34",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "mc",
+     "stem": "<b>Week 6, 1400.</b> Follow-up visit: LDL 66 mg/dL, no muscle pain, walking daily, no cigarettes since discharge. Which statement shows the client needs more teaching?",
+     "options": [
+      "“If I get bad muscle pain and dark urine, I'll call right away.”",
+      "“Walking every day and not smoking help my arteries too.”",
+      "“My LDL is under 70 now, so I can stop the atorvastatin.”",
+      "“If I stop the statin, my LDL will probably climb back up.”"
+     ],
+     "answer": "C",
+     "rationale": "Reaching the goal means the drug is working, not that it's done: stopping makes levels “bounce back to where your higher level was,” and she said it's likely lifelong. Reporting severe muscle pain with dark urine, keeping up exercise and staying smoke-free are all correct.",
+     "src": "slide 54 + 00:57:46 + 01:06:34",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Cardiology clinic",
+   "setting": "Cardiology clinic and medical unit · days 1–12",
+   "text": "<b>Nurses' Notes — Day 1, 1000</b>\n70-year-old female client with a prior MI, on high-intensity atorvastatin for 8 months. Here for a routine follow-up. Reports “achy” thighs for about a week since starting a water-aerobics class; can still climb stairs and do her usual activities. Urine is light yellow. Wears bilateral hearing aids. Takes atorvastatin every evening without missed doses.\n<b>Vital Signs</b> — T 36.8°C · HR 72 · BP 126/76 · RR 16 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — LDL 64 mg/dL · liver enzymes within normal limits\n<b>Orders</b> — Continue atorvastatin · assess muscle symptoms at each contact",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which findings are relevant to assessing this client for a statin adverse effect? Select all that apply.",
+     "options": [
+      "Thigh aching for a week",
+      "Urine is light yellow",
+      "Can still climb stairs",
+      "Wears bilateral hearing aids",
+      "BP 126/76",
+      "LDL 64 mg/dL"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Slide 54: assess for unexplained muscle pain, tenderness or weakness, and dark urine. The aching is the cue; normal urine color and normal strength are pertinent negatives that help separate myalgia from rhabdomyolysis. LDL 64 shows the statin is working; hearing aids and BP have nothing to do with statin adverse effects.",
+     "src": "slides 52, 54 + 01:01:42 + 01:05:35",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "mc",
+     "stem": "The Day 1 findings are most consistent with which condition?",
+     "options": [
+      "Rhabdomyolysis, which requires stopping the statin today",
+      "Statin myalgia — aching muscles without dark urine",
+      "Statin liver damage causing referred pain to the thighs",
+      "Muscle toxicity from combining a statin with fenofibrate"
+     ],
+     "answer": "B",
+     "rationale": "“Myalgia may occur. So myalgia is aching muscles.” Rhabdomyolysis is severe muscle pain plus dark “Coca-Cola” urine — not present. Her liver enzymes are normal, and she isn't on fenofibrate (that combination raises muscle-toxicity risk).",
+     "src": "slides 52, 55 + 01:00:44 + 01:01:42",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "<b>Day 9, 0730.</b> The client calls the clinic: her thighs are now so painful and weak she can't get out of a chair, and her urine is “dark brown, like cola.” The client is most likely experiencing:",
+     "options": [
+      "Rhabdomyolysis from atorvastatin",
+      "Expected myalgia made worse by exercise",
+      "Liver damage from the atorvastatin",
+      "Dehydration from her exercise class"
+     ],
+     "answer": "A",
+     "rationale": "Severe muscle pain with dark “Coca-Cola” urine is rhabdomyolysis — the rare but serious statin effect with “lots of questions for exams.” Myalgia is aching without dark urine; liver damage is picked up with liver function tests; the dark color here is pigment from broken-down muscle cells passing through the kidneys.",
+     "src": "slides 52, 54 + 01:01:42 + 01:12:51",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "Which actions should the nurse anticipate for this client? Select all that apply.",
+     "options": [
+      "Stop the atorvastatin",
+      "Prompt evaluation for rhabdomyolysis",
+      "Hospital admission for lots of fluids",
+      "Restrict fluids to protect the kidneys",
+      "Switch to a higher-intensity statin",
+      "Continue the statin at a lower dose"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Slide 54: severe muscle symptoms or dark urine warrant prompt evaluation for rhabdomyolysis. She said “we want to stop this medication and usually… admit them to the hospital, lots of fluids, to flush all of these toxins out, and hopefully prevent long-term kidney damage.” Restricting fluids does the opposite, and any statin — higher or lower dose — keeps the cause going.",
+     "src": "slide 54 + 01:01:42 + 01:02:41",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "order",
+     "stem": "<b>Day 9, 1300.</b> The client is admitted and asks, “Why are you worried about my kidneys when it's my legs that hurt?” Put the events the nurse explains in order.",
+     "options": [
+      "Lots of IV fluids flush the toxins out to prevent long-term kidney damage",
+      "Muscle cells break down",
+      "The released contents reach the kidneys and damage them (dark urine)",
+      "The cells' internal contents are released into the bloodstream"
+     ],
+     "answer": "B, D, C, A",
+     "rationale": "“Rhabdomyolysis occurs when muscle tissue is broken down, and a whole bunch of the internal contents of muscle cells are released into the bloodstream. This will cause renal damage” — the “Coca-Cola urine” is pigment from the muscle cells passing through the kidneys. Treatment comes last: “lots of fluids, to flush all of these toxins out, and hopefully prevent long-term kidney damage.”",
+     "src": "slide 52 + 01:01:42 + 01:02:41",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "<b>Day 12, 0900.</b> After 3 days of IV fluids, the nurse reviews the client's progress. Which findings show the treatment is working? Select all that apply.",
+     "options": [
+      "Urine is light yellow again",
+      "Thigh pain 2/10, down from 9/10",
+      "Asks to restart atorvastatin at home tonight",
+      "Walks to the bathroom without help",
+      "Reports new aching in both shoulders"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Clearing urine, less pain and returning strength show the muscle breakdown is settling and the kidneys are being flushed. New muscle pain needs follow-up. Restarting the statin on her own isn't safe — it was stopped for rhabdomyolysis, and she noted some people who have had rhabdo “cannot take statins” any longer.",
+     "src": "slides 52, 54 + 01:02:41 + 01:07:58",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Emergency department",
+   "setting": "Emergency department · arrival to hour 4",
+   "text": "<b>Nurses' Notes — Day 1, 1500</b>\n68-year-old female client brought in by her daughter after 2 days of vomiting and diarrhea; has kept down only sips of water. Feels lightheaded when she sits up. Has hypothyroidism and takes levothyroxine; takes a moderate-intensity statin for hyperlipidemia. Echocardiogram last year: ejection fraction 60%. Lungs clear.\n<b>Vital Signs</b> — T 37.4°C · HR 122 · BP 86/52 · RR 20 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — Liver enzymes within normal limits\n<b>Orders</b> — IV fluid bolus · vital signs every 15 minutes",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which findings are relevant to a fall in this client's cardiac output? Select all that apply.",
+     "options": [
+      "2 days of vomiting and diarrhea",
+      "Ejection fraction 60% last year",
+      "Heart rate 122",
+      "SpO₂ 97% on room air",
+      "Blood pressure 86/52",
+      "Takes levothyroxine"
+     ],
+     "answer": "A, C, E",
+     "rationale": "Fluid loss with almost no intake drops circulating volume; the low BP is the result and the fast HR is the reflex response. An EF of 60% is in her healthy 55–70% range, so the pump itself was working; SpO₂ 97% and levothyroxine aren't part of this problem.",
+     "src": "slides 12, 26, 28 + 00:11:55 + 00:26:35",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "order",
+     "stem": "Put the chain that explains this client's low blood pressure in order.",
+     "options": [
+      "Less stretch produces a smaller stroke volume",
+      "Cardiac output falls (CO = HR × SV)",
+      "Lost volume reduces venous return and preload",
+      "Blood pressure falls (BP = CO × SVR)"
+     ],
+     "answer": "C, A, B, D",
+     "rationale": "Preload = stretch, set largely by venous return/volume. By Frank–Starling, less stretch → less forceful contraction → smaller SV; CO = HR × SV, and BP = CO × SVR. Slide 27 lists circulating volume (preload) as one of the levers on the CO side.",
+     "src": "slides 15–16, 26–27 + 00:12:55 + 00:24:56",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "The heart rate of 122 shows the client is most likely experiencing which response?",
+     "options": [
+      "Parasympathetic ACh on muscarinic receptors speeding the SA node",
+      "Natriuretic peptides released because the heart is overstretched",
+      "Aldosterone acting directly on the SA node within seconds",
+      "Baroreceptor reflex: SNS norepinephrine on β₁ to restore BP"
+     ],
+     "answer": "D",
+     "rationale": "Baroreceptors are the “pressure sensor”: a drop in BP triggers reflex tachycardia within seconds to minutes through SNS NE → β₁ (↑ HR, conduction, contractility). ACh on muscarinic receptors slows the heart; natriuretic peptides answer volume overload (the opposite problem); aldosterone acts on the kidneys over days.",
+     "src": "slides 10, 28–30 + 00:06:59 + 00:26:35",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "Which items should the nurse anticipate in this client's plan of care? Select all that apply.",
+     "options": [
+      "Restore circulating volume with the ordered IV fluid",
+      "A diuretic to clear extra fluid",
+      "Limit IV fluid to avoid stretching the heart",
+      "A beta blocker to slow the heart rate",
+      "Trend HR and BP every 15 minutes",
+      "An arteriolar vasodilator to improve flow"
+     ],
+     "answer": "A, E",
+     "rationale": "Restoring volume raises venous return and preload, so SV and CO rise (slide 29: fluid retained → venous return ↑ → CO ↑), and the ordered vital signs track the response. A healthy heart (EF 60%) handles more filling — Frank–Starling. Slide 27's drug classes go the wrong way here: diuretics cut volume, beta blockers cut HR and contractility (removing her compensation), and vasodilators drop SVR — each lowers BP.",
+     "src": "slides 27, 29, 31 + 00:29:30",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 1600.</b> The client has made very little urine since arrival. The daughter asks why. Which explanation by the nurse is accurate?",
+     "options": [
+      "“Natriuretic peptides from her heart are telling her kidneys to hold on to water.”",
+      "“Her thicker blood has permanently damaged her kidneys.”",
+      "“Her kidneys sensed the low pressure and are holding on to salt and water.”",
+      "“Her parasympathetic system is slowing blood flow to her kidneys.”"
+     ],
+     "answer": "C",
+     "rationale": "RAAS: “any drop in blood pressure or drop in fluid volume will be sensed by the kidneys” → renin → angiotensin I → angiotensin II (vasoconstriction) → aldosterone, which tells the kidneys to “hold on to some water, hold on to some salt.” Natriuretic peptides do the opposite — they promote diuresis in volume overload. Dehydration does make blood more viscous, which slows flow, but nothing here shows permanent kidney damage. The parasympathetic system slows the heart; it isn't what's holding back urine here.",
+     "src": "slides 25, 29–30 + 00:23:10 + 00:26:35 + 00:27:32",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 1900.</b> After the fluid bolus: HR 94 · BP 112/70 · SpO₂ 97% · no longer lightheaded sitting up · urine output increasing · vomited once more an hour ago. Which findings show the treatment is working? Select all that apply.",
+     "options": [
+      "HR down from 122 to 94",
+      "BP up from 86/52 to 112/70",
+      "SpO₂ 97% on room air",
+      "No longer lightheaded sitting up",
+      "Urine output increasing",
+      "Vomited once more an hour ago"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "As volume returns, preload, SV and CO rise, BP recovers, and the baroreceptor reflex no longer has to drive the heart rate up; the kidneys no longer need to hold on to as much water. SpO₂ was normal from the start, so it doesn't measure this plan, and more vomiting is ongoing volume loss that needs follow-up.",
+     "src": "slides 26, 28–29 + 00:26:35 + 00:29:30",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Internal medicine clinic",
+   "setting": "Internal medicine clinic · weeks 0–8",
+   "text": "<b>Nurses' Notes — Week 0, 1100</b>\n56-year-old male client here for a third blood pressure check. Readings at the last two visits were 162/96 and 166/98. Has gained 35 lb over the last 3 years. Takes no medications. Plays guitar in a weekend band. Recent echocardiogram: ejection fraction 62%.\n<b>Vital Signs</b> — T 36.6°C · HR 80 · BP 168/98 · RR 16 · SpO₂ 99% on room air\n<b>Laboratory Results</b> — Total cholesterol 184 mg/dL · LDL 88 mg/dL · HDL 62 mg/dL · Triglycerides 118 mg/dL\n<b>Orders</b> — Provider to start antihypertensive therapy · weight-management counseling",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings are relevant to the client's elevated blood pressure? Select all that apply.",
+     "options": [
+      "BP 168/98 today",
+      "LDL 88 mg/dL",
+      "35-lb weight gain",
+      "Ejection fraction 62%",
+      "Prior readings 162/96 and 166/98",
+      "HDL 62 mg/dL"
+     ],
+     "answer": "A, C, E",
+     "rationale": "A high BP across three visits is the problem. The weight gain matters: the body grows new vessels to feed the extra tissue — “more miles of blood vessels” — which raises resistance. His lipids all meet the targets she said to know (LDL < 100, HDL > 60), and an EF of 62% is in the healthy 55–70% range.",
+     "src": "slides 25–26, 32, 47 + 00:11:55 + 00:23:10",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "order",
+     "stem": "Put in order the chain by which this client's hypertension increases the work of his heart.",
+     "options": [
+      "Afterload rises: the LV must exceed aortic pressure to open the valve",
+      "Arterioles constrict",
+      "Left ventricular workload increases over time",
+      "Systemic vascular resistance rises"
+     ],
+     "answer": "B, D, A, C",
+     "rationale": "Arterioles are “the major determinant of resistance,” so their constriction raises SVR. Afterload is the pressure the heart must overcome — at 168 systolic the LV must make at least 169 mm Hg to open the aortic valve (her 120 → 121, 180 → 181 example) — and ↑ SVR → ↑ LV workload. “Hypertension is rough on the heart.”",
+     "src": "slides 17, 22, 34 + 00:15:45 + 00:19:14",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "Which hemodynamic change is the main concern for this client's heart?",
+     "options": [
+      "Decreased preload from too little venous return",
+      "Increased afterload from high systemic vascular resistance",
+      "Decreased contractility from a loss of β₁ stimulation",
+      "Increased preload stretching fibers past their optimal length"
+     ],
+     "answer": "B",
+     "rationale": "His problem is pressure, not stretch: “afterload = pressure,” determined by SVR, and ↑ SVR → ↑ LV workload — like pushing a door open against the wind. Nothing in the chart suggests too little or too much venous return, and a normal EF (62%) argues against weak contractility.",
+     "src": "slides 17–18, 34 + 00:15:45",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "The provider wants a drug that lowers BP mainly by vasodilation, decreasing SVR. Which drug classes should the nurse anticipate? Select all that apply.",
+     "options": [
+      "Beta blockers",
+      "Direct vasodilators such as hydralazine",
+      "Diuretics",
+      "Aldosterone antagonists",
+      "Alpha-1 blockers"
+     ],
+     "answer": "B, E",
+     "rationale": "Slide 27 (her preview of next week): SVR is lowered by vasodilation — direct vasodilators such as hydralazine, and alpha-1 blockers (block α₁ → vasodilation). Beta blockers work on the CO side (↓ HR and contractility), and diuretics and aldosterone antagonists reduce circulating volume (preload).",
+     "src": "slide 27 + 00:25:36",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "mc",
+     "stem": "<b>Week 0, 1130.</b> The provider prescribes a beta blocker. Before the first dose, which assessment relates most directly to how this drug lowers blood pressure?",
+     "options": [
+      "Heart rate",
+      "Daily weight trend",
+      "Baseline liver enzymes",
+      "Fasting blood glucose"
+     ],
+     "answer": "A",
+     "rationale": "Slide 27: beta blockers lower CO by decreasing heart rate and contractility — they block the SNS NE → β₁ effect (slide 10) — so heart rate is the assessment tied to the mechanism. A weight trend fits a drug that changes circulating volume, and liver enzymes are a statin baseline; glucose isn't how this drug works.",
+     "src": "slides 10, 27 + 00:06:59",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "mc",
+     "stem": "<b>Week 8, 1100.</b> The client has taken the beta blocker for 8 weeks. Which finding best shows the drug is working as intended?",
+     "options": [
+      "HR 64, but BP still unchanged at 168/98 mm Hg",
+      "BP 138/86, but HR has climbed to 104 from 80",
+      "Weight down 2 lb, BP still 168/98 at this visit",
+      "HR 64 and BP 138/86, down from 80 and 168/98"
+     ],
+     "answer": "D",
+     "rationale": "CO = HR × SV and BP = CO × SVR: slowing the rate (and contractility) lowers CO, which lowers BP — so both should fall. A slower rate with no BP change hasn't met the goal, a rising HR is the opposite of β₁ blockade, and weight isn't how this drug works.",
+     "src": "slides 12, 26–27 + 00:24:56",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Endocrine clinic",
+   "setting": "Endocrine clinic · weeks 0–12",
+   "text": "<b>Nurses' Notes — Week 0, 1330</b>\n47-year-old male client with type 2 diabetes referred for a lipid review. Drinks 4–5 beers most nights. Has taken moderate-intensity atorvastatin for 1 year for a high LDL. Waist circumference 42 in (above the cutoff for men). Reports occasional heartburn after spicy food. No abdominal pain today.\n<b>Vital Signs</b> — T 36.8°C · HR 84 · BP 138/88 (elevated at the last 3 visits) · RR 16 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — Triglycerides 940 mg/dL (H) · HDL 34 mg/dL (L) · LDL 92 mg/dL · Fasting glucose 142 mg/dL (H) · Renal function within normal limits · TSH within normal limits\n<b>Orders</b> — Provider to review triglyceride therapy · lifestyle counseling",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which of the client's findings are components of metabolic syndrome? Select all that apply.",
+     "options": [
+      "Triglycerides 940 mg/dL (H)",
+      "LDL 92 mg/dL",
+      "HDL 34 mg/dL (L)",
+      "4–5 beers most nights",
+      "Fasting glucose 142 mg/dL (H)",
+      "Waist 42 in, above the cutoff"
+     ],
+     "answer": "A, C, E, F",
+     "rationale": "The five components are high triglycerides, low HDL, hyperglycemia, hypertension and a large waist circumference — the cutoffs are FYI (“You don't need to memorize the numbers”), so go by the flags. LDL isn't one of the five (and 92 is under 100). Alcohol raises triglycerides but isn't a criterion itself.",
+     "src": "slides 48, 57 + 01:10:56",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "Which statement about this client's metabolic syndrome is accurate?",
+     "options": [
+      "He doesn't meet criteria, because his LDL is below 100",
+      "He meets criteria only when all five components are present",
+      "He meets criteria: at least 3 of the 5 components are present",
+      "He meets criteria because his triglycerides alone are so high"
+     ],
+     "answer": "C",
+     "rationale": "Metabolic syndrome needs at least 3 of the 5 criteria; he has all five (high TG, low HDL, high glucose, high BP, large waist). The cluster signals higher risk of heart disease, stroke and diabetes. LDL isn't a criterion, all five aren't required, and one abnormal value isn't enough.",
+     "src": "slide 57 + 01:10:56",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "Which complication is the nurse most concerned about given these lab results?",
+     "options": [
+      "Acute pancreatitis from the very high triglycerides",
+      "Rhabdomyolysis from his current statin",
+      "Liver damage from moderate-intensity atorvastatin",
+      "Hypothyroidism driving up his triglycerides"
+     ],
+     "answer": "A",
+     "rationale": "Slides 50 and 58: severe hypertriglyceridemia increases the risk of acute pancreatitis — “if you have really high triglyceride levels, we're also worried about pancreas.” He has no muscle symptoms, nothing in the chart points to liver injury, and his TSH is normal.",
+     "src": "slides 50, 58 + 00:55:22",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "Which items should the nurse anticipate in the plan? Select all that apply.",
+     "options": [
+      "Limit alcohol intake",
+      "Fenofibrate to increase triglyceride clearance",
+      "A high-intensity statin as the main triglyceride treatment",
+      "Better control of his diabetes as a secondary cause",
+      "Niacin as the first-line triglyceride drug",
+      "Weight management and regular aerobic exercise"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Slide 50: lifestyle changes, management of secondary causes (diabetes is one, slide 48) and selected TG-lowering drugs. Limiting alcohol is “particularly important in hypertriglyceridemia.” Fenofibrate (activates PPAR-α, increasing TG clearance) is the drug for severe hypertriglyceridemia. Statins only modestly lower TG (“if your triglycerides are your only problem, statin is not the best choice”), and niacin is rarely used routinely.",
+     "src": "slides 48, 50–51, 55 + 00:51:53 + 00:55:22 + 01:07:58",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "sata",
+     "stem": "<b>Week 0, 1400.</b> The provider adds fenofibrate to the atorvastatin. Which statements should the nurse include in teaching? Select all that apply.",
+     "options": [
+      "“Report muscle pain, weakness or dark urine promptly.”",
+      "“Fenofibrate lowers LDL by blocking cholesterol absorption in the gut.”",
+      "“Your kidney function will be checked with blood tests.”",
+      "“Taking it with the statin raises the risk of muscle toxicity.”",
+      "“With fenofibrate, you can keep drinking the same amount of beer.”",
+      "“You can stop the atorvastatin once the fenofibrate is working.”"
+     ],
+     "answer": "A, C, D",
+     "rationale": "Slide 55: fenofibrate — monitor renal function; muscle toxicity risk with statins (“you've got to be careful with that”), so teach the muscle and dark-urine warning signs. Blocking gut absorption is ezetimibe; limiting alcohol stays in the plan; and the statin still treats his LDL — it's the gold standard.",
+     "src": "slides 51, 55 + 01:07:58",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "mc",
+     "stem": "<b>Week 12, 1330.</b> Triglycerides 310 mg/dL · renal function within normal limits. Which finding requires prompt follow-up?",
+     "options": [
+      "Triglycerides down from 940 to 310 mg/dL",
+      "New thigh weakness and darker urine for 2 days",
+      "Cut back from nightly beers to 2 beers on weekends only",
+      "Waist down from 42 to 40 inches"
+     ],
+     "answer": "B",
+     "rationale": "Muscle weakness with dark urine in a client taking fenofibrate plus a statin points to muscle toxicity — severe muscle symptoms or dark urine warrant prompt evaluation for rhabdomyolysis. The falling TG, less alcohol and smaller waist show the plan is working.",
+     "src": "slides 54–55 + 01:01:42 + 01:07:58",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Neurology follow-up clinic",
+   "setting": "Neurology follow-up clinic · months 6–9 after a stroke",
+   "text": "<b>Nurses' Notes — Month 6, 1000</b>\n66-year-old female client seen 6 months after an ischemic stroke caused by an atherosclerotic plaque that ruptured in a cerebral artery. Mild residual weakness of the left hand; walks independently. Has taken high-intensity atorvastatin since the stroke but says she “runs out a few days most months” before refilling. Her provider's LDL goal is < 70. Enjoys gardening and volunteers at the library. Asks, “I feel fine now — can I stop the pill?”\n<b>Vital Signs</b> — T 36.7°C · HR 70 · BP 124/76 · RR 16 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — LDL 104 mg/dL · HDL 64 mg/dL · Triglycerides 128 mg/dL · liver enzymes within normal limits\n<b>Orders</b> — Provider to review lipid therapy · repeat lipid panel in 3 months",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which findings need follow-up? Select all that apply.",
+     "options": [
+      "LDL 104 mg/dL",
+      "Runs out of atorvastatin a few days most months",
+      "HDL 64 mg/dL",
+      "Asks whether she can stop the statin",
+      "BP 124/76",
+      "Triglycerides 128 mg/dL"
+     ],
+     "answer": "A, B, D",
+     "rationale": "LDL 104 is above her provider's < 70 goal (and even above the general < 100). Running out and wanting to stop are adherence problems — off the statin, levels “bounce back.” HDL 64 (> 60) and TG 128 (< 150) meet the targets she said to know, and the BP isn't part of this problem.",
+     "src": "slides 47, 54 + 00:50:22 + 00:57:46",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "Why does this client need secondary rather than primary prevention?",
+     "options": [
+      "Her LDL above 100 automatically counts as established disease",
+      "Any stroke, whatever the cause, counts as an ASCVD event",
+      "Her left-hand weakness shows the plaque is still growing",
+      "Her stroke from atherosclerosis means established ASCVD"
+     ],
+     "answer": "D",
+     "rationale": "Slide 49 lists ischemic stroke due to atherosclerosis — with prior MI and symptomatic PAD — as established ASCVD, so the goal is preventing a recurrent event. The atherosclerotic cause is what counts, not just any stroke. A high LDL is a risk factor, not an event, and residual weakness is damage from the stroke, not proof of plaque growth.",
+     "src": "slides 40, 49 + 00:45:43 + 00:54:19",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "Which outcome is the nurse most focused on preventing for this client?",
+     "options": [
+      "Pancreatitis from her triglyceride level",
+      "Rhabdomyolysis from her high-intensity statin",
+      "Another plaque rupture causing a stroke or MI",
+      "Diabetes caused by long-term statin use"
+     ],
+     "answer": "C",
+     "rationale": "Secondary prevention aims to prevent recurrent ASCVD events, and where a plaque ruptures decides the outcome (coronary → MI, cerebral → ischemic stroke, peripheral → acute limb ischemia). Her TG is 128, she has no muscle symptoms, and the slight statin diabetes risk is outweighed by the benefit.",
+     "src": "slides 40, 49, 52 + 00:45:43 + 01:02:41",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "<b>Month 6, 1030.</b> The provider decides to intensify LDL-lowering therapy. Which items should the nurse anticipate? Select all that apply.",
+     "options": [
+      "Add ezetimibe to the statin",
+      "Continue the high-intensity atorvastatin",
+      "Replace the statin with fenofibrate",
+      "Strategies to keep her from running out of pills",
+      "Stop the statin and rely on lifestyle changes alone",
+      "A repeat lipid panel to check the response"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Slide 49: in secondary prevention, additional LDL-lowering medications may be needed to reach goals; ezetimibe (Zetia) is usually combined with a statin “just to give us an extra boost.” Reinforce adherence and monitor the lipid response (slide 54). Fenofibrate is for severe hypertriglyceridemia, and dropping the statin removes the gold standard.",
+     "src": "slides 49, 54–55 + 01:05:35 + 01:07:58",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "The client asks, “If I take both pills every day and keep gardening, can I stop them in a year?” Which response by the nurse is best?",
+     "options": [
+      "“Most people stay on them long term; stopping lets your LDL climb back.”",
+      "“Yes — once your LDL is under 70, both pills can be stopped.”",
+      "“You can stop the statin once the ezetimibe has had time to work.”",
+      "“If you exercise 150 minutes a week, you won't need either pill.”"
+     ],
+     "answer": "A",
+     "rationale": "Off the statin “you're just gonna bounce back to where your higher level was, and then your risk factors go back up.” Tapering after big lifestyle changes is “very rare” — “sometimes genetics rules the day” — and she said it's likely lifelong. Ezetimibe is an add-on to the statin, not a replacement.",
+     "src": "slide 54 + 00:57:46 + 01:06:34 + 01:07:05",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Month 9, 1000.</b> Repeat LDL is 66 mg/dL. The client now uses a weekly pill organizer and refill reminders. Which findings show the plan is working? Select all that apply.",
+     "options": [
+      "LDL 66 mg/dL",
+      "Says ezetimibe “keeps my gut from absorbing cholesterol”",
+      "Plans to stop atorvastatin now that her LDL is low",
+      "Uses a pill organizer and refill reminders",
+      "Says ezetimibe has replaced the need for her statin"
+     ],
+     "answer": "A, B, D",
+     "rationale": "LDL is now below her < 70 goal, she has a system for adherence, and she correctly explains ezetimibe's mechanism (inhibits intestinal cholesterol absorption). Planning to stop the statin, or thinking ezetimibe replaces it, needs reteaching — ezetimibe is an add-on, and stopping lets levels bounce back.",
+     "src": "slides 54–55 + 00:57:46 + 01:07:58",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Rapid rounds",
+   "setting": "Clinic, cardiac unit and pharmacy · one question each",
+   "text": "Five clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "mc",
+     "stem": "A 32-year-old client taking rosuvastatin for a high LDL that runs in her family tells the nurse she and her partner plan to try for a baby this year. Which response is best?",
+     "options": [
+      "“Keep taking it — statins are the gold standard in pregnancy too.”",
+      "“Let's talk with your provider; statins are usually stopped in pregnancy.”",
+      "“Switch to niacin on your own until after the baby is born.”",
+      "“Keep taking it, but cut the dose in half once you find out you're pregnant.”"
+     ],
+     "answer": "B",
+     "rationale": "Slide 54: discuss pregnancy plans — statins are generally discontinued during pregnancy. If a client wants to become pregnant, it's “talking to the docs about what are our options and coming off the statins.” Switching or adjusting drugs on her own isn't the plan.",
+     "src": "slide 54 + 01:05:35"
+    },
+    {
+     "id": "c08-q02",
+     "type": "sata",
+     "stem": "A client who had rhabdomyolysis on a statin is prescribed niacin. Which adverse effects should the nurse teach the client to watch for? Select all that apply.",
+     "options": [
+      "Flushing",
+      "Low blood glucose",
+      "Liver damage (hepatotoxicity)",
+      "High blood glucose",
+      "Slow heart rate"
+     ],
+     "answer": "A, C, D",
+     "rationale": "Slide 55: niacin — flushing, hepatotoxicity and hyperglycemia, with limited outcome benefit, so it's rarely used routinely; it may be an option for people who had rhabdo and can't take statins. (Her story: a friend took a high dose to look “flushed and rosy” and get sent home.) It raises glucose rather than lowering it.",
+     "src": "slide 55 + 01:07:58 + 01:08:58"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "A client with heart failure has a BNP much higher than at the last admission. The nurse understands that this means:",
+     "options": [
+      "The RAAS is releasing BNP to hold on to sodium and water",
+      "BNP is worsening the failure by constricting the arterioles",
+      "The client needs BNP replacement to treat volume overload",
+      "The heart is more stretched and stressed — worse heart failure"
+     ],
+     "answer": "D",
+     "rationale": "BNP is released when the heart is overstretched; it promotes diuresis and vasodilation and suppresses RAAS a little. It's too weak to use as a drug — “we use them, however, as markers”: BNP gets higher and higher the more the heart is stressed in heart failure. Holding on to sodium and water is RAAS (angiotensin II, aldosterone).",
+     "src": "slide 30 + 00:28:31 + 00:29:30"
+    },
+    {
+     "id": "c08-q04",
+     "type": "mc",
+     "stem": "A client recovering from an MI asks when the heart muscle itself gets its blood supply. Which answer is correct?",
+     "options": [
+      "During systole, when contraction pushes blood into the coronaries",
+      "Equally in systole and diastole, since coronary flow is constant",
+      "Mainly in diastole, when the relaxed muscle lets coronaries fill",
+      "Only at the moment the AV valves close as contraction begins"
+     ],
+     "answer": "C",
+     "rationale": "Coronary perfusion occurs primarily during diastole: “During systole, the constriction of the heart kind of prevents blood flow from going through the coronary vessels. So it's during the relaxation that we actually get really good blood flow to the heart muscle.”",
+     "src": "slide 9 + 00:05:59"
+    },
+    {
+     "id": "c08-q05",
+     "type": "mc",
+     "stem": "While listening to a client's heart, a student nurse asks which valves are open while the ventricles eject blood. Which answer is correct?",
+     "options": [
+      "Aortic and pulmonic open; mitral and tricuspid closed",
+      "Mitral and tricuspid open; aortic and pulmonic closed",
+      "All four valves open so blood moves straight through",
+      "Mitral and aortic open; tricuspid and pulmonic closed"
+     ],
+     "answer": "A",
+     "rationale": "Slide 8: during filling the AV valves (tricuspid, mitral) are open and the semilunar valves closed; during ejection the semilunar valves (aortic, pulmonic) are open and the AV valves closed. There's a short moment when both sets are closed as contraction starts — never all four open.",
+     "src": "slide 8 + 00:02:05 + 00:03:04"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "Valves while the ventricles are filling",
+   "back": "AV valves (tricuspid, mitral) OPEN · semilunar valves (aortic, pulmonic) CLOSED",
+   "tag": "blood-flow",
+   "src": "slide 8 + 00:02:05"
+  },
+  {
+   "id": "fc-002",
+   "front": "Valves while blood is leaving the heart",
+   "back": "Semilunar valves (aortic, pulmonic) OPEN · AV valves (tricuspid, mitral) CLOSED",
+   "tag": "blood-flow",
+   "src": "slide 8 + 00:03:04"
+  },
+  {
+   "id": "fc-003",
+   "front": "Right vs left AV valve",
+   "back": "Right = tricuspid · left = mitral",
+   "tag": "blood-flow",
+   "src": "slide 5 + 00:00:05"
+  },
+  {
+   "id": "fc-004",
+   "front": "When does coronary perfusion mainly occur?",
+   "back": "Diastole — during systole the squeezing heart muscle 'kind of prevents blood flow' through the coronaries",
+   "tag": "blood-flow",
+   "src": "slide 9 + 00:05:59"
+  },
+  {
+   "id": "fc-005",
+   "front": "LAD territory — and its nickname",
+   "back": "Anterior left ventricle + anterior septum · the 'widowmaker': it supplies 'the biggest engine part of your heart'",
+   "tag": "blood-flow",
+   "src": "slide 9 + 00:03:35"
+  },
+  {
+   "id": "fc-006",
+   "front": "Circumflex artery territory",
+   "back": "Lateral left ventricle + portions of the left atrium (wraps toward the back of the heart)",
+   "tag": "blood-flow",
+   "src": "slide 9 + 00:05:59"
+  },
+  {
+   "id": "fc-007",
+   "front": "RCA territory",
+   "back": "Most of the right ventricle",
+   "tag": "blood-flow",
+   "src": "slide 9 + 00:05:59"
+  },
+  {
+   "id": "fc-008",
+   "front": "SA node",
+   "back": "The 'pacemaker' · innervated by the ANS · resting rate 60–100 bpm",
+   "tag": "cardiac-output",
+   "src": "slide 10 + 00:06:59"
+  },
+  {
+   "id": "fc-009",
+   "front": "Sympathetic effect on the heart (transmitter → receptor → effect)",
+   "back": "NE → β₁ → ↑ HR, ↑ conduction, ↑ contractility",
+   "tag": "cardiac-output",
+   "src": "slide 10 + 00:06:59"
+  },
+  {
+   "id": "fc-010",
+   "front": "Parasympathetic effect on the heart (transmitter → receptor → effect)",
+   "back": "ACh → muscarinic → ↓ HR and ↓ AV nodal conduction (vagus nerve)",
+   "tag": "cardiac-output",
+   "src": "slide 10 + 00:06:59"
+  },
+  {
+   "id": "fc-011",
+   "front": "P wave",
+   "back": "Atrial depolarization",
+   "tag": "ecg",
+   "src": "slide 11 + 00:09:56"
+  },
+  {
+   "id": "fc-012",
+   "front": "QRS complex",
+   "back": "Ventricular depolarization (atrial repolarization is hidden — the ventricular signal 'washes out' that reading)",
+   "tag": "ecg",
+   "src": "slide 11 + 00:09:56"
+  },
+  {
+   "id": "fc-013",
+   "front": "T wave",
+   "back": "Ventricular repolarization",
+   "tag": "ecg",
+   "src": "slide 11 + 00:09:56"
+  },
+  {
+   "id": "fc-014",
+   "front": "Cardiac output equation",
+   "back": "CO = HR × SV — 'This is an equation!' (multiply — don't add)",
+   "tag": "cardiac-output",
+   "src": "slide 12 + 00:11:25"
+  },
+  {
+   "id": "fc-015",
+   "front": "Average adult cardiac output",
+   "back": "About 5 L/min (an average — adults come in lots of sizes)",
+   "tag": "cardiac-output",
+   "src": "slide 12 + 00:11:25"
+  },
+  {
+   "id": "fc-016",
+   "front": "Normal ejection fraction",
+   "back": "55–70% of the ventricle's blood pumped out per beat (measured by echocardiogram) · she said 55–70; the slide says 55–75",
+   "tag": "cardiac-output",
+   "src": "slide 12 + 00:11:55"
+  },
+  {
+   "id": "fc-017",
+   "front": "Preload in one word",
+   "back": "STRETCH ('STREEEETCHHHHH!!!') — ventricular stretch at end of diastole, set mostly by venous return/filling",
+   "tag": "cardiac-output",
+   "src": "slides 15, 20 + 00:13:54"
+  },
+  {
+   "id": "fc-018",
+   "front": "Frank–Starling law",
+   "back": "More stretch → stronger contraction, up to a point · like a rubber band: 'the further you stretch it out, the harder it bounces back' — overstretch and the cross-bridges don't overlap",
+   "tag": "cardiac-output",
+   "src": "slide 16 + 00:13:54"
+  },
+  {
+   "id": "fc-019",
+   "front": "Afterload in one word",
+   "back": "PRESSURE the ventricle must overcome to eject, set by SVR · BP 120/80 → LV must make at least 121 mm Hg to open the aortic valve; like pushing a door open on a windy day",
+   "tag": "cardiac-output",
+   "src": "slide 17 + 00:15:45"
+  },
+  {
+   "id": "fc-020",
+   "front": "Healthy heart: first effect of increased venous return",
+   "back": "↑ Preload → more stretch → harder contraction → ↑ stroke volume (Frank–Starling)",
+   "tag": "cardiac-output",
+   "src": "slide 16 + 00:34:46"
+  },
+  {
+   "id": "fc-021",
+   "front": "Preload is increased in…",
+   "back": "Hypervolemia, regurgitation of cardiac valves, heart failure",
+   "tag": "cardiac-output",
+   "src": "slide 18"
+  },
+  {
+   "id": "fc-022",
+   "front": "Afterload is increased in…",
+   "back": "Hypertension, vasoconstriction (↑ SVR directly ↑ afterload) · ↑ afterload = ↑ cardiac workload",
+   "tag": "cardiac-output",
+   "src": "slide 18 + 00:36:22"
+  },
+  {
+   "id": "fc-023",
+   "front": "Elastic arteries",
+   "back": "Aorta + large branches · pressure absorbers — smooth out the swing between systolic and diastolic",
+   "tag": "vessels",
+   "src": "slide 22 + 00:18:15"
+  },
+  {
+   "id": "fc-024",
+   "front": "Major site of resistance in the systemic circulation",
+   "back": "Arterioles — tiny but so many that a little constriction changes pressure a lot; often the drug target",
+   "tag": "vessels",
+   "src": "slide 22 + 00:19:14"
+  },
+  {
+   "id": "fc-025",
+   "front": "Veins vs arteries",
+   "back": "Thin walls, little smooth muscle, larger diameter, valves for one-way flow · hold most of the blood (a big reservoir) · skeletal muscle helps push blood back",
+   "tag": "vessels",
+   "src": "slide 23 + 00:20:14"
+  },
+  {
+   "id": "fc-026",
+   "front": "Three determinants of resistance to blood flow",
+   "back": "Vessel diameter, vessel length, blood viscosity (dehydration → more viscous blood)",
+   "tag": "vessels",
+   "src": "slide 25 + 00:22:11"
+  },
+  {
+   "id": "fc-027",
+   "front": "Smaller vessel diameter → resistance and flow?",
+   "back": "↑ Resistance, ↓ flow · 'a big fat hose versus a tiny hose'",
+   "tag": "vessels",
+   "src": "slide 25 + 00:22:11"
+  },
+  {
+   "id": "fc-028",
+   "front": "How does obesity raise BP through vessel length?",
+   "back": "New vessels grow (angiogenesis) to feed extra tissue — 'more miles of blood vessels'",
+   "tag": "vessels",
+   "src": "slide 25 + 00:23:10"
+  },
+  {
+   "id": "fc-029",
+   "front": "Blood pressure equation",
+   "back": "BP = CO × SVR (and CO = HR × SV)",
+   "tag": "bp-regulation",
+   "src": "slide 26 + 00:24:56"
+  },
+  {
+   "id": "fc-030",
+   "front": "Baroreceptor reflex (ANS): speed and response",
+   "back": "Fast — seconds to minutes · reflex tachycardia or bradycardia to restore BP",
+   "tag": "bp-regulation",
+   "src": "slide 28 + 00:26:35"
+  },
+  {
+   "id": "fc-031",
+   "front": "Angiotensin II action",
+   "back": "Potent vasoconstrictor of arterioles and veins → ↑ SVR, ↑ BP (works over hours)",
+   "tag": "bp-regulation",
+   "src": "slide 29 + 00:27:32"
+  },
+  {
+   "id": "fc-032",
+   "front": "Aldosterone action",
+   "back": "Kidneys hold on to sodium and water → ↑ volume → ↑ BP (works over days)",
+   "tag": "bp-regulation",
+   "src": "slide 29 + 00:27:32"
+  },
+  {
+   "id": "fc-033",
+   "front": "What counteracts volume overload?",
+   "back": "Natriuretic peptides (ANP, BNP) → diuresis, vasodilation, suppress RAAS",
+   "tag": "bp-regulation",
+   "src": "slide 30 + 00:28:31"
+  },
+  {
+   "id": "fc-034",
+   "front": "Clinical use of BNP",
+   "back": "Marker of heart failure — released when the heart is overstretched; rises as HF worsens (not manipulated with drugs)",
+   "tag": "bp-regulation",
+   "src": "slide 30 + 00:28:31"
+  },
+  {
+   "id": "fc-035",
+   "front": "What supports venous return?",
+   "back": "Skeletal muscle contraction, respiratory pump, venous valves, sympathetic venoconstriction · legs up → more return; deep breath → negative pressure pulls blood back",
+   "tag": "bp-regulation",
+   "src": "slide 31 + 00:29:30"
+  },
+  {
+   "id": "fc-036",
+   "front": "Arteriolar vasodilation most directly decreases…",
+   "back": "Systemic vascular resistance (SVR)",
+   "tag": "bp-regulation",
+   "src": "slide 22 + 00:37:18"
+  },
+  {
+   "id": "fc-037",
+   "front": "Arteriosclerosis vs atherosclerosis",
+   "back": "Arteriosclerosis = thickening/hardening of vessel walls · atherosclerosis = its most common form: lipid-laden macrophages in the wall → plaque",
+   "tag": "atherosclerosis",
+   "src": "slide 36 + 00:38:48"
+  },
+  {
+   "id": "fc-038",
+   "front": "First step of atherosclerosis",
+   "back": "Injury to the endothelial cells",
+   "tag": "atherosclerosis",
+   "src": "slide 37 + 00:39:47"
+  },
+  {
+   "id": "fc-039",
+   "front": "Causes of endothelial injury",
+   "back": "Smoking, hypertension, diabetes, dyslipidemia (↑ LDL, ↓ HDL), autoimmunity · plus inflammation markers, infection, air pollution",
+   "tag": "atherosclerosis",
+   "src": "slide 37 + 00:39:47"
+  },
+  {
+   "id": "fc-040",
+   "front": "Adhesion molecules on inflamed endothelium",
+   "back": "'Little sticky fingers' that grab macrophages and other immune cells from the passing blood",
+   "tag": "atherosclerosis",
+   "src": "slide 38 + 00:41:44"
+  },
+  {
+   "id": "fc-041",
+   "front": "Foam cell",
+   "back": "A macrophage that has engulfed oxidized LDL · many together = a fatty streak",
+   "tag": "atherosclerosis",
+   "src": "slide 39 + 00:41:44"
+  },
+  {
+   "id": "fc-042",
+   "front": "Fibrous plaque",
+   "back": "Growth factors → smooth muscle proliferation + collagen over the fatty streak · 'like a scab over a wound'",
+   "tag": "atherosclerosis",
+   "src": "slide 39 + 00:43:13"
+  },
+  {
+   "id": "fc-043",
+   "front": "Why does plaque rupture cause sudden occlusion?",
+   "back": "Like ripping the scab off — exposed tissue → platelet adhesion + clotting cascade → thrombus blocks the vessel → ischemia/infarction",
+   "tag": "atherosclerosis",
+   "src": "slide 40 + 00:44:43"
+  },
+  {
+   "id": "fc-044",
+   "front": "Plaque rupture location → consequence",
+   "back": "Coronary → ACS/MI · cerebral → ischemic stroke · peripheral → acute limb ischemia",
+   "tag": "atherosclerosis",
+   "src": "slide 40 + 00:45:43"
+  },
+  {
+   "id": "fc-045",
+   "front": "Drug targets in atherosclerosis",
+   "back": "↓ LDL → statins · ↓ platelet aggregation → antiplatelets · ↓ thrombus → anticoagulants · dissolve acute clot → thrombolytics",
+   "tag": "atherosclerosis",
+   "src": "slide 42 + 00:45:43"
+  },
+  {
+   "id": "fc-046",
+   "front": "Why the body needs cholesterol",
+   "back": "Cell membranes, steroid hormone synthesis, bile acid production",
+   "tag": "lipids",
+   "src": "slide 47 + 00:49:40"
+  },
+  {
+   "id": "fc-047",
+   "front": "LDL vs HDL roles",
+   "back": "LDL delivers cholesterol to tissues (high LDL promotes atherosclerosis) · HDL does reverse cholesterol transport (higher is protective)",
+   "tag": "lipids",
+   "src": "slide 47 + 00:50:22"
+  },
+  {
+   "id": "fc-048",
+   "front": "VLDL role",
+   "back": "Transports triglycerides from the liver to peripheral tissues",
+   "tag": "lipids",
+   "src": "slide 47"
+  },
+  {
+   "id": "fc-049",
+   "front": "Ideal lipid values (the row she said to know)",
+   "back": "Total cholesterol < 200 · LDL < 100 · HDL > 60 · triglycerides < 150",
+   "tag": "lipids",
+   "src": "slide 47 + 00:50:22"
+  },
+  {
+   "id": "fc-050",
+   "front": "Best way to raise HDL",
+   "back": "Exercise — 'the best way that we have found to raise HDL is exercise'",
+   "tag": "lipids",
+   "src": "slide 50 + 00:51:53"
+  },
+  {
+   "id": "fc-051",
+   "front": "Very high triglycerides raise the risk of…",
+   "back": "Pancreatitis (plus ASCVD risk)",
+   "tag": "lipids",
+   "src": "slide 50 + 00:55:22"
+  },
+  {
+   "id": "fc-052",
+   "front": "Primary prevention",
+   "back": "Prevent the first ASCVD event · lifestyle is foundational; statins first-line drug when indicated",
+   "tag": "lipids",
+   "src": "slide 49 + 00:53:49"
+  },
+  {
+   "id": "fc-053",
+   "front": "Secondary prevention: who, and which statin approach?",
+   "back": "Established ASCVD (prior MI, ischemic stroke due to atherosclerosis, symptomatic PAD) → high-intensity or maximally tolerated statin",
+   "tag": "lipids",
+   "src": "slide 49 + 00:54:19"
+  },
+  {
+   "id": "fc-054",
+   "front": "LDL goal after a heart attack",
+   "back": "Below 70 — 'we get a lot more aggressive'",
+   "tag": "lipids",
+   "src": "00:56:19"
+  },
+  {
+   "id": "fc-055",
+   "front": "Statin mechanism",
+   "back": "Inhibit HMG-CoA reductase → ↓ liver cholesterol synthesis → ↑ hepatic LDL receptors → ↑ LDL removal from blood",
+   "tag": "statins",
+   "src": "slide 52 + 00:59:46"
+  },
+  {
+   "id": "fc-056",
+   "front": "Statin therapeutic effects",
+   "back": "Big ↓ LDL, modest ↓ TG, ↓ MI/ischemic stroke/ASCVD events · gold standard for HLD — but not the best choice for isolated high TG",
+   "tag": "statins",
+   "src": "slide 52 + 01:00:44"
+  },
+  {
+   "id": "fc-057",
+   "front": "Expected LDL reduction by statin intensity",
+   "back": "High ≥ 50% · moderate 30–49% · low < 30% ('You don't need to know what doses are')",
+   "tag": "statins",
+   "src": "slide 53 + 00:59:46"
+  },
+  {
+   "id": "fc-058",
+   "front": "Rhabdomyolysis on a statin — what and what sign?",
+   "back": "Rare but serious muscle breakdown; contents damage kidneys · severe muscle pain + 'Coca-Cola urine' (dark brown)",
+   "tag": "statins",
+   "src": "slide 52 + 01:01:42"
+  },
+  {
+   "id": "fc-059",
+   "front": "Suspected statin rhabdomyolysis: what happens?",
+   "back": "Stop the statin, prompt evaluation — usually admitted for lots of fluids to flush toxins and protect the kidneys",
+   "tag": "statins",
+   "src": "slide 54 + 01:01:42"
+  },
+  {
+   "id": "fc-060",
+   "front": "Statin liver monitoring",
+   "back": "Baseline liver enzymes (LFTs) before starting, recheck a couple months after — rare liver damage",
+   "tag": "statins",
+   "src": "slides 52, 54 + 01:02:41"
+  },
+  {
+   "id": "fc-061",
+   "front": "Statins and diabetes",
+   "back": "Slight ↑ risk of type 2 diabetes — the cardiovascular benefits outweigh it",
+   "tag": "statins",
+   "src": "slide 52 + 01:02:41"
+  },
+  {
+   "id": "fc-062",
+   "front": "Statins and pregnancy",
+   "back": "Generally discontinued during pregnancy — discuss pregnancy plans",
+   "tag": "statins",
+   "src": "slide 54 + 01:05:35"
+  },
+  {
+   "id": "fc-063",
+   "front": "Ezetimibe (Zetia) mechanism and role",
+   "back": "Inhibits intestinal cholesterol absorption · added to a statin for extra LDL lowering · generally well tolerated",
+   "tag": "other-lipid-drugs",
+   "src": "slide 55 + 01:07:58"
+  },
+  {
+   "id": "fc-064",
+   "front": "Fenofibrate (Tricor): main use and key caution",
+   "back": "Severe hypertriglyceridemia (activates PPAR-α → ↑ TG clearance) · muscle toxicity risk with statins; monitor renal function",
+   "tag": "other-lipid-drugs",
+   "src": "slide 55 + 01:07:58"
+  },
+  {
+   "id": "fc-065",
+   "front": "Niacin: role and adverse effects",
+   "back": "Rarely used routinely · flushing, hepatotoxicity, hyperglycemia · her friend took a high dose to look 'flushed and rosy' and get sent home",
+   "tag": "other-lipid-drugs",
+   "src": "slide 55 + 01:08:58"
+  },
+  {
+   "id": "fc-066",
+   "front": "Metabolic syndrome: how many criteria, and which five?",
+   "back": "At least 3 of 5: high TG, low HDL, high fasting blood sugar, hypertension, large waist · ↑ risk of heart disease, stroke, DM",
+   "tag": "lipids",
+   "src": "slide 57 + 01:10:56"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "(student asked) A classmate's young relative died suddenly of an LAD heart attack — what causes that? Is it genetic?",
+   "a": "Probably a <b>genetic predisposition</b> to developing atherosclerosis sooner, unless something else was going on. \"You have plaques in your body\" — they're found from about age 3. Most never rupture, but a rupture is what causes a heart attack like that.",
+   "src": "00:04:23 + 00:04:29"
+  },
+  {
+   "id": "qa-002",
+   "q": "(student asked) Could you repeat what you said about the LAD?",
+   "a": "The LAD supplies so much of the blood to the <b>left ventricle</b>, the part doing most of the work. A block of the whole vessel is very hard to survive (the \"widowmaker\"); a block in a smaller branch is a better situation.",
+   "src": "slide 9 + 00:05:27"
+  },
+  {
+   "id": "qa-003",
+   "q": "(student asked) What makes more blood come back to stretch the ventricle? (question partly inaudible)",
+   "a": "\"A big determinant of that is the <b>venous return</b>.\" More venous constriction pushes blood forward, and a healthy heart compensates by pumping more.",
+   "src": "slide 15 + 00:17:37"
+  },
+  {
+   "id": "qa-004",
+   "q": "(student asked) How does vessel length affect resistance?",
+   "a": "Her example was <b>obesity</b>: the body makes new vessels to feed the extra tissue, so \"you have more miles of blood vessels in your body,\" which on its own raises blood pressure.",
+   "src": "slide 25 + 00:23:10"
+  },
+  {
+   "id": "qa-005",
+   "q": "(student asked) So do taller people have higher blood pressure?",
+   "a": "<b>Not a correlation.</b> \"It doesn't seem to have as much of an effect as long as you're healthy otherwise\" — a taller person's heart compensates.",
+   "src": "00:24:09 + 00:32:26"
+  },
+  {
+   "id": "qa-006",
+   "q": "(student asked) Does the body actually grow new vessels for the extra tissue?",
+   "a": "Yes — <b>angiogenesis</b> is \"the fancy name for new blood vessel growth,\" and many things can cause it.",
+   "src": "00:24:56"
+  },
+  {
+   "id": "qa-007",
+   "q": "(Kahoot) Which equation correctly describes cardiac output?",
+   "a": "<b>Heart rate × stroke volume</b> — \"Heart rate times stroke volume… There you go.\" (Multiply, don't add.)",
+   "src": "slide 12 + 00:33:18"
+  },
+  {
+   "id": "qa-008",
+   "q": "(Kahoot) What is the best description of preload?",
+   "a": "\"<b>Stretch</b> is the word.\"",
+   "src": "slide 15 + 00:33:48"
+  },
+  {
+   "id": "qa-009",
+   "q": "(Kahoot) What happens initially when venous return increases in a healthy heart?",
+   "a": "More blood coming back = <b>↑ preload</b> → more stretch → contracts harder → <b>stroke volume goes up</b> (Frank–Starling). \"It's a little tricky\" — she said she would have accepted both the stroke-volume and the cardiac-output answer.",
+   "src": "slide 16 + 00:34:46"
+  },
+  {
+   "id": "qa-010",
+   "q": "(Kahoot) Which change directly increases left ventricular afterload?",
+   "a": "<b>Increased systemic vascular resistance.</b> Decreased volume usually decreases afterload; increased venous return raises preload, which affects afterload only indirectly.",
+   "src": "slide 17 + 00:36:22"
+  },
+  {
+   "id": "qa-011",
+   "q": "(Kahoot) Which receptor mediates sympathetic increases in heart rate and contractility?",
+   "a": "<b>β₁</b> (answer not audible — from slide 10: NE → β₁ → ↑ HR, conduction and contractility).",
+   "src": "slide 10 + 00:36:22"
+  },
+  {
+   "id": "qa-012",
+   "q": "(Kahoot) Arteriolar vasodilation — which variable does it most directly decrease?",
+   "a": "<b>Systemic vascular resistance.</b> Arterioles are the major determinant of resistance.",
+   "src": "slides 22, 26 + 00:37:43"
+  },
+  {
+   "id": "qa-013",
+   "q": "(Kahoot) Which response helps counteract volume overload?",
+   "a": "<b>Release of natriuretic peptides</b> (ANP/BNP). Angiotensin II and aldosterone are RAAS — \"that's going to be when at least the kidney thinks there isn't enough volume.\"",
+   "src": "slide 30 + 00:38:16"
+  },
+  {
+   "id": "qa-014",
+   "q": "(student asked) Is atherosclerosis an autoimmune disease?",
+   "a": "No. \"It is <b>chronic inflammation</b>,\" but it isn't recognizing anything as foreign. Western diets and sedentary lifestyles drive a lot of it (she contrasted the \"blue zones\").",
+   "src": "00:43:58"
+  },
+  {
+   "id": "qa-015",
+   "q": "(Kahoot) Which sequence best describes atherosclerotic plaque formation?",
+   "a": "<b>Endothelial injury → inflammation/adhesion molecules → LDL oxidation → macrophages engulf oxidized LDL (foam cells) → fatty streak → smooth muscle + collagen → fibrous plaque</b> (answer not audible — from slides 37–39).",
+   "src": "slides 37–39 + 00:48:05"
+  },
+  {
+   "id": "qa-016",
+   "q": "(Kahoot) Why did that rupture cause an acute myocardial infarction?",
+   "a": "The rupture exposed the underlying tissue → <b>platelet adhesion + clotting cascade</b> → a thrombus suddenly <b>occluded the coronary artery</b> → ischemia and infarction (answer not audible — from slide 40).",
+   "src": "slide 40 + 00:48:55"
+  },
+  {
+   "id": "qa-017",
+   "q": "(student asked) How do you decide when to start a statin versus trying lifestyle first? (question partly inaudible)",
+   "a": "It depends on risk factors. After a heart attack she wants <b>LDL below 70</b>, so treatment is aggressive. A younger, healthier person with an LDL of 115 might get <b>three months of lifestyle changes</b> first, if willing.",
+   "src": "slide 49 + 00:56:19"
+  },
+  {
+   "id": "qa-018",
+   "q": "(student asked) What happens if someone stops their statin?",
+   "a": "Without other lifestyle changes, \"you're just gonna <b>bounce back</b> to where your higher level was, and then your risk factors go back up.\"",
+   "src": "00:57:46"
+  },
+  {
+   "id": "qa-019",
+   "q": "(student asked) If someone is young and healthy and it's genetic, should they be on a statin even so?",
+   "a": "\"Once those numbers start going up,\" <b>yes</b>. Some people \"do everything right and the genetics is so far against you\" — \"luckily we have things like statins.\"",
+   "src": "00:57:57 + 00:58:10"
+  },
+  {
+   "id": "qa-020",
+   "q": "(student asked) Do statins make diabetes harder to control?",
+   "a": "Statins carry a <b>slight increase in diabetes rates</b>, but the other benefits are so large that it's still worth it. She wasn't sure about blood-sugar control itself — \"that is a good question.\"",
+   "src": "slide 52 + 01:03:40"
+  },
+  {
+   "id": "qa-021",
+   "q": "(student asked) Is that gold standard for HDL or for HLD?",
+   "a": "<b>HLD — hyperlipidemia.</b> Statins are the gold standard for pretty much everything except isolated high triglycerides; \"we don't really have anything else for HDL.\"",
+   "src": "slide 52 + 01:03:40 + 01:05:18"
+  },
+  {
+   "id": "qa-022",
+   "q": "(student asked) If you fix your lifestyle, you still can't come off the statin?",
+   "a": "\"<b>Very rare.</b>\" Some people change enough to try tapering, but \"sometimes genetics rules the day,\" and most adults don't make changes that drastic.",
+   "src": "01:07:05"
+  },
+  {
+   "id": "qa-023",
+   "q": "(Kahoot) Which treatment strategy is most appropriate after an atherosclerotic MI? (only \"Which … strategy\" was audible — question reconstructed)",
+   "a": "<b>Secondary prevention: a high-intensity or maximally tolerated statin</b>, plus lifestyle; more LDL-lowering drugs if needed (answer not audible — from slide 49).",
+   "src": "slide 49 + 01:11:53"
+  },
+  {
+   "id": "qa-024",
+   "q": "(Kahoot) A patient taking atorvastatin reports severe muscle pain and dark urine. What is the concern?",
+   "a": "<b>Rhabdomyolysis</b> — muscle breakdown releases cell contents that damage the kidneys (\"Coca-Cola urine\"). Prompt evaluation (slides 52, 54), and she said at 01:01:42 \"we want to stop this medication\" (the poll answer itself wasn't audible).",
+   "src": "slides 52, 54 + 01:01:42 + 01:12:51"
+  },
+  {
+   "id": "qa-025",
+   "q": "(Kahoot) Which medication lowers LDL by reducing intestinal cholesterol absorption?",
+   "a": "<b>Ezetimibe (Zetia)</b> (answer not audible — from slide 55).",
+   "src": "slide 55 + 01:13:20"
+  }
+ ]
+}
