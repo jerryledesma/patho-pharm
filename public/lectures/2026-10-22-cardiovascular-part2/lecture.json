@@ -1,0 +1,2406 @@
+{
+ "id": "2026-10-22-cardiovascular-part2",
+ "date": "2026-10-22",
+ "title": "Cardiovascular II: Hypertension & Rhythms",
+ "instructor": "Julie Schwind, DNP, RN",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.ogg",
+  "slides.pdf",
+  "supp-01_cardiology-part-ii-guided-notes.docx",
+  "supp-02_cardiology-part-ii-study-guide.docx"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "drug choice & safety checks"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "A client's repeated readings average 134/78 mm Hg. Using the blood pressure categories on her slide, this is:",
+   "options": [
+    "Elevated blood pressure",
+    "Stage 1 hypertension",
+    "Stage 2 hypertension",
+    "Normal blood pressure"
+   ],
+   "answer": "B",
+   "rationale": "A systolic of 130–139 is stage 1, so 134 is stage 1 even with a diastolic under 80. \"Elevated\" is a systolic of 120–129 with a diastolic under 80; stage 2 starts at 140 or 90.",
+   "src": "slide 5"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Primary (essential) hypertension is best described as:",
+   "options": [
+    "About 5–10% of cases, caused by one identifiable condition",
+    "About 90–95% of cases, usually caused by a single medication",
+    "About half of cases, caused mainly by excess dietary sodium",
+    "About 90–95% of cases, with no single identifiable cause"
+   ],
+   "answer": "D",
+   "rationale": "Primary HTN is 90–95% of cases and multifactorial: genetics, environment, SNS and RAAS activity, renal sodium handling. One identifiable cause (a condition or a drug) makes it secondary, and she said it's \"pretty impossible to have hypertension only because you have a lot of high salt intake.\"",
+   "src": "slides 6, 16 + 00:17:57"
+  },
+  {
+   "id": "p-003",
+   "tier": "2",
+   "type": "mc",
+   "stem": "(Kahoot) Which finding in a client newly diagnosed with hypertension most suggests secondary hypertension?",
+   "options": [
+    "A diet high in sodium and processed foods",
+    "A strong family history of hypertension",
+    "Renal artery stenosis found on imaging",
+    "Physical inactivity and a desk job"
+   ],
+   "answer": "C",
+   "rationale": "Secondary HTN has one specific, identifiable cause such as renal artery stenosis, and fixing it can resolve the HTN. High sodium and inactivity are modifiable contributors to primary HTN; family history is a non-modifiable primary risk factor.",
+   "src": "slide 6 + 00:17:57"
+  },
+  {
+   "id": "p-004",
+   "tier": "2",
+   "type": "mc",
+   "stem": "(Kahoot) Long-standing hypertension most directly causes left ventricular hypertrophy through:",
+   "options": [
+    "Increased afterload the ventricle must pump against",
+    "Decreased preload from long-term fluid loss",
+    "Valve regurgitation adding volume to the ventricle",
+    "Slowed AV conduction that lengthens filling time"
+   ],
+   "answer": "A",
+   "rationale": "Student answer accepted (\"good, good\"): the ventricle must pump against higher pressure (afterload), so the muscle thickens. Fluid loss would lower preload and lighten the ventricle's load, not thicken it. Regurgitation causes volume overload and chamber dilation, and AV conduction has nothing to do with hypertrophy from HTN.",
+   "src": "slides 10, 12 + 00:19:34"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Her high-yield review lists the target organs of sustained hypertension as:",
+   "options": [
+    "Heart, lungs, liver and pancreas",
+    "Brain, liver, spleen and thyroid",
+    "Heart, brain, kidneys and eyes",
+    "Kidneys, lungs, skin and adrenals"
+   ],
+   "answer": "C",
+   "rationale": "Target-organ damage: heart (LVH, HF, CAD), brain (stroke), kidneys (CKD) and eyes (retinopathy). The tiny, delicate vessels of the kidneys, retina and brain are especially sensitive to pressure. The lungs, liver and spleen are not on her list.",
+   "src": "slides 4, 16 + 00:10:57 + 00:11:30"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "A medication list includes valsartan, enalapril and nifedipine. Which match of name ending to drug class is correct?",
+   "options": [
+    "-sartan = ACE inhibitor; -pril = ARB; -pine = dihydropyridine CCB",
+    "-sartan = ARB; -pril = ACE inhibitor; -pine = dihydropyridine CCB",
+    "-sartan = ARB; -pril = ACE inhibitor; -pine = non-dihydropyridine CCB",
+    "-sartan = beta blocker; -pril = ARB; -pine = alpha-1 blocker"
+   ],
+   "answer": "B",
+   "rationale": "ACE inhibitors end in -pril, ARBs end in -sartan, and the \"-pines\" are the dihydropyridine CCBs that work on the vessels. The non-dihydropyridines (verapamil, diltiazem) \"don't sound like each other\", so you just have to remember them.",
+   "src": "slides 31, 40 + 00:49:36 + 00:58:59 + 01:05:33"
+  },
+  {
+   "id": "p-007",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Furosemide is ordered twice daily on a medical unit. Why did she say it is usually given at 0900 and 1500?",
+   "options": [
+    "It must be spaced twelve hours apart to keep a steady blood level",
+    "Its peak must line up with the morning potassium lab draw",
+    "Giving it with meals prevents the ototoxicity of high doses",
+    "Lasix \"lasts six\" hours, so the diuresis is over before bedtime"
+   ],
+   "answer": "D",
+   "rationale": "\"It's called Lasix because it lasts six hours\": 0900 covers the first half of the day, 1500 the second, and by bedtime the client is no longer being diuresed, so elderly clients aren't up all night (falls). Ototoxicity goes with high doses or rapid IV administration, not meals.",
+   "src": "slide 21 + 00:27:41 + 00:28:12 + 00:28:42"
+  },
+  {
+   "id": "p-008",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Morning K⁺ 3.2 mEq/L. Furosemide IV is due at 0900. Best action?",
+   "options": [
+    "Hold it and contact the provider about potassium replacement",
+    "Give it as scheduled; low potassium is expected on a loop diuretic",
+    "Give it, because furosemide will pull the potassium back up to normal",
+    "Give it at bedtime instead so the potassium has time to recover first"
+   ],
+   "answer": "A",
+   "rationale": "Normal K⁺ is 3.5–5, and furosemide makes the client lose more; low potassium plus Lasix \"should be… making your brain have some little red flags.\" She said \"you would not want to give it\"; at the least they'd need potassium supplements. Loop diuretics lower K⁺, and bedtime dosing only adds nocturia.",
+   "src": "slide 21 + 00:29:15 + 00:29:47"
+  },
+  {
+   "id": "p-009",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Takes lisinopril and spironolactone. Recently switched to a salt substitute to cut sodium. K⁺ 5.8 mEq/L. Most likely explanation?",
+   "options": [
+    "Lisinopril's bradykinin build-up is pushing potassium out of cells",
+    "The low-sodium diet is causing aldosterone to dump extra potassium",
+    "Potassium in the salt substitute added to two potassium-raising drugs",
+    "Spironolactone is wasting potassium in the urine, like furosemide does"
+   ],
+   "answer": "C",
+   "rationale": "Spironolactone (potassium-sparing) and ACE inhibitors (↓ aldosterone) both raise K⁺, and with salt substitutes \"a lot of them substitute the salt with potassium\", so the client takes in extra potassium without knowing it. Bradykinin causes the cough, not hyperkalemia; spironolactone holds on to potassium rather than wasting it.",
+   "src": "slides 22, 38 + 00:36:47 + 00:37:18"
+  },
+  {
+   "id": "p-010",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Apical HR 54 bpm; BP at the client's usual level. Oral metoprolol is due. Best action?",
+   "options": [
+    "Give it; a heart rate in the 50s is the goal of beta blockade",
+    "Hold it per the usual parameter and report the heart rate",
+    "Give half the dose now and recheck the heart rate in an hour",
+    "Give it and hold the client's next diuretic dose to protect BP"
+   ],
+   "answer": "B",
+   "rationale": "Orders are frequently written to hold if HR < 60: \"it's going to slow it down even more, and 60 is right there at the bottom of normal.\" Splitting the dose isn't a hold parameter, and the diuretic has nothing to do with the bradycardia.",
+   "src": "slide 23 + 00:40:29"
+  },
+  {
+   "id": "p-011",
+   "tier": "3",
+   "type": "mc",
+   "stem": "History of asthma. Propranolol is prescribed for hypertension. Which adverse effect is the main concern?",
+   "options": [
+    "Reflex tachycardia from rapid arteriolar dilation",
+    "Hyperkalemia from blocking aldosterone receptors",
+    "Dry cough from bradykinin build-up in the airway",
+    "Bronchospasm, because it blocks β₂ as well as β₁"
+   ],
+   "answer": "D",
+   "rationale": "Propranolol is nonselective (β₁ and β₂); if it blocks beta-2 \"it has some of that bronchospasm.\" Metoprolol is the cardioselective (β₁) prototype. Dry cough is the ACE inhibitor (bradykinin) effect and reflex tachycardia the hydralazine effect.",
+   "src": "slide 23 + 00:39:55 + 01:33:24"
+  },
+  {
+   "id": "p-012",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with diabetes who takes glucose-lowering medication is started on metoprolol. Which teaching point follows from the drug's mechanism?",
+   "options": [
+    "It can mask the fast heart rate that warns of low blood sugar",
+    "It can raise blood glucose and may precipitate a gout attack",
+    "It can cause a dry cough that is easily mistaken for infection",
+    "It causes hypoglycemia directly if a scheduled dose is skipped"
+   ],
+   "answer": "A",
+   "rationale": "Beta blockers may mask the adrenergic warning signs of hypoglycemia (the tachycardia), which \"can be dangerous for diabetic patients taking certain anti-diabetes medications.\" Raised glucose and gout are thiazide effects; dry cough is the ACE inhibitor.",
+   "src": "slides 23, 44 + 00:39:55"
+  },
+  {
+   "id": "p-013",
+   "tier": "2",
+   "type": "mc",
+   "stem": "(Kahoot) A client starting prazosin should be taught about:",
+   "options": [
+    "Ankle swelling, which is an expected and harmless effect",
+    "A persistent dry cough that may require switching drugs",
+    "First-dose orthostatic hypotension; rise slowly from bed",
+    "Constipation from slowed peristalsis in the gut"
+   ],
+   "answer": "C",
+   "rationale": "Prazosin blocks α₁, so the first dose brings \"massive vasodilation\" and orthostatic hypotension: change position slowly, especially getting out of bed, and the first dose may be given at bedtime. Ankle edema is amlodipine, dry cough the ACE inhibitor, constipation verapamil.",
+   "src": "slide 24 + 00:41:10 + 01:33:55"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "(Kahoot) Carvedilol lowers blood pressure through which two effects?",
+   "options": [
+    "↓ cardiac output via α₁ blockade and ↓ SVR via β₂ blockade",
+    "↓ cardiac output via β₁ blockade and ↓ SVR via α₁ blockade",
+    "↓ circulating volume via diuresis and ↓ SVR via ACE inhibition",
+    "↓ sympathetic outflow via central α₂ receptor stimulation alone"
+   ],
+   "answer": "B",
+   "rationale": "Carvedilol blocks α₁ (vasodilation → ↓ SVR) and β₁ (↓ HR, contractility and renin → ↓ CO); its β₂ blockade only adds the bronchospasm risk. Central α₂ stimulation is clonidine.",
+   "src": "slide 25 + 00:41:10 + 01:34:27"
+  },
+  {
+   "id": "p-015",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Clonidine is an adrenergic agonist, yet it lowers blood pressure. How?",
+   "options": [
+    "It stimulates central α₂ receptors, reducing sympathetic outflow",
+    "It blocks peripheral α₁ receptors on vessels, preventing vasoconstriction",
+    "It blocks β₁ receptors in the kidney, reducing renin release",
+    "It stimulates β₂ receptors in the arterioles, dilating them"
+   ],
+   "answer": "A",
+   "rationale": "Clonidine is \"an adrenergic AGONIST that ultimately DECREASES sympathetic activity\": α₂ is the receptor that keeps the rest of the sympathetic system in check, so stimulating it in the brainstem lowers HR, CO and SVR. Peripheral α₁ blockade is prazosin; renal β₁ blockade is the beta blockers.",
+   "src": "slide 26 + 00:42:08"
+  },
+  {
+   "id": "p-016",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Takes clonidine at home; ran out 2 days ago. BP now 192/104. Most likely cause?",
+   "options": [
+    "White-coat hypertension from anxiety in the clinic",
+    "New secondary hypertension from renal artery stenosis",
+    "Primary hypertension progressing despite drug therapy",
+    "Rebound hypertension from stopping clonidine abruptly"
+   ],
+   "answer": "D",
+   "rationale": "Stopping a sympatholytic abruptly causes rebound: the body has made more receptors, \"so when you abruptly stop taking the medication… your blood pressure is going to go up.\" Clonidine is tapered, never stopped suddenly. A two-day gap with a known trigger points away from white-coat effect or a new secondary cause.",
+   "src": "slides 26–27 + 00:40:29 + 01:34:27"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "On the stroke unit a client receives PRN hydralazine for systolic BP above 180. Shortly afterward the heart rate climbs. Why?",
+   "options": [
+    "Hydralazine directly stimulates the β₁ receptors in the SA node",
+    "Hydralazine blocks calcium channels, speeding AV conduction",
+    "The fall in BP triggers the baroreceptor reflex (↑ sympathetic)",
+    "Diuresis from hydralazine has lowered the serum potassium"
+   ],
+   "answer": "C",
+   "rationale": "Arteriolar dilation drops BP, and the baroreceptor reflex raises sympathetic activity → reflex tachycardia (plus RAAS-driven sodium and water retention), which is why a beta blocker and a diuretic may be added. Hydralazine doesn't act on β receptors or calcium channels and isn't a diuretic.",
+   "src": "slides 28–29 + 00:44:04 + 00:46:55"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Two weeks after starting amlodipine, a client has mild ankle swelling; lungs clear, no shortness of breath. Best interpretation?",
+   "options": [
+    "New heart failure with total-body fluid overload needing a loop diuretic",
+    "Expected effect: arteriolar dilation raises capillary pressure",
+    "Venous valve failure (chronic venous insufficiency) caused by the drug",
+    "Angioedema, so the drug must be stopped permanently and never restarted"
+   ],
+   "answer": "B",
+   "rationale": "Peripheral edema is the dihydropyridine CCB's characteristic effect: more pressure into the capillary bed, a little more leak. It's \"not pathologic in this situation\" and not necessarily total-body fluid overload. Angioedema (face, lips, airway) is the ACE inhibitor emergency.",
+   "src": "slide 32 + 00:50:38 + 00:51:10 + supp-02"
+  },
+  {
+   "id": "p-019",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Takes metoprolol. Verapamil is newly ordered. Main concern with the combination?",
+   "options": [
+    "Additive bradycardia, AV block and cardiac suppression",
+    "Additive hypokalemia from two drugs that both cause diuresis",
+    "Reflex tachycardia, because each drug cancels out the other",
+    "Additive dry cough from bradykinin building up in the lungs"
+   ],
+   "answer": "A",
+   "rationale": "Both decrease heart rate, contractility and AV nodal conduction (\"we're going to really be suppressing the heart\"), so they're usually not given together. Neither is a diuretic or raises bradykinin.",
+   "src": "slide 33 + 00:55:51 + 01:36:39"
+  },
+  {
+   "id": "p-020",
+   "tier": "1",
+   "type": "mc",
+   "stem": "(Kahoot) Why is cough less common with losartan than with lisinopril?",
+   "options": [
+    "Losartan blocks bradykinin receptors in the airway",
+    "Lisinopril raises angiotensin II levels in the lungs",
+    "Losartan does not reduce aldosterone, unlike lisinopril",
+    "ACE inhibitors let bradykinin build up; ARBs do not"
+   ],
+   "answer": "D",
+   "rationale": "ACE normally breaks down bradykinin, so blocking it lets bradykinin accumulate → dry cough; ARBs \"do not directly increase bradykinin.\" Both drugs reduce aldosterone, and lisinopril lowers angiotensin II rather than raising it.",
+   "src": "slides 37–40 + 01:02:32 + 01:06:36"
+  },
+  {
+   "id": "p-021",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Lisinopril for hypertension. Persistent dry, irritating cough; no signs of infection. Client wants to stop it. Most appropriate replacement?",
+   "options": [
+    "Enalapril, a different drug from the same class",
+    "Propranolol, a nonselective beta blocker",
+    "Losartan, an angiotensin II receptor blocker",
+    "Clonidine, a central alpha-2 agonist"
+   ],
+   "answer": "C",
+   "rationale": "An ARB is \"a great option if someone comes in and says, oh, this cough is so terrible\": almost the same effects without the bradykinin rise. Enalapril is another -pril with the same cough; beta blockers and clonidine aren't first-line for uncomplicated HTN.",
+   "src": "slide 39 + 01:06:36"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client taking lisinopril develops swelling of the lips and tongue. What does this mean for the drug?",
+   "options": [
+    "Expected bradykinin effect; continue and monitor the swelling",
+    "Emergency; the ACE inhibitor is stopped for good",
+    "Hold a single dose, then restart it at a lower dose next day",
+    "Switch to enalapril, which does not affect bradykinin levels"
+   ],
+   "answer": "B",
+   "rationale": "Angioedema of the mouth, lips or airway threatens breathing: \"that is going to be considered an allergy. And they should never take this medication again\" (immediate evaluation, permanent discontinuation). Enalapril is another ACE inhibitor, and restarting at any dose is unsafe.",
+   "src": "slide 38 + 01:03:03 + 01:03:33"
+  },
+  {
+   "id": "p-023",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Diabetes with chronic kidney disease and albuminuria; BP above goal. Preferred antihypertensive class?",
+   "options": [
+    "An ACE inhibitor or an ARB",
+    "A thiazide diuretic such as HCTZ",
+    "A dihydropyridine CCB like amlodipine",
+    "A beta blocker such as metoprolol"
+   ],
+   "answer": "A",
+   "rationale": "CKD with albuminuria → ACE inhibitor or ARB for kidney protection; these clients, \"even if they don't have hypertension, will get an ACE inhibitor or an ARB.\" Thiazides and amlodipine fit uncomplicated HTN or diabetes without albuminuria; beta blockers aren't first-line.",
+   "src": "slides 37, 43 + 01:10:46"
+  },
+  {
+   "id": "p-024",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which group lists the first-line medication options for uncomplicated hypertension?",
+   "options": [
+    "Beta blockers, carvedilol, alpha-1 blockers, clonidine",
+    "Loop diuretics, spironolactone, hydralazine",
+    "Thiazides, dihydropyridine CCBs, ACE inhibitors/ARBs",
+    "Thiazides, verapamil, metoprolol"
+   ],
+   "answer": "C",
+   "rationale": "First-line for uncomplicated HTN: thiazide or thiazide-like diuretics, dihydropyridine CCBs (amlodipine) and ACE inhibitors or ARBs. Beta blockers \"are not routinely first-line for uncomplicated HTN\"; alpha-1 blockers, clonidine and hydralazine are add-ons or for special situations. In B, the loop diuretic is for volume overload and spironolactone is an add-on for resistant HTN. In D, verapamil is a non-dihydropyridine CCB — the first-line CCB is a dihydropyridine like amlodipine — and metoprolol is a beta blocker.",
+   "src": "slides 43–44 + 01:10:08"
+  },
+  {
+   "id": "p-025",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which description matches reentry as a cause of dysrhythmias?",
+   "options": [
+    "Cells other than the SA node fire at inappropriate times or rates",
+    "An impulse keeps circulating through a pathway, restimulating the heart",
+    "An impulse is delayed or interrupted on its way from atria to ventricles",
+    "The SA node's pacemaker activity slows, producing a bradycardia"
+   ],
+   "answer": "B",
+   "rationale": "Reentry is an impulse repeatedly circulating through a pathway → rapid, repetitive stimulation (e.g. many SVTs). Ectopic firing is abnormal automaticity, a delayed or interrupted impulse is conduction block (AV block), and impaired pacemaker activity causes bradycardia.",
+   "src": "slides 48, 65"
+  },
+  {
+   "id": "p-026",
+   "tier": "2",
+   "type": "mc",
+   "stem": "(Kahoot) Why does atrial fibrillation increase stroke risk?",
+   "options": [
+    "The rapid ventricular rate ruptures small cerebral vessels",
+    "Low cardiac output starves the brain of oxygen with every beat it skips",
+    "The AV node blocks impulses, so blood backs up into the brain",
+    "Atrial stasis and turbulence form clots that travel to the brain"
+   ],
+   "answer": "D",
+   "rationale": "\"When blood stops flowing or slows down, it starts to clot\": stasis (especially in the left atrial appendage) plus turbulence → a thrombus that is shot out through the ventricle, and the most dangerous place for it to lodge is the brain. That's why stroke prevention (anticoagulation) is its own treatment goal alongside rate control. The danger is an embolus, not a ruptured vessel, a skipped-beat drop in output, or blood backing up through the AV node.",
+   "src": "slide 49 + 01:43:43 + 01:47:55 + 02:19:10"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client has been in atrial fibrillation for more than 24 hours. Why is immediate cardioversion avoided?",
+   "options": [
+    "A clot has almost surely formed; cardioversion could break it free",
+    "Cardioversion only works on rhythms that start in the ventricles",
+    "After 24 hours AFib usually converts back to a sinus rhythm by itself",
+    "The AV node is now too fatigued to conduct the restored sinus impulses"
+   ],
+   "answer": "A",
+   "rationale": "\"If it's been more than 24 hours… we're almost certain that a clot has occurred\", and cardioversion would break it free, so the client is anticoagulated first. Cardioversion is used for atrial rhythms like AFib; the length of time matters because of the clot, not because AFib will fix itself (\"sometimes we can cardiovert… but often we cannot\") or because the AV node is worn out.",
+   "src": "slide 49 + 01:46:38 + 01:48:30 + 01:49:03"
+  },
+  {
+   "id": "p-028",
+   "tier": "3",
+   "type": "mc",
+   "stem": "AFib with a rapid ventricular rate. Rate control with a calcium channel blocker is ordered. Which drug fits?",
+   "options": [
+    "Amlodipine, because it is the prototype CCB",
+    "Nifedipine, because it lowers SVR the most",
+    "Diltiazem, because it slows AV nodal conduction",
+    "Hydralazine, because it relaxes arteriolar muscle"
+   ],
+   "answer": "C",
+   "rationale": "Rate control needs a CCB that slows the AV node so fewer atrial impulses reach the ventricles: the non-dihydropyridines diltiazem and verapamil. The \"-pines\" (amlodipine, nifedipine) \"are not used for dysrhythmias because they work out in the periphery\"; hydralazine isn't a CCB.",
+   "src": "slides 49, 61 + 01:44:20 + 02:13:57"
+  },
+  {
+   "id": "p-029",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which pairing of atrial rhythm and description is correct?",
+   "options": [
+    "AFib: irregularly irregular; flutter: sawtooth waves, atria at 250–350/min",
+    "AFib: sawtooth waves, atria at 250–350/min; flutter: irregularly irregular",
+    "AFib: one organized reentry circuit; flutter: chaotic atrial activity",
+    "Flutter: regular atrial activity, so it carries no added stroke risk"
+   ],
+   "answer": "A",
+   "rationale": "AFib is chaotic and \"irregularly irregular\"; flutter is one organized reentry circuit (\"regularly irregular\") at 250–350/min with the classic sawtooth. Flutter still carries stroke risk: anticoagulation considerations are similar to AFib.",
+   "src": "slides 46, 49–50 + 01:50:08 + 01:50:42 + 02:19:10"
+  },
+  {
+   "id": "p-030",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The monitor shows chaotic ventricular activity; the client is unresponsive with no pulse. Which treatment is essential?",
+   "options": [
+    "Synchronized cardioversion timed to the QRS complex",
+    "Immediate CPR and unsynchronized defibrillation",
+    "Rapid IV push of adenosine followed by a saline flush",
+    "Vagal maneuvers such as bearing down or ice water"
+   ],
+   "answer": "B",
+   "rationale": "VF is cardiac arrest (electrical activity but no meaningful contraction), so it's CPR and unsynchronized defibrillation, because there's nothing to synchronize to. Drugs support resuscitation but \"do NOT replace CPR and defibrillation\"; adenosine and vagal maneuvers are for SVT.",
+   "src": "slide 53 + 01:59:49 + 02:00:20 + 02:20:07"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Polymorphic VT that twists like a \"party streamer\"; prolonged QT on the prior strip. Serum Mg²⁺ normal. Primary drug?",
+   "options": [
+    "Amiodarone, the class III potassium channel blocker",
+    "Adenosine by rapid IV push with a saline flush",
+    "Diltiazem to slow conduction through the AV node",
+    "IV magnesium sulfate, even with a normal level"
+   ],
+   "answer": "D",
+   "rationale": "For torsades \"magnesium is the treatment\"; even when low magnesium isn't the cause, \"magnesium seems to fix it.\" Amiodarone itself prolongs the QT, and adenosine is the other pairing to know (for SVT). If it's sustained with instability, defibrillate.",
+   "src": "slide 55 + 02:03:08 + 02:04:12 + 02:21:21"
+  },
+  {
+   "id": "p-032",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Using \"Trax and Taylor\" (Trax = P wave, Taylor = QRS), which pattern is second-degree Mobitz I?",
+   "options": [
+    "Taylor is always late by the same amount but always shows up",
+    "Taylor is usually on time, then randomly doesn't show at all",
+    "Taylor comes home later and later until one night she doesn't show",
+    "Trax and Taylor live completely separate lives on separate schedules"
+   ],
+   "answer": "C",
+   "rationale": "Mobitz I is progressive PR prolongation until a beat is dropped: \"PR longer, longer, longer, until eventually\" one is dropped. Always late by the same amount is first degree; usually on time and then randomly missing is Mobitz II; separate lives is third degree.",
+   "src": "slide 56 + 02:09:06 + 02:09:36 + 02:21:56"
+  },
+  {
+   "id": "p-033",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Trax (atria) and Taylor (ventricles) \"are living completely separate lives\"; the ventricles beat on their own at about 40/min. What does this mean?",
+   "options": [
+    "First-degree block; every impulse still conducts, just late",
+    "Third-degree block; complete AV dissociation that needs pacing",
+    "Mobitz II; intermittent dropped beats that rarely need treatment",
+    "Atrial flutter; the AV node is blocking some flutter impulses"
+   ],
+   "answer": "B",
+   "rationale": "Complete AV dissociation is third-degree block: atrial impulses never reach the ventricles, so a slow independent ventricular pacemaker (about 40/min) takes over, and \"we definitely need some sort of [pacemaker].\" First degree still conducts every impulse; Mobitz II drops only some beats.",
+   "src": "slide 56 + 02:06:59 + 02:10:08"
+  },
+  {
+   "id": "p-034",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which antiarrhythmic class, mechanism and prototype match is correct?",
+   "options": [
+    "Class I: K⁺ channel blocker, amiodarone",
+    "Class II: Ca²⁺ channel blocker, verapamil",
+    "Class IV: Na⁺ channel blocker, lidocaine",
+    "Class III: K⁺ channel blocker, amiodarone"
+   ],
+   "answer": "D",
+   "rationale": "Class I = Na⁺ blockers (lidocaine), II = beta blockers (metoprolol), III = K⁺ blockers (amiodarone), IV = Ca²⁺ blockers (diltiazem, verapamil). \"Know the class. Know the prototype drug.\" (The \"calcium\" she said at 02:12:21 was a slip; slide 60 says K⁺.)",
+   "src": "slides 57, 64 + 02:10:40 + 02:18:39 + 02:22:27"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Long-term amiodarone for a recurrent ventricular dysrhythmia. Which monitoring does the drug require?",
+   "options": [
+    "Thyroid, liver and pulmonary function",
+    "Hearing and serum uric acid levels",
+    "Serum potassium and renal function only",
+    "Blood glucose and bowel function"
+   ],
+   "answer": "A",
+   "rationale": "Amiodarone has \"so many toxicities. This is a really, really crappy drug to be taking\": pulmonary fibrosis, thyroid dysfunction (hyper or hypo) and liver damage, so long-term therapy means watching thyroid, liver and lungs. Hearing goes with furosemide, uric acid with thiazides, constipation with verapamil.",
+   "src": "slide 60 + 02:12:21 + 02:12:56 + 02:23:00"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Stable, regular AV node–dependent SVT; vagal maneuvers failed. Adenosine ordered. Correct administration?",
+   "options": [
+    "Slow IV push over several minutes to prevent ototoxicity",
+    "Rapid IV push, then an immediate saline flush, on ECG",
+    "Continuous IV infusion titrated to the heart rate",
+    "Oral loading dose, then a daily maintenance tablet"
+   ],
+   "answer": "B",
+   "rationale": "Its half-life is under 10 seconds, so it goes in by rapid IV push with an immediate flush (she uses a stopcock and a second person) to \"get this huge dose right to the heart real fast\", with continuous ECG and resuscitation equipment ready. Slow pushing to protect the ears is a furosemide concern.",
+   "src": "slides 51, 63 + 02:16:03 + 02:16:34 + 02:23:31"
+  },
+  {
+   "id": "p-037",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Seconds after adenosine, the monitor goes briefly flat and the client says everything feels like it is stopping. Best interpretation?",
+   "options": [
+    "Ventricular fibrillation; begin CPR and defibrillate",
+    "Third-degree AV block that will need a pacemaker",
+    "The expected brief AV block; wait for the rhythm to return",
+    "A medication error, since adenosine should only speed the heart"
+   ],
+   "answer": "C",
+   "rationale": "Like \"turning it off and on again\": adenosine \"stops the heart for a minute, and then it restarts\" — a brief AV nodal block (the video she showed called it \"15 seconds of terror\"), hopefully returning without the abnormal rhythm. Clients usually feel everything slow and stop, then feel better. VF is chaotic activity, not a brief pause; the block is brief and expected (slide 63 lists brief bradycardia/AV block), so it isn't third-degree block needing a pacemaker or a medication error.",
+   "src": "slides 62–63 + 02:13:57 + 02:15:31 + 02:17:37"
+  },
+  {
+   "id": "p-038",
+   "tier": "2",
+   "type": "mc",
+   "stem": "(Kahoot) Fluid builds quickly in the pericardial sac. Cardiac tamponade decreases cardiac output primarily by:",
+   "options": [
+    "Causing valve regurgitation and volume overload",
+    "Inflaming the sac so each beat is painful and weak",
+    "Thickening the myocardium so it cannot relax",
+    "Compressing the heart so the ventricles can't fill"
+   ],
+   "answer": "D",
+   "rationale": "The tough fibrous sac doesn't stretch, so rising pressure \"squeezes the heart\" during diastole → ↓ ventricular filling → ↓ stroke volume → ↓ CO. It's life-threatening and usually needs drainage. Painful inflammation is pericarditis; impaired relaxation is hypertrophic cardiomyopathy.",
+   "src": "slide 67 + 02:25:45 + 02:26:17 + supp-02"
+  },
+  {
+   "id": "p-039",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which pairing of valve problem and cardiac workload is correct?",
+   "options": [
+    "Stenosis → pressure overload; regurgitation → volume overload",
+    "Stenosis → volume overload; regurgitation → pressure overload",
+    "Both stenosis and regurgitation → pressure overload only",
+    "Stenosis → chamber dilation; regurgitation → hypertrophy"
+   ],
+   "answer": "A",
+   "rationale": "A stenotic valve doesn't open fully, so the chamber must generate more pressure → pressure overload → hypertrophy. A regurgitant valve doesn't close fully, so blood leaks back → volume overload → chamber dilation.",
+   "src": "slides 68, 80 + 02:27:22 + 02:27:56"
+  },
+  {
+   "id": "p-040",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Lower-leg edema, warm skin with brown pigmentation, preserved pedal pulses and a shallow ulcer above the medial ankle. Most likely disorder?",
+   "options": [
+    "Peripheral arterial disease (PAD)",
+    "Arterial wall dissection",
+    "Chronic venous insufficiency",
+    "Acute deep vein thrombosis"
+   ],
+   "answer": "C",
+   "rationale": "Venous hypertension and pooling: edema, warmth, brown pigmentation (broken-down red blood cells), preserved pulses, and ulcers \"above the ankle.\" PAD gives cool, pale, shiny skin, diminished pulses, minimal edema and ulcers below the ankle; an acute DVT is new unilateral swelling, pain and warmth.",
+   "src": "slide 70 + 02:31:05 + 02:33:07 + supp-02"
+  },
+  {
+   "id": "p-041",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with peripheral arterial disease has severe ischemic leg pain at rest. Which position is most likely to ease it?",
+   "options": [
+    "Elevating the legs on pillows above heart level",
+    "Dangling the legs over the side of the bed",
+    "Lying supine with the legs level with the heart",
+    "Lying supine with the foot of the bed raised"
+   ],
+   "answer": "B",
+   "rationale": "\"Gravity will be your friend for peripheral artery disease\": severe ischemic pain may improve with dependency (legs below the heart) because gravity helps arterial blood reach the tissues. Legs level with the heart lose that help, and raising them (pillows or the foot of the bed) works against it — elevation is what helps chronic venous insufficiency, the opposite disorder.",
+   "src": "slide 70 + 02:31:36 + 02:32:07"
+  },
+  {
+   "id": "p-042",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Virchow's triad, the three major contributors to DVT, is:",
+   "options": [
+    "Hypertension, smoking and atherosclerosis",
+    "Venous stasis, arterial vasospasm and iron-deficiency anemia",
+    "Endothelial injury, bradycardia and fever",
+    "Venous stasis, endothelial injury, hypercoagulability"
+   ],
+   "answer": "D",
+   "rationale": "Virchow's triad: venous stasis (immobility, prolonged hospitalization), endothelial injury (trauma, surgery) and hypercoagulability (malignancy, pregnancy, estrogen). Hypertension, smoking and atherosclerosis are risk factors for aneurysm, not the triad.",
+   "src": "slide 74 + 02:36:47 + 02:37:18"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Primary care clinic",
+   "setting": "Newly diagnosed hypertension · weeks 0–8",
+   "text": "<b>Nurses' Notes — Week 0, 1000</b>\n52-year-old client, a bus driver, returns with two weeks of home blood pressure readings that are similar to today's clinic readings. Says, \"I feel fine — I didn't even know my pressure was up.\" His father takes medication for high blood pressure. Eats mostly frozen meals and fast food and drinks about 4 beers every night. No regular exercise. Seasonal allergies in the spring. Sleeps 7–8 hours. No history of gout or kidney disease.\n<b>Vital Signs</b> — T 36.7°C · HR 76 · BP 146/94 (repeat 144/92) · RR 16 · SpO₂ 98% on room air · BMI 33\n<b>Laboratory Results</b> — K⁺ 4.1 mEq/L · Na⁺ 139 mEq/L · creatinine 0.9 mg/dL · fasting glucose 96 mg/dL\n<b>Orders</b> — Lifestyle counseling · start hydrochlorothiazide (HCTZ) daily · BMP and BP recheck in 8 weeks",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "The nurse reviews the visit data. Which findings are <b>risk factors for primary hypertension</b>? Select all that apply.",
+     "options": [
+      "His father takes medication for high blood pressure",
+      "Eats mostly frozen meals and fast food",
+      "Seasonal allergies in the spring",
+      "Drinks about 4 beers every night",
+      "SpO₂ 98% on room air",
+      "Sleeps 7–8 hours a night"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Family history is a non-modifiable risk factor; excess dietary sodium (most of it comes from processed foods, not the salt shaker) and excessive alcohol are modifiable ones, as are his obesity and inactivity. Allergies, a normal SpO₂ and adequate sleep aren't risk factors — chronic stress and poor sleep are.",
+     "src": "slide 9 + 00:09:14 + 00:36:14",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "Using the blood pressure categories, the client's readings are most consistent with which category?",
+     "options": [
+      "Elevated blood pressure",
+      "Stage 1 hypertension",
+      "Stage 2 hypertension",
+      "Severe hypertension"
+     ],
+     "answer": "C",
+     "rationale": "Stage 2 is a systolic of 140 or higher or a diastolic of 90 or higher — 146/94 qualifies on both. Stage 1 is 130–139 / 80–89, elevated is 120–129 with a diastolic under 80, and severe hypertension is higher than 180 and/or higher than 120.",
+     "src": "slide 5 + 00:02:06",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "The client asks, \"If I feel fine, why do I need to do anything?\" Which response addresses the <b>most important</b> concern?",
+     "options": [
+      "Sustained pressure quietly damages vessels, heart, kidneys, brain and eyes over time",
+      "Treatment is only needed once the pressure starts causing headaches or vision changes",
+      "His readings mean a stroke is likely within the year unless he starts treatment today",
+      "The numbers only matter if they climb above 180/120, so this is just a precaution"
+     ],
+     "answer": "A",
+     "rationale": "Hypertension is the \"silent killer\": \"you can be walking around with really high blood pressure… but it's slowly causing a lot of damage internally\" — LVH and heart failure, accelerated atherosclerosis, stroke, CKD and retinopathy. Waiting for symptoms or for severe numbers misses the point, and a stroke within the year isn't what she taught.",
+     "src": "slides 4, 10 + 00:00:36 + 00:10:22",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "Which items belong in the client's lifestyle plan? Select all that apply.",
+     "options": [
+      "Choose fewer processed and fast foods to cut sodium",
+      "Follow a low-potassium diet while on the new medication",
+      "Regular aerobic exercise as he is able",
+      "Limit alcohol intake",
+      "Go to the emergency department for any reading over 130/80",
+      "Stop all salt only if the medication fails"
+     ],
+     "answer": "A, C, D",
+     "rationale": "Reducing sodium (mostly from processed foods), aerobic exercise and limiting alcohol all lower BP; weight reduction would help too. Adequate dietary potassium actually promotes sodium excretion, so a low-potassium diet is wrong. A reading over 130/80 with no symptoms is not an emergency, and lifestyle changes are for everyone, not a fallback.",
+     "src": "slides 13, 42 + 00:14:13 + 00:15:15 + 00:36:14",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "mc",
+     "stem": "The nurse teaches the client about his new hydrochlorothiazide. Which instruction is correct?",
+     "options": [
+      "Take it at bedtime so the medication keeps working while you sleep",
+      "Expect your blood sugar to drop, so carry glucose tablets with you",
+      "Eat fewer high-potassium foods, because this drug holds on to potassium",
+      "Take it in the morning so you aren't up at night to urinate"
+     ],
+     "answer": "D",
+     "rationale": "Diuretics go in the morning so the urination happens during waking hours — \"we really don't want to disrupt people's sleep\" (and night trips to the bathroom are a fall risk). HCTZ causes hypokalemia, not potassium retention, and it may slightly <i>increase</i> blood glucose.",
+     "src": "slide 20 + 00:26:38 + 00:27:08",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Week 8.</b> The client returns for his recheck. Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "BP 128/78",
+      "K⁺ 3.3 mEq/L",
+      "A hot, swollen, painful big toe since Saturday",
+      "Walks 30 minutes most days",
+      "Lightheaded when he stands up quickly",
+      "Has cut back to one beer on weekends"
+     ],
+     "answer": "B, C, E",
+     "rationale": "Thiazide adverse effects: hypokalemia (normal K⁺ is 3.5–5), hyperuricemia that \"may precipitate gout,\" and orthostatic hypotension/dehydration. The BP at goal (< 130/80), the exercise and the drinking less show the plan is working.",
+     "src": "slides 20, 42 + 00:26:38 + 00:27:08 + 00:29:47",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Telemetry unit (heart failure)",
+   "setting": "Fluid overload on a loop diuretic · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 0700</b>\n74-year-old client with heart failure with reduced ejection fraction admitted overnight with shortness of breath. Weight is up 3 kg in 4 days. Crackles in both lower lung lobes and 3+ pitting edema of both ankles. Had cataract surgery last year. Enjoys crossword puzzles and is working one at the bedside.\n<b>Vital Signs</b> — T 36.9°C · HR 92 · BP 148/86 · RR 24 · SpO₂ 92% on 2 L nasal cannula\n<b>Laboratory Results</b> — K⁺ 3.2 mEq/L · Na⁺ 136 mEq/L · creatinine 1.1 mg/dL\n<b>Orders</b> — Furosemide IV at 0900 and 1500 · daily weight · strict I&amp;O · BMP daily",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Which findings are consistent with <b>fluid overload</b>? Select all that apply.",
+     "options": [
+      "Weight up 3 kg in 4 days",
+      "T 36.9°C",
+      "Crackles in both lower lobes",
+      "Working a crossword puzzle at the bedside",
+      "3+ pitting edema of both ankles",
+      "RR 24 with shortness of breath"
+     ],
+     "answer": "A, C, E, F",
+     "rationale": "Weight is \"the best way to overall track someone's fluid status\"; crackles, edema and dyspnea are the fluid itself — exactly what the \"big gun\" loop diuretic is for (heart failure, pulmonary edema). A normal temperature and the puzzle are irrelevant.",
+     "src": "slide 21 + 00:28:42 + 00:30:54",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "The nurse notes the K⁺ of 3.2 mEq/L. Giving the 0900 furosemide now would most likely:",
+     "options": [
+      "Raise the potassium, because loop diuretics hold on to potassium",
+      "Lower the potassium further, deepening the hypokalemia",
+      "Leave the potassium unchanged, because loops excrete only sodium",
+      "Cause hyperkalemia by blocking aldosterone receptors in the nephron"
+     ],
+     "answer": "B",
+     "rationale": "Furosemide gets rid of sodium <i>and</i> potassium — \"low potassium and Lasix really should be making your brain have some little red flags.\" It doesn't hold on to potassium or spare it, and holding potassium by blocking aldosterone receptors is spironolactone, not furosemide.",
+     "src": "slide 21 + 00:29:15 + 00:29:47",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "What is the nurse's <b>priority</b> action for the 0900 furosemide dose?",
+     "options": [
+      "Give it on time, since the crackles mean she needs the fluid off now",
+      "Move the dose to bedtime so the potassium can recover during the day",
+      "Give it as a rapid IV push so less of the drug is needed",
+      "Hold the dose and notify the provider about the K⁺ of 3.2"
+     ],
+     "answer": "D",
+     "rationale": "Her own question: K⁺ 3.2 with Lasix due at 9 a.m. — \"you would not want to give it\"; normal is 3.5–5, and at minimum potassium replacement is needed first. A bedtime dose would keep the client up all night, and a rapid IV push risks ototoxicity.",
+     "src": "slide 21 + 00:29:47 + 00:30:20",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "The provider replaces the potassium and continues the diuretic plan. Which items should the nurse anticipate? Select all that apply.",
+     "options": [
+      "A potassium supplement as ordered",
+      "A daily weight to track fluid status",
+      "Moving the furosemide doses to 2100 and 0300",
+      "Adding spironolactone to help balance the potassium loss",
+      "Pushing the IV furosemide quickly to remove fluid faster",
+      "Monitoring electrolytes and renal function"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Monitor BP, fluid status, weight, electrolytes and renal function; replace K⁺; and when a client needs high-dose Lasix, \"sometimes we'll add\" spironolactone \"to balance out the potassium.\" Lasix \"lasts six\" hours, so 9 a.m. and 3 p.m. keep the diuresis out of the night, and a fast push risks the ears.",
+     "src": "slides 21–22 + 00:28:12 + 00:30:54 + 00:33:32",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 1000.</b> K⁺ is 3.8 mEq/L and spironolactone has been added. The client's daughter brings in a salt substitute \"so Mom's food has some flavor.\" What should the nurse tell them?",
+     "options": [
+      "Many salt substitutes are made with potassium, so avoid them while she takes spironolactone",
+      "That is a good choice, because it replaces the potassium that the furosemide removes",
+      "It is fine to use as long as she sprinkles it only on her breakfast",
+      "It is safe because spironolactone makes the kidneys lose potassium, as furosemide does"
+     ],
+     "answer": "A",
+     "rationale": "Spironolactone retains potassium (hyperkalemia), and \"a lot of them substitute the salt with potassium\" — so she'd be \"taking a whole bunch of extra potassium without knowing it.\" Avoid potassium-containing salt substitutes unless directed. Spironolactone does the opposite of furosemide to potassium.",
+     "src": "slide 22 + 00:34:04 + 00:36:47",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0800.</b> The nurse reviews the morning data. Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "Weight down 2 kg since admission",
+      "K⁺ 5.4 mEq/L",
+      "Lungs now clear on auscultation",
+      "Reports new ringing in her ears after the last IV dose",
+      "Slept through the night without getting up to void",
+      "Ankle edema now 1+"
+     ],
+     "answer": "B, D",
+     "rationale": "K⁺ above 5 is hyperkalemia, the main risk once spironolactone and potassium supplements are both on board; ringing in the ears points to furosemide ototoxicity (\"especially with high doses or rapid IV administration\"). Falling weight, clear lungs, less edema and a night without voiding show the plan is working.",
+     "src": "slides 21–22 + 00:30:20 + 00:35:42",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Nephrology clinic",
+   "setting": "CKD with albuminuria on an ACE inhibitor · weeks 0–6",
+   "text": "<b>Nurses' Notes — Week 0, 0930</b>\n46-year-old client with type 2 diabetes and chronic kidney disease referred after protein (albumin) was found in her urine on two visits. Takes ibuprofen most days for knee pain. Cooks with a potassium-based salt substitute \"to cut back on salt.\" Wears reading glasses. Flu vaccine is up to date. Gardens on weekends. Not pregnant and not planning a pregnancy.\n<b>Vital Signs</b> — T 36.8°C · HR 80 · BP 136/84 · RR 16 · SpO₂ 99% on room air\n<b>Laboratory Results</b> — creatinine 1.4 mg/dL · K⁺ 4.6 mEq/L · Na⁺ 140 mEq/L · urine albumin positive\n<b>Orders</b> — Start lisinopril daily · BMP in 2 weeks · follow-up visit in 4 weeks",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which findings are relevant to starting the client on an <b>ACE inhibitor</b>? Select all that apply.",
+     "options": [
+      "Albumin in the urine",
+      "Takes ibuprofen most days",
+      "Wears reading glasses",
+      "Cooks with a potassium-based salt substitute",
+      "Flu vaccine is up to date",
+      "Gardens on weekends"
+     ],
+     "answer": "A, B, D",
+     "rationale": "CKD with albuminuria is the reason for an ACEI/ARB (\"we want to protect whatever kidney function is left\"). NSAIDs call for caution because they constrict the arteriole bringing blood into the glomerulus, and a potassium salt substitute adds potassium to a drug that already raises it. The glasses, vaccine and gardening are irrelevant.",
+     "src": "slides 38, 43 + 01:05:03 + 01:10:46",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "mc",
+     "stem": "Why is an ACE inhibitor preferred for this client's kidneys?",
+     "options": [
+      "It constricts the efferent arteriole, raising filtration in the damaged glomeruli",
+      "It works as a potent diuretic that pulls excess fluid out of the kidneys",
+      "It dilates the efferent arteriole, lowering the pressure inside the glomerulus",
+      "It lowers the serum potassium, which protects the remaining nephrons"
+     ],
+     "answer": "C",
+     "rationale": "ACE inhibitors are \"super duper renal protective\": they dilate the efferent (outflow) arteriole, so pressure in the glomerulus falls — and that pressure is \"like the whole thing\" in kidney failure. Constriction is the reverse; they aren't diuretics; and they raise potassium.",
+     "src": "slide 37 + 01:00:30 + 01:01:00",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "<b>Week 2.</b> Creatinine is 1.6 mg/dL (was 1.4), K⁺ 4.9 mEq/L, BP 126/78. Which conclusion should <b>guide the nurse's priority</b> for this visit?",
+     "options": [
+      "The ACE inhibitor is causing acute kidney failure and should be stopped today",
+      "A small creatinine rise is expected as glomerular pressure falls; keep monitoring",
+      "A K⁺ of 4.9 is hyperkalemia, so the lisinopril must be held",
+      "The blood pressure is now too low and needs a dose reduction"
+     ],
+     "answer": "B",
+     "rationale": "\"When you first start, there's going to be a little bump in the creatinine, and we expect that\" — lower glomerular pressure trades a little filtration for saving the kidney long term. K⁺ 4.9 is within 3.5–5 (still worth watching), and 126/78 is right at the < 130/80 goal.",
+     "src": "slides 38, 42 + 01:04:03 + 01:04:33",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "Which items belong in the client's teaching and monitoring plan? Select all that apply.",
+     "options": [
+      "Regular potassium and renal function checks",
+      "Adding losartan for extra kidney protection",
+      "Report swelling of the lips, tongue or face right away",
+      "A daily potassium supplement to prevent hypokalemia",
+      "Talk with the provider before taking ibuprofen",
+      "Stop using the potassium-based salt substitute"
+     ],
+     "answer": "A, C, E, F",
+     "rationale": "Monitor K⁺ and renal function; angioedema is rare but life-threatening; use caution with NSAIDs and potassium (supplements or salt substitutes), since ACE inhibitors cause hyperkalemia, not hypokalemia. Don't combine an ACE inhibitor with an ARB.",
+     "src": "slide 38 + 01:03:33 + 01:05:03",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "mc",
+     "stem": "<b>Week 4.</b> The client reports a dry, nagging cough for two weeks. She has no fever and her lungs are clear. Which action does the nurse anticipate?",
+     "options": [
+      "Collect a sputum sample, because the cough suggests a new infection",
+      "Switch to enalapril, which causes this cough less often",
+      "Document lisinopril as an allergy and never give an ACE inhibitor again",
+      "Report the cough; the provider will likely switch her to losartan"
+     ],
+     "answer": "D",
+     "rationale": "The dry cough comes from bradykinin build-up (ACE normally breaks it down) — \"not a cough that is a sign of an infection.\" An ARB doesn't raise bradykinin, so it's \"an almost equivalent medication\" without the cough. Enalapril is another -pril, and the never-again allergy rule is for angioedema.",
+     "src": "slides 38–39 + 01:02:32 + 01:03:03 + 01:06:36",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "<b>Week 6.</b> The client has taken losartan for two weeks. Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "The cough is gone",
+      "BP 124/76",
+      "Woke up this morning with swollen lips",
+      "K⁺ 5.6 mEq/L",
+      "Stopped taking ibuprofen",
+      "Creatinine unchanged since week 2"
+     ],
+     "answer": "C, D",
+     "rationale": "Angioedema is very rare with ARBs, but swelling of the lips threatens the airway and needs immediate evaluation; K⁺ above 5 is hyperkalemia (ARBs raise potassium too). A resolved cough, BP at goal, no NSAIDs and a stable creatinine show the plan is working.",
+     "src": "slides 39–40 + 01:03:33 + 01:31:29",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Stroke unit",
+   "setting": "Severe hypertension and PRN hydralazine · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 1400</b>\n68-year-old client admitted 2 days ago with an ischemic stroke. Residual mild weakness of the left hand; speech is clear and he is oriented. History of long-standing hypertension (takes losartan), chronic kidney disease, left ventricular hypertrophy on a past echocardiogram and hypertensive retinopathy noted at his last eye exam. Had a right knee replacement 6 years ago. Wears upper dentures. Looking forward to bingo night with his family.\n<b>Vital Signs</b> — T 36.8°C · HR 78 · BP 168/94 · RR 16 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — K⁺ 4.4 mEq/L · Na⁺ 138 mEq/L · creatinine 1.5 mg/dL\n<b>Orders</b> — Neuro checks every 4 hours · continue home losartan · hydralazine IV PRN for SBP &gt; 180 · notify provider of new neuro changes",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which findings in the client's history are <b>target-organ damage</b> from long-standing hypertension? Select all that apply.",
+     "options": [
+      "Ischemic stroke",
+      "Right knee replacement",
+      "Chronic kidney disease",
+      "Left ventricular hypertrophy",
+      "Upper dentures",
+      "Hypertensive retinopathy"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Chronic HTN damages the heart (LVH from the extra afterload, then HF), the brain (stroke), the kidneys (CKD — HTN and diabetes are the leading causes of renal failure) and the delicate retinal vessels. A knee replacement and dentures aren't related.",
+     "src": "slides 10–11, 16 + 00:10:22 + 00:10:57 + 00:13:07",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "mc",
+     "stem": "<b>Day 1, 2200.</b> BP 186/104, HR 80. The client denies headache, chest pain or shortness of breath, and his neuro check is unchanged from baseline. The nurse recognizes this reading as:",
+     "options": [
+      "A hypertensive emergency, because the client has already had a stroke",
+      "Severe hypertension",
+      "Stage 1 hypertension",
+      "Elevated blood pressure"
+     ],
+     "answer": "B",
+     "rationale": "Severe hypertension and hypertensive emergency \"have the same numbers\" (> 180 and/or > 120); \"the hypertensive emergency has these numbers plus symptoms\" — new chest pain, SOB, back pain, numbness, weakness, vision change or difficulty speaking. His old stroke isn't a new symptom, and stage 1 and elevated are far lower numbers.",
+     "src": "slide 5 + 00:02:06 + 00:03:06",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "While the nurse prepares the PRN dose, which new finding would be the <b>highest priority</b> to report?",
+     "options": [
+      "A heart rate of 88 after he was repositioned",
+      "Asking when his next blood pressure check will be",
+      "New trouble finding words and slurred speech",
+      "His usual mild weakness of the left hand"
+     ],
+     "answer": "C",
+     "rationale": "Difficulty speaking is one of slide 5's emergency symptoms and, here, a new neuro change — high pressure \"acutely causing problems.\" The left-hand weakness is his baseline from the stroke, a heart rate of 88 is normal, and his question needs only an answer.",
+     "src": "slide 5 + 00:03:06",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "The nurse gives the PRN hydralazine. Which effects should the nurse monitor for? Select all that apply.",
+     "options": [
+      "A rising heart rate",
+      "Bradycardia and AV block",
+      "Dizziness when he sits up",
+      "New edema and weight gain",
+      "A dry, nagging cough",
+      "Rebound hypertension if a dose is missed"
+     ],
+     "answer": "A, C, D",
+     "rationale": "Hydralazine dilates arterioles → BP falls → the baroreceptor reflex raises HR (reflex tachycardia), and RAAS activation retains sodium and water; vasodilation also causes dizziness and orthostasis. Bradycardia/AV block belong to beta blockers and verapamil/diltiazem, the cough to ACE inhibitors, rebound HTN to clonidine.",
+     "src": "slide 29 + 00:46:55 + 00:47:28",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 2300.</b> One hour after the hydralazine, BP is 152/88 and HR is 112 (was 80). The client is otherwise unchanged. What should the nurse do now?",
+     "options": [
+      "Report the HR of 112 to the provider and ask about a beta blocker",
+      "Give a second hydralazine dose to bring the heart rate down",
+      "Hold the morning losartan, since it is causing the tachycardia",
+      "Ask the provider to switch the PRN to amlodipine to slow the HR"
+     ],
+     "answer": "A",
+     "rationale": "Because clients \"often will have this reflex tachycardia,\" a beta blocker may be given with hydralazine (and a diuretic or RAAS blocker for the fluid retention) — so the nurse reports it and asks. More hydralazine drives more reflex tachycardia, losartan doesn't cause it, and amlodipine has little effect on heart rate.",
+     "src": "slides 29, 32 + 00:46:55",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0800.</b> Metoprolol was added. Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "No PRN hydralazine needed overnight",
+      "HR 74 at rest",
+      "Up 1.5 kg since yesterday with new ankle edema",
+      "Neuro checks unchanged from baseline",
+      "Lightheaded each time he stands",
+      "Systolic BP has stayed below 180 since midnight"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Systolic pressure staying under the 180 PRN trigger without hydralazine, a normal heart rate on the beta blocker and a stable neuro exam show the plan working. New edema with weight gain is the sodium and water retention that may need a diuretic, and lightheadedness on standing is orthostatic hypotension — both need follow-up.",
+     "src": "slide 29 + 00:44:04 + 00:47:28",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Medical unit",
+   "setting": "Beta blockers and other sympatholytics · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 1400</b>\n64-year-old client admitted with cellulitis of the right shin. History of hypertension, a myocardial infarction 3 years ago, type 2 diabetes treated with insulin and childhood asthma (still uses an inhaler \"a few times a year\"). Home medications: metoprolol twice daily, clonidine and insulin. Says he stopped taking clonidine 2 days ago because \"it makes my mouth so dry.\" His glucose meter read low this morning at home, and he says, \"I didn't feel shaky or have a racing heart at all.\" Enjoys fishing with his grandson.\n<b>Vital Signs</b> — T 37.9°C · HR 66 · BP 178/100 · RR 18 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — K⁺ 4.2 mEq/L · Na⁺ 139 mEq/L · blood cultures pending\n<b>Orders</b> — IV antibiotic · metoprolol PO 0900 and 2100, hold for HR &lt; 60 · resume clonidine · fingerstick glucose before meals and at bedtime",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings are related to the client's <b>sympatholytic medications</b> and need follow-up? Select all that apply.",
+     "options": [
+      "Stopped clonidine on his own 2 days ago",
+      "BP 178/100",
+      "A low glucose this morning with no warning symptoms",
+      "T 37.9°C",
+      "Enjoys fishing with his grandson",
+      "HR 66"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Stopping clonidine abruptly and the high BP go together (rebound), and beta blockers can mask the adrenergic warning signs of hypoglycemia — dangerous with insulin. The temperature belongs to the cellulitis, HR 66 is above the hold parameter, and fishing is irrelevant.",
+     "src": "slides 23, 26 + 00:39:55 + 00:40:29",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "mc",
+     "stem": "Which explanation best accounts for the BP of 178/100?",
+     "options": [
+      "Reflex tachycardia and fluid retention caused by the metoprolol",
+      "Metoprolol blocking β₂ receptors in the blood vessels",
+      "A masked low blood sugar raising his blood pressure",
+      "Rebound hypertension from stopping clonidine abruptly"
+     ],
+     "answer": "D",
+     "rationale": "With less stimulation the nervous system \"responds by making more of the receptors,\" so stopping a sympatholytic suddenly sends BP up — clonidine's major concern is \"rebound HTN if stopped abruptly.\" Reflex tachycardia with fluid retention is hydralazine's problem, and metoprolol is β₁-selective.",
+     "src": "slides 26–27 + 00:40:29 + 01:34:27",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "<b>Day 1, 1800.</b> Because of a pharmacy shortage, the provider considers changing metoprolol to propranolol. Which concern is <b>specific to propranolol</b> for this client?",
+     "options": [
+      "Bronchospasm, because it blocks β₂ as well as β₁ receptors",
+      "Masking the warning signs of a low blood sugar",
+      "Bradycardia below the hold parameter",
+      "Rebound hypertension and tachycardia if it is stopped suddenly"
+     ],
+     "answer": "A",
+     "rationale": "Propranolol is nonselective (β₁ and β₂), and β₂ blockade brings bronchospasm — a real risk with his asthma; metoprolol is \"cardioselective.\" Masked hypoglycemia, bradycardia and rebound after abrupt stopping apply to both beta blockers, so none of them is specific.",
+     "src": "slide 23 + 00:38:20 + 01:33:24",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "The provider keeps metoprolol, restarts clonidine and adds prazosin. Which points should the nurse include in the teaching? Select all that apply.",
+     "options": [
+      "Take the first prazosin dose at bedtime",
+      "Get up slowly, especially out of bed — the first dose can drop your pressure",
+      "If the dry mouth from clonidine bothers you, stop it right away",
+      "If clonidine is ever stopped, taper it as directed",
+      "Clonidine can make you drowsy",
+      "Prazosin works by stimulating alpha-2 receptors in the brain"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "Prazosin, an alpha-1 blocker, causes \"first dose orthostatic hypotension from the massive vasodilation,\" so the first dose may be given at bedtime and the client rises slowly. Clonidine causes sedation and dry mouth and must be tapered, never stopped abruptly. Stimulating central alpha-2 receptors is clonidine's mechanism, not prazosin's.",
+     "src": "slides 24, 26 + 00:41:10 + 01:34:27",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 0850.</b> Before the 0900 metoprolol, HR is 54 and BP is 112/68. The client says he feels fine. What should the nurse do?",
+     "options": [
+      "Give the dose, because he has no symptoms and a heart rate over 50 is safe",
+      "Hold the metoprolol and notify the provider, per the hold parameter",
+      "Give half the dose and recheck the heart rate in an hour",
+      "Hold the metoprolol and also skip the clonidine so his heart rate can recover"
+     ],
+     "answer": "B",
+     "rationale": "Orders are often written to hold a beta blocker if HR < 60 \"because it's going to slow it down even more, and 60 is right there at the bottom of normal.\" The nurse doesn't adjust the dose on their own, and skipping clonidine risks rebound hypertension.",
+     "src": "slide 23 + 00:40:29",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0800.</b> Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "BP 136/84 since clonidine was restarted",
+      "No dizziness after his first bedtime prazosin dose",
+      "Says, \"I'll stop the metoprolol the day I get home — my heart is fine now\"",
+      "Says, \"If I ever need to stop clonidine, my doctor will taper it\"",
+      "Felt faint when he got up quickly at 0200",
+      "HR 52 before this morning's metoprolol"
+     ],
+     "answer": "A, B, D",
+     "rationale": "BP coming down, no first-dose orthostasis and correct taper teaching show progress. Stopping a beta blocker abruptly causes rebound sympathetic activity, fainting on rising is orthostatic hypotension, and HR 52 is below the hold parameter — all need follow-up.",
+     "src": "slides 23–24, 26 + 00:40:29 + 00:41:10",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Telemetry unit (AFib)",
+   "setting": "New atrial fibrillation · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 1400</b>\n72-year-old client admitted with palpitations and fatigue. Says the \"fluttering\" in her chest started about 3 days ago. History of hypertension (takes amlodipine) and heart failure with reduced ejection fraction (takes metoprolol). Had her appendix removed at age 20. Wears bilateral hearing aids. Vegetarian.\n<b>Vital Signs</b> — T 36.6°C · HR 132, irregular · BP 128/78 · RR 18 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — K⁺ 4.3 mEq/L · Mg²⁺ normal · ECG: irregularly irregular rhythm, ventricular rate 132\n<b>Orders</b> — Continuous telemetry · provider to discuss rate control, anticoagulation and cardioversion",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which findings are relevant to the client's new dysrhythmia and its treatment? Select all that apply.",
+     "options": [
+      "Irregularly irregular rhythm at 132",
+      "Bilateral hearing aids",
+      "Symptoms began about 3 days ago",
+      "History of HFrEF",
+      "Appendix removed at age 20",
+      "Fatigue and palpitations"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "AFib is \"irregularly irregular\" with a fast ventricular rate; how long she's been in it decides whether she can be cardioverted; HFrEF rules out verapamil/diltiazem. Her symptoms show she feels the rhythm. Hearing aids and an old appendectomy are irrelevant.",
+     "src": "slides 33, 49 + 01:48:30 + 01:50:42",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "The client asks why AFib puts her at risk for a stroke. Which explanation is accurate?",
+     "options": [
+      "The fast ventricular rate raises pressure enough to rupture small vessels in the brain",
+      "Clots form in the leg veins and travel up to the brain",
+      "Blood stasis and turbulence in the atria form clots that can travel to the brain",
+      "Low cardiac output starves the brain of oxygen during each irregular beat"
+     ],
+     "answer": "C",
+     "rationale": "\"You put turbulence and stasis together, clots form\" — especially in the left atrial appendage — and a clot that leaves through the ventricle is most dangerous in the brain. Leg-vein clots go to the lungs, and the issue isn't vessel rupture or low output.",
+     "src": "slide 49 + 01:43:43 + 01:47:55 + 02:19:10",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "The provider asks whether the client could be cardioverted today. Which finding is the <b>most important</b> for the nurse to point out?",
+     "options": [
+      "Her ventricular rate is 132",
+      "She takes amlodipine for her blood pressure at home",
+      "Her magnesium level is normal",
+      "Her symptoms began about 3 days ago"
+     ],
+     "answer": "D",
+     "rationale": "\"We can't do the cardioversion if it's been more than 24 hours, because at that point we're almost certain that a clot has occurred,\" and cardioverting would break it free — she needs anticoagulation first. The rate matters for rate control, but it doesn't change the cardioversion decision.",
+     "src": "slide 49 + 01:48:30 + 01:49:03",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "Which items should the nurse anticipate in the client's plan? Select all that apply.",
+     "options": [
+      "Anticoagulation",
+      "Increasing the amlodipine to slow the ventricular rate",
+      "Rate control with her beta blocker, metoprolol",
+      "Cardioversion today, before anticoagulation is started",
+      "Continuous ECG monitoring",
+      "Adding diltiazem to the metoprolol"
+     ],
+     "answer": "A, C, E",
+     "rationale": "The three goals are rate control, rhythm control and stroke prevention (anticoagulation). A beta blocker slows AV conduction, so fewer atrial impulses reach the ventricles. Amlodipine is not used for dysrhythmias, cardioversion must wait after > 24 hours, and diltiazem plus metoprolol (with HFrEF) would over-suppress the heart.",
+     "src": "slides 49, 59, 61 + 01:44:20 + 01:46:38",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 0900.</b> The client's rate is still 118. A new order reads: diltiazem IV now, continue metoprolol. What should the nurse do <b>first</b>?",
+     "options": [
+      "Give the diltiazem and recheck the blood pressure in 15 minutes",
+      "Clarify the order, because of her HFrEF and the metoprolol",
+      "Give the diltiazem and hold the amlodipine, since both are CCBs",
+      "Hold the metoprolol and give only the diltiazem from now on"
+     ],
+     "answer": "B",
+     "rationale": "Verapamil/diltiazem are negative inotropes, avoided in HFrEF (weak contraction is \"like the primary problem in heart failure\"), and with a beta blocker they lower HR, contractility and AV conduction together — \"usually those two medications are not given together.\" The nurse clarifies before giving or changing anything.",
+     "src": "slides 33, 61 + 00:55:51 + 01:36:39",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0800.</b> The metoprolol was increased and anticoagulation started. Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Ventricular rate 84, rhythm still irregular",
+      "Speech clear and hand grips equal",
+      "HR 46 with dizziness when she sits up",
+      "New drooping of the left side of her face",
+      "Explains that the anticoagulant lowers her stroke risk",
+      "Plans to stop the anticoagulant once the fluttering stops"
+     ],
+     "answer": "A, B, E",
+     "rationale": "Rate control is meant to slow the ventricles, not necessarily fix the rhythm, so an irregular rate of 84 is the goal; a normal neuro check and understanding why anticoagulation matters are good signs. HR 46 with dizziness is too much AV slowing, a new facial droop could be an embolic stroke, and stopping the anticoagulant early misses the point — she may not even feel the AFib.",
+     "src": "slide 49 + 01:44:20 + 01:46:38 + 01:48:30",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Emergency department",
+   "setting": "Supraventricular tachycardia · 1 hour",
+   "text": "<b>Nurses' Notes — Day 1, 1400</b>\n28-year-old client brought in by a coworker after her heart suddenly started \"pounding\" at her desk 30 minutes ago. Mildly lightheaded but alert, oriented and speaking in full sentences. Has had two energy drinks today. Runs half-marathons. Allergic to penicillin (rash). Has a tattoo on her left forearm.\n<b>Vital Signs</b> — T 36.9°C · HR 188, regular · BP 112/70 · RR 20 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — K⁺ 4.0 mEq/L · Mg²⁺ normal · ECG: regular narrow-complex tachycardia at 188\n<b>Orders</b> — Continuous ECG monitoring · IV access · vagal maneuvers · adenosine at the bedside · defibrillator/pacing pads per protocol",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which ECG findings are consistent with the client's <b>SVT</b>? Select all that apply.",
+     "options": [
+      "A regular rhythm",
+      "Narrow QRS complexes",
+      "A rate of 188",
+      "An irregularly irregular rhythm",
+      "Sawtooth flutter waves",
+      "Wide, bizarre QRS complexes from the ventricles"
+     ],
+     "answer": "A, B, C",
+     "rationale": "SVT \"often produces a regular, narrow-complex tachycardia.\" Irregularly irregular is AFib, the sawtooth pattern is atrial flutter, and wide complexes starting in the ventricles point to VT.",
+     "src": "slides 49–52 + 01:50:42 + 01:52:27",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "Which mechanism best explains the client's rhythm and her lightheadedness?",
+     "options": [
+      "A reentrant circuit involving the AV node; the fast rate shortens filling time",
+      "Chaotic atrial impulses that reach the ventricles at random",
+      "One organized atrial circuit firing at 250–350, blocked partly at the AV node",
+      "Rapid impulses from the ventricles that can turn into ventricular fibrillation"
+     ],
+     "answer": "A",
+     "rationale": "SVT is usually AV nodal reentry; at rates around 180–200 \"you don't have enough filling time,\" so cardiac output falls even with a fast heart. Chaotic atria is AFib, an organized circuit at 250–350 is flutter, and ventricular origin is VT.",
+     "src": "slides 48, 51 + 01:52:27 + 01:53:00",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "The client is stable. Which treatment should the nurse expect to try <b>first</b>?",
+     "options": [
+      "Adenosine by rapid IV push, followed by a saline flush",
+      "Synchronized cardioversion with the defibrillator pads",
+      "Asking her to bear down as if having a bowel movement, or to cough",
+      "Firm, steady massage over the carotid artery on one side of her neck"
+     ],
+     "answer": "C",
+     "rationale": "Vagal maneuvers can interrupt the AV nodal circuit, and vagal maneuvers come first \"because that's way easier and less stressful.\" Adenosine comes next if that fails; cardioversion is for unstable SVT; pressing on the neck can break a carotid plaque free and interrupt blood flow to the brain.",
+     "src": "slide 51 + 01:53:32 + 01:54:36 + 01:55:39",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "<b>Day 1, 1420.</b> Vagal maneuvers did not work, and the provider orders adenosine. How should the nurse prepare? Select all that apply.",
+     "options": [
+      "Apply defibrillator/pacing pads per protocol",
+      "Plan to push the adenosine slowly over 2 minutes",
+      "Have a saline flush ready to follow the adenosine immediately",
+      "Warn her she may briefly feel flushing, chest discomfort or shortness of breath",
+      "Keep continuous ECG monitoring running",
+      "Turn off the cardiac monitor to reduce artifact during the push"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "Adenosine's half-life is under 10 seconds, so it goes in by rapid IV push and an immediate saline flush, with continuous ECG, resuscitation equipment and pads ready. Warn the client about brief, unpleasant sensations. A slow push would let the drug break down before it reaches the heart, and the monitor stays on.",
+     "src": "slide 63 + 02:16:03 + 02:17:07",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "order",
+     "stem": "Put the nurse's steps for giving the adenosine in order.",
+     "options": [
+      "Immediately push the saline flush",
+      "Confirm the ECG is running continuously and the pads are on",
+      "Push the adenosine rapidly",
+      "Watch the monitor for the brief pause and the return of a rhythm"
+     ],
+     "answer": "B, C, A, D",
+     "rationale": "Monitoring and pads come first; then the rapid push and, as soon as it's in, the flush, \"because you really want to get this huge dose right to the heart real fast.\" Then watch — it \"stops the heart for a minute, and then it restarts,\" and \"you're waiting for it to come back.\"",
+     "src": "slide 63 + 02:13:57 + 02:16:03 + 02:16:34",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 1440.</b> The nurse reviews the client's response. Which findings are expected and show the treatment <b>worked</b>? Select all that apply.",
+     "options": [
+      "A pause of a few seconds on the monitor, then a regular rhythm at 92",
+      "Flushing and chest tightness that faded within a minute",
+      "BP 116/74, alert and talking",
+      "SVT back at 196 with BP 74/40 and new confusion",
+      "Shortness of breath that is still getting worse 30 minutes later",
+      "Says, \"It felt like everything slowed down and stopped\""
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "The brief pause, a few moments of flushing or chest discomfort, and the feeling that everything slows down and stops are the expected adenosine effects; a regular rate of 92 with a good BP means it worked. Recurrent SVT with hypotension and confusion is unstable SVT — synchronized cardioversion — and dyspnea that keeps worsening is not transient.",
+     "src": "slides 51, 63 + 01:57:43 + 02:17:37",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Cardiac care unit",
+   "setting": "Post-MI dysrhythmias · day 2 to week 6",
+   "text": "<b>Nurses' Notes — Day 2, 1400</b>\n61-year-old client 2 days after a myocardial infarction. Telemetry shows sinus rhythm with frequent PVCs — early, wide QRS complexes. Reports \"my heart keeps skipping.\" Usually drinks 5 cups of coffee a day and has been asking for more. Had his tonsils out as a child. Retired machinist who builds model trains.\n<b>Vital Signs</b> — T 37.0°C · HR 84 · BP 124/76 · RR 18 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — K⁺ 3.1 mEq/L · Mg²⁺ 1.4 mg/dL (low) · Na⁺ 138 mEq/L\n<b>Orders</b> — Continuous telemetry · metoprolol · replace potassium and magnesium per protocol · defibrillator at the bedside",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "sata",
+     "stem": "Which findings are likely <b>triggers</b> for the client's PVCs? Select all that apply.",
+     "options": [
+      "K⁺ 3.1 mEq/L",
+      "Tonsillectomy as a child",
+      "Mg²⁺ 1.4 mg/dL (low)",
+      "Myocardial infarction 2 days ago",
+      "Five cups of coffee a day",
+      "T 37.0°C"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "PVC triggers: stimulants and increased sympathetic activity (\"you're drinking a ton of caffeine too\"), myocardial ischemia, and electrolyte disturbances, especially hypokalemia and hypomagnesemia. A childhood tonsillectomy and a normal temperature aren't triggers.",
+     "src": "slide 54 + 02:01:27 + 02:01:59",
+     "step": "recognize"
+    },
+    {
+     "id": "c08-q02",
+     "type": "mc",
+     "stem": "<b>Day 3, 0300.</b> The QT interval has been lengthening. The monitor now shows runs of a rapid ventricular rhythm whose QRS complexes get smaller, then bigger, then smaller, twisting around the baseline. The client has a pulse; BP 104/66. This rhythm is most consistent with:",
+     "options": [
+      "Monomorphic ventricular tachycardia",
+      "Atrial flutter",
+      "Ventricular fibrillation",
+      "Torsades de pointes"
+     ],
+     "answer": "D",
+     "rationale": "Torsades is polymorphic VT tied to a prolonged QT — \"smaller and then bigger and then smaller,\" the \"party streamer\" — and hypokalemia and hypomagnesemia are risk factors. Monomorphic VT has uniform complexes, flutter is a sawtooth atrial rhythm, and VF is chaotic with no pulse.",
+     "src": "slide 55 + 02:03:08 + 02:03:40",
+     "step": "analyze"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "Which medication should the nurse anticipate <b>first</b> for this rhythm?",
+     "options": [
+      "Adenosine by rapid IV push",
+      "IV magnesium sulfate",
+      "IV diltiazem for rate control",
+      "A higher dose of a QT-prolonging antiarrhythmic"
+     ],
+     "answer": "B",
+     "rationale": "\"For this one, actually, magnesium is the treatment\" — IV magnesium sulfate works even when serum magnesium is normal. Adenosine is for SVT, diltiazem slows AV conduction for atrial rhythms, and QT-prolonging drugs are a cause of torsades, so they're stopped.",
+     "src": "slide 55 + 02:04:12 + 02:21:21",
+     "step": "prioritize"
+    },
+    {
+     "id": "c08-q04",
+     "type": "sata",
+     "stem": "Which items should the nurse anticipate in the plan for torsades? Select all that apply.",
+     "options": [
+      "IV magnesium sulfate",
+      "Potassium replacement",
+      "Stopping QT-prolonging medications as ordered",
+      "Adenosine by rapid IV push",
+      "Holding the magnesium once the level is normal, since it only helps when low",
+      "Continuous ECG monitoring"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Treat with IV magnesium, correct electrolyte abnormalities, discontinue QT-prolonging drugs and keep monitoring — torsades can deteriorate into VF. Magnesium works \"even if hypomagnesemia is not the underlying cause,\" and adenosine is the SVT drug.",
+     "src": "slide 55 + 02:04:12",
+     "step": "generate"
+    },
+    {
+     "id": "c08-q05",
+     "type": "order",
+     "stem": "<b>Day 3, 0420.</b> The client is found unresponsive and pulseless; the monitor shows ventricular fibrillation. Put the actions in order.",
+     "options": [
+      "Look for and treat the underlying cause",
+      "Give epinephrine and an antiarrhythmic per the arrest algorithm",
+      "Start CPR",
+      "Deliver an unsynchronized defibrillation shock"
+     ],
+     "answer": "C, D, B, A",
+     "rationale": "VF is cardiac arrest — \"no meaningful contractions, no meaningful cardiac output\" — so immediate CPR and unsynchronized defibrillation come first (there's nothing to synchronize to). Epinephrine and amiodarone or lidocaine support resuscitation but \"do NOT replace CPR and defibrillation,\" and the underlying cause is sought once he's back.",
+     "src": "slide 53 + 01:59:49 + 02:00:20",
+     "step": "act"
+    },
+    {
+     "id": "c08-q06",
+     "type": "sata",
+     "stem": "<b>Week 6, clinic.</b> The client was resuscitated and discharged on long-term amiodarone. Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "A new dry cough and shortness of breath on the stairs",
+      "HR 68 and regular",
+      "Liver function tests elevated",
+      "No PVCs on today's ECG",
+      "Sunburns after only a few minutes outside",
+      "K⁺ 4.3 mEq/L"
+     ],
+     "answer": "A, C, E",
+     "rationale": "Amiodarone is \"a really, really crappy drug to be taking\": pulmonary toxicity (pneumonitis, fibrosis), hepatotoxicity, thyroid dysfunction, QT prolongation, corneal deposits and photosensitivity — so long-term therapy means watching thyroid, liver and lungs. A regular rate, no PVCs and a normal K⁺ show the plan working.",
+     "src": "slide 60 + 02:12:21 + 02:12:56 + 02:23:00",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "title": "Scenario 9 — Rapid rounds",
+   "setting": "Clinic, ED and inpatient · one question each",
+   "text": "Six clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c09-q01",
+     "type": "mc",
+     "stem": "A client with a large, rapidly growing pericardial effusion becomes tachycardic and hypotensive, and cardiac tamponade is suspected. Tamponade lowers cardiac output primarily because:",
+     "options": [
+      "Fluid squeezes the heart so the ventricles can't fill, lowering stroke volume",
+      "A thick, fibrotic, scarred pericardium slowly restricts how far the heart can expand",
+      "A narrowed valve forces the ventricle to pump against high pressure",
+      "Inflammation of the pericardial sac makes every heartbeat painful"
+     ],
+     "answer": "A",
+     "rationale": "The tough sac \"doesn't expand very much,\" so fluid \"squeezes the heart\" in diastole: ↓ filling → ↓ stroke volume → ↓ CO — a life-threatening emergency that usually needs drainage (pericardiocentesis). Slow fibrotic restriction is constrictive pericarditis, a narrowed valve is stenosis, and painful beats are acute pericarditis.",
+     "src": "slides 67, 80 + 02:25:45 + 02:26:17"
+    },
+    {
+     "id": "c09-q02",
+     "type": "sata",
+     "stem": "A client's lower legs are examined at a clinic visit. Which findings point to <b>chronic venous insufficiency</b> rather than peripheral arterial disease? Select all that apply.",
+     "options": [
+      "Brown discoloration of the skin around the ankles",
+      "Cool, pale, shiny skin with little hair",
+      "A shallow, draining ulcer above the medial ankle",
+      "Absent pedal pulses",
+      "Aching and heaviness after standing that improve when the legs are elevated",
+      "Toe pain at rest that eases when the legs hang over the bed"
+     ],
+     "answer": "A, C, E",
+     "rationale": "CVI = venous hypertension and pooling: edema, warmth, brown pigmentation from broken-down RBCs, aching worse with standing and better with elevation, ulcers above the ankle. Cool, shiny, hairless skin, absent pulses and pain relieved by dependency (\"gravity will be your friend\") are PAD, with ulcers below the ankle.",
+     "src": "slide 70 + 02:30:34 + 02:31:05 + 02:32:07 + 02:33:07"
+    },
+    {
+     "id": "c09-q03",
+     "type": "mc",
+     "stem": "A client with a new deep vein thrombosis of the left calf starts an anticoagulant and asks, \"So this medicine will dissolve the clot?\" Which reply is accurate?",
+     "options": [
+      "\"Yes — it breaks the clot apart within a day or two, like the drugs used for heart attacks.\"",
+      "\"Yes — it dissolves the clot before it can travel up to your brain.\"",
+      "\"No — it keeps the clot from growing and lowers the chance it breaks off to your lungs.\"",
+      "\"No — it is given only to ease the swelling and pain in your calf.\""
+     ],
+     "answer": "C",
+     "rationale": "Anticoagulants inhibit clot propagation and reduce embolization but \"do not directly dissolve an existing thrombus\" — the body slowly breaks it down. Clot busters aren't used for DVT, and a venous clot goes to the lungs (pulmonary embolus), not the brain.",
+     "src": "slide 74 + 02:36:14 + 02:38:18"
+    },
+    {
+     "id": "c09-q04",
+     "type": "mc",
+     "stem": "A client with long-standing hypertension is diagnosed with an aortic dissection. Which description fits a <b>dissection</b>?",
+     "options": [
+      "The whole circumference of the artery widens in a spindle shape",
+      "A pouch bulges out from one side of the artery on a narrow neck",
+      "A clot forms inside the dilated artery and then breaks off to block a vessel downstream",
+      "A tear in the inner layer lets blood split the wall, forming a false lumen"
+     ],
+     "answer": "D",
+     "rationale": "In dissection the intima tears and blood \"is just getting into the space between two layers,\" creating a false lumen that may rupture. Circumferential widening is a fusiform aneurysm, a pouch on a neck is saccular (berry), and thrombus with embolization is an aneurysm complication.",
+     "src": "slide 73 + 02:34:41 + 02:35:12 + 02:35:44"
+    },
+    {
+     "id": "c09-q05",
+     "type": "sata",
+     "stem": "A client who injects drugs is admitted with infective endocarditis and vegetations on the mitral valve. Which complications should the nurse watch for? Select all that apply.",
+     "options": [
+      "New slurred speech or one-sided weakness",
+      "Worsening shortness of breath with crackles",
+      "Fevers with blood cultures that stay positive",
+      "Ankle edema that is expected and benign",
+      "Rebound hypertension",
+      "A dry cough from bradykinin"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Vegetations (microorganisms, platelets, fibrin) can break off as septic emboli → stroke or other infarcts; valve destruction → regurgitation → heart failure; and the bloodstream infection can persist. Benign ankle edema belongs to amlodipine, rebound HTN to clonidine, and the bradykinin cough to ACE inhibitors.",
+     "src": "slide 78 + 02:43:54 + 02:44:39 + 02:47:55"
+    },
+    {
+     "id": "c09-q06",
+     "type": "mc",
+     "stem": "Hours after learning of her husband's sudden death, a client has chest pain, dyspnea, ECG changes and elevated cardiac biomarkers, but her coronary arteries don't explain the abnormal ventricular wall motion. This is most consistent with:",
+     "options": [
+      "Dilated cardiomyopathy from years of heavy alcohol use",
+      "Stress (Takotsubo) cardiomyopathy",
+      "Hypertrophic cardiomyopathy",
+      "An acute MI caused by a blocked coronary artery"
+     ],
+     "answer": "B",
+     "rationale": "Takotsubo, \"broken heart syndrome\": intense stress → a catecholamine surge → transient myocardial stunning that mimics an MI without a coronary obstruction to explain it; most clients recover. Dilated CM is a slowly enlarging, weak ventricle, and hypertrophic CM is inherited thickening with impaired filling.",
+     "src": "slides 76–77 + 02:42:05"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "Why is hypertension called the \"silent killer\"?",
+   "back": "Often no symptoms for years while sustained pressure slowly damages vessels and organs",
+   "tag": "htn-basics",
+   "src": "slide 4 + 00:00:36"
+  },
+  {
+   "id": "fc-002",
+   "front": "Normal blood pressure (AHA)",
+   "back": "Systolic < 120 <b>and</b> diastolic < 80",
+   "tag": "values",
+   "src": "slide 5"
+  },
+  {
+   "id": "fc-003",
+   "front": "Stage 1 hypertension",
+   "back": "Systolic 130–139 <b>or</b> diastolic 80–89",
+   "tag": "values",
+   "src": "slide 5"
+  },
+  {
+   "id": "fc-004",
+   "front": "Stage 2 hypertension",
+   "back": "Systolic ≥ 140 <b>or</b> diastolic ≥ 90",
+   "tag": "values",
+   "src": "slide 5"
+  },
+  {
+   "id": "fc-005",
+   "front": "Severe HTN vs hypertensive emergency",
+   "back": "Same numbers (> 180 and/or > 120) — the emergency adds <b>symptoms</b> (chest pain, SOB, back pain, numbness, weakness, vision change, trouble speaking)",
+   "tag": "values",
+   "src": "slide 5 + 00:02:06"
+  },
+  {
+   "id": "fc-006",
+   "front": "BP goal for most adults",
+   "back": "< 130/80 — lower risks hypotension, orthostasis and falls",
+   "tag": "values",
+   "src": "slide 42 + 01:08:56 + 01:09:26"
+  },
+  {
+   "id": "fc-007",
+   "front": "Primary (essential) hypertension",
+   "back": "90–95% of cases · no single identifiable cause · genetics + environment + SNS, RAAS, renal Na⁺, SVR",
+   "tag": "htn-basics",
+   "src": "slide 6 + 00:04:39"
+  },
+  {
+   "id": "fc-008",
+   "front": "Secondary hypertension",
+   "back": "One identifiable cause (renal artery stenosis, sleep apnea, aldosteronism, NSAIDs/steroids) — treat it and HTN may resolve",
+   "tag": "htn-basics",
+   "src": "slide 6 + 00:05:11"
+  },
+  {
+   "id": "fc-009",
+   "front": "Non-modifiable HTN risk factors",
+   "back": "Family history/genetics · advancing age · gender · race",
+   "tag": "htn-basics",
+   "src": "slide 9 + 00:06:13"
+  },
+  {
+   "id": "fc-010",
+   "front": "How long-standing HTN causes LVH",
+   "back": "↑ afterload — the ventricle must pump harder to get blood out → hypertrophy → eventually heart failure",
+   "tag": "htn-basics",
+   "src": "slide 10 + 00:09:46 + 00:19:34"
+  },
+  {
+   "id": "fc-011",
+   "front": "First step of atherosclerosis (and HTN's role)",
+   "back": "Endothelial injury — high pressure physically damages the endothelium",
+   "tag": "htn-basics",
+   "src": "slide 10 + 00:10:22"
+  },
+  {
+   "id": "fc-012",
+   "front": "The blood pressure equation",
+   "back": "BP = CO × SVR (CO = HR × SV)",
+   "tag": "htn-basics",
+   "src": "slide 15 + 00:15:52"
+  },
+  {
+   "id": "fc-013",
+   "front": "Thiazide prototype",
+   "back": "Hydrochlorothiazide (HCTZ, Microzide) — \"has thiazide right in it\"",
+   "tag": "diuretics",
+   "src": "slide 20 + 00:25:36"
+  },
+  {
+   "id": "fc-014",
+   "front": "Thiazide adverse effects",
+   "back": "↓K⁺ · ↓Na⁺ · dehydration/hypotension · hyperuricemia (gout) · may ↑ glucose",
+   "tag": "diuretics",
+   "src": "slide 20 + 00:26:07"
+  },
+  {
+   "id": "fc-015",
+   "front": "Best time to give a diuretic",
+   "back": "Morning / early in the day — avoid nocturia and night-time falls",
+   "tag": "diuretics",
+   "src": "slide 20 + 00:27:08"
+  },
+  {
+   "id": "fc-016",
+   "front": "Lasix = ?",
+   "back": "\"Lasts six\" hours → hospital doses at 9 a.m. and 3 p.m.",
+   "tag": "diuretics",
+   "src": "00:28:12"
+  },
+  {
+   "id": "fc-017",
+   "front": "Loop diuretic uses",
+   "back": "Fluid overload in HF · pulmonary edema · kidney/liver edema · some HTN with volume overload — \"our big gun\"",
+   "tag": "diuretics",
+   "src": "slide 21 + 00:28:42"
+  },
+  {
+   "id": "fc-018",
+   "front": "Furosemide adverse effects",
+   "back": "Hypokalemia (strong) · ↓Na⁺ · hypovolemia · metabolic alkalosis · ototoxicity (high dose / rapid IV)",
+   "tag": "diuretics",
+   "src": "slide 21 + 00:29:15 + 00:30:20"
+  },
+  {
+   "id": "fc-019",
+   "front": "K⁺ 3.2 and furosemide is due — action?",
+   "back": "Don't give it (normal K⁺ 3.5–5); it would drop K⁺ further",
+   "tag": "nursing",
+   "src": "00:29:47"
+  },
+  {
+   "id": "fc-020",
+   "front": "Best way to track fluid status",
+   "back": "Daily weight",
+   "tag": "nursing",
+   "src": "slide 21 + 00:30:54"
+  },
+  {
+   "id": "fc-021",
+   "front": "Why add spironolactone to high-dose Lasix?",
+   "back": "To balance out the potassium loss — \"sometimes we'll add this\"",
+   "tag": "diuretics",
+   "src": "slide 22 + 00:33:32"
+  },
+  {
+   "id": "fc-022",
+   "front": "Spironolactone mechanism",
+   "back": "Blocks aldosterone receptors → ↓ Na⁺/water reabsorption, ↓ K⁺ excretion; limits cardiac remodeling",
+   "tag": "diuretics",
+   "src": "slide 22 + 00:31:58"
+  },
+  {
+   "id": "fc-023",
+   "front": "Spironolactone adverse effects",
+   "back": "Hyperkalemia · hypotension · gynecomastia, menstrual irregularities",
+   "tag": "diuretics",
+   "src": "slide 22 + 00:34:04"
+  },
+  {
+   "id": "fc-024",
+   "front": "Salt-substitute warning (spironolactone, ACEI, ARB)",
+   "back": "Many substitutes are potassium → hidden K⁺ load → hyperkalemia",
+   "tag": "nursing",
+   "src": "slide 22 + 00:36:47"
+  },
+  {
+   "id": "fc-025",
+   "front": "Drugs that cause hypokalemia vs hyperkalemia",
+   "back": "Hypo: thiazide, loop · Hyper: spironolactone, ACEI, ARB",
+   "tag": "drug-classes",
+   "src": "slide 44"
+  },
+  {
+   "id": "fc-026",
+   "front": "Metoprolol vs propranolol",
+   "back": "Metoprolol = β₁ \"cardioselective\" · propranolol = β₁ + β₂ (bronchospasm risk)",
+   "tag": "sympatholytics",
+   "src": "slide 23 + 00:38:20"
+  },
+  {
+   "id": "fc-027",
+   "front": "Beta blockers lower BP by…",
+   "back": "↓ HR and contractility (↓ CO) AND ↓ renin release",
+   "tag": "sympatholytics",
+   "src": "slide 23"
+  },
+  {
+   "id": "fc-028",
+   "front": "Beta blocker hold parameter",
+   "back": "Frequently held if HR < 60 — check HR and BP first",
+   "tag": "nursing",
+   "src": "slide 23 + 00:40:29"
+  },
+  {
+   "id": "fc-029",
+   "front": "Beta blocker + diabetes concern",
+   "back": "Masks the adrenergic warning signs (tachycardia) of hypoglycemia",
+   "tag": "sympatholytics",
+   "src": "slides 23, 44 + 00:39:55"
+  },
+  {
+   "id": "fc-030",
+   "front": "Why never stop a sympatholytic abruptly",
+   "back": "The body made extra receptors → rebound sympathetic activity, BP jumps",
+   "tag": "sympatholytics",
+   "src": "slide 23 + 00:40:29"
+  },
+  {
+   "id": "fc-031",
+   "front": "Prazosin — key teaching",
+   "back": "First-dose orthostatic hypotension · first dose at bedtime · rise slowly",
+   "tag": "sympatholytics",
+   "src": "slide 24 + 01:33:55"
+  },
+  {
+   "id": "fc-032",
+   "front": "Carvedilol lowers BP two ways",
+   "back": "↓ CO (β₁) and ↓ SVR (α₁) — also blocks β₂",
+   "tag": "sympatholytics",
+   "src": "slide 25"
+  },
+  {
+   "id": "fc-033",
+   "front": "Clonidine mechanism",
+   "back": "Central α₂ agonist → ↓ sympathetic outflow → ↓ HR, CO, SVR",
+   "tag": "sympatholytics",
+   "src": "slide 26 + 00:42:08"
+  },
+  {
+   "id": "fc-034",
+   "front": "Clonidine danger",
+   "back": "Rebound hypertension if stopped abruptly — taper",
+   "tag": "sympatholytics",
+   "src": "slide 26 + 01:34:27"
+  },
+  {
+   "id": "fc-035",
+   "front": "Arteriolar vs venous dilation",
+   "back": "Arterioles → ↓ SVR/afterload · veins → ↓ venous return/preload",
+   "tag": "vasodilators-ccb",
+   "src": "slide 28 + 00:42:55"
+  },
+  {
+   "id": "fc-036",
+   "front": "Hydralazine adverse effects",
+   "back": "Reflex tachycardia · Na⁺/water retention · hypotension · drug-induced lupus (prolonged use)",
+   "tag": "vasodilators-ccb",
+   "src": "slide 29"
+  },
+  {
+   "id": "fc-037",
+   "front": "Why give a beta blocker or diuretic with hydralazine?",
+   "back": "To counter reflex tachycardia and RAAS-driven fluid retention",
+   "tag": "vasodilators-ccb",
+   "src": "slide 29 + 00:47:28"
+  },
+  {
+   "id": "fc-038",
+   "front": "Dihydropyridine CCB clue",
+   "back": "Ends in <b>-pine</b> (amlodipine, nifedipine) — acts on vessels",
+   "tag": "vasodilators-ccb",
+   "src": "slide 31 + 00:49:36"
+  },
+  {
+   "id": "fc-039",
+   "front": "The two non-dihydropyridine CCBs",
+   "back": "Verapamil and diltiazem — act on heart + vessels",
+   "tag": "vasodilators-ccb",
+   "src": "slide 31 + 00:50:07"
+  },
+  {
+   "id": "fc-040",
+   "front": "Amlodipine ankle edema means…",
+   "back": "Expected, not fluid overload — ↑ capillary hydrostatic pressure from arteriolar dilation",
+   "tag": "vasodilators-ccb",
+   "src": "slide 32 + 00:50:38"
+  },
+  {
+   "id": "fc-041",
+   "front": "Verapamil/diltiazem adverse effects",
+   "back": "Bradycardia · AV block · constipation (verapamil) · hypotension · edema",
+   "tag": "vasodilators-ccb",
+   "src": "slide 33"
+  },
+  {
+   "id": "fc-042",
+   "front": "Avoid verapamil/diltiazem in…",
+   "back": "Significant AV block (no pacemaker) · HFrEF · with beta blockers",
+   "tag": "vasodilators-ccb",
+   "src": "slide 33 + 00:54:50"
+  },
+  {
+   "id": "fc-043",
+   "front": "RAAS cascade",
+   "back": "Renin: angiotensinogen → Ang I · ACE: Ang I → Ang II → vasoconstriction + aldosterone",
+   "tag": "raas",
+   "src": "slide 35 + 00:57:24"
+  },
+  {
+   "id": "fc-044",
+   "front": "ACE inhibitor clue + prototype",
+   "back": "Ends in <b>-pril</b> · lisinopril",
+   "tag": "raas",
+   "src": "slide 40 + 00:58:59"
+  },
+  {
+   "id": "fc-045",
+   "front": "ARB clue + prototype",
+   "back": "Ends in <b>-sartan</b> · losartan",
+   "tag": "raas",
+   "src": "slide 40 + 01:05:33"
+  },
+  {
+   "id": "fc-046",
+   "front": "ACE inhibitor dry cough — cause and fix",
+   "back": "Bradykinin builds up (ACE normally breaks it down) → switch to an ARB",
+   "tag": "raas",
+   "src": "slides 38–39 + 01:02:32"
+  },
+  {
+   "id": "fc-047",
+   "front": "Angioedema on an ACE inhibitor",
+   "back": "Swelling of face/lips/tongue/airway → emergency; treat as an allergy, never take it again",
+   "tag": "raas",
+   "src": "slide 38 + 01:03:03"
+  },
+  {
+   "id": "fc-048",
+   "front": "Creatinine after starting an ACEI/ARB",
+   "back": "A small rise is expected (↓ glomerular pressure) — long term it protects the kidney",
+   "tag": "raas",
+   "src": "slide 38 + 01:04:03"
+  },
+  {
+   "id": "fc-049",
+   "front": "ACEI/ARB: avoid or use caution with…",
+   "back": "Pregnancy (avoid) · each other · K⁺ supplements, K⁺-sparing diuretics, NSAIDs",
+   "tag": "raas",
+   "src": "slides 38–39 + 01:05:03"
+  },
+  {
+   "id": "fc-050",
+   "front": "First-line drugs for uncomplicated HTN",
+   "back": "Thiazide · dihydropyridine CCB (amlodipine) · ACEI or ARB",
+   "tag": "drug-classes",
+   "src": "slide 43 + 01:10:08"
+  },
+  {
+   "id": "fc-051",
+   "front": "CKD with albuminuria — preferred drug",
+   "back": "ACE inhibitor or ARB (kidney protection), even without HTN",
+   "tag": "raas",
+   "src": "slide 43 + 01:10:46"
+  },
+  {
+   "id": "fc-052",
+   "front": "Three ways dysrhythmias start",
+   "back": "Abnormal automaticity · conduction block · reentry",
+   "tag": "rhythms",
+   "src": "slide 48 + 01:39:44"
+  },
+  {
+   "id": "fc-053",
+   "front": "Electrolytes that most often trigger dysrhythmias",
+   "back": "Potassium and magnesium",
+   "tag": "rhythms",
+   "src": "slide 48 + 01:41:25"
+  },
+  {
+   "id": "fc-054",
+   "front": "AFib rhythm description + main danger",
+   "back": "Irregularly irregular · stasis + turbulence → atrial clot → stroke",
+   "tag": "rhythms",
+   "src": "slide 49 + 01:43:07 + 01:50:42"
+  },
+  {
+   "id": "fc-055",
+   "front": "Three AFib treatment goals",
+   "back": "Rate control · rhythm control · stroke prevention (anticoagulation)",
+   "tag": "rhythms",
+   "src": "slide 49"
+  },
+  {
+   "id": "fc-056",
+   "front": "Atrial flutter",
+   "back": "One reentry circuit · 250–350/min, regular · sawtooth waves · \"regularly irregular\"",
+   "tag": "rhythms",
+   "src": "slide 50 + 01:50:08"
+  },
+  {
+   "id": "fc-057",
+   "front": "SVT first-line steps (stable)",
+   "back": "Vagal maneuvers (bear down, cough) → adenosine",
+   "tag": "rhythms",
+   "src": "slide 51 + 01:53:32"
+  },
+  {
+   "id": "fc-058",
+   "front": "Synchronized vs unsynchronized shock",
+   "back": "Synchronized cardioversion = unstable with a pulse · unsynchronized defibrillation = pulseless VT / VF",
+   "tag": "rhythms",
+   "src": "slides 52–53 + 01:59:17"
+  },
+  {
+   "id": "fc-059",
+   "front": "VF treatment",
+   "back": "Immediate CPR + unsynchronized defibrillation — drugs don't replace them",
+   "tag": "rhythms",
+   "src": "slide 53 + 02:00:20"
+  },
+  {
+   "id": "fc-060",
+   "front": "PVC common triggers",
+   "back": "Stimulants/SNS · ischemia · hypokalemia, hypomagnesemia",
+   "tag": "rhythms",
+   "src": "slide 54 + 02:01:27"
+  },
+  {
+   "id": "fc-061",
+   "front": "Torsades de pointes — cause and treatment",
+   "back": "Polymorphic VT from a prolonged QT · IV magnesium (even if Mg²⁺ is normal)",
+   "tag": "rhythms",
+   "src": "slide 55 + 02:04:12"
+  },
+  {
+   "id": "fc-062",
+   "front": "AV block types (Trax & Taylor)",
+   "back": "1st: always late, same amount · Mobitz I: later and later, then a drop · Mobitz II: drops without warning · 3rd: separate lives",
+   "tag": "rhythms",
+   "src": "slide 56 + 02:08:34"
+  },
+  {
+   "id": "fc-063",
+   "front": "Third-degree AV block needs…",
+   "back": "A pacemaker — ventricles beat on their own at ~40/min",
+   "tag": "rhythms",
+   "src": "slide 56 + 02:06:59 + 02:09:36"
+  },
+  {
+   "id": "fc-064",
+   "front": "Antiarrhythmic classes I–IV",
+   "back": "I Na⁺ (lidocaine) · II β (metoprolol) · III K⁺ (amiodarone) · IV Ca²⁺ (diltiazem, verapamil)",
+   "tag": "antiarrhythmics",
+   "src": "slide 57 + 02:10:40"
+  },
+  {
+   "id": "fc-065",
+   "front": "Lidocaine major toxicity",
+   "back": "CNS — dizziness, confusion, tremor, seizures",
+   "tag": "antiarrhythmics",
+   "src": "slides 58, 64"
+  },
+  {
+   "id": "fc-066",
+   "front": "Amiodarone toxicities",
+   "back": "Pulmonary fibrosis · thyroid (hypo/hyper) · liver · QT/bradycardia · corneal deposits, photosensitivity",
+   "tag": "antiarrhythmics",
+   "src": "slide 60 + 02:12:21"
+  },
+  {
+   "id": "fc-067",
+   "front": "CCB not used for dysrhythmias",
+   "back": "Dihydropyridines (amlodipine) — they act on the periphery",
+   "tag": "antiarrhythmics",
+   "src": "slide 61 + 02:13:26"
+  },
+  {
+   "id": "fc-068",
+   "front": "Adenosine — how to give it",
+   "back": "Rapid IV push + immediate saline flush (half-life < 10 s), continuous ECG",
+   "tag": "antiarrhythmics",
+   "src": "slide 63 + 02:16:03"
+  },
+  {
+   "id": "fc-069",
+   "front": "Proarrhythmia",
+   "back": "Antiarrhythmics can themselves cause dysrhythmias",
+   "tag": "antiarrhythmics",
+   "src": "slide 65 + 01:41:25"
+  },
+  {
+   "id": "fc-070",
+   "front": "Cardiac tamponade",
+   "back": "Fluid in the stiff sac squeezes the heart → ↓ filling → ↓ SV → ↓ CO · pericardiocentesis",
+   "tag": "misc-disorders",
+   "src": "slide 67 + 02:25:45"
+  },
+  {
+   "id": "fc-071",
+   "front": "Stenosis vs regurgitation",
+   "back": "Stenosis: won't open → pressure overload · regurgitation: won't close → volume overload",
+   "tag": "misc-disorders",
+   "src": "slide 68 + 02:27:22"
+  },
+  {
+   "id": "fc-072",
+   "front": "PAD vs CVI pulses and skin",
+   "back": "PAD: weak/absent pulses, cool pale shiny · CVI: pulses preserved, warm, edema, brown",
+   "tag": "misc-disorders",
+   "src": "slide 70 + 02:30:34"
+  },
+  {
+   "id": "fc-073",
+   "front": "Ulcer location rule",
+   "back": "Arterial below the ankle · venous above the ankle",
+   "tag": "misc-disorders",
+   "src": "slide 70 + 02:33:07"
+  },
+  {
+   "id": "fc-074",
+   "front": "Virchow's triad",
+   "back": "Venous stasis · endothelial injury · hypercoagulability",
+   "tag": "misc-disorders",
+   "src": "slide 74 + 02:36:47"
+  },
+  {
+   "id": "fc-075",
+   "front": "What anticoagulants do for a DVT",
+   "back": "Stop clot growth and ↓ embolization — they don't dissolve the clot",
+   "tag": "misc-disorders",
+   "src": "slide 74 + 02:38:18"
+  },
+  {
+   "id": "fc-076",
+   "front": "Dilated vs hypertrophic cardiomyopathy",
+   "back": "DCM: weak systolic contraction · HCM: thick, impaired relaxation/filling, sudden death",
+   "tag": "misc-disorders",
+   "src": "slide 76 + 02:40:30"
+  },
+  {
+   "id": "fc-077",
+   "front": "Takotsubo cardiomyopathy",
+   "back": "Stress catecholamines → transient stunning · mimics MI · usually reversible (\"broken heart syndrome\")",
+   "tag": "misc-disorders",
+   "src": "slide 77 + 02:42:05"
+  },
+  {
+   "id": "fc-078",
+   "front": "Endocarditis vegetations are made of…",
+   "back": "Microorganisms + platelets + fibrin — they can embolize (stroke)",
+   "tag": "misc-disorders",
+   "src": "slide 78 + 02:43:54"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "Remember, what is the first step of atherosclerosis?",
+   "a": "She answered: <b>injury to the endothelial cells</b> — and hypertension damages them \"just by physical pressure,\" so it speeds up atherosclerosis.",
+   "src": "slide 10 + 00:10:22"
+  },
+  {
+   "id": "qa-002",
+   "q": "(Kahoot) Which [equation] best explains blood pressure?",
+   "a": "<b>BP = CO × SVR</b> — BP rises when cardiac output and/or systemic vascular resistance increase. (Answer not read aloud; from slide 16.)",
+   "src": "slides 15–16 + 00:17:00"
+  },
+  {
+   "id": "qa-003",
+   "q": "(Kahoot) Which finding suggests secondary hypertension?",
+   "a": "<b>Renal artery stenosis</b> — one specific, identifiable cause; fix it and the HTN can go away. High sodium intake is a modifiable contributor to primary HTN (\"pretty impossible to have hypertension only because you have a lot of high salt intake\"), and family history can't be taken away.",
+   "src": "slide 6 + 00:17:57"
+  },
+  {
+   "id": "qa-004",
+   "q": "(student asked) Aren't they all potentially modifiable?",
+   "a": "\"They all are potentially modifiable\" — the point is a nuance: inactivity alone (or salt alone) rarely causes HTN; it's inactivity <b>plus</b> genetics plus other things, which is primary HTN. Secondary means one cause that, once fixed, gets rid of it.",
+   "src": "slides 6, 9 + 00:19:01"
+  },
+  {
+   "id": "qa-005",
+   "q": "(Kahoot) Long-standing hypertension most directly causes left ventricular hypertrophy through…",
+   "a": "<b>Increased afterload</b> — accepted (\"good, good\"): the ventricle has to pump that much harder to get blood out.",
+   "src": "slide 10 + 00:19:34"
+  },
+  {
+   "id": "qa-006",
+   "q": "(Kahoot) Reducing dietary sodium helps lower blood pressure mainly by…",
+   "a": "<b>Decreasing sodium and water retention</b>. (She moved on; from slide 13.)",
+   "src": "slide 13 + 00:20:35"
+  },
+  {
+   "id": "qa-007",
+   "q": "Your patient's potassium level this morning is 3.2, and they have Lasix ordered with their 9 a.m. meds. What should you do?",
+   "a": "She answered: <b>don't give it</b>. Normal K⁺ is 3.5–5, and furosemide makes them lose more potassium — at the least they'd need potassium supplements to offset the loss.",
+   "src": "slide 21 + 00:29:47"
+  },
+  {
+   "id": "qa-008",
+   "q": "(student asked) Would a patient be on both spironolactone and an ACE inhibitor, even though both raise potassium?",
+   "a": "\"They might be\" — especially in <b>heart failure</b>, both are important because they block aldosterone and angiotensin II, which drive cardiac remodeling. \"We just have to do <b>extra monitoring</b>.\" (Question reconstructed from her answer.)",
+   "src": "slides 22, 38 + 00:37:48"
+  },
+  {
+   "id": "qa-009",
+   "q": "(student asked) Why do the non-dihydropyridines (especially verapamil) cause constipation?",
+   "a": "The gut has calcium channels similar to the heart's; blocking them <b>weakens peristalsis</b>, so things slow down, more fluid is absorbed, and stool is harder to pass.",
+   "src": "slide 33 + 00:55:20"
+  },
+  {
+   "id": "qa-010",
+   "q": "(student asked) Why don't we use verapamil/diltiazem in heart failure?",
+   "a": "In heart failure weak contraction is the main problem, and these drugs <b>decrease contractility</b> (negative inotrope).",
+   "src": "slide 33 + 00:55:51"
+  },
+  {
+   "id": "qa-011",
+   "q": "(student asked) [A question about how losartan binds the AT₁ receptor — mostly inaudible]",
+   "a": "Her reply was brief and unsure (\"I think it's non-competitive\"). Not on the slides and not tested.",
+   "src": "01:07:42"
+  },
+  {
+   "id": "qa-012",
+   "q": "(student asked) Why is the goal under 130/80 and not lower?",
+   "a": "Going lower risks <b>hypotension and orthostasis</b> — falls, especially in the elderly. Data show sustained damage once BP stays over about 135/85, so < 130/80 keeps people in the healthy range without making them hypotensive.",
+   "src": "slide 42 + 01:09:26"
+  },
+  {
+   "id": "qa-013",
+   "q": "(Kahoot) Which electrolyte loss is expected with furosemide (Lasix)?",
+   "a": "<b>Potassium</b> — hypokalemia; furosemide is the loop diuretic.",
+   "src": "slide 21 + 01:31:29"
+  },
+  {
+   "id": "qa-014",
+   "q": "(Kahoot) Which combination increases hyperkalemia risk?",
+   "a": "<b>Spironolactone + losartan</b> — a potassium-sparing diuretic plus an ARB; both decrease aldosterone effects, so potassium rises. \"Very nice.\"",
+   "src": "slides 22, 39 + 01:31:29"
+  },
+  {
+   "id": "qa-015",
+   "q": "(Kahoot) Metoprolol lowers blood pressure partly by reducing…",
+   "a": "<b>Heart rate, contractility and renin release</b> (β₁ blockade in the heart and kidney). (Answer not read aloud; from slide 23.)",
+   "src": "slide 23 + 01:32:42"
+  },
+  {
+   "id": "qa-016",
+   "q": "(Kahoot) Which concern is especially important with propranolol?",
+   "a": "<b>Bronchospasm</b> — propranolol is non-cardioselective, blocking β₁ <i>and</i> β₂.",
+   "src": "slide 23 + 01:33:24"
+  },
+  {
+   "id": "qa-017",
+   "q": "(Kahoot) A patient taking prazosin should be taught about…",
+   "a": "<b>First-dose orthostatic hypotension</b> from the massive vasodilation — prazosin is an alpha-1 blocker (tamsulosin blocks the alpha-1s in the prostate).",
+   "src": "slide 24 + 01:33:55"
+  },
+  {
+   "id": "qa-018",
+   "q": "(Kahoot) Carvedilol lowers blood pressure through which two effects?",
+   "a": "<b>↓ Cardiac output (β₁ blockade) and ↓ systemic vascular resistance (α₁ blockade).</b> (Answer not read aloud; from slide 25.)",
+   "src": "slide 25 + 01:34:27"
+  },
+  {
+   "id": "qa-019",
+   "q": "(Kahoot) Abruptly stopping clonidine can cause…",
+   "a": "<b>Rebound hypertension</b> — with any sympatholytic, \"we don't want to abruptly stop.\"",
+   "src": "slide 26 + 01:34:27"
+  },
+  {
+   "id": "qa-020",
+   "q": "(Kahoot) Hydralazine can trigger reflex tachycardia because…",
+   "a": "<b>Blood pressure falls and the baroreceptor reflex responds</b> with ↑ heart rate.",
+   "src": "slide 29 + 01:35:37"
+  },
+  {
+   "id": "qa-021",
+   "q": "(Kahoot) Which effect is characteristic of amlodipine?",
+   "a": "<b>Peripheral edema</b> — the dihydropyridine CCB's \"kind of benign edema\": normally edema is a concern, but with this class we expect it.",
+   "src": "slide 32 + 01:36:08"
+  },
+  {
+   "id": "qa-022",
+   "q": "(Kahoot) Why use caution combining verapamil and metoprolol?",
+   "a": "<b>Both decrease heart rate, contractility and AV-node conduction</b> — together they really suppress the heart.",
+   "src": "slide 33 + 01:36:39"
+  },
+  {
+   "id": "qa-023",
+   "q": "(Kahoot) Why is cough less common with losartan than lisinopril?",
+   "a": "<b>ARBs don't increase bradykinin</b>; ACE normally breaks bradykinin down, so ACE inhibitors let it build up. (She moved on; from slide 39.)",
+   "src": "slides 38–39 + 01:37:19"
+  },
+  {
+   "id": "qa-024",
+   "q": "(student asked) Does impaired pacemaker activity mean the SA node?",
+   "a": "<b>Yes</b> — \"we're talking about the pacemaker itself of the heart, that SA node.\" (Question reconstructed from her answer.)",
+   "src": "slide 48 + 01:41:25"
+  },
+  {
+   "id": "qa-025",
+   "q": "(student asked) Where does the clot go in AFib?",
+   "a": "It forms in the atria, gets pumped out through the ventricle and can lodge in many places (e.g. the renal artery); the most dangerous is the <b>brain → stroke</b>. Tiny clots can show up as little marks in the fingernails.",
+   "src": "slide 49 + 01:47:23"
+  },
+  {
+   "id": "qa-026",
+   "q": "(student asked) Do patients feel atrial fibrillation?",
+   "a": "<b>Not always</b> — if the ventricular beats stay fairly regular and cardiac output holds, they may not feel it, especially older clients with comorbidities. The catch: after <b>more than 24 hours</b> in AFib you can't simply cardiovert, because a clot has almost certainly formed and the shock could break it free — anticoagulate first.",
+   "src": "slide 49 + 01:48:30"
+  },
+  {
+   "id": "qa-027",
+   "q": "(student asked) Why the left side, particularly the left atrial appendage?",
+   "a": "The appendage is a little <b>out-pouching</b> of the left atrium that makes it much easier for blood to clot there. Right-sided clots happen too (and go to the lungs), but far less often.",
+   "src": "slide 49 + 01:49:03"
+  },
+  {
+   "id": "qa-028",
+   "q": "(student asked) Could sustained SVT cause blood to back up?",
+   "a": "\"It could\" — if it's sustained, blood backs up and you'd see <b>signs and symptoms of heart failure</b>; over a long time, hypertrophy. But SVT shouldn't be allowed to go on that long.",
+   "src": "slide 51 + 01:53:32"
+  },
+  {
+   "id": "qa-029",
+   "q": "(student asked) Can you stimulate the vagus nerve through the neck?",
+   "a": "Yes, but it carries danger: with carotid plaques you could <b>break one free</b>, and pressing on the carotid interrupts blood flow to the brain.",
+   "src": "slide 51 + 01:55:39"
+  },
+  {
+   "id": "qa-030",
+   "q": "(student asked) Can recurring SVT be fixed for good?",
+   "a": "Rate control comes first, but if studies find where the abnormal impulse starts, <b>ablation</b> (heat, freezing or laser) can destroy the misbehaving tissue and \"can work very nicely.\" Unstable → cardioversion.",
+   "src": "slide 51 + 01:56:42"
+  },
+  {
+   "id": "qa-031",
+   "q": "(student asked) Are patients awake when they get adenosine?",
+   "a": "<b>Usually</b>, unless the SVT knocked them out. They feel everything slow down and stop, then feel better once the rate is no longer racing — and it's nerve-wracking for the nurse giving it too.",
+   "src": "slide 63 + 02:17:37"
+  },
+  {
+   "id": "qa-032",
+   "q": "(Kahoot) Why does atrial fibrillation increase stroke risk?",
+   "a": "\"When blood stops flowing or slows down, it starts to clot\" — <b>blood stasis plus turbulence</b>.",
+   "src": "slide 49 + 02:19:10"
+  },
+  {
+   "id": "qa-033",
+   "q": "(Kahoot) Which finding is characteristic of atrial flutter?",
+   "a": "<b>Regular but incredibly fast</b> atrial activity — the sawtooth pattern (\"good\").",
+   "src": "slide 50 + 02:20:07"
+  },
+  {
+   "id": "qa-034",
+   "q": "(Kahoot) [Adenosine] can terminate some SVTs by…",
+   "a": "<b>Briefly blocking AV-node conduction</b>, which interrupts the AV node–dependent reentry circuit. (The drug name is garbled on the recording and the answer wasn't read aloud; from slide 62.)",
+   "src": "slide 62 + 02:20:07"
+  },
+  {
+   "id": "qa-035",
+   "q": "(Kahoot) Which treatment is essential for ventricular fibrillation?",
+   "a": "VF is cardiac arrest — electrical activity but no meaningful contraction — so <b>immediate CPR and unsynchronized defibrillation</b> (from slide 53).",
+   "src": "slide 53 + 02:20:07"
+  },
+  {
+   "id": "qa-036",
+   "q": "(Kahoot) What is the primary medication treatment for torsades de pointes?",
+   "a": "<b>Magnesium.</b> \"The rest of them you don't need to know except for adenosine for SVT and magnesium for torsades.\"",
+   "src": "slide 55 + 02:21:21"
+  },
+  {
+   "id": "qa-037",
+   "q": "(Kahoot) Progressive PR prolongation before a dropped beat indicates…",
+   "a": "<b>Second-degree AV block, Mobitz type I</b> — the PR gets longer, longer, longer, until eventually a beat is dropped.",
+   "src": "slide 56 + 02:21:56"
+  },
+  {
+   "id": "qa-038",
+   "q": "(Kahoot) Which antiarrhythmic class primarily blocks potassium channels?",
+   "a": "<b>Class III</b> (amiodarone) — \"good, good.\"",
+   "src": "slide 57 + 02:22:27"
+  },
+  {
+   "id": "qa-039",
+   "q": "(Kahoot) Which toxicity is important with long-term amiodarone?",
+   "a": "<b>Pulmonary fibrosis</b> — plus liver toxicity; \"the big ones that we worry about.\"",
+   "src": "slide 60 + 02:23:00"
+  },
+  {
+   "id": "qa-040",
+   "q": "(Kahoot) How should adenosine be administered for SVT?",
+   "a": "<b>Rapid IV push followed immediately by a saline flush</b>, with continuous ECG monitoring. (From slide 63 and her demonstration.)",
+   "src": "slide 63 + 02:16:03 + 02:23:31"
+  },
+  {
+   "id": "qa-041",
+   "q": "If a DVT breaks free from the leg, where does it go?",
+   "a": "She answered: <b>up to the lungs</b> — a pulmonary embolus; if it's large enough it can kill you, and it's one of the main causes of death in hospitalized patients.",
+   "src": "slide 74 + 02:36:14"
+  },
+  {
+   "id": "qa-042",
+   "q": "(student asked) Why don't primary care offices just screen everyone with an EKG?",
+   "a": "\"I don't know\" — she guessed many offices don't have the machine and it's an <b>additional expense</b>.",
+   "src": "slide 76 + 02:41:30"
+  },
+  {
+   "id": "qa-043",
+   "q": "(Kahoot) Cardiac tamponade decreases cardiac output primarily by…",
+   "a": "<b>Decreasing ventricular filling</b> — the fluid-filled, stiff sac squeezes the heart, so stroke volume and CO fall. (Answer not read aloud; from slide 67.)",
+   "src": "slide 67 + 02:45:46"
+  },
+  {
+   "id": "qa-044",
+   "q": "(Kahoot) [Valve] stenosis primarily causes…",
+   "a": "<b>Pressure overload</b> (regurgitation causes volume overload). (Reconstructed from a garbled stretch; from slides 68 and 80.)",
+   "src": "slides 68, 80 + 02:45:46"
+  },
+  {
+   "id": "qa-045",
+   "q": "(Kahoot) [A question on] Virchow's triad",
+   "a": "<b>Venous stasis, endothelial injury and hypercoagulability.</b> (Reconstructed from a garbled stretch; from slide 74.)",
+   "src": "slide 74 + 02:45:46"
+  },
+  {
+   "id": "qa-046",
+   "q": "(Kahoot) In infective endocarditis, vegetations can cause…",
+   "a": "<b>Embolization → stroke or systemic infarction</b> (and valve destruction → regurgitation → heart failure). (Answer not read aloud; from slide 78.)",
+   "src": "slide 78 + 02:47:55"
+  }
+ ]
+}
