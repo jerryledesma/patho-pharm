@@ -1,0 +1,1986 @@
+{
+ "id": "2026-10-29-cardiovascular-part4",
+ "date": "2026-10-29",
+ "title": "Cardiovascular IV: Heart Failure",
+ "instructor": "Julie Schwind, DNP, RN",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.mp3",
+  "slides.pdf",
+  "supp-01_cardiovascular-part-iv-guided-notes.docx",
+  "supp-02_cardiovascular-part-iv-study-guide.docx"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "HF drug safety checks"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Her slide defines heart failure as a clinical syndrome in which structural or functional cardiac abnormalities:",
+   "options": [
+    "Block a coronary artery completely, so a large area of the myocardium dies within hours",
+    "Impair ventricular filling and/or ejection, giving low output, high filling pressures, or both",
+    "Raise heart rate and contractility until the ventricle can no longer keep up with demand",
+    "Narrow the heart valves so that blood cannot leave the ventricles during systole"
+   ],
+   "answer": "B",
+   "rationale": "HF is impaired filling and/or ejection resulting in inadequate cardiac output, elevated filling pressures, or both — the common final pathway of CAD, hypertension and valve disease. An MI or a valve problem can cause HF but isn't the definition, and the rising HR and contractility are the SNS compensation, not the problem itself.",
+   "src": "slide 4 + 00:00:33"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which hypertrophy pattern is most associated with chronic pressure overload, such as long-standing hypertension or aortic stenosis?",
+   "options": [
+    "Eccentric — the chamber enlarges and the ventricle becomes big and floppy",
+    "Eccentric — the wall thickens and the chamber gets smaller and stiffer",
+    "Concentric — the wall thickens and the chamber gets smaller and stiffer",
+    "Concentric — the chamber enlarges with thin, overstretched walls"
+   ],
+   "answer": "C",
+   "rationale": "Pressure overload → concentric hypertrophy: thick-walled and stiff, heading toward diastolic dysfunction. Eccentric (\"big and floppy\") comes from chronic volume overload such as valvular regurgitation; the other two options swap the names and the shapes.",
+   "src": "slide 16 + 00:18:22 + 00:26:01"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which ejection-fraction cutoffs match her classification of HFrEF and HFpEF?",
+   "options": [
+    "HFrEF ≤ 40%; HFpEF ≥ 50%",
+    "HFrEF ≤ 50%; HFpEF ≥ 60%",
+    "HFrEF ≤ 30%; HFpEF ≥ 40%",
+    "HFrEF ≤ 40%; HFpEF ≥ 70%"
+   ],
+   "answer": "A",
+   "rationale": "HFrEF is an EF ≤ 40% and HFpEF is ≥ 50%; a normal heart ejects about 55–70%, so an EF of 60% is preserved, not borderline. The other pairs shift one or both cutoffs.",
+   "src": "slides 8–9 + 00:06:19"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What triggers the release of B-type natriuretic peptide (BNP)?",
+   "options": [
+    "Decreased renal perfusion sensed by the kidneys",
+    "Baroreceptors sensing a fall in arterial pressure",
+    "Rising aldosterone acting on the ventricle",
+    "Increased ventricular wall stress and stretch"
+   ],
+   "answer": "D",
+   "rationale": "Ventricular cardiomyocytes release BNP when the walls are stretched — \"hey, there's too much fluid in here.\" Reduced renal perfusion triggers renin (RAAS) and baroreceptors trigger the SNS; BNP works opposite to RAAS rather than being driven by aldosterone.",
+   "src": "slide 25 + 00:36:45"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement about the two heart-failure classification systems is accurate?",
+   "options": [
+    "ACC/AHA stages can improve with treatment; NYHA classes only move forward",
+    "NYHA classes describe progression from risk factors to advanced disease",
+    "ACC/AHA stages describe how much symptoms limit physical activity",
+    "NYHA classes can improve with treatment; ACC/AHA stages generally aren't reversed"
+   ],
+   "answer": "D",
+   "rationale": "NYHA (I–IV) is functional — symptom burden and activity limitation — so it can improve or worsen with treatment; ACC/AHA stages (A–D) track progression from at risk to advanced HF and generally move only forward. The reversed option swaps which one can change, and the last two swap what each system describes.",
+   "src": "slides 26–27 + 00:38:19"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which list contains the four foundational HFrEF medication classes?",
+   "options": [
+    "ARNI/ACEi/ARB, evidence-based beta blocker, MRA, SGLT2 inhibitor",
+    "ARNI/ACEi/ARB, evidence-based beta blocker, loop diuretic, digoxin",
+    "Loop diuretic, MRA, SGLT2 inhibitor, thiazide-type diuretic",
+    "ARNI/ACEi/ARB, digoxin, MRA, SGLT2 inhibitor"
+   ],
+   "answer": "A",
+   "rationale": "The four pillars reduce mortality and/or HF hospitalizations: ARNI/ACEi/ARB, an evidence-based beta blocker, an MRA and an SGLT2 inhibitor. Loop (and thiazide-type) diuretics relieve congestion but don't prolong life, and digoxin is selected adjunctive therapy with no established survival benefit.",
+   "src": "slides 29, 41 + 01:03:48"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "In sacubitril/valsartan (Entresto), sacubitril works by:",
+   "options": [
+    "Blocking angiotensin II AT₁ receptors to reduce vasoconstriction",
+    "Inhibiting neprilysin so natriuretic peptides aren't broken down",
+    "Blocking mineralocorticoid receptors to limit aldosterone effects",
+    "Inhibiting ACE so that less angiotensin II is formed overall"
+   ],
+   "answer": "B",
+   "rationale": "Sacubitril inhibits neprilysin, the enzyme that breaks down natriuretic peptides, so they stick around longer → more natriuresis and vasodilation. AT₁ blockade is the valsartan half, MRA action is spironolactone/eplerenone, and ACE inhibition is lisinopril, which is never given with Entresto.",
+   "src": "slide 32 + 00:49:28 + 01:05:22"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "A client is being switched from lisinopril to sacubitril/valsartan. How long a washout is required after the last lisinopril dose?",
+   "options": [
+    "12 hours",
+    "24 hours",
+    "36 hours",
+    "72 hours"
+   ],
+   "answer": "C",
+   "rationale": "A 36-hour washout is required when switching between an ACE inhibitor and an ARNI, and the two are never given together. 12 or 24 hours is too short, and 72 hours is not the number she taught.",
+   "src": "slide 32 + 00:51:06 + 01:05:56"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which adverse effect does her slide list for spironolactone specifically, rather than for both MRAs?",
+   "options": [
+    "Hyperkalemia",
+    "Worsening renal function",
+    "Gynecomastia and other endocrine effects",
+    "Hypokalemia from potassium wasting"
+   ],
+   "answer": "C",
+   "rationale": "Both MRAs can cause hyperkalemia and worsening renal function; spironolactone is singled out for gynecomastia (breast growth in men) and other endocrine effects. MRAs spare potassium, so hypokalemia is the loop-diuretic problem.",
+   "src": "slide 33 + 00:53:17"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Why are clients taking dapagliflozin or empagliflozin at risk for genital fungal infections?",
+   "options": [
+    "More glucose stays in the urine, so there is sugar around",
+    "They raise blood glucose, which feeds yeast throughout the body",
+    "Volume depletion dries the mucosa and lets yeast overgrow",
+    "They suppress the immune response in the urinary tract"
+   ],
+   "answer": "A",
+   "rationale": "Blocking SGLT2 in the proximal tubule leaves more glucose and sodium in the urine — \"there's just some sugar around.\" These drugs lower, not raise, blood glucose, and volume depletion is a separate SGLT2 risk (hypotension), not the cause of the infections.",
+   "src": "slide 35 + 00:56:39"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What makes digoxin unusual among drugs that increase contractility?",
+   "options": [
+    "It increases contractility and prolongs survival in HFrEF",
+    "It increases both contractility and heart rate together",
+    "It increases contractility with no effect on the AV node",
+    "It increases contractility while decreasing heart rate"
+   ],
+   "answer": "D",
+   "rationale": "Raising contractility with a drug usually raises heart rate too; digoxin is the one that increases contractility but decreases heart rate (it slows AV conduction). It has no established survival benefit, which is why it isn't one of the four pillars.",
+   "src": "slide 38 + 00:59:25 + 01:00:00"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which set of findings points to right-sided heart failure?",
+   "options": [
+    "Orthopnea, paroxysmal nocturnal dyspnea, basilar crackles",
+    "JVD, peripheral edema, hepatomegaly, ascites",
+    "Fatigue, oliguria, faint pulses, confusion",
+    "Exertional dyspnea, cough, cyanosis, crackles"
+   ],
+   "answer": "B",
+   "rationale": "Right-sided HF backs up into the systemic veins: JVD, peripheral edema, hepatomegaly and ascites. Orthopnea, PND, cough, cyanosis and crackles are left-sided pulmonary congestion, and fatigue, oliguria, faint pulses and confusion are the forward low-output picture seen with either side.",
+   "src": "slides 22–24, 27"
+  },
+  {
+   "id": "p-013",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client has an EF of 58% but high filling pressures and exertional dyspnea. What best explains heart failure with a normal EF?",
+   "options": [
+    "The stiff ventricle fills with less blood, so a normal percentage ejects a smaller volume",
+    "The dilated ventricle holds extra blood, so the EF overestimates how well it is pumping",
+    "An EF of 58% is reduced, so this is systolic dysfunction from weak ventricular contraction",
+    "A normal EF rules out heart failure, so the dyspnea must have a pulmonary cause instead"
+   ],
+   "answer": "A",
+   "rationale": "Diastolic dysfunction (HFpEF): the stiff ventricle can't fill fully — \"we're starting out with less blood\" — so the percentage ejected is normal but stroke volume falls and high filling pressure backs into the lungs. A dilated ventricle is the HFrEF picture, 58% is ≥ 50% (preserved), and a normal EF is not the same as a normal stroke volume.",
+   "src": "slide 7 + 00:22:27 + supp-02 ¶14"
+  },
+  {
+   "id": "p-014",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client had a large MI and now has heart failure symptoms. Which process most directly links the two?",
+   "options": [
+    "Chronic pressure overload that gradually thickens and stiffens the ventricular wall",
+    "Concentric hypertrophy that shrinks the chamber and limits its filling",
+    "Loss of contractile myocardium, so the ventricle can't generate enough force",
+    "Valvular regurgitation that adds extra volume to the ventricle each beat"
+   ],
+   "answer": "C",
+   "rationale": "An MI kills off a large chunk of contractile cells — \"the more cells you lose,\" the more contractile force is lost — causing systolic dysfunction. Pressure overload and concentric hypertrophy are the hypertension pathway, and regurgitation is the valvular (volume overload) cause.",
+   "src": "slides 5–6 + 00:01:47 + 00:10:52"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Why does chronic SNS activation worsen a failing heart even though it first supports blood pressure?",
+   "options": [
+    "It lowers heart rate and contractility, so the cardiac output keeps on falling",
+    "It blocks renin release, so the kidneys stop retaining sodium and water",
+    "It dilates the arterioles, so blood pressure drops and perfusion is lost",
+    "Persistent tachycardia raises O₂ demand and vasoconstriction raises afterload"
+   ],
+   "answer": "D",
+   "rationale": "Short term, β₁ (HR, contractility) and α₁ (vasoconstriction) prop up BP; chronically, tachycardia raises myocardial oxygen demand, vasoconstriction raises afterload, and catecholamines are \"kind of like poison to the heart cells.\" The SNS raises HR and contractility, stimulates renin (renal β₁) and constricts arterioles — the other options reverse each.",
+   "src": "slides 12–13 + 00:13:13 + 00:23:11"
+  },
+  {
+   "id": "p-016",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client in chronic HF has high circulating angiotensin II. Which effect most directly increases the work of ejecting blood?",
+   "options": [
+    "Sodium excretion and vasodilation that lower the circulating volume",
+    "Vasoconstriction that raises systemic vascular resistance and afterload",
+    "Slowed AV conduction that lengthens the time the ventricle has to fill",
+    "Fluid shifting out of the vessels so that preload drops lower with each beat"
+   ],
+   "answer": "B",
+   "rationale": "Angiotensin II is a potent vasoconstrictor → ↑ SVR and afterload; it also stimulates aldosterone, so more sodium and water retention. Sodium excretion and vasodilation are what BNP does (the opposite of RAAS), slowing AV conduction is digoxin, and RAAS raises — not lowers — preload.",
+   "src": "slide 14 + 00:24:04"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with HF keeps retaining fluid, yet cardiac output does not rise. What is the best explanation?",
+   "options": [
+    "The retained fluid stays in the arteries, so it raises afterload instead of raising preload",
+    "A failing ventricle can't add much stroke volume, so extra volume just raises filling pressure",
+    "Aldosterone switches off the Frank–Starling mechanism once enough fluid has been retained",
+    "The extra volume lowers filling pressures, so the ventricle is stretched too little to respond"
+   ],
+   "answer": "B",
+   "rationale": "Normally more stretch means more force (Frank–Starling), but a failing ventricle's ability to raise stroke volume is limited, so additional volume raises filling pressures and congestion without improving output. Retained volume raises preload, not afterload, and it raises — not lowers — filling pressure.",
+   "src": "slide 15 + 00:13:51 + 00:17:17"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with HF says she now sleeps propped on three pillows because she can't breathe lying flat. This finding reflects:",
+   "options": [
+    "Pulmonary congestion from left-sided HF",
+    "Systemic venous congestion from right-sided HF",
+    "Reduced forward output reaching the brain",
+    "Paroxysmal nocturnal dyspnea from right-sided HF"
+   ],
+   "answer": "A",
+   "rationale": "Orthopnea — breathing worse lying flat — comes from left-sided filling pressure backing into the pulmonary circulation, which is why she asks \"how many pillows do you use to sleep at night?\" Right-sided HF gives systemic signs (JVD, edema), forward failure gives fatigue and confusion, and PND is the same left-sided process happening more slowly.",
+   "src": "slide 21 + 00:28:30 + 00:29:04"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with right-sided HF has lost her appetite. What is the explanation she gave for this anorexia?",
+   "options": [
+    "Fluid in the lungs leaves her too short of breath to finish meals",
+    "Low forward output means the brain stops signaling hunger",
+    "Her loop diuretic causes nausea that suppresses the appetite",
+    "The gut is engorged with fluid from systemic venous congestion"
+   ],
+   "answer": "D",
+   "rationale": "Anorexia means loss of appetite; in right-sided HF systemic venous pressure backs up into the GI tract, and \"you don't feel like eating when your GI tract is all fluid.\" Lung fluid is left-sided congestion, the forward-output brain signs are confusion, restlessness and anxiety, and the loop diuretic isn't the cause she described.",
+   "src": "slide 24 + 00:35:09"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Two clients have similar heart failure symptoms. Which client's BNP may read lower than expected?",
+   "options": [
+    "A client with renal dysfunction",
+    "A client with atrial fibrillation",
+    "A client with obesity",
+    "A client of advanced age"
+   ],
+   "answer": "C",
+   "rationale": "Obesity may suppress BNP. Renal dysfunction, atrial fibrillation and increasing age all tend to raise it — one reason BNP supports HF in the right clinical context but isn't diagnostic alone.",
+   "src": "slide 25 + supp-02 ¶49"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with HFrEF is much less edematous on furosemide and asks why he still needs his other heart medicines. Best response?",
+   "options": [
+    "Furosemide relieves fluid but doesn't prolong life; the others slow the disease",
+    "Furosemide is the foundational drug; the others mainly protect your kidneys",
+    "Once the edema has cleared, the other medicines can usually be stopped",
+    "Furosemide lowers mortality only when it is taken together with digoxin"
+   ],
+   "answer": "A",
+   "rationale": "Loop diuretics make you feel better but don't treat the underlying process — \"the loop diuretics do not prolong life\" — while the four pillars reduce mortality and hospitalizations. Furosemide isn't a pillar, stopping the pillars loses that benefit, and digoxin has no survival benefit either.",
+   "src": "slides 29–30 + 00:45:09 + 01:04:48"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with HFrEF had angioedema while taking lisinopril. The provider is considering sacubitril/valsartan. What is the concern?",
+   "options": [
+    "Give it — valsartan is an ARB, so angioedema can't occur with Entresto",
+    "Avoid it — Entresto is avoided in clients with a history of angioedema",
+    "Give it after a 36-hour washout — that removes the angioedema risk for good",
+    "Give it alongside lisinopril, at a lower dose of each drug"
+   ],
+   "answer": "B",
+   "rationale": "Angioedema is a major Entresto safety risk, and the slide says to avoid it with a history of angioedema. The 36-hour washout prevents overlap with the ACE inhibitor but doesn't erase that history, and an ACE inhibitor is never given with an ARNI.",
+   "src": "slides 31–32 + 00:51:06"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client admitted in significant acute decompensated HF (worsening congestion, low BP) has a new order to start carvedilol today. Best nursing action?",
+   "options": [
+    "Give it at a high dose to block the harmful catecholamines quickly",
+    "Give it; beta blockers raise contractility and will relieve congestion",
+    "Clarify the order — starting it may need to wait until the client is stable",
+    "Give it, and hold the loop diuretic so the blood pressure can recover"
+   ],
+   "answer": "C",
+   "rationale": "Beta blockers may initially decrease contractility and cardiac output, so they start at low doses, increase gradually when stable, and initiation may be deferred during significant decompensation. She stressed low doses in HF, the drug lowers rather than raises contractility, and holding the diuretic would worsen the congestion.",
+   "src": "slide 34 + 00:53:52 + 00:54:24"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with HFrEF and no diabetes is prescribed empagliflozin and asks why. Best response?",
+   "options": [
+    "It is given to prevent the diabetes that heart failure usually causes",
+    "It is a loop diuretic that removes fluid faster than furosemide does",
+    "It replaces your beta blocker by slowing your heart rate instead",
+    "It improves heart failure outcomes whether or not you have diabetes"
+   ],
+   "answer": "D",
+   "rationale": "SGLT2 inhibitors were developed for diabetes, but they reduce HF hospitalizations with or without diabetes — \"you don't have to have diabetes to take this medication.\" They cause only modest natriuresis and osmotic diuresis (not a loop), and they are a separate pillar, not a beta-blocker substitute.",
+   "src": "slide 35 + 00:56:39 + 01:07:04"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client taking furosemide and digoxin develops nausea, visual disturbances and a new dysrhythmia. Which lab abnormality most likely set this up?",
+   "options": [
+    "Hyperkalemia from the loop diuretic",
+    "Hyperkalemia from digoxin build-up",
+    "A rising BNP from more wall stress",
+    "Hypokalemia from the loop diuretic"
+   ],
+   "answer": "D",
+   "rationale": "Loop diuretics waste potassium, and with low K⁺ \"it's much easier to become toxic with the digoxin\" — GI, visual and rhythm changes are toxicity signs. Loops lower (not raise) K⁺, hyperkalemia isn't the toxicity setup she taught, and BNP reflects wall stress, not drug levels.",
+   "src": "slides 38–39 + 01:01:03 + 01:08:09"
+  },
+  {
+   "id": "p-026",
+   "tier": "3",
+   "type": "mc",
+   "stem": "EF 32%. Dilated left ventricle. Dyspnea, fatigue. Classification?",
+   "options": [
+    "HFpEF — diastolic dysfunction",
+    "HFrEF — diastolic dysfunction",
+    "HFrEF — systolic dysfunction",
+    "HFpEF — systolic dysfunction"
+   ],
+   "answer": "C",
+   "rationale": "EF ≤ 40% with a big, floppy, dilated ventricle is HFrEF from impaired contraction. HFpEF is EF ≥ 50% with a stiff ventricle that can't fill; the mixed options pair the wrong EF category with the wrong mechanism.",
+   "src": "slides 8–9 + 00:21:02"
+  },
+  {
+   "id": "p-027",
+   "tier": "3",
+   "type": "mc",
+   "stem": "EF 60%. Long-standing HTN; thick, stiff LV. Exertional dyspnea, crackles. Besides a loop diuretic, which class does her table recommend for eligible clients?",
+   "options": [
+    "Digoxin to strengthen each contraction",
+    "An SGLT2 inhibitor such as dapagliflozin",
+    "Metoprolol succinate ER as a foundation",
+    "A thiazide-type diuretic instead of the loop"
+   ],
+   "answer": "B",
+   "rationale": "EF ≥ 50% with a stiff, hypertrophied ventricle is HFpEF; her table recommends SGLT2 inhibitors for eligible HFpEF patients and loops to relieve congestion. Beta blockers in HFpEF are used for other indications (AF rate control, selected CAD), digoxin is an HFrEF adjunct, and thiazide-type diuretics are added to a loop for persistent congestion, not substituted.",
+   "src": "slide 37 + 00:58:22"
+  },
+  {
+   "id": "p-028",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Lisinopril, spironolactone. K⁺ high; creatinine rising since last week. 0900 doses due. Best action?",
+   "options": [
+    "Report the K⁺ and creatinine before giving; both drugs raise potassium",
+    "Give both; spironolactone wastes potassium, so the K⁺ will correct",
+    "Give spironolactone, hold lisinopril; ACE inhibitors lower potassium",
+    "Give both; kidney function doesn't change the potassium level on these drugs"
+   ],
+   "answer": "A",
+   "rationale": "Hyperkalemia is the major MRA risk, especially with a RAAS inhibitor or renal dysfunction — this client has both — and ACE inhibitors also raise K⁺ through less aldosterone. Spironolactone spares (not wastes) potassium, and rising creatinine makes the K⁺ problem worse, not irrelevant.",
+   "src": "slides 31, 33 + 00:53:17"
+  },
+  {
+   "id": "p-029",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Lisinopril given at 0900 today. New order: sacubitril/valsartan, first dose at 2100 today. Flag?",
+   "options": [
+    "Safe — valsartan is an ARB, so overlap with lisinopril is fine",
+    "Unsafe — Entresto may start only once the client's BNP has normalized",
+    "Safe — give both for 36 hours, then stop the lisinopril dose",
+    "Unsafe — a 36-hour washout after the last lisinopril is required"
+   ],
+   "answer": "D",
+   "rationale": "An ACE inhibitor and an ARNI are never given together, and a 36-hour washout is required when switching — 12 hours isn't enough. The ARB half doesn't make overlap safe, the 36 hours is a gap, not an overlap, and BNP doesn't time the switch.",
+   "src": "slide 32 + 00:51:06 + 01:05:56"
+  },
+  {
+   "id": "p-030",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Furosemide, digoxin. K⁺ low. Apical HR 64, newly irregular. Nausea and new visual disturbances. Digoxin due. Best action?",
+   "options": [
+    "Hold digoxin and report possible toxicity with the low K⁺",
+    "Give digoxin; the apical rate is above 60, so it is safe",
+    "Give digoxin, then recheck the potassium in the morning",
+    "Give an extra digoxin dose to control the new rhythm"
+   ],
+   "answer": "A",
+   "rationale": "A new dysrhythmia, GI symptoms and visual changes with low K⁺ on a loop diuretic point to digoxin toxicity, so hold and report. An HR above 60 is one check, not proof of safety; waiting until morning delays the problem, and double doses are never given.",
+   "src": "slides 38–39 + 01:02:38"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Digoxin due. Apical pulse 54. K⁺ and creatinine at baseline. Best action?",
+   "options": [
+    "Give it; the potassium is normal, so digoxin toxicity is unlikely today",
+    "Hold it and report the HR, following any ordered hold parameters",
+    "Give half the dose and recheck the apical pulse in one hour",
+    "Give it together with metoprolol to steady the heart rate"
+   ],
+   "answer": "B",
+   "rationale": "Her rule: \"you do not take this medication if the heart rate is below 60\" — take the pulse right before giving it, hold if under 60, and follow the ordered hold parameters. Normal labs don't cancel the HR check, a half dose isn't a hold, and a beta blocker would lower the HR further.",
+   "src": "slide 39 + 01:02:04"
+  },
+  {
+   "id": "p-032",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Home digoxin. Missed this morning's dose; plans to take two tonight. Pulse 72. Best teaching?",
+   "options": [
+    "Take two tonight as long as your pulse is still above 60",
+    "Skip digoxin for the next two days to even out the level",
+    "Don't double up; stay on your consistent dosing schedule",
+    "Take two tonight, but check your pulse again in an hour"
+   ],
+   "answer": "C",
+   "rationale": "Reinforce consistent dosing and no double doses — two at once \"can like really bottom out your heart rate,\" and the narrow therapeutic index makes toxicity easy. A pulse over 60 or a recheck doesn't make a double dose safe, and skipping days isn't consistent dosing either.",
+   "src": "slides 38–39 + 01:03:09"
+  },
+  {
+   "id": "p-033",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Metoprolol succinate ER increased 3 days ago. HR 52; BP lower than usual; new fatigue; weight up with more edema. Best action?",
+   "options": [
+    "Give the dose; these effects show the beta blockade is working",
+    "Increase the dose again to protect against the catecholamines",
+    "Hold the dose and report bradycardia, hypotension and congestion",
+    "Give the dose and add digoxin to bring the heart rate back up"
+   ],
+   "answer": "C",
+   "rationale": "After a dose increase, monitor for bradycardia, hypotension, worsening congestion and fatigue — beta blockers may initially decrease contractility, so doses go up gradually and only when stable. Pushing the dose further is the opposite of low-and-slow titration, and digoxin lowers (not raises) heart rate.",
+   "src": "slide 34 + 00:54:24"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "HFrEF, no diabetes; dapagliflozin daily. Admitted with a major illness; NPO for surgery tomorrow. Best action?",
+   "options": [
+    "Give it; SGLT2 inhibitors are held only for genital infection",
+    "Give it; clients without diabetes have no illness-related risk",
+    "Stop it permanently, since it is only a diabetes medication",
+    "Expect a temporary hold and confirm it — ketoacidosis risk"
+   ],
+   "answer": "D",
+   "rationale": "Temporarily withhold SGLT2 inhibitors during major illness, prolonged fasting or surgery because of increased ketoacidosis risk — she said it's usually held when someone is seriously ill. Genital infection isn't the only concern, the hold doesn't depend on diabetes, and dapagliflozin is a foundational HF pillar, so the hold is temporary.",
+   "src": "slide 35 + 00:57:16"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Furosemide IV. Weight down sharply since admission; BP low; K⁺ low; creatinine rising. Next dose due. Best action?",
+   "options": [
+    "Hold and report — volume depletion, hypokalemia, renal changes",
+    "Give it; the weight loss shows the diuresis is working well",
+    "Give it, then recheck the K⁺ and creatinine tomorrow morning",
+    "Add a thiazide-type diuretic to keep the fluid coming off"
+   ],
+   "answer": "A",
+   "rationale": "Hypovolemia/hypotension, hypokalemia and renal changes are the major loop-diuretic risks, and all are present, so report before diuresing further. Weight loss alone doesn't make the dose safe, waiting until tomorrow ignores the labs, and a thiazide-type add-on is for persistent congestion — and it wastes potassium too.",
+   "src": "slide 30 + 00:46:43"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "EF 30%. Meds: furosemide, lisinopril, carvedilol, digoxin. Which addition fills a foundational gap?",
+   "options": [
+    "A thiazide-type diuretic",
+    "Empagliflozin",
+    "Valsartan",
+    "A higher digoxin dose"
+   ],
+   "answer": "B",
+   "rationale": "Lisinopril (RAAS) and carvedilol are on board, but the MRA and SGLT2 pillars are missing — empagliflozin fills one. A thiazide-type diuretic relieves persistent congestion and digoxin is adjunctive (neither improves survival), and valsartan duplicates the RAAS pillar lisinopril already covers.",
+   "src": "slides 29, 37, 41 + 00:57:49"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Primary care clinic",
+   "setting": "Exertional dyspnea with a preserved EF · weeks 0–6",
+   "text": "<b>Nurses' Notes — Week 0, 1000</b>\n74-year-old client, a retired school librarian, reports 2 months of getting short of breath climbing the stairs to her apartment and carrying groceries; she is comfortable sitting and at rest. Hypertension for more than 20 years — \"I don't always remember my blood pressure pills.\" Type 2 diabetes. Cataract surgery last year. Plays cards with friends every Thursday. Sleeps on one pillow and does not wake up short of breath. Mild swelling of both ankles at the end of the day. Echocardiogram last week: thick-walled left ventricle, ejection fraction 60%.\n<b>Vital Signs</b> — T 36.7°C · HR 82 · BP 158/94 · RR 18 · SpO₂ 96% on room air · BMI 34\n<b>Laboratory Results</b> — BNP elevated · K⁺ normal · creatinine normal · hemoglobin normal\n<b>Orders</b> — Empagliflozin (Jardiance) daily · furosemide (Lasix) daily · blood pressure management and medication adherence teaching · daily weights · BMP and return visit in 6 weeks",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "The nurse reviews the visit data. Which findings are <b>causes or risk factors</b> for this client's heart failure? Select all that apply.",
+     "options": [
+      "Hypertension for more than 20 years",
+      "Type 2 diabetes",
+      "Cataract surgery last year",
+      "BMI 34",
+      "Plays cards with friends every Thursday",
+      "Sleeps on one pillow at night"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Chronic hypertension is pressure overload that drives hypertrophy and stiffness; diabetes and obesity promote vascular dysfunction, metabolic stress, inflammation and adverse remodeling. Cataract surgery and a social card game aren't cardiac risk factors, and sleeping on one pillow is reassuring — it argues against orthopnea.",
+     "src": "slide 5 + 00:02:23",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "sata",
+     "stem": "Which statements about this client's heart failure are accurate? Select all that apply.",
+     "options": [
+      "It fits HFpEF: heart failure despite an ejection fraction of 50% or higher",
+      "The thick ventricular wall is concentric hypertrophy from chronic pressure overload",
+      "The ventricle is big and floppy from eccentric hypertrophy and volume overload",
+      "She is ACC/AHA stage C, because she has symptoms from structural heart disease",
+      "She is NYHA class II: symptoms with ordinary activity, comfortable at rest",
+      "She is stage B, because a normal EF means she doesn't truly have heart failure yet"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "An EF of 60% with a stiff, thick-walled ventricle is HFpEF (diastolic dysfunction). Hypertension causes concentric hypertrophy — \"thick-walled\" — whereas eccentric, \"big and floppy\" hypertrophy comes from volume overload. Symptoms put her in stage C (stage B is structural disease with <i>no</i> symptoms), and dyspnea on stairs but comfort at rest is NYHA class II.",
+     "src": "slides 7–9, 16, 26 + 00:18:22 + 00:39:23",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "The client says, \"The heart test said my pumping is normal, so I can probably skip the pills.\" Which response addresses the <b>most important</b> misunderstanding?",
+     "options": [
+      "\"Your stiff heart fills with less blood, so a normal percentage still pumps out less.\"",
+      "\"A normal EF means your heart is only working too hard, so the pills just slow it down.\"",
+      "\"Heart failure is only diagnosed when the EF drops, so the test will be repeated soon.\"",
+      "\"Your heart is enlarged and holds extra blood, so the percentage looks better than it is.\""
+     ],
+     "answer": "A",
+     "rationale": "\"We're starting out with less blood\" — the stiff ventricle can't fill fully, so it ejects a normal percentage of a smaller volume and cardiac output is still low; a normal EF is not a normal stroke volume. HF doesn't require a low EF, and an enlarged, blood-filled ventricle describes HFrEF, not her thick-walled heart.",
+     "src": "slide 7 + 00:05:11 + 00:05:44 + 00:22:27",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "Which items does the nurse anticipate in this client's plan? Select all that apply.",
+     "options": [
+      "Controlling her blood pressure, a contributing condition",
+      "All four HFrEF pillars, which slow HFpEF just as well",
+      "Monitoring her daily weight",
+      "An SGLT2 inhibitor, which is recommended for eligible clients with HFpEF",
+      "A loop diuretic to relieve congestion such as her ankle swelling",
+      "Digoxin as a foundational drug to slow her disease"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "In HFpEF, SGLT2 inhibitors are recommended for eligible clients, loop diuretics relieve congestion in both types, and treating contributing conditions like hypertension matters; diuretic therapy calls for weight monitoring. Digoxin is not foundational therapy, and the other pillar drugs \"just don't have the same kind of effect\" in HFpEF.",
+     "src": "slide 37 + 00:58:22 + 00:58:55",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "mc",
+     "stem": "The nurse teaches the client about empagliflozin. Which instruction is correct?",
+     "options": [
+      "Take it only on days when your blood sugar reading is higher than usual",
+      "Stop taking it whenever your ankles start to swell again in the evening",
+      "Report genital itching or discharge, which can be a fungal infection",
+      "Take two tablets the next day if you happen to miss one"
+     ],
+     "answer": "C",
+     "rationale": "More glucose in the urine raises the risk of genital fungal infections. Its HF benefit doesn't depend on blood sugar — \"you don't have to have diabetes to take this medication\" — swelling isn't a reason to stop it, and doubling missed doses isn't taught.",
+     "src": "slide 35 + 00:56:39",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Week 6.</b> The client returns. Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "No ankle swelling at the end of the day",
+      "Dizzy and lightheaded when she gets out of a chair",
+      "Vaginal itching and a white discharge for 4 days",
+      "BP 134/80",
+      "Creatinine higher than at the last visit",
+      "Climbs her stairs with less breathlessness"
+     ],
+     "answer": "B, C, E",
+     "rationale": "Dizziness on standing suggests volume depletion and hypotension (both diuretics), genital itching and discharge suggest a fungal infection from the SGLT2 inhibitor, and a rising creatinine is a change in renal function to report. Resolved edema, a lower BP and easier stairs show the plan is working.",
+     "src": "slides 30, 35 + 00:47:22 + 00:57:16",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Emergency department → telemetry",
+   "setting": "Acute pulmonary congestion after an MI · ED, then telemetry · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 0230</b>\n66-year-old client brought in by his wife after waking from sleep gasping for air. Sitting bolt upright on the stretcher and refuses to lie back. His wife says he has slept propped on 3 pillows for the past week because \"he couldn't breathe lying flat.\" Frequent cough. Crackles in both lung bases. Restless and anxious. MI 4 months ago; he was told part of his heart muscle was damaged. Takes lisinopril and metoprolol succinate ER at home. Gout flare in his left big toe last year. Wears reading glasses. No calf tenderness.\n<b>Vital Signs</b> — T 36.9°C · HR 112 · BP 150/92 · RR 30 · SpO₂ 89% on room air\n<b>Laboratory Results</b> — BNP about three times his clinic value 2 months ago · K⁺ normal · creatinine normal · hemoglobin normal\n<b>Orders</b> — Furosemide (Lasix) IV now and twice daily · head of bed elevated · continuous SpO₂ monitoring · strict intake and output · daily weight · BMP each morning · echocardiogram",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Which findings are consistent with <b>pulmonary congestion</b>? Select all that apply.",
+     "options": [
+      "Woke from sleep gasping for air",
+      "Has needed 3 pillows to sleep for a week",
+      "Gout flare in his left big toe last year",
+      "Crackles in both lung bases",
+      "Frequent cough",
+      "Wears reading glasses"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "Backward effects of left ventricular failure: waking up breathless is PND (\"the same process, it just happens more slowly\"), needing pillows is orthopnea — \"how many pillows do you use to sleep at night?\" — plus crackles and cough. Old gout and reading glasses are unrelated.",
+     "src": "slides 21–22 + 00:28:30 + 00:29:35 + 00:30:44",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "The client's breathing findings are most consistent with which mechanism?",
+     "options": [
+      "Elevated right atrial pressure backing up into the systemic veins and liver",
+      "Pulmonary hypertension making the right ventricle fail on its own",
+      "Elevated left-sided filling pressure transmitted back into the lungs",
+      "Reduced forward output leaving the kidneys and brain underperfused"
+     ],
+     "answer": "C",
+     "rationale": "Left-sided HF commonly causes pulmonary congestion: high LV filling pressure raises left atrial and pulmonary venous pressure, pushing fluid into the interstitium and alveoli. Systemic venous backup is right-sided HF, isolated right failure from pulmonary hypertension is rare, and reduced forward flow causes fatigue and oliguria, not crackles.",
+     "src": "slide 21 + 00:28:30",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "Which finding requires the nurse's <b>priority</b> attention?",
+     "options": [
+      "SpO₂ 89% with crackles in both lung bases",
+      "BNP about three times his clinic value from 2 months ago",
+      "BP 150/92 on arrival",
+      "History of an MI 4 months ago"
+     ],
+     "answer": "A",
+     "rationale": "Low oxygen saturation with crackles means his lungs are filling with fluid — lying flat makes it worse, which is why he must sit upright. The BNP rise supports new HF trouble but doesn't need treatment itself, and the BP and old MI explain the picture without being the immediate threat.",
+     "src": "slide 21 + 00:29:04 + 00:37:16",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "<b>Day 1, 1000.</b> The echocardiogram shows an ejection fraction of 30%. Which actions does the nurse anticipate while the client receives IV furosemide? Select all that apply.",
+     "options": [
+      "Document HFpEF, because his crackles show preserved function",
+      "Track his weight and intake and output",
+      "Watch for hypotension and signs of volume depletion",
+      "Teach that furosemide will repair his damaged heart muscle",
+      "Monitor potassium and renal function",
+      "Keep him positioned upright to ease his breathing"
+     ],
+     "answer": "B, C, E, F",
+     "rationale": "\"You need to be upright to some degree.\" Furosemide requires monitoring of weight, fluid status, BP, electrolytes (hypokalemia above all) and renal function. Loop diuretics relieve congestion but don't treat the underlying disease, and an EF of 30% is HFrEF.",
+     "src": "slides 9, 30 + 00:29:04 + 00:46:43 + 00:47:53",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 0600.</b> The morning BMP shows K⁺ is now low. The next IV furosemide dose is due at 0800. What should the nurse do?",
+     "options": [
+      "Give the furosemide on time and plan to recheck potassium next week",
+      "Hold the metoprolol, because it is the most likely cause of the low potassium",
+      "Lay the client flat to reduce the workload on the heart until the level improves",
+      "Report the low potassium to the provider before giving the furosemide"
+     ],
+     "answer": "D",
+     "rationale": "Loop diuretics are potassium-wasting — \"that potassium going low is the biggest concern\" — so the result is reported before more drug is given. Waiting a week ignores it, metoprolol doesn't cause hypokalemia, and lying flat worsens orthopnea.",
+     "src": "slide 30 + 00:46:43",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0800.</b> Which findings show that diuresis is <b>working</b>? Select all that apply.",
+     "options": [
+      "Slept on one pillow without waking up short of breath",
+      "Lungs clear in both bases",
+      "Lightheaded when standing, BP 92/56",
+      "Weight down from admission",
+      "Says, \"Now that my lungs are clear, I'm cured and won't need the water pill.\"",
+      "K⁺ low again on the morning labs"
+     ],
+     "answer": "A, B, D",
+     "rationale": "No orthopnea or PND, clear lungs and weight loss show less congestion. Dizziness with a low BP suggests hypotension and volume depletion, a low K⁺ again points to diuretic hypokalemia, and his statement misses that diuretics relieve symptoms without curing the underlying disease.",
+     "src": "slide 30 + 00:45:40 + 00:47:53",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Medical-surgical unit",
+   "setting": "Right-sided failure on top of left-sided HFrEF · days 1–4",
+   "text": "<b>Nurses' Notes — Day 1, 0900</b>\n71-year-old client with left-sided HFrEF (ejection fraction 35%) for 6 years admitted with 2 weeks of increasing leg swelling and abdominal \"tightness.\" Says, \"I just don't feel like eating — I feel full all the time.\" Jugular vein visibly distended while sitting upright. Pitting edema of both lower legs and over the sacrum. Abdomen distended with ascites. Liver edge felt below the rib margin. Alert and oriented. Bowel sounds present. Healed appendectomy scar. Reads the newspaper every morning. Weight up 4 kg in 2 weeks.\n<b>Vital Signs</b> — T 36.8°C · HR 96 · BP 124/78 · RR 20 · SpO₂ 95% on room air\n<b>Laboratory Results</b> — BNP elevated · K⁺ normal · creatinine slightly higher than his baseline\n<b>Orders</b> — Furosemide (Lasix) IV twice daily · daily weight · strict intake and output · BMP daily",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which findings indicate <b>systemic venous congestion</b>? Select all that apply.",
+     "options": [
+      "Jugular vein distended while sitting upright",
+      "Healed appendectomy scar",
+      "Pitting edema of the lower legs and sacrum",
+      "Abdomen distended with ascites",
+      "Liver edge felt below the rib margin",
+      "Alert and oriented"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "Right-sided backward effects: JVD (\"You shouldn't\" see it when the client sits up), dependent edema in the legs or back, ascites and hepatomegaly — the liver is one of the first places blood backs up. The scar and normal mental status aren't congestion findings.",
+     "src": "slides 23–24 + 00:34:07 + 00:35:09 + 00:36:13",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "sata",
+     "stem": "<b>Day 1, 1100.</b> The client says he is tired all the time and can't walk to his mailbox. Urine output has been low, HR is 104 and his foot pulses are faint. Which findings reflect <b>reduced forward output</b> rather than congestion? Select all that apply.",
+     "options": [
+      "Tired all the time",
+      "Jugular venous distention",
+      "Low urine output",
+      "Faint foot pulses",
+      "Ascites",
+      "HR 104"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Forward effects are the same for either side: fatigue and exercise intolerance, oliguria (the kidneys \"aren't getting as much circulation\"), faint pulses and a faster heart rate to compensate. JVD and ascites are backward, congestive effects.",
+     "src": "slides 20, 24 + 00:30:44 + 00:33:30",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "The client asks, \"My heart doctor always said my left side was weak — why are my belly and legs swelling now?\" The client is most likely experiencing:",
+     "options": [
+      "A new MI of the left ventricle that is now causing pulmonary congestion",
+      "Pulmonary hypertension, which made the right side fail on its own",
+      "Left-sided failure raising lung pressures until the right ventricle failed",
+      "Kidney failure from furosemide that is holding fluid in the abdomen"
+     ],
+     "answer": "C",
+     "rationale": "The left ventricle usually fails first; blood backs into the lungs, and the right ventricle — normally a low-pressure pump — now has extra work, so \"in a very short time\" left-sided failure leads to right-sided failure. Isolated right failure from pulmonary hypertension is rare, pulmonary congestion doesn't explain systemic swelling, and diuretics remove fluid.",
+     "src": "slide 23 + 00:31:50 + 00:32:25",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "Which interventions does the nurse include in the plan of care? Select all that apply.",
+     "options": [
+      "Teach that furosemide will slow his heart disease",
+      "Weigh the client daily",
+      "Track intake and output and fluid status",
+      "Encourage large meals to treat his poor appetite",
+      "Monitor potassium and renal function during IV furosemide",
+      "Reassess JVD, edema and abdominal girth for change"
+     ],
+     "answer": "B, C, E, F",
+     "rationale": "With a loop diuretic, monitor weight, fluid status, BP, electrolytes and renal function, and follow the congestion findings. Furosemide relieves congestion but doesn't prolong life or treat the underlying process, and his anorexia comes from a gut \"engorged with fluid,\" which diuresis — not big meals — addresses.",
+     "src": "slide 30 + 00:35:42 + 00:45:09 + 00:47:53",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 0745.</b> Before the 0800 IV furosemide, the client is dizzy sitting on the edge of the bed. BP is 84/50 and HR 110. What should the nurse do?",
+     "options": [
+      "Give the dose on time, because his legs and abdomen are still swollen",
+      "Hold the dose and report the hypotension and dizziness to the provider",
+      "Give half the dose and recheck his blood pressure in 4 hours",
+      "Give the dose, then have him stand to see whether the dizziness improves"
+     ],
+     "answer": "B",
+     "rationale": "Hypovolemia and hypotension are major adverse effects of loop diuretics, and BP is monitored for exactly this reason — more diuretic could worsen it. Persistent edema doesn't override hypotension, nurses don't adjust doses on their own, and standing a dizzy, hypotensive client invites a fall.",
+     "src": "slide 30 + 00:46:43",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "<b>Day 4, 0800.</b> Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Weight down from admission",
+      "Jugular vein not visible while sitting upright",
+      "New confusion and restlessness this morning",
+      "Ate most of his breakfast",
+      "K⁺ low on this morning's labs",
+      "Urine output still low despite diuresis"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Weight loss, no visible JVD and a returning appetite (less gut congestion) show decongestion. New confusion or restlessness can signal reduced forward flow to the brain, a low K⁺ points to diuretic hypokalemia, and persistently low urine output is a forward-failure or renal concern.",
+     "src": "slides 22, 24, 30 + 00:30:44 + 00:35:42",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Heart failure clinic",
+   "setting": "Starting the four pillars in HFrEF · weeks 0–8",
+   "text": "<b>Nurses' Notes — Week 0, 0900</b>\n58-year-old client, a high-school shop teacher, diagnosed with HFrEF (ejection fraction 30%) after an MI 3 months ago. Takes lisinopril and furosemide. Gets short of breath walking one block; comfortable at rest. No diabetes. Lungs clear, no edema today. Weight stable for 2 weeks. Enjoys woodworking. Says, \"I feel so much better since the water pill — do I really need more pills?\"\n<b>Vital Signs</b> — T 36.6°C · HR 92 · BP 128/76 · RR 16 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — K⁺ normal · creatinine normal · glucose normal\n<b>Orders</b> — Start carvedilol (Coreg) at a low dose · start spironolactone daily · start dapagliflozin (Farxiga) daily · continue lisinopril and furosemide · BMP in 1 week · return visit in 2 weeks",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which baseline findings must the nurse track closely because of the <b>new medications</b>? Select all that apply.",
+     "options": [
+      "Heart rate",
+      "Blood pressure",
+      "Enjoys woodworking",
+      "Potassium",
+      "Renal function",
+      "SpO₂ 97% on room air"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "Carvedilol can cause bradycardia and hypotension; spironolactone with lisinopril raises the hyperkalemia risk, especially if renal function worsens; dapagliflozin can cause volume depletion and hypotension and needs renal assessment. His hobby and a normal SpO₂ aren't drug-monitoring parameters.",
+     "src": "slides 33–35 + 00:53:17",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "sata",
+     "stem": "Which of the client's medications belong to the <b>four foundational HFrEF classes</b>? Select all that apply.",
+     "options": [
+      "Lisinopril",
+      "Furosemide",
+      "Carvedilol",
+      "Spironolactone",
+      "Dapagliflozin",
+      "Digoxin"
+     ],
+     "answer": "A, C, D, E",
+     "rationale": "The four pillars: ARNI/ACEi/ARB (lisinopril), an evidence-based beta blocker (carvedilol), an MRA (spironolactone) and an SGLT2 inhibitor (dapagliflozin). Furosemide relieves congestion but isn't foundational, and digoxin is selected adjunctive therapy with no survival benefit.",
+     "src": "slides 29, 41 + 00:44:06 + 00:57:49",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "Which response addresses the client's question, \"Do I really need more pills?\"",
+     "options": [
+      "\"Yes — the water pill relieves fluid, but these slow the disease and help you live longer.\"",
+      "\"No — once the fluid is off and you feel better, your heart failure is under control.\"",
+      "\"Yes — the new pills are stronger water pills that will replace the furosemide soon.\"",
+      "\"No — these are only needed if you also have diabetes or uncontrolled blood pressure.\""
+     ],
+     "answer": "A",
+     "rationale": "Loop diuretics make you feel better, but \"the loop diuretics do not prolong life\"; the foundational classes reduce mortality and HF hospitalizations. MRAs and SGLT2 inhibitors are disease-modifying, not just more diuretics, and SGLT2 inhibitors benefit clients with or without diabetes.",
+     "src": "slides 29–30, 33, 35 + 00:45:09 + 00:56:39",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "Which statements belong in the nurse's teaching about <b>carvedilol</b>? Select all that apply.",
+     "options": [
+      "You may feel more tired at first — report fatigue",
+      "The goal is to start at the full dose so the benefit comes quickly",
+      "It is started at a low dose and increased gradually when you are stable",
+      "It protects the heart from the harmful effects of long-term sympathetic stimulation",
+      "Because it slows the heart, it will be stopped once your fluid is gone",
+      "Report a slow pulse, dizziness, new swelling or more trouble breathing"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "\"We start at low doses\" and increase gradually to protect the heart from \"poisonous\" catecholamines without compromising cardiac output. Monitor for bradycardia, hypotension, worsening congestion and fatigue. A full starting dose is exactly what's avoided, and the beta blocker is long-term therapy, not a short-term fluid drug.",
+     "src": "slide 34 + 00:54:24 + 00:54:54",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "mc",
+     "stem": "<b>Week 2, 0900.</b> HR 76, BP 116/72, weight unchanged, lungs clear, no edema; the week-1 BMP was normal. Which action does the nurse anticipate for the carvedilol?",
+     "options": [
+      "Stop it, because it reduces contractility in a heart that already pumps weakly",
+      "Hold it until his ejection fraction rises above 40% on a repeat echocardiogram",
+      "Gradually increase the dose, because he is clinically stable on the current one",
+      "Keep the starting dose indefinitely, because any increase risks decompensation"
+     ],
+     "answer": "C",
+     "rationale": "Beta blockers start low and are increased gradually when clinically stable — and his HR, BP, weight and lungs are stable. The initial drop in contractility is expected and is why dosing is gradual, not a reason to stop; titration doesn't wait for an EF change, and a dose that is never raised gives up the long-term protection.",
+     "src": "slide 34 + 00:54:24 + 00:54:54",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "sata",
+     "stem": "<b>Week 8, 0900.</b> After the last dose increase, which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "Walks two blocks without stopping",
+      "HR 50 with dizziness when he stands",
+      "Weight up 2 kg with new ankle swelling",
+      "K⁺ high on this week's BMP",
+      "BP 112/70 without symptoms",
+      "Sleeps on one pillow"
+     ],
+     "answer": "B, C, D",
+     "rationale": "Bradycardia with dizziness and worsening congestion are the beta-blocker red flags; a high K⁺ reflects spironolactone plus lisinopril. Walking farther, an asymptomatic BP of 112/70 and no orthopnea show the regimen is helping.",
+     "src": "slides 33–34 + 00:53:17",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Cardiology clinic",
+   "setting": "Switching lisinopril to Entresto · weeks 0–4",
+   "text": "<b>Nurses' Notes — Week 0, 1100</b>\n63-year-old client with HFrEF (ejection fraction 35%). Takes lisinopril, carvedilol, spironolactone, empagliflozin and furosemide. Reports a dry, tickling cough for several months that started after lisinopril was begun. Lungs clear. No edema. Weight stable. Denies any history of swelling of the face, lips or tongue. Received a flu vaccine last month. Goes fishing on weekends. The provider plans to switch lisinopril to sacubitril/valsartan (Entresto).\n<b>Vital Signs</b> — T 36.7°C · HR 68 · BP 104/64 · RR 16 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — K⁺ slightly higher than at his last visit · creatinine stable · hemoglobin normal\n<b>Orders</b> — Discontinue lisinopril · start sacubitril/valsartan (Entresto) after the required washout · BMP in 1 week · return visit in 4 weeks",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings are <b>relevant to the planned switch</b> and need monitoring? Select all that apply.",
+     "options": [
+      "BP 104/64",
+      "K⁺ slightly higher than at his last visit",
+      "Flu vaccine last month",
+      "Takes spironolactone daily",
+      "Goes fishing on weekends",
+      "Denies any history of face, lip or tongue swelling"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "Entresto can cause hypotension, hyperkalemia and renal dysfunction, so a soft BP, a rising K⁺ and a concurrent MRA (spironolactone raises K⁺ \"especially\" with RAAS inhibitors) all matter. No history of angioedema matters because Entresto is avoided in clients who have had it. The vaccine and his hobby are irrelevant.",
+     "src": "slides 31–33 + 00:48:56 + 00:51:06 + 00:53:17",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "mc",
+     "stem": "The client's cough is most likely:",
+     "options": [
+      "A sign of pulmonary congestion from worsening left-sided failure",
+      "An endocrine effect of spironolactone on other hormone receptors",
+      "An effect of carvedilol that should ease once the dose is lowered",
+      "An adverse effect of lisinopril, his ACE inhibitor"
+     ],
+     "answer": "D",
+     "rationale": "Cough (and angioedema) are ACE-inhibitor adverse effects — and his began with lisinopril. His lungs are clear with stable weight, so congestion doesn't fit; spironolactone's endocrine effect is gynecomastia; and cough isn't a listed beta-blocker effect.",
+     "src": "slide 31 + 00:48:56",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "Which is the nurse's <b>priority</b> safety concern with this switch?",
+     "options": [
+      "Low potassium developing once valsartan is started",
+      "Lisinopril and Entresto overlapping in his system",
+      "A drop in heart rate from the sacubitril component",
+      "A genital fungal infection from the new medication"
+     ],
+     "answer": "B",
+     "rationale": "Entresto is never given with an ACE inhibitor, and a 36-hour washout is required — \"so that we don't have any adverse effects.\" RAAS drugs cause <i>hyper</i>kalemia, not hypokalemia; bradycardia isn't an Entresto effect; and genital fungal infections belong to his SGLT2 inhibitor.",
+     "src": "slide 32 + 00:51:06 + 01:05:56",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "Which items belong in the plan for starting Entresto? Select all that apply.",
+     "options": [
+      "Take lisinopril and Entresto together for the first week as a bridge",
+      "Wait at least 36 hours after the last lisinopril dose",
+      "Start Entresto the morning after the last evening lisinopril dose",
+      "Recheck BP, potassium and renal function after starting",
+      "Confirm there is no history of angioedema before the first dose",
+      "Teach him to report swelling of the face, lips or tongue"
+     ],
+     "answer": "B, D, E, F",
+     "rationale": "Entresto is avoided with a history of angioedema and can cause angioedema itself; it needs a 36-hour washout from an ACE inhibitor and BP, K⁺ and renal monitoring. Overlapping the two is exactly what's prohibited, and an evening-to-next-morning gap is far short of 36 hours.",
+     "src": "slide 32 + 00:51:06",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "order",
+     "stem": "Place the switch in the correct sequence.",
+     "options": [
+      "Give the first dose of Entresto",
+      "Take the last dose of lisinopril",
+      "Recheck BP, potassium and renal function",
+      "Wait at least 36 hours"
+     ],
+     "answer": "B, D, A, C",
+     "rationale": "The ACE inhibitor stops first, then \"we need at least 36 hours washout\" before the ARNI starts; once he's on it, BP, K⁺ and renal function are monitored for hypotension, hyperkalemia and renal dysfunction.",
+     "src": "slide 32 + 00:51:06",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "sata",
+     "stem": "<b>Week 4, 1100.</b> Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "The cough has gone away",
+      "K⁺ now high on the BMP",
+      "Swelling of his lips this morning",
+      "BP 108/66 without dizziness",
+      "Creatinine rising since the switch",
+      "Walks farther on his fishing trips"
+     ],
+     "answer": "B, C, E",
+     "rationale": "Hyperkalemia (Entresto plus spironolactone), angioedema and worsening renal function are Entresto's major safety issues — lip swelling needs immediate attention. The cough fading after the ACE inhibitor stopped, a stable BP without symptoms and better exercise tolerance are good signs.",
+     "src": "slides 32–33 + 00:51:06",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Telemetry unit",
+   "setting": "Digoxin toxicity during diuresis · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 0700</b>\n78-year-old client with HFrEF (ejection fraction 25%) admitted yesterday for worsening edema; receiving IV furosemide. Home medications include digoxin (Lanoxin) daily. Overnight she vomited once and says she is \"not hungry at all.\" Says things look blurry. Her daughter says she seems more confused this morning. Telemetry shows a new irregular rhythm. Hip replacement 8 years ago. Osteoarthritis in both knees. Drinks two cups of coffee each morning.\n<b>Vital Signs</b> — T 36.8°C · apical HR 54, irregular · BP 112/68 · RR 18 · SpO₂ 95% on room air\n<b>Laboratory Results</b> — K⁺ low (dropped since admission) · creatinine higher than her baseline · digoxin level elevated\n<b>Orders</b> — Digoxin (Lanoxin) daily at 0900 — hold for apical HR below 60 · furosemide (Lasix) IV twice daily · continuous telemetry · BMP daily",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which findings are consistent with <b>digoxin toxicity</b>? Select all that apply.",
+     "options": [
+      "Vomiting and loss of appetite",
+      "T 36.8°C",
+      "Blurry vision",
+      "New confusion",
+      "Hip replacement 8 years ago",
+      "New irregular rhythm on telemetry"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Toxicity produces dysrhythmias, nausea/vomiting, anorexia (\"loss of appetite\"), confusion and visual disturbances. A normal temperature and an old hip replacement aren't toxicity signs.",
+     "src": "slide 38 + 01:01:03",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "sata",
+     "stem": "Which factors <b>increased her risk</b> of digoxin toxicity? Select all that apply.",
+     "options": [
+      "Low potassium",
+      "IV furosemide",
+      "Osteoarthritis in both knees",
+      "Creatinine higher than baseline",
+      "Two cups of coffee each morning"
+     ],
+     "answer": "A, B, D",
+     "rationale": "\"If you're low in potassium, it's much easier to become toxic with the digoxin,\" and loop diuretics cause that potassium depletion; renal dysfunction increases drug accumulation. Osteoarthritis and her morning coffee aren't risk factors in the sources.",
+     "src": "slides 38–39 + 01:01:03 + 01:01:33",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "The client is most likely experiencing:",
+     "options": [
+      "Worsening left-sided congestion that is now reducing her oxygen levels",
+      "Digoxin toxicity made more likely by hypokalemia and reduced renal function",
+      "Dehydration from one episode of vomiting that will resolve with oral fluids alone",
+      "An expected slowing of the heart rate that needs no change in her care"
+     ],
+     "answer": "B",
+     "rationale": "GI symptoms, visual change, confusion, a new dysrhythmia and a slow HR are the toxicity picture, with low K⁺ (from furosemide) and a rising creatinine as accelerants. Her SpO₂ is acceptable and lungs aren't the issue, one emesis doesn't explain the visual and rhythm changes, and an HR below 60 on digoxin is never \"no change.\"",
+     "src": "slides 38–39 + 01:01:03 + 01:01:33",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "Which actions does the nurse anticipate? Select all that apply.",
+     "options": [
+      "Continue IV furosemide without reviewing the potassium",
+      "Monitor potassium and renal function",
+      "Give today's missed dose together with tomorrow's",
+      "Report the symptoms, heart rate and potassium to the provider",
+      "Continue telemetry and watch for new dysrhythmias",
+      "Hold the 0900 digoxin dose"
+     ],
+     "answer": "B, D, E, F",
+     "rationale": "Her HR is below 60 and she has toxicity signs, so the dose is held and reported; monitor rhythm, potassium (and magnesium) and renal function. Doubling up \"can like really bottom out your heart rate,\" and the loop diuretic is what's draining her potassium.",
+     "src": "slide 39 + 01:02:04 + 01:02:38 + 01:03:09",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "order",
+     "stem": "<b>Day 1, 0845.</b> The 0900 digoxin is due. Place the nurse's actions in order.",
+     "options": [
+      "Report the findings to the provider",
+      "Hold the digoxin dose",
+      "Keep watching the monitor for new dysrhythmias",
+      "Assess the apical heart rate and rhythm"
+     ],
+     "answer": "D, B, A, C",
+     "rationale": "\"Take the pulse right before you're about to give it, and it's below 60… you hold it\" — assess first, hold for HR 54 (and per the ordered parameter), report the HR, symptoms and labs, then keep watching for new dysrhythmias (a toxicity sign). Holding it loses some symptom benefit but \"it's not going to be detrimental.\"",
+     "src": "slide 39 + 01:02:04",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "mc",
+     "stem": "<b>Day 3, 1000.</b> Her K⁺ is normal again and the symptoms have resolved; she will resume home digoxin. Which statement shows she <b>understands</b> the teaching?",
+     "options": [
+      "\"If I forget my morning dose, I'll take two tablets that afternoon to catch up.\"",
+      "\"Digoxin will help me live longer, so I should never skip a dose for any reason.\"",
+      "\"My water pill protects me from digoxin problems by keeping my potassium up.\"",
+      "\"I'll take my pulse before each dose and skip it and call if it's below 60.\""
+     ],
+     "answer": "D",
+     "rationale": "\"You do not take this medication if the heart rate is below 60\" — clients learn to check their pulse first. Never double up a missed dose; digoxin has no survival benefit; and the loop diuretic <i>lowers</i> potassium, raising toxicity risk.",
+     "src": "slides 38–39 + 01:02:04 + 01:03:09",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Home health",
+   "setting": "Post-discharge HFrEF regimen · days 1–14",
+   "text": "<b>Nurses' Notes — Day 1, 1000 (home visit)</b>\n69-year-old client home 1 week after a hospitalization for HFrEF (ejection fraction 35%). No diabetes. Medications: sacubitril/valsartan (Entresto), metoprolol succinate ER (Toprol-XL), spironolactone, dapagliflozin (Farxiga) and furosemide (Lasix). Keeps a daily weight log: up 1.5 kg over the last 3 days, with new mild ankle swelling. Reports genital itching and redness for 3 days. Sleeps on two pillows, unchanged for years. Lives with his wife and their cat; tends a vegetable garden.\n<b>Vital Signs</b> — T 36.8°C · HR 66 · BP 118/72 · RR 18 · SpO₂ 96% on room air\n<b>Laboratory Results</b> (drawn 2 days ago) — K⁺ high · creatinine slightly higher than at discharge\n<b>Orders</b> — Continue current medications · report labs and weight changes to the provider · BMP in 1 week · home visits twice weekly",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "Weight up 1.5 kg over 3 days with new ankle swelling",
+      "Lives with his wife and their cat",
+      "Genital itching and redness for 3 days",
+      "K⁺ high",
+      "Tends a vegetable garden",
+      "Creatinine higher than at discharge"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "A rising daily weight with new edema suggests fluid re-accumulation; genital itching fits an SGLT2-inhibitor fungal infection; a high K⁺ and rising creatinine are the RAAS/MRA safety issues. His household, pet and gardening are irrelevant.",
+     "src": "slides 30, 33, 35 + 00:47:53 + 00:56:39",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "The client's high potassium is most likely related to:",
+     "options": [
+      "Furosemide, which holds potassium in the blood",
+      "Dapagliflozin, which retains potassium in the kidney",
+      "Spironolactone combined with sacubitril/valsartan",
+      "Metoprolol succinate, which blocks potassium excretion"
+     ],
+     "answer": "C",
+     "rationale": "MRAs cause hyperkalemia \"especially with concurrent RAAS inhibitors or renal dysfunction\" — he has both Entresto and a rising creatinine. Furosemide causes <i>hypo</i>kalemia, and hyperkalemia isn't a listed effect of SGLT2 inhibitors or beta blockers.",
+     "src": "slides 32–33 + 00:53:17 + 01:06:28",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "Which finding is the <b>most serious</b> safety concern to report today?",
+     "options": [
+      "Genital itching and redness for 3 days",
+      "The high potassium on his recent labs",
+      "Sleeping on two pillows, as he has for years",
+      "BP 118/72 with HR 66"
+     ],
+     "answer": "B",
+     "rationale": "Hyperkalemia is the major safety concern with MRAs, especially alongside a RAAS inhibitor and renal dysfunction — he has all three, so it needs prompt reporting. The fungal infection needs treatment but is less dangerous, two pillows unchanged for years isn't a new orthopnea, and his vital signs are stable.",
+     "src": "slides 33, 40 + 01:06:28",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "Which items belong in the client's teaching plan? Select all that apply.",
+     "options": [
+      "Keep the lab appointments for potassium and kidney function",
+      "Take an extra furosemide and an extra digoxin if his weight rises",
+      "Hold dapagliflozin and call the provider if he becomes seriously ill or can't eat",
+      "Weigh himself every day and report a rising weight",
+      "Stop spironolactone, since it is only a mild water pill",
+      "Report genital itching, redness or discharge"
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "Monitor weight and fluid status; genital fungal infection is an SGLT2-inhibitor effect; SGLT2 inhibitors are withheld during major illness or prolonged fasting (ketoacidosis risk); K⁺ and renal function are monitored with RAAS drugs and MRAs. MRAs are disease-modifying, \"not simply another way to increase urine output,\" and he isn't on digoxin.",
+     "src": "slides 30, 33, 35 + 00:57:16",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "<b>Day 5, 0900.</b> The client calls: he has had vomiting and diarrhea for 2 days and can barely eat or drink. What should the nurse tell him about dapagliflozin?",
+     "options": [
+      "\"Take an extra dose today to make up for the fluid you are losing.\"",
+      "\"Keep taking it as usual — it only matters if you have diabetes.\"",
+      "\"Stop all your heart medicines, including Entresto, until you feel better.\"",
+      "\"Hold it for now, and I'll contact your provider about your illness today.\""
+     ],
+     "answer": "D",
+     "rationale": "SGLT2 inhibitors are temporarily withheld during major illness or prolonged fasting because of ketoacidosis risk — \"we will usually withhold this medication when someone is seriously ill\" — and the vomiting adds volume depletion. An extra dose worsens volume loss, the hold applies with or without diabetes, and stopping every heart medicine isn't what the sources teach.",
+     "src": "slide 35 + 00:57:16",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Day 14, 1000.</b> Which findings show the plan is <b>working</b>? Select all that apply.",
+     "options": [
+      "Weight steady on his daily log, no ankle swelling",
+      "Says, \"I stopped my spironolactone because I'm not swollen anymore.\"",
+      "K⁺ normal on this week's BMP",
+      "Genital itching has resolved",
+      "Dizzy when standing, BP 88/54",
+      "Says, \"I restarted dapagliflozin once I was eating again and my provider said to.\""
+     ],
+     "answer": "A, C, D, F",
+     "rationale": "A stable weight without edema, a normal K⁺, a resolved infection and restarting the SGLT2 inhibitor only after recovery with provider approval show success. Stopping the MRA gives up a disease-modifying drug, and dizziness with low BP suggests hypotension or volume depletion that needs follow-up.",
+     "src": "slides 30, 33, 35 + 00:53:17 + 00:57:16",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Rapid rounds",
+   "setting": "Clinic and hospital · one question each",
+   "text": "Five clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "sata",
+     "stem": "A client is evaluated for possible heart failure, and the nurse reviews the BNP result. Which factors can <b>raise</b> BNP on their own? Select all that apply.",
+     "options": [
+      "Renal dysfunction",
+      "Atrial fibrillation",
+      "Obesity",
+      "Increasing age",
+      "A recent flu vaccine"
+     ],
+     "answer": "A, B, D",
+     "rationale": "BNP rises with ventricular wall stress but isn't specific: renal dysfunction, AF and increasing age raise it, while obesity may <i>suppress</i> it. That's why it supports, not proves, HF — look at the whole picture and the trend. A vaccine isn't a listed modifier.",
+     "src": "slide 25 + 00:37:16"
+    },
+    {
+     "id": "c08-q02",
+     "type": "mc",
+     "stem": "A client with HFrEF improves from NYHA class III to class II after starting the four pillars. How do the classifications change?",
+     "options": [
+      "The NYHA class improved, but the ACC/AHA stage stays at C",
+      "Both the NYHA class and the ACC/AHA stage improve, from C back to B",
+      "The ACC/AHA stage improves to B, but NYHA classes never change",
+      "Neither changes, since both describe structural damage, not symptoms"
+     ],
+     "answer": "A",
+     "rationale": "NYHA classes describe symptom-related activity limits and can improve or worsen with treatment; ACC/AHA stages describe progression and generally move forward only — a client who has had symptoms stays stage C.",
+     "src": "slide 26 + 00:38:19 + 00:39:23"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "A client with long-standing aortic stenosis has a thick-walled left ventricle with a smaller chamber. Which pattern is this?",
+     "options": [
+      "Eccentric hypertrophy from chronic volume overload",
+      "Concentric hypertrophy from chronic pressure overload",
+      "A dilated, floppy ventricle from repeated MIs",
+      "Eccentric hypertrophy from valvular regurgitation"
+     ],
+     "answer": "B",
+     "rationale": "Aortic stenosis is \"perceived by the heart as kind of like chronic hypertension\" — pressure overload → concentric hypertrophy (thick walls, stiffness, diastolic dysfunction). Eccentric, \"big and floppy\" hypertrophy comes from volume overload such as regurgitation.",
+     "src": "slide 16 + 00:18:22 + 00:18:53"
+    },
+    {
+     "id": "c08-q04",
+     "type": "mc",
+     "stem": "A client is admitted with marked acute decompensated HFrEF — crackles, orthopnea and new edema. The provider is considering starting metoprolol succinate ER. Which statement is accurate?",
+     "options": [
+      "Starting it may be deferred until he is stable, then begun low and increased slowly",
+      "It should be started at a high dose right away to block the stress response",
+      "It is contraindicated permanently, because it lowers contractility in HFrEF",
+      "It should replace the diuretic, because it relieves the congestion more quickly"
+     ],
+     "answer": "A",
+     "rationale": "Beta blockers may initially decrease contractility and cardiac output, so initiation or dose escalation may need to be deferred during significant acute decompensation; they're started low and increased when clinically stable. High doses are avoided, they're long-term foundational therapy rather than contraindicated, and they don't relieve congestion — diuretics do.",
+     "src": "slide 34 + 00:53:52 + 00:54:24"
+    },
+    {
+     "id": "c08-q05",
+     "type": "mc",
+     "stem": "A 32-year-old client with HFrEF who takes lisinopril tells the clinic nurse she just found out she is pregnant. What should the nurse do?",
+     "options": [
+      "Reassure her that lisinopril is the safest blood pressure choice during pregnancy",
+      "Tell her to double her furosemide until she can see her obstetric provider",
+      "Tell her to switch from lisinopril to valsartan, since ARBs are safe in pregnancy",
+      "Report it to the provider, since ACE inhibitors are contraindicated in pregnancy"
+     ],
+     "answer": "D",
+     "rationale": "ACE inhibitors and ARBs are contraindicated during pregnancy, so the provider needs to know now. They're not safe in pregnancy, clients don't adjust diuretics themselves, and switching to an ARB doesn't help — ARBs are contraindicated in pregnancy too.",
+     "src": "slide 31 + 00:48:56"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "Heart failure — definition",
+   "back": "A syndrome where structural or functional abnormalities impair ventricular <b>filling and/or ejection</b> → inadequate cardiac output, elevated filling pressures, or both",
+   "tag": "basics",
+   "src": "slide 4 + 00:00:02"
+  },
+  {
+   "id": "fc-002",
+   "front": "Common manifestations of heart failure",
+   "back": "Fatigue · exercise intolerance · dyspnea · fluid congestion",
+   "tag": "basics",
+   "src": "slide 4 + 00:00:33"
+  },
+  {
+   "id": "fc-003",
+   "front": "Heart failure is the common final pathway of which diseases?",
+   "back": "Many cardiovascular diseases — CAD, hypertension, valvular disease. Usually a long, chronic process; can present as acute decompensation",
+   "tag": "basics",
+   "src": "slide 4 + 00:01:11"
+  },
+  {
+   "id": "fc-004",
+   "front": "How do CAD/MI cause heart failure?",
+   "back": "Ischemia injures and kills contractile cells — a cell here and there with chronic ischemia, or a huge chunk at once with an MI → ↓ contractility",
+   "tag": "basics",
+   "src": "slide 5 + 00:01:47"
+  },
+  {
+   "id": "fc-005",
+   "front": "How does long-standing hypertension cause heart failure?",
+   "back": "Chronic pressure overload ↑ ventricular workload → hypertrophy and stiffness",
+   "tag": "basics",
+   "src": "slide 5 + 00:02:23"
+  },
+  {
+   "id": "fc-006",
+   "front": "Systolic dysfunction — the primary problem",
+   "back": "Impaired contraction/ejection — the ventricle can't generate enough force. Her picture: a <b>balloon blown up over and over</b> — big, floppy, worn-out elasticity",
+   "tag": "ef-types",
+   "src": "slide 6 + 00:03:59"
+  },
+  {
+   "id": "fc-007",
+   "front": "Diastolic dysfunction — the primary problem",
+   "back": "Impaired filling: delayed relaxation or ↓ compliance — the stiff ventricle needs higher pressure to fill",
+   "tag": "ef-types",
+   "src": "slide 7 + 00:04:36"
+  },
+  {
+   "id": "fc-008",
+   "front": "HFrEF — EF threshold and main dysfunction",
+   "back": "EF ≤ 40% · systolic dysfunction (impaired contraction)",
+   "tag": "ef-types",
+   "src": "slides 8–9 + 00:06:19"
+  },
+  {
+   "id": "fc-009",
+   "front": "HFpEF — EF threshold and main dysfunction",
+   "back": "EF ≥ 50% · usually diastolic dysfunction (stiff, poorly relaxing ventricle)",
+   "tag": "ef-types",
+   "src": "slides 8–9 + 00:08:40"
+  },
+  {
+   "id": "fc-010",
+   "front": "Normal ejection fraction",
+   "back": "About 55–70% — the ventricles pump out about 60% of their blood",
+   "tag": "ef-types",
+   "src": "slide 8 + 00:06:19"
+  },
+  {
+   "id": "fc-011",
+   "front": "Why can stroke volume fall even when EF is preserved?",
+   "back": "\"We're starting out with less blood\" — EF is a percentage; a normal % of a smaller filled volume = less output",
+   "tag": "ef-types",
+   "src": "slide 7 + 00:22:27"
+  },
+  {
+   "id": "fc-012",
+   "front": "Does EF alone determine heart failure severity?",
+   "back": "No — HFrEF and HFpEF can both cause ↓ effective cardiac output, ↑ filling pressures and congestion",
+   "tag": "ef-types",
+   "src": "slide 10"
+  },
+  {
+   "id": "fc-013",
+   "front": "SNS in HF: β₁ vs α₁ effects",
+   "back": "β₁ ↑ HR and contractility · α₁ arteriolar vasoconstriction ↑ SVR and BP · venoconstriction ↑ preload",
+   "tag": "compensation",
+   "src": "slide 13 + 00:15:01"
+  },
+  {
+   "id": "fc-014",
+   "front": "Which chronic SNS effects make HF worse?",
+   "back": "↑ myocardial oxygen demand (persistent tachycardia) and ↑ afterload (vasoconstriction)",
+   "tag": "compensation",
+   "src": "slide 13 + 00:23:11"
+  },
+  {
+   "id": "fc-015",
+   "front": "Catecholamines, angiotensin II and aldosterone in chronic HF",
+   "back": "\"Kind of like poison to the heart cells\" — they keep HF getting worse, so they are the drug targets",
+   "tag": "compensation",
+   "src": "slide 13 + 00:13:13"
+  },
+  {
+   "id": "fc-016",
+   "front": "Angiotensin II raises cardiac workload mainly by…",
+   "back": "Potent vasoconstriction → ↑ afterload (it also stimulates aldosterone → more fluid retention)",
+   "tag": "compensation",
+   "src": "slide 14 + 00:24:04"
+  },
+  {
+   "id": "fc-017",
+   "front": "Aldosterone contributes to congestion by increasing…",
+   "back": "Sodium and water retention → ↑ preload",
+   "tag": "compensation",
+   "src": "slide 14 + 00:24:44"
+  },
+  {
+   "id": "fc-018",
+   "front": "Why does extra preload eventually worsen HF?",
+   "back": "Frank–Starling helps at first, but a failing ventricle can't add much force — extra volume ↑ filling pressures and congestion without ↑ output",
+   "tag": "compensation",
+   "src": "slide 15 + 00:17:17"
+  },
+  {
+   "id": "fc-019",
+   "front": "Eccentric hypertrophy — stimulus and shape",
+   "back": "Chronic <b>volume</b> overload → chamber enlarges, \"big and floppy\" → systolic dysfunction",
+   "tag": "remodeling",
+   "src": "slide 16 + 00:18:22"
+  },
+  {
+   "id": "fc-020",
+   "front": "Concentric hypertrophy — stimulus and shape",
+   "back": "Chronic <b>pressure</b> overload (HTN, aortic stenosis) → thick, stiff walls, smaller chamber → diastolic dysfunction",
+   "tag": "remodeling",
+   "src": "slide 16 + 00:18:22"
+  },
+  {
+   "id": "fc-021",
+   "front": "Hypertrophy: short-term help vs long-term harm",
+   "back": "Initially more force · later ↑ oxygen demand, ↑ stiffness, ↓ compliance and filling",
+   "tag": "remodeling",
+   "src": "slide 12 + 00:13:51"
+  },
+  {
+   "id": "fc-022",
+   "front": "Cardiac remodeling — definition",
+   "back": "Progressive changes in ventricular size, shape, structure and function in response to chronic injury and stress",
+   "tag": "remodeling",
+   "src": "slide 17 + 00:19:25"
+  },
+  {
+   "id": "fc-023",
+   "front": "What do HF medications do about remodeling?",
+   "back": "Block the harmful neurohormonal signals (SNS, angiotensin II, aldosterone) to slow progression — not just treat symptoms",
+   "tag": "remodeling",
+   "src": "slide 17 + 00:20:32"
+  },
+  {
+   "id": "fc-024",
+   "front": "Forward failure — manifestations",
+   "back": "Not enough blood to tissues: fatigue, weakness, exercise intolerance, ↓ renal perfusion",
+   "tag": "left-right",
+   "src": "slide 20 + 00:26:53"
+  },
+  {
+   "id": "fc-025",
+   "front": "Left-sided HF backs fluid into…",
+   "back": "The lungs → exertional dyspnea, orthopnea, PND, crackles (pulmonary congestion)",
+   "tag": "left-right",
+   "src": "slide 21 + 00:28:30"
+  },
+  {
+   "id": "fc-026",
+   "front": "Orthopnea — and how to assess it",
+   "back": "Breathing worse lying flat. Ask: <b>\"How many pillows do you use to sleep at night?\"</b> — lie flat and you drown in your lungs",
+   "tag": "left-right",
+   "src": "slide 21 + 00:28:30"
+  },
+  {
+   "id": "fc-027",
+   "front": "Paroxysmal nocturnal dyspnea (PND)",
+   "back": "\"The same process, it just happens more slowly\" — the client falls asleep, lungs slowly fill, wakes up at night short of breath",
+   "tag": "left-right",
+   "src": "slide 21 + 00:29:04"
+  },
+  {
+   "id": "fc-028",
+   "front": "Most common cause of right-sided HF",
+   "back": "Left-sided HF — blood backs into the lungs and the low-pressure right ventricle must work much harder",
+   "tag": "left-right",
+   "src": "slide 23 + 00:31:16"
+  },
+  {
+   "id": "fc-029",
+   "front": "Jugular venous distention (JVD) — why it happens",
+   "back": "The jugular drains into the right atrium; ↑ right-sided pressure → vein visible when sitting up. \"Why do I even care about this big old vein? This is why\"",
+   "tag": "left-right",
+   "src": "slides 23–24 + 00:36:13"
+  },
+  {
+   "id": "fc-030",
+   "front": "Anorexia in right-sided HF",
+   "back": "<b>Anorexia = loss of appetite</b> (not the eating disorder) — the gut is engorged with fluid",
+   "tag": "left-right",
+   "src": "slide 24 + 00:35:09"
+  },
+  {
+   "id": "fc-031",
+   "front": "What triggers BNP release?",
+   "back": "Ventricular wall stress and stretch (↑ preload/afterload)",
+   "tag": "bnp-staging",
+   "src": "slide 25 + 00:36:13"
+  },
+  {
+   "id": "fc-032",
+   "front": "What does BNP do?",
+   "back": "Promotes Na⁺/water excretion and vasodilation — the <b>opposite of RAAS</b>, but \"not nearly as strong\"",
+   "tag": "bnp-staging",
+   "src": "slide 25 + 00:36:45"
+  },
+  {
+   "id": "fc-033",
+   "front": "Does an elevated BNP diagnose HF?",
+   "back": "No — supports HF in the right clinical context; not specific. Trend it: \"three times what it was the last time\" = something new going on",
+   "tag": "bnp-staging",
+   "src": "slides 25, 27 + 00:37:16"
+  },
+  {
+   "id": "fc-034",
+   "front": "What else changes BNP levels besides HF?",
+   "back": "↑ with renal dysfunction, atrial fibrillation, increasing age · obesity may ↓ it",
+   "tag": "bnp-staging",
+   "src": "slide 25"
+  },
+  {
+   "id": "fc-035",
+   "front": "ACC/AHA stages vs NYHA classes",
+   "back": "ACC/AHA (A–D) = disease development and progression · NYHA (I–IV) = how symptoms limit activity",
+   "tag": "bnp-staging",
+   "src": "slide 26 + 00:38:19"
+  },
+  {
+   "id": "fc-036",
+   "front": "ACC/AHA Stage A vs Stage B",
+   "back": "A = at risk (risk factors, no symptoms) — added so we don't wait for HF · B = pre-HF: structural changes/biomarkers, no symptoms",
+   "tag": "bnp-staging",
+   "src": "slide 26 + 00:38:51"
+  },
+  {
+   "id": "fc-037",
+   "front": "NYHA classes I–IV",
+   "back": "I no limitation · II slight · III marked · IV symptoms at rest",
+   "tag": "bnp-staging",
+   "src": "slide 26 + 00:39:23"
+  },
+  {
+   "id": "fc-038",
+   "front": "Why aren't loop diuretics a foundational HFrEF drug?",
+   "back": "Clients <b>feel better</b>, but they don't treat the underlying disease and <b>don't prolong life</b>",
+   "tag": "diuretics",
+   "src": "slide 29 + 00:45:09"
+  },
+  {
+   "id": "fc-039",
+   "front": "Furosemide (Lasix) — mechanism",
+   "back": "Blocks Na⁺/Cl⁻ reabsorption in the thick ascending loop of Henle → ↓ volume and filling pressures",
+   "tag": "diuretics",
+   "src": "slide 30"
+  },
+  {
+   "id": "fc-040",
+   "front": "Biggest electrolyte concern with loop diuretics",
+   "back": "<b>Hypokalemia</b> — potassium-wasting",
+   "tag": "diuretics",
+   "src": "slide 30 + 00:46:43"
+  },
+  {
+   "id": "fc-041",
+   "front": "Loop diuretic monitoring",
+   "back": "Weight, fluid status, BP, electrolytes, renal function (watch hypovolemia, hypotension)",
+   "tag": "diuretics",
+   "src": "slide 30 + 00:47:53"
+  },
+  {
+   "id": "fc-042",
+   "front": "ACE inhibitor vs ARB — mechanism",
+   "back": "ACEi (lisinopril) ↓ angiotensin II formation · ARB (valsartan, losartan) blocks AT₁ receptors → ↓ afterload, ↓ aldosterone",
+   "tag": "raas-drugs",
+   "src": "slide 31 + 00:48:26"
+  },
+  {
+   "id": "fc-043",
+   "front": "ACE inhibitor-specific adverse effects",
+   "back": "Cough and angioedema",
+   "tag": "raas-drugs",
+   "src": "slide 31 + 00:48:56"
+  },
+  {
+   "id": "fc-044",
+   "front": "ACEi/ARB safety and monitoring",
+   "back": "Hypotension, hyperkalemia, renal changes; contraindicated in pregnancy · monitor BP, K⁺, renal function",
+   "tag": "raas-drugs",
+   "src": "slide 31 + 00:48:56"
+  },
+  {
+   "id": "fc-045",
+   "front": "Entresto — the two components",
+   "back": "Sacubitril + valsartan (an ARNI: angiotensin receptor–neprilysin inhibitor)",
+   "tag": "raas-drugs",
+   "src": "slide 32 + 00:49:28"
+  },
+  {
+   "id": "fc-046",
+   "front": "Sacubitril — mechanism",
+   "back": "Inhibits neprilysin, so natriuretic peptides aren't broken down → more natriuresis and vasodilation",
+   "tag": "raas-drugs",
+   "src": "slide 32 + 01:05:22"
+  },
+  {
+   "id": "fc-047",
+   "front": "Switching an ACE inhibitor to Entresto",
+   "back": "Never give together — <b>36-hour washout</b> after stopping the ACE inhibitor",
+   "tag": "raas-drugs",
+   "src": "slide 32 + 01:05:56"
+  },
+  {
+   "id": "fc-048",
+   "front": "Four foundational HFrEF classes",
+   "back": "ARNI/ACEi/ARB · evidence-based beta blocker · MRA · SGLT2 inhibitor — they ↓ mortality and HF hospitalizations",
+   "tag": "bb-mra-sglt2",
+   "src": "slide 41 + 00:58:22"
+  },
+  {
+   "id": "fc-049",
+   "front": "Spironolactone (MRA) in HF — why?",
+   "back": "Blocks aldosterone receptors — blocks the \"poison\" to heart cells, limits fibrosis; disease-modifying, not just a diuretic",
+   "tag": "bb-mra-sglt2",
+   "src": "slide 33 + 00:52:44"
+  },
+  {
+   "id": "fc-050",
+   "front": "Major electrolyte concern with MRAs",
+   "back": "<b>Hyperkalemia</b> — especially with RAAS inhibitors or renal dysfunction",
+   "tag": "bb-mra-sglt2",
+   "src": "slide 33 + 01:06:28"
+  },
+  {
+   "id": "fc-051",
+   "front": "Beta blockers in HFrEF — how dosed?",
+   "back": "<b>Low and slow</b> — start at a low dose, gradually increase; protects from \"poisonous\" catecholamines without dropping output",
+   "tag": "bb-mra-sglt2",
+   "src": "slide 34 + 00:54:24"
+  },
+  {
+   "id": "fc-052",
+   "front": "SGLT2 inhibitors (dapagliflozin, empagliflozin) and HF",
+   "back": "Made for diabetes, \"kind of found accidentally\" to be amazing for HF — benefit <b>with or without</b> diabetes",
+   "tag": "bb-mra-sglt2",
+   "src": "slide 35 + 00:58:55"
+  },
+  {
+   "id": "fc-053",
+   "front": "SGLT2 inhibitor adverse effects",
+   "back": "Genital fungal infections (sugar in urine) · volume depletion/hypotension",
+   "tag": "bb-mra-sglt2",
+   "src": "slide 35 + 00:56:39"
+  },
+  {
+   "id": "fc-054",
+   "front": "When to hold an SGLT2 inhibitor",
+   "back": "When seriously ill — major illness, prolonged fasting, surgery (↑ ketoacidosis risk)",
+   "tag": "bb-mra-sglt2",
+   "src": "slide 35 + 00:57:16"
+  },
+  {
+   "id": "fc-055",
+   "front": "HFpEF drug therapy vs HFrEF",
+   "back": "SGLT2 inhibitors recommended + diuretics for congestion; the other classes don't have the same disease-slowing effect",
+   "tag": "bb-mra-sglt2",
+   "src": "slide 37 + 00:58:22"
+  },
+  {
+   "id": "fc-056",
+   "front": "Digoxin's unique effect",
+   "back": "↑ contractility <b>and</b> ↓ heart rate — no other drug really does both",
+   "tag": "digoxin",
+   "src": "slide 38 + 01:00:00"
+  },
+  {
+   "id": "fc-057",
+   "front": "Does digoxin improve survival?",
+   "back": "No — may improve symptoms/hospitalizations, but no survival benefit; not a foundational class",
+   "tag": "digoxin",
+   "src": "slide 38 + 01:00:32"
+  },
+  {
+   "id": "fc-058",
+   "front": "Signs of digoxin toxicity",
+   "back": "Narrow therapeutic index → watch for dysrhythmias · nausea/vomiting · anorexia · confusion · visual disturbances",
+   "tag": "digoxin",
+   "src": "slide 38 + 01:01:03"
+  },
+  {
+   "id": "fc-059",
+   "front": "Furosemide + digoxin — the concern",
+   "back": "Loop diuretic → hypokalemia → much easier to become digoxin toxic",
+   "tag": "digoxin",
+   "src": "slides 38–39 + 01:01:03"
+  },
+  {
+   "id": "fc-060",
+   "front": "Renal dysfunction and digoxin",
+   "back": "↑ drug accumulation → ↑ toxicity risk",
+   "tag": "digoxin",
+   "src": "slide 38 + 01:01:33"
+  },
+  {
+   "id": "fc-061",
+   "front": "Check before giving digoxin",
+   "back": "Take the pulse right before the dose: \"you do not take this medication if the heart rate is below 60\" — hold (follow any ordered hold parameters)",
+   "tag": "digoxin",
+   "src": "slide 39 + 01:02:04"
+  },
+  {
+   "id": "fc-062",
+   "front": "Client missed a digoxin dose — take two later?",
+   "back": "<b>Never</b> double up — two doses can really bottom out the heart rate",
+   "tag": "digoxin",
+   "src": "slide 39 + 01:03:09"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "(Kahoot) Which finding best describes heart failure?",
+   "a": "Answer not read aloud; from slide 4: a syndrome in which structural or functional abnormalities impair ventricular <b>filling and/or ejection</b> → inadequate cardiac output, elevated filling pressures, or both.",
+   "src": "slide 4 + 00:09:53"
+  },
+  {
+   "id": "qa-002",
+   "q": "(Kahoot) Which process most directly contributes to heart failure after an MI?",
+   "a": "\"Good\" — loss of contractile myocardium: \"the more cells you lose, the more contractile force\" you lose.",
+   "src": "slide 6 + 00:09:53"
+  },
+  {
+   "id": "qa-003",
+   "q": "(Kahoot) A patient has heart failure symptoms and an ejection fraction of 35%. Which category applies?",
+   "a": "HFrEF — she said under 40 is reduced ejection fraction (the Kahoot froze; answered at 00:21:02).",
+   "src": "slide 9 + 00:10:52"
+  },
+  {
+   "id": "qa-004",
+   "q": "(Kahoot) A patient has heart failure symptoms, a stiff left ventricle, and an ejection fraction of 60%. What is most likely?",
+   "a": "\"All right, good. So that is a preserved ejection fraction\" — HFpEF; 60% is in the normal range.",
+   "src": "slide 9 + 00:21:02"
+  },
+  {
+   "id": "qa-005",
+   "q": "(Kahoot) Why can stroke volume be reduced even when ejection fraction is preserved?",
+   "a": "\"Good. We're starting out with less blood\" — still pumping out a good percentage, but the actual amount is lower.",
+   "src": "slide 7 + 00:21:37"
+  },
+  {
+   "id": "qa-006",
+   "q": "(Kahoot) How can long-standing hypertension contribute to heart failure?",
+   "a": "Answer not read aloud; from slide 5: chronic pressure overload ↑ ventricular workload → hypertrophy and stiffness.",
+   "src": "slide 5 + 00:22:27"
+  },
+  {
+   "id": "qa-007",
+   "q": "(Kahoot) Why does SNS activity initially increase in heart failure?",
+   "a": "\"Initially, it's compensatory\" — to raise blood pressure and keep the tissues perfused.",
+   "src": "slide 13 + 00:22:27"
+  },
+  {
+   "id": "qa-008",
+   "q": "(Kahoot) Which chronic SNS effect makes heart failure worse?",
+   "a": "Higher myocardial oxygen demand and afterload.",
+   "src": "slide 13 + 00:23:11"
+  },
+  {
+   "id": "qa-009",
+   "q": "(Kahoot) Angiotensin II raises cardiac workload primarily by causing…?",
+   "a": "Vasoconstriction — a potent vasoconstrictor that ↑ afterload; it also stimulates aldosterone, so more fluid retention.",
+   "src": "slide 14 + 00:24:04"
+  },
+  {
+   "id": "qa-010",
+   "q": "(Kahoot) Aldosterone contributes to congestion by increasing what?",
+   "a": "Sodium and water retention.",
+   "src": "slide 14 + 00:24:44"
+  },
+  {
+   "id": "qa-011",
+   "q": "(Kahoot) Why can additional preload eventually worsen heart failure?",
+   "a": "Answer not read aloud; from slide 15: a failing ventricle can't raise stroke volume much, so extra volume raises filling pressures and congestion without improving output.",
+   "src": "slide 15 + 00:25:26"
+  },
+  {
+   "id": "qa-012",
+   "q": "(Kahoot) Which pattern is most associated with chronic pressure overload?",
+   "a": "\"Oh, good\" — concentric hypertrophy; eccentric goes with volume overload.",
+   "src": "slide 16 + 00:25:26"
+  },
+  {
+   "id": "qa-013",
+   "q": "Why do I even care about this big old vein [the jugular]?",
+   "a": "Because of heart failure: the jugular vein drains right into the right atrium, so ↑ right-sided pressure shows as JVD when the client sits up — \"You shouldn't\" see it.",
+   "src": "slide 20 + 00:27:23"
+  },
+  {
+   "id": "qa-014",
+   "q": "(student asked) What puts pressure on the right side of the heart to make it fail?",
+   "a": "Having to pump harder. Normally it's a low-pressure system; usually the left side fails and backs blood into the lungs, but rarely something like pulmonary hypertension makes the right side fail on its own.",
+   "src": "slide 23 + 00:32:25"
+  },
+  {
+   "id": "qa-015",
+   "q": "(Kahoot) Which symptom is most directly linked to reduced forward output?",
+   "a": "\"All right, good\" — fatigue/weakness: not enough blood getting to the tissues.",
+   "src": "slide 20 + 00:39:54"
+  },
+  {
+   "id": "qa-016",
+   "q": "(Kahoot) Which finding most strongly suggests systemic venous congestion?",
+   "a": "\"Good\" — answer not read aloud; from slide 23: JVD / peripheral edema (also hepatomegaly, ascites).",
+   "src": "slide 23 + 00:41:08"
+  },
+  {
+   "id": "qa-017",
+   "q": "(Kahoot) What triggers BNP release in heart failure?",
+   "a": "Answer not read aloud; from slide 25: increased ventricular wall stress and stretch.",
+   "src": "slide 25 + 00:42:15"
+  },
+  {
+   "id": "qa-018",
+   "q": "(Kahoot) Which statement about BNP is most accurate?",
+   "a": "Answer not read aloud; from slides 25 and 27: elevated BNP supports HF in the right clinical context but isn't specific and isn't diagnostic alone.",
+   "src": "slide 25 + 00:42:59"
+  },
+  {
+   "id": "qa-019",
+   "q": "(Kahoot) Which classification describes heart failure progression from risk to advanced heart failure?",
+   "a": "Answer not read aloud; from slide 26: the ACC/AHA stages (A–D).",
+   "src": "slide 26 + 00:42:59"
+  },
+  {
+   "id": "qa-020",
+   "q": "Why is sacubitril not given on its own — and why is it paired with an ARB instead of an ACE inhibitor?",
+   "a": "\"You don't need to know this.\" Sacubitril raises RAAS activity a lot, so it's paired with a RAAS blocker; and it also slows bradykinin breakdown — with an ACE inhibitor that bradykinin build-up risks angioedema.",
+   "src": "slide 32 + 00:51:37"
+  },
+  {
+   "id": "qa-021",
+   "q": "(Kahoot) Which list contains the four foundational HFrEF medication classes?",
+   "a": "ARNI/ACEi/ARB, evidence-based beta blockers, MRAs, SGLT2 inhibitors (answer from slide 41).",
+   "src": "slide 41 + 01:03:48"
+  },
+  {
+   "id": "qa-022",
+   "q": "(Kahoot) What distinguishes loop diuretics from foundational HFrEF therapy?",
+   "a": "They don't treat the underlying process — they make you feel better without prolonging life.",
+   "src": "slide 30 + 01:04:48"
+  },
+  {
+   "id": "qa-023",
+   "q": "(Kahoot) Sacubitril in Entresto primarily acts by…?",
+   "a": "Inhibiting neprilysin, so natriuretic peptides aren't broken down.",
+   "src": "slide 32 + 01:05:22"
+  },
+  {
+   "id": "qa-024",
+   "q": "(Kahoot) How long must an ACE inhibitor be stopped before starting an ARNI?",
+   "a": "A 36-hour washout period.",
+   "src": "slide 32 + 01:05:56"
+  },
+  {
+   "id": "qa-025",
+   "q": "(Kahoot) Which electrolyte abnormality is a major concern with spironolactone?",
+   "a": "Answer not read aloud; from slide 33: hyperkalemia — especially with RAAS inhibitors or renal dysfunction.",
+   "src": "slide 33 + 01:06:28"
+  },
+  {
+   "id": "qa-026",
+   "q": "(Kahoot) Why can beta blockers improve long-term outcomes in stable HFrEF?",
+   "a": "They block the harmful chronic sympathetic stimulation.",
+   "src": "slide 34 + 01:06:28"
+  },
+  {
+   "id": "qa-027",
+   "q": "(Kahoot) Which statement about dapagliflozin and empagliflozin is correct?",
+   "a": "\"Yes\" — they improve HF outcomes even if you don't have diabetes, though that's what they were originally made for.",
+   "src": "slide 35 + 01:07:04"
+  },
+  {
+   "id": "qa-028",
+   "q": "(Kahoot) A patient taking furosemide and digoxin develops hypokalemia. What is the concern?",
+   "a": "Answer not read aloud; from slides 38–39: digoxin toxicity — low K⁺ (from the loop diuretic) makes toxicity much more likely.",
+   "src": "slide 39 + 01:08:09"
+  },
+  {
+   "id": "qa-029",
+   "q": "(Kahoot) Which statement compares treatment of HFrEF and HFpEF?",
+   "a": "HFrEF has four foundational disease-modifying classes; in HFpEF, SGLT2 inhibitors are recommended and diuretics relieve congestion, but the other classes don't have the same effect (slide 37).",
+   "src": "slide 37 + 01:08:09"
+  }
+ ]
+}

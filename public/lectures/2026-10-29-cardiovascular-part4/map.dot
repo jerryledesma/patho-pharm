@@ -1,0 +1,37 @@
+// Concept map — Cardiovascular IV: Heart Failure (NURS 419, 10/29/2026)
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.45, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Cardiovascular IV: Heart Failure — Concept Map (NURS 419, Lecture 10/29/2026)<BR/>HFrEF ≤ 40% · HFpEF ≥ 50% · left HF → lungs, right HF → body · 4 pillars: ARNI/ACEi/ARB, β-blocker, MRA, SGLT2i>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  causes [fillcolor="#fff2cc", label=<<B>Causes</B><BR ALIGN="LEFT"/>CAD / MI → lost contractile cells<BR ALIGN="LEFT"/>HTN → pressure overload, stiffness<BR ALIGN="LEFT"/>Diabetes, obesity, valves, cardiomyopathy<BR ALIGN="LEFT"/>>];
+  hfref  [fillcolor="#fff2cc", label=<<B>Systolic dysfunction (HFrEF)</B><BR ALIGN="LEFT"/>Can't squeeze · big, floppy LV<BR ALIGN="LEFT"/>EF ≤ 40%<BR ALIGN="LEFT"/>>];
+  hfpef  [fillcolor="#fff2cc", label=<<B>Diastolic dysfunction (HFpEF)</B><BR ALIGN="LEFT"/>Can't relax / fill · stiff LV<BR ALIGN="LEFT"/>EF ≥ 50% but SV ↓<BR ALIGN="LEFT"/>>];
+  lowco  [fillcolor="#fff2cc", label=<<B>↓ Cardiac output · ↑ filling pressures</B><BR ALIGN="LEFT"/>Normal EF ≠ normal SV<BR ALIGN="LEFT"/>>];
+  comp   [fillcolor="#e4dfec", label=<<B>Compensation</B><BR ALIGN="LEFT"/>SNS: ↑ HR, contractility, vasoconstriction, renin<BR ALIGN="LEFT"/>RAAS: Ang II ↑ afterload · aldosterone ↑ preload<BR ALIGN="LEFT"/>↑ Preload (Frank–Starling) · hypertrophy<BR ALIGN="LEFT"/>>];
+  remod  [fillcolor="#e4dfec", label=<<B>Remodeling</B><BR ALIGN="LEFT"/>Catecholamines, Ang II, aldosterone = "poison"<BR ALIGN="LEFT"/>Fibrosis · dilation · progressive HF<BR ALIGN="LEFT"/>Concentric = pressure · eccentric = volume<BR ALIGN="LEFT"/>>];
+  left   [fillcolor="#ddebf7", label=<<B>Left-sided HF → lungs</B><BR ALIGN="LEFT"/>Dyspnea · orthopnea · PND<BR ALIGN="LEFT"/>Cough · basilar crackles<BR ALIGN="LEFT"/>>];
+  right  [fillcolor="#bdd7ee", label=<<B>Right-sided HF → body</B><BR ALIGN="LEFT"/>JVD · dependent edema<BR ALIGN="LEFT"/>Hepatomegaly · ascites · anorexia<BR ALIGN="LEFT"/>>];
+  fwd    [fillcolor="#ddebf7", label=<<B>Forward failure</B><BR ALIGN="LEFT"/>Fatigue · weakness · exercise intolerance<BR ALIGN="LEFT"/>Oliguria · ↑ HR · confusion<BR ALIGN="LEFT"/>>];
+  eval   [fillcolor="#fff2cc", label=<<B>BNP · staging</B><BR ALIGN="LEFT"/>BNP ↑ with wall stretch · supports, doesn't prove<BR ALIGN="LEFT"/>ACC/AHA A–D = progression<BR ALIGN="LEFT"/>NYHA I–IV = symptom limits<BR ALIGN="LEFT"/>>];
+  pillars[fillcolor="#fce4d6", label=<<B>Four pillars (HFrEF)</B><BR ALIGN="LEFT"/>ARNI/ACEi/ARB · β-blocker (low, titrate)<BR ALIGN="LEFT"/>MRA · SGLT2i (± diabetes)<BR ALIGN="LEFT"/>↓ mortality / hospitalizations<BR ALIGN="LEFT"/>>];
+  loop   [fillcolor="#f8cbad", label=<<B>Loop diuretics</B><BR ALIGN="LEFT"/>Furosemide · relieve congestion<BR ALIGN="LEFT"/>No mortality benefit · ↓ K⁺<BR ALIGN="LEFT"/>>];
+  safety [fillcolor="#e2efda", label=<<B>Safety checks</B><BR ALIGN="LEFT"/>K⁺: RAAS drugs/MRA ↑ · loops ↓<BR ALIGN="LEFT"/>Entresto: never with ACEi · 36-h washout<BR ALIGN="LEFT"/>Watch BP, HR, renal function<BR ALIGN="LEFT"/>>];
+  dig    [fillcolor="#e2efda", label=<<B>Digoxin</B><BR ALIGN="LEFT"/>↑ Contractility, ↓ HR · no survival benefit<BR ALIGN="LEFT"/>Pulse &lt; 60 → hold · no double doses<BR ALIGN="LEFT"/>↓ K⁺ or renal dysfunction → toxicity<BR ALIGN="LEFT"/>>];
+
+  causes -> hfref  [label=" MI, ischemia"];
+  causes -> hfpef  [label=" HTN, aging"];
+  hfref -> lowco; hfpef -> lowco;
+  lowco -> comp    [label=" triggers"];
+  comp -> remod    [label=" chronic"];
+  remod -> lowco   [label=" worsens"];
+  lowco -> left    [label=" backs up"];
+  left -> right    [label=" usually leads to"];
+  lowco -> fwd     [label=" forward"];
+  left -> eval     [label=" assessed by"];
+  comp -> pillars  [label=" blocked by"];
+  comp -> loop     [label=" fluid removed by"];
+  pillars -> safety[label=" monitor"];
+  loop -> dig      [label=" ↓ K⁺ raises toxicity"];
+}
