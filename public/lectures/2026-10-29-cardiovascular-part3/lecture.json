@@ -1,0 +1,2042 @@
+{
+ "id": "2026-10-29-cardiovascular-part3",
+ "date": "2026-10-29",
+ "title": "Cardiovascular III: Angina, ACS & MI",
+ "instructor": "Julie Schwind, DNP, RN",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.mp3",
+  "slides.pdf",
+  "supp-01_cardiology-part-iii-guided-notes-revised.docx",
+  "supp-02_cardiology-part-iii-study-guide-revised.docx"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "classify ACS & choose the drug"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Myocardial oxygen DEMAND is determined primarily by which three factors?",
+   "options": [
+    "Coronary blood flow, diastolic filling time and blood oxygen content",
+    "Heart rate, hemoglobin concentration and coronary artery patency",
+    "Heart rate, contractility and wall stress (preload and afterload)",
+    "Diastolic filling time, contractility and arterial oxygen saturation"
+   ],
+   "answer": "C",
+   "rationale": "Demand goes up with a faster heart rate, stronger contractions and more wall stress (more preload coming back, higher afterload). Coronary flow, diastolic time and oxygen content are the SUPPLY side; the mixed options swap supply factors in.",
+   "src": "slide 4 + 00:00:00"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Most left ventricular coronary perfusion occurs during which part of the cardiac cycle?",
+   "options": [
+    "Systole, when ventricular squeezing pushes blood into the coronaries",
+    "Isovolumetric contraction, just before the aortic valve opens",
+    "Diastole, when the ventricle relaxes and the coronaries can fill",
+    "Equally in systole and diastole, regardless of the heart rate"
+   ],
+   "answer": "C",
+   "rationale": "\"During systole, there's so much squeezing going on that the flow through the arteries [is] not that great\"; diastole is when the myocytes get good flow. That's why a very fast heart rate, which shortens diastole, can compromise coronary perfusion.",
+   "src": "slide 4 + 00:01:04 + 00:20:34"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Variant (vasospastic) angina is most directly caused by:",
+   "options": [
+    "Transient coronary artery vasospasm, often at rest overnight or early morning",
+    "A fixed atherosclerotic narrowing that limits flow when exertion raises demand",
+    "Acute plaque disruption with thrombus that reduces flow without necrosis",
+    "Complete coronary occlusion that causes full-thickness myocardial necrosis"
+   ],
+   "answer": "A",
+   "rationale": "Variant angina is \"a spasm in the muscles\" of the coronary artery, \"not secondary to atherosclerotic plaques\", and often happens at rest. A fixed narrowing with exertion is stable angina; plaque disruption with thrombus is unstable angina; full-thickness necrosis is a STEMI.",
+   "src": "slide 10 + 00:06:50"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement correctly contrasts myocardial ischemia with myocardial infarction?",
+   "options": [
+    "Ischemia is irreversible myocardial cell death; infarction is low oxygen delivery that can still recover",
+    "Ischemia and infarction both mean cell death; infarction simply involves a larger area of myocardium",
+    "Ischemia always raises troponin; infarction is diagnosed only when the ECG shows ST-segment elevation",
+    "Ischemia is inadequate oxygen delivery and potentially reversible; infarction is irreversible cell death"
+   ],
+   "answer": "D",
+   "rationale": "Ischemic cells \"are struggling and not getting enough oxygen\" but aren't dead; infarction is prolonged ischemia causing irreversible myocardial cell death. So angina means ischemia, not necessarily infarction. Troponin rises with cell death (not ischemia alone), and NSTEMI is an infarction without ST elevation.",
+   "src": "slide 6 + 00:04:14 + 00:04:45"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Nitroglycerin primarily lowers myocardial oxygen demand by:",
+   "options": [
+    "Arteriolar dilation, which lowers afterload with little effect on the veins",
+    "Blocking cardiac β₁ receptors, which slows heart rate and contractility",
+    "Blocking cardiac L-type calcium channels, which slows conduction through the AV node",
+    "Venodilation, which reduces venous return and therefore preload and wall stress"
+   ],
+   "answer": "D",
+   "rationale": "Nitrates are converted to nitric oxide and are \"primarily a venodilator\": less venous return means less preload and less demand (plus a little coronary vasodilation). Arteriolar dilation/afterload is amlodipine, β₁ blockade is metoprolol, and AV-node slowing is verapamil/diltiazem.",
+   "src": "slides 11–12 + 00:11:29 + 00:41:46"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Why is a daily nitrate-free interval prescribed with long-acting nitrates?",
+   "options": [
+    "To prevent nitrate tolerance, so the drug keeps working when it is needed",
+    "To let the vasodilation headache wear off before the client goes to sleep",
+    "To prevent the reflex bradycardia that nitrates cause during the night",
+    "To let preload rise overnight so the coronary arteries can refill fully"
+   ],
+   "answer": "A",
+   "rationale": "Continuous exposure causes tolerance: \"If someone took it 24 hours a day, it would eventually stop working for them.\" The free interval is usually at night, \"when they're resting and sleeping.\" Nitrates cause reflex tachycardia, not bradycardia, and the interval isn't about headache or refilling.",
+   "src": "slide 12 + 00:15:17"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which comparison of the calcium channel blocker groups is correct?",
+   "options": [
+    "Verapamil and diltiazem mainly dilate arterioles; amlodipine slows HR and AV conduction",
+    "Amlodipine mainly dilates arterioles; verapamil and diltiazem also slow HR and AV conduction",
+    "Amlodipine and verapamil are dihydropyridines; diltiazem is the only non-dihydropyridine",
+    "All three act equally on the heart and the vessels; they differ only in their duration of action"
+   ],
+   "answer": "B",
+   "rationale": "The \"-pines\" (dihydropyridines, amlodipine) are preferential for the periphery and lower afterload with minimal direct effect on HR or the AV node. Verapamil and diltiazem are \"preferential for the heart\": \"no good way to remember them… you just have to put these together.\"",
+   "src": "slide 14 + 00:17:55 + 00:44:49"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which adverse-effect pairing is correct?",
+   "options": [
+    "Amlodipine: constipation · verapamil: peripheral edema · metoprolol: bradycardia",
+    "Amlodipine: bradycardia and AV block · verapamil: flushing · metoprolol: fatigue",
+    "Amlodipine: peripheral edema · verapamil: constipation · metoprolol: bradycardia",
+    "Amlodipine: peripheral edema · verapamil: reflex tachycardia · metoprolol: headache"
+   ],
+   "answer": "C",
+   "rationale": "The dihydropyridines dilate vessels, so edema (\"usually worrisome, but in this case, it's expected\"); verapamil \"also likes the calcium channels in the gut\", so constipation; beta blockers cause bradycardia. Fatigue is a real metoprolol effect, but B pairs amlodipine with AV block and verapamil with flushing (a dihydropyridine effect). AV block belongs to the non-dihydropyridines, and headache/reflex tachycardia are nitrate effects.",
+   "src": "slides 12–14 + 00:18:59"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Acute coronary syndrome most commonly begins with which event?",
+   "options": [
+    "Slow enlargement of a stable plaque over years until it fixes a narrowing of the artery lumen",
+    "Rupture or erosion of an atherosclerotic plaque, exposing collagen and tissue factor",
+    "Coronary vasospasm triggered by cold exposure, smoking or cocaine use at rest",
+    "A rise in oxygen demand with exertion beyond what a fixed narrowing can supply"
+   ],
+   "answer": "B",
+   "rationale": "ACS starts when the plaque disrupts and \"the body go[es], okay, I've got to cover this up, it's like ripping off a scab\": platelets activate and a thrombus forms. Slow plaque growth with rising demand is stable angina, and vasospasm is variant angina.",
+   "src": "slide 19 + 00:23:23 + 00:46:55"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What distinguishes unstable angina from NSTEMI?",
+   "options": [
+    "NSTEMI has myocardial cell death with elevated troponin; unstable angina does not",
+    "NSTEMI shows persistent ST elevation; unstable angina always has a normal ECG",
+    "Unstable angina raises troponin; NSTEMI shows ST depression with normal troponin",
+    "Unstable angina is caused by vasospasm; NSTEMI is caused by plaque rupture and clot"
+   ],
+   "answer": "A",
+   "rationale": "Her rule: \"unstable angina, no troponin, no ST elevation. NSTEMI, yes troponin, but no ST elevation.\" Neither has ST elevation (that's STEMI), and both come from plaque disruption with thrombus; vasospasm is variant angina.",
+   "src": "slide 20 + 00:26:27 + 00:46:55"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "An elevated cardiac troponin indicates:",
+   "options": [
+    "An acute MI by itself, as soon as the level is above the normal range",
+    "Whether the MI is a STEMI or an NSTEMI, based on how high the troponin level rises",
+    "Infarction only, because myocarditis and heart failure do not raise it",
+    "Myocardial injury, but not its cause; it is read with symptoms and the ECG"
+   ],
+   "answer": "D",
+   "rationale": "Troponin \"indicates myocardial injury, but it doesn't independently establish the cause\" — myocarditis and even heart failure can raise it. STEMI vs NSTEMI is decided by the ECG, \"not by how high the troponin rises.\"",
+   "src": "slide 34 + slide 41 + 00:50:45 + 00:51:47"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "When it can be performed promptly, the preferred reperfusion treatment for STEMI is:",
+   "options": [
+    "Fibrinolytic therapy for every STEMI client, whether or not PCI is available",
+    "A high-intensity statin to stabilize the plaque before any reperfusion attempt",
+    "Primary PCI in the cardiac cath lab to mechanically open the affected artery",
+    "An anticoagulant infusion alone to dissolve the existing clot over several days"
+   ],
+   "answer": "C",
+   "rationale": "\"Primary PCI is what we prefer to do.\" Fibrinolytics are only considered when timely PCI isn't available because of their bleeding risk. Statins and anticoagulants are part of STEMI care, but they don't reopen the artery; anticoagulants limit new clot formation.",
+   "src": "slides 36–37 + 00:53:59 + 01:11:11"
+  },
+  {
+   "id": "p-013",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Two clients have the same coronary blockage. One developed collateral vessels while the narrowing grew slowly. Compared with the other client, this client is most likely to have:",
+   "options": [
+    "A smaller area of infarction, because blood can reach the tissue by another path",
+    "A larger infarct, because the collaterals divert blood away from the blocked artery",
+    "The same outcome, because collateral vessels cannot carry blood past a blockage",
+    "Full protection, even if the artery is suddenly and completely occluded by a clot"
+   ],
+   "answer": "A",
+   "rationale": "Collaterals are \"another pathway\" for blood, so \"their actual area of infarction… will be smaller than someone who has the same blockage\" without them. They usually can't fully compensate for a sudden, complete occlusion.",
+   "src": "slide 5 + 00:03:41 + 00:40:34"
+  },
+  {
+   "id": "p-014",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client reports chest pressure every time he climbs the stairs to his apartment; it goes away within minutes of sitting down. The best explanation is:",
+   "options": [
+    "Coronary vasospasm; flow drops at rest and is restored as soon as he exerts himself",
+    "Plaque rupture with thrombus; each episode is a new acute coronary syndrome",
+    "A fixed narrowing; flow is adequate at rest but can't meet demand during exertion",
+    "Subendocardial infarction; myocytes die and troponin rises with each episode"
+   ],
+   "answer": "C",
+   "rationale": "This is stable angina — predictable with exertion and relieved by rest or nitroglycerin: \"at rest, there are no symptoms and it is when there is an exertional state that the symptoms arise.\" Vasospasm typically happens at rest, plaque rupture is unstable angina/ACS, and stable angina causes no cell death.",
+   "src": "slides 7, 9 + 00:05:16 + supp-02 ¶34"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with known stable angina wakes with chest pain that does not go away after resting and taking nitroglycerin. The nurse recognizes this as:",
+   "options": [
+    "Expected stable angina; the long-acting nitrate dose needs to be increased",
+    "Variant angina; a beta blocker should be started to prevent the spasm",
+    "Collateral circulation forming; an outpatient stress test can be scheduled",
+    "Possible unstable angina, part of ACS, which requires urgent evaluation"
+   ],
+   "answer": "D",
+   "rationale": "New, worsening or rest symptoms that rest and nitro don't relieve point to unstable angina — the plaque \"knocking on the door\" of the big heart attack, so it's an emergency. Beta blockers are avoided in vasospasm, and this isn't a routine outpatient problem.",
+   "src": "slides 7, 23 + 00:08:22 + 00:09:25 + 00:33:21"
+  },
+  {
+   "id": "p-016",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client is being taught about prescribed sublingual nitroglycerin. Which statement shows correct understanding?",
+   "options": [
+    "\"If the first dose doesn't work, I take two more doses first and call EMS only if those fail too.\"",
+    "\"If the first dose doesn't relieve the pain, I call EMS, then take more as directed while I wait.\"",
+    "\"I'll keep doing what I was doing after the tablet, to see whether the pain goes away on its own.\"",
+    "\"If the first dose doesn't work, I'll take my long-acting isosorbide mononitrate tablet instead.\""
+   ],
+   "answer": "B",
+   "rationale": "\"If you take one dose, and it doesn't go away, you call emergency services\", with additional doses as directed while waiting, because the plaque may be going unstable. Rest goes with the nitro (\"a combination of rest and nitro\"), and the long-acting nitrate is for prevention, not acute relief.",
+   "src": "slide 12 + 00:12:34 + 00:14:12"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client taking tadalafil asks why he must never take nitroglycerin with it. The nurse's best explanation:",
+   "options": [
+    "Tadalafil blocks the conversion of nitroglycerin to nitric oxide, so nitro won't work",
+    "Both drugs cause vasodilation, so together they can drop blood pressure profoundly",
+    "Together they slow the heart and AV conduction and can cause a complete heart block",
+    "Tadalafil raises preload, cancelling the effect of the nitrate on oxygen demand"
+   ],
+   "answer": "B",
+   "rationale": "Nitrates + PDE-5 inhibitors (the \"Viagra class\") \"causes a huge, dangerous drop in blood pressure\" because both vasodilate — \"this comes up a lot in boards.\" The danger is additive, not cancelled, and bradycardia/AV block are beta blocker and non-DHP CCB effects.",
+   "src": "slide 12 + 00:13:05 + 00:43:14"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client having an MI has a suspected right ventricular infarction. Why should nitrates be used cautiously or avoided?",
+   "options": [
+    "Nitrates raise afterload, which an injured right ventricle cannot pump against",
+    "Nitrates slow the heart rate, which an injured right ventricle cannot tolerate",
+    "Nitrates increase right ventricular contractility and its oxygen demand",
+    "Lowering preload reduces filling of a right ventricle already struggling to pump"
+   ],
+   "answer": "D",
+   "rationale": "Decreasing preload decreases what reaches the right ventricle; \"if that right ventricle is already struggling because a bunch of it has been… killed off\", the nitrate makes it worse. Nitrates lower preload (not raise afterload) and cause reflex tachycardia, not bradycardia.",
+   "src": "slide 12 + 00:14:44"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with stable angina asks which of his medications lowers his future risk of MI rather than relieving chest pain. The nurse identifies:",
+   "options": [
+    "Sublingual nitroglycerin used as needed",
+    "Isosorbide mononitrate taken each morning",
+    "A high-intensity statin taken daily",
+    "Amlodipine taken to lower afterload"
+   ],
+   "answer": "C",
+   "rationale": "\"The high-intensity statin, that's going to be your long-term one\" — preventive therapy addresses atherosclerosis. Nitrates and CCBs are antianginals: they reduce ischemic symptoms but don't treat the underlying cause.",
+   "src": "slide 16 + 00:19:33 + 00:46:21"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A student says, \"A total occlusion is always a STEMI, and a partial one is always an NSTEMI.\" The best response:",
+   "options": [
+    "Not always; a total occlusion of a small vessel can still be an NSTEMI",
+    "Correct; the degree of blockage alone decides between STEMI and NSTEMI",
+    "Not always; a partial blockage of any size causes a STEMI if troponin is high",
+    "Correct; that is why the troponin level is used to separate STEMI from NSTEMI"
+   ],
+   "answer": "A",
+   "rationale": "\"You could have… a total occlusion of a smaller vessel and still have an NSTEMI. It really comes down to the amount of tissue\" affected. STEMI vs NSTEMI is separated by the ECG, not by troponin height.",
+   "src": "slides 22, 41 + 00:28:10 + 00:32:44 + supp-02 ¶51"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with chest pain has a first ECG without ST elevation and a normal first troponin. Why does the nurse expect serial ECGs and troponins?",
+   "options": [
+    "Normal first results rule out ACS, so repeats are only for documentation",
+    "Serial values show the exact time the plaque ruptured for the chart",
+    "Repeat troponins are needed to choose the dose of fibrinolytic to give",
+    "An evolving MI may not show yet; a later change or rise reveals new injury"
+   ],
+   "answer": "D",
+   "rationale": "\"Just because it's not elevated right now doesn't mean things aren't getting worse\" — a client caught early may still be heading toward infarction, and troponin rises then falls, so trending it shows new injury. Fibrinolytics aren't given in NSTE-ACS.",
+   "src": "slides 21, 34 + 00:29:27 + 00:29:59 + 00:31:09"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A 74-year-old client with diabetes reports nausea, vomiting, sweating and weakness but no chest pain. Which conclusion is correct?",
+   "options": [
+    "MI is unlikely, because crushing chest pain is required before an MI can be considered",
+    "MI is still possible; older adults and clients with diabetes may have little or no chest pain",
+    "These symptoms point to stable angina, since they began at rest instead of with exertion",
+    "MI is ruled out, because MI symptoms only begin during physical exertion, never at rest"
+   ],
+   "answer": "B",
+   "rationale": "Some clients — \"particularly older adults and patients with diabetes\" — have minimal or no chest discomfort; her mom's MI \"thought she had the flu… throwing up and sweating and felt weak.\" MI can occur at rest (she laughed at \"MI never occurs at rest\"), and stable angina is exertional.",
+   "src": "slide 31 + 00:49:39 + 00:50:12 + 01:08:44"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "After a large MI, a client becomes hypotensive and develops crackles. The best explanation:",
+   "options": [
+    "Surviving myocardium contracts harder, raising afterload and forcing fluid into the lungs",
+    "Ventricular remodeling has already restored contractility, so the findings are from the nitrates",
+    "Loss of contractile myocardium lowers stroke volume and output, and blood backs up into the lungs",
+    "Troponin released from the dead cells is causing vasodilation and leaking from the capillaries"
+   ],
+   "answer": "C",
+   "rationale": "Necrotic tissue can't contract, so stroke volume, cardiac output and ejection fraction fall, and the study guide ties that loss to pulmonary congestion (the crackles); extensive damage can lead to heart failure or cardiogenic shock. Remodeling contributes to progressive dysfunction, not recovery, and troponin is a marker of injury, not a cause of symptoms.",
+   "src": "slide 35 + 00:52:19 + 00:53:59 + supp-02 ¶76"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A STEMI client's SpO₂ is 96% on room air. A new nurse starts oxygen \"because MONA says so.\" The best response:",
+   "options": [
+    "Oxygen is for hypoxemia; it isn't routinely needed with adequate saturation",
+    "Correct; every STEMI client needs oxygen to limit the size of the infarct",
+    "Oxygen should be given only after primary PCI has reopened the artery",
+    "Oxygen is unsafe in STEMI because it causes coronary artery vasospasm"
+   ],
+   "answer": "A",
+   "rationale": "MONA is \"the old mnemonic\"; now oxygen is given if hypoxic, but \"if someone's sitting 96%, you don't need to throw oxygen on them.\" Oxygen isn't tied to PCI timing, and the sources don't call it unsafe — just unnecessary at normal saturation.",
+   "src": "slide 36 + 00:55:31 + 00:56:02"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "The family asks why the team is rushing a STEMI client to the cath lab. Which explanation is accurate?",
+   "options": [
+    "The cells in the area have already died, so the rush is only to prevent a second heart attack",
+    "Myocardium reperfused before cells die can recover; the faster flow returns, the more is saved",
+    "Reperfusion is urgent mainly to bring the troponin level down before it can rise further",
+    "Speed matters only for fibrinolytics; PCI works equally well whenever it is eventually done"
+   ],
+   "answer": "B",
+   "rationale": "\"If we can get some blood back before the cells actually die, then we can save them\" — \"the faster you can get blood flow restored, the more tissue you are going to save.\" Ischemic cells aren't all dead yet, and the earlier the better applies to both PCI and fibrinolytics.",
+   "src": "slide 37 + 00:59:08 + 00:59:41 + 01:08:08"
+  },
+  {
+   "id": "p-026",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Chest pressure at rest × 40 min. ECG: ST depression, no ST elevation. Troponin: elevated and rising on repeat. Classify.",
+   "options": [
+    "Unstable angina",
+    "STEMI",
+    "NSTEMI",
+    "Stable angina"
+   ],
+   "answer": "C",
+   "rationale": "\"Yes troponin, no ST elevation, that would be an NSTEMI.\" Unstable angina has no troponin rise; STEMI needs persistent ST elevation; stable angina is exertional and relieved by rest.",
+   "src": "slides 20–21 + 00:30:32 + 00:48:03"
+  },
+  {
+   "id": "p-027",
+   "tier": "3",
+   "type": "mc",
+   "stem": "New chest pain at rest, first episode ever. ECG: T-wave inversion, no ST elevation. Serial troponins: normal. Classify.",
+   "options": [
+    "NSTEMI",
+    "STEMI",
+    "Variant angina",
+    "Unstable angina"
+   ],
+   "answer": "D",
+   "rationale": "No ST elevation and no troponin rise = unstable angina — new-onset or rest angina from an unstable plaque, still ACS. NSTEMI needs a troponin rise, STEMI needs ST elevation, and variant angina is vasospasm, not plaque disruption.",
+   "src": "slides 21, 23 + 00:30:32 + 00:33:21"
+  },
+  {
+   "id": "p-028",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Chest pressure and diaphoresis. First ECG: persistent ST elevation. Troponin drawn, result pending. Next step?",
+   "options": [
+    "Treat as STEMI and move toward the cath lab for PCI now",
+    "Wait for the troponin to decide between UA and NSTEMI",
+    "Classify as unstable angina until a troponin rise is seen",
+    "Treat as NSTEMI, since infarction isn't confirmed yet"
+   ],
+   "answer": "A",
+   "rationale": "\"If we see ST elevation, we don't care about the rest of it\" — the client goes to the cath lab as quickly as possible. Waiting on troponin is the pathway only when there's no ST elevation.",
+   "src": "slide 21 + 00:29:27 + 00:39:39"
+  },
+  {
+   "id": "p-029",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Chest pain. ECG on arrival: no ST elevation. ECG repeated 30 min later: new persistent ST elevation. Classify.",
+   "options": [
+    "NSTEMI, since the first ECG had no ST elevation",
+    "STEMI; it is now a reperfusion emergency",
+    "Unstable angina until troponin results return",
+    "NSTE-ACS; repeat ECGs only confirm the first"
+   ],
+   "answer": "B",
+   "rationale": "\"At any point, if we see that ST segment elevated, that is now a STEMI.\" That's why ACS clients get serial ECGs — an evolving MI can change after the first tracing.",
+   "src": "slide 21 + 00:29:59 + 00:39:39"
+  },
+  {
+   "id": "p-030",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Known chronic heart failure; no chest pain. ECG unchanged from baseline. Troponin mildly elevated and flat on serial draws. Best interpretation?",
+   "options": [
+    "Myocardial injury is present, but troponin alone doesn't establish an acute MI",
+    "Acute NSTEMI, because any troponin elevation without ST elevation is an NSTEMI",
+    "Unstable angina, because the ECG shows no ST elevation and there's no chest pain",
+    "STEMI-equivalent, because troponin is elevated even though the ECG is unchanged"
+   ],
+   "answer": "A",
+   "rationale": "Troponin \"doesn't independently establish the cause\" — heart failure can show \"very tiny levels\" as struggling cells die off. Acute MI needs an acute rise/fall plus symptoms, ECG findings or other evidence of ischemia.",
+   "src": "slide 34 + 00:51:16 + 00:51:47"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "NSTEMI confirmed. Orders: antiplatelet, anticoagulant, high-intensity statin, fibrinolytic. Which order does the nurse question?",
+   "options": [
+    "The antiplatelet",
+    "The anticoagulant",
+    "The fibrinolytic",
+    "The high-intensity statin"
+   ],
+   "answer": "C",
+   "rationale": "\"We do not give fibrinolytic therapy for unstable angina or an NSTEMI\" — clot busters are \"super, super dangerous\" (bleeding), only worth the risk in a STEMI. Antiplatelets, anticoagulants and a high-intensity statin are standard UA/NSTEMI treatment.",
+   "src": "slide 42 + 00:37:03 + 01:07:37"
+  },
+  {
+   "id": "p-032",
+   "tier": "3",
+   "type": "mc",
+   "stem": "ED: chest pain. Client took sildenafil earlier today. Order: sublingual nitroglycerin PRN. Nurse's action?",
+   "options": [
+    "Give it; the interaction matters only with long-acting nitrates",
+    "Give it, then hold the next dose only if heart rate exceeds 100",
+    "Give it with metoprolol to blunt any reflex tachycardia it causes",
+    "Hold the nitroglycerin and notify the provider of the sildenafil"
+   ],
+   "answer": "D",
+   "rationale": "Nitrates should \"never be given with PDE-5 inhibitors\" — the combination causes a huge, dangerous drop in BP, which is why the ED asks \"very specifically\" about Viagra-type drugs before any nitrate. The rule covers all nitrates, and the danger is hypotension, not heart rate.",
+   "src": "slide 12 + 00:13:05 + 00:14:12"
+  },
+  {
+   "id": "p-033",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Chest pain at 0500 at rest; smoker. Pain resolved; no fixed coronary obstruction. Which order does the nurse question?",
+   "options": [
+    "Amlodipine, a dihydropyridine CCB",
+    "Propranolol, a beta blocker",
+    "Sublingual nitroglycerin as needed",
+    "Smoking cessation counseling"
+   ],
+   "answer": "B",
+   "rationale": "This is variant angina. \"Beta blockers are avoided. They will worsen symptoms\" — they may worsen spasm. CCBs prevent the spasm, nitrates relieve acute episodes, and smoking is a trigger.",
+   "src": "slide 10 + 00:09:56"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Stable angina on metoprolol. HR 50, BP 138/84. Provider wants to add a CCB. Which choice is least likely to slow the heart further?",
+   "options": [
+    "Verapamil",
+    "Diltiazem",
+    "Any CCB, since all CCBs slow the heart equally",
+    "Amlodipine"
+   ],
+   "answer": "D",
+   "rationale": "Amlodipine has minimal direct effect on HR and AV conduction. Verapamil and diltiazem \"work similarly to beta blockers\" (↓ HR, AV conduction, contractility), and beta blockers and non-DHP CCBs both cause bradycardia.",
+   "src": "slides 14, 17 + 00:17:55 + 00:44:49"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Large STEMI. BP 84/50, crackles, signs of poor contractility. Orders: antiplatelet, anticoagulant, metoprolol, high-intensity statin. Which order does the nurse question?",
+   "options": [
+    "Metoprolol",
+    "The antiplatelet",
+    "The anticoagulant",
+    "The high-intensity statin"
+   ],
+   "answer": "A",
+   "rationale": "Beta blockers are for selected, hemodynamically stable clients; if the MI has already impaired contraction, \"we give a beta blocker, which decreases contractility, we could make the situation worse.\" The others target thrombus and atherosclerosis. Slide 13 does list beta blockers for selected clients after MI with reduced EF — that is for a stable client; here the problem is hypotension and acutely poor pumping right now.",
+   "src": "slides 36, 40 + 00:55:00 + 01:05:51"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "STEMI at a hospital with no cath lab; timely PCI is not possible. No bleeding contraindications. Best reperfusion option?",
+   "options": [
+    "An anticoagulant alone, which dissolves the existing clot",
+    "Fibrinolytic therapy, since timely PCI is unavailable",
+    "Wait for serial troponins to confirm infarction first",
+    "Nitroglycerin and metoprolol until PCI is possible"
+   ],
+   "answer": "B",
+   "rationale": "Fibrinolytics are considered for eligible STEMI clients \"when we can't do PCI\"; they break down the clot. Anticoagulants only limit new clot formation, troponin doesn't change STEMI management, and anti-ischemic drugs don't restore flow.",
+   "src": "slides 36–37 + 00:54:29 + 01:11:11"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Cardiology clinic",
+   "setting": "New stable angina on metoprolol and SL nitroglycerin · weeks 0–4",
+   "text": "<b>Nurses' Notes — Week 0, 1400</b>\n61-year-old client, a building superintendent, reports 3 months of chest \"pressure\" when he climbs the stairs in his building or shovels snow. It sometimes spreads to his left shoulder and goes away after a few minutes of sitting down. No symptoms at rest. Smokes about half a pack a day. History of hypertension and type 2 diabetes. Left knee replacement 5 years ago. Seasonal allergies each spring. Enjoys gardening on weekends.\n<b>Vital Signs</b> — T 36.8°C · HR 84 · BP 148/90 · RR 16 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — Troponin normal · hemoglobin normal · LDL cholesterol elevated\n<b>Orders</b> — Metoprolol (Toprol-XL) daily · nitroglycerin (Nitrostat) sublingual PRN chest pain · high-intensity statin daily · smoking-cessation counseling · return visit in 4 weeks",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "The nurse reviews the visit data. Which findings are <b>risk factors the plan should address</b>? Select all that apply.",
+     "options": [
+      "Smokes about half a pack a day",
+      "History of hypertension",
+      "Left knee replacement 5 years ago",
+      "Type 2 diabetes",
+      "Seasonal allergies each spring",
+      "Gardens on weekends"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Stable angina is a warning sign, so the plan also addresses the cardiovascular risk factors — smoking, hypertension, diabetes and physical activity are the modifiable ones named on the slide. An old knee replacement and seasonal allergies aren't cardiac risk factors, and weekend gardening is physical activity, not a risk.",
+     "src": "slides 9, 16 + 00:08:54 + 00:19:33",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "The client's chest pressure pattern is most consistent with which mechanism?",
+     "options": [
+      "A transient spasm of the coronary artery that cuts off supply, typically while at rest",
+      "A ruptured plaque with a clot forming over it that partially blocks the artery at rest",
+      "Prolonged ischemia that has already caused death of a section of heart muscle",
+      "A fixed narrowing that gives enough flow at rest but not when exertion raises demand"
+     ],
+     "answer": "D",
+     "rationale": "Stable angina: \"fixed narrowing, increased demand exceeds the supply, and the pattern is predictable\" — stairs and shoveling (exertion, cold) raise demand, and rest brings demand back down. Spasm at rest is variant angina, plaque rupture with clot is unstable angina (ACS), and cell death is infarction — his troponin is normal.",
+     "src": "slides 7, 9 + 00:05:16 + 00:02:36",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "Before the client leaves, which report would require the <b>most urgent</b> follow-up?",
+     "options": [
+      "\"The pressure always goes away within a few minutes once I sit down on the stairs.\"",
+      "\"Lately the pressure comes on while I'm sitting and watching TV.\"",
+      "\"I notice it more when I shovel snow on cold mornings than in the summer.\"",
+      "\"My knee aches on the stairs, which is why I sometimes stop to rest halfway up.\""
+     ],
+     "answer": "B",
+     "rationale": "Chest pain at rest is a change from his predictable pattern — new, worsening or rest symptoms signal unstable angina, which is ACS and \"knocking on the door\" of the big heart attack. Relief with rest and cold as a trigger fit stable angina, and a sore knee isn't cardiac.",
+     "src": "slides 7, 23 + 00:08:22 + 00:33:21",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "Which statements correctly describe how the ordered therapies help this client? Select all that apply.",
+     "options": [
+      "Metoprolol lowers heart rate and contractility, so the heart needs less oxygen",
+      "The slower heart rate lengthens diastole, when most coronary perfusion happens",
+      "Sublingual nitroglycerin mainly dilates veins, lowering preload and oxygen demand",
+      "The statin works right away to stop an angina episode in progress",
+      "Metoprolol is chosen because it relieves coronary artery spasm",
+      "Quitting smoking addresses the underlying atherosclerotic risk"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Beta blockers ↓ HR and contractility (↓ demand), and the slower rate prolongs diastole, which can improve coronary perfusion. Nitroglycerin is primarily a venodilator → ↓ venous return → ↓ preload → ↓ demand. The statin is \"your long-term one\" — it lowers future risk, not today's pain — and beta blockers are avoided in vasospasm rather than used for it.",
+     "src": "slides 12, 13, 16 + 00:11:29 + 00:16:22 + 00:46:21",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "order",
+     "stem": "The nurse teaches the client what to do if chest pressure starts. Place the steps in order.",
+     "options": [
+      "Call emergency services if the pain is not relieved",
+      "Stop the activity and sit down to rest",
+      "Take additional doses as directed while waiting for help",
+      "Take one sublingual nitroglycerin tablet"
+     ],
+     "answer": "B, D, A, C",
+     "rationale": "\"Sit down, relax, take a dose of this. It should go away. If it doesn't, now we go and get emergency services.\" Rest and nitro go together. After the first dose fails he calls EMS right then — not after the second or third — and takes more doses only as directed while waiting.",
+     "src": "slide 12 + 00:12:00 + 00:12:34 + 00:13:40",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Week 4.</b> The client returns. Which statements show he <b>needs more teaching</b>? Select all that apply.",
+     "options": [
+      "\"If the metoprolol makes me tired, I'll just stop taking it.\"",
+      "\"I sit down before I put a nitroglycerin under my tongue.\"",
+      "\"If one tablet doesn't work, I'll take three before I call anyone.\"",
+      "\"A headache after the nitroglycerin can happen.\"",
+      "\"I check my pulse and blood pressure at home.\"",
+      "\"Now that I take a statin, I won't get chest pain anymore.\""
+     ],
+     "answer": "A, C, F",
+     "rationale": "Stopping a beta blocker abruptly can cause rebound sympathetic activity that precipitates ischemia. EMS is called when the <i>first</i> dose doesn't relieve the pain. The statin reduces future atherosclerotic risk; it doesn't relieve angina. Resting with nitro, expecting a headache (vasodilation) and monitoring HR and BP are correct.",
+     "src": "slides 12, 13, 16 + 00:12:34 + 00:46:21",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Primary care clinic",
+   "setting": "Variant (vasospastic) angina · weeks 0–6",
+   "text": "<b>Nurses' Notes — Week 0, 0930</b>\n44-year-old client seen after an urgent care visit. For a month she has been woken around 0500 by chest tightness that lasts several minutes and then goes away on its own. She runs three mornings a week with no chest symptoms. Smokes a pack a day; reports using cocaine \"a few times\" this year. Appendectomy at age 20. Takes a daily multivitamin. Urgent care also started propranolol last week for \"racing heart.\"\n<b>Vital Signs</b> — T 36.6°C · HR 70 · BP 118/74 · RR 14 · SpO₂ 99% on room air\n<b>Laboratory Results</b> — Troponin normal × 2 · ECG during an episode at urgent care showed ECG changes that resolved when the pain stopped · coronary angiography: no significant fixed blockage\n<b>Orders</b> — Amlodipine (Norvasc) daily · nitroglycerin sublingual PRN chest pain · smoking-cessation and substance-use counseling",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Which findings are <b>consistent with variant angina</b>? Select all that apply.",
+     "options": [
+      "Chest tightness that wakes her early in the morning",
+      "No chest symptoms while running",
+      "ECG changes during an episode that resolved",
+      "Smokes a pack a day and has used cocaine",
+      "Appendectomy at age 20",
+      "Takes a daily multivitamin"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "Variant angina is coronary vasospasm that \"often occurs at rest,\" particularly overnight or early morning, rather than with exertion — so she can run without symptoms. The spasm \"can be severe enough that it can be reflected on an EKG\", and smoking and cocaine (vasoconstrictive substances) are triggers. The appendectomy and multivitamin are irrelevant.",
+     "src": "slide 10 + 00:06:50 + 00:09:25 + 00:09:56",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "The client's episodes are most directly caused by which mechanism?",
+     "options": [
+      "A fixed atherosclerotic narrowing that can't meet demand during exertion",
+      "Plaque disruption with a clot that partially and suddenly blocks the artery",
+      "Transient coronary artery vasospasm that temporarily cuts oxygen supply",
+      "Complete occlusion causing full-thickness death of the ventricular wall"
+     ],
+     "answer": "C",
+     "rationale": "Variant angina is \"not secondary to atherosclerotic plaques… it's a spasm in the muscles\" — her angiogram shows no significant fixed blockage and her troponins are normal. A fixed narrowing with exertional pain is stable angina, plaque disruption with clot is unstable angina/ACS, and full-thickness death is a STEMI.",
+     "src": "slide 10 + 00:06:50 + 00:08:22",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "The nurse reviews the client's medication list. Which finding is the <b>priority</b> to report to the provider?",
+     "options": [
+      "Amlodipine, because it will block the coronary arteries from dilating",
+      "Propranolol, because beta blockers can worsen coronary spasm",
+      "Sublingual nitroglycerin, because nitrates don't relieve a vasospasm episode",
+      "The daily multivitamin, because it will interfere with how amlodipine works"
+     ],
+     "answer": "B",
+     "rationale": "Beta blockers are generally avoided in isolated vasospastic angina because they may worsen spasm — \"beta blockers are avoided. They will worsen symptoms.\" Calcium channel blockers prevent the spasm, and nitrates relieve acute episodes through vasodilation. Nothing in the sources links a multivitamin to amlodipine.",
+     "src": "slides 10, 13 + 00:09:56 + 00:16:53",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "The provider confirms the amlodipine. Which information does the nurse plan to include in teaching? Select all that apply.",
+     "options": [
+      "It helps prevent spasm of the coronary arteries",
+      "It mainly relaxes arterioles, lowering afterload",
+      "It will noticeably slow your heart rate and AV conduction",
+      "Mild ankle swelling is an expected effect",
+      "Constipation is its signature adverse effect",
+      "Headache and flushing can occur"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "CCBs \"make [coronary vessels] less squeezy\" and prevent vasospasm. Amlodipine, a \"-pine\" dihydropyridine, is preferential for the periphery: arteriolar dilation → ↓ afterload, with minimal direct effect on HR and AV conduction. Its adverse effects are peripheral edema (\"usually worrisome, but in this case, it's expected\"), headache and flushing. Slowing the heart and constipation belong to verapamil.",
+     "src": "slide 14 + 00:17:55 + 00:18:59 + 00:44:49",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "mc",
+     "stem": "Which instruction is <b>most important</b> for the nurse to give this client to reduce future episodes?",
+     "options": [
+      "Stop running in the mornings, since the episodes come from exertion",
+      "Take the amlodipine only on the nights she expects an episode to occur",
+      "Stop smoking and avoid cocaine, since both can trigger the spasm",
+      "Stop the propranolol tonight on her own, without waiting to talk to anyone"
+     ],
+     "answer": "C",
+     "rationale": "Smoking, cocaine and other vasoconstrictive substances, cold and certain medications are variant-angina triggers. Her episodes aren't exertional, so running isn't the problem, and amlodipine is a daily preventive, not a PRN. Beta blockers shouldn't be stopped abruptly (rebound ischemia), so any change goes through the provider.",
+     "src": "slides 10, 13 + 00:09:56",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "mc",
+     "stem": "<b>Week 6.</b> The client returns. Which finding is <b>expected</b> and does not suggest a problem with her therapy?",
+     "options": [
+      "Heart rate 46 with lightheadedness when she stands up",
+      "Chest tightness that did not ease after rest and one nitroglycerin",
+      "New chest pressure that now comes on while she is running",
+      "Mild swelling around both ankles at the end of the day"
+     ],
+     "answer": "D",
+     "rationale": "Peripheral edema from a dihydropyridine is expected. Bradycardia with symptoms is a non-dihydropyridine (or beta blocker) effect that needs follow-up, pain not relieved by the first nitro means calling EMS, and new exertional pain is a change in pattern that needs evaluation.",
+     "src": "slides 12, 14 + 00:12:34 + 00:18:59",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Emergency department",
+   "setting": "Chest pain after sildenafil · 3 hours",
+   "text": "<b>Nurses' Notes — Day 1, 2200</b>\n58-year-old client brought in by his spouse with chest pressure that started at rest about an hour ago. Diaphoretic and nauseated. History of hypertension and stable angina; has sublingual nitroglycerin at home but did not take any tonight. When asked directly, he says he took sildenafil (Viagra) earlier this evening. History of gout. Allergic to penicillin (rash). Wears reading glasses.\n<b>Vital Signs</b> — T 36.9°C · HR 102 · BP 96/60 · RR 20 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — 12-lead ECG: no ST elevation · troponin #1 pending · potassium normal\n<b>Orders</b> — Nitroglycerin 1 tablet sublingual now · serial 12-lead ECGs · serial troponins · oxygen PRN for hypoxemia",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which findings <b>require immediate follow-up</b>? Select all that apply.",
+     "options": [
+      "Chest pressure that began at rest",
+      "Diaphoresis and nausea",
+      "BP 96/60",
+      "Took sildenafil earlier this evening",
+      "History of gout",
+      "Allergic to penicillin"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "Chest pressure at rest with diaphoresis and nausea is a possible ACS — \"any chest pain we're going to be concerned about until we know otherwise.\" The low BP and the sildenafil both matter because nitrates are one of the treatments. Gout and a penicillin allergy don't change tonight's priorities.",
+     "src": "slides 12, 31 + 00:13:05 + 00:14:12 + 00:49:09",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "mc",
+     "stem": "The client asks why the nurse cares about his Viagra. The best explanation of the interaction is that:",
+     "options": [
+      "Sildenafil blocks absorption under the tongue, so the nitroglycerin won't work",
+      "The combination slows conduction through the AV node and causes complete heart block",
+      "Both drugs dilate blood vessels, so together they can cause profound hypotension",
+      "The combination thins the blood, so nitroglycerin would raise his bleeding risk"
+     ],
+     "answer": "C",
+     "rationale": "\"Nitrates should never be given with PDE-5 inhibitors\" — sildenafil \"also causes vasodilation, so getting them both together can be very dangerous\": a huge, dangerous drop in BP. The sources don't describe absorption, AV-block or bleeding interactions.",
+     "src": "slide 12 + 00:13:05 + 00:43:14",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "Which action is the nurse's <b>priority</b> regarding the nitroglycerin order?",
+     "options": [
+      "Give the nitroglycerin now, because relieving chest pain comes before the BP",
+      "Give half the ordered nitroglycerin and recheck the blood pressure in a few minutes",
+      "Give the nitroglycerin with oxygen so the drop in pressure is better tolerated",
+      "Hold the nitroglycerin and notify the provider about the sildenafil and low BP"
+     ],
+     "answer": "D",
+     "rationale": "PDE-5 inhibitor use is a \"never combine\" — the ED asks \"very specifically before they administer a nitrate.\" He's also already hypotensive, where nitrates are used cautiously or avoided. Pain relief doesn't override profound hypotension, a partial dose isn't safe, and his SpO₂ of 97% gives no reason for oxygen.",
+     "src": "slide 12 + 00:13:40 + 00:14:12 + 00:56:02",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "The provider asks the nurse to screen every chest-pain client before a nitrate is given. Which findings should the nurse <b>report before giving a nitrate</b>? Select all that apply.",
+     "options": [
+      "Takes tadalafil",
+      "BP significantly low",
+      "Suspected right ventricular infarction",
+      "Heart rate in the 70s",
+      "History of seasonal migraines",
+      "Takes a daily statin"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Nitrates are never combined with PDE-5 inhibitors (sildenafil or tadalafil) and are used cautiously or avoided with significant hypotension or suspected RV infarction — lowering preload means less blood returns to a right ventricle that's \"already struggling.\" A normal heart rate, migraine history and a statin aren't listed contraindications.",
+     "src": "slide 12 + 00:13:40 + 00:14:44",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 2230.</b> The first ECG shows no ST elevation and troponin #1 returns normal. The client still has mild pressure. What does the nurse do next?",
+     "options": [
+      "Continue serial ECGs and serial troponins, since this may be an evolving MI",
+      "Prepare the client for discharge, since a normal troponin rules out a heart attack",
+      "Prepare the client for fibrinolytic therapy to break up the clot before it grows",
+      "Stop monitoring the ECG, since a STEMI has now been completely ruled out"
+     ],
+     "answer": "A",
+     "rationale": "\"Just because it's not elevated right now doesn't mean things aren't getting worse\" — one early troponin may be normal before infarction shows, so ACS is followed with serial ECGs and serial troponins. Fibrinolytics are only for STEMI, and ST elevation can still develop later.",
+     "src": "slides 21, 23 + 00:29:27 + 00:29:59 + 00:30:32",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 2400.</b> The client is moved to the observation unit. Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "Troponin #2 is elevated",
+      "Dizzy when he sits up; BP 88/54",
+      "Chest pressure has resolved",
+      "SpO₂ 98% on room air",
+      "Spouse asks if he can take his Viagra again next weekend",
+      "Asks for a blanket because the room is cold"
+     ],
+     "answer": "A, B, E",
+     "rationale": "A rising troponin without ST elevation now points to an NSTEMI. Symptomatic hypotension needs reporting. The spouse's question is a teaching need — nitrates and PDE-5 inhibitors must never be combined, and his provider has to address it before discharge. Resolved pain and a normal SpO₂ are reassuring; feeling cold is irrelevant.",
+     "src": "slides 12, 20, 21 + 00:13:05 + 00:30:32",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Emergency department",
+   "setting": "Unstable angina · 8 hours",
+   "text": "<b>Nurses' Notes — Day 1, 0600</b>\n66-year-old client with known stable angina. Over the past 2 days her chest pressure has come on with less and less activity, and this morning it woke her from sleep. She sat up, took one sublingual nitroglycerin, and when it didn't help she called EMS and took a second tablet as directed while waiting. Osteoarthritis of both hands. Cataract surgery last year. Lives with her daughter.\n<b>Vital Signs</b> — T 36.7°C · HR 88 · BP 138/84 · RR 18 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — 12-lead ECG: ST depression, no ST elevation · troponin #1 normal · hemoglobin normal\n<b>Orders</b> — Serial 12-lead ECGs · serial troponins · antiplatelet medication · anticoagulant · nitroglycerin · high-intensity statin · cardiology consult for possible coronary angiography",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which findings show that the client's angina is <b>no longer stable</b>? Select all that apply.",
+     "options": [
+      "Chest pressure is coming on with less activity",
+      "Chest pressure woke her from sleep",
+      "Pain not relieved by rest and one nitroglycerin",
+      "Osteoarthritis of both hands",
+      "Cataract surgery last year",
+      "SpO₂ 97% on room air"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Unstable angina may be new-onset angina, worsening of previously stable angina, or angina at rest (if the client \"just wakes up with chest pain\"). Stable angina is relieved by rest or nitro — \"if they don't relieve the symptoms… we're looking at this as possibly unstable angina.\" Arthritis, old cataract surgery and a normal SpO₂ are irrelevant.",
+     "src": "slides 7, 23 + 00:09:25 + 00:28:53 + 00:33:21",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "mc",
+     "stem": "Which process best explains the change in the client's symptoms?",
+     "options": [
+      "A larger fixed plaque that has grown slowly and now limits flow during exertion",
+      "Coronary spasm that occurs at rest without any underlying atherosclerotic plaque",
+      "Complete occlusion with full-thickness necrosis of the left ventricular wall",
+      "Plaque disruption with a clot that reduces flow, without detectable necrosis yet"
+     ],
+     "answer": "D",
+     "rationale": "Unstable angina usually results from acute plaque disruption and thrombus — \"it's like ripping off a scab\" and the body covers it with clot — reducing flow enough for ischemia but not detectable necrosis. Slow fixed growth is stable angina, spasm without plaque is variant angina, and full-thickness necrosis is a STEMI.",
+     "src": "slides 19, 23 + 00:07:52 + 00:23:57",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "The client's daughter says, \"Her heart blood test was normal, so why is everyone in such a hurry?\" Which response by the nurse is best?",
+     "options": [
+      "\"A normal test means it's stable angina, so we are mostly being careful today.\"",
+      "\"The plaque is unstable and clotting, and it can soon progress to a heart attack.\"",
+      "\"The test result is wrong, because a normal level doesn't happen with chest pain.\"",
+      "\"We are hurrying because she needs clot-busting medicine as soon as possible.\""
+     ],
+     "answer": "B",
+     "rationale": "Unstable angina is part of ACS and a medical emergency — \"knocking on the door\" of the big heart attack, \"a pre-warning that things are about to go pretty bad.\" No troponin rise is exactly what defines UA (it isn't lab error), and fibrinolytics are not given for UA or NSTEMI.",
+     "src": "slides 7, 23, 42 + 00:07:20 + 00:08:22 + 00:33:51",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "Which therapies does the nurse anticipate for this client? Select all that apply.",
+     "options": [
+      "Antiplatelet medication to reduce platelet-mediated clot formation",
+      "Anticoagulant to limit ongoing clot formation and propagation",
+      "Fibrinolytic therapy to dissolve the clot",
+      "High-intensity statin to stabilize the plaque",
+      "Nitroglycerin to reduce myocardial oxygen demand",
+      "A calcium channel blocker to treat coronary vasospasm"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "UA/NSTEMI treatment: antiplatelets, anticoagulants, anti-ischemic therapy (nitroglycerin, selected beta blockers), a high-intensity statin (\"it actually helps to stabilize that plaque\") and angiography/PCI when indicated. Fibrinolytic therapy is NOT indicated — \"super, super dangerous,\" reserved for STEMI. Her problem is plaque and clot, not spasm.",
+     "src": "slide 42 + 00:36:00 + 00:36:31 + 00:37:03",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "order",
+     "stem": "A nursing student asks how this client's diagnosis is being sorted out. Place the steps of the chest-pain admission pathway in order.",
+     "options": [
+      "Classify as unstable angina if troponin does not rise",
+      "Treat the chest pain as a possible acute coronary syndrome",
+      "With no ST elevation, check troponin and repeat it serially",
+      "Obtain a 12-lead ECG"
+     ],
+     "answer": "B, D, C, A",
+     "rationale": "Chest pain → working diagnosis of ACS → ECG first, \"because that is fast.\" ST elevation means STEMI and the cath lab; without it, look at troponin, repeated serially. No ST elevation and no troponin rise = unstable angina; no ST elevation with a troponin rise = NSTEMI.",
+     "src": "slide 21 + 00:28:53 + 00:29:27 + 00:30:32 + 00:39:39",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "mc",
+     "stem": "<b>Day 1, 1400.</b> The client is pain-free on the cardiac unit. Which new finding would change her diagnosis to <b>NSTEMI</b>?",
+     "options": [
+      "The ST depression on her ECG persists on the next serial tracing",
+      "A later troponin rises while the ECG still shows no ST elevation",
+      "Her next 12-lead ECG shows new, persistent ST-segment elevation",
+      "Her chest pressure returns briefly and is relieved by nitroglycerin"
+     ],
+     "answer": "B",
+     "rationale": "\"Yes troponin, no ST elevation, that would be an NSTEMI.\" ST depression can occur in UA, so it doesn't change the diagnosis, and persistent ST elevation would make it a STEMI — straight to the cath lab. Recurrent pain needs reporting, but it doesn't define NSTEMI.",
+     "src": "slides 20, 21 + 00:27:22 + 00:47:29",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Medical-surgical unit",
+   "setting": "NSTEMI without chest pain · days 3–5",
+   "text": "<b>Nurses' Notes — Day 3, 0300</b>\n78-year-old client with type 2 diabetes, admitted 3 days ago for cellulitis of the left lower leg. Calls for help: \"I just feel weak and tired, like I'm coming down with the flu.\" Vomited once; skin is sweaty. Denies chest pain or pressure. Cellulitis redness is receding inside the marked border. Wears bilateral hearing aids. Her daughter is staying overnight.\n<b>Vital Signs</b> — T 37.0°C · HR 98 · BP 132/80 · RR 22 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — Fingerstick glucose within her usual range · 12-lead ECG: T-wave inversion, no ST elevation · troponin #1 elevated\n<b>Orders</b> — Repeat troponin and ECG · notify cardiology · continue IV antibiotic",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings at 0300 <b>require follow-up</b>? Select all that apply.",
+     "options": [
+      "New weakness and fatigue",
+      "Vomited once",
+      "Sweaty skin",
+      "Cellulitis redness receding",
+      "Wears bilateral hearing aids",
+      "Glucose within her usual range"
+     ],
+     "answer": "A, B, C",
+     "rationale": "MI symptoms vary: dyspnea, diaphoresis, nausea, vomiting, dizziness or unusual fatigue can be the presentation — the instructor's mom \"thought she had the flu… throwing up and sweating and felt weak.\" Receding redness shows the cellulitis is improving, and hearing aids and a usual glucose are irrelevant.",
+     "src": "slide 31 + 00:49:39 + 00:50:12",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "mc",
+     "stem": "The daughter says, \"She can't be having a heart attack — she has no chest pain.\" Which explanation is accurate?",
+     "options": [
+      "Older adults and people with diabetes may have minimal or no chest discomfort",
+      "A heart attack is ruled out until the chest pain begins, so we are watching closely",
+      "Her antibiotic is masking chest pain, which will appear once the infusion ends",
+      "Atypical symptoms like hers mostly occur in younger men, so this is unusual for her"
+     ],
+     "answer": "A",
+     "rationale": "Some clients have minimal or no chest discomfort, particularly older adults and people with diabetes and women more often report nausea, dyspnea or fatigue. No chest pain doesn't exclude MI. The sources don't say antibiotics mask pain, and atypical presentations aren't a young-male pattern.",
+     "src": "slides 31, 41 + 00:49:39 + 01:08:44",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "<b>Day 3, 0600.</b> Troponin #2 is higher than #1, and the repeat ECG still shows no ST elevation. The client is most likely experiencing:",
+     "options": [
+      "Non-ST-segment elevation myocardial infarction (NSTEMI)",
+      "Unstable angina with ischemia but no cell death",
+      "ST-segment elevation myocardial infarction (STEMI)",
+      "Stable angina triggered by the stress of her infection"
+     ],
+     "answer": "A",
+     "rationale": "Rising troponin = myocardial cell death; no ST elevation = not a STEMI. \"Yes troponin, no ST elevation, that would be an NSTEMI.\" Unstable angina has no troponin rise, and stable angina doesn't cause necrosis.",
+     "src": "slides 20, 21 + 00:27:22 + 00:47:29",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "Cardiology confirms an NSTEMI. Which items does the nurse anticipate in the plan? Select all that apply.",
+     "options": [
+      "Antiplatelet medication",
+      "Anticoagulant",
+      "Fibrinolytic (clot-busting) therapy",
+      "High-intensity statin",
+      "Oxygen by nasal cannula for her SpO₂ of 96%",
+      "Coronary angiography if indicated by her risk and findings"
+     ],
+     "answer": "A, B, D, F",
+     "rationale": "UA/NSTEMI: antiplatelet, anticoagulant, anti-ischemic therapy, high-intensity statin, and angiography/PCI when indicated. Fibrinolytics are not indicated for UA or NSTEMI — \"when it's a smaller heart attack, it is usually not worth the risk.\" Oxygen is for hypoxemia: \"if someone's sitting 96%, you don't need to throw oxygen on them.\"",
+     "src": "slides 36, 42 + 00:36:00 + 00:37:03 + 00:37:33 + 00:56:02",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "mc",
+     "stem": "<b>Day 4, 0800.</b> Troponin is now lower than yesterday's peak. Which nursing action is appropriate?",
+     "options": [
+      "Stop the troponin draws, since a falling value means the MI is fully over",
+      "Restart the troponin series only if she develops classic crushing chest pain",
+      "Continue trending the troponin and report any new rise or new symptoms",
+      "Request a fibrinolytic in case the troponin begins to rise again tomorrow"
+     ],
+     "answer": "C",
+     "rationale": "Troponin rises and then falls, and \"we will keep trending it down… then if [the client] does have another set of symptoms, we can go, hey… starting back to rise. Then we know that something new\" is happening. Waiting for classic chest pain is risky in a client who presents atypically, and fibrinolytics aren't used in NSTEMI.",
+     "src": "slide 34 + 00:31:09 + 00:31:40 + 00:51:47",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "sata",
+     "stem": "<b>Day 5.</b> The nurse reviews warning signs with the daughter before discharge. Which statements show <b>correct understanding</b>? Select all that apply.",
+     "options": [
+      "\"Mom may not get chest pain, so nausea, sweating or unusual tiredness count too.\"",
+      "\"They kept checking her troponin so they could spot any new damage.\"",
+      "\"Her ECG never showed ST elevation, so it wasn't a real heart attack.\"",
+      "\"Women may have nausea, shortness of breath or fatigue with a heart attack.\"",
+      "\"A high troponin by itself proves exactly what caused the damage.\"",
+      "\"Clot-busting drugs are the usual treatment for her type of heart attack.\""
+     ],
+     "answer": "A, B, D",
+     "rationale": "Atypical symptoms are common in older adults, people with diabetes and women, and serial troponins catch a new rise. An NSTEMI is a real MI — the ECG separates STEMI from NSTEMI, not whether necrosis happened. Troponin shows injury, not its cause, and fibrinolytics aren't used for NSTEMI.",
+     "src": "slides 31, 34, 41, 42 + 00:31:40 + 00:49:39 + 00:51:47",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Emergency department → cath lab",
+   "setting": "STEMI · 2 hours",
+   "text": "<b>Nurses' Notes — Day 1, 0815</b>\n54-year-old client arrives by EMS with crushing chest pressure that began at rest after breakfast, radiating to his jaw and left arm. Diaphoretic and anxious. Smokes; told last year his cholesterol was high. Hernia repair 10 years ago. Bowls in a weekly league. No recent surgery, bleeding or stroke.\n<b>Vital Signs</b> — T 36.8°C · HR 96 · BP 142/88 · RR 20 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — 12-lead ECG: ST elevation · troponin #1 pending\n<b>Orders</b> — Activate cath lab for primary PCI · antiplatelet medication · anticoagulant · nitroglycerin sublingual PRN chest pain if BP permits · high-intensity statin · oxygen PRN for hypoxemia",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which findings <b>require immediate action</b>? Select all that apply.",
+     "options": [
+      "Crushing chest pressure at rest radiating to the jaw and left arm",
+      "ST elevation on the 12-lead ECG",
+      "Diaphoresis",
+      "SpO₂ 96% on room air",
+      "Hernia repair 10 years ago",
+      "Bowls in a weekly league"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Persistent chest pressure at rest with radiation and diaphoresis is a classic MI presentation, and ST elevation makes it a STEMI. An SpO₂ of 96% doesn't need treatment, and an old hernia repair and bowling are irrelevant.",
+     "src": "slides 20, 31 + 00:29:27 + 00:49:09",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "The ECG and symptoms are most consistent with which condition?",
+     "options": [
+      "STEMI — an acute occlusion causing infarction, often through the full wall depth",
+      "NSTEMI — infarction confirmed by an elevated troponin, with no ST elevation",
+      "Unstable angina — a clot reducing flow with no myocardial cell death",
+      "Stable angina — pain from exertion against a fixed plaque, relieved by rest"
+     ],
+     "answer": "A",
+     "rationale": "ST elevation = STEMI: \"either big enough… or more commonly… it's the entire wall depth.\" NSTEMI has no persistent ST elevation, unstable angina has no ST elevation and no troponin rise, and stable angina is exertional and relieved by rest.",
+     "src": "slides 20, 24 + 00:27:22 + 00:48:03",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "Troponin #1 is still pending. What is the <b>priority</b>?",
+     "options": [
+      "Wait for the troponin result to confirm infarction before activating the cath lab",
+      "Repeat the 12-lead ECG in a few hours to see whether the ST elevation persists",
+      "Get the client to the cath lab for PCI without waiting for the troponin",
+      "Give fibrinolytic therapy first, even though the cath lab here is available"
+     ],
+     "answer": "C",
+     "rationale": "\"If we see ST elevation, we don't care about the rest of it\" — the client goes to the cath lab as quickly as possible. Primary PCI is the preferred reperfusion strategy when it can be done promptly; fibrinolytics are for eligible clients when timely PCI isn't available. Reperfusion saves ischemic myocardium before irreversible cell death, so waiting costs muscle.",
+     "src": "slides 21, 37 + 00:29:27 + 00:59:08 + 01:11:11",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "While the cath lab team is on the way, which therapies does the nurse anticipate? Select all that apply.",
+     "options": [
+      "Antiplatelet medication to reduce platelet aggregation",
+      "Anticoagulant to limit additional clot formation",
+      "Nitroglycerin for ischemic pain if the BP permits",
+      "High-intensity statin",
+      "Oxygen for every client with chest pain, whatever the SpO₂",
+      "Amlodipine to prevent coronary vasospasm"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "STEMI treatment: restore flow (PCI), prevent further thrombus (antiplatelets, anticoagulants), reduce demand (nitroglycerin when BP permits, selected beta blockers), and reduce future events (high-intensity statin). Oxygen is \"for hypoxemia, not routinely\" — the old MONA habit. Vasospasm isn't this client's problem.",
+     "src": "slides 36, 40 + 00:54:29 + 00:55:31 + 00:56:02",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 0840.</b> The client's BP drops to 88/52 and the provider suspects right ventricular involvement. While awaiting transport to the cath lab, the client asks for another nitroglycerin. What does the nurse do?",
+     "options": [
+      "Hold the nitroglycerin and report the low BP and suspected RV infarction",
+      "Give the nitroglycerin, since relieving his ischemic pain lowers oxygen demand",
+      "Give the nitroglycerin and add a beta blocker to bring down his heart rate",
+      "Give the nitroglycerin and lay him flat to protect his blood pressure afterward"
+     ],
+     "answer": "A",
+     "rationale": "Nitrates are used cautiously or avoided with significant hypotension or suspected RV infarction — less preload means less blood to a right ventricle that's already struggling. STEMI nitroglycerin is \"when blood pressure and clinical circumstances permit,\" and beta blockers are only for selected, hemodynamically stable clients.",
+     "src": "slides 12, 36 + 00:14:44 + 00:55:00",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 1100.</b> The client returns from PCI. Which findings indicate the treatment is <b>working</b>? Select all that apply.",
+     "options": [
+      "Chest pressure has resolved",
+      "No new rise in troponin on serial draws",
+      "New irregular rhythm on the monitor",
+      "Breathing comfortably with SpO₂ 97% on room air",
+      "BP 84/50 with new crackles in both lungs",
+      "Asks when he can return to his bowling league"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Restoring flow relieves ischemia; serial troponins are trended so a new rise would flag new injury — no new rise is reassuring. Comfortable breathing on room air shows no oxygen need. A new dysrhythmia (electrical instability) and hypotension with crackles (failing pump) are MI complications that need follow-up. The bowling question is irrelevant to whether reperfusion worked.",
+     "src": "slides 34, 35, 37 + 00:31:40 + 00:52:52 + 01:08:08",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Cardiac care unit",
+   "setting": "Large anterior MI and its consequences · days 2–6",
+   "text": "<b>Nurses' Notes — Day 2, 0700</b>\n69-year-old client admitted 2 days ago with a large STEMI treated with PCI. Overnight he became short of breath lying flat; crackles in both lung bases this morning. The monitor shows short runs of an irregular rhythm. Former smoker who quit 5 years ago. Enjoys crossword puzzles; his wife visits every afternoon.\n<b>Vital Signs</b> — T 37.1°C · HR 112 · BP 92/58 · RR 24 · SpO₂ 91% on room air\n<b>Laboratory Results</b> — Troponin elevated, trending down from yesterday's peak · echocardiogram: reduced ejection fraction\n<b>Orders</b> — Metoprolol daily (due 0900) · antiplatelet medication · high-intensity statin · oxygen PRN for hypoxemia · cardiac rehabilitation referral",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which findings <b>require follow-up</b>? Select all that apply.",
+     "options": [
+      "Crackles in both lung bases",
+      "BP 92/58 with cool, clammy skin",
+      "Short runs of an irregular rhythm",
+      "Troponin trending down from yesterday's peak",
+      "Reduced ejection fraction",
+      "Enjoys crossword puzzles"
+     ],
+     "answer": "A, B, C, E",
+     "rationale": "Crackles, hypotension, dysrhythmias and a reduced EF are consequences of losing functioning myocardium. Troponin rising and then falling is the expected pattern after an MI — follow-up would be needed if it started to rise again. Crosswords are irrelevant.",
+     "src": "slides 33, 34, 35 + 00:31:40 + 00:52:19",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "mc",
+     "stem": "The runs of irregular rhythm are best explained by which consequence of MI?",
+     "options": [
+      "Rebound sympathetic activity from stopping his beta blocker too abruptly",
+      "Coronary vasospasm triggered by the catheters used during his recent PCI procedure",
+      "Nitrate tolerance developing from receiving nitroglycerin around the clock",
+      "Ischemic, injured tissue disrupting normal impulse formation and conduction"
+     ],
+     "answer": "D",
+     "rationale": "Electrical instability: \"ischemia and injured tissue can disrupt normal impulse formation and conduction, producing dysrhythmias\" — \"to make the situation even more fun on top of dealing with the heart attack.\" He hasn't stopped a beta blocker, and spasm and nitrate tolerance don't explain a post-MI dysrhythmia here.",
+     "src": "slide 35 + 00:52:52",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "Based on his findings, the client is most likely experiencing:",
+     "options": [
+      "A new infarction, shown by a troponin that is still elevated two days after PCI",
+      "A failing pump — the damaged LV ejects less, so output falls and blood backs into the lungs",
+      "An expected recovery from PCI that needs only routine vital signs and no report",
+      "Profound hypotension caused by a nitrate taken together with a PDE-5 inhibitor"
+     ],
+     "answer": "B",
+     "rationale": "Necrotic myocardium can't contract well → ↓ SV and CO (hypotension) and the study guide links lost contractile myocardium to pulmonary congestion (crackles, dyspnea). A large infarct can lead to heart failure or cardiogenic shock. His troponin is falling, not rising, and nothing suggests a PDE-5 inhibitor.",
+     "src": "slide 35 + supp-02 ¶76 + 00:52:19 + 00:53:26",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "The nurse plans ongoing monitoring. Which consequences of this client's MI should the nurse <b>watch for</b>? Select all that apply.",
+     "options": [
+      "Dysrhythmias",
+      "Progressive heart failure from ventricular remodeling",
+      "Cardiogenic shock",
+      "Rebound hypertension from his statin",
+      "Peripheral edema caused by his antiplatelet medication",
+      "Worsening pulmonary congestion"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Consequences of MI: loss of contractile tissue, ↓ SV/CO and EF, electrical instability, ventricular remodeling leading to heart failure, and — when damage is extensive — cardiogenic shock; LV backup causes pulmonary congestion. The statin and antiplatelet effects listed aren't in the sources (peripheral edema is an amlodipine effect).",
+     "src": "slides 33, 35 + 00:52:52 + 00:53:26",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 0900.</b> Metoprolol is due. BP is 94/60 and crackles persist. What is the nurse's best action?",
+     "options": [
+      "Give the metoprolol, because slowing the heart rate will lower his oxygen demand",
+      "Give the metoprolol and recheck his blood pressure after the dose takes effect",
+      "Hold the metoprolol and notify the provider of his hypotension and poor contractility",
+      "Hold the metoprolol and teach him he must never take a beta blocker again"
+     ],
+     "answer": "C",
+     "rationale": "Beta blockers are for selected, hemodynamically stable clients: if the MI is large enough to impair contraction and \"we give a beta blocker, which decreases contractility, we could make the situation worse.\" Lowering demand is the goal only in a milder MI. Holding a dose and reporting differs from banning the class forever. Slide 13 does list beta blockers for selected clients after MI with reduced EF — that is for a stable client; here the problem is hypotension and acutely poor pumping right now.",
+     "src": "slides 13, 36 + 00:55:00 + 01:05:51",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Day 6.</b> The client is stable and preparing for discharge. Which statements show he understands his <b>long-term plan</b>? Select all that apply.",
+     "options": [
+      "\"The statin helps stabilize my plaque and lowers my future risk.\"",
+      "\"I'll stay off cigarettes for good.\"",
+      "\"If the metoprolol makes me tired, I'll stop it on my own.\"",
+      "\"The antiplatelet medicine helps keep new clots from forming.\"",
+      "\"My artery is open now, so my risk factors don't matter.\"",
+      "\"Nitroglycerin will reverse my plaque if I take it every day.\""
+     ],
+     "answer": "A, B, D",
+     "rationale": "High-intensity statins and risk-factor management address the underlying atherosclerosis; antiplatelets reduce platelet aggregation and new thrombus. Stopping a beta blocker abruptly risks rebound ischemia. PCI opens one artery but doesn't remove his risk, and nitrates relieve symptoms — \"no single medication addresses every problem.\"",
+     "src": "slides 13, 16, 40 + 00:46:21 + 01:05:51",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Rapid rounds",
+   "setting": "Clinic, ED and inpatient · one question each",
+   "text": "Five clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "mc",
+     "stem": "A client with a STEMI arrives at a hospital where timely PCI is not available, and the provider is considering fibrinolytic therapy. Which finding in the client's history should the nurse report <b>before</b> it is given?",
+     "options": [
+      "Had abdominal surgery two weeks ago",
+      "Smoked a pack a day for 30 years",
+      "Takes amlodipine for blood pressure",
+      "SpO₂ is 97% on room air"
+     ],
+     "answer": "A",
+     "rationale": "The danger of fibrinolytics is <b>bleeding</b> — \"you're basically breaking down every single clot in the body,\" so a client who \"had surgery two weeks ago… can't get it\"; the biggest risk is intracranial bleeding. Smoking, amlodipine and a normal SpO₂ don't affect eligibility in the sources.",
+     "src": "slide 37 + 00:37:33 + 00:59:41"
+    },
+    {
+     "id": "c08-q02",
+     "type": "sata",
+     "stem": "A client's troponin returns elevated. Which conditions can cause an <b>elevated troponin</b>? Select all that apply.",
+     "options": [
+      "Myocardial infarction",
+      "Myocarditis",
+      "Heart failure",
+      "Stable angina relieved by rest",
+      "Unstable angina"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Troponin indicates myocardial injury but doesn't establish the cause: myocarditis kills off some cardiac cells, and heart failure can show \"very tiny levels\" as a struggling heart's cells slowly die. Stable angina is reversible ischemia without cell death, and unstable angina by definition has no troponin rise.",
+     "src": "slide 34 + 00:50:45 + 00:51:16"
+    },
+    {
+     "id": "c08-q03",
+     "type": "sata",
+     "stem": "A client with chronic stable angina takes verapamil. Which findings should the nurse <b>report or address</b>? Select all that apply.",
+     "options": [
+      "Heart rate 46",
+      "No bowel movement in 4 days",
+      "Dizziness with BP 86/52",
+      "Mild ankle swelling at the end of the day",
+      "Chest pain relieved after resting"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Non-dihydropyridines act on the heart: bradycardia, AV block and hypotension — and verapamil \"also likes the calcium channels in the gut,\" causing constipation. Peripheral edema is the dihydropyridine (amlodipine) effect, and chest pain relieved by rest fits his stable angina.",
+     "src": "slide 14 + 00:18:59 + 00:44:49"
+    },
+    {
+     "id": "c08-q04",
+     "type": "mc",
+     "stem": "A client taking isosorbide mononitrate (Imdur) every morning asks why it isn't taken around the clock. Which response is correct?",
+     "options": [
+      "\"Taking it overnight would cause rebound angina when you wake up in the morning.\"",
+      "\"A nitrate-free time each day, usually at night, prevents tolerance to the drug.\"",
+      "\"Nitrates only work during exercise, so a dose overnight would simply be wasted.\"",
+      "\"Taking it around the clock would make your ankles swell from fluid build-up.\""
+     ],
+     "answer": "B",
+     "rationale": "Repeated or continuous exposure produces nitrate tolerance, so long-acting regimens need a daily nitrate-free interval — usually at night, \"because hopefully at night they're resting and sleeping.\" \"If someone took it 24 hours a day, it would eventually stop working.\" Rebound ischemia is a beta-blocker warning, and ankle edema belongs to amlodipine.",
+     "src": "slide 12 + 00:15:17 + 00:43:14"
+    },
+    {
+     "id": "c08-q05",
+     "type": "mc",
+     "stem": "A client with stable angina tells the nurse, \"I ran out of my metoprolol 3 days ago, but I feel fine.\" What is the nurse's <b>main concern</b>?",
+     "options": [
+      "Without metoprolol, the client's coronary arteries will develop vasospasm",
+      "Stopping metoprolol can cause hypotension and bradycardia over the next day",
+      "Missing metoprolol leads to tolerance, so it must be restarted at a lower dose",
+      "Rebound sympathetic activity after abrupt withdrawal can precipitate ischemia"
+     ],
+     "answer": "D",
+     "rationale": "Avoid abrupt discontinuation of a beta blocker because rebound sympathetic activity may precipitate ischemia (\"rebound ischemia with abrupt withdrawal\"). Bradycardia and hypotension are effects of <i>taking</i> it, not stopping it; tolerance is a nitrate problem, and vasospasm isn't caused by stopping it.",
+     "src": "slide 13 + supp-02 ¶13"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "Myocardial ischemia — definition",
+   "back": "Oxygen <b>supply</b> is insufficient to meet myocardial oxygen <b>demand</b>",
+   "tag": "basics",
+   "src": "slide 4 + 00:00:00"
+  },
+  {
+   "id": "fc-002",
+   "front": "Three main determinants of myocardial O₂ demand",
+   "back": "<b>Heart rate</b> · <b>contractility</b> · <b>wall stress</b> (preload + afterload)",
+   "tag": "basics",
+   "src": "slide 4 + 00:00:00"
+  },
+  {
+   "id": "fc-003",
+   "front": "Three determinants of myocardial O₂ supply",
+   "back": "<b>Coronary blood flow</b> · <b>diastolic filling time</b> · <b>O₂ content of blood</b> (Hgb + O₂ sat)",
+   "tag": "basics",
+   "src": "slide 4 + 00:00:33"
+  },
+  {
+   "id": "fc-004",
+   "front": "When does most left-ventricular coronary perfusion occur?",
+   "back": "<b>Diastole</b> — during systole there's so much squeezing that flow through the coronaries is poor",
+   "tag": "basics",
+   "src": "slide 4 + 00:01:04"
+  },
+  {
+   "id": "fc-005",
+   "front": "Why can a very fast heart rate cause ischemia?",
+   "back": "↑ HR raises O₂ demand <b>and</b> shortens diastolic filling time → less coronary perfusion",
+   "tag": "basics",
+   "src": "slide 4 + 00:20:34"
+  },
+  {
+   "id": "fc-006",
+   "front": "How does collateral circulation protect myocardium?",
+   "back": "Gives <b>another pathway</b> for blood around the blockage → smaller infarct than the same blockage without collaterals",
+   "tag": "basics",
+   "src": "slide 5 + 00:03:09"
+  },
+  {
+   "id": "fc-007",
+   "front": "Ischemia vs infarction",
+   "back": "Ischemia = inadequate O₂ delivery, <b>potentially reversible</b> · Infarction = prolonged ischemia → <b>irreversible</b> cell death. Angina = ischemia, not infarction",
+   "tag": "basics",
+   "src": "slide 6 + 00:04:45"
+  },
+  {
+   "id": "fc-008",
+   "front": "Typical angina manifestations",
+   "back": "Chest pressure, squeezing, heaviness · radiates to arm (especially <b>left</b>), shoulder, jaw, neck, back · may have dyspnea, nausea, diaphoresis",
+   "tag": "angina-types",
+   "src": "slide 6 + 00:04:14"
+  },
+  {
+   "id": "fc-009",
+   "front": "Stable angina — mechanism",
+   "back": "<b>Fixed</b> atherosclerotic narrowing; flow OK at rest but can't keep up when demand rises → reversible ischemia, no cell death",
+   "tag": "angina-types",
+   "src": "slide 9 + 00:05:16"
+  },
+  {
+   "id": "fc-010",
+   "front": "Common triggers of stable angina",
+   "back": "Physical exertion · emotional stress · cold exposure · heavy meals",
+   "tag": "angina-types",
+   "src": "slide 9 + 00:08:54"
+  },
+  {
+   "id": "fc-011",
+   "front": "Variant (Prinzmetal) angina — cause",
+   "back": "Transient coronary artery <b>vasospasm</b>, not a fixed plaque. Not common, but \"still in the NCLEX test plan\"",
+   "tag": "angina-types",
+   "src": "slide 10 + 00:06:50"
+  },
+  {
+   "id": "fc-012",
+   "front": "When does variant angina typically occur?",
+   "back": "<b>At rest</b> — especially overnight or early morning",
+   "tag": "angina-types",
+   "src": "slide 10 + 00:09:25"
+  },
+  {
+   "id": "fc-013",
+   "front": "Variant angina: drug of choice and drug to avoid",
+   "back": "<b>CCBs</b> prevent the spasm (\"less squeezy\"); nitrates relieve acute episodes; <b>beta blockers are avoided</b> — they worsen spasm",
+   "tag": "angina-types",
+   "src": "slide 10 + 00:09:56"
+  },
+  {
+   "id": "fc-014",
+   "front": "Unstable angina — why is it an emergency?",
+   "back": "Plaque has become unstable with clotting starting — it's \"<b>knocking on the door</b>\" of the big heart attack; part of ACS",
+   "tag": "angina-types",
+   "src": "slides 7, 23 + 00:08:22"
+  },
+  {
+   "id": "fc-015",
+   "front": "Three presentations of unstable angina",
+   "back": "<b>New-onset</b> angina · <b>worsening</b> of previously stable angina · angina <b>at rest</b>",
+   "tag": "angina-types",
+   "src": "slide 23 + 00:33:21"
+  },
+  {
+   "id": "fc-016",
+   "front": "The three antianginal drug classes",
+   "back": "<b>NBC</b> — \"if you remember the network\": <b>N</b>itrates, <b>B</b>eta blockers, <b>C</b>alcium channel blockers",
+   "tag": "nitrates",
+   "src": "slide 11 + 00:10:27"
+  },
+  {
+   "id": "fc-017",
+   "front": "Nitrate prototypes (short- vs long-acting)",
+   "back": "SL <b>nitroglycerin</b> (Nitrostat) for an acute attack · <b>isosorbide mononitrate</b> (Imdur) long-acting to prevent episodes",
+   "tag": "nitrates",
+   "src": "slide 12 + 00:10:59"
+  },
+  {
+   "id": "fc-018",
+   "front": "Nitrates — primary mechanism",
+   "back": "Converted to <b>nitric oxide</b> → mainly <b>venodilation</b> → ↓ venous return → <b>↓ preload</b> → ↓ wall stress → ↓ O₂ demand",
+   "tag": "nitrates",
+   "src": "slide 12 + 00:11:29"
+  },
+  {
+   "id": "fc-019",
+   "front": "SL nitro teaching: chest pain not relieved after first dose?",
+   "back": "<b>Call EMS after the first dose</b> fails; may take 2nd/3rd doses as directed while waiting. Sit down and rest with it",
+   "tag": "nitrates",
+   "src": "slide 12 + 00:12:34"
+  },
+  {
+   "id": "fc-020",
+   "front": "Major nitrate adverse effects",
+   "back": "<b>Headache</b> (vasodilation) · <b>hypotension</b> and dizziness · <b>reflex tachycardia</b>",
+   "tag": "nitrates",
+   "src": "slide 12 + 00:13:05"
+  },
+  {
+   "id": "fc-021",
+   "front": "Nitrates + PDE-5 inhibitors (sildenafil, tadalafil)?",
+   "back": "<b>Never combine</b> — both vasodilate → profound hypotension. \"This comes up a lot in boards\"; the ED asks about Viagra-type drugs before any nitrate",
+   "tag": "nitrates",
+   "src": "slide 12 + 00:13:05 + 00:41:46"
+  },
+  {
+   "id": "fc-022",
+   "front": "Why prescribe a daily nitrate-free interval?",
+   "back": "Prevents <b>nitrate tolerance</b> — usually <b>at night</b>, when they're resting and sleeping; taken 24 h/day it would stop working",
+   "tag": "nitrates",
+   "src": "slide 12 + 00:15:17"
+  },
+  {
+   "id": "fc-023",
+   "front": "Beta blocker prototype and antianginal mechanism",
+   "back": "<b>Metoprolol</b> — block β₁ → <b>↓ HR and ↓ contractility</b> → ↓ O₂ demand",
+   "tag": "bb-ccb",
+   "src": "slide 13 + 00:16:22"
+  },
+  {
+   "id": "fc-024",
+   "front": "Why avoid abruptly stopping a beta blocker?",
+   "back": "<b>Rebound sympathetic activity</b> may precipitate ischemia",
+   "tag": "bb-ccb",
+   "src": "slide 13"
+  },
+  {
+   "id": "fc-025",
+   "front": "Beta blocker adverse effects / monitoring",
+   "back": "Bradycardia · hypotension · fatigue · AV conduction abnormalities — monitor <b>HR and BP</b>",
+   "tag": "bb-ccb",
+   "src": "slide 13"
+  },
+  {
+   "id": "fc-026",
+   "front": "Amlodipine (dihydropyridine) — main effect",
+   "back": "Dilates arterioles → <b>↓ afterload</b>; minimal effect on HR/AV node. <b>\"-pine\" = periphery</b>",
+   "tag": "bb-ccb",
+   "src": "slide 14 + 00:43:14"
+  },
+  {
+   "id": "fc-027",
+   "front": "Verapamil & diltiazem (non-DHP) — main effect",
+   "back": "Prefer the <b>heart</b>: ↓ HR, ↓ AV conduction, ↓ contractility (like a beta blocker) + some vasodilation. \"No good way to remember them — just put these two together\"",
+   "tag": "bb-ccb",
+   "src": "slide 14 + 00:17:55"
+  },
+  {
+   "id": "fc-028",
+   "front": "Expected adverse effect of amlodipine",
+   "back": "<b>Peripheral edema</b> (also headache, flushing) — \"usually worrisome, but in this case, it's expected\"",
+   "tag": "bb-ccb",
+   "src": "slide 14 + 00:18:59"
+  },
+  {
+   "id": "fc-029",
+   "front": "Key adverse effects of verapamil/diltiazem",
+   "back": "<b>Bradycardia, AV block</b>, hypotension — they slow conduction through the AV node",
+   "tag": "bb-ccb",
+   "src": "slide 14 + 00:44:49"
+  },
+  {
+   "id": "fc-030",
+   "front": "Adverse effect unique to verapamil",
+   "back": "<b>Constipation</b> — verapamil also likes the gut's calcium channels → weaker peristalsis",
+   "tag": "bb-ccb",
+   "src": "slide 14 + 00:18:59"
+  },
+  {
+   "id": "fc-031",
+   "front": "Stable angina long-term plan: two goals",
+   "back": "1) <b>Relieve ischemic symptoms</b> (NBC) · 2) <b>Reduce cardiovascular risk</b> (statin, antiplatelet, ACEI/ARB, risk factors)",
+   "tag": "long-term",
+   "src": "slide 16 + 00:19:33"
+  },
+  {
+   "id": "fc-032",
+   "front": "Which therapy lowers future atherosclerotic risk rather than relieving angina?",
+   "back": "<b>High-intensity statin</b> — the long-term one; SL nitro and vasodilators are the immediate ones",
+   "tag": "long-term",
+   "src": "slide 16 + 00:46:21"
+  },
+  {
+   "id": "fc-033",
+   "front": "Modifiable risk factors to address in stable angina",
+   "back": "<b>Smoking</b> · hypertension · diabetes · physical activity — antianginals treat symptoms, prevention treats the cause",
+   "tag": "long-term",
+   "src": "slide 16 + 00:19:33"
+  },
+  {
+   "id": "fc-034",
+   "front": "Why aren't antianginals a substitute for preventive therapy?",
+   "back": "They only <b>reduce symptoms</b>; preventive therapies address atherosclerosis, thrombosis risk and long-term outcomes",
+   "tag": "long-term",
+   "src": "slide 16 + 00:19:33"
+  },
+  {
+   "id": "fc-035",
+   "front": "ACS usually begins with…",
+   "back": "<b>Plaque rupture or erosion</b> — \"like ripping off a scab\"; the body covers it with clot",
+   "tag": "acs-types",
+   "src": "slide 19 + 00:23:57"
+  },
+  {
+   "id": "fc-036",
+   "front": "Three diagnoses within ACS",
+   "back": "<b>Unstable angina</b> · <b>NSTEMI</b> (non-ST-elevation MI) · <b>STEMI</b> (ST-elevation MI)",
+   "tag": "acs-types",
+   "src": "slide 20 + 00:24:27"
+  },
+  {
+   "id": "fc-037",
+   "front": "Unstable angina: troponin and ST?",
+   "back": "<b>No troponin, no ST elevation</b> — reduced flow but no myocardial cell death",
+   "tag": "acs-types",
+   "src": "slide 20 + 00:26:27"
+  },
+  {
+   "id": "fc-038",
+   "front": "NSTEMI: troponin and ST?",
+   "back": "\"<b>Yes troponin, no ST elevation</b>\" — myocardial cell death has occurred",
+   "tag": "acs-types",
+   "src": "slide 20 + 00:47:29"
+  },
+  {
+   "id": "fc-039",
+   "front": "STEMI: troponin and ST?",
+   "back": "<b>Yes troponin, yes ST elevation</b> — usually full (transmural) wall depth has died",
+   "tag": "acs-types",
+   "src": "slide 20 + 00:27:22"
+  },
+  {
+   "id": "fc-040",
+   "front": "What primarily distinguishes STEMI from NSTEMI?",
+   "back": "The <b>ECG</b> (ST elevation) — not how high the troponin rises",
+   "tag": "acs-types",
+   "src": "slides 20, 41"
+  },
+  {
+   "id": "fc-041",
+   "front": "\"Widow maker\" refers to…",
+   "back": "<b>Location</b> — the left anterior descending (LAD) artery; probably a STEMI, but a small LAD branch could give an NSTEMI. Amount of tissue supplied decides damage",
+   "tag": "acs-types",
+   "src": "slide 20 + 00:28:10"
+  },
+  {
+   "id": "fc-042",
+   "front": "Chest pain/suspected ACS: first test?",
+   "back": "<b>ECG</b> — fast; leads on the chest right away",
+   "tag": "workup",
+   "src": "slide 21 + 00:29:27"
+  },
+  {
+   "id": "fc-043",
+   "front": "ECG shows ST elevation — next step?",
+   "back": "STEMI — \"<b>if we see ST elevation, we don't care about the rest of it</b>\": straight to the cath lab (fibrinolytics if no cath lab)",
+   "tag": "workup",
+   "src": "slide 21 + 00:29:27"
+  },
+  {
+   "id": "fc-044",
+   "front": "No ST elevation: how do you tell NSTEMI from unstable angina?",
+   "back": "<b>Troponin</b> — rise/fall = NSTEMI; stays normal on serial checks = unstable angina",
+   "tag": "workup",
+   "src": "slide 21 + 00:39:39"
+  },
+  {
+   "id": "fc-045",
+   "front": "Why serial ECGs and troponins in ACS?",
+   "back": "It may be an <b>evolving MI</b> — one normal reading early doesn't rule it out; trending also catches a new injury",
+   "tag": "workup",
+   "src": "slide 23 + 00:29:59"
+  },
+  {
+   "id": "fc-046",
+   "front": "Therapy NOT indicated for unstable angina/NSTEMI",
+   "back": "<b>Fibrinolytics</b> (clot busters) — too risky; only for STEMI",
+   "tag": "workup",
+   "src": "slide 42 + 01:07:37"
+  },
+  {
+   "id": "fc-047",
+   "front": "Treatment categories for UA/NSTEMI",
+   "back": "Antiplatelet · anticoagulant · anti-ischemic (nitro, selected BBs) · high-intensity statin · angiography/PCI when indicated",
+   "tag": "workup",
+   "src": "slide 42 + 00:36:00"
+  },
+  {
+   "id": "fc-048",
+   "front": "Ischemia vs infarction at the cell level",
+   "back": "Ischemia: ↓ ATP, ↓ contraction, electrical instability — <b>can recover</b> if reperfused · Infarction: necrosis, <b>troponin released</b>",
+   "tag": "mi",
+   "src": "slide 27"
+  },
+  {
+   "id": "fc-049",
+   "front": "Who may have an MI with little or no chest pain?",
+   "back": "<b>Older adults</b> and patients with <b>diabetes</b>; women more often report nausea, dyspnea, fatigue",
+   "tag": "mi",
+   "src": "slide 31 + 01:08:44"
+  },
+  {
+   "id": "fc-050",
+   "front": "Her mom's MI — the lesson",
+   "back": "Felt like <b>the flu</b>: vomiting, sweating, weak, no chest pain — no crushing chest pain doesn't exclude MI",
+   "tag": "mi",
+   "src": "slide 31 + 00:49:39"
+  },
+  {
+   "id": "fc-051",
+   "front": "Troponin — what is it and why is it in blood?",
+   "back": "A contractile protein inside cardiac cells; released into blood when <b>myocardial cells are injured/die</b>",
+   "tag": "mi",
+   "src": "slide 34 + 00:50:45"
+  },
+  {
+   "id": "fc-052",
+   "front": "Does elevated troponin alone prove MI?",
+   "back": "<b>No</b> — shows myocardial <b>injury</b>, not the cause (e.g., myocarditis, heart failure); MI = troponin + symptoms + ECG",
+   "tag": "mi",
+   "src": "slide 34 + 01:09:14"
+  },
+  {
+   "id": "fc-053",
+   "front": "Consequences of losing functioning myocardium after MI",
+   "back": "↓ contractility → ↓ SV and CO · ↓ EF · <b>dysrhythmias</b> · ventricular remodeling → heart failure (or cardiogenic shock if extensive)",
+   "tag": "mi",
+   "src": "slide 35 + 00:52:19"
+  },
+  {
+   "id": "fc-054",
+   "front": "Preferred STEMI reperfusion method",
+   "back": "<b>Primary PCI</b> (cardiac cath lab) when it can be done promptly",
+   "tag": "stemi-treatment",
+   "src": "slide 37 + 01:11:11"
+  },
+  {
+   "id": "fc-055",
+   "front": "When are fibrinolytics considered for STEMI?",
+   "back": "Eligible STEMI patient when <b>timely PCI is not available</b>",
+   "tag": "stemi-treatment",
+   "src": "slide 37 + 00:54:29"
+  },
+  {
+   "id": "fc-056",
+   "front": "Biggest danger of fibrinolytic therapy",
+   "back": "<b>Bleeding</b> — breaks down every clot in the body; worst risk is <b>intracranial</b> bleed; many contraindications (e.g., recent surgery)",
+   "tag": "stemi-treatment",
+   "src": "slide 37 + 00:37:33"
+  },
+  {
+   "id": "fc-057",
+   "front": "Why is rapid reperfusion important?",
+   "back": "Save ischemic myocardium <b>before irreversible cell death</b> — the faster flow returns, the more tissue saved",
+   "tag": "stemi-treatment",
+   "src": "slide 37 + 00:59:08"
+  },
+  {
+   "id": "fc-058",
+   "front": "Antiplatelets vs anticoagulants in ACS",
+   "back": "Antiplatelets ↓ <b>platelet aggregation</b>; anticoagulants limit <b>ongoing clot formation/propagation</b>",
+   "tag": "stemi-treatment",
+   "src": "slide 40 + 01:05:51"
+  },
+  {
+   "id": "fc-059",
+   "front": "Beta blockers in STEMI — caution?",
+   "back": "Only in <b>hemodynamically stable</b> patients — ↓ contractility can worsen a heart already pumping poorly after a big MI (long-term, selected post-MI clients with reduced EF can benefit once stable — slide 13)",
+   "tag": "stemi-treatment",
+   "src": "slides 13, 36 + 00:55:00"
+  },
+  {
+   "id": "fc-060",
+   "front": "Oxygen in STEMI?",
+   "back": "<b>Only if hypoxemic</b> — MONA (morphine, O₂, nitrates, aspirin) is the old mnemonic; \"if someone's sitting 96%, you don't need to throw oxygen on them\"",
+   "tag": "stemi-treatment",
+   "src": "slide 36 + 00:55:31"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "(student asked) How does overall anemia affect angina?",
+   "a": "Anemia affects the whole body; with a coronary blockage it definitely makes ischemia worse, but long before it kills myocytes the patient would be too short of breath to get out of bed — no direct cause-and-effect with angina.",
+   "src": "slide 7 + 00:05:47"
+  },
+  {
+   "id": "qa-002",
+   "q": "(student asked) How long does sublingual nitroglycerin take to help?",
+   "a": "\"Five minutes, I believe\" — and the patient should be resting, not continuing the activity: rest + nitro together.",
+   "src": "slide 12 + 00:13:40"
+  },
+  {
+   "id": "qa-003",
+   "q": "(student asked) What is the washout time between a PDE-5 inhibitor and a nitrate?",
+   "a": "She wasn't sure of the exact washout time; the ED asks very specifically about Viagra-type drugs before giving any nitrate, because a client can take one and show up hours later with an MI.",
+   "src": "slide 12 + 00:14:12"
+  },
+  {
+   "id": "qa-004",
+   "q": "(Kahoot) Which change increases myocardial oxygen demand?",
+   "a": "Answer not read aloud (Kahoot froze). From slide 4: demand rises with ↑ heart rate, ↑ contractility and ↑ wall stress (preload/afterload).",
+   "src": "slide 4 + 00:20:34"
+  },
+  {
+   "id": "qa-005",
+   "q": "(Kahoot) Coronary perfusion occurs mostly during…?",
+   "a": "Diastole — so a very fast heart rate shortens diastolic filling time and can compromise coronary perfusion.",
+   "src": "slide 4 + 00:20:34"
+  },
+  {
+   "id": "qa-006",
+   "q": "(Kahoot) Stable angina most often occurs because of…?",
+   "a": "\"That one was pretty easy\" — a fixed atherosclerotic narrowing; demand rises (exertion) and supply can't keep up (from slide 9). The Kahoot then froze.",
+   "src": "slide 9 + 00:22:06"
+  },
+  {
+   "id": "qa-007",
+   "q": "(student asked) Is the \"widow maker\" a STEMI?",
+   "a": "\"Widow maker\" is about location — the left anterior descending artery. It's probably going to be a STEMI, but a small branch of the LAD could give an NSTEMI: how much heart the artery supplies decides the damage.",
+   "src": "slide 20 + 00:28:10"
+  },
+  {
+   "id": "qa-008",
+   "q": "(student asked) How quickly do troponin results come back?",
+   "a": "When the lab knows it's urgent it's run very fast — she didn't want to give an exact number (\"usually less than five minutes\").",
+   "src": "slide 21 + 00:31:09"
+  },
+  {
+   "id": "qa-009",
+   "q": "(student asked) Does troponin rise and then fall?",
+   "a": "Yes — a rise and then a fall. That's another reason for serial troponins: trend it down, so if it starts rising again you know there's a new injury.",
+   "src": "slide 21 + 00:31:09"
+  },
+  {
+   "id": "qa-010",
+   "q": "(student asked) How does troponin leave the blood?",
+   "a": "The body clears it naturally (filtered through the kidneys); she wasn't sure of the chemistry.",
+   "src": "slide 22 + 00:32:13"
+  },
+  {
+   "id": "qa-011",
+   "q": "(student asked) What is the danger of fibrinolytic therapy?",
+   "a": "<b>Bleeding</b> — it breaks down every clot in the body. Many contraindications (e.g., surgery two weeks ago); the biggest risk is intracranial bleeding.",
+   "src": "slide 42 + 00:37:33"
+  },
+  {
+   "id": "qa-012",
+   "q": "(Kahoot) What best describes myocardial ischemia?",
+   "a": "Oxygen supply is insufficient for myocardial oxygen demand.",
+   "src": "slide 4 + 00:40:34"
+  },
+  {
+   "id": "qa-013",
+   "q": "(Kahoot) Why may collateral circulation protect some myocardium?",
+   "a": "It gives another pathway for blood to reach the tissue past the blockage.",
+   "src": "slide 5 + 00:40:34"
+  },
+  {
+   "id": "qa-014",
+   "q": "(Kahoot) Variant angina is most directly caused by…?",
+   "a": "Transient coronary artery vasospasm (answer not read aloud; from slide 10).",
+   "src": "slide 10 + 00:40:34"
+  },
+  {
+   "id": "qa-015",
+   "q": "(Kahoot) Nitroglycerin primarily lowers oxygen demand by…?",
+   "a": "Primarily venodilation → ↓ venous return → ↓ preload; it also does a little coronary artery vasodilation.",
+   "src": "slide 12 + 00:41:46"
+  },
+  {
+   "id": "qa-016",
+   "q": "(Kahoot) Which nitrate combination can cause profound hypotension?",
+   "a": "\"Right, good\" — nitrate + sildenafil (Viagra): both vasodilate, so together they're very dangerous.",
+   "src": "slide 12 + 00:41:46"
+  },
+  {
+   "id": "qa-017",
+   "q": "(Kahoot) Why is a nitrate-free interval sometimes prescribed?",
+   "a": "To prevent nitrate tolerance (answer not read aloud; from slide 12 + 00:15:17).",
+   "src": "slide 12 + 00:43:14"
+  },
+  {
+   "id": "qa-018",
+   "q": "(Kahoot) Metoprolol reduces angina mainly by…?",
+   "a": "↓ heart rate and ↓ contractility → ↓ oxygen demand — she expected the class to know beta blockers well by now.",
+   "src": "slide 13 + 00:43:14"
+  },
+  {
+   "id": "qa-019",
+   "q": "(Kahoot) Which drug primarily reduces afterload with little direct AV-node effect?",
+   "a": "Amlodipine — \"the -pines\" are the dihydropyridines, preferential for the periphery; verapamil and diltiazem prefer the heart.",
+   "src": "slide 14 + 00:43:14"
+  },
+  {
+   "id": "qa-020",
+   "q": "(Kahoot) Which adverse effect is especially associated with verapamil/diltiazem?",
+   "a": "Bradycardia / AV block — they slow conduction through the AV node and lower heart rate.",
+   "src": "slide 14 + 00:44:49"
+  },
+  {
+   "id": "qa-021",
+   "q": "(Kahoot) Which class is especially useful for preventing coronary vasospasm?",
+   "a": "Calcium channel blockers (answer not read aloud; from slide 10).",
+   "src": "slide 10 + 00:45:45"
+  },
+  {
+   "id": "qa-022",
+   "q": "(Kahoot) Which treatment mainly lowers future atherosclerotic risk rather than immediately relieving angina?",
+   "a": "High-intensity statin — the long-term one; sublingual nitroglycerin and coronary vasodilators are the immediate ones.",
+   "src": "slide 16 + 00:45:45"
+  },
+  {
+   "id": "qa-023",
+   "q": "(Kahoot) ACS commonly begins with which event?",
+   "a": "Plaque rupture or erosion (answer not read aloud; from slide 19).",
+   "src": "slide 19 + 00:46:55"
+  },
+  {
+   "id": "qa-024",
+   "q": "(Kahoot) What distinguishes unstable angina from NSTEMI?",
+   "a": "Myocardial necrosis shown by troponin: NSTEMI has an elevated troponin, unstable angina doesn't (answer not read aloud; from slide 20).",
+   "src": "slide 20 + 00:46:55"
+  },
+  {
+   "id": "qa-025",
+   "q": "(Kahoot) A patient has ischemic symptoms and elevated troponin without persistent ST elevation. This is most consistent with…?",
+   "a": "\"Good, yes troponin, no ST elevation, that would be an NSTEMI.\"",
+   "src": "slide 20 + 00:47:29"
+  },
+  {
+   "id": "qa-026",
+   "q": "(Kahoot) Which finding is characteristic of a STEMI?",
+   "a": "Persistent ST-segment elevation (answer not read aloud; from slide 20).",
+   "src": "slide 20 + 00:48:03"
+  },
+  {
+   "id": "qa-027",
+   "q": "When we actually have a STEMI, what are we going to do? How are we going to get some blood back?",
+   "a": "Restore coronary blood flow ASAP — the cardiac cath lab for PCI; fibrinolytics if PCI isn't possible (her answer at 00:53:59).",
+   "src": "slide 36 + 00:48:03"
+  },
+  {
+   "id": "qa-028",
+   "q": "(student asked) During PCI, how do they know where to go?",
+   "a": "They inject dye (angiogram) and can see where blood should be flowing and isn't; then a balloon pushes the vessel open and a stent keeps it open.",
+   "src": "slide 38 + 00:56:02"
+  },
+  {
+   "id": "qa-029",
+   "q": "(student asked) Would troponin still be elevated a month after an MI?",
+   "a": "It sticks around for a while — she thought about 14 days to clear completely (not sure). In her mom's case troponin didn't show it, but the ECG changes did.",
+   "src": "slide 34 + 00:57:06"
+  },
+  {
+   "id": "qa-030",
+   "q": "(student asked) Femoral or radial access for the cath?",
+   "a": "Femoral is traditional: client lies flat at least 6 hours, can't bend at the waist, higher risk of bleeding and clotting. Radial is smaller and harder but has fewer risks; for a STEMI they more often go femoral because radial takes longer.",
+   "src": "slide 38 + 00:57:36"
+  },
+  {
+   "id": "qa-031",
+   "q": "(student asked) What is recovery from CABG like?",
+   "a": "A sternotomy — \"cracking it in half\" — is a big, intense recovery: chest tubes and lines; prepare clients for that.",
+   "src": "slide 38 + 01:02:55"
+  },
+  {
+   "id": "qa-032",
+   "q": "(student asked) What if the blockage is very large?",
+   "a": "The balloon may not inflate or go in; stents come in different lengths; with many bad blockages stenting may only buy time. Medication released locally prevents clotting at the stent, and afterwards the client needs antiplatelet medication.",
+   "src": "slide 39 + 01:04:08"
+  },
+  {
+   "id": "qa-033",
+   "q": "(Kahoot) What is the purpose of anticoagulant therapy in acute coronary syndrome?",
+   "a": "To limit ongoing clot formation and propagation (answer not read aloud; from slide 42).",
+   "src": "slide 42 + 01:06:34"
+  },
+  {
+   "id": "qa-034",
+   "q": "(Kahoot) Which therapy is not indicated for unstable angina and NSTEMI?",
+   "a": "\"Very good\" — fibrinolytic therapy: clot busters are super dangerous with lots of risks, so they're only for STEMIs.",
+   "src": "slide 42 + 01:07:37"
+  },
+  {
+   "id": "qa-035",
+   "q": "(Kahoot) If ischemic myocardium is reperfused before irreversible injury, it may…?",
+   "a": "\"Good\" — recover: get blood back before the cells die and you save them.",
+   "src": "slide 37 + 01:08:08"
+  },
+  {
+   "id": "qa-036",
+   "q": "(Kahoot) Which statement about MI symptoms is most accurate?",
+   "a": "Some clients — especially older adults and people with diabetes — have minimal or no chest discomfort. She laughed at the distractor \"MI never occurs at rest.\"",
+   "src": "slide 31 + 01:08:44"
+  },
+  {
+   "id": "qa-037",
+   "q": "(Kahoot) Does an elevated troponin level by itself establish the cause?",
+   "a": "No — it shows that something is injuring myocardium, not what; it's read with symptoms and the ECG (slide 34).",
+   "src": "slide 34 + 01:09:14"
+  },
+  {
+   "id": "qa-038",
+   "q": "(Kahoot) Why are serial troponin measurements useful?",
+   "a": "They identify an acute rise or fall that signals new injury (answer not read aloud; from slide 34).",
+   "src": "slide 34 + 01:09:14"
+  },
+  {
+   "id": "qa-039",
+   "q": "(Kahoot) Loss of functioning myocardium after MI can cause…?",
+   "a": "↓ contractility → ↓ stroke volume and cardiac output, ↓ EF, dysrhythmias, heart failure or cardiogenic shock (answer not read aloud; from slide 35).",
+   "src": "slide 35 + 01:09:52"
+  },
+  {
+   "id": "qa-040",
+   "q": "(Kahoot) When promptly available, the preferred STEMI reperfusion method is…?",
+   "a": "\"Primary PCI is what we prefer to do.\"",
+   "src": "slide 37 + 01:09:52"
+  },
+  {
+   "id": "qa-041",
+   "q": "(Kahoot) When may fibrinolytic therapy be considered?",
+   "a": "For an eligible STEMI client when timely PCI isn't available (answer not read aloud; from slide 37).",
+   "src": "slide 37 + 01:11:11"
+  },
+  {
+   "id": "qa-042",
+   "q": "(Kahoot) Why is rapid reperfusion important in STEMI?",
+   "a": "To save ischemic myocardium before irreversible cell death — the faster flow is restored, the more tissue saved (slide 37 + 00:59:08).",
+   "src": "slide 37 + 01:11:11"
+  }
+ ]
+}
