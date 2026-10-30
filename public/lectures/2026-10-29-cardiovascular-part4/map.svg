@@ -1,0 +1,230 @@
+<svg id="cmap" width="1257pt" height="606pt"
+ viewBox="0.00 0.00 1257.00 606.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 584.4)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-584.4 1235.36,-584.4 1235.36,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="338.5" y="-542.8" font-family="Helvetica,sans-Serif" font-size="16.00">Cardiovascular IV: Heart Failure — Concept Map (NURS 419, Lecture 10/29/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="204.21" y="-523.6" font-family="Helvetica,sans-Serif" font-size="16.00">HFrEF ≤ 40% · HFpEF ≥ 50% · left HF → lungs, right HF → body · 4 pillars: ARNI/ACEi/ARB, β&#45;blocker, MRA, SGLT2i</text>
+<!-- causes -->
+<g id="node1" class="node">
+<title>causes</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M719.56,-516.4C719.56,-516.4 535.62,-516.4 535.62,-516.4 529.62,-516.4 523.62,-510.4 523.62,-504.4 523.62,-504.4 523.62,-472.88 523.62,-472.88 523.62,-466.88 529.62,-460.88 535.62,-460.88 535.62,-460.88 719.56,-460.88 719.56,-460.88 725.56,-460.88 731.56,-466.88 731.56,-472.88 731.56,-472.88 731.56,-504.4 731.56,-504.4 731.56,-510.4 725.56,-516.4 719.56,-516.4"/>
+<text xml:space="preserve" text-anchor="start" x="534.42" y="-501.74" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Causes</text>
+<text xml:space="preserve" text-anchor="start" x="534.42" y="-490.74" font-family="Helvetica,sans-Serif" font-size="11.00">CAD / MI → lost contractile cells</text>
+<text xml:space="preserve" text-anchor="start" x="534.42" y="-479.74" font-family="Helvetica,sans-Serif" font-size="11.00">HTN → pressure overload, stiffness</text>
+<text xml:space="preserve" text-anchor="start" x="534.42" y="-468.74" font-family="Helvetica,sans-Serif" font-size="11.00">Diabetes, obesity, valves, cardiomyopathy</text>
+</g>
+<!-- hfref -->
+<g id="node2" class="node">
+<title>hfref</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M602.45,-415.68C602.45,-415.68 466.73,-415.68 466.73,-415.68 460.73,-415.68 454.73,-409.68 454.73,-403.68 454.73,-403.68 454.73,-383.16 454.73,-383.16 454.73,-377.16 460.73,-371.16 466.73,-371.16 466.73,-371.16 602.45,-371.16 602.45,-371.16 608.45,-371.16 614.45,-377.16 614.45,-383.16 614.45,-383.16 614.45,-403.68 614.45,-403.68 614.45,-409.68 608.45,-415.68 602.45,-415.68"/>
+<text xml:space="preserve" text-anchor="start" x="465.53" y="-401.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Systolic dysfunction (HFrEF)</text>
+<text xml:space="preserve" text-anchor="start" x="465.53" y="-390.02" font-family="Helvetica,sans-Serif" font-size="11.00">Can&#39;t squeeze · big, floppy LV</text>
+<text xml:space="preserve" text-anchor="start" x="465.53" y="-379.02" font-family="Helvetica,sans-Serif" font-size="11.00">EF ≤ 40%</text>
+</g>
+<!-- causes&#45;&gt;hfref -->
+<g id="edge1" class="edge">
+<title>causes&#45;&gt;hfref</title>
+<path fill="none" stroke="#555555" d="M600.69,-460.68C588.52,-448.48 574.16,-434.08 561.93,-421.83"/>
+<polygon fill="#555555" stroke="#555555" points="563.87,-420.3 557.19,-417.08 560.4,-423.76 563.87,-420.3"/>
+<text xml:space="preserve" text-anchor="middle" x="614.27" y="-434.98" font-family="Helvetica,sans-Serif" font-size="11.00"> MI, ischemia</text>
+</g>
+<!-- hfpef -->
+<g id="node3" class="node">
+<title>hfpef</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M793.51,-415.68C793.51,-415.68 651.68,-415.68 651.68,-415.68 645.68,-415.68 639.68,-409.68 639.68,-403.68 639.68,-403.68 639.68,-383.16 639.68,-383.16 639.68,-377.16 645.68,-371.16 651.68,-371.16 651.68,-371.16 793.51,-371.16 793.51,-371.16 799.51,-371.16 805.51,-377.16 805.51,-383.16 805.51,-383.16 805.51,-403.68 805.51,-403.68 805.51,-409.68 799.51,-415.68 793.51,-415.68"/>
+<text xml:space="preserve" text-anchor="start" x="650.48" y="-401.02" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Diastolic dysfunction (HFpEF)</text>
+<text xml:space="preserve" text-anchor="start" x="650.48" y="-390.02" font-family="Helvetica,sans-Serif" font-size="11.00">Can&#39;t relax / fill · stiff LV</text>
+<text xml:space="preserve" text-anchor="start" x="650.48" y="-379.02" font-family="Helvetica,sans-Serif" font-size="11.00">EF ≥ 50% but SV ↓</text>
+</g>
+<!-- causes&#45;&gt;hfpef -->
+<g id="edge2" class="edge">
+<title>causes&#45;&gt;hfpef</title>
+<path fill="none" stroke="#555555" d="M655.32,-460.43C667.65,-448.33 682.15,-434.1 694.52,-421.97"/>
+<polygon fill="#555555" stroke="#555555" points="696.04,-423.9 699.32,-417.25 692.61,-420.41 696.04,-423.9"/>
+<text xml:space="preserve" text-anchor="middle" x="711.25" y="-434.98" font-family="Helvetica,sans-Serif" font-size="11.00"> HTN, aging</text>
+</g>
+<!-- lowco -->
+<g id="node4" class="node">
+<title>lowco</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M716.23,-338.16C716.23,-338.16 538.95,-338.16 538.95,-338.16 532.95,-338.16 526.95,-332.16 526.95,-326.16 526.95,-326.16 526.95,-314.16 526.95,-314.16 526.95,-308.16 532.95,-302.16 538.95,-302.16 538.95,-302.16 716.23,-302.16 716.23,-302.16 722.23,-302.16 728.23,-308.16 728.23,-314.16 728.23,-314.16 728.23,-326.16 728.23,-326.16 728.23,-332.16 722.23,-338.16 716.23,-338.16"/>
+<text xml:space="preserve" text-anchor="start" x="537.75" y="-322.26" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">↓ Cardiac output · ↑ filling pressures</text>
+<text xml:space="preserve" text-anchor="start" x="537.75" y="-311.26" font-family="Helvetica,sans-Serif" font-size="11.00">Normal EF ≠ normal SV</text>
+</g>
+<!-- hfref&#45;&gt;lowco -->
+<g id="edge3" class="edge">
+<title>hfref&#45;&gt;lowco</title>
+<path fill="none" stroke="#555555" d="M563,-370.65C574.06,-362.18 586.73,-352.47 597.91,-343.9"/>
+<polygon fill="#555555" stroke="#555555" points="599.38,-345.86 603.45,-339.66 596.4,-341.97 599.38,-345.86"/>
+</g>
+<!-- hfpef&#45;&gt;lowco -->
+<g id="edge4" class="edge">
+<title>hfpef&#45;&gt;lowco</title>
+<path fill="none" stroke="#555555" d="M693.57,-370.65C682.17,-362.1 669.08,-352.28 657.58,-343.66"/>
+<polygon fill="#555555" stroke="#555555" points="659.3,-341.89 652.23,-339.65 656.36,-345.81 659.3,-341.89"/>
+</g>
+<!-- comp -->
+<g id="node5" class="node">
+<title>comp</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M465.11,-256.96C465.11,-256.96 242.07,-256.96 242.07,-256.96 236.07,-256.96 230.07,-250.96 230.07,-244.96 230.07,-244.96 230.07,-213.44 230.07,-213.44 230.07,-207.44 236.07,-201.44 242.07,-201.44 242.07,-201.44 465.11,-201.44 465.11,-201.44 471.11,-201.44 477.11,-207.44 477.11,-213.44 477.11,-213.44 477.11,-244.96 477.11,-244.96 477.11,-250.96 471.11,-256.96 465.11,-256.96"/>
+<text xml:space="preserve" text-anchor="start" x="240.87" y="-242.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Compensation</text>
+<text xml:space="preserve" text-anchor="start" x="240.87" y="-231.3" font-family="Helvetica,sans-Serif" font-size="11.00">SNS: ↑ HR, contractility, vasoconstriction, renin</text>
+<text xml:space="preserve" text-anchor="start" x="240.87" y="-220.3" font-family="Helvetica,sans-Serif" font-size="11.00">RAAS: Ang II ↑ afterload · aldosterone ↑ preload</text>
+<text xml:space="preserve" text-anchor="start" x="240.87" y="-209.3" font-family="Helvetica,sans-Serif" font-size="11.00">↑ Preload (Frank–Starling) · hypertrophy</text>
+</g>
+<!-- lowco&#45;&gt;comp -->
+<g id="edge5" class="edge">
+<title>lowco&#45;&gt;comp</title>
+<path fill="none" stroke="#555555" d="M544.7,-301.63C526.29,-297.12 506.98,-291.9 489.24,-286.16 466.89,-278.94 443.05,-269.66 421.69,-260.74"/>
+<polygon fill="#555555" stroke="#555555" points="422.74,-258.53 415.34,-258.07 420.84,-263.04 422.74,-258.53"/>
+<text xml:space="preserve" text-anchor="middle" x="507.41" y="-276.26" font-family="Helvetica,sans-Serif" font-size="11.00"> triggers</text>
+</g>
+<!-- left -->
+<g id="node7" class="node">
+<title>left</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M975.63,-251.46C975.63,-251.46 851.55,-251.46 851.55,-251.46 845.55,-251.46 839.55,-245.46 839.55,-239.46 839.55,-239.46 839.55,-218.94 839.55,-218.94 839.55,-212.94 845.55,-206.94 851.55,-206.94 851.55,-206.94 975.63,-206.94 975.63,-206.94 981.63,-206.94 987.63,-212.94 987.63,-218.94 987.63,-218.94 987.63,-239.46 987.63,-239.46 987.63,-245.46 981.63,-251.46 975.63,-251.46"/>
+<text xml:space="preserve" text-anchor="start" x="850.35" y="-236.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Left&#45;sided HF → lungs</text>
+<text xml:space="preserve" text-anchor="start" x="850.35" y="-225.8" font-family="Helvetica,sans-Serif" font-size="11.00">Dyspnea · orthopnea · PND</text>
+<text xml:space="preserve" text-anchor="start" x="850.35" y="-214.8" font-family="Helvetica,sans-Serif" font-size="11.00">Cough · basilar crackles</text>
+</g>
+<!-- lowco&#45;&gt;left -->
+<g id="edge8" class="edge">
+<title>lowco&#45;&gt;left</title>
+<path fill="none" stroke="#555555" d="M684.09,-301.58C727.43,-288.11 787.73,-269.35 835.65,-254.44"/>
+<polygon fill="#555555" stroke="#555555" points="836.13,-256.86 842.09,-252.44 834.68,-252.18 836.13,-256.86"/>
+<text xml:space="preserve" text-anchor="middle" x="791.36" y="-276.26" font-family="Helvetica,sans-Serif" font-size="11.00"> backs up</text>
+</g>
+<!-- fwd -->
+<g id="node9" class="node">
+<title>fwd</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M802.78,-251.46C802.78,-251.46 620.4,-251.46 620.4,-251.46 614.4,-251.46 608.4,-245.46 608.4,-239.46 608.4,-239.46 608.4,-218.94 608.4,-218.94 608.4,-212.94 614.4,-206.94 620.4,-206.94 620.4,-206.94 802.78,-206.94 802.78,-206.94 808.78,-206.94 814.78,-212.94 814.78,-218.94 814.78,-218.94 814.78,-239.46 814.78,-239.46 814.78,-245.46 808.78,-251.46 802.78,-251.46"/>
+<text xml:space="preserve" text-anchor="start" x="619.2" y="-236.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Forward failure</text>
+<text xml:space="preserve" text-anchor="start" x="619.2" y="-225.8" font-family="Helvetica,sans-Serif" font-size="11.00">Fatigue · weakness · exercise intolerance</text>
+<text xml:space="preserve" text-anchor="start" x="619.2" y="-214.8" font-family="Helvetica,sans-Serif" font-size="11.00">Oliguria · ↑ HR · confusion</text>
+</g>
+<!-- lowco&#45;&gt;fwd -->
+<g id="edge10" class="edge">
+<title>lowco&#45;&gt;fwd</title>
+<path fill="none" stroke="#555555" d="M644.19,-301.58C655.98,-289.09 672.07,-272.06 685.56,-257.77"/>
+<polygon fill="#555555" stroke="#555555" points="687.1,-259.7 690.13,-252.93 683.54,-256.34 687.1,-259.7"/>
+<text xml:space="preserve" text-anchor="middle" x="688.37" y="-276.26" font-family="Helvetica,sans-Serif" font-size="11.00"> forward</text>
+</g>
+<!-- remod -->
+<g id="node6" class="node">
+<title>remod</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M663.89,-156.24C663.89,-156.24 455.29,-156.24 455.29,-156.24 449.29,-156.24 443.29,-150.24 443.29,-144.24 443.29,-144.24 443.29,-112.72 443.29,-112.72 443.29,-106.72 449.29,-100.72 455.29,-100.72 455.29,-100.72 663.89,-100.72 663.89,-100.72 669.89,-100.72 675.89,-106.72 675.89,-112.72 675.89,-112.72 675.89,-144.24 675.89,-144.24 675.89,-150.24 669.89,-156.24 663.89,-156.24"/>
+<text xml:space="preserve" text-anchor="start" x="454.09" y="-141.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Remodeling</text>
+<text xml:space="preserve" text-anchor="start" x="454.09" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">Catecholamines, Ang II, aldosterone = &quot;poison&quot;</text>
+<text xml:space="preserve" text-anchor="start" x="454.09" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">Fibrosis · dilation · progressive HF</text>
+<text xml:space="preserve" text-anchor="start" x="454.09" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">Concentric = pressure · eccentric = volume</text>
+</g>
+<!-- comp&#45;&gt;remod -->
+<g id="edge6" class="edge">
+<title>comp&#45;&gt;remod</title>
+<path fill="none" stroke="#555555" d="M410.43,-200.96C436.66,-188.39 467.93,-173.4 495.05,-160.41"/>
+<polygon fill="#555555" stroke="#555555" points="495.96,-162.69 501.22,-157.45 493.85,-158.27 495.96,-162.69"/>
+<text xml:space="preserve" text-anchor="middle" x="486.79" y="-175.54" font-family="Helvetica,sans-Serif" font-size="11.00"> chronic</text>
+</g>
+<!-- pillars -->
+<g id="node11" class="node">
+<title>pillars</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M205.16,-156.24C205.16,-156.24 16.02,-156.24 16.02,-156.24 10.02,-156.24 4.02,-150.24 4.02,-144.24 4.02,-144.24 4.02,-112.72 4.02,-112.72 4.02,-106.72 10.02,-100.72 16.02,-100.72 16.02,-100.72 205.16,-100.72 205.16,-100.72 211.16,-100.72 217.16,-106.72 217.16,-112.72 217.16,-112.72 217.16,-144.24 217.16,-144.24 217.16,-150.24 211.16,-156.24 205.16,-156.24"/>
+<text xml:space="preserve" text-anchor="start" x="14.82" y="-141.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Four pillars (HFrEF)</text>
+<text xml:space="preserve" text-anchor="start" x="14.82" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">ARNI/ACEi/ARB · β&#45;blocker (low, titrate)</text>
+<text xml:space="preserve" text-anchor="start" x="14.82" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">MRA · SGLT2i (± diabetes)</text>
+<text xml:space="preserve" text-anchor="start" x="14.82" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">↓ mortality / hospitalizations</text>
+</g>
+<!-- comp&#45;&gt;pillars -->
+<g id="edge12" class="edge">
+<title>comp&#45;&gt;pillars</title>
+<path fill="none" stroke="#555555" d="M286.55,-200.96C255.2,-188.23 217.76,-173.02 185.49,-159.91"/>
+<polygon fill="#555555" stroke="#555555" points="186.65,-157.73 179.24,-157.37 184.8,-162.27 186.65,-157.73"/>
+<text xml:space="preserve" text-anchor="middle" x="272.3" y="-175.54" font-family="Helvetica,sans-Serif" font-size="11.00"> blocked by</text>
+</g>
+<!-- loop -->
+<g id="node12" class="node">
+<title>loop</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M406.02,-150.74C406.02,-150.74 265.16,-150.74 265.16,-150.74 259.16,-150.74 253.16,-144.74 253.16,-138.74 253.16,-138.74 253.16,-118.22 253.16,-118.22 253.16,-112.22 259.16,-106.22 265.16,-106.22 265.16,-106.22 406.02,-106.22 406.02,-106.22 412.02,-106.22 418.02,-112.22 418.02,-118.22 418.02,-118.22 418.02,-138.74 418.02,-138.74 418.02,-144.74 412.02,-150.74 406.02,-150.74"/>
+<text xml:space="preserve" text-anchor="start" x="263.96" y="-136.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Loop diuretics</text>
+<text xml:space="preserve" text-anchor="start" x="263.96" y="-125.08" font-family="Helvetica,sans-Serif" font-size="11.00">Furosemide · relieve congestion</text>
+<text xml:space="preserve" text-anchor="start" x="263.96" y="-114.08" font-family="Helvetica,sans-Serif" font-size="11.00">No mortality benefit · ↓ K⁺</text>
+</g>
+<!-- comp&#45;&gt;loop -->
+<g id="edge13" class="edge">
+<title>comp&#45;&gt;loop</title>
+<path fill="none" stroke="#555555" d="M348.62,-200.96C346.28,-188.14 343.49,-172.79 341.09,-159.62"/>
+<polygon fill="#555555" stroke="#555555" points="343.51,-159.26 339.84,-152.81 338.69,-160.14 343.51,-159.26"/>
+<text xml:space="preserve" text-anchor="middle" x="384.92" y="-175.54" font-family="Helvetica,sans-Serif" font-size="11.00"> fluid removed by</text>
+</g>
+<!-- remod&#45;&gt;lowco -->
+<g id="edge7" class="edge">
+<title>remod&#45;&gt;lowco</title>
+<path fill="none" stroke="#555555" d="M552.44,-156.71C546.87,-183.48 542.28,-224.89 556.79,-256.96 564.04,-272.97 577.67,-286.5 591.05,-296.81"/>
+<polygon fill="#555555" stroke="#555555" points="589.26,-298.53 596.35,-300.71 592.16,-294.58 589.26,-298.53"/>
+<text xml:space="preserve" text-anchor="middle" x="576.19" y="-225.9" font-family="Helvetica,sans-Serif" font-size="11.00"> worsens</text>
+</g>
+<!-- right -->
+<g id="node8" class="node">
+<title>right</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M934.05,-150.74C934.05,-150.74 783.13,-150.74 783.13,-150.74 777.13,-150.74 771.13,-144.74 771.13,-138.74 771.13,-138.74 771.13,-118.22 771.13,-118.22 771.13,-112.22 777.13,-106.22 783.13,-106.22 783.13,-106.22 934.05,-106.22 934.05,-106.22 940.05,-106.22 946.05,-112.22 946.05,-118.22 946.05,-118.22 946.05,-138.74 946.05,-138.74 946.05,-144.74 940.05,-150.74 934.05,-150.74"/>
+<text xml:space="preserve" text-anchor="start" x="781.93" y="-136.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Right&#45;sided HF → body</text>
+<text xml:space="preserve" text-anchor="start" x="781.93" y="-125.08" font-family="Helvetica,sans-Serif" font-size="11.00">JVD · dependent edema</text>
+<text xml:space="preserve" text-anchor="start" x="781.93" y="-114.08" font-family="Helvetica,sans-Serif" font-size="11.00">Hepatomegaly · ascites · anorexia</text>
+</g>
+<!-- left&#45;&gt;right -->
+<g id="edge9" class="edge">
+<title>left&#45;&gt;right</title>
+<path fill="none" stroke="#555555" d="M901.66,-206.78C893.78,-192.65 883.37,-173.96 874.76,-158.5"/>
+<polygon fill="#555555" stroke="#555555" points="876.97,-157.44 871.43,-152.52 872.69,-159.83 876.97,-157.44"/>
+<text xml:space="preserve" text-anchor="middle" x="924.97" y="-175.54" font-family="Helvetica,sans-Serif" font-size="11.00"> usually leads to</text>
+</g>
+<!-- eval -->
+<g id="node10" class="node">
+<title>eval</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M1201.76,-156.24C1201.76,-156.24 983.42,-156.24 983.42,-156.24 977.42,-156.24 971.42,-150.24 971.42,-144.24 971.42,-144.24 971.42,-112.72 971.42,-112.72 971.42,-106.72 977.42,-100.72 983.42,-100.72 983.42,-100.72 1201.76,-100.72 1201.76,-100.72 1207.76,-100.72 1213.76,-106.72 1213.76,-112.72 1213.76,-112.72 1213.76,-144.24 1213.76,-144.24 1213.76,-150.24 1207.76,-156.24 1201.76,-156.24"/>
+<text xml:space="preserve" text-anchor="start" x="982.22" y="-141.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">BNP · staging</text>
+<text xml:space="preserve" text-anchor="start" x="982.22" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">BNP ↑ with wall stretch · supports, doesn&#39;t prove</text>
+<text xml:space="preserve" text-anchor="start" x="982.22" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">ACC/AHA A–D = progression</text>
+<text xml:space="preserve" text-anchor="start" x="982.22" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">NYHA I–IV = symptom limits</text>
+</g>
+<!-- left&#45;&gt;eval -->
+<g id="edge11" class="edge">
+<title>left&#45;&gt;eval</title>
+<path fill="none" stroke="#555555" d="M952.87,-206.54C977.25,-193.09 1008.97,-175.6 1036.02,-160.68"/>
+<polygon fill="#555555" stroke="#555555" points="1036.88,-163 1041.83,-157.48 1034.52,-158.71 1036.88,-163"/>
+<text xml:space="preserve" text-anchor="middle" x="1040.69" y="-175.54" font-family="Helvetica,sans-Serif" font-size="11.00"> assessed by</text>
+</g>
+<!-- safety -->
+<g id="node13" class="node">
+<title>safety</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M197.18,-55.52C197.18,-55.52 12,-55.52 12,-55.52 6,-55.52 0,-49.52 0,-43.52 0,-43.52 0,-12 0,-12 0,-6 6,0 12,0 12,0 197.18,0 197.18,0 203.18,0 209.18,-6 209.18,-12 209.18,-12 209.18,-43.52 209.18,-43.52 209.18,-49.52 203.18,-55.52 197.18,-55.52"/>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-40.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Safety checks</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">K⁺: RAAS drugs/MRA ↑ · loops ↓</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">Entresto: never with ACEi · 36&#45;h washout</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">Watch BP, HR, renal function</text>
+</g>
+<!-- pillars&#45;&gt;safety -->
+<g id="edge14" class="edge">
+<title>pillars&#45;&gt;safety</title>
+<path fill="none" stroke="#555555" d="M108.93,-100.24C108.26,-89.13 107.47,-76.13 106.75,-64.28"/>
+<polygon fill="#555555" stroke="#555555" points="109.2,-64.26 106.33,-57.42 104.31,-64.55 109.2,-64.26"/>
+<text xml:space="preserve" text-anchor="middle" x="126.74" y="-74.82" font-family="Helvetica,sans-Serif" font-size="11.00"> monitor</text>
+</g>
+<!-- dig -->
+<g id="node14" class="node">
+<title>dig</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M435.32,-55.52C435.32,-55.52 245.86,-55.52 245.86,-55.52 239.86,-55.52 233.86,-49.52 233.86,-43.52 233.86,-43.52 233.86,-12 233.86,-12 233.86,-6 239.86,0 245.86,0 245.86,0 435.32,0 435.32,0 441.32,0 447.32,-6 447.32,-12 447.32,-12 447.32,-43.52 447.32,-43.52 447.32,-49.52 441.32,-55.52 435.32,-55.52"/>
+<text xml:space="preserve" text-anchor="start" x="244.66" y="-40.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Digoxin</text>
+<text xml:space="preserve" text-anchor="start" x="244.66" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">↑ Contractility, ↓ HR · no survival benefit</text>
+<text xml:space="preserve" text-anchor="start" x="244.66" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">Pulse &lt; 60 → hold · no double doses</text>
+<text xml:space="preserve" text-anchor="start" x="244.66" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">↓ K⁺ or renal dysfunction → toxicity</text>
+</g>
+<!-- loop&#45;&gt;dig -->
+<g id="edge15" class="edge">
+<title>loop&#45;&gt;dig</title>
+<path fill="none" stroke="#555555" d="M336.67,-106.06C337.29,-93.85 338.08,-78.24 338.79,-64.25"/>
+<polygon fill="#555555" stroke="#555555" points="341.24,-64.42 339.14,-57.3 336.34,-64.17 341.24,-64.42"/>
+<text xml:space="preserve" text-anchor="middle" x="385.44" y="-74.82" font-family="Helvetica,sans-Serif" font-size="11.00"> ↓ K⁺ raises toxicity</text>
+</g>
+</g>
+</svg>
