@@ -1,0 +1,36 @@
+// Concept map — Cardiovascular III: Angina, ACS & MI (NURS 419, 10/29/2026)
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.45, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Cardiovascular III: Angina, ACS &amp; MI — Concept Map (NURS 419, Lecture 10/29/2026)<BR/>UA: no troponin, no ST↑ · NSTEMI: troponin, no ST↑ · STEMI: troponin + ST↑ → reperfuse · never nitrates + PDE-5 inhibitors>];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  sd     [fillcolor="#fff2cc", label=<<B>O₂ supply vs demand</B><BR ALIGN="LEFT"/>Demand: HR · contractility · wall stress<BR ALIGN="LEFT"/>Supply: coronary flow · diastolic time · O₂ content<BR ALIGN="LEFT"/>Ischemia = supply &lt; demand (reversible)<BR ALIGN="LEFT"/>>];
+  plaque [fillcolor="#fff2cc", label=<<B>Coronary atherosclerosis</B><BR ALIGN="LEFT"/>Slow growth → collaterals may form<BR ALIGN="LEFT"/>Collaterals can't cover sudden occlusion<BR ALIGN="LEFT"/>>];
+  stable [fillcolor="#ddebf7", label=<<B>Stable angina</B><BR ALIGN="LEFT"/>Fixed narrowing · exertion, stress, cold, meals<BR ALIGN="LEFT"/>Predictable · relieved by rest / SL nitro<BR ALIGN="LEFT"/>>];
+  variant[fillcolor="#ddebf7", label=<<B>Variant angina</B><BR ALIGN="LEFT"/>Coronary vasospasm · at rest, early morning<BR ALIGN="LEFT"/>CCBs prevent · nitrates relieve<BR ALIGN="LEFT"/>Avoid beta blockers<BR ALIGN="LEFT"/>>];
+  nbc    [fillcolor="#bdd7ee", label=<<B>NBC antianginals</B><BR ALIGN="LEFT"/>Nitrates: venodilation → ↓ preload<BR ALIGN="LEFT"/>β-blockers: ↓ HR &amp; contractility<BR ALIGN="LEFT"/>Amlodipine ↓ afterload · verapamil/diltiazem slow the heart<BR ALIGN="LEFT"/>>];
+  safety [fillcolor="#e4dfec", label=<<B>Drug safety</B><BR ALIGN="LEFT"/>Nitrate + PDE-5 inhibitor → profound ↓ BP<BR ALIGN="LEFT"/>Nitrate-free interval (tolerance)<BR ALIGN="LEFT"/>Don't stop β-blockers abruptly<BR ALIGN="LEFT"/>Non-DHP: bradycardia, AV block · DHP: edema<BR ALIGN="LEFT"/>>];
+  rupture[fillcolor="#fce4d6", label=<<B>ACS cascade</B><BR ALIGN="LEFT"/>Plaque rupture / erosion<BR ALIGN="LEFT"/>Platelets + coagulation → thrombus<BR ALIGN="LEFT"/>↓ coronary flow → ischemia<BR ALIGN="LEFT"/>>];
+  workup [fillcolor="#fce4d6", label=<<B>Chest pain workup</B><BR ALIGN="LEFT"/>ECG first · serial ECGs<BR ALIGN="LEFT"/>Serial troponins (rise/fall)<BR ALIGN="LEFT"/>Troponin = injury, not cause<BR ALIGN="LEFT"/>>];
+  uansti [fillcolor="#f8cbad", label=<<B>UA / NSTEMI</B><BR ALIGN="LEFT"/>UA: no necrosis · NSTEMI: troponin ↑<BR ALIGN="LEFT"/>No persistent ST elevation<BR ALIGN="LEFT"/>Antiplatelet · anticoagulant · nitro/β · statin<BR ALIGN="LEFT"/>NO fibrinolytics<BR ALIGN="LEFT"/>>];
+  stemi  [fillcolor="#f8cbad", label=<<B>STEMI</B><BR ALIGN="LEFT"/>Troponin ↑ + persistent ST elevation<BR ALIGN="LEFT"/>Usually full wall depth<BR ALIGN="LEFT"/>Emergency reperfusion<BR ALIGN="LEFT"/>>];
+  mi     [fillcolor="#e4dfec", label=<<B>MI presentation</B><BR ALIGN="LEFT"/>Pressure at rest, radiating · dyspnea, sweat, nausea<BR ALIGN="LEFT"/>Older adults, diabetes: minimal/no chest pain<BR ALIGN="LEFT"/>Women: nausea, dyspnea, fatigue<BR ALIGN="LEFT"/>>];
+  reperf [fillcolor="#e2efda", label=<<B>Reperfusion</B><BR ALIGN="LEFT"/>Primary PCI preferred when prompt<BR ALIGN="LEFT"/>Fibrinolytics if no timely PCI (bleeding risk)<BR ALIGN="LEFT"/>Time is myocardium<BR ALIGN="LEFT"/>O₂ only if hypoxemic<BR ALIGN="LEFT"/>>];
+  conseq [fillcolor="#e4dfec", label=<<B>Consequences of MI</B><BR ALIGN="LEFT"/>↓ contractility → ↓ SV, CO, EF<BR ALIGN="LEFT"/>Dysrhythmias · remodeling<BR ALIGN="LEFT"/>Heart failure · cardiogenic shock<BR ALIGN="LEFT"/>>];
+
+  plaque -> sd     [label=" limits supply"];
+  sd -> stable     [label=" demand outruns supply"];
+  sd -> variant    [label=" spasm cuts supply"];
+  stable -> nbc    [label=" treated with"];
+  variant -> nbc   [label=" CCB, nitrate"];
+  nbc -> safety    [label=" watch for"];
+  plaque -> rupture[label=" unstable plaque"];
+  rupture -> workup[label=" chest pain"];
+  workup -> uansti [label=" no ST↑"];
+  workup -> stemi  [label=" ST↑"];
+  stemi -> reperf  [label=" restore flow"];
+  stemi -> mi      [label=" presents as"];
+  reperf -> conseq [label=" limits"];
+  uansti -> conseq [label=" may progress"];
+}

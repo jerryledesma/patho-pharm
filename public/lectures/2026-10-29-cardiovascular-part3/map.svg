@@ -1,0 +1,225 @@
+<svg id="cmap" width="1107pt" height="702pt"
+ viewBox="0.00 0.00 1107.00 702.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 680.44)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-680.44 1085.68,-680.44 1085.68,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="243.42" y="-638.84" font-family="Helvetica,sans-Serif" font-size="16.00">Cardiovascular III: Angina, ACS &amp; MI — Concept Map (NURS 419, Lecture 10/29/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="110.17" y="-619.64" font-family="Helvetica,sans-Serif" font-size="16.00">UA: no troponin, no ST↑ · NSTEMI: troponin, no ST↑ · STEMI: troponin + ST↑ → reperfuse · never nitrates + PDE&#45;5 inhibitors</text>
+<!-- sd -->
+<g id="node1" class="node">
+<title>sd</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M452.34,-522.72C452.34,-522.72 222.86,-522.72 222.86,-522.72 216.86,-522.72 210.86,-516.72 210.86,-510.72 210.86,-510.72 210.86,-479.2 210.86,-479.2 210.86,-473.2 216.86,-467.2 222.86,-467.2 222.86,-467.2 452.34,-467.2 452.34,-467.2 458.34,-467.2 464.34,-473.2 464.34,-479.2 464.34,-479.2 464.34,-510.72 464.34,-510.72 464.34,-516.72 458.34,-522.72 452.34,-522.72"/>
+<text xml:space="preserve" text-anchor="start" x="221.66" y="-508.06" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">O₂ supply vs demand</text>
+<text xml:space="preserve" text-anchor="start" x="221.66" y="-497.06" font-family="Helvetica,sans-Serif" font-size="11.00">Demand: HR · contractility · wall stress</text>
+<text xml:space="preserve" text-anchor="start" x="221.66" y="-486.06" font-family="Helvetica,sans-Serif" font-size="11.00">Supply: coronary flow · diastolic time · O₂ content</text>
+<text xml:space="preserve" text-anchor="start" x="221.66" y="-475.06" font-family="Helvetica,sans-Serif" font-size="11.00">Ischemia = supply &lt; demand (reversible)</text>
+</g>
+<!-- stable -->
+<g id="node3" class="node">
+<title>stable</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M215.19,-416.5C215.19,-416.5 12,-416.5 12,-416.5 6,-416.5 0,-410.5 0,-404.5 0,-404.5 0,-383.98 0,-383.98 0,-377.98 6,-371.98 12,-371.98 12,-371.98 215.19,-371.98 215.19,-371.98 221.19,-371.98 227.19,-377.98 227.19,-383.98 227.19,-383.98 227.19,-404.5 227.19,-404.5 227.19,-410.5 221.19,-416.5 215.19,-416.5"/>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-401.84" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Stable angina</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-390.84" font-family="Helvetica,sans-Serif" font-size="11.00">Fixed narrowing · exertion, stress, cold, meals</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-379.84" font-family="Helvetica,sans-Serif" font-size="11.00">Predictable · relieved by rest / SL nitro</text>
+</g>
+<!-- sd&#45;&gt;stable -->
+<g id="edge2" class="edge">
+<title>sd&#45;&gt;stable</title>
+<path fill="none" stroke="#555555" d="M272.96,-466.69C261.04,-461.59 248.73,-456.27 237.19,-451.2 214.72,-441.33 190.06,-430.22 168.73,-420.52"/>
+<polygon fill="#555555" stroke="#555555" points="169.79,-418.31 162.4,-417.64 167.76,-422.77 169.79,-418.31"/>
+<text xml:space="preserve" text-anchor="middle" x="289.89" y="-441.3" font-family="Helvetica,sans-Serif" font-size="11.00"> demand outruns supply</text>
+</g>
+<!-- variant -->
+<g id="node4" class="node">
+<title>variant</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M458.92,-422C458.92,-422 264.28,-422 264.28,-422 258.28,-422 252.28,-416 252.28,-410 252.28,-410 252.28,-378.48 252.28,-378.48 252.28,-372.48 258.28,-366.48 264.28,-366.48 264.28,-366.48 458.92,-366.48 458.92,-366.48 464.92,-366.48 470.92,-372.48 470.92,-378.48 470.92,-378.48 470.92,-410 470.92,-410 470.92,-416 464.92,-422 458.92,-422"/>
+<text xml:space="preserve" text-anchor="start" x="263.08" y="-407.34" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Variant angina</text>
+<text xml:space="preserve" text-anchor="start" x="263.08" y="-396.34" font-family="Helvetica,sans-Serif" font-size="11.00">Coronary vasospasm · at rest, early morning</text>
+<text xml:space="preserve" text-anchor="start" x="263.08" y="-385.34" font-family="Helvetica,sans-Serif" font-size="11.00">CCBs prevent · nitrates relieve</text>
+<text xml:space="preserve" text-anchor="start" x="263.08" y="-374.34" font-family="Helvetica,sans-Serif" font-size="11.00">Avoid beta blockers</text>
+</g>
+<!-- sd&#45;&gt;variant -->
+<g id="edge3" class="edge">
+<title>sd&#45;&gt;variant</title>
+<path fill="none" stroke="#555555" d="M344.22,-466.72C346.95,-455.5 350.14,-442.36 353.04,-430.42"/>
+<polygon fill="#555555" stroke="#555555" points="355.37,-431.24 354.64,-423.86 350.61,-430.08 355.37,-431.24"/>
+<text xml:space="preserve" text-anchor="middle" x="392.44" y="-441.3" font-family="Helvetica,sans-Serif" font-size="11.00"> spasm cuts supply</text>
+</g>
+<!-- plaque -->
+<g id="node2" class="node">
+<title>plaque</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M544.75,-612.44C544.75,-612.44 370.45,-612.44 370.45,-612.44 364.45,-612.44 358.45,-606.44 358.45,-600.44 358.45,-600.44 358.45,-579.92 358.45,-579.92 358.45,-573.92 364.45,-567.92 370.45,-567.92 370.45,-567.92 544.75,-567.92 544.75,-567.92 550.75,-567.92 556.75,-573.92 556.75,-579.92 556.75,-579.92 556.75,-600.44 556.75,-600.44 556.75,-606.44 550.75,-612.44 544.75,-612.44"/>
+<text xml:space="preserve" text-anchor="start" x="369.25" y="-597.78" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Coronary atherosclerosis</text>
+<text xml:space="preserve" text-anchor="start" x="369.25" y="-586.78" font-family="Helvetica,sans-Serif" font-size="11.00">Slow growth → collaterals may form</text>
+<text xml:space="preserve" text-anchor="start" x="369.25" y="-575.78" font-family="Helvetica,sans-Serif" font-size="11.00">Collaterals can&#39;t cover sudden occlusion</text>
+</g>
+<!-- plaque&#45;&gt;sd -->
+<g id="edge1" class="edge">
+<title>plaque&#45;&gt;sd</title>
+<path fill="none" stroke="#555555" d="M429.46,-567.32C414.42,-555.64 395.61,-541.03 378.93,-528.07"/>
+<polygon fill="#555555" stroke="#555555" points="380.65,-526.3 373.62,-523.94 377.64,-530.17 380.65,-526.3"/>
+<text xml:space="preserve" text-anchor="middle" x="438.29" y="-542.02" font-family="Helvetica,sans-Serif" font-size="11.00"> limits supply</text>
+</g>
+<!-- rupture -->
+<g id="node7" class="node">
+<title>rupture</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M654.19,-522.72C654.19,-522.72 501,-522.72 501,-522.72 495,-522.72 489,-516.72 489,-510.72 489,-510.72 489,-479.2 489,-479.2 489,-473.2 495,-467.2 501,-467.2 501,-467.2 654.19,-467.2 654.19,-467.2 660.19,-467.2 666.19,-473.2 666.19,-479.2 666.19,-479.2 666.19,-510.72 666.19,-510.72 666.19,-516.72 660.19,-522.72 654.19,-522.72"/>
+<text xml:space="preserve" text-anchor="start" x="499.8" y="-508.06" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">ACS cascade</text>
+<text xml:space="preserve" text-anchor="start" x="499.8" y="-497.06" font-family="Helvetica,sans-Serif" font-size="11.00">Plaque rupture / erosion</text>
+<text xml:space="preserve" text-anchor="start" x="499.8" y="-486.06" font-family="Helvetica,sans-Serif" font-size="11.00">Platelets + coagulation → thrombus</text>
+<text xml:space="preserve" text-anchor="start" x="499.8" y="-475.06" font-family="Helvetica,sans-Serif" font-size="11.00">↓ coronary flow → ischemia</text>
+</g>
+<!-- plaque&#45;&gt;rupture -->
+<g id="edge7" class="edge">
+<title>plaque&#45;&gt;rupture</title>
+<path fill="none" stroke="#555555" d="M485.73,-567.32C500.78,-555.64 519.59,-541.03 536.26,-528.07"/>
+<polygon fill="#555555" stroke="#555555" points="537.55,-530.17 541.58,-523.94 534.55,-526.3 537.55,-530.17"/>
+<text xml:space="preserve" text-anchor="middle" x="556.93" y="-542.02" font-family="Helvetica,sans-Serif" font-size="11.00"> unstable plaque</text>
+</g>
+<!-- nbc -->
+<g id="node5" class="node">
+<title>nbc</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M415.8,-321.28C415.8,-321.28 149.4,-321.28 149.4,-321.28 143.4,-321.28 137.4,-315.28 137.4,-309.28 137.4,-309.28 137.4,-277.76 137.4,-277.76 137.4,-271.76 143.4,-265.76 149.4,-265.76 149.4,-265.76 415.8,-265.76 415.8,-265.76 421.8,-265.76 427.8,-271.76 427.8,-277.76 427.8,-277.76 427.8,-309.28 427.8,-309.28 427.8,-315.28 421.8,-321.28 415.8,-321.28"/>
+<text xml:space="preserve" text-anchor="start" x="148.2" y="-306.62" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">NBC antianginals</text>
+<text xml:space="preserve" text-anchor="start" x="148.2" y="-295.62" font-family="Helvetica,sans-Serif" font-size="11.00">Nitrates: venodilation → ↓ preload</text>
+<text xml:space="preserve" text-anchor="start" x="148.2" y="-284.62" font-family="Helvetica,sans-Serif" font-size="11.00">β&#45;blockers: ↓ HR &amp; contractility</text>
+<text xml:space="preserve" text-anchor="start" x="148.2" y="-273.62" font-family="Helvetica,sans-Serif" font-size="11.00">Amlodipine ↓ afterload · verapamil/diltiazem slow the heart</text>
+</g>
+<!-- stable&#45;&gt;nbc -->
+<g id="edge4" class="edge">
+<title>stable&#45;&gt;nbc</title>
+<path fill="none" stroke="#555555" d="M150.69,-371.58C173.6,-358.19 203.39,-340.79 228.86,-325.91"/>
+<polygon fill="#555555" stroke="#555555" points="229.81,-328.19 234.62,-322.55 227.34,-323.96 229.81,-328.19"/>
+<text xml:space="preserve" text-anchor="middle" x="235.7" y="-340.58" font-family="Helvetica,sans-Serif" font-size="11.00"> treated with</text>
+</g>
+<!-- variant&#45;&gt;nbc -->
+<g id="edge5" class="edge">
+<title>variant&#45;&gt;nbc</title>
+<path fill="none" stroke="#555555" d="M339.8,-366C330.39,-354.24 319.29,-340.37 309.38,-327.99"/>
+<polygon fill="#555555" stroke="#555555" points="311.55,-326.78 305.27,-322.85 307.73,-329.85 311.55,-326.78"/>
+<text xml:space="preserve" text-anchor="middle" x="356.01" y="-340.58" font-family="Helvetica,sans-Serif" font-size="11.00"> CCB, nitrate</text>
+</g>
+<!-- safety -->
+<g id="node6" class="node">
+<title>safety</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M390.61,-167.24C390.61,-167.24 174.59,-167.24 174.59,-167.24 168.59,-167.24 162.59,-161.24 162.59,-155.24 162.59,-155.24 162.59,-112.72 162.59,-112.72 162.59,-106.72 168.59,-100.72 174.59,-100.72 174.59,-100.72 390.61,-100.72 390.61,-100.72 396.61,-100.72 402.61,-106.72 402.61,-112.72 402.61,-112.72 402.61,-155.24 402.61,-155.24 402.61,-161.24 396.61,-167.24 390.61,-167.24"/>
+<text xml:space="preserve" text-anchor="start" x="173.39" y="-152.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Drug safety</text>
+<text xml:space="preserve" text-anchor="start" x="173.39" y="-141.58" font-family="Helvetica,sans-Serif" font-size="11.00">Nitrate + PDE&#45;5 inhibitor → profound ↓ BP</text>
+<text xml:space="preserve" text-anchor="start" x="173.39" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">Nitrate&#45;free interval (tolerance)</text>
+<text xml:space="preserve" text-anchor="start" x="173.39" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">Don&#39;t stop β&#45;blockers abruptly</text>
+<text xml:space="preserve" text-anchor="start" x="173.39" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">Non&#45;DHP: bradycardia, AV block · DHP: edema</text>
+</g>
+<!-- nbc&#45;&gt;safety -->
+<g id="edge6" class="edge">
+<title>nbc&#45;&gt;safety</title>
+<path fill="none" stroke="#555555" d="M282.6,-265.44C282.6,-240.88 282.6,-204.33 282.6,-176.15"/>
+<polygon fill="#555555" stroke="#555555" points="285.05,-176.22 282.6,-169.22 280.15,-176.22 285.05,-176.22"/>
+<text xml:space="preserve" text-anchor="middle" x="304.89" y="-213.2" font-family="Helvetica,sans-Serif" font-size="11.00"> watch for</text>
+</g>
+<!-- workup -->
+<g id="node8" class="node">
+<title>workup</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M639.22,-422C639.22,-422 515.97,-422 515.97,-422 509.97,-422 503.97,-416 503.97,-410 503.97,-410 503.97,-378.48 503.97,-378.48 503.97,-372.48 509.97,-366.48 515.97,-366.48 515.97,-366.48 639.22,-366.48 639.22,-366.48 645.22,-366.48 651.22,-372.48 651.22,-378.48 651.22,-378.48 651.22,-410 651.22,-410 651.22,-416 645.22,-422 639.22,-422"/>
+<text xml:space="preserve" text-anchor="start" x="514.77" y="-407.34" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Chest pain workup</text>
+<text xml:space="preserve" text-anchor="start" x="514.77" y="-396.34" font-family="Helvetica,sans-Serif" font-size="11.00">ECG first · serial ECGs</text>
+<text xml:space="preserve" text-anchor="start" x="514.77" y="-385.34" font-family="Helvetica,sans-Serif" font-size="11.00">Serial troponins (rise/fall)</text>
+<text xml:space="preserve" text-anchor="start" x="514.77" y="-374.34" font-family="Helvetica,sans-Serif" font-size="11.00">Troponin = injury, not cause</text>
+</g>
+<!-- rupture&#45;&gt;workup -->
+<g id="edge8" class="edge">
+<title>rupture&#45;&gt;workup</title>
+<path fill="none" stroke="#555555" d="M577.6,-466.72C577.6,-455.61 577.6,-442.61 577.6,-430.76"/>
+<polygon fill="#555555" stroke="#555555" points="580.05,-430.9 577.6,-423.9 575.15,-430.9 580.05,-430.9"/>
+<text xml:space="preserve" text-anchor="middle" x="601.12" y="-441.3" font-family="Helvetica,sans-Serif" font-size="11.00"> chest pain</text>
+</g>
+<!-- uansti -->
+<g id="node9" class="node">
+<title>uansti</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M605.07,-249.76C605.07,-249.76 410.12,-249.76 410.12,-249.76 404.12,-249.76 398.12,-243.76 398.12,-237.76 398.12,-237.76 398.12,-195.24 398.12,-195.24 398.12,-189.24 404.12,-183.24 410.12,-183.24 410.12,-183.24 605.07,-183.24 605.07,-183.24 611.07,-183.24 617.07,-189.24 617.07,-195.24 617.07,-195.24 617.07,-237.76 617.07,-237.76 617.07,-243.76 611.07,-249.76 605.07,-249.76"/>
+<text xml:space="preserve" text-anchor="start" x="408.93" y="-235.1" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">UA / NSTEMI</text>
+<text xml:space="preserve" text-anchor="start" x="408.93" y="-224.1" font-family="Helvetica,sans-Serif" font-size="11.00">UA: no necrosis · NSTEMI: troponin ↑</text>
+<text xml:space="preserve" text-anchor="start" x="408.93" y="-213.1" font-family="Helvetica,sans-Serif" font-size="11.00">No persistent ST elevation</text>
+<text xml:space="preserve" text-anchor="start" x="408.93" y="-202.1" font-family="Helvetica,sans-Serif" font-size="11.00">Antiplatelet · anticoagulant · nitro/β · statin</text>
+<text xml:space="preserve" text-anchor="start" x="408.93" y="-191.1" font-family="Helvetica,sans-Serif" font-size="11.00">NO fibrinolytics</text>
+</g>
+<!-- workup&#45;&gt;uansti -->
+<g id="edge9" class="edge">
+<title>workup&#45;&gt;uansti</title>
+<path fill="none" stroke="#555555" d="M566.81,-366.17C555.31,-337.29 536.96,-291.22 523.74,-258.02"/>
+<polygon fill="#555555" stroke="#555555" points="526.09,-257.3 521.22,-251.7 521.53,-259.11 526.09,-257.3"/>
+<text xml:space="preserve" text-anchor="middle" x="578.69" y="-340.58" font-family="Helvetica,sans-Serif" font-size="11.00"> no ST↑</text>
+</g>
+<!-- stemi -->
+<g id="node10" class="node">
+<title>stemi</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M778.62,-321.28C778.62,-321.28 616.57,-321.28 616.57,-321.28 610.57,-321.28 604.57,-315.28 604.57,-309.28 604.57,-309.28 604.57,-277.76 604.57,-277.76 604.57,-271.76 610.57,-265.76 616.57,-265.76 616.57,-265.76 778.62,-265.76 778.62,-265.76 784.62,-265.76 790.62,-271.76 790.62,-277.76 790.62,-277.76 790.62,-309.28 790.62,-309.28 790.62,-315.28 784.62,-321.28 778.62,-321.28"/>
+<text xml:space="preserve" text-anchor="start" x="615.37" y="-306.62" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">STEMI</text>
+<text xml:space="preserve" text-anchor="start" x="615.37" y="-295.62" font-family="Helvetica,sans-Serif" font-size="11.00">Troponin ↑ + persistent ST elevation</text>
+<text xml:space="preserve" text-anchor="start" x="615.37" y="-284.62" font-family="Helvetica,sans-Serif" font-size="11.00">Usually full wall depth</text>
+<text xml:space="preserve" text-anchor="start" x="615.37" y="-273.62" font-family="Helvetica,sans-Serif" font-size="11.00">Emergency reperfusion</text>
+</g>
+<!-- workup&#45;&gt;stemi -->
+<g id="edge10" class="edge">
+<title>workup&#45;&gt;stemi</title>
+<path fill="none" stroke="#555555" d="M610.71,-366C625.4,-353.92 642.8,-339.6 658.15,-326.97"/>
+<polygon fill="#555555" stroke="#555555" points="659.58,-328.97 663.43,-322.63 656.47,-325.18 659.58,-328.97"/>
+<text xml:space="preserve" text-anchor="middle" x="656.7" y="-340.58" font-family="Helvetica,sans-Serif" font-size="11.00"> ST↑</text>
+</g>
+<!-- conseq -->
+<g id="node13" class="node">
+<title>conseq</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M580.7,-55.52C580.7,-55.52 436.5,-55.52 436.5,-55.52 430.5,-55.52 424.5,-49.52 424.5,-43.52 424.5,-43.52 424.5,-12 424.5,-12 424.5,-6 430.5,0 436.5,0 436.5,0 580.7,0 580.7,0 586.7,0 592.7,-6 592.7,-12 592.7,-12 592.7,-43.52 592.7,-43.52 592.7,-49.52 586.7,-55.52 580.7,-55.52"/>
+<text xml:space="preserve" text-anchor="start" x="435.3" y="-40.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Consequences of MI</text>
+<text xml:space="preserve" text-anchor="start" x="435.3" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">↓ contractility → ↓ SV, CO, EF</text>
+<text xml:space="preserve" text-anchor="start" x="435.3" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">Dysrhythmias · remodeling</text>
+<text xml:space="preserve" text-anchor="start" x="435.3" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">Heart failure · cardiogenic shock</text>
+</g>
+<!-- uansti&#45;&gt;conseq -->
+<g id="edge14" class="edge">
+<title>uansti&#45;&gt;conseq</title>
+<path fill="none" stroke="#555555" d="M502.44,-182.85C501.79,-177.64 501.24,-172.3 500.89,-167.24 498.85,-137.75 499.31,-130.24 500.89,-100.72 501.53,-88.81 502.75,-75.83 504.04,-64.22"/>
+<polygon fill="#555555" stroke="#555555" points="506.44,-64.78 504.81,-57.54 501.57,-64.22 506.44,-64.78"/>
+<text xml:space="preserve" text-anchor="middle" x="531.74" y="-130.68" font-family="Helvetica,sans-Serif" font-size="11.00"> may progress</text>
+</g>
+<!-- mi -->
+<g id="node11" class="node">
+<title>mi</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M808.5,-161.74C808.5,-161.74 586.69,-161.74 586.69,-161.74 580.69,-161.74 574.69,-155.74 574.69,-149.74 574.69,-149.74 574.69,-118.22 574.69,-118.22 574.69,-112.22 580.69,-106.22 586.69,-106.22 586.69,-106.22 808.5,-106.22 808.5,-106.22 814.5,-106.22 820.5,-112.22 820.5,-118.22 820.5,-118.22 820.5,-149.74 820.5,-149.74 820.5,-155.74 814.5,-161.74 808.5,-161.74"/>
+<text xml:space="preserve" text-anchor="start" x="585.49" y="-147.08" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">MI presentation</text>
+<text xml:space="preserve" text-anchor="start" x="585.49" y="-136.08" font-family="Helvetica,sans-Serif" font-size="11.00">Pressure at rest, radiating · dyspnea, sweat, nausea</text>
+<text xml:space="preserve" text-anchor="start" x="585.49" y="-125.08" font-family="Helvetica,sans-Serif" font-size="11.00">Older adults, diabetes: minimal/no chest pain</text>
+<text xml:space="preserve" text-anchor="start" x="585.49" y="-114.08" font-family="Helvetica,sans-Serif" font-size="11.00">Women: nausea, dyspnea, fatigue</text>
+</g>
+<!-- stemi&#45;&gt;mi -->
+<g id="edge12" class="edge">
+<title>stemi&#45;&gt;mi</title>
+<path fill="none" stroke="#555555" d="M697.6,-265.44C697.6,-239.17 697.6,-199.19 697.6,-170.41"/>
+<polygon fill="#555555" stroke="#555555" points="700.05,-170.75 697.6,-163.75 695.15,-170.75 700.05,-170.75"/>
+<text xml:space="preserve" text-anchor="middle" x="722.95" y="-213.2" font-family="Helvetica,sans-Serif" font-size="11.00"> presents as</text>
+</g>
+<!-- reperf -->
+<g id="node12" class="node">
+<title>reperf</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M1052.08,-167.24C1052.08,-167.24 857.11,-167.24 857.11,-167.24 851.11,-167.24 845.11,-161.24 845.11,-155.24 845.11,-155.24 845.11,-112.72 845.11,-112.72 845.11,-106.72 851.11,-100.72 857.11,-100.72 857.11,-100.72 1052.08,-100.72 1052.08,-100.72 1058.08,-100.72 1064.08,-106.72 1064.08,-112.72 1064.08,-112.72 1064.08,-155.24 1064.08,-155.24 1064.08,-161.24 1058.08,-167.24 1052.08,-167.24"/>
+<text xml:space="preserve" text-anchor="start" x="855.91" y="-152.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Reperfusion</text>
+<text xml:space="preserve" text-anchor="start" x="855.91" y="-141.58" font-family="Helvetica,sans-Serif" font-size="11.00">Primary PCI preferred when prompt</text>
+<text xml:space="preserve" text-anchor="start" x="855.91" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">Fibrinolytics if no timely PCI (bleeding risk)</text>
+<text xml:space="preserve" text-anchor="start" x="855.91" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">Time is myocardium</text>
+<text xml:space="preserve" text-anchor="start" x="855.91" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">O₂ only if hypoxemic</text>
+</g>
+<!-- stemi&#45;&gt;reperf -->
+<g id="edge11" class="edge">
+<title>stemi&#45;&gt;reperf</title>
+<path fill="none" stroke="#555555" d="M742.07,-265.26C784.16,-239.46 847.66,-200.53 894.3,-171.94"/>
+<polygon fill="#555555" stroke="#555555" points="895.36,-174.17 900.05,-168.42 892.8,-169.99 895.36,-174.17"/>
+<text xml:space="preserve" text-anchor="middle" x="899.26" y="-213.2" font-family="Helvetica,sans-Serif" font-size="11.00"> restore flow</text>
+</g>
+<!-- reperf&#45;&gt;conseq -->
+<g id="edge13" class="edge">
+<title>reperf&#45;&gt;conseq</title>
+<path fill="none" stroke="#555555" d="M844.59,-103.67C840.54,-102.67 836.54,-101.68 832.6,-100.72 754.88,-81.82 666.18,-62.26 601.26,-48.31"/>
+<polygon fill="#555555" stroke="#555555" points="601.9,-45.94 594.54,-46.87 600.87,-50.73 601.9,-45.94"/>
+<text xml:space="preserve" text-anchor="middle" x="775.73" y="-74.82" font-family="Helvetica,sans-Serif" font-size="11.00"> limits</text>
+</g>
+</g>
+</svg>
