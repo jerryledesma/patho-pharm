@@ -315,6 +315,9 @@ subagent per lecture works well), then `python3 tools/build-exams.py <items-dir>
 `npm run build`, `npm run smoke`. Never rebuild a published exam — its ids are in the ledger; add new exams instead.
 Questions must be new (not reworded practice/clinical items) and follow every content rule above.
 
+For a graduate-format unit exam across a block of lectures (fixed form, blueprint, case-based sets), follow
+`tools/reference/unit-exam-brief.md` and assemble with `tools/build-unit-exam.py`.
+
 ## Adding a supplement to an existing lecture
 
 When intake reports **add-only**:

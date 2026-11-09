@@ -41,6 +41,20 @@
     "2026-10-08-pulmonary-disorders"
    ],
    "minutes": 90
+  },
+  {
+   "id": "exam-4",
+   "title": "Cardiovascular Unit Exam",
+   "format": "graduate",
+   "questions": 75,
+   "lectures": [
+    "2026-10-15-cardiovascular-pathophysiology",
+    "2026-10-22-cardiovascular-part2",
+    "2026-10-29-cardiovascular-part3",
+    "2026-10-29-cardiovascular-part4",
+    "2026-11-05-cardiovascular-part5"
+   ],
+   "minutes": 120
   }
  ]
 }

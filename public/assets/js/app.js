@@ -326,7 +326,7 @@ function examCards(pg){
   EXAMS.forEach(x=>{
     const nums=x.lectures.map(id=>lecNum(id)?.num).filter(Boolean).sort((a,b)=>a-b);
     const b=el('button',{class:'lecture-card',style:'background:var(--yel)',onclick:()=>go(`#/exam/${x.id}`)});
-    b.append(el('div',{class:'t',html:x.title}), el('div',{class:'m',html:`${x.questions} NCLEX-style questions · lectures ${nums[0]}–${nums[nums.length-1]}`}));
+    b.append(el('div',{class:'t',html:x.title}), el('div',{class:'m',html:`${x.questions} ${x.format==='graduate'?'graduate-level questions':'NCLEX-style questions'} · lectures ${nums[0]}–${nums[nums.length-1]}`}));
     const r=results(x.id), live=Sync.session(EX,x.id);
     if(live) b.append(el('div',{class:'m',html:`<b>in progress · question ${live.i+1} of ${live.order.length}</b>`}));
     else if(r.length) b.append(el('div',{class:'m',html:`<b>last score ${pct(r[0].correct,r[0].total)}%</b> · best ${Math.max(...r.map(v=>pct(v.correct,v.total)))}% · ${r.length} attempt${r.length>1?'s':''}`}));
@@ -349,15 +349,18 @@ function examIntro(X){
   const pg=el('section',{class:'page'});
   pg.append(el('h2',{class:'banner yel',html:X.title.toLowerCase()}));
   const lecs=X.lectures.map(lecNum).filter(Boolean).sort((a,b)=>a.num-b.num);
-  pg.append(el('p',{html:`<b>${X.items.length} questions</b>, ${X.items.length/lecs.length} from each lecture: ${lecs.map(l=>`${l.num} · ${l.title}`).join('; ')}.`}));
-  pg.append(el('p',{html:'Like the NCLEX: one question at a time in mixed order, <b>no answers shown until the end</b>, and no going back once you move on. Select-all items count only when every choice is right. At the end you get your score by lecture, by kind of question and by topic, with what to review and every missed question explained.'}));
+  if(X.format==='graduate') gradIntro(X,pg,lecs);
+  else {
+    pg.append(el('p',{html:`<b>${X.items.length} questions</b>, ${X.items.length/lecs.length} from each lecture: ${lecs.map(l=>`${l.num} · ${l.title}`).join('; ')}.`}));
+    pg.append(el('p',{html:'Like the NCLEX: one question at a time in mixed order, <b>no answers shown until the end</b>, and no going back once you move on. Select-all items count only when every choice is right. At the end you get your score by lecture, by kind of question and by topic, with what to review and every missed question explained.'}));
+  }
   const live=Sync.session(EX,X.id);
   if(live){
     const left = live.deadline ? Math.max(0,(live.deadline-Date.now())/1000) : null;
     pg.append(el('button',{class:'lecture-card',style:'background:var(--yel)',onclick:()=>runExam(X,live)}, el('div',{class:'t',html:'Resume exam'}), el('div',{class:'m',html:`question ${live.i+1} of ${live.order.length}${left!=null?` · ${fmtMin(left)} left`:''}`})));
   }
   const timed=el('input',{type:'checkbox',id:'timed'}); timed.checked=true;
-  pg.append(el('label',{class:'m',for:'timed',style:'display:flex;gap:.5rem;align-items:center;margin:1rem 0'}, timed, el('span',{html:`Timed — ${X.minutes} minutes (about 1½ minutes a question). When time runs out, unanswered questions count as missed.`})));
+  pg.append(el('label',{class:'m',for:'timed',style:'display:flex;gap:.5rem;align-items:center;margin:1rem 0'}, timed, el('span',{html:`Timed — ${X.minutes} minutes (${X.format==='graduate'?`about ${(X.minutes/X.items.length).toFixed(1)} minutes a question`:'about 1½ minutes a question'}). When time runs out, unanswered questions count as missed.`})));
   pg.append(el('div',{class:'qnav',style:'justify-content:flex-start'},
     el('button',{class:'btn primary',html:live?'Start over':'Start exam',onclick:()=>{ if(live) Sync.put(EX,'sessions',X.id,{fin:1}); runExam(X,null,timed.checked); }}),
     el('button',{class:'btn ghost',html:'Home',onclick:()=>go('#/')})));
@@ -370,6 +373,7 @@ function examIntro(X){
 }
 
 function runExam(X, resume, timed){
+  if(X.format==='graduate') return runGradExam(X,resume,timed);
   const byId=new Map(X.items.map(q=>[q.id,q]));
   const s = resume || { order: shuffle(X.items.map(q=>q.id)), i:0, answers:{}, start:Date.now(), deadline: timed ? Date.now()+X.minutes*60000 : 0 };
   const save=()=>Sync.put(EX,'sessions',X.id,{order:s.order,i:s.i,answers:s.answers,start:s.start,deadline:s.deadline});
@@ -399,20 +403,92 @@ function runExam(X, resume, timed){
     const upd=()=>{ if(s.deadline){ const left=(s.deadline-Date.now())/1000; clock.textContent=`⏱ ${fmtMin(Math.max(0,left))}`; if(left<=0){ clearInterval(tick); s.i=n; save(); render(); } } else clock.textContent=`⏱ ${fmtMin((Date.now()-s.start)/1000)}`; };
     upd(); tick=setInterval(upd,1000);
   }
-  function submit(){
-    let correct=0; const missed=[];
-    for(const id of s.order){
-      const q=byId.get(id), a=s.answers[id]||'';
-      const ok = a===parseAns(q.answer).sort().join(', ');
-      if(ok) correct++; else missed.push(id);
-      const prev=Sync.item(EX,id)||{};
-      if(a) Sync.put(EX,'items',id,{a:(prev.a||0)+1,c:(prev.c||0)+(ok?1:0),last:ok?1:0});
-    }
-    const r={correct,total:s.order.length,answers:s.answers,missed,secs:Math.round((Math.min(Date.now(),s.deadline||Infinity)-s.start)/1000),t:Date.now()};
-    Sync.put(EX,'sessions',`${X.id}:result:${s.start}`,r);
-    Sync.put(EX,'sessions',X.id,{fin:1});
-    if(location.hash!==`#/exam/${X.id}/results`) history.replaceState(null,'',`#/exam/${X.id}/results`);
-    examResults(X,{...r,t:Date.now()});
+  function submit(){ finishExam(X,s,byId); }
+  render();
+}
+
+// Score a finished session, store the attempt and show the results (shared by both exam formats).
+function finishExam(X, s, byId){
+  let correct=0; const missed=[];
+  for(const id of s.order){
+    const q=byId.get(id), a=s.answers[id]||'';
+    const ok = a===parseAns(q.answer).sort().join(', ');
+    if(ok) correct++; else missed.push(id);
+    const prev=Sync.item(EX,id)||{};
+    if(a) Sync.put(EX,'items',id,{a:(prev.a||0)+1,c:(prev.c||0)+(ok?1:0),last:ok?1:0});
+  }
+  const r={correct,total:s.order.length,answers:s.answers,missed,secs:Math.round((Math.min(Date.now(),s.deadline||Infinity)-s.start)/1000),t:Date.now()};
+  Sync.put(EX,'sessions',`${X.id}:result:${s.start}`,r);
+  Sync.put(EX,'sessions',X.id,{fin:1});
+  if(location.hash!==`#/exam/${X.id}/results`) history.replaceState(null,'',`#/exam/${X.id}/results`);
+  examResults(X,{...r,t:Date.now()});
+}
+
+// ---------- graduate format ----------
+// A fixed form (format: "graduate"): sections in a set order, case-based item sets that stay together, free movement
+// between questions, flag-for-review, and a review screen before submitting. No feedback until submission.
+function gradIntro(X, pg, lecs){
+  pg.append(el('p',{html:`<b>${X.items.length} questions</b> on ${lecs.length} lectures (${lecs.map(l=>`${l.num} · ${l.title}`).join('; ')}).`}));
+  const t=el('table',{class:'hand small'});
+  t.append(el('tr',{html:'<th>section</th><th>questions</th><th>format</th>'}));
+  X.sections.forEach(c=>t.append(el('tr',{html:`<td>${c.n} · ${c.title}</td><td>${X.items.filter(q=>q.section===c.n).length}</td><td>${c.note}</td>`})));
+  pg.append(t);
+  pg.append(el('p',{html:'A fixed form taken in one sitting: <b>no answers shown until you submit</b>. Move back and forth freely, flag anything to revisit, and check the review screen before submitting. Select-all items count only when every choice is right.'}));
+  if(X.benchmark) pg.append(el('p',{html:`Study benchmark: <b>${X.benchmark}%</b>. This is a target for this site, not a course grade or cut score.`}));
+}
+
+function runGradExam(X, resume, timed){
+  const byId=new Map(X.items.map(q=>[q.id,q])), order=X.items.map(q=>q.id), n=order.length;
+  const s = resume || { order, i:0, answers:{}, flags:[], start:Date.now(), deadline: timed ? Date.now()+X.minutes*60000 : 0 };
+  s.flags=s.flags||[];
+  const save=()=>Sync.put(EX,'sessions',X.id,{order:s.order,i:s.i,answers:s.answers,flags:s.flags,start:s.start,deadline:s.deadline});
+  if(!resume) save();
+  const m=$('main'); let tick=null;
+  const finish=()=>{ clearInterval(tick); finishExam(X,s,byId); };
+  const startClock=clock=>{ const upd=()=>{
+      if(!location.hash.startsWith(`#/exam/${X.id}`)){ clearInterval(tick); return; }
+      if(s.deadline){ const left=(s.deadline-Date.now())/1000; clock.textContent=`⏱ ${fmtMin(Math.max(0,left))}`; if(left<=0) finish(); }
+      else clock.textContent=`⏱ ${fmtMin((Date.now()-s.start)/1000)}`; };
+    upd(); tick=setInterval(upd,1000); };
+  const to=i=>{ s.i=i; save(); render(); };
+  function render(){ clearInterval(tick); m.innerHTML=''; window.scrollTo(0,0); s.i>=n ? review() : question(); }
+  function question(){
+    const q=byId.get(s.order[s.i]), wrap=el('section',{class:'page'});
+    const pr=el('div',{class:'prog'}); pr.append(el('i',{style:`width:${Object.keys(s.answers).length/n*100}%`})); wrap.append(pr);
+    const sec=X.sections.find(c=>c.n===q.section), clock=el('span');
+    wrap.append(el('div',{class:'m xsec',html:`Section ${sec.n} · ${sec.title}`}));
+    if(q.case){ const c=X.cases[q.case]; wrap.append(el('div',{class:'xcase',html:`<b>${c.title}</b><br>${c.text.replace(/\n/g,'<br>')}`})); }
+    const card=el('div',{class:'qcard'});
+    card.append(el('div',{class:'qmeta'}, el('span',{html:`${s.i+1} / ${n}`}), el('span',{html:q.type==='sata'?'select all that apply':''}), clock));
+    card.append(el('div',{class:'qstem',html:q.stem}));
+    let sel=(s.answers[q.id]||'').split(', ').filter(Boolean);
+    q.options.forEach((o,k)=>{ const letter='ABCDEF'[k];
+      const b=el('button',{class:'opt','aria-pressed':String(sel.includes(letter)),onclick:()=>{
+        if(q.type==='mc'){ sel=[letter]; card.querySelectorAll('.opt').forEach(x=>x.setAttribute('aria-pressed','false')); b.setAttribute('aria-pressed','true'); }
+        else { sel=sel.includes(letter)?sel.filter(x=>x!==letter):[...sel,letter]; b.setAttribute('aria-pressed',String(sel.includes(letter))); }
+        if(sel.length) s.answers[q.id]=[...sel].sort().join(', '); else delete s.answers[q.id];
+        save(); }});
+      b.append(el('span',{class:'l',html:letter}), el('span',{html:o})); card.append(b); });
+    const flagged=()=>s.flags.includes(q.id);
+    const flag=el('button',{class:'btn ghost','aria-pressed':String(flagged()),html:flagged()?'⚑ Flagged':'⚐ Flag',onclick:()=>{ s.flags=flagged()?s.flags.filter(x=>x!==q.id):[...s.flags,q.id]; flag.innerHTML=flagged()?'⚑ Flagged':'⚐ Flag'; flag.setAttribute('aria-pressed',String(flagged())); save(); }});
+    const back=el('button',{class:'btn ghost',html:'← Back',onclick:()=>to(s.i-1)}); if(s.i===0) back.disabled=true;
+    card.append(el('div',{class:'qnav xnav'}, back, flag, el('button',{class:'btn ghost',html:'Review',onclick:()=>to(n)}), el('button',{class:'btn primary',html:s.i===n-1?'Review →':'Next →',onclick:()=>to(s.i+1)})));
+    wrap.append(card); m.append(wrap); startClock(clock);
+  }
+  function review(){
+    const pg=el('section',{class:'page'}), clock=el('span'), left=n-Object.keys(s.answers).length;
+    pg.append(el('h2',{class:'banner yel',html:'review before submitting'}));
+    pg.append(el('p',{class:'m',html:`<b>${n-left}</b> answered · <b>${left}</b> unanswered · <b>${s.flags.length}</b> flagged · `}, clock));
+    X.sections.forEach(c=>{ pg.append(el('h3',{html:`section ${c.n} · ${c.title}`}));
+      const g=el('div',{class:'xgrid'});
+      s.order.forEach((id,i)=>{ if(byId.get(id).section!==c.n) return;
+        const st=[s.answers[id]?'done':'',s.flags.includes(id)?'flag':''].join(' ').trim();
+        g.append(el('button',{class:`xnum ${st}`.trim(),'aria-label':`question ${i+1}${s.answers[id]?', answered':', unanswered'}${s.flags.includes(id)?', flagged':''}`,html:String(i+1),onclick:()=>to(i)})); });
+      pg.append(g); });
+    let armed=false;
+    const go2=el('button',{class:'btn primary',html:'Submit exam',onclick:()=>{ if(left&&!armed){ armed=true; go2.innerHTML=`${left} unanswered will count as missed — tap again to submit`; return; } finish(); }});
+    pg.append(el('div',{class:'qnav',style:'justify-content:flex-start;flex-wrap:wrap'}, el('button',{class:'btn ghost',html:'← Last question',onclick:()=>to(n-1)}), el('button',{class:'btn ghost',html:'Pause',onclick:()=>{ clearInterval(tick); examIntro(X); }}), go2));
+    m.append(pg); startClock(clock);
   }
   render();
 }
@@ -423,16 +499,19 @@ function examResults(X, r){
   const miss=new Set(r.missed);
   pg.append(el('h2',{class:'banner yel',html:`${X.title.toLowerCase()} · results`}));
   const s=el('div',{class:'qcard score'});
-  s.append(el('div',{class:'big-n',html:`${r.correct} / ${r.total}`}), el('div',{class:'lead',html:`${pct(r.correct,r.total)}%${r.secs?` · ${Math.round(r.secs/60)} min`:''}${Object.keys(r.answers).length<r.total?` · ${r.total-Object.keys(r.answers).length} unanswered (time ran out)`:''}`}));
+  s.append(el('div',{class:'big-n',html:`${r.correct} / ${r.total}`}), el('div',{class:'lead',html:`${pct(r.correct,r.total)}%${r.secs?` · ${Math.round(r.secs/60)} min`:''}${Object.keys(r.answers).length<r.total?` · ${r.total-Object.keys(r.answers).length} unanswered${X.format==='graduate'?'':' (time ran out)'}`:''}`}));
+  if(X.benchmark) s.append(el('div',{class:'m',html:pct(r.correct,r.total)>=X.benchmark?`At or above the ${X.benchmark}% study benchmark`:`Below the ${X.benchmark}% study benchmark`}));
   pg.append(s);
   const group = key => { const g=new Map(); for(const q of X.items){ const k=key(q); const v=g.get(k)||{n:0,c:0,ids:[]}; v.n++; if(!miss.has(q.id)) v.c++; v.ids.push(q.id); g.set(k,v); } return g; };
   const bar = (label, v, extra='') => { const row=el('div',{class:'m',style:'margin:.45rem 0'}); const p=pct(v.c,v.n);
     row.append(el('div',{html:`<b>${label}</b> — ${v.c} / ${v.n} (${p}%)${extra}`})); const b=el('div',{class:'prog'}); b.append(el('i',{style:`width:${p}%;background:${p>=80?'var(--mint-d,#5a9)':p>=60?'var(--yel-d,#c90)':'var(--pink-d,#c55)'}`})); row.append(b); return row; };
+  if(X.sections){ pg.append(el('h3',{html:'by section'})); X.sections.forEach(c=>{ const v=group(q=>q.section).get(c.n); if(v) pg.append(bar(`${c.n} · ${c.title}`,v)); }); }
   pg.append(el('h3',{html:'by lecture'}));
   const lecs=[...group(q=>q.lecture)].map(([id,v])=>[lecNum(id),v]).filter(([l])=>l).sort((a,b)=>a[0].num-b[0].num);
   lecs.forEach(([l,v])=>pg.append(bar(`${l.num} · ${l.title}`,v)));
   pg.append(el('h3',{html:'by kind of question'}));
-  [...group(q=>q.kind)].forEach(([k,v])=>pg.append(bar(KIND[k]||k,v)));
+  [...group(q=>q.kind)].forEach(([k,v])=>pg.append(bar(X.kinds?.[k]||KIND[k]||k,v)));
+  if(X.skills){ pg.append(el('h3',{html:'by skill'})); [...group(q=>q.skill)].forEach(([k,v])=>pg.append(bar(X.skills[k]||k,v))); }
   // Topics to review: every topic with a miss, weakest first.
   const topics=[...group(q=>q.lecture+'|'+q.topic)].map(([k,v])=>{ const [lec,topic]=k.split('|'); return {lec,topic,...v}; }).filter(t=>t.c<t.n).sort((a,b)=>a.c/a.n-b.c/b.n||b.n-a.n);
   pg.append(el('h3',{html:'focus on'}));
@@ -451,6 +530,7 @@ function examResults(X, r){
   r.missed.map(id=>byId.get(id)).filter(Boolean).forEach((q,k)=>{
     const c=el('div',{class:'qcard'}); const l=lecNum(q.lecture);
     c.append(el('div',{class:'qmeta'}, el('span',{html:`${k+1}`}), el('span',{html:`lecture ${l?.num??''} · ${q.topic.replace(/-/g,' ')}`})));
+    if(q.case&&X.cases?.[q.case]){ const cs=X.cases[q.case]; c.append(el('div',{class:'xcase',html:`<b>${cs.title}</b><br>${cs.text.replace(/\n/g,'<br>')}`})); }
     c.append(el('div',{class:'qstem',html:q.stem}));
     const ans=parseAns(q.answer), mine=(r.answers[q.id]||'').split(', ').filter(Boolean);
     q.options.forEach((o,i)=>{ const letter='ABCDEF'[i]; const b=el('div',{class:'opt'}); b.append(el('span',{class:'l',html:letter}), el('span',{html:o}));

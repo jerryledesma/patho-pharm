@@ -72,6 +72,23 @@ try {
       await page.goto(`${base}/#/exam/${x.id}`);
       try { await page.waitForSelector('text=Start exam', { timeout: 8000 }); } catch { fails.push(`${w}px exam ${x.id}: intro didn't render`); continue; }
       if (errs.length) fails.push(`${w}px exam ${x.id}: ${errs.slice(0, 2).join(' | ')}`);
+      // Graduate format: answer, flag, go back (the answer must still be there), open the review screen.
+      if (x.format === 'graduate') {
+        try {
+          await page.locator('text=Start exam').click();
+          await page.locator('.opt').first().click();
+          await page.locator('button', { hasText: 'Flag' }).click();
+          await page.locator('button', { hasText: 'Next →' }).click();
+          await page.locator('button', { hasText: '← Back' }).click();
+          if (await page.locator('.opt[aria-pressed=true]').count() !== 1) fails.push(`${w}px exam ${x.id}: answer lost going back`);
+          await page.locator('.qnav button', { hasText: 'Review' }).first().click();
+          await page.waitForSelector('.xgrid');
+          if (await page.locator('.xnum.done.flag').count() !== 1) fails.push(`${w}px exam ${x.id}: review screen lost the flagged answer`);
+          const over = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
+          if (over) fails.push(`${w}px exam ${x.id}: review screen scrolls sideways`);
+          await page.locator('button', { hasText: 'Pause' }).click();
+        } catch (e) { fails.push(`${w}px exam ${x.id}: graduate flow failed — ${e.message.split('\n')[0]}`); }
+      }
     }
     if (exams.length) {
       await page.goto(base + '/#/');
