@@ -1,0 +1,2308 @@
+{
+ "id": "2026-11-05-cardiovascular-part5",
+ "date": "2026-11-05",
+ "title": "Cardiovascular V: Antithrombotic Drugs",
+ "instructor": "Julie Schwind, DNP, RN",
+ "course": "NURS 419 · Patho/Pharm I",
+ "sources": [
+  "audio-01.mp3",
+  "slides.pptx",
+  "supp-01_cardiovascular-part-5-drug-charts.docx",
+  "supp-02_cardiovascular-part-v-study-guide.docx"
+ ],
+ "tiers": {
+  "1": "recall",
+  "2": "application",
+  "3": "drug selection & reversal"
+ },
+ "practice": [
+  {
+   "id": "p-001",
+   "tier": "1",
+   "type": "mc",
+   "stem": "In normal hemostasis, which components do which job?",
+   "options": [
+    "Thrombin forms the initial plug; antithrombin stabilizes it",
+    "Platelets form the initial plug; fibrin stabilizes it",
+    "Platelets form the initial plug; plasmin stabilizes it",
+    "Fibrin forms the initial plug; platelets stabilize it"
+   ],
+   "answer": "B",
+   "rationale": "Primary hemostasis is the platelet plug and secondary hemostasis makes the fibrin that stabilizes it, so both are needed for effective hemostasis. The swapped version reverses the order, plasmin breaks fibrin down rather than stabilizing anything, and antithrombin limits clotting.",
+   "src": "slide 4 + 00:01:15"
+  },
+  {
+   "id": "p-002",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Heparin and enoxaparin (Lovenox) work by enhancing which natural protein?",
+   "options": [
+    "Plasminogen, which is converted to plasmin inside a clot",
+    "Antithrombin, which inactivates thrombin and factor Xa",
+    "von Willebrand factor, which helps platelets adhere",
+    "Plasmin, which breaks down the fibrin mesh in a clot"
+   ],
+   "answer": "B",
+   "rationale": "Antithrombin is the naturally occurring anticoagulant that keeps clotting localized, and heparin and enoxaparin (Lovenox) enhance it. Plasmin and plasminogen belong to fibrinolysis, the pathway alteplase (Activase) pushes, and von Willebrand factor is part of platelet adhesion.",
+   "src": "slide 7 + 00:05:08 + 00:05:42"
+  },
+  {
+   "id": "p-003",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which pairing matches her comparison of arterial and venous clots?",
+   "options": [
+    "Arterial: platelet-rich, antiplatelets. Venous and AF: fibrin-rich, anticoagulants",
+    "Arterial: fibrin-rich, antiplatelets. Venous and AF: platelet-rich, anticoagulants",
+    "Arterial: platelet-rich, anticoagulants. Venous and AF: fibrin-rich, antiplatelets",
+    "Arterial: fibrin-rich, anticoagulants. Venous and AF: platelet-rich, antiplatelets"
+   ],
+   "answer": "A",
+   "rationale": "MI, ischemic stroke and stent clots are arterial and platelet-rich, so they get antiplatelets; DVT, PE and AF, where stasis is the problem, are fibrin-rich and get anticoagulants. She added AF to the venous side herself (\"an important one that I should have put in there\"); the other pairings swap the clot type, the drug class or both.",
+   "src": "slides 8, 11 + 00:06:50 + 00:07:23 + 00:07:56"
+  },
+  {
+   "id": "p-004",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How do the targets of unfractionated heparin and enoxaparin (Lovenox) differ?",
+   "options": [
+    "Both of them directly inhibit factor Xa, with no need for antithrombin to be present",
+    "Heparin blocks vitamin K recycling; enoxaparin (Lovenox) enhances antithrombin instead",
+    "Heparin acts on thrombin and factor Xa; enoxaparin (Lovenox) acts mainly on factor Xa",
+    "Enoxaparin (Lovenox) acts on thrombin and factor Xa; heparin acts mainly on factor Xa"
+   ],
+   "answer": "C",
+   "rationale": "Heparin is the longer molecule, so it inactivates both thrombin and factor Xa; enoxaparin (Lovenox) has part of the molecule cut off and works on factor Xa. The reversed option swaps them, vitamin K recycling is warfarin (Coumadin, Jantoven), and direct factor Xa inhibition is the DOACs, while both heparins work through antithrombin.",
+   "src": "slides 14–15 + 00:11:43 + 00:17:19 + 00:17:51"
+  },
+  {
+   "id": "p-005",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which statement about the route and monitoring of enoxaparin (Lovenox) is correct?",
+   "options": [
+    "It is subcutaneous only and needs routine PT and INR checks at a clinic",
+    "It is IV or subcutaneous and needs a daily platelet count to set the dose",
+    "It is given by IV drip and is titrated to the patient's aPTT result",
+    "It is subcutaneous only and needs no routine coagulation monitoring"
+   ],
+   "answer": "D",
+   "rationale": "Enoxaparin (Lovenox) is only subcutaneous and doesn't need coagulation monitoring, \"a huge bonus\" that keeps outpatients from coming back for blood draws. The aPTT goes with the heparin drip and PT/INR goes with warfarin (Coumadin, Jantoven); platelets are watched for HIT, not to set a dose.",
+   "src": "slide 14 + 00:15:40 + 00:16:14"
+  },
+  {
+   "id": "p-006",
+   "tier": "1",
+   "type": "mc",
+   "stem": "When does HIT usually develop, and what is the primary danger?",
+   "options": [
+    "Within hours of the first heparin dose; the danger is hemorrhage",
+    "Within hours of the first heparin dose; the danger is thrombosis",
+    "About 5–10 days after starting heparin; the danger is hemorrhage",
+    "About 5–10 days after starting heparin; the danger is thrombosis"
+   ],
+   "answer": "D",
+   "rationale": "HIT usually shows up about 5–10 days after starting heparin, not within hours, and the platelets \"activate at the drop of a hat,\" so the count falls while clots form. Bleeding can happen as platelets get used up, which makes hemorrhage the tempting answer, but the slide's key concept is thrombosis.",
+   "src": "slide 16 + 00:19:30 + 00:20:13"
+  },
+  {
+   "id": "p-007",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Why does warfarin (Coumadin, Jantoven) take several days to reach its full effect?",
+   "options": [
+    "It is absorbed slowly by mouth, so blood levels take days to reach target",
+    "It has to build up in the liver before it can inhibit thrombin directly",
+    "New functional clotting factors fall, but existing factors must clear first",
+    "It has to displace vitamin K from plasma proteins, which takes several days"
+   ],
+   "answer": "C",
+   "rationale": "Warfarin (Coumadin, Jantoven) inhibits vitamin K recycling, so it reduces new factors while the old ones, with a lifespan of several days, are still floating around. The delay comes from clotting-factor lifespan, not slow absorption. It does not inhibit thrombin directly (that is dabigatran), and protein binding explains its interactions rather than its slow onset.",
+   "src": "slide 17 + 00:21:19 + 00:21:51"
+  },
+  {
+   "id": "p-008",
+   "tier": "1",
+   "type": "mc",
+   "stem": "What are the normal INR and the common therapeutic INR on warfarin (Coumadin, Jantoven)?",
+   "options": [
+    "Normal about 1; therapeutic 1–2",
+    "Normal 2–3; therapeutic about 1",
+    "Normal about 1; therapeutic 2–3",
+    "Normal about 0.5; therapeutic 1–2"
+   ],
+   "answer": "C",
+   "rationale": "About 1 when not anticoagulated and 2 to 3 for most patients: \"you should know that number.\" Above 3 means much greater bleeding risk and below 2 means not anticoagulated enough, so a target of 1–2 would leave the client at risk of clots.",
+   "src": "slide 18 + 00:28:29 + 00:29:01"
+  },
+  {
+   "id": "p-009",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How does protamine sulfate reversal compare between heparin and enoxaparin (Lovenox)?",
+   "options": [
+    "It fully reverses heparin but only partly reverses enoxaparin (Lovenox)",
+    "It fully reverses enoxaparin (Lovenox) but only partly reverses heparin",
+    "It fully reverses both heparin and enoxaparin (Lovenox) in an emergency",
+    "It reverses heparin but has no effect at all on enoxaparin (Lovenox)"
+   ],
+   "answer": "A",
+   "rationale": "Protamine sulfate can completely reverse heparin. With enoxaparin (Lovenox) it decreases the anticoagulation, but it isn't complete, so there is no \"silver bullet,\" which also rules out the claim that it does nothing.",
+   "src": "slide 14 + 00:16:44 + 00:17:19"
+  },
+  {
+   "id": "p-010",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Which match of DOAC and target is correct?",
+   "options": [
+    "Dabigatran (Pradaxa) blocks vitamin K recycling; apixaban (Eliquis) blocks thrombin",
+    "Dabigatran (Pradaxa) inhibits thrombin; apixaban (Eliquis) inhibits factor Xa",
+    "Dabigatran (Pradaxa) inhibits factor Xa; apixaban (Eliquis) inhibits thrombin",
+    "Dabigatran (Pradaxa) and apixaban (Eliquis) both work by enhancing antithrombin"
+   ],
+   "answer": "B",
+   "rationale": "Dabigatran (Pradaxa) binds thrombin directly; the factor Xa inhibitors all end in Xa-ban (\"Pretty cool, huh?\"), so apixaban (Eliquis) and rivaroxaban (Xarelto) block factor Xa. Enhancing antithrombin is the heparins and blocking vitamin K recycling is warfarin (Coumadin, Jantoven).",
+   "src": "slide 21 + 00:43:42 + 00:44:52"
+  },
+  {
+   "id": "p-011",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Why does aspirin affect platelets for about 7–10 days?",
+   "options": [
+    "It blocks COX-1 for the life of the platelet, lowering thromboxane A₂",
+    "It blocks P2Y12 for the life of the platelet, lowering ADP stimulation",
+    "It blocks COX-1 while it circulates, and it stays in the blood 7–10 days",
+    "It blocks fibrinogen bridging until the liver replaces GP IIb/IIIa receptors"
+   ],
+   "answer": "A",
+   "rationale": "Aspirin stops COX-1 for the life of the platelet, about 7–10 days, because platelets can't make new COX-1, so less thromboxane A₂ means less activation. P2Y12 and fibrinogen bridging are the other two antiplatelet targets, and the long effect comes from the platelet's lifespan, not from drug staying in the blood.",
+   "src": "slide 31 + 00:53:18 + 00:53:49"
+  },
+  {
+   "id": "p-012",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Clopidogrel (Plavix) and ticagrelor (Brilinta) reduce platelet activation by blocking:",
+   "options": [
+    "Fibrinogen bridges at the GP IIb/IIIa receptor",
+    "Thromboxane A₂ production by the COX-1 enzyme",
+    "Factor Xa's conversion of prothrombin to thrombin",
+    "ADP-mediated signaling at the P2Y12 receptor on platelets"
+   ],
+   "answer": "D",
+   "rationale": "P2Y12 inhibitors block the ADP-mediated route of platelet activation, a different pathway from aspirin's COX-1 and thromboxane A₂. GP IIb/IIIa bridging is the final aggregation step, and factor Xa belongs to coagulation rather than to platelets.",
+   "src": "slide 32 + 00:51:42 + 00:52:13"
+  },
+  {
+   "id": "p-013",
+   "tier": "1",
+   "type": "mc",
+   "stem": "Eptifibatide (Integrilin) and tirofiban (Aggrastat) act at which step?",
+   "options": [
+    "Fibrinolysis: they convert plasminogen into plasmin inside the clot",
+    "Final aggregation: they block the bridge between activated platelets",
+    "Early activation: they block ADP stimulation at the P2Y12 receptor",
+    "Early activation: they reduce thromboxane A₂ made through COX-1"
+   ],
+   "answer": "B",
+   "rationale": "GP IIb/IIIa inhibitors prevent the fibrinogen bridge from forming, so platelets can't stay together at the last step. COX-1 is aspirin, P2Y12 is clopidogrel (Plavix) and ticagrelor (Brilinta), and converting plasminogen to plasmin is alteplase (Activase).",
+   "src": "slide 34 + 00:51:42 + 01:00:53"
+  },
+  {
+   "id": "p-014",
+   "tier": "1",
+   "type": "mc",
+   "stem": "How does alteplase (Activase) differ from anticoagulants and antiplatelets?",
+   "options": [
+    "It blocks platelet aggregation, which keeps an existing clot from growing",
+    "It enhances antithrombin, which keeps any new fibrin from being formed",
+    "It inhibits factor Xa, which slowly shrinks a clot by limiting thrombin",
+    "It raises plasmin formation, which breaks down fibrin already in a clot"
+   ],
+   "answer": "D",
+   "rationale": "Alteplase (Activase) is recombinant tPA: it \"doesn't simply prevent additional fibrin formation,\" it degrades fibrin that is already there. Anticoagulants and antiplatelets only limit formation or growth, and the clot then depends on the body's own slow breakdown.",
+   "src": "slides 38, 41 + 01:03:36 + 01:05:48"
+  },
+  {
+   "id": "p-015",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client on daily aspirin 81 mg reports black stools, dizziness and weakness, and the heart rate is up. Which explanation fits best?",
+   "options": [
+    "A hypersensitivity reaction, the usual cause of these aspirin symptoms",
+    "An intracranial bleed, since dizziness localizes the blood loss to the head",
+    "A new clot, since platelets rebound as each daily aspirin dose wears off",
+    "A GI bleed, from aspirin's bleeding risk plus its irritation of the stomach"
+   ],
+   "answer": "D",
+   "rationale": "Melena is blood in the stool, and tachycardia, dizziness and weakness are signs of blood loss; aspirin's bleeding risk plus gastric irritation is why GI bleeding is a named risk. An intracranial bleed shows as sudden severe headache, neurologic changes or altered mental status, and aspirin's platelet effect lasts 7–10 days rather than wearing off between doses.",
+   "src": "slides 10, 31 + 00:10:39 + 00:57:02"
+  },
+  {
+   "id": "p-016",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with a new DVT starts an anticoagulant and asks, \"So this will dissolve my clot?\" Which reply is accurate?",
+   "options": [
+    "No, the clot stays permanently, so it can only prevent a different clot",
+    "It keeps the clot from growing while your own body slowly breaks it down over time",
+    "Yes, it will dissolve the clot within a few days as the drug level rises",
+    "Yes, it turns plasminogen into plasmin, so the clot breaks down quickly"
+   ],
+   "answer": "B",
+   "rationale": "Anticoagulants don't make the clot go away: they keep it from getting bigger so the body's own slow mechanism can break it down, sometimes over several months. Converting plasminogen to plasmin is what thrombolytics do, and the clot isn't permanent.",
+   "src": "slides 13, 41 + 00:12:17 + 00:12:49"
+  },
+  {
+   "id": "p-017",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client takes aspirin 81 mg after a past MI, has no stent, and has a planned procedure coming up. The team agrees aspirin can be stopped. When is that most useful?",
+   "options": [
+    "It doesn't matter, because aspirin doesn't affect procedure bleeding",
+    "Any time, because protamine sulfate can reverse the platelet effect",
+    "7–10 days before, because the platelet effect lasts for the life of the platelet",
+    "The morning of the procedure, because the effect fades in hours"
+   ],
+   "answer": "C",
+   "rationale": "Aspirin leaves less active platelets for 7–10 days, so stopping that far ahead is \"awesome\" when it's possible; a brand-new stent is the exception, where she would rather keep aspirin on board and deal with the bleeding. Protamine sulfate reverses heparin, not aspirin.",
+   "src": "slide 31 + 00:53:49 + 00:54:20"
+  },
+  {
+   "id": "p-018",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client on enoxaparin (Lovenox) has newly worsening kidney disease. What is the main concern?",
+   "options": [
+    "Kidney disease speeds clearance, so larger doses will be needed",
+    "Reduced clearance lowers drug levels, which raises clotting risk",
+    "Kidney disease triggers HIT antibodies, which raises clotting risk",
+    "Reduced clearance raises drug levels, which raises bleeding risk"
+   ],
+   "answer": "D",
+   "rationale": "Enoxaparin (Lovenox) is substantially cleared by the kidneys, and with reduced clearance anticoagulant levels go up significantly, which is \"particularly severe and dangerous\" for this class. The other options reverse the direction or link HIT, an immune response to heparin, to the kidneys.",
+   "src": "slides 15, 24 + 00:18:25"
+  },
+  {
+   "id": "p-019",
+   "tier": "2",
+   "type": "mc",
+   "stem": "Day 7 of heparin in a hospitalized client: the platelet count has dropped by more than half and a new DVT has formed. What response does this call for?",
+   "options": [
+    "Stop all anticoagulants, since low platelets make bleeding the main risk",
+    "Continue the heparin, since a new DVT shows that more drug is needed",
+    "Switch the heparin to enoxaparin (Lovenox), which rarely causes HIT",
+    "Stop all heparin products and expect a non-heparin anticoagulant to be needed"
+   ],
+   "answer": "D",
+   "rationale": "Low platelets plus new clots at about day 5–10 is the HIT paradox, so all heparin products stop and a non-heparin anticoagulant is needed because thrombosis risk stays high. \"We can't just switch them to\" enoxaparin (Lovenox) because there is overlap, and stopping all anticoagulation leaves the clotting untreated.",
+   "src": "slide 16 + 00:19:30 + 00:20:13"
+  },
+  {
+   "id": "p-020",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with a stent takes clopidogrel (Plavix), and a new medication is being added. Which concern did she single out for this drug?",
+   "options": [
+    "More possible drug interactions, through CYP450 alterations",
+    "A routine INR must be drawn each time a new drug is added",
+    "Vitamin K intake has to stay steady around the new medication",
+    "Added drugs knock it off plasma proteins, raising free drug levels"
+   ],
+   "answer": "A",
+   "rationale": "\"Really the only big thing\" she wants known about these two is that Plavix has more possible drug interactions because of CYP450 alterations. Protein-binding displacement, routine INR checks and steady vitamin K intake all describe warfarin (Coumadin, Jantoven).",
+   "src": "00:57:36 + 00:58:10"
+  },
+  {
+   "id": "p-021",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client stable on warfarin (Coumadin, Jantoven) suddenly starts eating large spinach salads every day. What do you predict?",
+   "options": [
+    "Drug effect falls and INR may drop, so the risk of clotting rises over time",
+    "Nothing changes, since vitamin K matters only during titration",
+    "Drug effect rises and INR may climb, so bleeding risk rises",
+    "Drug is displaced from proteins, so bleeding risk rises sharply"
+   ],
+   "answer": "A",
+   "rationale": "More vitamin K reduces warfarin's effect and less vitamin K increases it, and \"the consistency is the key\": no sudden \"all spinach salads in one week.\" The higher-INR option is what happens if the client stops eating those foods, and protein displacement comes from drugs rather than from vitamin K.",
+   "src": "slide 19 + 00:30:34 + 00:31:04 + supp-02 ¶37"
+  },
+  {
+   "id": "p-022",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client stable on warfarin (Coumadin, Jantoven) is prescribed a protein-bound antibiotic. What is the expected concern?",
+   "options": [
+    "More free drug and more anticoagulation, so extra INR checks may be necessary",
+    "No change in free drug, because only dietary vitamin K can alter the INR level",
+    "More free drug but no INR change, so routine clinic monitoring remains enough",
+    "Less free drug and less anticoagulation, so the dose must be raised right away"
+   ],
+   "answer": "A",
+   "rationale": "Warfarin is about 99% protein bound, so another protein-bound drug competes for the binding sites and knocks some warfarin free, giving more anticoagulation and possibly more INR checks and dose changes. The other options reverse the direction or ignore that medication changes show up in the INR.",
+   "src": "slide 19 + 00:31:35 + 00:32:07"
+  },
+  {
+   "id": "p-023",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client on warfarin (Coumadin, Jantoven) with life-threatening bleeding receives 4F-PCC and IV vitamin K together. Why both?",
+   "options": [
+    "Both replace the same factors at once, so together they double the dose",
+    "4F-PCC replaces factors now; vitamin K lets the liver make more over days",
+    "Vitamin K replaces factors now; 4F-PCC lets the liver make more over days",
+    "4F-PCC blocks the drug directly; vitamin K supplies all the plasma factors"
+   ],
+   "answer": "B",
+   "rationale": "4F-PCC gives immediate factors (\"look, they've got the clotting factors that we need now\") but those last only a little while, and vitamin K gets the liver making its own over the next several days. Vitamin K alone isn't immediate because new factors must be synthesized, which is why the swapped option is wrong. Vitamin K supplies no factors itself, so they aren't doubling the same thing, and 4F-PCC replaces factors rather than blocking warfarin.",
+   "src": "slide 20 + 00:35:19 + 00:35:49 + 00:36:52 + 00:37:24"
+  },
+  {
+   "id": "p-024",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client taking rivaroxaban (Xarelto) for AF says a dose a few hours late won't matter. Which teaching fits best?",
+   "options": [
+    "Long half-life: a late dose is covered by drug left from the last one",
+    "Short half-life: a late dose can cut protection and raise stroke risk",
+    "A late dose matters only if the next INR comes back under the range",
+    "A late dose raises bleeding risk, so the next dose is always skipped"
+   ],
+   "answer": "B",
+   "rationale": "DOACs have short half-lives, so a missed or even late dose reduces protection, and saying why matters: \"You need to know why you're doing something.\" She wants doses within about a half hour of the chosen time and a missed dose back on board as soon as possible, per the drug's instructions; INR doesn't monitor these drugs.",
+   "src": "slide 21 + 00:38:25 + 00:38:55 + 00:41:14"
+  },
+  {
+   "id": "p-025",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with AF works rotating shifts, travels constantly, and cannot keep an exact dosing schedule even with phone alarms. Which anticoagulant may suit this client better?",
+   "options": [
+    "Dabigatran (Pradaxa), since reversal makes up for missed doses",
+    "Enoxaparin (Lovenox), since it is strong enough for AF at home",
+    "Warfarin (Coumadin, Jantoven), since DOACs need exact dose timing",
+    "Apixaban (Eliquis), since DOACs still work when doses run late"
+   ],
+   "answer": "C",
+   "rationale": "A smartphone alarm is the biggest tool, but a client who can't follow the schedule because of shift work or travel may do better on warfarin. A late DOAC dose reduces protection, enoxaparin (Lovenox) isn't strong enough for AF, and idarucizumab (Praxbind) reverses dabigatran's effect rather than replacing a dose.",
+   "src": "slide 21 + 00:39:55 + 00:47:19"
+  },
+  {
+   "id": "p-026",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client calls 911 with chest pain and a suspected heart attack, and there is aspirin in the house. What is the instruction while waiting for EMS?",
+   "options": [
+    "Wait for EMS, so that the crew can first rule out any active bleed",
+    "Take one aspirin with food, so it does not lead to a sudden GI bleed",
+    "Chew one aspirin now, so that it is absorbed into the blood as quickly as possible",
+    "Swallow one aspirin whole, so that it cannot irritate the stomach"
+   ],
+   "answer": "C",
+   "rationale": "\"Take one and chew it, not just swallow it,\" because you want it absorbed as quickly as possible so platelet aggregation falls while the clot is evolving. Swallowing whole, waiting or adding food all delay that for a concern that isn't the priority here.",
+   "src": "slide 31 + 00:54:20 + 00:54:53"
+  },
+  {
+   "id": "p-027",
+   "tier": "2",
+   "type": "mc",
+   "stem": "A client with a new coronary stent, on aspirin and ticagrelor (Brilinta), bruises easily and wants to stop the ticagrelor (Brilinta) on their own. Best response?",
+   "options": [
+    "Stop both for 7–10 days, then restart them once the bruising has cleared",
+    "Don't stop without your prescriber; a clotted stent can be a giant MI",
+    "Stopping is safe, because bruising shows that the stent is fully healed",
+    "Stopping is safe, because the aspirin covers the very same pathway"
+   ],
+   "answer": "B",
+   "rationale": "A new stent is a foreign body at very high risk of clotting off, and \"it's a giant MI\" if it does, so DAPT is never stopped without the prescriber. The 7–10 day stop applies when aspirin can safely stop, not with a new stent. Aspirin and P2Y12 inhibitors suppress two separate pathways, and the bruising is the accepted bleeding trade-off to raise with the prescriber, not a sign of healing.",
+   "src": "slide 33 + 00:55:24 + 00:58:41 + 00:59:48 + 01:00:19"
+  },
+  {
+   "id": "p-028",
+   "tier": "2",
+   "type": "mc",
+   "stem": "During monitoring after alteplase (Activase), a client suddenly reports a severe headache and is newly confused. What must be considered first?",
+   "options": [
+    "Intracranial hemorrhage, the most serious complication of this drug's bleeding risk",
+    "A slow GI bleed, because blood loss usually presents in exactly this way",
+    "An expected effect, common while the existing clot is being dissolved",
+    "A new clot, because the drug activates platelets as it breaks down fibrin"
+   ],
+   "answer": "A",
+   "rationale": "Sudden severe headache, acute neurologic change or altered mental status signal a possible intracranial bleed, the worst-case bleed and the thing she's most scared of with this drug. A slow GI bleed shows as melena, dizziness and weakness, and the drug breaks clots down rather than activating platelets.",
+   "src": "slides 10, 39 + 01:05:48 + 01:07:20"
+  },
+  {
+   "id": "p-029",
+   "tier": "3",
+   "type": "mc",
+   "stem": "New coronary stent placed today. Expected regimen?",
+   "options": [
+    "Apixaban (Eliquis) + enoxaparin (Lovenox)",
+    "Aspirin + alteplase (Activase)",
+    "Aspirin + warfarin (Coumadin, Jantoven)",
+    "Aspirin + clopidogrel (Plavix)"
+   ],
+   "answer": "D",
+   "rationale": "A stent clot is arterial and platelet-rich, so it gets DAPT: aspirin plus a P2Y12 inhibitor, suppressing two pathways. Anticoagulants fit the fibrin-rich venous side, and alteplase (Activase) dissolves existing clots rather than preventing stent thrombosis.",
+   "src": "slides 8, 33 + 00:07:56 + 00:58:41"
+  },
+  {
+   "id": "p-030",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Continuous IV heparin drip. Which lab is followed to adjust the drip?",
+   "options": [
+    "PT/INR",
+    "Renal function",
+    "Platelet count",
+    "aPTT"
+   ],
+   "answer": "D",
+   "rationale": "A heparin drip is monitored with the aPTT (occasionally anti-Xa) and adjusted to it. PT/INR belongs to warfarin (Coumadin, Jantoven); the platelet count is also watched on heparin, but as the earliest sign of HIT, and renal function is the enoxaparin (Lovenox) concern.",
+   "src": "slides 18, 24 + 00:14:34 + 00:46:42"
+  },
+  {
+   "id": "p-031",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Warfarin (Coumadin, Jantoven). INR 4.6. No bleeding, no surgery planned. Expected response?",
+   "options": [
+    "Give idarucizumab (Praxbind) to reverse it",
+    "Hold doses and let the level come down",
+    "Give 4F-PCC with IV vitamin K right now",
+    "Give protamine sulfate to reverse it"
+   ],
+   "answer": "B",
+   "rationale": "A high INR without active bleeding may just mean no more warfarin for a while, because reversing it brings back the clot problem it was treating. Reversal is for severe bleeding or emergent major surgery, and protamine sulfate and idarucizumab (Praxbind) reverse other drugs.",
+   "src": "slide 20 + 00:34:15 + 00:34:47"
+  },
+  {
+   "id": "p-032",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Warfarin (Coumadin, Jantoven). High INR. Hematemesis, hypotension, tachycardia. Urgent reversal?",
+   "options": [
+    "Vitamin K alone, then wait",
+    "Idarucizumab (Praxbind)",
+    "4F-PCC plus IV vitamin K",
+    "Protamine sulfate alone"
+   ],
+   "answer": "C",
+   "rationale": "Serious bleeding on warfarin needs 4F-PCC for immediate factors plus IV vitamin K to sustain the reversal. Vitamin K alone isn't immediate because new factors must be synthesized; protamine sulfate is for heparin, and idarucizumab (Praxbind) is for dabigatran (Pradaxa).",
+   "src": "slides 20, 27 + 00:35:19 + 00:35:49"
+  },
+  {
+   "id": "p-033",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Dabigatran (Pradaxa). Major GI bleed; urgent reversal needed. Which agent?",
+   "options": [
+    "None exists; supportive care",
+    "Protamine sulfate",
+    "Idarucizumab (Praxbind)",
+    "Vitamin K (phytonadione)"
+   ],
+   "answer": "C",
+   "rationale": "Idarucizumab (Praxbind) specifically reverses dabigatran (Pradaxa); she included it because the NCLEX still has it, and Pradaxa and Praxbind sound alike. Vitamin K helps only with warfarin, protamine sulfate with the heparins, and having no direct reversal agent describes the -xabans.",
+   "src": "slide 22 + 00:44:22 + 00:44:52"
+  },
+  {
+   "id": "p-034",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Rivaroxaban (Xarelto). Life-threatening bleed. Expected management?",
+   "options": [
+    "Protamine sulfate, its partial reversal",
+    "Idarucizumab (Praxbind), its direct reversal",
+    "Vitamin K (phytonadione), its slow reversal",
+    "Stop it; supportive care, consider 4F-PCC"
+   ],
+   "answer": "D",
+   "rationale": "There is nothing that directly reverses the factor Xa inhibitors in this lecture, so management is stopping the drug, supportive treatment and possibly 4F-PCC. Idarucizumab (Praxbind) reverses only dabigatran (Pradaxa), protamine sulfate is for the heparins, and vitamin K is for warfarin.",
+   "src": "slide 23 + 00:46:10"
+  },
+  {
+   "id": "p-035",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Apixaban (Eliquis), doses on schedule. INR 1.1. Interpretation?",
+   "options": [
+    "Reversed; vitamin K in the diet overrode it",
+    "Subtherapeutic; the target here is INR 2–3",
+    "Still anticoagulated; INR doesn't show it",
+    "Not anticoagulated; the dose needs raising"
+   ],
+   "answer": "C",
+   "rationale": "A normal INR doesn't mean a DOAC client isn't anticoagulated: \"the anticoagulation doesn't really show up on INR.\" The 2–3 target belongs to warfarin (Coumadin, Jantoven), and DOACs have no dietary vitamin K restriction.",
+   "src": "slide 24 + 00:48:23"
+  },
+  {
+   "id": "p-036",
+   "tier": "3",
+   "type": "mc",
+   "stem": "IV heparin drip. Major bleeding; emergency surgery next. Reversal agent?",
+   "options": [
+    "4F-PCC",
+    "Protamine sulfate",
+    "Idarucizumab (Praxbind)",
+    "Vitamin K (phytonadione)"
+   ],
+   "answer": "B",
+   "rationale": "\"You should put together protamine sulfate as the name for the drug that will reverse heparin\", and it can completely reverse it before a big surgery. Idarucizumab (Praxbind) is for dabigatran (Pradaxa), and vitamin K and 4F-PCC replace what warfarin (Coumadin, Jantoven) takes away.",
+   "src": "slide 14 + 00:16:44 + 00:17:51"
+  },
+  {
+   "id": "p-037",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Mechanical heart valve. Which anticoagulant?",
+   "options": [
+    "Apixaban (Eliquis), for its easy dosing",
+    "Dabigatran (Pradaxa), for its reversal agent",
+    "Warfarin (Coumadin, Jantoven), for its strength",
+    "Enoxaparin (Lovenox), for its predictability"
+   ],
+   "answer": "C",
+   "rationale": "\"Mechanical valves, we need warfarin\": the valve goes \"click, click, click,\" causes turbulence and is a very high clot risk, and warfarin is the only drug that gets anticoagulation high enough. DOACs are not recommended here however easy they are, and enoxaparin (Lovenox) is too weak.",
+   "src": "slides 21, 25 + 00:39:25 + 00:50:37"
+  },
+  {
+   "id": "p-038",
+   "tier": "3",
+   "type": "mc",
+   "stem": "New AF, admitted, warfarin (Coumadin, Jantoven) starting. High clot risk now. Bridge with?",
+   "options": [
+    "IV heparin drip until it is therapeutic",
+    "Aspirin 81 mg daily until therapeutic",
+    "No bridge; the first dose acts at once",
+    "Enoxaparin (Lovenox) until therapeutic"
+   ],
+   "answer": "A",
+   "rationale": "Heparin bridging covers the days before warfarin's effect arrives, and when asked about Lovenox for this she said, \"No, because we need the drip.\" Aspirin is an antiplatelet for the arterial side, and warfarin's delayed onset is the whole reason for a bridge.",
+   "src": "slide 17 + 00:21:51 + 00:24:39"
+  },
+  {
+   "id": "p-039",
+   "tier": "3",
+   "type": "mc",
+   "stem": "AF, elevated stroke risk, no mechanical valve, eligible for any option, can keep a schedule. Usual choice?",
+   "options": [
+    "Apixaban (Eliquis), an oral DOAC",
+    "Aspirin 81 mg, an antiplatelet",
+    "Enoxaparin (Lovenox) injections",
+    "Subcutaneous heparin injections"
+   ],
+   "answer": "A",
+   "rationale": "DOACs are preferred for AF because they're \"way easier,\" with warfarin (Coumadin, Jantoven) as the strong backup. Heparin and enoxaparin (Lovenox) aren't strong enough outside a bridge (\"kind of weaker, which is nice for prophylaxis\"), and AF clots are fibrin-rich, so an antiplatelet is the wrong class.",
+   "src": "slide 25 + 00:47:19 + 00:49:27"
+  },
+  {
+   "id": "p-040",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Stenting in progress, high clot risk. Short IV infusion to halt platelet aggregation?",
+   "options": [
+    "Eptifibatide (Integrilin)",
+    "Alteplase (Activase)",
+    "Clopidogrel (Plavix)",
+    "Ticagrelor (Brilinta)"
+   ],
+   "answer": "A",
+   "rationale": "GP IIb/IIIa inhibitors are IV and given only during the high-risk procedure, because they prevent the bridge between platelets. P2Y12 inhibitors only make platelets less likely to activate, and alteplase (Activase) dissolves fibrin rather than blocking aggregation.",
+   "src": "slide 34 + 00:52:47 + 01:01:24 + 01:01:55"
+  },
+  {
+   "id": "p-041",
+   "tier": "3",
+   "type": "mc",
+   "stem": "Stroke symptoms on arrival; alteplase (Activase) is being considered. First test?",
+   "options": [
+    "Platelet count",
+    "PT/INR",
+    "12-lead EKG",
+    "Head CT"
+   ],
+   "answer": "D",
+   "rationale": "Chest pain gets the EKG first, but stroke symptoms get a head CT first, because the stroke may be ischemic or hemorrhagic and hemorrhage has to be ruled out. The labs are part of assessing bleeding risk but don't answer that question.",
+   "src": "slide 39 + 01:04:11 + 01:07:20"
+  },
+  {
+   "id": "p-042",
+   "tier": "3",
+   "type": "mc",
+   "stem": "STEMI at a rural hospital, no cath lab. Car crash, severe injuries, active bleeding. Alteplase (Activase) ordered. Action?",
+   "options": [
+    "Question it: active bleeding contraindicates",
+    "Give it: only stroke has exclusion criteria",
+    "Give it: STEMI overrides all contraindications",
+    "Give it with protamine sulfate to limit bleeding"
+   ],
+   "answer": "A",
+   "rationale": "No cath lab is the setting where fibrinolysis is normally considered for a STEMI, but with these injuries she says, \"Can't give the thrombolytic, right?\" Active significant bleeding is listed as a major contraindication (slide 39), a STEMI doesn't override that, and screening isn't limited to stroke. Protamine sulfate reverses heparin, not alteplase (Activase).",
+   "src": "slide 39 + 01:05:14 + 01:06:18"
+  }
+ ],
+ "clinical": [
+  {
+   "id": "c01",
+   "title": "Scenario 1 — Medical-surgical unit",
+   "setting": "Heparin prophylaxis and a falling platelet count · days 1–8",
+   "text": "<b>Nurses' Notes — Day 1, 1400</b>\n71-year-old client, a retired bus driver, admitted with pneumonia and spending most of the day in bed. Subcutaneous heparin started for DVT prophylaxis. Knee replacement 9 years ago.\n<b>Nurses' Notes — Day 7, 0800</b>\nCough improving and lungs clearing. New ache and swelling in the right calf since last night; the right calf is larger and firmer than the left, and imaging shows a new DVT. No petechiae, no unusual bruising, no blood in urine or stool. Daughter visiting; the client is looking forward to going home.\n<b>Vital Signs</b> — T 36.9°C · HR 88 · BP 132/78 · RR 18 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — Platelets: Day 1, 240 × 10³/µL; Day 5, 205; Day 7, 96 · hemoglobin stable · WBC back to normal · creatinine normal\n<b>Orders</b> — Heparin subcutaneous for DVT prophylaxis, next dose due at 1400 · CBC with platelets daily · provider notified of the imaging result, new orders pending",
+   "questions": [
+    {
+     "id": "c01-q01",
+     "type": "sata",
+     "stem": "The nurse reviews the Day 7 data. Which findings are <b>most relevant to what changed</b> on Day 7? Select all that apply.",
+     "options": [
+      "Platelet count of 96, down from 240 on Day 1",
+      "New DVT in the right calf",
+      "Knee replacement 9 years ago",
+      "Cough improving and lungs clearing",
+      "WBC back to normal",
+      "Day 7 of heparin exposure"
+     ],
+     "answer": "A, B, F",
+     "rationale": "A 60% platelet drop, a new clot and day 7 of heparin belong together: falling platelets are the earliest sign she told us to watch for, and the timing fits 5–10 days after starting. A normal WBC and clearing lungs show the pneumonia improving, and an old knee replacement has no bearing.",
+     "src": "slides 16, 24 + 00:19:30 + 00:20:13 + 00:46:42",
+     "step": "recognize"
+    },
+    {
+     "id": "c01-q02",
+     "type": "mc",
+     "stem": "The client's low platelet count and new clot are most consistent with which problem?",
+     "options": [
+      "Heparin overdose, with the low platelets pointing to active hemorrhage",
+      "An expected small platelet drift that is harmless during prophylaxis",
+      "Heparin-induced thrombocytopenia, with immune-activated platelets",
+      "An immobility DVT, with a platelet count that is unrelated to the heparin"
+     ],
+     "answer": "C",
+     "rationale": "Platelets falling 50% or more, 5–10 days into heparin, with new clots is the HIT paradox: antibodies form against heparin bound to platelet factor 4, and platelets \"activate at the drop of a hat.\" There's no bleeding to suggest overdose, a 60% drop isn't a harmless drift, and immobility alone doesn't explain the falling count.",
+     "src": "slide 16 + 00:18:58 + 00:19:30 + 00:20:13",
+     "step": "analyze"
+    },
+    {
+     "id": "c01-q03",
+     "type": "mc",
+     "stem": "What is the <b>primary danger</b> of this problem for the client right now?",
+     "options": [
+      "Hemorrhage, because too few platelets remain to form a plug at an injury",
+      "Worse pneumonia, because the immune system is busy reacting to heparin",
+      "Kidney failure, because immune complexes collect in the renal tubules",
+      "More clots such as PE, stroke or MI, because platelets are going haywire"
+     ],
+     "answer": "D",
+     "rationale": "\"HIT causes low platelets but increased clotting\": the primary danger is thrombosis, not hemorrhage. Bleeding risk does rise as platelets get used up, which is what makes that option tempting, but \"what we're really worried about\" is the clotting. The lecture ties HIT to neither pneumonia nor the kidneys.",
+     "src": "slide 16 + 00:20:13",
+     "step": "prioritize"
+    },
+    {
+     "id": "c01-q04",
+     "type": "sata",
+     "stem": "<b>Day 7, 1000.</b> The provider reviews the chart. Which items does the nurse anticipate in the new plan? Select all that apply.",
+     "options": [
+      "Hold all anticoagulation until the platelet count recovers",
+      "Give protamine sulfate to reverse the heparin",
+      "Switch the prophylaxis to enoxaparin (Lovenox), which causes this less often",
+      "Record heparin as an allergy so it is not given again",
+      "Start a non-heparin anticoagulant as ordered",
+      "Discontinue all heparin products"
+     ],
+     "answer": "D, E, F",
+     "rationale": "Stop all heparin products and use a non-heparin anticoagulant because thrombosis risk stays high; from then on it's treated as a heparin allergy, so the client avoids heparin or enoxaparin (Lovenox), which overlaps even though it causes HIT less often. Holding all anticoagulation leaves the clotting untreated, and protamine sulfate is for bleeding or emergency surgery.",
+     "src": "slides 16, 25 + 00:16:44 + 00:20:13 + 00:20:46",
+     "step": "generate"
+    },
+    {
+     "id": "c01-q05",
+     "type": "mc",
+     "stem": "<b>Day 7, 1345.</b> HIT is now strongly suspected, but the new orders have not been entered, and the 1400 subcutaneous heparin dose is coming due. What should the nurse do?",
+     "options": [
+      "Give half the dose, then recheck the platelet count with tomorrow's labs",
+      "Hold the dose and report the platelet trend and DVT to the provider now",
+      "Give the dose on time, because the client now has a DVT that needs treating",
+      "Give enoxaparin (Lovenox) in its place, since it is the safer heparin"
+     ],
+     "answer": "B",
+     "rationale": "All heparin products stop when HIT is strongly suspected (slide 16). Applying that here, the nurse doesn't give the dose and gets the platelet trend and new clot to the provider right away. Treating the DVT is the right instinct with the wrong drug, a partial dose is still heparin, and enoxaparin (Lovenox) isn't a safe swap because of the overlap.",
+     "src": "slide 16 + 00:20:13",
+     "step": "act"
+    },
+    {
+     "id": "c01-q06",
+     "type": "sata",
+     "stem": "<b>Day 8, 0800.</b> The new plan is running. Which findings <b>need immediate follow-up</b>? Select all that apply.",
+     "options": [
+      "Hemoglobin unchanged from yesterday",
+      "New facial droop and slurred speech",
+      "Chest pressure at rest for the past 20 minutes",
+      "Black, tarry stool this morning",
+      "T 36.8°C and SpO₂ 97% on room air",
+      "Cough and lung sounds still improving"
+     ],
+     "answer": "B, C, D",
+     "rationale": "Neurologic change and chest pressure could be the stroke or MI that HIT makes more likely, and neurologic change can also mean an intracranial bleed. Melena is bleeding, the risk shared by every anticoagulant. A steady hemoglobin, clearing lungs and normal vitals aren't concerning.",
+     "src": "slides 10, 16 + 00:10:39 + 00:19:30",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "title": "Scenario 2 — Emergency department → medical unit",
+   "setting": "Acute PE on an IV heparin drip · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 1100</b>\n56-year-old client, a church choir director, brought in with sudden shortness of breath after a long drive. CT shows a large pulmonary embolism, and the right calf is swollen. History of chronic kidney disease. Seasonal allergies. Not on any anticoagulant at home. A procedure may be needed in the next few days. No bleeding; stools brown. Worried about missing Sunday's service.\n<b>Vital Signs</b> — T 37.0°C · HR 104 · BP 128/76 · RR 24 · SpO₂ 92% on 2 L nasal cannula\n<b>Laboratory Results</b> — INR 1.0 · platelets 230 × 10³/µL · hemoglobin 13.8 g/dL · creatinine elevated · aPTT pending\n<b>Orders</b> — Heparin IV infusion per protocol · aPTT every 6 hours per protocol · CBC with platelets daily · oxygen by nasal cannula · admit to the medical unit",
+   "questions": [
+    {
+     "id": "c02-q01",
+     "type": "sata",
+     "stem": "Which items must the nurse track closely <b>because of the heparin infusion</b>? Select all that apply.",
+     "options": [
+      "Hemoglobin",
+      "Seasonal allergies",
+      "INR",
+      "aPTT",
+      "Platelet count",
+      "Worry about missing Sunday's service"
+     ],
+     "answer": "A, D, E",
+     "rationale": "A therapeutic IV heparin drip means aPTT per protocol, the platelet count because of HIT, and hemoglobin/hematocrit and bleeding. INR belongs to warfarin (Coumadin, Jantoven); 1.0 is just normal for someone not anticoagulated. Allergies and the choir aren't drug-monitoring parameters.",
+     "src": "slides 18, 24 + 00:14:34 + 00:46:42",
+     "step": "recognize"
+    },
+    {
+     "id": "c02-q02",
+     "type": "mc",
+     "stem": "Why does IV heparin fit this client better than enoxaparin (Lovenox)?",
+     "options": [
+      "The drip is rapidly adjustable, and enoxaparin (Lovenox) clears through the kidneys",
+      "The drip needs no lab monitoring, and enoxaparin (Lovenox) needs frequent aPTT checks",
+      "The drip has the lower HIT risk, and enoxaparin (Lovenox) causes HIT far more often",
+      "The drip dissolves the PE quickly, and enoxaparin (Lovenox) only stops new clots forming"
+     ],
+     "answer": "A",
+     "rationale": "Heparin suits rapid anticoagulation or possible rapid discontinuation, and this client may need a procedure; with kidney disease, enoxaparin (Lovenox) levels can build up. The monitoring and HIT options are backward, and neither drug dissolves a clot: they keep it from growing while the body slowly breaks it down.",
+     "src": "slides 14–15, 25 + 00:12:17 + 00:17:51 + 00:18:25",
+     "step": "analyze"
+    },
+    {
+     "id": "c02-q03",
+     "type": "mc",
+     "stem": "While the infusion runs, which change would need the nurse's <b>most urgent</b> response?",
+     "options": [
+      "A small new bruise around the IV insertion site",
+      "An aPTT just below protocol range with no symptoms",
+      "Sudden severe headache with new confusion",
+      "Mild soreness in the calf that already has the DVT"
+     ],
+     "answer": "C",
+     "rationale": "Sudden severe headache or altered mental status suggests an intracranial bleed, her \"worst case scenario\" for any bleeding. A low aPTT needs a protocol adjustment but not ahead of a possible brain bleed, and a small bruise or known calf soreness can wait for reassessment.",
+     "src": "slide 10 + 00:10:39 + 00:11:12",
+     "step": "prioritize"
+    },
+    {
+     "id": "c02-q04",
+     "type": "sata",
+     "stem": "<b>Day 2, 0600.</b> The aPTT comes back above the protocol range. Hemoglobin is unchanged and there is no sign of bleeding. Which actions does the nurse anticipate? Select all that apply.",
+     "options": [
+      "Give idarucizumab (Praxbind) to reverse the heparin",
+      "Adjust the infusion as the protocol directs",
+      "Stop heparin permanently and list it as an allergy",
+      "Check the INR to decide how to adjust the infusion",
+      "Assess for bruising, hematuria and melena",
+      "Draw the next aPTT when the protocol calls for it"
+     ],
+     "answer": "B, E, F",
+     "rationale": "IV heparin means frequent aPTT checks and adjustments by protocol (no need to memorize the numbers), and bleeding is on the monitoring list for IV heparin (slide 24). INR follows warfarin (Coumadin, Jantoven), idarucizumab (Praxbind) only reverses dabigatran (Pradaxa), and the heparin-allergy label is for HIT, which isn't happening here.",
+     "src": "slide 24 + 00:15:05 + 00:46:42",
+     "step": "generate"
+    },
+    {
+     "id": "c02-q05",
+     "type": "mc",
+     "stem": "<b>Day 2, 1400.</b> The client passes a large black stool and is dizzy and weak. HR 124, BP 88/52, hemoglobin down from 13.8 to 9.6 g/dL. The infusion is still running. What should the nurse do first?",
+     "options": [
+      "Keep the infusion running, since stopping it risks extending the PE",
+      "Stop the infusion and call the provider, anticipating protamine sulfate",
+      "Slow the infusion and request IV vitamin K (phytonadione) to reverse it",
+      "Stop the infusion and request idarucizumab (Praxbind) to reverse it"
+     ],
+     "answer": "B",
+     "rationale": "Melena with tachycardia, hypotension and dizziness means significant blood loss on a drip, and protamine sulfate \"can completely reverse\" heparin. Vitamin K (phytonadione) is for warfarin (Coumadin, Jantoven) and idarucizumab (Praxbind) is for dabigatran (Pradaxa); continuing the drip would feed a major bleed.",
+     "src": "slides 10, 14 + 00:10:39 + 00:16:44",
+     "step": "act"
+    },
+    {
+     "id": "c02-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 0900.</b> Which findings show the response to the bleed is <b>working</b>? Select all that apply.",
+     "options": [
+      "HR 92 and BP 122/70",
+      "More dizzy than yesterday when sitting up",
+      "Bruising spreading from the IV site",
+      "Hemoglobin steady on two checks in a row",
+      "New headache and trouble finding words",
+      "No further black stools since yesterday"
+     ],
+     "answer": "A, D, F",
+     "rationale": "Tachycardia and hypotension resolving, a steady hemoglobin and no more melena mean the blood loss has stopped. Spreading bruising, worsening dizziness and any new headache or neurologic change are bleeding signs that need follow-up.",
+     "src": "slides 10, 24 + 00:10:39 + 00:11:12",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "title": "Scenario 3 — Telemetry → anticoagulation clinic",
+   "setting": "New atrial fibrillation, bridging to warfarin · day 1 to week 3",
+   "text": "<b>Nurses' Notes — Day 1, 1600</b>\n73-year-old client, a retired mail carrier with chronic hypertension, admitted with palpitations. ECG shows atrial fibrillation with a ventricular rate of 132; no one knows how long it has been going on. After talking it through with the provider, the client will take warfarin (Coumadin, Jantoven) long term. Takes an over-the-counter NSAID most days for knee arthritis. Eats a spinach salad most days. Wears hearing aids. No bleeding.\n<b>Vital Signs</b> — T 36.8°C · HR 132, irregular · BP 148/86 · RR 18 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — INR 1.0 · platelets normal · hemoglobin normal · creatinine normal\n<b>Orders</b> — Rate-control medication per provider · heparin IV infusion per protocol · warfarin (Coumadin, Jantoven) by mouth starting tonight · INR daily · aPTT per protocol · CBC with platelets daily",
+   "questions": [
+    {
+     "id": "c03-q01",
+     "type": "sata",
+     "stem": "Which chart findings <b>add risk the nurse must address</b> in the anticoagulant plan? Select all that apply.",
+     "options": [
+      "INR of 1.0",
+      "Over-the-counter NSAID most days",
+      "Wears hearing aids",
+      "Spinach salad most days",
+      "Retired mail carrier",
+      "Atrial fibrillation of unknown duration"
+     ],
+     "answer": "B, D, F",
+     "rationale": "NSAIDs add bleeding risk on warfarin (Coumadin, Jantoven), unknown duration means clots could already be there, and a salad habit is vitamin K intake that must stay consistent once the dose is tailored to it. An INR of 1.0 is the expected normal before anticoagulation, and the job and hearing aids don't matter here.",
+     "src": "slides 18–19 + 00:24:39 + 00:28:29 + 00:30:34 + 00:31:04",
+     "step": "recognize"
+    },
+    {
+     "id": "c03-q02",
+     "type": "mc",
+     "stem": "Why does the client receive heparin and warfarin (Coumadin, Jantoven) at the same time?",
+     "options": [
+      "Warfarin (Coumadin, Jantoven) works only after heparin activates it in the liver",
+      "Heparin dissolves any clots in the atria while warfarin (Coumadin, Jantoven) stops new ones",
+      "Heparin offsets the early bleeding risk that warfarin (Coumadin, Jantoven) causes",
+      "Heparin covers the days until old clotting factors clear on warfarin (Coumadin, Jantoven)"
+     ],
+     "answer": "D",
+     "rationale": "Warfarin (Coumadin, Jantoven) stops new factors from forming, but \"the old ones are still there\" for days, so heparin gives immediate anticoagulation until the INR is therapeutic. The drugs work independently, heparin doesn't dissolve clots, and heparin adds bleeding risk rather than offsetting it.",
+     "src": "slide 17 + 00:21:19 + 00:21:51",
+     "step": "analyze"
+    },
+    {
+     "id": "c03-q03",
+     "type": "mc",
+     "stem": "<b>Day 2, 0800.</b> HR is now 88 and the INR is 1.2. The client says, \"My heart rate is better and I took my warfarin (Coumadin, Jantoven) last night. Can we stop the drip?\" What is the nurse's <b>priority concern</b> if the heparin stops now?",
+     "options": [
+      "A stroke from an atrial clot, because an INR below 2 leaves too little protection",
+      "A major bleed, because an INR of 1.2 means too much anticoagulation is on board",
+      "A return of rapid heart rate, because the heparin is what slowed the rhythm down",
+      "Liver damage, because warfarin (Coumadin, Jantoven) needs heparin to be metabolized"
+     ],
+     "answer": "A",
+     "rationale": "About 1 is normal and 2–3 is therapeutic, so 1.2 is barely anticoagulated, and waiting days without cover is when \"a stroke will occur.\" A slower heart fixes the rate problem, not the stasis problem. An INR of 1.2 isn't a bleeding number, and heparin doesn't control rate.",
+     "src": "slide 18 + 00:22:26 + 00:28:29 + 00:29:01 + 01:27:56",
+     "step": "prioritize"
+    },
+    {
+     "id": "c03-q04",
+     "type": "sata",
+     "stem": "Which points belong in the nurse's first warfarin (Coumadin, Jantoven) teaching? Select all that apply.",
+     "options": [
+      "Report unusual bruising, black stools or blood in your urine",
+      "Avoid all leafy greens while you take this medication",
+      "Attend every INR appointment, even when you feel well",
+      "A home INR stick is as dependable as a glucose stick",
+      "Check with the clinic before taking your NSAID again",
+      "Keep your leafy-green intake about the same from week to week"
+     ],
+     "answer": "A, C, E, F",
+     "rationale": "\"The consistency is the key\": vitamin K isn't ruled out, and she warns against suddenly eating \"all spinach salads in one week.\" INR visits are for safety, NSAIDs add bleeding risk, and bleeding signs get reported. Home INR setups \"have not gotten to the point yet where we're feeling consistently good about them.\"",
+     "src": "slide 19 + 00:30:02 + 00:31:04 + 00:33:09 + 00:43:07",
+     "step": "generate"
+    },
+    {
+     "id": "c03-q05",
+     "type": "order",
+     "stem": "The nurse carries out the bridging plan. Put the steps in order.",
+     "options": [
+      "Stop the heparin once the INR reaches 2–3",
+      "Give heparin and warfarin (Coumadin, Jantoven) together",
+      "Continue warfarin (Coumadin, Jantoven) with INR checks through the clinic",
+      "Follow the INR over the next several days"
+     ],
+     "answer": "B, D, A, C",
+     "rationale": "Heparin bridging starts both at the same time, keeps the client on heparin until warfarin (Coumadin, Jantoven) reaches the therapeutic range (a couple of days out), then continues it alone with frequent monitoring and dose adjustments. Stopping heparin before the INR is therapeutic leaves the gap she warned about.",
+     "src": "slide 17 + 00:21:51 + 00:23:33 + 00:24:39",
+     "step": "act"
+    },
+    {
+     "id": "c03-q06",
+     "type": "sata",
+     "stem": "<b>Week 3, 1000.</b> At the anticoagulation clinic, the nurse reviews the visit. Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "HR 78 at rest",
+      "Still eats about the same amount of salad each week",
+      "Skipped last week's INR check because the visits are annoying",
+      "INR 2.4",
+      "Black stools twice this week",
+      "Started a new over-the-counter supplement last week"
+     ],
+     "answer": "C, E, F",
+     "rationale": "Melena gets reported, supplements can affect bleeding risk or INR, and skipped checks are how her uninsured client reached an INR of \"like 11 point something\" with a hemorrhagic stroke. An INR of 2.4 is in the 2–3 range, steady salads are the goal, and a controlled rate is good news.",
+     "src": "slides 18–19 + 00:33:09 + 00:33:42",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "title": "Scenario 4 — Anticoagulation clinic → emergency department",
+   "setting": "Warfarin, an antibiotic and a diet change · days 1–5",
+   "text": "<b>Nurses' Notes — Day 1, 1000</b>\n69-year-old client on warfarin (Coumadin, Jantoven) for atrial fibrillation for 4 years; INR 2.4 last month and steady before that. Urgent care started an antibiotic 6 days ago for a sinus infection. With a sore throat for 2 weeks, the client stopped the usual daily salads and is eating mostly soup. Reports taking warfarin (Coumadin, Jantoven) as prescribed. No bruising, no blood in urine or stool. Enjoys gardening. Wears reading glasses.\n<b>Vital Signs</b> — T 36.6°C · HR 76, irregular · BP 126/74 · RR 16 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — INR 5.2 · hemoglobin normal · platelets normal · creatinine normal\n<b>Orders</b> — Provider to review today's INR",
+   "questions": [
+    {
+     "id": "c04-q01",
+     "type": "sata",
+     "stem": "Which findings help explain today's INR? Select all that apply.",
+     "options": [
+      "Antibiotic started 6 days ago",
+      "Enjoys gardening",
+      "Wears reading glasses",
+      "No daily salads for 2 weeks",
+      "HR 76, irregular"
+     ],
+     "answer": "A, D",
+     "rationale": "Medication changes and a sudden drop in vitamin K intake are the two classic reasons a steady INR climbs. The irregular pulse is the client's known atrial fibrillation, and gardening and glasses are background.",
+     "src": "slide 19 + 00:31:04 + 00:32:07",
+     "step": "recognize"
+    },
+    {
+     "id": "c04-q02",
+     "type": "sata",
+     "stem": "Which statements about this client's INR are accurate? Select all that apply.",
+     "options": [
+      "An antibiotic can't change warfarin (Coumadin, Jantoven), because both are taken by mouth",
+      "An INR of 5.2 means the client is not anticoagulated enough",
+      "Eating less vitamin K increases the effect of warfarin (Coumadin, Jantoven)",
+      "An INR above 3 means a much greater risk of bleeding",
+      "The antibiotic can knock warfarin (Coumadin, Jantoven) off plasma proteins, leaving more free drug",
+      "Eating less vitamin K weakens warfarin (Coumadin, Jantoven)"
+     ],
+     "answer": "C, D, E",
+     "rationale": "Warfarin (Coumadin, Jantoven) is about 99% protein bound, so a competing protein-bound drug can knock some of it free; reduced vitamin K intake also increases its effect. Above 3 is \"much greater risk of bleeding\" and below 2 is not enough anticoagulation, so 5.2 isn't under-treated.",
+     "src": "slides 18–19 + 00:29:01 + 00:31:04 + 00:31:35 + 00:32:07",
+     "step": "analyze"
+    },
+    {
+     "id": "c04-q03",
+     "type": "mc",
+     "stem": "The client has no signs of bleeding. Which reasoning should <b>guide</b> the response to this INR?",
+     "options": [
+      "The number alone decides: any INR above 3 needs reversal right away",
+      "Bleeding status decides: reversal would bring back the clot risk",
+      "The antibiotic is protective, so warfarin (Coumadin, Jantoven) stays unchanged",
+      "Clots are the main threat, so the warfarin (Coumadin, Jantoven) dose should rise"
+     ],
+     "answer": "B",
+     "rationale": "Reversal is \"not always going to be just based on the INR\": with no active bleeding she may stop the warfarin (Coumadin, Jantoven) for a while, because reversing it brings back the problem it was treating. A high INR isn't protective and is never a reason to raise the dose.",
+     "src": "slide 20 + 00:34:15 + 00:34:47",
+     "step": "prioritize"
+    },
+    {
+     "id": "c04-q04",
+     "type": "sata",
+     "stem": "Which items does the nurse anticipate in today's plan? Select all that apply.",
+     "options": [
+      "Eat extra spinach all week to bring the INR down quickly",
+      "Give four-factor PCC (4F-PCC) in the clinic today",
+      "Return to the usual, steady amount of vitamin K foods",
+      "Review when to seek care for melena, hematuria or sudden severe headache",
+      "Arrange additional INR monitoring while the medications are changing",
+      "Hold warfarin (Coumadin, Jantoven) for now and let the level come down"
+     ],
+     "answer": "C, D, E, F",
+     "rationale": "No bleeding: hold the warfarin (Coumadin, Jantoven), let the level fall, monitor more often and get back to steady vitamin K, with clear bleeding teaching. 4F-PCC is for serious or life-threatening bleeding, and suddenly eating \"all spinach salads in one week\" is exactly the swing she warned about.",
+     "src": "slides 10, 19–20 + 00:31:04 + 00:32:07 + 00:34:47",
+     "step": "generate"
+    },
+    {
+     "id": "c04-q05",
+     "type": "mc",
+     "stem": "<b>Day 3, 2100.</b> The client comes to the emergency department with black, tarry stools since morning, dizziness and weakness. HR 122, BP 84/50, INR 6.1, hemoglobin 8.9 g/dL (normal on Day 1). Which order does the nurse prepare to carry out?",
+     "options": [
+      "Protamine sulfate IV, which fully reverses warfarin (Coumadin, Jantoven)",
+      "Idarucizumab (Praxbind) IV, the specific antidote for this anticoagulant",
+      "Oral vitamin K (phytonadione) alone, then a repeat INR in the morning",
+      "Four-factor PCC (4F-PCC) with IV vitamin K (phytonadione)"
+     ],
+     "answer": "D",
+     "rationale": "4F-PCC acts now (\"look, they've got the clotting factors that we need now\") and IV vitamin K (phytonadione) gets the liver making its own for sustained reversal. Vitamin K alone isn't immediate, protamine sulfate is for heparin, and idarucizumab (Praxbind) is for dabigatran (Pradaxa).",
+     "src": "slide 20 + 00:34:47 + 00:35:19 + 00:35:49 + 00:37:24",
+     "step": "act"
+    },
+    {
+     "id": "c04-q06",
+     "type": "mc",
+     "stem": "<b>Day 5, 1000.</b> The bleeding has stopped. Before discharge, the nurse checks what the client learned. Which statement shows the teaching <b>worked</b>?",
+     "options": [
+      "\"I'll give up salads for good, so my INR can never change again.\"",
+      "\"I can skip INR visits while I feel fine, since bleeding would warn me.\"",
+      "\"I'll keep my greens steady and tell the clinic about any new medicine.\"",
+      "\"I'll eat extra spinach any week I'm worried my INR may be too high.\""
+     ],
+     "answer": "C",
+     "rationale": "Consistent vitamin K and extra INR monitoring with medication changes are the two lessons of this case. Vitamin K isn't banned, sudden swings are the problem, and follow-up testing is what catches a rising INR before bleeding does.",
+     "src": "slide 19 + 00:30:02 + 00:32:07 + 00:33:09",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "title": "Scenario 5 — Cardiology clinic / home",
+   "setting": "Choosing a DOAC for atrial fibrillation · weeks 0–6",
+   "text": "<b>Nurses' Notes — Week 0, 0900</b>\n58-year-old client, a warehouse supervisor on rotating day and night shifts, newly diagnosed with atrial fibrillation; the rate is controlled. Has never had heart valve surgery. Says, \"My brother has a mechanical valve and goes for blood tests all the time. I don't want that.\" Goes birdwatching on weekends. Carries a smartphone. No bleeding history.\n<b>Vital Signs</b> — T 36.7°C · HR 76 · BP 124/78 · RR 16 · SpO₂ 98% on room air\n<b>Laboratory Results</b> — Creatinine normal · hemoglobin normal · platelets normal · INR 1.0\n<b>Orders</b> — Apixaban (Eliquis) by mouth on a fixed schedule · DOAC teaching · renal function check and return visit in 6 weeks",
+   "questions": [
+    {
+     "id": "c05-q01",
+     "type": "sata",
+     "stem": "Which findings bear on whether apixaban (Eliquis) is a good fit for <b>this client</b>? Select all that apply.",
+     "options": [
+      "Goes birdwatching on weekends",
+      "Works rotating day and night shifts",
+      "Normal creatinine",
+      "INR 1.0",
+      "Has never had heart valve surgery",
+      "Brother's mechanical valve"
+     ],
+     "answer": "B, C, E",
+     "rationale": "Selection turns on adherence to a strict schedule (shift workers may struggle), kidney function, and having no mechanical valve of the client's own. The brother's valve doesn't change this client's choice, INR isn't how apixaban (Eliquis) is judged, and birdwatching has no bearing on the choice.",
+     "src": "slides 21, 24 + 00:38:55 + 00:39:55",
+     "step": "recognize"
+    },
+    {
+     "id": "c05-q02",
+     "type": "sata",
+     "stem": "Which statements about apixaban (Eliquis) are accurate? Select all that apply.",
+     "options": [
+      "It has a rapid onset of anticoagulation",
+      "It directly inhibits factor Xa, as the -xaban ending signals",
+      "Idarucizumab (Praxbind) is its specific reversal agent",
+      "It has fewer dietary interactions than warfarin (Coumadin, Jantoven)",
+      "It needs no routine INR monitoring",
+      "A long half-life makes late doses unimportant"
+     ],
+     "answer": "A, B, D, E",
+     "rationale": "\"Xa-ban. Pretty cool, huh?\" Rapid onset, no routine INR and fewer dietary interactions are why DOACs are often preferred. The half-life is short, which is why timing matters, and idarucizumab (Praxbind) reverses only dabigatran (Pradaxa).",
+     "src": "slides 21, 23 + 00:37:55 + 00:38:25 + 00:44:52 + 00:46:10",
+     "step": "analyze"
+    },
+    {
+     "id": "c05-q03",
+     "type": "mc",
+     "stem": "Teaching time is limited today. Which point is the <b>most important</b> for this client?",
+     "options": [
+      "Avoid vitamin K foods, because they cancel out apixaban (Eliquis)",
+      "Come in for INR checks, because each dose depends on the result",
+      "Take each dose on time, because a late dose lowers stroke protection",
+      "Stop apixaban (Eliquis) in night-shift weeks, when sleep is irregular"
+     ],
+     "answer": "C",
+     "rationale": "\"The big thing… is the timing\": short half-lives mean even a late dose reduces protection, and explaining the stroke risk goes further than just saying take it on time (\"You need to know why you're doing something\"). Diet and INR checks are the warfarin (Coumadin, Jantoven) burdens, and skipping doses is the danger itself.",
+     "src": "slide 21 + 00:38:25 + 00:38:55",
+     "step": "prioritize"
+    },
+    {
+     "id": "c05-q04",
+     "type": "sata",
+     "stem": "Which items belong in the nurse's plan to help the client keep the schedule? Select all that apply.",
+     "options": [
+      "Talk through how rotating shifts will affect the doses",
+      "Save missed doses and take them together at the end of a shift",
+      "Take doses whenever it's convenient, since exact timing doesn't matter",
+      "Set a smartphone alarm for each dose",
+      "Go over the drug's specific missed-dose instructions",
+      "Pick dose times the client can hit within about a half hour"
+     ],
+     "answer": "A, D, E, F",
+     "rationale": "Start with \"how do you think this is going to affect your life,\" then the smartphone alarm, \"really the biggest thing,\" dose times kept within about a half hour, and the drug's own missed-dose instructions. Convenience timing and stacking saved doses are not what she taught.",
+     "src": "00:39:55 + 00:41:14",
+     "step": "generate"
+    },
+    {
+     "id": "c05-q05",
+     "type": "mc",
+     "stem": "The client asks, \"Apixaban (Eliquis) sounds so much easier. Should my brother with the mechanical valve ask to switch too?\" Which response is correct?",
+     "options": [
+      "\"No. A mechanical valve is such a high clot risk it needs warfarin (Coumadin, Jantoven).\"",
+      "\"Yes. DOACs are preferred for most clients, so the valve makes no difference at all here.\"",
+      "\"Yes, if he has good kidney function and can keep a strict schedule with no missed doses.\"",
+      "\"No. A valve needs a drug that dissolves clots, which apixaban (Eliquis) can't do at all.\""
+     ],
+     "answer": "A",
+     "rationale": "\"Click, click, click\": a mechanical valve causes turbulence and a very high clot risk, and warfarin (Coumadin, Jantoven) is the only drug that gets anticoagulation high enough. Good kidneys and adherence don't change that (\"Last time I'm going to say that\"), and no anticoagulant directly dissolves clots.",
+     "src": "slides 21, 25 + 00:38:55 + 00:50:37",
+     "step": "act"
+    },
+    {
+     "id": "c05-q06",
+     "type": "sata",
+     "stem": "<b>Week 6, 0900.</b> The client returns. Which findings <b>need follow-up</b>? Select all that apply.",
+     "options": [
+      "Black stools twice last week",
+      "Doses often 3–4 hours late during night-shift weeks",
+      "Creatinine higher than at the last visit",
+      "INR 1.1, drawn along with the other labs",
+      "HR 74 at rest",
+      "Eating more salads this month"
+     ],
+     "answer": "A, B, C",
+     "rationale": "Late doses reduce protection (if the schedule truly can't be kept, warfarin (Coumadin, Jantoven) may be the better choice), a rising creatinine means drug levels can build up, and melena is bleeding. A near-normal INR doesn't show DOAC anticoagulation either way, and diet isn't restricted on this drug.",
+     "src": "slides 21, 24 + 00:37:55 + 00:38:25 + 00:39:55 + 00:48:23",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "title": "Scenario 6 — Emergency department",
+   "setting": "Two DOAC bleeds, two reversal plans · one evening",
+   "text": "<b>Nurses' Notes — Day 1, 1900</b>\nBed 4: 76-year-old client on dabigatran (Pradaxa) for atrial fibrillation. Vomited bright red blood twice at home; dizzy and weak. Last dose this morning. Wears dentures. Retired librarian.\nBed 7: 74-year-old client on rivaroxaban (Xarelto) for atrial fibrillation. Black, tarry stools for 2 days and lightheaded on standing. Last dose this morning. Alert and oriented. No fall or head injury.\n<b>Vital Signs</b> — Bed 4: T 36.8°C · HR 118 · BP 92/56 · RR 22 · SpO₂ 96%. Bed 7: T 36.7°C · HR 104 · BP 108/64 · RR 18 · SpO₂ 97%\n<b>Laboratory Results</b> — Bed 4: INR 1.1 · hemoglobin below normal · creatinine elevated. Bed 7: INR 1.2 · hemoglobin below normal · creatinine normal\n<b>Orders</b> — Hold both DOACs · IV access and supportive care · repeat hemoglobin per protocol · provider evaluating reversal",
+   "questions": [
+    {
+     "id": "c06-q01",
+     "type": "sata",
+     "stem": "Which findings for <b>Bed 4</b> need follow-up? Select all that apply.",
+     "options": [
+      "Creatinine elevated",
+      "Dizzy and weak",
+      "HR 118 and BP 92/56",
+      "Retired librarian",
+      "Wears dentures",
+      "Vomited bright red blood twice"
+     ],
+     "answer": "A, B, C, F",
+     "rationale": "Hematemesis is overt bleeding; tachycardia, hypotension, dizziness and weakness are signs of significant blood loss. Dabigatran (Pradaxa) has significant renal elimination, so a high creatinine means more drug exposure. Dentures and a past career don't bear on the bleed.",
+     "src": "slides 10, 22 + 00:10:39 + 00:43:42",
+     "step": "recognize"
+    },
+    {
+     "id": "c06-q02",
+     "type": "mc",
+     "stem": "A student says, \"Both INRs are close to normal, so these DOACs can't be causing the bleeding.\" Which reply is correct?",
+     "options": [
+      "\"Right. A DOAC that is affecting clotting always raises the INR above 2.\"",
+      "\"No. DOAC anticoagulation doesn't really show up on the INR at all.\"",
+      "\"Right. An INR near 1 means these clients need another bleeding cause.\"",
+      "\"No. Those INRs are low only because the clients have lost so much blood.\""
+     ],
+     "answer": "B",
+     "rationale": "\"The anticoagulation doesn't really show up on INR,\" so a normal INR does not mean a client on a DOAC isn't anticoagulated. INR 2–3 is a warfarin (Coumadin, Jantoven) target, and blood loss isn't what's keeping these numbers near 1.",
+     "src": "slide 24 + 00:48:23",
+     "step": "analyze"
+    },
+    {
+     "id": "c06-q03",
+     "type": "mc",
+     "stem": "<b>Day 1, 1930.</b> The nurse gets four reports at once. Which one does the nurse act on <b>first</b>?",
+     "options": [
+      "Bed 4: no vomiting since arrival, BP now 104/62, still feels weak",
+      "Bed 4: heartburn-like stomach upset, with no new blood seen",
+      "Bed 7: repeat hemoglobin unchanged, and one more dark stool",
+      "Bed 7: sudden severe headache, now confused about the date"
+     ],
+     "answer": "D",
+     "rationale": "Sudden severe headache with altered mental status suggests intracranial bleeding, the \"worst case scenario.\" Bed 4 is improving, dyspepsia is an expected dabigatran (Pradaxa) effect, and an unchanged hemoglobin with one more dark stool can wait a moment.",
+     "src": "slides 10, 22 + 00:11:12 + 00:43:42",
+     "step": "prioritize"
+    },
+    {
+     "id": "c06-q04",
+     "type": "sata",
+     "stem": "On arrival, before those 1930 reports, which orders would the nurse anticipate for these two clients? Select all that apply.",
+     "options": [
+      "Vitamin K (phytonadione) alone for Bed 7",
+      "Protamine sulfate for Bed 4",
+      "Idarucizumab (Praxbind) for Bed 4",
+      "Considering four-factor PCC (4F-PCC) for Bed 7",
+      "Idarucizumab (Praxbind) for Bed 7",
+      "Stopping rivaroxaban (Xarelto), with supportive care, for Bed 7"
+     ],
+     "answer": "C, D, F",
+     "rationale": "Pradaxa and Praxbind sound alike: idarucizumab (Praxbind) is specific to dabigatran (Pradaxa). Nothing directly reverses the -xabans, so rivaroxaban (Xarelto) means stop the drug, support, and consider 4F-PCC. Protamine sulfate is for heparin products and vitamin K (phytonadione) is for warfarin (Coumadin, Jantoven).",
+     "src": "slides 22–23 + 00:44:22 + 00:44:52 + 00:46:10",
+     "step": "generate"
+    },
+    {
+     "id": "c06-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 1932.</b> The nurse reaches the client with the highest-priority report. What does the nurse do <b>first</b>?",
+     "options": [
+      "Report the neurologic change now and anticipate an urgent head CT",
+      "Give a pain reliever and recheck the client's symptoms in 30 minutes",
+      "Give the next DOAC dose on time, since late doses raise stroke risk",
+      "Have the client chew an aspirin, in case this is an ischemic stroke"
+     ],
+     "answer": "A",
+     "rationale": "Possible intracranial bleeding on an anticoagulant gets reported now, and stroke-type symptoms mean a head CT first, just as chest pain means an EKG first. Treating the pain delays that, and more DOAC or aspirin adds bleeding risk.",
+     "src": "slide 10 + 00:11:12 + 01:04:11",
+     "step": "act"
+    },
+    {
+     "id": "c06-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 2230.</b> Bed 4 has received the ordered reversal agent. Which findings show Bed 4 is <b>responding</b>? Select all that apply.",
+     "options": [
+      "No further vomiting of blood",
+      "INR still 1.1",
+      "Hemoglobin steady on the repeat check",
+      "More dizzy when sitting up",
+      "New black stool in the past hour",
+      "HR 94 and BP 118/68"
+     ],
+     "answer": "A, C, F",
+     "rationale": "Vital signs recovering, no more hematemesis and a steady hemoglobin show the bleeding is under control. The INR doesn't track dabigatran (Pradaxa), so it says nothing about the response. New melena or worsening dizziness would mean bleeding continues.",
+     "src": "slides 10, 22, 24 + 00:10:39 + 00:48:23",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "title": "Scenario 7 — Emergency department → cath lab → step-down",
+   "setting": "ACS: aspirin, DAPT and a new stent · days 1–3",
+   "text": "<b>Nurses' Notes — Day 1, 0700</b>\n63-year-old client, a high-school band teacher with hypertension, elevated LDL and a smoking history, arrives by EMS with chest pressure at rest for the past 25 minutes. Has not taken any medication today. 12-lead ECG shows ST elevation. Seasonal allergies. Wears glasses. Takes an over-the-counter NSAID now and then for a sore shoulder. No bleeding.\n<b>Vital Signs</b> — T 36.9°C · HR 98 · BP 146/88 · RR 20 · SpO₂ 96% on room air\n<b>Laboratory Results</b> — Troponin above the injury threshold · hemoglobin normal · platelets normal · creatinine normal\n<b>Orders</b> — Aspirin by mouth now · clopidogrel (Plavix) by mouth now · cath lab for balloon angioplasty and stent",
+   "questions": [
+    {
+     "id": "c07-q01",
+     "type": "sata",
+     "stem": "Which findings point to an <b>acute coronary event</b>? Select all that apply.",
+     "options": [
+      "Chest pressure at rest for 25 minutes",
+      "Troponin above the injury threshold",
+      "Normal hemoglobin",
+      "Wears glasses",
+      "ST elevation on the ECG",
+      "Seasonal allergies"
+     ],
+     "answer": "A, B, E",
+     "rationale": "Chest pressure at rest instead of with exertion points to a plaque that's changing, and ST elevation with a troponin above threshold is a STEMI, \"the big one.\" Allergies, glasses and a normal hemoglobin aren't part of the picture.",
+     "src": "00:09:33 + 01:16:20 + 01:16:51 + 01:23:17 + 01:23:49",
+     "step": "recognize"
+    },
+    {
+     "id": "c07-q02",
+     "type": "order",
+     "stem": "The client asks how a plaque turned into a heart attack. Put the events in order.",
+     "options": [
+      "Activated platelets bridge to each other through GP IIb/IIIa receptors",
+      "A coronary thrombus abruptly reduces blood flow",
+      "The plaque ruptures or erodes and exposes the tissue underneath",
+      "Platelets adhere to the injured surface and activate"
+     ],
+     "answer": "C, D, A, B",
+     "rationale": "Plaque rupture or erosion → platelet adhesion and activation → aggregation at the GP IIb/IIIa \"bridge\" → coronary thrombus. The rupture is like \"pulling off that whole scab,\" and each antiplatelet class interrupts a different step along this chain.",
+     "src": "slides 5, 29 + 00:03:27 + 01:17:24 + 01:19:01",
+     "step": "analyze"
+    },
+    {
+     "id": "c07-q03",
+     "type": "mc",
+     "stem": "The nurse prepares the ordered aspirin. What is the <b>priority</b> approach?",
+     "options": [
+      "Have the client swallow the aspirin whole, to limit any stomach irritation",
+      "Hold the aspirin until the cath lab has finished placing the stent",
+      "Have the client chew the aspirin now, so it absorbs as fast as possible",
+      "Hold the aspirin until the client's GI bleeding risk is fully reviewed"
+     ],
+     "answer": "C",
+     "rationale": "\"Take one and chew it, not just swallow it,\" so it's absorbed as quickly as possible and platelet aggregation drops while the clot is evolving. GI irritation is a real effect of aspirin, but it doesn't outweigh an evolving MI, and waiting loses the time aspirin buys.",
+     "src": "slide 31 + 00:54:20 + 00:54:53",
+     "step": "prioritize"
+    },
+    {
+     "id": "c07-q04",
+     "type": "sata",
+     "stem": "Which items does the nurse anticipate with this client's antiplatelet plan? Select all that apply.",
+     "options": [
+      "Reviewing the medication list, since clopidogrel (Plavix) has more CYP450 interactions",
+      "Expecting the two drugs to dissolve the thrombus that has already formed",
+      "Giving aspirin plus clopidogrel (Plavix) because they suppress two separate pathways",
+      "Stopping aspirin once clopidogrel (Plavix) starts, since they block the same pathway",
+      "Monitoring closely for bleeding, since two antiplatelets raise the risk"
+     ],
+     "answer": "A, C, E",
+     "rationale": "Aspirin works on COX-1 → TXA₂ and clopidogrel (Plavix) on ADP at P2Y12, so two pathways give more platelet suppression and more bleeding. \"The only big thing\" between the P2Y12 drugs is the CYP450 interactions of clopidogrel (Plavix). Antiplatelets don't dissolve existing clots; that takes a thrombolytic.",
+     "src": "slides 33, 41 + 00:58:10 + 00:58:41",
+     "step": "generate"
+    },
+    {
+     "id": "c07-q05",
+     "type": "mc",
+     "stem": "<b>Day 1, 0830.</b> In the cath lab, a large thrombus is seen during stenting, and the cardiologist orders eptifibatide (Integrilin). What does the nurse expect?",
+     "options": [
+      "It continues as a daily pill after discharge, alongside the DAPT",
+      "It infuses IV only during the procedure, with close bleeding checks",
+      "It is injected subcutaneously every 12 hours once on the step-down unit",
+      "It infuses IV to dissolve the thrombus that has already formed"
+     ],
+     "answer": "B",
+     "rationale": "GP IIb/IIIa inhibitors block the bridge between platelets, so they're given IV \"only during that time,\" not \"every 12 hours… on a floor,\" and significant bleeding is the biggest risk. They prevent new clots for a short period but don't break down clots already there.",
+     "src": "slide 34 + 01:00:53 + 01:01:24 + 01:01:55",
+     "step": "act"
+    },
+    {
+     "id": "c07-q06",
+     "type": "sata",
+     "stem": "<b>Day 3, 1000.</b> On step-down, the nurse reviews discharge teaching. Which statements <b>need more teaching</b>? Select all that apply.",
+     "options": [
+      "\"If I get a bruise, I'll just quit my aspirin for a while without telling anyone.\"",
+      "\"I'll report black stools or blood in my urine.\"",
+      "\"I'll use my NSAID whenever my shoulder hurts, since these drugs don't affect bleeding.\"",
+      "\"Once the chest pain has been gone a while, I can stop clopidogrel (Plavix) on my own.\"",
+      "\"I'll call my prescriber before stopping either medication.\"",
+      "\"If my stent clots off, it could be a giant heart attack.\""
+     ],
+     "answer": "A, C, D",
+     "rationale": "DAPT doesn't get stopped independently: if the new stent clots off, \"it's a giant MI.\" NSAIDs add to the bleeding risk, so that statement is wrong too. Calling the prescriber and reporting melena or hematuria are exactly what she wants clients to do.",
+     "src": "slides 10, 24, 33 + 00:59:48 + 01:00:19",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "title": "Scenario 8 — Stroke and rural emergency care",
+   "setting": "Alteplase at a rural hospital · one day",
+   "text": "<b>Nurses' Notes — Day 1, 1010</b>\n71-year-old client, a sheep farmer with hypertension, brought by a spouse to a small rural hospital with sudden right-sided weakness and slurred speech that started about 40 minutes before arrival. Takes lisinopril. Wears reading glasses. No recent head injury or brain surgery. No active bleeding. Alert and follows commands.\n<b>Vital Signs</b> — T 36.8°C · HR 84 · BP 142/84 · RR 16 · SpO₂ 97% on room air\n<b>Laboratory Results</b> — INR 1.0 · platelets normal · hemoglobin normal · creatinine normal\n<b>Orders</b> — Stroke evaluation per protocol · alteplase (Activase) under consideration · neurologic and BP checks per protocol",
+   "questions": [
+    {
+     "id": "c08-q01",
+     "type": "sata",
+     "stem": "Which chart items are relevant when the team screens the client for alteplase (Activase)? Select all that apply.",
+     "options": [
+      "No recent head injury or brain surgery",
+      "BP 142/84",
+      "Symptoms began about 40 minutes before arrival",
+      "Raises sheep",
+      "No active bleeding",
+      "Wears reading glasses"
+     ],
+     "answer": "A, B, C, E",
+     "rationale": "These bear directly on the screening she described, and \"a lot of it will be timing as well,\" so symptom onset matters. Reading glasses and the client's sheep don't figure in.",
+     "src": "slide 39 + supp-01 ¶59 + 01:06:18 + 01:06:48",
+     "step": "recognize"
+    },
+    {
+     "id": "c08-q02",
+     "type": "mc",
+     "stem": "Why does it matter so much <b>which type of stroke</b> this is?",
+     "options": [
+      "Alteplase (Activase) only stops new clots, so it does little in either type",
+      "Alteplase (Activase) works in coronary arteries, so neither type responds",
+      "Alteplase (Activase) breaks down fibrin anywhere, which worsens a brain bleed",
+      "Alteplase (Activase) blocks platelets, so it's safe only if a vessel ruptured"
+     ],
+     "answer": "C",
+     "rationale": "Alteplase (Activase) will \"break down any clot in the body, anywhere,\" so it can help an ischemic stroke but make a hemorrhagic stroke far worse. It degrades existing fibrin rather than just preventing new clots, it doesn't work on platelets, and acute ischemic stroke is one of its uses.",
+     "src": "slide 38 + 01:03:36 + 01:04:11 + 01:05:48",
+     "step": "analyze"
+    },
+    {
+     "id": "c08-q03",
+     "type": "mc",
+     "stem": "If alteplase (Activase) is given, which complication is the <b>most serious</b>?",
+     "options": [
+      "Intracranial hemorrhage",
+      "Oozing at an IV insertion site",
+      "Dyspepsia and gastrointestinal upset",
+      "Gastrointestinal bleeding found in the stool"
+     ],
+     "answer": "A",
+     "rationale": "\"The most serious complication will be intracranial hemorrhage.\" GI bleeding and bleeding at IV sites are real risks because any clot can dissolve, but they don't outrank bleeding in the brain. Dyspepsia is a dabigatran (Pradaxa) effect, not a thrombolytic concern.",
+     "src": "slide 39 + 01:05:48 + 01:07:20",
+     "step": "prioritize"
+    },
+    {
+     "id": "c08-q04",
+     "type": "sata",
+     "stem": "Before alteplase (Activase) can be given, which findings does the nurse anticipate the team must <b>rule out</b>? Select all that apply.",
+     "options": [
+      "Brain surgery last month",
+      "Suspected intracranial hemorrhage",
+      "Active significant bleeding",
+      "Severe uncontrolled hypertension",
+      "Age over 70",
+      "History of atrial fibrillation"
+     ],
+     "answer": "A, B, C, D",
+     "rationale": "After recent brain surgery \"there's still clots in your brain that are holding things together\"; active bleeding, known or suspected intracranial hemorrhage and severe uncontrolled hypertension are also on her list. Age isn't on it, and atrial fibrillation is one way a clot reaches the brain in the first place.",
+     "src": "slide 39 + 01:06:18 + 01:06:48",
+     "step": "generate"
+    },
+    {
+     "id": "c08-q05",
+     "type": "order",
+     "stem": "<b>Day 1, 1025.</b> Put the nurse's steps for this client in order.",
+     "options": [
+      "Give alteplase (Activase) as ordered",
+      "Assess bleeding risk and other contraindications",
+      "Monitor neurologic status, BP and signs of bleeding",
+      "Get the client to head CT to rule out hemorrhagic stroke"
+     ],
+     "answer": "D, B, A, C",
+     "rationale": "Chest pain gets an EKG first; stroke symptoms get \"a head CT\" first. With hemorrhagic stroke ruled out, assess bleeding risk and other contraindications, give the drug if appropriate, then watch neuro status, BP and bleeding, because any clot can dissolve.",
+     "src": "slide 39 + 01:04:11 + 01:07:20",
+     "step": "act"
+    },
+    {
+     "id": "c08-q06",
+     "type": "sata",
+     "stem": "<b>Day 1, 1300.</b> Alteplase (Activase) has been given. Which findings <b>need immediate follow-up</b>? Select all that apply.",
+     "options": [
+      "Sudden severe headache",
+      "Bleeding that won't stop at the IV site",
+      "Speech clearer than on arrival",
+      "New confusion",
+      "Right-arm strength improving",
+      "BP 138/80"
+     ],
+     "answer": "A, B, D",
+     "rationale": "Sudden severe headache and altered mental status are possible intracranial bleeding, and invasive sites can bleed because plasmin breaks down clots there too. Stronger arm, clearer speech and a stable BP are the blood flow returning, not a problem.",
+     "src": "slides 39–40 + 01:05:48 + 01:07:20",
+     "step": "evaluate"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "title": "Scenario 9 — Rapid rounds",
+   "setting": "Clinic and hospital · one question each",
+   "text": "Five clients, one question each. Read each stem on its own.",
+   "questions": [
+    {
+     "id": "c09-q01",
+     "type": "mc",
+     "stem": "A client having a STEMI at a rural hospital with no cath lab also has severe uncontrolled hypertension. Alteplase (Activase) is ordered. What should the nurse do?",
+     "options": [
+      "Give it, because a rural STEMI with no cath lab is exactly its indication",
+      "Give it, as long as the dose is lowered because of the blood pressure",
+      "Question it, because severe uncontrolled hypertension is a contraindication",
+      "Question it, because alteplase (Activase) is used only for ischemic stroke"
+     ],
+     "answer": "C",
+     "rationale": "Severe uncontrolled hypertension is on her list because it \"can cause the rupture of a vessel\" in the brain. A rural hospital without a cath lab is when thrombolysis is considered for a STEMI, which is why giving it tempts. Dose lowering wasn't taught, and alteplase (Activase) is also used for STEMI and high-risk PE.",
+     "src": "slides 38–39 + 01:05:14 + 01:06:48"
+    },
+    {
+     "id": "c09-q02",
+     "type": "mc",
+     "stem": "A client with a newly placed coronary stent takes aspirin daily and has a procedure coming up. What is the usual plan for the aspirin?",
+     "options": [
+      "Stop aspirin 7–10 days before, because its effect lasts the life of the platelet",
+      "Keep aspirin on board, and accept some extra procedural bleeding risk",
+      "Stop aspirin 1–2 days before, because the effect clears with the drug",
+      "Replace aspirin with vitamin K before the procedure to restore clotting"
+     ],
+     "answer": "B",
+     "rationale": "Stopping 7–10 days ahead is ideal when aspirin can stop, but with a new stent \"we would rather them have the aspirin on board and we'll deal with some potential extra bleeding.\" Aspirin's effect lasts the life of the platelet, not just until the drug clears, and vitamin K is for warfarin (Coumadin, Jantoven).",
+     "src": "slide 31 + 00:53:49 + 00:54:20"
+    },
+    {
+     "id": "c09-q03",
+     "type": "sata",
+     "stem": "Which statements about an <b>existing clot</b> are accurate? Select all that apply.",
+     "options": [
+      "Enoxaparin (Lovenox) dissolves a known DVT within days",
+      "Apixaban (Eliquis) does not directly dissolve a clot",
+      "Clopidogrel (Plavix) dissolves a clot that has formed in a stent",
+      "Heparin keeps a clot from growing while the body slowly breaks it down",
+      "Alteplase (Activase) promotes breakdown of fibrin that is already there"
+     ],
+     "answer": "B, D, E",
+     "rationale": "Anticoagulants stop a clot getting bigger and let \"the body's own slow mechanism\" break it down over months; antiplatelets don't dissolve clots either. Only the thrombolytic promotes breakdown of existing fibrin, which is the bottom line of the class comparison.",
+     "src": "slides 13, 38, 41 + 00:12:17 + 00:12:49"
+    },
+    {
+     "id": "c09-q04",
+     "type": "mc",
+     "stem": "A client taking warfarin (Coumadin, Jantoven) after a past DVT tells the clinic nurse she just found out she is pregnant. What should the nurse do?",
+     "options": [
+      "Reassure her that warfarin (Coumadin, Jantoven) is the safest choice during pregnancy",
+      "Tell her to double her leafy greens until she can see her obstetric provider",
+      "Tell her to stop anticoagulants on her own and wait until after she delivers",
+      "Report it to the provider now, since warfarin (Coumadin, Jantoven) harms the fetus"
+     ],
+     "answer": "D",
+     "rationale": "Warfarin (Coumadin, Jantoven) is contraindicated during pregnancy because of fetal harm, so the provider needs to know now. It isn't safe, a vitamin K swing is what clients are told to avoid, and stopping on her own leaves the clot risk unmanaged.",
+     "src": "slide 19 + 00:33:42"
+    },
+    {
+     "id": "c09-q05",
+     "type": "sata",
+     "stem": "Which pairings of a client's situation and drug approach are correct? Select all that apply.",
+     "options": [
+      "Mechanical heart valve: rivaroxaban (Xarelto)",
+      "Known DVT: anticoagulant medication",
+      "New coronary stent: aspirin plus a P2Y12 inhibitor",
+      "Unstable angina: alteplase (Activase)",
+      "History of HIT: enoxaparin (Lovenox)",
+      "Acute MI: antiplatelet medication"
+     ],
+     "answer": "B, C, F",
+     "rationale": "Arterial clots are platelet-rich, so MI and stents get antiplatelets (DAPT for the stent); venous clots are fibrin-rich, so a DVT gets an anticoagulant. A history of HIT means avoiding heparin or enoxaparin (Lovenox), a mechanical valve means warfarin (Coumadin, Jantoven), and thrombolytics aren't used for unstable angina.",
+     "src": "slides 8, 25, 33 + 00:07:56 + 00:09:33 + 00:20:13"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "fc-001",
+   "front": "The four steps of hemostasis, in order",
+   "back": "Vascular response → primary (<b>platelet plug</b>) → secondary (<b>fibrin</b> stabilizes it) → fibrinolysis",
+   "tag": "hemostasis",
+   "src": "slide 4 + 00:00:06"
+  },
+  {
+   "id": "fc-002",
+   "front": "How does a platelet \"decide\" to activate?",
+   "back": "Multiple pathways with checks and balances: \"kind of a song of all of the information that is coming in\"",
+   "tag": "hemostasis",
+   "src": "slide 5 + 00:02:21"
+  },
+  {
+   "id": "fc-003",
+   "front": "Factor Xa: its job",
+   "back": "Central enzyme in thrombin generation: turns prothrombin into thrombin",
+   "tag": "hemostasis",
+   "src": "slide 6 + 00:03:59"
+  },
+  {
+   "id": "fc-004",
+   "front": "Thrombin: its job",
+   "back": "Converts fibrinogen into fibrin; the fibrin mesh stabilizes the platelet plug",
+   "tag": "hemostasis",
+   "src": "slide 6 + 00:03:59"
+  },
+  {
+   "id": "fc-005",
+   "front": "What does antithrombin do?",
+   "back": "Naturally occurring anticoagulant protein that inactivates thrombin and factor Xa, keeping clotting localized",
+   "tag": "hemostasis",
+   "src": "slide 7 + 00:04:32"
+  },
+  {
+   "id": "fc-006",
+   "front": "What converts plasminogen into plasmin, the enzyme that breaks down fibrin?",
+   "back": "Tissue plasminogen activator (tPA). \"Without tissue plasminogen activator, you won't break down your clot\"",
+   "tag": "hemostasis",
+   "src": "slide 7 + 00:05:08"
+  },
+  {
+   "id": "fc-007",
+   "front": "Clot composition: arterial vs venous",
+   "back": "Arterial: relatively <b>platelet-rich</b>. Venous: relatively <b>fibrin-rich</b>",
+   "tag": "arterial-venous",
+   "src": "slide 8 + 00:06:50"
+  },
+  {
+   "id": "fc-008",
+   "front": "Atrial fibrillation: arterial or venous group?",
+   "back": "Venous: \"it's the venous stasis that's really causing it.\" \"An important one that I should have put in there\"",
+   "tag": "arterial-venous",
+   "src": "slide 11 + 00:07:23"
+  },
+  {
+   "id": "fc-009",
+   "front": "Drug class for arterial vs venous thrombosis",
+   "back": "Arterial (MI, ischemic stroke, stent thrombosis) → <b>antiplatelets</b>. Venous (DVT, PE, AF) → <b>anticoagulants</b>",
+   "tag": "arterial-venous",
+   "src": "slide 8 + 00:07:56"
+  },
+  {
+   "id": "fc-010",
+   "front": "Shared major risk of all three antithrombotic classes",
+   "back": "<b>Bleeding</b>; being on more than one at once raises the risk further",
+   "tag": "bleeding",
+   "src": "slide 10 + 00:09:33"
+  },
+  {
+   "id": "fc-011",
+   "front": "Signs of hidden blood loss, such as a slow GI bleed",
+   "back": "Tachycardia, hypotension, dizziness, weakness",
+   "tag": "bleeding",
+   "src": "slide 10 + 00:10:39"
+  },
+  {
+   "id": "fc-012",
+   "front": "Worst-case bleed and its warning signs",
+   "back": "<b>Intracranial bleed</b>: sudden severe headache, neurologic changes, altered mental status",
+   "tag": "bleeding",
+   "src": "slide 10 + 00:11:12"
+  },
+  {
+   "id": "fc-013",
+   "front": "Anticoagulant started for a known DVT: does it dissolve the clot?",
+   "back": "No. It keeps the clot from getting bigger so the body's own slow mechanism can break it down",
+   "tag": "arterial-venous",
+   "src": "slide 13 + 00:12:17"
+  },
+  {
+   "id": "fc-014",
+   "front": "Which lab monitors a heparin drip?",
+   "back": "<b>aPTT</b> (sometimes anti-Xa): how much time clotting takes in the lab",
+   "tag": "heparins",
+   "src": "slide 14 + 00:14:34"
+  },
+  {
+   "id": "fc-015",
+   "front": "Route for enoxaparin (Lovenox)",
+   "back": "Subcutaneous only (UFH can be IV or subcutaneous)",
+   "tag": "heparins",
+   "src": "slide 14 + 00:15:40"
+  },
+  {
+   "id": "fc-016",
+   "front": "Does enoxaparin (Lovenox) need routine coagulation monitoring?",
+   "back": "No: \"that is a huge bonus,\" especially for outpatients who then don't come back for blood draws",
+   "tag": "heparins",
+   "src": "slide 14 + 00:15:40"
+  },
+  {
+   "id": "fc-017",
+   "front": "Reversal drug for unfractionated heparin",
+   "back": "<b>Protamine sulfate</b>; it can completely reverse it",
+   "tag": "reversal",
+   "src": "slide 14 + 00:16:44"
+  },
+  {
+   "id": "fc-018",
+   "front": "Does protamine sulfate fully reverse enoxaparin (Lovenox)?",
+   "back": "No. It decreases the anticoagulation, but reversal is incomplete: no \"silver bullet\"",
+   "tag": "reversal",
+   "src": "slide 14 + 00:17:19"
+  },
+  {
+   "id": "fc-019",
+   "front": "Factor targets: UFH vs enoxaparin (Lovenox)",
+   "back": "Both act through antithrombin. UFH: <b>thrombin (IIa) and Xa</b>. Enoxaparin: <b>primarily Xa</b>",
+   "tag": "heparins",
+   "src": "slide 14 + 00:17:19"
+  },
+  {
+   "id": "fc-020",
+   "front": "When is unfractionated heparin the better choice?",
+   "back": "When you need rapid anticoagulation or may need rapid discontinuation, such as a possible huge surgery soon",
+   "tag": "heparins",
+   "src": "slide 15 + 00:17:51"
+  },
+  {
+   "id": "fc-021",
+   "front": "Why does kidney disease matter with enoxaparin (Lovenox)?",
+   "back": "It's substantially cleared by the kidneys, so blood levels go up; \"particularly severe and dangerous\" for anticoagulants",
+   "tag": "heparins",
+   "src": "slide 15 + 00:18:25"
+  },
+  {
+   "id": "fc-022",
+   "front": "The HIT paradox",
+   "back": "Low platelets but <b>more clotting</b>: antibodies activate platelets \"at the drop of a hat,\" using them up on clots we don't need",
+   "tag": "hit",
+   "src": "slide 16 + 00:19:30"
+  },
+  {
+   "id": "fc-023",
+   "front": "When does HIT usually develop?",
+   "back": "About <b>5–10 days</b> after beginning heparin",
+   "tag": "hit",
+   "src": "slide 16 + 00:20:13"
+  },
+  {
+   "id": "fc-024",
+   "front": "HIT develops: what happens to the heparin?",
+   "back": "Discontinue <b>all</b> heparin products and use a non-heparin anticoagulant",
+   "tag": "hit",
+   "src": "slide 16 + 00:20:13"
+  },
+  {
+   "id": "fc-025",
+   "front": "History of HIT: which anticoagulants are avoided?",
+   "back": "Avoid <b>heparin or enoxaparin (Lovenox)</b>. It's considered a heparin allergy; use a non-heparin anticoagulant",
+   "tag": "hit",
+   "src": "slide 25 + 00:20:46"
+  },
+  {
+   "id": "fc-026",
+   "front": "Warfarin (Coumadin, Jantoven): mechanism",
+   "back": "Inhibits vitamin K recycling (VKORC1) → less production of functional vitamin K-dependent clotting factors",
+   "tag": "warfarin",
+   "src": "slide 17 + 00:20:46"
+  },
+  {
+   "id": "fc-027",
+   "front": "Why is the onset of warfarin (Coumadin, Jantoven) delayed?",
+   "back": "Existing clotting factors last several days; it only decreases new ones from forming",
+   "tag": "warfarin",
+   "src": "slide 17 + 00:21:19"
+  },
+  {
+   "id": "fc-028",
+   "front": "What is heparin bridging?",
+   "back": "Start heparin and warfarin (Coumadin, Jantoven) together. Heparin anticoagulates immediately until warfarin reaches the therapeutic range",
+   "tag": "warfarin",
+   "src": "slide 17 + 00:21:51"
+  },
+  {
+   "id": "fc-029",
+   "front": "Which lab monitors warfarin (Coumadin, Jantoven)?",
+   "back": "<b>PT</b> (prothrombin time), reported as the <b>INR</b>",
+   "tag": "warfarin",
+   "src": "slide 18 + 00:27:24"
+  },
+  {
+   "id": "fc-030",
+   "front": "Common therapeutic INR on warfarin (Coumadin, Jantoven)",
+   "back": "<b>2–3</b>: \"you should know that number.\" About 1 if not anticoagulated",
+   "tag": "warfarin",
+   "src": "slide 18 + 00:28:29"
+  },
+  {
+   "id": "fc-031",
+   "front": "INR above 3 vs below 2: what does each mean?",
+   "back": "Above 3: much greater bleeding risk. Below 2: not anticoagulated enough, risk of clots",
+   "tag": "warfarin",
+   "src": "slide 18 + 00:29:01"
+  },
+  {
+   "id": "fc-032",
+   "front": "Warfarin (Coumadin, Jantoven) and vitamin K: the key teaching",
+   "back": "<b>Consistent</b> intake, not avoidance. Don't suddenly \"eat all spinach salads in one week\"",
+   "tag": "warfarin",
+   "src": "slide 19 + 00:31:04"
+  },
+  {
+   "id": "fc-033",
+   "front": "Why can antibiotics or antifungals raise warfarin (Coumadin, Jantoven) levels?",
+   "back": "Warfarin is about 99% protein bound; another protein-bound drug competes for binding sites and knocks it free",
+   "tag": "warfarin",
+   "src": "slide 19 + 00:31:35"
+  },
+  {
+   "id": "fc-034",
+   "front": "Warfarin (Coumadin, Jantoven) in pregnancy",
+   "back": "Contraindicated because of fetal harm",
+   "tag": "warfarin",
+   "src": "slide 19 + 00:33:42"
+  },
+  {
+   "id": "fc-035",
+   "front": "What does 4F-PCC give that makes warfarin (Coumadin, Jantoven) reversal rapid?",
+   "back": "The four clotting factors directly: \"look, they've got the clotting factors that we need now\"",
+   "tag": "reversal",
+   "src": "slide 20 + 00:35:49"
+  },
+  {
+   "id": "fc-036",
+   "front": "Why is fresh frozen plasma less ideal than 4F-PCC?",
+   "back": "It has all the clotting factors when only four are needed: \"kind of a waste of plasma\"",
+   "tag": "reversal",
+   "src": "slide 20 + 00:36:21"
+  },
+  {
+   "id": "fc-037",
+   "front": "Why give vitamin K along with 4F-PCC?",
+   "back": "4F-PCC replaces factors only for a little while; vitamin K gets the liver making its own over several days",
+   "tag": "reversal",
+   "src": "slide 20 + 00:36:52"
+  },
+  {
+   "id": "fc-038",
+   "front": "DOAC advantages compared with warfarin (Coumadin, Jantoven)",
+   "back": "Rapid onset · more predictable · no routine INR · no dietary restrictions (slide 21: fewer dietary interactions)",
+   "tag": "doacs",
+   "src": "slide 21 + 00:37:55"
+  },
+  {
+   "id": "fc-039",
+   "front": "The big thing to teach about DOACs",
+   "back": "<b>Timing</b>: short half-lives, so a missed or even late dose can reduce protection",
+   "tag": "doacs",
+   "src": "slide 21 + 00:38:25"
+  },
+  {
+   "id": "fc-040",
+   "front": "Why does kidney function matter with DOACs?",
+   "back": "Drug levels \"can really build up\"",
+   "tag": "doacs",
+   "src": "slide 21 + 00:38:55"
+  },
+  {
+   "id": "fc-041",
+   "front": "Dabigatran (Pradaxa): class and action",
+   "back": "<b>Direct thrombin inhibitor</b>: binds thrombin so it can't convert fibrinogen into fibrin",
+   "tag": "doacs",
+   "src": "slide 22 + 00:43:42"
+  },
+  {
+   "id": "fc-042",
+   "front": "Which drug specifically reverses dabigatran (Pradaxa)?",
+   "back": "<b>Idarucizumab (Praxbind)</b>. Pradaxa and Praxbind sound alike. NCLEX still includes it",
+   "tag": "reversal",
+   "src": "slide 22 + 00:44:22"
+  },
+  {
+   "id": "fc-043",
+   "front": "How do you recognize direct factor Xa inhibitors by name?",
+   "back": "They end in <b>-xaban</b> (Xa + ban): apixaban (Eliquis), rivaroxaban (Xarelto). \"Pretty cool, huh?\"",
+   "tag": "doacs",
+   "src": "slide 23 + 00:44:52"
+  },
+  {
+   "id": "fc-044",
+   "front": "Direct reversal agent for apixaban (Eliquis) or rivaroxaban (Xarelto)?",
+   "back": "None. Stop the drug, give supportive treatment, consider 4F-PCC",
+   "tag": "reversal",
+   "src": "slide 23 + 00:46:10"
+  },
+  {
+   "id": "fc-045",
+   "front": "Earliest sign of HIT during heparin therapy",
+   "back": "<b>Decreasing platelets</b>, which is why platelet counts are monitored on heparin",
+   "tag": "hit",
+   "src": "slide 24 + 00:46:42"
+  },
+  {
+   "id": "fc-046",
+   "front": "Normal INR on a DOAC: is the client still anticoagulated?",
+   "back": "Can be. \"The anticoagulation doesn't really show up on INR\"",
+   "tag": "doacs",
+   "src": "slide 24 + 00:48:23"
+  },
+  {
+   "id": "fc-047",
+   "front": "Why warfarin (Coumadin, Jantoven) rather than a DOAC for a mechanical valve?",
+   "back": "Strength. The valve goes \"click, click, click,\" causing turbulence and very high clot risk; warfarin is the only drug strong enough",
+   "tag": "warfarin",
+   "src": "slide 25 + 00:50:37"
+  },
+  {
+   "id": "fc-048",
+   "front": "Clopidogrel (Plavix) and ticagrelor (Brilinta): what do they block?",
+   "back": "The <b>P2Y12 receptor</b>: the ADP-mediated route of platelet activation",
+   "tag": "antiplatelets",
+   "src": "slide 29 + 00:51:42"
+  },
+  {
+   "id": "fc-049",
+   "front": "Aspirin: mechanism",
+   "back": "Inhibits COX-1 → less TXA₂ → reduced platelet activation",
+   "tag": "antiplatelets",
+   "src": "slide 31 + 00:53:18"
+  },
+  {
+   "id": "fc-050",
+   "front": "How long does aspirin's platelet effect last?",
+   "back": "<b>7–10 days</b>, the life of the platelet",
+   "tag": "antiplatelets",
+   "src": "slide 31 + 00:53:49"
+  },
+  {
+   "id": "fc-051",
+   "front": "Chest pain, waiting for EMS, aspirin in the house: what should they do?",
+   "back": "\"Take one and chew it, not just swallow it,\" so it's absorbed as quickly as possible",
+   "tag": "antiplatelets",
+   "src": "slide 31 + 00:54:20"
+  },
+  {
+   "id": "fc-052",
+   "front": "Usual low-dose aspirin, and her issue with the name \"baby aspirin\"",
+   "back": "<b>81 mg</b>. \"You never give babies aspirin\"",
+   "tag": "antiplatelets",
+   "src": "slide 31 + 00:55:59"
+  },
+  {
+   "id": "fc-053",
+   "front": "Why does aspirin raise the risk of GI bleeding?",
+   "back": "Increased bleeding risk plus gastric irritation",
+   "tag": "antiplatelets",
+   "src": "slide 31 + 00:57:02"
+  },
+  {
+   "id": "fc-054",
+   "front": "Aspirin in children and adolescents",
+   "back": "\"Always avoid.\" Slide reason: Reye syndrome risk with viral illnesses",
+   "tag": "antiplatelets",
+   "src": "slide 31 + 00:57:02"
+  },
+  {
+   "id": "fc-055",
+   "front": "The one P2Y12 difference that matters: what's true of clopidogrel (Plavix)?",
+   "back": "More possible drug interactions, because of CYP450",
+   "tag": "antiplatelets",
+   "src": "00:57:36"
+  },
+  {
+   "id": "fc-056",
+   "front": "Why does DAPT combine aspirin with a P2Y12 inhibitor?",
+   "back": "It suppresses <b>two separate pathways</b> (COX-1 → TXA₂ and ADP), so platelet suppression is greater",
+   "tag": "dapt",
+   "src": "slide 33 + 00:58:41"
+  },
+  {
+   "id": "fc-057",
+   "front": "DAPT stopped too soon and the new stent clots off: result?",
+   "back": "\"It's a giant MI\"",
+   "tag": "dapt",
+   "src": "slide 33 + 00:59:48"
+  },
+  {
+   "id": "fc-058",
+   "front": "Can a client stop DAPT on their own?",
+   "back": "No: only when the prescriber knows and agrees",
+   "tag": "dapt",
+   "src": "slide 33 + 01:00:19"
+  },
+  {
+   "id": "fc-059",
+   "front": "Eptifibatide (Integrilin) and tirofiban (Aggrastat): what do they block?",
+   "back": "<b>GP IIb/IIIa</b>: the bridge between platelets, the final step of aggregation",
+   "tag": "antiplatelets",
+   "src": "slide 34 + 01:00:53"
+  },
+  {
+   "id": "fc-060",
+   "front": "When are GP IIb/IIIa inhibitors given?",
+   "back": "IV, only during a stenting or other high-risk cardiovascular procedure; not on a floor every 12 hours",
+   "tag": "antiplatelets",
+   "src": "slide 34 + 01:01:24"
+  },
+  {
+   "id": "fc-061",
+   "front": "What is alteplase (Activase)?",
+   "back": "<b>Recombinant tPA</b>, made in a lab; far more than the body would ever produce at once",
+   "tag": "thrombolytics",
+   "src": "slides 37–38 + 01:03:36"
+  },
+  {
+   "id": "fc-062",
+   "front": "Alteplase (Activase): the three major indications",
+   "back": "Acute ischemic stroke · high-risk pulmonary embolism · STEMI (not unstable angina or NSTEMI) when timely PCI is unavailable",
+   "tag": "thrombolytics",
+   "src": "slide 38 + 01:04:11"
+  },
+  {
+   "id": "fc-063",
+   "front": "Stroke symptoms: first test before any thrombolytic?",
+   "back": "<b>Head CT</b>, to rule out hemorrhagic stroke. Chest pain → EKG first; stroke symptoms → head CT first",
+   "tag": "thrombolytics",
+   "src": "slide 39 + 01:04:11"
+  },
+  {
+   "id": "fc-064",
+   "front": "Alteplase (Activase) vs anticoagulants: effect on an existing clot",
+   "back": "Anticoagulants don't directly dissolve it; alteplase promotes degradation of fibrin already present",
+   "tag": "thrombolytics",
+   "src": "slides 38, 41 + 01:05:48"
+  },
+  {
+   "id": "fc-065",
+   "front": "Most serious complication of thrombolytics",
+   "back": "<b>Intracranial hemorrhage</b>",
+   "tag": "thrombolytics",
+   "src": "slide 39 + 01:05:48"
+  },
+  {
+   "id": "fc-066",
+   "front": "STEMI client with horrible injuries from a car crash: give the thrombolytic?",
+   "back": "No: \"Can't give the thrombolytic, right?\" Active bleeding is a contraindication",
+   "tag": "thrombolytics",
+   "src": "slide 39 + 01:06:18"
+  },
+  {
+   "id": "fc-067",
+   "front": "Major contraindications to thrombolytics",
+   "back": "Active significant bleeding · known or suspected intracranial hemorrhage · certain recent intracranial injuries or procedures · severe uncontrolled hypertension",
+   "tag": "thrombolytics",
+   "src": "slide 39 + 01:06:18"
+  },
+  {
+   "id": "fc-068",
+   "front": "Tachycardia: effect on time in diastole, and why do we care?",
+   "back": "Decreases it. \"The perfusion through the vessels of the heart\" happens during diastole",
+   "tag": "exam-review",
+   "src": "01:15:14"
+  },
+  {
+   "id": "fc-069",
+   "front": "Principal antianginal benefit of sublingual nitroglycerin?",
+   "back": "\"This big reduction in preload, which is going to decrease cardiac workload overall\"",
+   "tag": "exam-review",
+   "src": "01:21:09"
+  },
+  {
+   "id": "fc-070",
+   "front": "Pain at rest, ischemic EKG changes, no persistent ST elevation, troponin below threshold: diagnosis?",
+   "back": "\"Good, so it's <b>unstable angina</b>\"",
+   "tag": "exam-review",
+   "src": "01:23:49"
+  },
+  {
+   "id": "fc-071",
+   "front": "AF with a ventricular rate of 132: the two problems to treat",
+   "back": "\"Rapid ventricular response, so we need to get that rate under control\" and stasis of blood leading to thrombus, so \"we need to anticoagulate\"",
+   "tag": "exam-review",
+   "src": "01:27:56"
+  },
+  {
+   "id": "fc-072",
+   "front": "Potassium effects: thiazides and loops vs ACE inhibitors and ARBs",
+   "back": "\"Thiazides and loops are gonna be <b>hypokalemia</b>\"; ACE inhibitors and ARBs, <b>hyperkalemia</b>",
+   "tag": "exam-review",
+   "src": "01:30:40"
+  },
+  {
+   "id": "fc-073",
+   "front": "HFrEF: the four pillars",
+   "back": "\"Something for RAS, a beta blocker, a mineralocorticoid receptor antagonist\" and \"the SGLT2 inhibitors\"",
+   "tag": "exam-review",
+   "src": "01:34:49"
+  }
+ ],
+ "qa": [
+  {
+   "id": "qa-001",
+   "q": "(student asked) Would heparin and Lovenox be given at the same time?",
+   "a": "No. They're similar in structure, but \"we wouldn't give them at the same time\" because Lovenox is a low-molecular-weight heparin. She then used the question as a segue into comparing them.",
+   "src": "00:13:31"
+  },
+  {
+   "id": "qa-002",
+   "q": "(student asked) Can Lovenox be used for heparin bridging?",
+   "a": "\"No, because we need the drip.\" Bridging needs the heparin drip because the clotting risk is high; the person is often hospitalized for that part.",
+   "src": "00:24:39"
+  },
+  {
+   "id": "qa-003",
+   "q": "(student asked) Why use warfarin rather than heparin for atrial fibrillation?",
+   "a": "Route first: heparins are injections, warfarin is oral. It's also much harder to reach the needed degree of anticoagulation with heparin injections; \"warfarin just does a really good job\" preventing clots in the atria.",
+   "src": "00:25:50"
+  },
+  {
+   "id": "qa-004",
+   "q": "(student asked) Does a higher INR mean more bleeding?",
+   "a": "Yes: more risk of bleeding. About 1 when not anticoagulated; 2 to 3 is the range.",
+   "src": "00:34:15"
+  },
+  {
+   "id": "qa-005",
+   "q": "(student asked; question not fully audible) Why give vitamin K along with 4F-PCC when reversing warfarin?",
+   "a": "4F-PCC replaces the factors for now, but those only last a little while. Vitamin K helps the liver build its own over the next several days. It depends whether reversal needs to last several days or only a little while.",
+   "src": "00:36:52"
+  },
+  {
+   "id": "qa-006",
+   "q": "(student asked) How does a nurse handle DOAC timing when a patient travels across time zones?",
+   "a": "Start by talking through how it will affect their life. A smartphone alarm is the biggest tool now. Shift workers or heavy travelers who can't keep the schedule may be better served by warfarin.",
+   "src": "00:39:25"
+  },
+  {
+   "id": "qa-007",
+   "q": "(student asked) What about DIC?",
+   "a": "Not this lecture. \"We will get to DIC\" when shock is covered.",
+   "src": "00:40:30"
+  },
+  {
+   "id": "qa-008",
+   "q": "(student asked) Does a DOAC have to be taken at the same time each dose?",
+   "a": "As close as possible, within about a half hour before or after the chosen time. After a missed dose, get the next dose on board as soon as possible; each drug comes with specific missed-dose instructions.",
+   "src": "00:41:14"
+  },
+  {
+   "id": "qa-009",
+   "q": "(student asked) Can patients monitor their INR at home, like blood sugar?",
+   "a": "Home setups exist but are expensive and harder than a glucose stick. Dosing depends so heavily on the number that \"the home ones have not gotten to the point yet where we're feeling consistently good about them.\"",
+   "src": "00:42:32"
+  },
+  {
+   "id": "qa-010",
+   "q": "(student asked) Why use a DOAC rather than heparin or enoxaparin for atrial fibrillation?",
+   "a": "UFH and enoxaparin aren't strong enough for AFib, except a heparin drip bridging to warfarin. They're \"kind of weaker, which is nice for prophylaxis\"; the stronger drugs are for patients who need them.",
+   "src": "00:47:19"
+  },
+  {
+   "id": "qa-011",
+   "q": "(student asked) Why does a mechanical valve need warfarin rather than a DOAC?",
+   "a": "\"It's strength.\" A mechanical valve goes click, click, click, causes turbulence and is a very high clot risk; warfarin is the only drug that gets anticoagulation as high as needed.",
+   "src": "00:50:37"
+  },
+  {
+   "id": "qa-012",
+   "q": "If I call EMS and say I'm having chest pain and I think I'm having a heart attack, what do they tell people first?",
+   "a": "A student offered nitroglycerin: \"if they have nitroglycerin, absolutely.\" But if there's aspirin in the house, <b>take one and chew it</b>, not just swallow it, so it is absorbed as quickly as possible.",
+   "src": "00:54:20"
+  },
+  {
+   "id": "qa-013",
+   "q": "(student asked) How long does a patient stay on DAPT after a stent?",
+   "a": "A variable amount of time, depending on the stent type (drug-eluting vs bare metal), with specific time frames; more in adult health. Some high-risk patients simply stay on it. If the stent clots off, \"it's a giant MI.\"",
+   "src": "00:59:18"
+  },
+  {
+   "id": "qa-014",
+   "q": "A patient has a STEMI, crashes the car because of it, and now has horrible injuries. \"Can't give the thrombolytic, right?\"",
+   "a": "Right. \"If they're already bleeding, we're not going to give it.\" Active bleeding is a contraindication.",
+   "src": "01:06:18"
+  },
+  {
+   "id": "qa-015",
+   "q": "(student asked) What is reperfusion injury?",
+   "a": "Returning blood to tissue deprived of oxygen brings free radicals, inflammatory mediators and clotting factors into play. Still \"way better than not reperfusing at all.\" More with stroke.",
+   "src": "01:07:51"
+  },
+  {
+   "id": "qa-016",
+   "q": "If we have increased systemic vascular resistance, what effect does that have on afterload?",
+   "a": "Class: increases. More constriction means higher afterload.",
+   "src": "01:14:42"
+  },
+  {
+   "id": "qa-017",
+   "q": "How does that higher afterload affect left ventricular workload and oxygen demand?",
+   "a": "Class: both increase.",
+   "src": "01:14:42"
+  },
+  {
+   "id": "qa-018",
+   "q": "If we have lower venous return, what happens to preload?",
+   "a": "Class: decreases. Less preload.",
+   "src": "01:14:42"
+  },
+  {
+   "id": "qa-019",
+   "q": "If we have tachycardia, what is the effect on oxygen demand?",
+   "a": "Class: increases.",
+   "src": "01:15:14"
+  },
+  {
+   "id": "qa-020",
+   "q": "What is the effect of tachycardia on time in diastole, and why do we care?",
+   "a": "Class: decreases. Coronary perfusion happens during diastole, so too little diastole can decrease flow; a slower heart gets more time and improved flow.",
+   "src": "01:15:14"
+  },
+  {
+   "id": "qa-021",
+   "q": "A 61-year-old with hypertension, elevated LDL and tobacco exposure has had chest pressure on stairs that resolves with rest. What about the original pattern was stable?",
+   "a": "It came on predictably with increased cardiac workload and predictably went away with rest: a fixed plaque limiting flow.",
+   "src": "01:16:20"
+  },
+  {
+   "id": "qa-022",
+   "q": "Today that patient had chest pressure at rest lasting 25 minutes. What process could account for the new symptoms?",
+   "a": "Class: something is going on with the plaque. It's at least starting to erode, with some platelet aggregation, large or small. That's why it's called acute coronary syndrome.",
+   "src": "01:16:51"
+  },
+  {
+   "id": "qa-023",
+   "q": "(student asked) What is the difference between plaque erosion and rupture?",
+   "a": "Rupture is like pulling off the whole scab. Erosion is like rubbing against it: the collagen cap slowly breaks down until a little underlying tissue is exposed. Platelets start to bind, a small warning rather than a huge rupture.",
+   "src": "01:17:24"
+  },
+  {
+   "id": "qa-024",
+   "q": "What distinguishes ischemia from necrosis? Can we reverse ischemia?",
+   "a": "Ischemia is reduced blood supply and is potentially reversible, without large troponin levels. Infarction is cells dying and releasing their contents, including troponin.",
+   "src": "01:17:57"
+  },
+  {
+   "id": "qa-025",
+   "q": "Which change explains the principal antianginal benefit of sublingual nitroglycerin?",
+   "a": "Class answered correctly (\"very good\"): the big reduction in preload, which decreases cardiac workload overall.",
+   "src": "01:21:09"
+  },
+  {
+   "id": "qa-026",
+   "q": "A patient has pain at rest, ischemic EKG changes without persistent ST elevation, and serial troponin that stays below the injury threshold. Which would the patient have?",
+   "a": "Class: unstable angina (\"Good\"). Troponin above threshold would make it an NSTEMI; ST elevation would make it a STEMI.",
+   "src": "01:23:49"
+  },
+  {
+   "id": "qa-027",
+   "q": "(student asked) Will the exam include rhythm strips?",
+   "a": "No strips. \"I have one question that verbally describes a rhythm\"; if you saw this, what would you most likely do?",
+   "src": "01:26:54"
+  },
+  {
+   "id": "qa-028",
+   "q": "A 73-year-old with chronic hypertension has atrial fibrillation with a ventricular rate of 132. We want the rate down. What is the other type of medication we need?",
+   "a": "Class: anticoagulation (\"Good\"). Problem one is rapid ventricular response, needing rate control. Problem two is stasis of blood leading to thrombus formation.",
+   "src": "01:27:56"
+  },
+  {
+   "id": "qa-029",
+   "q": "What is a thiazide doing?",
+   "a": "Class: diuretic (\"excellent\"). It reduces sodium reabsorption, so less water is reabsorbed.",
+   "src": "01:30:08"
+  },
+  {
+   "id": "qa-030",
+   "q": "Besides low blood pressure, what are the other adverse effects of thiazides? Which electrolyte is the biggest?",
+   "a": "Class: electrolytes, with potassium the biggest. Hypokalemia, not quite as much as loops.",
+   "src": "01:30:08"
+  },
+  {
+   "id": "qa-031",
+   "q": "What are the major side effects of ACE inhibitors and ARBs?",
+   "a": "Class: cough. The more severe bradykinin effect is angioedema; also hyperkalemia. \"Thiazides and loops are hypokalemia; ACE inhibitors and ARBs, hyperkalemia.\"",
+   "src": "01:30:40"
+  },
+  {
+   "id": "qa-032",
+   "q": "Beta blockers: what are they going to do?",
+   "a": "Decrease heart rate and contractility, which decreases cardiac output, half of the blood-pressure equation. Check heart rate first; they can mask hypoglycemia symptoms in diabetes.",
+   "src": "01:30:40"
+  },
+  {
+   "id": "qa-033",
+   "q": "How do dihydropyridine calcium channel blockers work in general, and what is their odd side effect?",
+   "a": "Class: vascular (\"Good\"). Arterial vasodilation lowers systemic vascular resistance. Peripheral edema is common: some swelling in the ankles and feet, not giant pitting edema.",
+   "src": "01:31:43"
+  },
+  {
+   "id": "qa-034",
+   "q": "Non-dihydropyridine calcium channel blockers: what area do they like?",
+   "a": "Class: heart rate. Decreased rate and contractility lower cardiac output, with bradycardia as the side effect, but they don't mask hypoglycemia.",
+   "src": "01:32:45"
+  },
+  {
+   "id": "qa-035",
+   "q": "A 67-year-old with a prior MI, EF 30%, orthopnea, crackles, JVD and ankle edema. Why does low cardiac output trigger fluid retention?",
+   "a": "Class answered (\"Yep\"): it's sensed by the kidneys, with renin release. Baroreceptors also notice and activate the SNS.",
+   "src": "01:33:15"
+  },
+  {
+   "id": "qa-036",
+   "q": "On furosemide, losartan, metoprolol and spironolactone: which reduce symptoms only, and which address the underlying cause?",
+   "a": "Furosemide is symptoms only. Losartan, metoprolol and spironolactone block the angiotensin, SNS and aldosterone drive behind remodeling.",
+   "src": "01:33:47"
+  },
+  {
+   "id": "qa-037",
+   "q": "That patient has HFrEF and we want four pillars. Which drug is missing? The class originally created for diabetes.",
+   "a": "Class: SGLT2 inhibitors. The four: a RAS drug, a beta blocker, an MRA and an SGLT2 inhibitor.",
+   "src": "01:34:49"
+  },
+  {
+   "id": "qa-038",
+   "q": "What electrolyte changes would you anticipate on that regimen?",
+   "a": "Potassium: losartan and spironolactone raise it, furosemide lowers it. Watch it closely and adjust; the drugs are too important to stop for that.",
+   "src": "01:35:22"
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+<svg id="cmap" width="842pt" height="828pt"
+ viewBox="0.00 0.00 842.00 828.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 806.28)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-806.28 820.09,-806.28 820.09,21.6 -21.6,21.6"/>
+<text xml:space="preserve" text-anchor="start" x="105.07" y="-764.68" font-family="Helvetica,sans-Serif" font-size="16.00">Cardiovascular V: Antithrombotic Drugs — Concept Map (NURS 419, Lecture 11/05/2026)</text>
+<text xml:space="preserve" text-anchor="start" x="9.15" y="-745.48" font-family="Helvetica,sans-Serif" font-size="16.00">INR 2–3 · mechanical valve → warfarin · arterial → antiplatelets, venous and AF → anticoagulants · all three → bleeding</text>
+<text xml:space="preserve" text-anchor="start" x="397.24" y="-726.28" font-family="Helvetica,sans-Serif" font-size="16.00"> </text>
+<!-- hemo -->
+<g id="node1" class="node">
+<title>hemo</title>
+<path fill="#e2efda" stroke="#555555" stroke-width="1.2" d="M517.61,-719.08C517.61,-719.08 371.23,-719.08 371.23,-719.08 365.23,-719.08 359.23,-713.08 359.23,-707.08 359.23,-707.08 359.23,-675.56 359.23,-675.56 359.23,-669.56 365.23,-663.56 371.23,-663.56 371.23,-663.56 517.61,-663.56 517.61,-663.56 523.61,-663.56 529.61,-669.56 529.61,-675.56 529.61,-675.56 529.61,-707.08 529.61,-707.08 529.61,-713.08 523.61,-719.08 517.61,-719.08"/>
+<text xml:space="preserve" text-anchor="start" x="370.03" y="-704.42" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Hemostasis</text>
+<text xml:space="preserve" text-anchor="start" x="370.03" y="-693.42" font-family="Helvetica,sans-Serif" font-size="11.00">Platelets → initial plug</text>
+<text xml:space="preserve" text-anchor="start" x="370.03" y="-682.42" font-family="Helvetica,sans-Serif" font-size="11.00">Xa → thrombin → fibrin stabilizes</text>
+<text xml:space="preserve" text-anchor="start" x="370.03" y="-671.42" font-family="Helvetica,sans-Serif" font-size="11.00">Plasmin breaks fibrin down</text>
+</g>
+<!-- art -->
+<g id="node2" class="node">
+<title>art</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M314.33,-618.36C314.33,-618.36 198.5,-618.36 198.5,-618.36 192.5,-618.36 186.5,-612.36 186.5,-606.36 186.5,-606.36 186.5,-574.84 186.5,-574.84 186.5,-568.84 192.5,-562.84 198.5,-562.84 198.5,-562.84 314.33,-562.84 314.33,-562.84 320.33,-562.84 326.33,-568.84 326.33,-574.84 326.33,-574.84 326.33,-606.36 326.33,-606.36 326.33,-612.36 320.33,-618.36 314.33,-618.36"/>
+<text xml:space="preserve" text-anchor="start" x="197.3" y="-603.7" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Arterial thrombosis</text>
+<text xml:space="preserve" text-anchor="start" x="197.3" y="-592.7" font-family="Helvetica,sans-Serif" font-size="11.00">Plaque rupture or erosion</text>
+<text xml:space="preserve" text-anchor="start" x="197.3" y="-581.7" font-family="Helvetica,sans-Serif" font-size="11.00">Platelet&#45;rich</text>
+<text xml:space="preserve" text-anchor="start" x="197.3" y="-570.7" font-family="Helvetica,sans-Serif" font-size="11.00">MI, ischemic stroke, stents</text>
+</g>
+<!-- hemo&#45;&gt;art -->
+<g id="edge1" class="edge">
+<title>hemo&#45;&gt;art</title>
+<path fill="none" stroke="#555555" d="M386.15,-663.05C375.82,-658.02 365.22,-652.72 355.33,-647.56 340.45,-639.79 324.54,-631.01 309.92,-622.74"/>
+<polygon fill="#555555" stroke="#555555" points="311.47,-620.8 304.17,-619.47 309.05,-625.06 311.47,-620.8"/>
+<text xml:space="preserve" text-anchor="middle" x="396.87" y="-637.66" font-family="Helvetica,sans-Serif" font-size="11.00"> platelets dominate</text>
+</g>
+<!-- ven -->
+<g id="node3" class="node">
+<title>ven</title>
+<path fill="#fff2cc" stroke="#555555" stroke-width="1.2" d="M507.24,-618.36C507.24,-618.36 381.59,-618.36 381.59,-618.36 375.59,-618.36 369.59,-612.36 369.59,-606.36 369.59,-606.36 369.59,-574.84 369.59,-574.84 369.59,-568.84 375.59,-562.84 381.59,-562.84 381.59,-562.84 507.24,-562.84 507.24,-562.84 513.24,-562.84 519.24,-568.84 519.24,-574.84 519.24,-574.84 519.24,-606.36 519.24,-606.36 519.24,-612.36 513.24,-618.36 507.24,-618.36"/>
+<text xml:space="preserve" text-anchor="start" x="380.39" y="-603.7" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Venous thrombosis and AF</text>
+<text xml:space="preserve" text-anchor="start" x="380.39" y="-592.7" font-family="Helvetica,sans-Serif" font-size="11.00">Stasis, hypercoagulability</text>
+<text xml:space="preserve" text-anchor="start" x="380.39" y="-581.7" font-family="Helvetica,sans-Serif" font-size="11.00">Fibrin&#45;rich</text>
+<text xml:space="preserve" text-anchor="start" x="380.39" y="-570.7" font-family="Helvetica,sans-Serif" font-size="11.00">DVT, PE, atrial fibrillation</text>
+</g>
+<!-- hemo&#45;&gt;ven -->
+<g id="edge2" class="edge">
+<title>hemo&#45;&gt;ven</title>
+<path fill="none" stroke="#555555" d="M444.42,-663.08C444.42,-651.97 444.42,-638.97 444.42,-627.12"/>
+<polygon fill="#555555" stroke="#555555" points="446.87,-627.26 444.42,-620.26 441.97,-627.26 446.87,-627.26"/>
+<text xml:space="preserve" text-anchor="middle" x="481.99" y="-637.66" font-family="Helvetica,sans-Serif" font-size="11.00"> fibrin dominates</text>
+</g>
+<!-- lytic -->
+<g id="node11" class="node">
+<title>lytic</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M786.49,-546.84C786.49,-546.84 626.35,-546.84 626.35,-546.84 620.35,-546.84 614.35,-540.84 614.35,-534.84 614.35,-534.84 614.35,-503.32 614.35,-503.32 614.35,-497.32 620.35,-491.32 626.35,-491.32 626.35,-491.32 786.49,-491.32 786.49,-491.32 792.49,-491.32 798.49,-497.32 798.49,-503.32 798.49,-503.32 798.49,-534.84 798.49,-534.84 798.49,-540.84 792.49,-546.84 786.49,-546.84"/>
+<text xml:space="preserve" text-anchor="start" x="625.15" y="-532.18" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Alteplase (Activase)</text>
+<text xml:space="preserve" text-anchor="start" x="625.15" y="-521.18" font-family="Helvetica,sans-Serif" font-size="11.00">tPA → plasmin → fibrin breaks down</text>
+<text xml:space="preserve" text-anchor="start" x="625.15" y="-510.18" font-family="Helvetica,sans-Serif" font-size="11.00">Stroke (head CT first), high&#45;risk PE</text>
+<text xml:space="preserve" text-anchor="start" x="625.15" y="-499.18" font-family="Helvetica,sans-Serif" font-size="11.00">STEMI without timely PCI</text>
+</g>
+<!-- hemo&#45;&gt;lytic -->
+<g id="edge13" class="edge">
+<title>hemo&#45;&gt;lytic</title>
+<path fill="none" stroke="#555555" d="M498.55,-662.98C507.63,-658.04 516.87,-652.79 525.42,-647.56 574.47,-617.51 628.04,-579.01 664.08,-552.23"/>
+<polygon fill="#555555" stroke="#555555" points="665.23,-554.42 669.38,-548.27 662.31,-550.49 665.23,-554.42"/>
+<text xml:space="preserve" text-anchor="middle" x="592.28" y="-637.66" font-family="Helvetica,sans-Serif" font-size="11.00"> plasmin harnessed by</text>
+</g>
+<!-- anti -->
+<g id="node4" class="node">
+<title>anti</title>
+<path fill="#fce4d6" stroke="#555555" stroke-width="1.2" d="M193.3,-469.82C193.3,-469.82 21.54,-469.82 21.54,-469.82 15.54,-469.82 9.54,-463.82 9.54,-457.82 9.54,-457.82 9.54,-426.3 9.54,-426.3 9.54,-420.3 15.54,-414.3 21.54,-414.3 21.54,-414.3 193.3,-414.3 193.3,-414.3 199.3,-414.3 205.3,-420.3 205.3,-426.3 205.3,-426.3 205.3,-457.82 205.3,-457.82 205.3,-463.82 199.3,-469.82 193.3,-469.82"/>
+<text xml:space="preserve" text-anchor="start" x="20.34" y="-455.16" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Antiplatelets</text>
+<text xml:space="preserve" text-anchor="start" x="20.34" y="-444.16" font-family="Helvetica,sans-Serif" font-size="11.00">Aspirin → COX&#45;1, TXA₂ · 7–10 days</text>
+<text xml:space="preserve" text-anchor="start" x="20.34" y="-433.16" font-family="Helvetica,sans-Serif" font-size="11.00">Plavix, Brilinta → P2Y12</text>
+<text xml:space="preserve" text-anchor="start" x="20.34" y="-422.16" font-family="Helvetica,sans-Serif" font-size="11.00">Integrilin, Aggrastat → the bridge</text>
+</g>
+<!-- art&#45;&gt;anti -->
+<g id="edge3" class="edge">
+<title>art&#45;&gt;anti</title>
+<path fill="none" stroke="#555555" d="M228.74,-562.38C203.94,-537.99 167.49,-502.14 141.02,-476.11"/>
+<polygon fill="#555555" stroke="#555555" points="142.98,-474.61 136.28,-471.44 139.55,-478.1 142.98,-474.61"/>
+<text xml:space="preserve" text-anchor="middle" x="239.88" y="-515.78" font-family="Helvetica,sans-Serif" font-size="11.00"> treated with</text>
+</g>
+<!-- hep -->
+<g id="node6" class="node">
+<title>hep</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M527.23,-475.32C527.23,-475.32 361.6,-475.32 361.6,-475.32 355.6,-475.32 349.6,-469.32 349.6,-463.32 349.6,-463.32 349.6,-420.8 349.6,-420.8 349.6,-414.8 355.6,-408.8 361.6,-408.8 361.6,-408.8 527.23,-408.8 527.23,-408.8 533.23,-408.8 539.23,-414.8 539.23,-420.8 539.23,-420.8 539.23,-463.32 539.23,-463.32 539.23,-469.32 533.23,-475.32 527.23,-475.32"/>
+<text xml:space="preserve" text-anchor="start" x="360.4" y="-460.66" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Heparins</text>
+<text xml:space="preserve" text-anchor="start" x="360.4" y="-449.66" font-family="Helvetica,sans-Serif" font-size="11.00">Enhance antithrombin</text>
+<text xml:space="preserve" text-anchor="start" x="360.4" y="-438.66" font-family="Helvetica,sans-Serif" font-size="11.00">UFH: IIa + Xa · drip → aPTT</text>
+<text xml:space="preserve" text-anchor="start" x="360.4" y="-427.66" font-family="Helvetica,sans-Serif" font-size="11.00">Lovenox: Xa · SubQ · watch kidneys</text>
+<text xml:space="preserve" text-anchor="start" x="360.4" y="-416.66" font-family="Helvetica,sans-Serif" font-size="11.00">Protamine: complete vs partial</text>
+</g>
+<!-- ven&#45;&gt;hep -->
+<g id="edge5" class="edge">
+<title>ven&#45;&gt;hep</title>
+<path fill="none" stroke="#555555" d="M444.42,-562.38C444.42,-540.37 444.42,-509.03 444.42,-484"/>
+<polygon fill="#555555" stroke="#555555" points="446.87,-484.28 444.42,-477.28 441.97,-484.28 446.87,-484.28"/>
+<text xml:space="preserve" text-anchor="middle" x="471.91" y="-515.78" font-family="Helvetica,sans-Serif" font-size="11.00"> treated with</text>
+</g>
+<!-- warf -->
+<g id="node8" class="node">
+<title>warf</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M662.29,-321.28C662.29,-321.28 494.54,-321.28 494.54,-321.28 488.54,-321.28 482.54,-315.28 482.54,-309.28 482.54,-309.28 482.54,-266.76 482.54,-266.76 482.54,-260.76 488.54,-254.76 494.54,-254.76 494.54,-254.76 662.29,-254.76 662.29,-254.76 668.29,-254.76 674.29,-260.76 674.29,-266.76 674.29,-266.76 674.29,-309.28 674.29,-309.28 674.29,-315.28 668.29,-321.28 662.29,-321.28"/>
+<text xml:space="preserve" text-anchor="start" x="493.34" y="-306.62" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Warfarin</text>
+<text xml:space="preserve" text-anchor="start" x="493.34" y="-295.62" font-family="Helvetica,sans-Serif" font-size="11.00">Blocks vitamin K recycling</text>
+<text xml:space="preserve" text-anchor="start" x="493.34" y="-284.62" font-family="Helvetica,sans-Serif" font-size="11.00">Days to work → heparin bridge</text>
+<text xml:space="preserve" text-anchor="start" x="493.34" y="-273.62" font-family="Helvetica,sans-Serif" font-size="11.00">INR 2–3 · consistent vitamin K</text>
+<text xml:space="preserve" text-anchor="start" x="493.34" y="-262.62" font-family="Helvetica,sans-Serif" font-size="11.00">99% protein&#45;bound · not in pregnancy</text>
+</g>
+<!-- ven&#45;&gt;warf -->
+<g id="edge6" class="edge">
+<title>ven&#45;&gt;warf</title>
+<path fill="none" stroke="#555555" d="M487.8,-562.38C494.04,-557.58 500.13,-552.34 505.42,-546.84 531.6,-519.59 538.18,-510.72 551.42,-475.32 569.29,-427.51 575.4,-368.69 577.45,-330.09"/>
+<polygon fill="#555555" stroke="#555555" points="579.9,-330.32 577.78,-323.21 575,-330.08 579.9,-330.32"/>
+</g>
+<!-- doac -->
+<g id="node9" class="node">
+<title>doac</title>
+<path fill="#ddebf7" stroke="#555555" stroke-width="1.2" d="M325.52,-392.8C325.52,-392.8 159.31,-392.8 159.31,-392.8 153.31,-392.8 147.31,-386.8 147.31,-380.8 147.31,-380.8 147.31,-349.28 147.31,-349.28 147.31,-343.28 153.31,-337.28 159.31,-337.28 159.31,-337.28 325.52,-337.28 325.52,-337.28 331.52,-337.28 337.52,-343.28 337.52,-349.28 337.52,-349.28 337.52,-380.8 337.52,-380.8 337.52,-386.8 331.52,-392.8 325.52,-392.8"/>
+<text xml:space="preserve" text-anchor="start" x="158.11" y="-378.14" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">DOACs</text>
+<text xml:space="preserve" text-anchor="start" x="158.11" y="-367.14" font-family="Helvetica,sans-Serif" font-size="11.00">Pradaxa → IIa · Eliquis, Xarelto → Xa</text>
+<text xml:space="preserve" text-anchor="start" x="158.11" y="-356.14" font-family="Helvetica,sans-Serif" font-size="11.00">No routine INR · timing matters</text>
+<text xml:space="preserve" text-anchor="start" x="158.11" y="-345.14" font-family="Helvetica,sans-Serif" font-size="11.00">Kidneys · not for mechanical valves</text>
+</g>
+<!-- ven&#45;&gt;doac -->
+<g id="edge7" class="edge">
+<title>ven&#45;&gt;doac</title>
+<path fill="none" stroke="#555555" d="M418.62,-562.62C396.77,-539.62 364.73,-505.59 337.42,-475.32 314.73,-450.18 289.62,-421.24 270.91,-399.46"/>
+<polygon fill="#555555" stroke="#555555" points="272.97,-398.1 266.55,-394.38 269.25,-401.29 272.97,-398.1"/>
+</g>
+<!-- dapt -->
+<g id="node5" class="node">
+<title>dapt</title>
+<path fill="#f8cbad" stroke="#555555" stroke-width="1.2" d="M156.83,-238.76C156.83,-238.76 12,-238.76 12,-238.76 6,-238.76 0,-232.76 0,-226.76 0,-226.76 0,-195.24 0,-195.24 0,-189.24 6,-183.24 12,-183.24 12,-183.24 156.83,-183.24 156.83,-183.24 162.83,-183.24 168.83,-189.24 168.83,-195.24 168.83,-195.24 168.83,-226.76 168.83,-226.76 168.83,-232.76 162.83,-238.76 156.83,-238.76"/>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-224.1" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">DAPT</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-213.1" font-family="Helvetica,sans-Serif" font-size="11.00">Aspirin + P2Y12 inhibitor</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-202.1" font-family="Helvetica,sans-Serif" font-size="11.00">After ACS or a stent</text>
+<text xml:space="preserve" text-anchor="start" x="10.8" y="-191.1" font-family="Helvetica,sans-Serif" font-size="11.00">Never stop without the prescriber</text>
+</g>
+<!-- anti&#45;&gt;dapt -->
+<g id="edge4" class="edge">
+<title>anti&#45;&gt;dapt</title>
+<path fill="none" stroke="#555555" d="M86.12,-413.81C82.11,-407.27 78.51,-400.06 76.38,-392.8 62.01,-343.89 69.08,-284.37 76.19,-247.32"/>
+<polygon fill="#555555" stroke="#555555" points="78.52,-248.14 77.49,-240.8 73.72,-247.18 78.52,-248.14"/>
+<text xml:space="preserve" text-anchor="middle" x="105.4" y="-361.74" font-family="Helvetica,sans-Serif" font-size="11.00"> combined as</text>
+</g>
+<!-- bleed -->
+<g id="node12" class="node">
+<title>bleed</title>
+<path fill="#f4b6c2" stroke="#555555" stroke-width="1.2" d="M529.04,-55.52C529.04,-55.52 359.79,-55.52 359.79,-55.52 353.79,-55.52 347.79,-49.52 347.79,-43.52 347.79,-43.52 347.79,-12 347.79,-12 347.79,-6 353.79,0 359.79,0 359.79,0 529.04,0 529.04,0 535.04,0 541.04,-6 541.04,-12 541.04,-12 541.04,-43.52 541.04,-43.52 541.04,-49.52 535.04,-55.52 529.04,-55.52"/>
+<text xml:space="preserve" text-anchor="start" x="358.59" y="-40.86" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Bleeding: all three classes</text>
+<text xml:space="preserve" text-anchor="start" x="358.59" y="-29.86" font-family="Helvetica,sans-Serif" font-size="11.00">Bruising, petechiae, melena, hematuria</text>
+<text xml:space="preserve" text-anchor="start" x="358.59" y="-18.86" font-family="Helvetica,sans-Serif" font-size="11.00">Tachycardia, hypotension, dizziness</text>
+<text xml:space="preserve" text-anchor="start" x="358.59" y="-7.86" font-family="Helvetica,sans-Serif" font-size="11.00">Sudden severe headache → intracranial</text>
+</g>
+<!-- dapt&#45;&gt;bleed -->
+<g id="edge14" class="edge">
+<title>dapt&#45;&gt;bleed</title>
+<path fill="none" stroke="#555555" d="M138.7,-182.67C204.28,-149.66 314.31,-94.26 382.94,-59.71"/>
+<polygon fill="#555555" stroke="#555555" points="383.78,-62.03 388.93,-56.7 381.57,-57.66 383.78,-62.03"/>
+<text xml:space="preserve" text-anchor="middle" x="309.04" y="-130.68" font-family="Helvetica,sans-Serif" font-size="11.00"> raises</text>
+</g>
+<!-- hit -->
+<g id="node7" class="node">
+<title>hit</title>
+<path fill="#bdd7ee" stroke="#555555" stroke-width="1.2" d="M393.95,-315.78C393.95,-315.78 236.89,-315.78 236.89,-315.78 230.89,-315.78 224.89,-309.78 224.89,-303.78 224.89,-303.78 224.89,-272.26 224.89,-272.26 224.89,-266.26 230.89,-260.26 236.89,-260.26 236.89,-260.26 393.95,-260.26 393.95,-260.26 399.95,-260.26 405.95,-266.26 405.95,-272.26 405.95,-272.26 405.95,-303.78 405.95,-303.78 405.95,-309.78 399.95,-315.78 393.95,-315.78"/>
+<text xml:space="preserve" text-anchor="start" x="235.69" y="-301.12" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">HIT</text>
+<text xml:space="preserve" text-anchor="start" x="235.69" y="-290.12" font-family="Helvetica,sans-Serif" font-size="11.00">5–10 days · platelets ↓ ≥ 50%</text>
+<text xml:space="preserve" text-anchor="start" x="235.69" y="-279.12" font-family="Helvetica,sans-Serif" font-size="11.00">More clots, not bleeding</text>
+<text xml:space="preserve" text-anchor="start" x="235.69" y="-268.12" font-family="Helvetica,sans-Serif" font-size="11.00">Stop all heparin → non&#45;heparin drug</text>
+</g>
+<!-- hep&#45;&gt;hit -->
+<g id="edge8" class="edge">
+<title>hep&#45;&gt;hit</title>
+<path fill="none" stroke="#555555" d="M396.76,-408.42C390.9,-403.51 385.22,-398.25 380.22,-392.8 361.09,-371.93 344.31,-344.66 332.62,-323.31"/>
+<polygon fill="#555555" stroke="#555555" points="334.9,-322.37 329.42,-317.36 330.58,-324.69 334.9,-322.37"/>
+<text xml:space="preserve" text-anchor="middle" x="402.82" y="-361.74" font-family="Helvetica,sans-Serif" font-size="11.00"> can cause</text>
+</g>
+<!-- hep&#45;&gt;warf -->
+<g id="edge9" class="edge">
+<title>hep&#45;&gt;warf</title>
+<path fill="none" stroke="#555555" d="M461.88,-408.54C474.4,-386.95 492.61,-358.73 512.98,-337.28 516.28,-333.8 519.85,-330.4 523.57,-327.11"/>
+<polygon fill="#555555" stroke="#555555" points="525.05,-329.08 528.8,-322.68 521.88,-325.34 525.05,-329.08"/>
+<text xml:space="preserve" text-anchor="middle" x="536.2" y="-361.74" font-family="Helvetica,sans-Serif" font-size="11.00"> bridges to</text>
+</g>
+<!-- rev -->
+<g id="node10" class="node">
+<title>rev</title>
+<path fill="#e4dfec" stroke="#555555" stroke-width="1.2" d="M522.97,-167.24C522.97,-167.24 365.86,-167.24 365.86,-167.24 359.86,-167.24 353.86,-161.24 353.86,-155.24 353.86,-155.24 353.86,-112.72 353.86,-112.72 353.86,-106.72 359.86,-100.72 365.86,-100.72 365.86,-100.72 522.97,-100.72 522.97,-100.72 528.97,-100.72 534.97,-106.72 534.97,-112.72 534.97,-112.72 534.97,-155.24 534.97,-155.24 534.97,-161.24 528.97,-167.24 522.97,-167.24"/>
+<text xml:space="preserve" text-anchor="start" x="364.66" y="-152.58" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Reversal</text>
+<text xml:space="preserve" text-anchor="start" x="364.66" y="-141.58" font-family="Helvetica,sans-Serif" font-size="11.00">Heparin → protamine sulfate</text>
+<text xml:space="preserve" text-anchor="start" x="364.66" y="-130.58" font-family="Helvetica,sans-Serif" font-size="11.00">Warfarin → vitamin K + 4F&#45;PCC</text>
+<text xml:space="preserve" text-anchor="start" x="364.66" y="-119.58" font-family="Helvetica,sans-Serif" font-size="11.00">Pradaxa → idarucizumab (Praxbind)</text>
+<text xml:space="preserve" text-anchor="start" x="364.66" y="-108.58" font-family="Helvetica,sans-Serif" font-size="11.00">Xa inhibitors → supportive, 4F&#45;PCC</text>
+</g>
+<!-- hep&#45;&gt;rev -->
+<g id="edge12" class="edge">
+<title>hep&#45;&gt;rev</title>
+<path fill="none" stroke="#555555" d="M444.42,-408.3C444.42,-352.04 444.42,-237.18 444.42,-175.79"/>
+<polygon fill="#555555" stroke="#555555" points="446.87,-176.01 444.42,-169.01 441.97,-176.01 446.87,-176.01"/>
+</g>
+<!-- warf&#45;&gt;rev -->
+<g id="edge10" class="edge">
+<title>warf&#45;&gt;rev</title>
+<path fill="none" stroke="#555555" d="M549.67,-254.4C528.9,-230.84 500.75,-198.9 478.79,-173.98"/>
+<polygon fill="#555555" stroke="#555555" points="480.81,-172.57 474.35,-168.94 477.14,-175.81 480.81,-172.57"/>
+<text xml:space="preserve" text-anchor="middle" x="561.95" y="-207.7" font-family="Helvetica,sans-Serif" font-size="11.00"> reversed by</text>
+</g>
+<!-- doac&#45;&gt;rev -->
+<g id="edge11" class="edge">
+<title>doac&#45;&gt;rev</title>
+<path fill="none" stroke="#555555" d="M219.76,-336.83C216.74,-331.91 214.11,-326.64 212.42,-321.28 203.51,-293.09 197.04,-280.01 212.42,-254.76 241.51,-206.99 296.47,-177.44 345.58,-159.65"/>
+<polygon fill="#555555" stroke="#555555" points="346.2,-162.03 351.99,-157.39 344.57,-157.41 346.2,-162.03"/>
+</g>
+<!-- rev&#45;&gt;bleed -->
+<g id="edge15" class="edge">
+<title>rev&#45;&gt;bleed</title>
+<path fill="none" stroke="#555555" d="M444.42,-100.29C444.42,-88.86 444.42,-75.97 444.42,-64.31"/>
+<polygon fill="#555555" stroke="#555555" points="446.87,-64.6 444.42,-57.6 441.97,-64.6 446.87,-64.6"/>
+<text xml:space="preserve" text-anchor="middle" x="463.66" y="-74.82" font-family="Helvetica,sans-Serif" font-size="11.00"> used for</text>
+</g>
+<!-- lytic&#45;&gt;bleed -->
+<g id="edge16" class="edge">
+<title>lytic&#45;&gt;bleed</title>
+<path fill="none" stroke="#555555" d="M711.62,-490.73C716.94,-460.38 724.42,-409.9 724.42,-366.04 724.42,-366.04 724.42,-366.04 724.42,-132.98 724.42,-94.24 629.09,-65.23 549.68,-47.78"/>
+<polygon fill="#555555" stroke="#555555" points="550.4,-45.43 543.04,-46.34 549.36,-50.22 550.4,-45.43"/>
+<text xml:space="preserve" text-anchor="middle" x="751.3" y="-284.72" font-family="Helvetica,sans-Serif" font-size="11.00"> highest risk</text>
+</g>
+</g>
+</svg>
