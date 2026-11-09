@@ -139,6 +139,22 @@ if (existsSync(join(EXDIR, 'exams.json'))) {
       else if (tags[q.lecture] && !tags[q.lecture].has(q.topic)) errs.push(`${at}: topic "${q.topic}" isn't a flashcard tag of ${q.lecture}`);
       if (q.options && q.answer) checkAnswer(q, at, errs);
     });
+    if (X.format === 'graduate') {
+      const secs = new Set((X.sections || []).map(c => c.n));
+      if (!secs.size) errs.push(`${m.id}: a graduate exam needs sections`);
+      if (!Object.keys(X.skills || {}).length) errs.push(`${m.id}: a graduate exam needs skills`);
+      (X.sections || []).forEach(c => { if (!c.title || !c.note) errs.push(`${m.id}: section ${c.n} needs a title and note`); });
+      let last = 0; const closed = new Set(); let cur = null;
+      (X.items || []).forEach((q, i) => {
+        const at = `${m.id} ${q.id ?? i}`;
+        if (!secs.has(q.section)) errs.push(`${at}: section ${q.section} isn't in the exam's sections`);
+        if (q.section < last) errs.push(`${at}: items must run in section order`);
+        last = q.section;
+        if (!X.skills?.[q.skill]) errs.push(`${at}: skill "${q.skill}" isn't in the exam's skills`);
+        if (q.case && !X.cases?.[q.case]) errs.push(`${at}: case "${q.case}" isn't in the exam's cases`);
+        if (q.case !== cur) { if (cur) closed.add(cur); if (q.case && closed.has(q.case)) errs.push(`${at}: case ${q.case}'s items must stay together`); cur = q.case; }
+      });
+    }
     const mcs = (X.items || []).filter(q => q.type === 'mc');
     const tell = mcs.filter(q => { const i = 'ABCDEF'.indexOf(q.answer), a = q.options[i]?.length || 0; return a > 1.3 * Math.max(...q.options.filter((_, k) => k !== i).map(o => o.length)); }).length;
     if (mcs.length && tell / mcs.length > 0.10) warns.push(`${m.id}: ${tell} of ${mcs.length} answers are >1.3× longer than every distractor`);

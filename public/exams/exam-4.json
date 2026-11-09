@@ -1,0 +1,1551 @@
+{
+ "id": "exam-4",
+ "format": "graduate",
+ "title": "Cardiovascular Unit Exam",
+ "lectures": [
+  "2026-10-15-cardiovascular-pathophysiology",
+  "2026-10-22-cardiovascular-part2",
+  "2026-10-29-cardiovascular-part3",
+  "2026-10-29-cardiovascular-part4",
+  "2026-11-05-cardiovascular-part5"
+ ],
+ "minutes": 120,
+ "benchmark": 80,
+ "sections": [
+  {
+   "n": 1,
+   "title": "Single best answer",
+   "note": "one best answer of four"
+  },
+  {
+   "n": 2,
+   "title": "Multiple response",
+   "note": "select all that apply, all or nothing"
+  },
+  {
+   "n": 3,
+   "title": "Case-based sets",
+   "note": "five client cases, six questions each"
+  }
+ ],
+ "cases": {
+  "A": {
+   "title": "Case A — Primary-care clinic",
+   "text": "<b>History</b> — 59-year-old client, a community-college welding instructor, here for a 3-month blood pressure and lipid follow-up. Hypertension and dyslipidemia for 6 years. Type 2 diabetes, with albumin found in the urine last year. One gout flare in the left great toe 2 years ago. Quit smoking 5 years ago after 20 pack-years. Takes ibuprofen most days for knee pain. Walks little outside work; 1 beer on weekends. Colonoscopy normal last year.\n<b>Vital signs</b> — T 36.8°C · HR 74 · BP 158/94 (home average 154/92) · RR 16 · SpO₂ 98% on room air · BMI 33\n<b>Labs</b> — Total cholesterol 246 mg/dL · LDL 158 mg/dL · HDL 36 mg/dL · triglycerides 178 mg/dL · fasting glucose 142 mg/dL · creatinine 1.3 mg/dL · K⁺ 4.4 mEq/L · Na⁺ 139 mEq/L · liver enzymes normal\n<b>Medications</b> — lisinopril (Zestril) · simvastatin (Zocor) · metformin · ibuprofen (over the counter) · vitamin D"
+  },
+  "B": {
+   "title": "Case B — Telemetry unit",
+   "text": "<b>History</b> — 71-year-old client, a retired ferry mechanic, admitted with 2 days of palpitations and lightheadedness on stairs; no chest pain. Mechanical mitral valve placed 9 years ago. Heart failure with reduced ejection fraction (EF 30%); no beta blocker since a decompensation last month. COPD after 40 pack-years. Hypothyroidism. Appendectomy as a teenager. Telemetry: regular atrial waves at about 300/min in a sawtooth pattern, with every second one conducted; regular, narrow ventricular rhythm at 150/min.\n<b>Vital signs</b> — T 36.8°C · HR 150 · BP 98/60 · RR 20 · SpO₂ 95% on room air\n<b>Labs</b> — INR 1.5 · K⁺ 3.4 mEq/L · Mg²⁺ 2.0 mg/dL · creatinine 1.0 mg/dL · ALT 58 U/L (mildly high) · hemoglobin 13.4 g/dL · platelets 230,000/mm³ · glucose 96 mg/dL\n<b>Medications</b> — warfarin (Coumadin, Jantoven) · lisinopril (Zestril) · furosemide (Lasix) · levothyroxine · albuterol inhaler as needed"
+  },
+  "C": {
+   "title": "Case C — Emergency department → cath lab",
+   "text": "<b>History</b> — 64-year-old client, a night-shift postal sorter, brought in by a coworker at 0840 after 2 hours of nausea, sweating, unusual tiredness and a jaw ache that began while sitting at work: \"I thought it was a stomach bug.\" Stable exertional angina for 3 years. Type 2 diabetes and hypertension. Quit smoking 10 years ago. Took one sublingual nitroglycerin (Nitrostat) at work with no relief. Cataract surgery last year. ECG on arrival: no ST elevation, nonspecific T-wave changes.\n<b>Vital signs</b> — T 36.9°C · HR 96 · BP 138/82 · RR 20 · SpO₂ 97% on room air · jaw pain 3/10\n<b>Labs</b> — Troponin #1 within the reference range · glucose 186 mg/dL · hemoglobin 13.2 g/dL · platelets 240,000/mm³ · creatinine 0.9 mg/dL · K⁺ 4.1 mEq/L\n<b>Medications</b> — isosorbide mononitrate (Imdur) every morning · nitroglycerin (Nitrostat) as needed · lisinopril (Zestril) · atorvastatin (Lipitor) · metformin"
+  },
+  "D": {
+   "title": "Case D — Cardiac step-down unit",
+   "text": "<b>History</b> — 67-year-old client, an orchard owner, on hospital day 5 after an anterior STEMI that was treated with a stent to the LAD. Hypertension and type 2 diabetes. Since yesterday the client is breathless walking to the bathroom, needs 3 pillows to sleep and woke once gasping. Basilar crackles; no JVD, ascites or leg edema. Urine output falling. Knee replacement 4 years ago. Echocardiogram: EF 30%.\n<b>Vital signs</b> — T 36.7°C · HR 102 · BP 104/66 · RR 24 · SpO₂ 93% on room air · weight up 2.4 kg since admission\n<b>Labs</b> — BNP well above the admission value · troponin falling daily · K⁺ 4.2 mEq/L · Na⁺ 138 mEq/L · creatinine 1.2 mg/dL · hemoglobin 13.1 g/dL\n<b>Medications</b> — aspirin 81 mg · ticagrelor (Brilinta) · atorvastatin (Lipitor) · lisinopril (Zestril) · metoprolol succinate ER (Toprol-XL) · furosemide (Lasix) IV · sliding-scale insulin"
+  },
+  "E": {
+   "title": "Case E — Medical unit",
+   "text": "<b>History</b> — 74-year-old client, a retired piano tuner, admitted with 3 days of black stools, dizziness on standing and poor appetite. Heart failure with reduced ejection fraction (EF 30%) for 7 years. Atrial fibrillation. MI 6 years ago, no stent. Took ibuprofen for hip pain for the past 2 weeks. Wears hearing aids. Lungs clear, no edema, weight 3 kg below usual.\n<b>Vital signs</b> — T 36.6°C · HR 76 · BP 94/56 lying, 78/48 standing · RR 20 · SpO₂ 96% on room air\n<b>Labs</b> — Hemoglobin 8.6 g/dL (12.4 last month) · platelets 210,000/mm³ · INR 1.2 · creatinine 2.1 mg/dL (1.9 at clinic 2 weeks ago, before the black stools began; usual 1.2) · K⁺ 3.4 mEq/L · Na⁺ 137 mEq/L · LDL 64 mg/dL · glucose 102 mg/dL\n<b>Medications</b> — apixaban (Eliquis) · aspirin 81 mg · carvedilol (Coreg) · lisinopril (Zestril) · spironolactone (Aldactone) · furosemide (Lasix) · dapagliflozin (Farxiga) · digoxin (Lanoxin) · atorvastatin (Lipitor)"
+  }
+ },
+ "skills": {
+  "explain": "Explain mechanisms",
+  "predict": "Predict consequences",
+  "compare": "Compare drug classes",
+  "safety": "Recognize safety issues"
+ },
+ "kinds": {
+  "recall": "Remember / understand",
+  "application": "Apply",
+  "concept": "Analyze / evaluate"
+ },
+ "items": [
+  {
+   "id": "x4-q01",
+   "section": 1,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "lipids",
+   "type": "mc",
+   "stem": "Which fasting lipid panel meets all four of the ideal values?",
+   "options": [
+    "Total cholesterol 212, LDL 96, HDL 66, triglycerides 120",
+    "Total cholesterol 184, LDL 92, HDL 48, triglycerides 130",
+    "Total cholesterol 184, LDL 92, HDL 64, triglycerides 130",
+    "Total cholesterol 176, LDL 118, HDL 62, triglycerides 140"
+   ],
+   "answer": "C",
+   "rationale": "The row she said to know is total cholesterol < 200, LDL < 100, HDL > 60 and triglycerides < 150, and only this panel clears all four. The others each miss one value: an HDL of 48, a total of 212, or an LDL of 118.",
+   "src": "slide 47 + 00:50:22"
+  },
+  {
+   "id": "x4-q02",
+   "section": 1,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "other-lipid-drugs",
+   "type": "mc",
+   "stem": "Which adverse-effect set belongs to niacin?",
+   "options": [
+    "Muscle toxicity with statins and renal changes",
+    "Flushing, hepatotoxicity and hyperglycemia",
+    "Myalgia, dark urine and rhabdomyolysis",
+    "Few effects, as it is generally well tolerated"
+   ],
+   "answer": "B",
+   "rationale": "Niacin brings flushing, hepatotoxicity and hyperglycemia, and it is rarely used now. Muscle breakdown with dark urine is the statin concern, muscle toxicity with statins is the fibrate caution, and being generally well tolerated describes ezetimibe (Zetia).",
+   "src": "slide 55 + 01:08:58"
+  },
+  {
+   "id": "x4-q03",
+   "section": 1,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "cardiac-output",
+   "type": "mc",
+   "stem": "Which condition raises ventricular preload rather than afterload?",
+   "options": [
+    "Valve regurgitation",
+    "Hypertension",
+    "Raised aortic pressure",
+    "Arteriolar vasoconstriction"
+   ],
+   "answer": "A",
+   "rationale": "Preload is stretch, and it is increased in hypervolemia, valve regurgitation and heart failure. Hypertension, vasoconstriction and a higher aortic pressure all add to the pressure the ventricle must overcome, which is afterload.",
+   "src": "slide 18"
+  },
+  {
+   "id": "x4-q04",
+   "section": 1,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "statins",
+   "type": "mc",
+   "stem": "The client's LDL fell from 180 to 110 mg/dL on a statin taken as prescribed. Which statin intensity does this response fit?",
+   "options": [
+    "High intensity, about a 61% reduction",
+    "Low intensity, about a 29% reduction",
+    "High intensity, about a 64% reduction",
+    "Moderate intensity, about a 39% reduction"
+   ],
+   "answer": "D",
+   "rationale": "A drop of 70 from 180 is about 39%, which is moderate intensity (30–49%); high is ≥ 50% and low is < 30%. The 61% is what remains of the baseline LDL, and the 64% divides the drop by the new LDL instead of the baseline.",
+   "src": "slide 53 + 00:59:46"
+  },
+  {
+   "id": "x4-q05",
+   "section": 1,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "application",
+   "skill": "explain",
+   "topic": "bp-regulation",
+   "type": "mc",
+   "stem": "The client stands after a long period of bed rest. Within seconds, BP falls from 128/76 to 104/62 and HR rises from 72 to 102. Which regulator accounts for this response?",
+   "options": [
+    "The baroreceptor reflex, acting through the autonomic nervous system",
+    "Aldosterone, retaining sodium and water through the kidney",
+    "Natriuretic peptides, released because the heart has been stretched",
+    "Angiotensin II, constricting arterioles and veins after renin release"
+   ],
+   "answer": "A",
+   "rationale": "The speed gives it away: the baroreceptor \"pressure sensor\" works in seconds to minutes and restores BP with a reflex tachycardia. Angiotensin II acts over hours and aldosterone over days, and natriuretic peptides answer volume overload rather than a falling pressure.",
+   "src": "slide 28 + 00:26:35"
+  },
+  {
+   "id": "x4-q06",
+   "section": 1,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "concept",
+   "skill": "predict",
+   "topic": "vessels",
+   "type": "mc",
+   "stem": "After 3 days of poor intake, the client has flat neck veins and a hematocrit that has risen from 42% to 52%. How have stroke volume and resistance to flow changed?",
+   "options": [
+    "Stroke volume falls, and resistance to flow falls",
+    "Stroke volume rises, and resistance to flow falls",
+    "Stroke volume rises, and resistance to flow rises",
+    "Stroke volume falls, and resistance to flow rises"
+   ],
+   "answer": "D",
+   "rationale": "Poor intake and flat neck veins point to low venous return, so there is less stretch and preload and stroke volume fall. The high hematocrit means thicker blood, which is harder to move, so resistance rises; a falling stroke volume with falling resistance misses that second effect.",
+   "src": "slides 15, 25, 32 + 00:22:11"
+  },
+  {
+   "id": "x4-q07",
+   "section": 1,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "atherosclerosis",
+   "type": "mc",
+   "stem": "The client has an LDL of 172 mg/dL, hypertension and a current smoking habit. Which analysis explains why controlling the BP and quitting smoking would slow plaque growth even before the LDL falls?",
+   "options": [
+    "Less pressure and smoke harden the fibrous cap early, so LDL can no longer enter the wall",
+    "Less endothelial injury means fewer adhesion molecules, so fewer macrophages oxidize LDL",
+    "Lower pressure reduces HMG-CoA reductase activity in the liver, so less LDL reaches the wall",
+    "Quitting smoking raises HDL enough to carry existing foam cells back to the liver for removal"
+   ],
+   "answer": "B",
+   "rationale": "Endothelial injury starts the process, through physical pressure in hypertension and through smoking. Inflamed cells then put out adhesion molecules, macrophages oxidize LDL, and the cycle feeds itself, so less injury slows it. The fibrous cap comes late, HDL would speak only to the smoking and not to the BP, and HMG-CoA reductase is the statin target.",
+   "src": "slides 37–39, 51 + 00:39:47"
+  },
+  {
+   "id": "x4-q08",
+   "section": 1,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "antiarrhythmics",
+   "type": "mc",
+   "stem": "The client is receiving IV lidocaine, the class I prototype. Given its major toxicity, which monitoring focus matters most?",
+   "options": [
+    "Lung and thyroid tests, for fibrosis and thyroid change",
+    "Heart rate and BP, for bradycardia and hypotension",
+    "Neuro status, for dizziness, confusion, tremor and seizures",
+    "PR interval and bowel pattern, for AV block and constipation"
+   ],
+   "answer": "C",
+   "rationale": "\"Know the class. Know the prototype drug… and then your major toxicity\": class I lidocaine blocks Na⁺ channels and its toxicity is CNS, so neuro status is the focus. Lung and thyroid toxicity belong to class III, bradycardia to class II, and AV block and constipation to class IV.",
+   "src": "slides 58, 64"
+  },
+  {
+   "id": "x4-q09",
+   "section": 1,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "rhythms",
+   "type": "mc",
+   "stem": "The client's PR interval stays constant, and then beats drop without warning. Which AV block does this describe?",
+   "options": [
+    "Second-degree AV block, type II",
+    "First-degree AV block",
+    "Second-degree AV block, type I",
+    "Third-degree (complete) AV block"
+   ],
+   "answer": "A",
+   "rationale": "In Trax and Taylor terms, Taylor is \"usually on time, then sometimes just doesn't show.\" A long but constant PR with every beat conducted is first degree, a lengthening PR before the dropped beat is type I, and complete dissociation is third degree.",
+   "src": "slide 56 + 02:08:34"
+  },
+  {
+   "id": "x4-q10",
+   "section": 1,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "recall",
+   "skill": "safety",
+   "topic": "sympatholytics",
+   "type": "mc",
+   "stem": "After months on a sympatholytic, what change in the body makes abrupt stopping dangerous?",
+   "options": [
+    "The kidneys retain the sodium that the drug had been excreting",
+    "Receptors added during therapy are suddenly stimulated",
+    "Renin stored during therapy is released in a single large burst",
+    "Blocked receptors break down, which leaves vessels unopposed"
+   ],
+   "answer": "B",
+   "rationale": "With less stimulation the body makes more receptors, so stopping suddenly leaves too many receptors and BP shoots up: \"with sympatholytics, we don't want to abruptly stop.\" The receptors increase rather than break down, and the rebound comes from the sympathetic side, not from stored renin or sodium retention.",
+   "src": "slide 23 + 00:40:29"
+  },
+  {
+   "id": "x4-q11",
+   "section": 1,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "diuretics",
+   "type": "mc",
+   "stem": "The client with heart failure has crackles and is up 1 kg. Furosemide (Lasix) was given at 0900, and the next dose is due at 1500. A K⁺ drawn at 1400 is 3.1 mEq/L. A float nurse says, \"The lungs matter more. Give it now and we'll fix the potassium tomorrow.\" What should the nurse do?",
+   "options": [
+    "Give it now and recheck tomorrow, because congestion outranks a low K⁺ in heart failure",
+    "Give it as scheduled, because a K⁺ of 3.1 mEq/L sits just inside the normal range",
+    "Hold it and call the provider, because furosemide (Lasix) would drive this K⁺ lower",
+    "Give half the dose now, because a smaller dose of furosemide (Lasix) spares the K⁺"
+   ],
+   "answer": "C",
+   "rationale": "Normal K⁺ is 3.5–5, and furosemide (Lasix) makes the client lose more: low potassium and Lasix \"really should be making your brain have some little red flags,\" and at the least the client would need K⁺ replaced. Congestion does not cancel that, and a smaller dose still wastes K⁺.",
+   "src": "slide 21 + 00:29:15 + 00:29:47"
+  },
+  {
+   "id": "x4-q12",
+   "section": 1,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "rhythms",
+   "type": "mc",
+   "stem": "The client has a sustained, rapid rhythm arising from the ventricles and a palpable pulse. BP is 76/44, and the client is newly confused. Which treatment should the nurse anticipate?",
+   "options": [
+    "IV magnesium sulfate, since fast ventricular rhythms respond to it first",
+    "Unsynchronized defibrillation, since there is nothing to synchronize to",
+    "IV amiodarone (Pacerone, Cordarone), since a pulse means the client is stable",
+    "Synchronized cardioversion, since the client has a pulse and is unstable"
+   ],
+   "answer": "D",
+   "rationale": "VT is treated by status: unstable with a pulse gets synchronized cardioversion, because there is a rhythm for the machine to sync to. Unsynchronized defibrillation is for the pulseless client, IV amiodarone is for stable VT, and magnesium is not the treatment for this unstable VT.",
+   "src": "slides 52–53 + 01:59:17"
+  },
+  {
+   "id": "x4-q13",
+   "section": 1,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "raas",
+   "type": "mc",
+   "stem": "Two clients taking lisinopril (Zestril) call the clinic. One has had a dry, irritating cough for 3 weeks with no fever. The other has new swelling of the lips and tongue. Which plan fits the two clients?",
+   "options": [
+    "Cough: arrange a change to losartan (Cozaar). Swelling: the same change, as both come from bradykinin alone",
+    "Cough: work up an infection and keep the same dose. Swelling: hold one dose, then restart a lower dose",
+    "Cough: immediate evaluation, as it signals airway edema. Swelling: hold one dose, then restart a lower dose",
+    "Cough: arrange a change to losartan (Cozaar). Swelling: immediate evaluation, and never this drug again"
+   ],
+   "answer": "D",
+   "rationale": "The cough isn't infection or an emergency, just \"so incredibly irritating\" that an ARB is the switch. Angioedema of the mouth, lips or airway needs immediate evaluation and \"is going to be considered an allergy,\" so the drug is never given again. An office switch or a lower dose treats it as if it were the cough.",
+   "src": "slides 38–39 + 01:02:32 + 01:03:03"
+  },
+  {
+   "id": "x4-q14",
+   "section": 1,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "concept",
+   "skill": "predict",
+   "topic": "vasodilators-ccb",
+   "type": "mc",
+   "stem": "IV hydralazine (Apresoline) lowers the client's BP from 192/108 to 146/88. HR rises from 76 to 108, and over the next days weight and ankle edema increase. Which analysis links these findings?",
+   "options": [
+    "The drug dilates veins mainly, so a rise in preload drives both the HR and the edema",
+    "The drug directly stimulates β₁ receptors in the heart and aldosterone in the adrenals",
+    "The BP drop triggers the baroreceptor reflex and RAAS-driven sodium and water retention",
+    "Prolonged-use lupus inflames the myocardium, which causes both tachycardia and edema"
+   ],
+   "answer": "C",
+   "rationale": "Hydralazine mainly dilates arterioles, and the body fights back: the baroreceptor reflex raises HR, and RAAS retains sodium and water, which is why a beta blocker and diuretic may be added. It is not a venodilator or a β₁ agonist, and drug-induced lupus does not explain findings that follow a BP drop.",
+   "src": "slide 29 + 00:47:28"
+  },
+  {
+   "id": "x4-q15",
+   "section": 1,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "antiarrhythmics",
+   "type": "mc",
+   "stem": "The client's SVT comes from an impulse looping through the AV node. Adenosine's half-life is under 10 seconds, yet the rhythm converts and stays converted after the drug is gone. Which analysis explains this?",
+   "options": [
+    "Briefly blocking AV conduction breaks the reentry loop, so it stops once and does not restart",
+    "Prolonged repolarization in the ventricles makes them refractory to the impulses that follow",
+    "Weakened contractility lowers wall stretch, and that removes the trigger for the rapid rate",
+    "Lasting receptor blockade in the atria keeps the SA node slow for hours after the drug clears"
+   ],
+   "answer": "A",
+   "rationale": "Adenosine activates AV-node receptors and briefly blocks conduction, which interrupts the reentry circuit, like \"turning it off and on again.\" The effect needs only that moment, so the short half-life doesn't matter. It has no lasting atrial effect, weaker contraction is the non-DHP story, and prolonged repolarization is class III.",
+   "src": "slides 62–63 + 02:13:57"
+  },
+  {
+   "id": "x4-q16",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "angina-types",
+   "type": "mc",
+   "stem": "Which trigger set is associated with variant (vasospastic) angina?",
+   "options": [
+    "New exertion at lower workloads, with longer pain",
+    "Smoking, cocaine, cold and certain medications",
+    "Exertion, emotional stress and heavy meals",
+    "Severe anemia, low saturation and fast heart rates"
+   ],
+   "answer": "B",
+   "rationale": "Variant angina is spasm, set off by smoking, cocaine, cold and certain meds, often at rest. Exertion, stress and heavy meals are stable-angina triggers, a worsening exertional pattern is unstable angina, and anemia, hypoxemia and tachycardia are supply–demand problems rather than spasm triggers.",
+   "src": "slide 10 + 00:09:25"
+  },
+  {
+   "id": "x4-q17",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "recall",
+   "skill": "safety",
+   "topic": "nitrates",
+   "type": "mc",
+   "stem": "Before giving any nitrate, the ED nurse asks about sildenafil (Viagra) and tadalafil. Which danger is the nurse screening for?",
+   "options": [
+    "Profound hypotension from added vasodilation",
+    "Torsades de pointes from a prolonged QT",
+    "Treatment failure from blocked venodilation",
+    "Complete heart block from slowed AV conduction"
+   ],
+   "answer": "A",
+   "rationale": "Nitrates and PDE-5 inhibitors both vasodilate, so together they cause profound hypotension: \"this comes up a lot in boards.\" The danger is an added effect, not a cancelled one, and neither heart block nor torsades is the concern taught for this pair.",
+   "src": "slide 12 + 00:13:05"
+  },
+  {
+   "id": "x4-q18",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "recall",
+   "skill": "explain",
+   "topic": "nitrates",
+   "type": "mc",
+   "stem": "Why is the client taught to call EMS after one sublingual nitroglycerin (Nitrostat) dose fails, rather than after a series of doses?",
+   "options": [
+    "More doses would drop the BP too far, so only EMS crews may give any further doses",
+    "A single failed dose signals nitrate tolerance, which more doses would only deepen",
+    "Unrelieved pain suggests the plaque may be turning unstable and could rupture",
+    "Unrelieved pain suggests coronary spasm, which sublingual nitrates cannot relax"
+   ],
+   "answer": "C",
+   "rationale": "\"After that first dose doesn't work,\" it is time to call, because \"that plaque could come unstable, and then it could rupture.\" Tolerance comes from round-the-clock use rather than one failed dose, nitroglycerin can relieve vasospasm, and the reason she gave is plaque instability, not blood pressure.",
+   "src": "slide 12 + 00:12:00 + 00:12:34 + 00:15:48"
+  },
+  {
+   "id": "x4-q19",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "application",
+   "skill": "explain",
+   "topic": "stemi-treatment",
+   "type": "mc",
+   "stem": "During a STEMI, the client's anterior wall contracts poorly. Emergency PCI reopens the artery, and over the next days that wall's motion improves. What accounts for the improvement?",
+   "options": [
+    "Necrotic myocytes regenerated once perfusion was restored",
+    "Ischemic but viable cells recovered once perfusion was restored",
+    "New collateral vessels replaced the reopened coronary artery",
+    "Released troponin stimulated surviving cells to contract harder"
+   ],
+   "answer": "B",
+   "rationale": "Time is myocardium: restore perfusion early and ischemic cells may recover, which is the goal of reperfusion. Infarction is irreversible, so necrotic cells don't come back; collaterals take time to grow, and troponin is a marker of injury rather than a stimulus.",
+   "src": "slide 37 + 00:59:08"
+  },
+  {
+   "id": "x4-q20",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "application",
+   "skill": "predict",
+   "topic": "nitrates",
+   "type": "mc",
+   "stem": "The client's exertional angina was controlled by isosorbide mononitrate (Imdur). The client added an extra evening dose for round-the-clock coverage. Weeks later the drug no longer prevents the usual episodes, which stay predictable and resolve with rest. Which interpretation and plan fit?",
+   "options": [
+    "Vasospasm has developed, so the regimen needs unbroken nitrate coverage",
+    "Afterload has risen, so the regimen needs a second evening dose added",
+    "Necrosis has begun, so the regimen should give way to a fibrinolytic drug",
+    "Tolerance has developed, so the regimen needs a daily nitrate-free interval"
+   ],
+   "answer": "D",
+   "rationale": "Tolerance comes with continuous use: \"if someone took it 24 hours a day, it would eventually stop working,\" so long-acting regimens need a daily nitrate-free interval, usually at night. More or unbroken dosing feeds the problem, and a predictable pattern relieved by rest is still stable angina, with fibrinolytics reserved for STEMI.",
+   "src": "slide 12 + 00:15:17"
+  },
+  {
+   "id": "x4-q21",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "bb-ccb",
+   "type": "mc",
+   "stem": "The client with stable angina starts metoprolol (Lopressor, Toprol-XL). Resting HR falls from 96 to 64 and episodes become less frequent. Which analysis explains the benefit on both sides of the supply–demand balance?",
+   "options": [
+    "Lower HR and contractility cut demand, and a longer diastole improves coronary flow",
+    "Venodilation cuts preload, and coronary dilation relieves spasm around the plaque",
+    "Stronger contractions raise cardiac output, and faster filling raises O₂ content",
+    "Arteriolar dilation cuts afterload, and a shorter diastole speeds coronary filling"
+   ],
+   "answer": "A",
+   "rationale": "Blocking cardiac β₁ lowers HR and contractility, so demand falls, and a slower HR lengthens diastole, when the coronaries perfuse. Venodilation is the nitrate story, arteriolar dilation is amlodipine's, and a beta blocker weakens rather than strengthens contraction.",
+   "src": "slide 13 + 00:16:22"
+  },
+  {
+   "id": "x4-q22",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "acs-types",
+   "type": "mc",
+   "stem": "The client has chest pain, an elevated troponin and no ST elevation. Angiography finds complete occlusion of a small distal coronary branch. How do these findings fit together?",
+   "options": [
+    "The vessel is small, so flow is still partial and this is really unstable angina",
+    "Little tissue is affected, so total occlusion of a small vessel can be an NSTEMI",
+    "The troponin is elevated, so this ECG should be disregarded as unreliable here",
+    "The occlusion is complete, so this is a STEMI whatever the ECG happens to show"
+   ],
+   "answer": "B",
+   "rationale": "Partial equals NSTEMI and complete equals STEMI is too simple: \"You could have a total occlusion of a smaller vessel and still have an NSTEMI.\" It comes down to how much tissue is affected. The ECG defines STEMI, and a troponin rise means cell death, which rules out unstable angina.",
+   "src": "slides 22, 41 + 00:28:10 + 00:32:44 + supp-02 ¶51"
+  },
+  {
+   "id": "x4-q23",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "bnp-staging",
+   "type": "mc",
+   "stem": "The client has an old MI and a reduced EF but has never had heart failure symptoms. Which ACC/AHA stage fits?",
+   "options": [
+    "Stage C, symptomatic heart failure",
+    "Stage D, advanced heart failure",
+    "Stage B, pre-heart failure",
+    "Stage A, at risk"
+   ],
+   "answer": "C",
+   "rationale": "Pre-heart failure means no symptoms but structural disease, such as a prior MI, LVH or a low EF. At-risk clients have risk factors without structural disease, symptomatic clients have current or previous symptoms, and advanced disease means severe symptoms despite optimized therapy.",
+   "src": "slide 26 + 00:38:51"
+  },
+  {
+   "id": "x4-q24",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "recall",
+   "skill": "predict",
+   "topic": "remodeling",
+   "type": "mc",
+   "stem": "Chronic valvular regurgitation produces which hypertrophy pattern and dysfunction?",
+   "options": [
+    "Concentric hypertrophy: enlarged chamber, systolic dysfunction",
+    "Concentric hypertrophy: thick wall, diastolic dysfunction",
+    "Eccentric hypertrophy: thick wall, diastolic dysfunction",
+    "Eccentric hypertrophy: enlarged chamber, systolic dysfunction"
+   ],
+   "answer": "D",
+   "rationale": "Regurgitation is volume overload, which enlarges the chamber, \"big and floppy,\" with more wall stress and systolic dysfunction. Concentric hypertrophy is pressure overload, as in chronic HTN or aortic stenosis, with a \"really thick-walled\" stiff ventricle.",
+   "src": "slide 16 + 00:18:22"
+  },
+  {
+   "id": "x4-q25",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "predict",
+   "topic": "left-right",
+   "type": "mc",
+   "stem": "The client has had orthopnea and basilar crackles for two years. New findings are JVD, dependent edema and hepatomegaly. What best explains the progression?",
+   "options": [
+    "Forward failure cut renal perfusion, so the liver began holding the extra fluid",
+    "Aldosterone caused a primary liver disorder that is separate from the heart failure",
+    "Left-sided failure raised pulmonary pressure until the right ventricle failed too",
+    "Right-sided failure pushed fluid backward into the lungs and then into the liver"
+   ],
+   "answer": "C",
+   "rationale": "The usual order: the left ventricle fails first, blood backs into the lungs, and the right ventricle now pumps against high pressure. Left-sided HF is the most common cause of right-sided HF. Right-sided backward pressure goes to the systemic veins, not the lungs, and engorges the liver through venous congestion.",
+   "src": "slide 23 + 00:31:16"
+  },
+  {
+   "id": "x4-q26",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "diuretics",
+   "type": "mc",
+   "stem": "Persistent edema prompts adding hydrochlorothiazide (Microzide) to furosemide (Lasix) in the client with HFrEF. Which change needs the closest watch?",
+   "options": [
+    "A rising K⁺, because thiazides block aldosterone receptors",
+    "A falling K⁺, because both diuretics waste potassium",
+    "A rising K⁺, because the two diuretics compete for excretion",
+    "A falling HR, because thiazides slow AV conduction"
+   ],
+   "answer": "B",
+   "rationale": "A thiazide-type drug may be added for persistent congestion with close monitoring, because both waste K⁺, and hypokalemia is \"the biggest electrolyte that we are worried about.\" Blocking aldosterone receptors is the MRA, the K⁺-raising group, and thiazides don't slow the AV node.",
+   "src": "slide 30 + 00:46:43"
+  },
+  {
+   "id": "x4-q27",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "raas-drugs",
+   "type": "mc",
+   "stem": "The client's last lisinopril (Zestril) dose was Monday at 0800. The provider is switching to sacubitril/valsartan (Entresto). When is the earliest safe first dose?",
+   "options": [
+    "Wednesday at 0800",
+    "Monday at 2000",
+    "Tuesday at 0800",
+    "Tuesday at 2000"
+   ],
+   "answer": "D",
+   "rationale": "An ACE inhibitor and Entresto are never given together, and the washout is 36 hours, which lands on Tuesday at 2000. Twelve or 24 hours is too short, and 48 hours is safe but later than the earliest time.",
+   "src": "slide 32 + 01:05:56"
+  },
+  {
+   "id": "x4-q28",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "ef-types",
+   "type": "mc",
+   "stem": "Two clients have an EF of 60%. One has a stiff left ventricle that fills to 70 mL; the other has a healthy ventricle that fills to 120 mL. What accounts for heart failure symptoms in the first client?",
+   "options": [
+    "The same percentage of a smaller volume yields a lower stroke volume",
+    "A preserved EF shows a normal stroke volume, so the symptoms cannot be cardiac",
+    "A smaller filling volume lowers wall stress, so the ventricle stops compensating",
+    "The stiff ventricle has lost its squeeze, so the true EF is below the measured value"
+   ],
+   "answer": "A",
+   "rationale": "\"The percentage is normal, but the overall cardiac output is less\": 60% of 70 mL is far less than 60% of 120 mL. EF is a percentage, so a normal EF does not mean a normal stroke volume. The problem in HFpEF is filling, not the squeeze.",
+   "src": "slide 7 + 00:22:27"
+  },
+  {
+   "id": "x4-q29",
+   "section": 1,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "concept",
+   "skill": "predict",
+   "topic": "compensation",
+   "type": "mc",
+   "stem": "The client has an EF of 25% and crackles. An IV fluid bolus raises filling pressures, and cardiac output does not change. How does this differ from the expected response of a healthy heart?",
+   "options": [
+    "Neither heart responds to stretch, as Frank–Starling depends on catecholamines",
+    "Healthy hearts turn stretch into force; failing hearts gain congestion instead",
+    "Both hearts turn stretch into force, but failing hearts first need more renin",
+    "Healthy hearts gain congestion from stretch; failing hearts turn it into force"
+   ],
+   "answer": "B",
+   "rationale": "A healthy heart follows Frank–Starling: more stretch, more force. A failing ventricle has limited ability, so excessive preload produces more congestion rather than more forward flow. Frank–Starling needs no hormones.",
+   "src": "slide 15 + 00:17:17"
+  },
+  {
+   "id": "x4-q30",
+   "section": 1,
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "recall",
+   "skill": "explain",
+   "topic": "reversal",
+   "type": "mc",
+   "stem": "IV vitamin K (phytonadione) was given 1 hour ago for severe bleeding on warfarin (Coumadin, Jantoven). The bleeding continues and the INR has barely moved. Which explanation and next step fit?",
+   "options": [
+    "New factors still have to be made, so 4F-PCC is expected to supply factors right away",
+    "The liver can no longer respond to it, so idarucizumab (Praxbind) is expected to replace factors",
+    "The vitamin K has already been used up, so a repeat dose is expected to stop the bleeding now",
+    "Warfarin (Coumadin, Jantoven) binds vitamin K directly, so protamine sulfate is expected next"
+   ],
+   "answer": "A",
+   "rationale": "Vitamin K restores the liver's ability to make functional factors, but new factors must be synthesized, so \"it's not going to be immediate.\" 4F-PCC is an IV concentrate of the four factors, \"the clotting factors that we need now,\" and is typically given with IV vitamin K. Protamine sulfate reverses heparin, and idarucizumab (Praxbind) reverses dabigatran (Pradaxa).",
+   "src": "slide 20 + 00:35:19 + 00:35:49"
+  },
+  {
+   "id": "x4-q31",
+   "section": 1,
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "heparins",
+   "type": "mc",
+   "stem": "What makes enoxaparin (Lovenox) suit outpatient use better than unfractionated heparin?",
+   "options": [
+    "Its renal clearance is minimal, so kidney disease matters little",
+    "Its HIT risk is too low to need any platelet checks",
+    "Protamine sulfate reverses it as well as it reverses heparin",
+    "Its predictable effect usually makes routine lab checks unnecessary"
+   ],
+   "answer": "D",
+   "rationale": "Enoxaparin (Lovenox) is predictable, so it means \"no lab trips\" and one less injection a day. Protamine reverses it incompletely, HIT risk is lower but still possible, and it is substantially cleared by the kidneys.",
+   "src": "slide 14 + 00:15:40"
+  },
+  {
+   "id": "x4-q32",
+   "section": 1,
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "hit",
+   "type": "mc",
+   "stem": "The client has received enoxaparin (Lovenox) for DVT prophylaxis since hip surgery. Platelets were 238,000/mm³ on day 1, 212,000 on day 4 and 104,000 today, day 6. There is no bleeding and no new swelling, and the next dose is due. What should the nurse do?",
+   "options": [
+    "Hold it and ask for protamine sulfate, since the falling count means too much drug",
+    "Give it and start bleeding precautions, since a low count makes bleeding the danger",
+    "Hold it and report possible HIT, since falling platelets can be the earliest sign",
+    "Give it and recheck tomorrow, since HIT occurs only with unfractionated heparin"
+   ],
+   "answer": "C",
+   "rationale": "A fall of more than half during therapy is the HIT picture, and falling platelets are the earliest sign. The risk is lower with enoxaparin (Lovenox) but still possible, and \"the primary danger is thrombosis, not hemorrhage,\" so all heparin products stop and a non-heparin anticoagulant is needed. Protamine reverses anticoagulation rather than an immune reaction.",
+   "src": "slides 14, 16, 24 + 00:19:30 + 00:46:42"
+  },
+  {
+   "id": "x4-q33",
+   "section": 1,
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "dapt",
+   "type": "mc",
+   "stem": "The client had a coronary stent placed 3 weeks ago and takes aspirin 81 mg and clopidogrel (Plavix). The client can't afford this month's clopidogrel (Plavix) refill and plans to stay on aspirin alone: \"They do the same job.\" Which response fits?",
+   "options": [
+    "Stay on aspirin alone for now: it blocks the same ADP pathway, so the stent keeps its protection",
+    "Double the aspirin until the refill: extra COX-1 blockade makes up for the missed ADP blockade",
+    "Stop both until the refill: by three weeks the vessel has healed over the stent's foreign surface",
+    "Call the prescriber before missing a dose: the two block separate pathways, and the stent could clot"
+   ],
+   "answer": "D",
+   "rationale": "DAPT suppresses two separate pathways, COX-1 → TXA₂ and ADP → P2Y12, so aspirin does not cover what clopidogrel (Plavix) blocks. It is stopped only with the prescriber, because if that stent clogs off, \"it's a giant MI.\" Aspirin works on COX-1 only, so more of it can't replace ADP blockade.",
+   "src": "slide 33 + 00:58:41 + 00:59:48 + 01:00:19"
+  },
+  {
+   "id": "x4-q34",
+   "section": 1,
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "concept",
+   "skill": "compare",
+   "topic": "arterial-venous",
+   "type": "mc",
+   "stem": "The client takes apixaban (Eliquis) for a leg DVT and now has a new coronary stent, so aspirin and clopidogrel (Plavix) are added. The daughter asks why apixaban (Eliquis) won't protect the stent by itself. Which analysis answers her?",
+   "options": [
+    "Stent clots are fibrin-rich, but apixaban (Eliquis) cannot reach a clot that forms inside a stent",
+    "Stent clots form under high flow and are platelet-rich, while apixaban (Eliquis) mainly limits fibrin",
+    "Stent clots are platelet-rich, but apixaban (Eliquis) is cleared too quickly to protect an artery",
+    "Stent clots form in stasis and are fibrin-rich, while apixaban (Eliquis) mainly limits platelet activation"
+   ],
+   "answer": "B",
+   "rationale": "Arterial clots, including stent thrombosis, form at higher flow and pressure from platelet activation, so antiplatelets fit. Venous clots form with stasis and are rich in fibrin and RBCs, so an anticoagulant fits the DVT. Drugs circulate everywhere, so the choice rests on clot composition, not on reaching the clot.",
+   "src": "slide 8 + 00:07:56"
+  },
+  {
+   "id": "x4-q35",
+   "section": 1,
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "warfarin",
+   "type": "mc",
+   "stem": "The client with a large DVT is on day 2 of warfarin (Coumadin, Jantoven), both doses given on time, with an IV heparin drip running. The INR has moved only from 1.0 to 1.3. Which analysis links these findings?",
+   "options": [
+    "The client resists the drug at this dose, so the heparin must stay until a higher dose works",
+    "Heparin blocks the drug's action in the liver, so the INR stays low until the drip is stopped",
+    "Existing factors keep working for days, so the INR lags and the heparin covers the gap until then",
+    "The drug first raises clotting factor levels, so the heparin protects against this early rebound"
+   ],
+   "answer": "C",
+   "rationale": "Old clotting factors keep working while new ones stop forming, so therapeutic effect takes several days, and heparin bridges until warfarin (Coumadin, Jantoven) reaches range. Two days is too soon to call this resistance, heparin does not block warfarin, and warfarin lowers functional factors rather than raising them.",
+   "src": "slide 17 + 00:21:51"
+  },
+  {
+   "id": "x4-q36",
+   "section": 2,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "statins",
+   "type": "sata",
+   "stem": "The client, age 38, hopes to conceive within 2 years, takes fenofibrate (Tricor) for severe high triglycerides, and is starting atorvastatin (Lipitor) for an LDL of 190 mg/dL. Which items belong in the nursing plan? Select all that apply.",
+   "options": [
+    "Discuss pregnancy plans, since statins are generally stopped in pregnancy",
+    "Plan to stop the statin once the LDL reaches its goal",
+    "Ask about muscle symptoms, since fenofibrate (Tricor) adds muscle toxicity",
+    "Omit liver enzymes, since statin liver damage is rare",
+    "Obtain baseline liver enzymes and a lipid profile",
+    "Recheck the lipid response after the statin is started"
+   ],
+   "answer": "A, C, E, F",
+   "rationale": "The plan is a baseline lipid profile and liver enzymes, a lipid recheck, a talk about pregnancy plans, and asking about muscle symptoms, which matter more with fenofibrate (Tricor) on board. Liver damage is rare but LFTs are still checked, and a client who stops without other changes will \"bounce back\" to the higher level.",
+   "src": "slides 54–55 + 01:02:41 + 01:05:35 + 01:07:58"
+  },
+  {
+   "id": "x4-q37",
+   "section": 2,
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "concept",
+   "skill": "predict",
+   "topic": "bp-regulation",
+   "type": "sata",
+   "stem": "The client's BP is 168/98 on metoprolol (Lopressor), hydrochlorothiazide (Microzide) and amlodipine (Norvasc), all taken as prescribed. HR is 56, weight is down 3 kg since the diuretic was started, and there is no edema. Using BP = CO × SVR, which conclusions follow? Select all that apply.",
+   "options": [
+    "Hydrochlorothiazide (Microzide) has acted on the CO side of the equation, as the weight loss shows",
+    "Amlodipine (Norvasc) targets SVR, and these data do not show whether SVR has changed",
+    "Metoprolol (Lopressor) has dilated the arterioles, so resistance has already been fully treated",
+    "Hydrochlorothiazide (Microzide) has raised venous return, so the CO side has gone up rather than down",
+    "Amlodipine (Norvasc) has lowered contractility, so the high reading must come from a larger stroke volume",
+    "Metoprolol (Lopressor) has acted on the CO side of the equation, as the HR of 56 shows"
+   ],
+   "answer": "A, B, F",
+   "rationale": "Most antihypertensives \"manipulate one or both sides of this equation.\" An HR of 56 and a lower volume show the CO-side drugs have acted. Amlodipine (Norvasc) targets SVR, but the data show HR and volume have moved and nothing shows SVR has. A beta blocker is not an arteriolar dilator, a diuretic lowers venous return, and contractility is lowered by the non-dihydropyridines, not by amlodipine (Norvasc).",
+   "src": "slide 27 + 00:25:36"
+  },
+  {
+   "id": "x4-q38",
+   "section": 2,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "misc-disorders",
+   "type": "sata",
+   "stem": "Which disorders lower cardiac output mainly by limiting ventricular filling? Select all that apply.",
+   "options": [
+    "Cardiac tamponade",
+    "Hypertrophic cardiomyopathy",
+    "Dilated cardiomyopathy",
+    "Myocarditis",
+    "Constrictive pericarditis",
+    "Takotsubo cardiomyopathy"
+   ],
+   "answer": "A, B, E",
+   "rationale": "Her high-yield line: tamponade and constriction \"can't fill,\" and HCM is a filling problem from thick muscle that relaxes poorly. Dilated cardiomyopathy is a weak systolic squeeze, myocarditis lowers contractility, and Takotsubo is transient stunning.",
+   "src": "slide 76 + 02:40:30"
+  },
+  {
+   "id": "x4-q39",
+   "section": 2,
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "vasodilators-ccb",
+   "type": "sata",
+   "stem": "Verapamil (Calan) is ordered for rate control. Which findings in this client's history should the nurse raise with the provider before the first dose? Select all that apply.",
+   "options": [
+    "Current metoprolol (Lopressor) therapy",
+    "Chronic stable angina",
+    "Current digoxin (Lanoxin) therapy",
+    "Second-degree AV block with no pacemaker",
+    "History of gout",
+    "Essential hypertension"
+   ],
+   "answer": "A, C, D",
+   "rationale": "Avoid non-DHPs in significant AV block without a pacemaker. With a beta blocker they suppress the heart, and verapamil raises digoxin levels. Gout is a thiazide concern, and HTN and angina are verapamil's taught uses.",
+   "src": "slide 33 + 00:54:50"
+  },
+  {
+   "id": "x4-q40",
+   "section": 2,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "application",
+   "skill": "explain",
+   "topic": "basics",
+   "type": "sata",
+   "stem": "The client with severe coronary artery disease has new chest pressure. Which findings reduce myocardial O₂ supply? Select all that apply.",
+   "options": [
+    "Hemoglobin of 7.6 g/dL",
+    "More venous return after a fluid bolus",
+    "Heart rate of 136/min",
+    "Forceful contractions from a sympathetic surge",
+    "BP of 178/102 mm Hg",
+    "SpO₂ of 86% on room air"
+   ],
+   "answer": "A, C, F",
+   "rationale": "Supply depends on coronary flow, diastolic filling time and O₂ content: low hemoglobin and low saturation cut content, and a very fast HR shortens diastole. A BP of 178/102 does not lower coronary perfusion pressure; it is taught as higher afterload and wall stress, so it raises demand, as stronger contractility and more preload also do.",
+   "src": "slide 4 + 00:00:33"
+  },
+  {
+   "id": "x4-q41",
+   "section": 2,
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "mi",
+   "type": "sata",
+   "stem": "The client has a recent viral illness, chest discomfort and an elevated troponin. The ECG shows no ST elevation. Which conclusions do these data support? Select all that apply.",
+   "options": [
+    "The troponin shows myocardial injury but not what caused it",
+    "The elevated troponin confirms a ruptured coronary plaque",
+    "Myocarditis is one possible cause of this troponin rise",
+    "The height of the troponin separates STEMI from NSTEMI",
+    "Serial values can show an acute rise or fall of new injury",
+    "A single normal value later would exclude an evolving MI"
+   ],
+   "answer": "A, C, E",
+   "rationale": "Troponin is elevated with myocardial injury, not with one cause, and myocarditis kills cells too; context decides, and serial values catch new injury. The ECG, not how high the troponin goes, separates STEMI from NSTEMI, and \"just because it's not elevated right now doesn't mean things aren't getting worse.\"",
+   "src": "slide 34 + 01:09:14"
+  },
+  {
+   "id": "x4-q42",
+   "section": 2,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "recall",
+   "skill": "compare",
+   "topic": "left-right",
+   "type": "sata",
+   "stem": "Which findings in left-sided heart failure reflect reduced forward output rather than backward congestion? Select all that apply.",
+   "options": [
+    "Basilar crackles",
+    "Orthopnea",
+    "Restlessness and confusion",
+    "Oliguria",
+    "Faint peripheral pulses",
+    "Fatigue and weakness"
+   ],
+   "answer": "C, D, E, F",
+   "rationale": "Forward failure means inadequate flow to tissues and organs: fatigue, oliguria, faint pulses, and restlessness or confusion, \"signs of the brain not getting enough.\" Orthopnea and crackles are backward congestion in the lungs.",
+   "src": "slide 20 + 00:26:53"
+  },
+  {
+   "id": "x4-q43",
+   "section": 2,
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "bb-mra-sglt2",
+   "type": "sata",
+   "stem": "The client has an EF of 62%, a stiff left ventricle, crackles, diabetes and atrial fibrillation with a fast rate. Which medication reasoning fits this type of heart failure? Select all that apply.",
+   "options": [
+    "Furosemide (Lasix) to relieve the congestion",
+    "Digoxin (Lanoxin) to strengthen the squeeze, the client's main problem",
+    "Carvedilol (Coreg) as one of four foundational pillars for this EF",
+    "Empagliflozin (Jardiance) as recommended therapy for an eligible client",
+    "Metoprolol succinate ER (Toprol-XL) for the AF rate, an indication other than HF",
+    "Sacubitril/valsartan (Entresto) as foundational therapy for this EF"
+   ],
+   "answer": "A, D, E",
+   "rationale": "Loops relieve congestion in either type, SGLT2 inhibitors are recommended for eligible HFpEF clients, and beta blockers serve other indications such as AF rate. Foundational status belongs to HFrEF, and the problem in HFpEF is filling, not the squeeze: the drugs \"just don't have the same kind of effect.\"",
+   "src": "slide 37 + 00:58:22"
+  },
+  {
+   "id": "x4-q44",
+   "section": 2,
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "doacs",
+   "type": "sata",
+   "stem": "The client takes rivaroxaban (Xarelto) for a DVT and has a normal INR on a routine panel. Which nursing points apply? Select all that apply.",
+   "options": [
+    "The dose should be raised until the INR reaches a range of 2–3",
+    "A late or missed dose quickly reduces clot protection",
+    "Leafy green intake must stay consistent to hold the effect steady",
+    "The INR does not reflect this drug's anticoagulant effect",
+    "Kidney function and interacting drugs can affect dosing",
+    "Idarucizumab (Praxbind) is its direct reversal agent if bleeding occurs"
+   ],
+   "answer": "B, D, E",
+   "rationale": "\"The anticoagulation doesn't really show up on INR,\" so a normal value isn't a problem, and short half-lives make timing the big teaching point. Consistent vitamin K and an INR of 2–3 are warfarin rules, and idarucizumab (Praxbind) belongs with dabigatran (Pradaxa), not this drug.",
+   "src": "slide 24 + 00:48:23"
+  },
+  {
+   "id": "x4-q45",
+   "section": 2,
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "concept",
+   "skill": "compare",
+   "topic": "thrombolytics",
+   "type": "sata",
+   "stem": "Which clients are reasonable candidates for alteplase (Activase)? Select all that apply.",
+   "options": [
+    "STEMI after a car crash that caused multiple serious injuries",
+    "Ischemic stroke in the treatment window, no hemorrhage on CT, severe uncontrolled hypertension",
+    "Ischemic stroke in the treatment window, no hemorrhage on CT, BP controlled",
+    "Unstable angina with ST depression and a normal troponin",
+    "STEMI at a rural hospital with no cath lab and no bleeding risk factors",
+    "High-risk pulmonary embolism with instability and no active bleeding"
+   ],
+   "answer": "C, E, F",
+   "rationale": "Alteplase (Activase) \"will break down any clot in the body,\" so it is kept for stroke, high-risk PE and STEMI when timely PCI isn't available. Lytics are never for unstable angina, severe uncontrolled hypertension is a contraindication even when the CT is clear, and major trauma brings bleeding risk: \"Can't give the thrombolytic, right?\"",
+   "src": "slides 38–39 + 01:04:11"
+  },
+  {
+   "id": "x4-q46",
+   "section": 3,
+   "case": "A",
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "concept",
+   "skill": "predict",
+   "topic": "lipids",
+   "type": "mc",
+   "stem": "The client asks for a medicine to raise the HDL of 36 mg/dL. Which analysis of the chart should guide the nurse's reply about what will help?",
+   "options": [
+    "HDL-raising drugs have not improved outcomes, so more walking is the fix, with LDL the drug target",
+    "A higher statin dose mainly raises HDL, so one change fixes the HDL and the LDL together",
+    "An HDL of 36 mg/dL is at target for a client with diabetes, so no change is needed for now",
+    "Niacin raises HDL and lowers events, so it belongs on the list once the statin has handled the LDL"
+   ],
+   "answer": "A",
+   "rationale": "This client walks little, and \"the best way that we have found to raise HDL is exercise\"; HDL-raising drugs haven't improved outcomes, while the LDL of 158 stays the drug target. An HDL should be above 60, statins are for LDL, and niacin is rarely used now.",
+   "src": "slides 47–48, 50 + 00:50:22 + 00:51:53"
+  },
+  {
+   "id": "x4-q47",
+   "section": 3,
+   "case": "A",
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "predict",
+   "topic": "htn-basics",
+   "type": "mc",
+   "stem": "<b>Week 1, 1400. An echocardiogram shows a thickened left ventricular wall with an EF of 62%.</b> If the blood pressure stays at the chart's level, which outcome should the nurse predict?",
+   "options": [
+    "A falling blood pressure, because the stronger ventricle reduces the systemic vascular resistance",
+    "A dilated, floppy chamber soon, because high pressure acts on the ventricle as a volume overload",
+    "Regression of the thick wall, because added muscle lowers the afterload that the ventricle faces",
+    "Eventual heart failure, because the hypertrophied ventricle keeps pumping against high afterload"
+   ],
+   "answer": "D",
+   "rationale": "Sustained pressure raises afterload, the ventricle pumps \"that much harder in order to get blood out,\" and left ventricular hypertrophy leads to eventual heart failure. Added muscle doesn't lower afterload or SVR, and pressure overload is not the same as volume overload, which is what dilates a chamber.",
+   "src": "slide 10 + 00:09:46 + 00:19:34"
+  },
+  {
+   "id": "x4-q48",
+   "section": 3,
+   "case": "A",
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "drug-classes",
+   "type": "mc",
+   "stem": "The provider wants to add one drug because the blood pressure is above goal on lisinopril (Zestril). Given this client's history and labs, which addition fits best?",
+   "options": [
+    "Metoprolol (Lopressor), a beta blocker that lowers renin release",
+    "Hydrochlorothiazide (Microzide), a first-line thiazide diuretic",
+    "Amlodipine (Norvasc), a first-line calcium channel blocker",
+    "Losartan (Cozaar), a first-line ARB used in albuminuria"
+   ],
+   "answer": "C",
+   "rationale": "Amlodipine (Norvasc) is a first-line drug and fits a client already on an ACE inhibitor. A thiazide causes hyperuricemia and may raise glucose, so with gout \"other choices might be a better choice\"; an ARB is never combined with an ACE inhibitor; and beta blockers are not first-line for uncomplicated hypertension and mask hypoglycemia signs.",
+   "src": "slide 43 + 01:10:08"
+  },
+  {
+   "id": "x4-q49",
+   "section": 3,
+   "case": "A",
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "raas",
+   "type": "mc",
+   "stem": "<b>Week 3, 0900. Creatinine has gone from 1.3 to 1.9 mg/dL. BP 150/90, K⁺ 5.0 mEq/L. The client still takes ibuprofen every day.</b> Which explanation best accounts for this creatinine change?",
+   "options": [
+    "Lisinopril (Zestril) opens the efferent arteriole while ibuprofen narrows the afferent, so filtration drops",
+    "Lisinopril (Zestril) narrows the efferent arteriole while ibuprofen opens the afferent, so pressure climbs",
+    "Lisinopril (Zestril) causes a small expected bump, so this change needs a routine recheck at next visit",
+    "Uncontrolled pressure alone caused it, since ibuprofen and lisinopril (Zestril) do not act on the kidney"
+   ],
+   "answer": "A",
+   "rationale": "A small creatinine bump is expected with an ACE inhibitor, but this is a large jump in a client on a daily NSAID: NSAIDs constrict the afferent arteriole, and \"wide-open outflow + little inflow is bad for the kidney.\" The arteriole effects are not the other way around, and both drugs do act on the kidney.",
+   "src": "slide 38 + 01:04:03"
+  },
+  {
+   "id": "x4-q50",
+   "section": 3,
+   "case": "A",
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "other-lipid-drugs",
+   "type": "mc",
+   "stem": "<b>Month 3, 0930. The statin is now at the highest tolerated intensity and the client reports no missed doses. LDL 124 mg/dL, triglycerides 170 mg/dL, no muscle symptoms.</b> A colleague suggests adding fenofibrate (Tricor) because the triglycerides are still up. Which reasoning about the next drug is best?",
+   "options": [
+    "Prefer fenofibrate (Tricor): a triglyceride of 170 mg/dL is its severe range, and it adds no muscle risk to a statin",
+    "Prefer ezetimibe (Zetia): LDL is the remaining problem, and fenofibrate (Tricor) is for severe high triglycerides",
+    "Prefer ezetimibe (Zetia): it raises triglyceride clearance, so it treats both remaining lipid values at the same time",
+    "Prefer fenofibrate (Tricor): raising triglyceride clearance is the step that also brings this LDL down to goal"
+   ],
+   "answer": "B",
+   "rationale": "LDL is the remaining problem, and ezetimibe (Zetia) is the add-on \"when a statin alone doesn't reach the goal.\" Fenofibrate (Tricor) raises triglyceride clearance, is for severe high triglycerides and adds muscle toxicity with statins, while ezetimibe (Zetia) acts by reducing intestinal cholesterol absorption.",
+   "src": "slide 55 + 01:07:58"
+  },
+  {
+   "id": "x4-q51",
+   "section": 3,
+   "case": "A",
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "statins",
+   "type": "sata",
+   "stem": "<b>Month 5, 1015, phone triage. The client says, \"Both calves and shoulders have hurt badly since yesterday, and my urine has turned very dark brown. My visit is next Friday. Can it wait?\"</b> Which points belong in the nurse's reply? Select all that apply.",
+   "options": [
+    "Expect lots of fluids, which flush toxins and protect the kidneys",
+    "Halve the simvastatin (Zocor) dose and recheck at next Friday's visit",
+    "Come in today rather than waiting for next Friday's visit",
+    "Keep the Friday visit, since aching is common on a higher statin dose",
+    "Limit fluids for now, so the kidneys have less urine to handle",
+    "Stop simvastatin (Zocor) until a clinician has evaluated this"
+   ],
+   "answer": "A, C, F",
+   "rationale": "Severe muscle pain plus very dark brown \"Coca-Cola urine\" is rhabdomyolysis until proven otherwise: stop the statin, get prompt evaluation, and expect \"lots of fluids\" to protect the kidneys. It isn't simple myalgia that can wait a week, a lower dose still continues the statin, and limiting fluids reverses the kidney protection.",
+   "src": "slide 54 + 01:01:42"
+  },
+  {
+   "id": "x4-q52",
+   "section": 3,
+   "case": "B",
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "explain",
+   "topic": "rhythms",
+   "type": "mc",
+   "stem": "A monitor technician asks the nurse to name the rhythm described in the chart. Which rhythm and mechanism also account for the lightheadedness on stairs?",
+   "options": [
+    "Ventricular tachycardia: rapid wide impulses from the ventricle, leaving no time for ventricular filling",
+    "Atrial flutter: one organized reentry circuit in the atrium, with fast rates limiting ventricular filling",
+    "Atrial fibrillation: chaotic atrial impulses with an irregular rhythm, limiting ventricular filling",
+    "AV-nodal SVT: a reentry loop through the AV node that hides atrial waves and limits ventricular filling"
+   ],
+   "answer": "B",
+   "rationale": "Regular sawtooth atrial waves at about 300/min with the AV node passing every second one is atrial flutter, one organized reentry circuit; at 150/min, filling and output fall. Atrial fibrillation is irregularly irregular, AV-nodal SVT has no sawtooth atrial waves, and ventricular tachycardia does not start above the ventricles or give a narrow rhythm.",
+   "src": "slide 50 + 01:50:08"
+  },
+  {
+   "id": "x4-q53",
+   "section": 3,
+   "case": "B",
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "warfarin",
+   "type": "mc",
+   "stem": "<b>Day 1, 1000. The client has missed no warfarin (Coumadin, Jantoven) doses and has no new medications. Diet history: a large spinach salad every day for the past 2 weeks, \"for the heart.\"</b> Given the chart's INR, which teaching point should the nurse give?",
+   "options": [
+    "Keep vitamin K intake about the same each day, because a sudden rise opposes the drug",
+    "Keep the new salads, because extra vitamin K adds to the drug's effect",
+    "Give up leafy greens for good, because any vitamin K makes the drug unsafe",
+    "Take the dose hours apart from salads, because spinach protein displaces the drug"
+   ],
+   "answer": "A",
+   "rationale": "More vitamin K means less warfarin (Coumadin, Jantoven) effect and more clot risk, which fits an INR of 1.5, below the usual 2 to 3. Vitamin K is not banned: \"The consistency is the key,\" so don't suddenly \"eat all spinach salads in one week.\" Protein-binding displacement is the antibiotic and antifungal story, and it adds anticoagulation rather than removing it.",
+   "src": "slide 19 + 00:31:04"
+  },
+  {
+   "id": "x4-q54",
+   "section": 3,
+   "case": "B",
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "concept",
+   "skill": "compare",
+   "topic": "vasodilators-ccb",
+   "type": "mc",
+   "stem": "<b>Day 1, 1100. BP 110/68, lungs clear, ventricular rate still 148/min. The team wants a drug that slows AV conduction.</b> Which choice and reasoning fits this chart?",
+   "options": [
+    "Amlodipine (Norvasc): blocks Ca²⁺ channels with little effect on contractility, so the weak ventricle is spared",
+    "Verapamil (Calan): blocks Ca²⁺ channels to slow AV conduction, and a slower rate gives the ventricle time to fill",
+    "Metoprolol (Lopressor): blocks β₁ receptors to slow AV conduction, and beta blockers have a long-term role in HFrEF",
+    "Diltiazem (Cardizem): blocks Ca²⁺ channels to slow AV conduction, and its vasodilation unloads the weak ventricle"
+   ],
+   "answer": "C",
+   "rationale": "Verapamil (Calan) and diltiazem (Cardizem) are avoided in HFrEF because they are negative inotropes: weak contraction is the main problem, and these lower contractility. Metoprolol (Lopressor) gives rate control, and beta blockers belong in HFrEF care when the client is stable. Dihydropyridines like amlodipine (Norvasc) \"are NOT used for dysrhythmias\" because they act on the periphery.",
+   "src": "slides 33, 59 + 00:54:50"
+  },
+  {
+   "id": "x4-q55",
+   "section": 3,
+   "case": "B",
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "antiarrhythmics",
+   "type": "sata",
+   "stem": "<b>Day 1, 1600. Cardiology plans long-term amiodarone (Pacerone, Cordarone).</b> Which chart findings bear most directly on this drug's major toxicities? Select all that apply.",
+   "options": [
+    "Hemoglobin of 13.4 g/dL",
+    "Glucose of 96 mg/dL",
+    "ALT of 58 U/L",
+    "History of hypothyroidism",
+    "Creatinine of 1.0 mg/dL",
+    "COPD after 40 pack-years"
+   ],
+   "answer": "C, D, F",
+   "rationale": "Amiodarone (Pacerone, Cordarone) has \"so many toxicities,\" and the big ones are pulmonary (fibrosis), thyroid (hypo or hyper) and liver, so lungs, thyroid and liver enzymes are the baseline to flag. The hemoglobin, creatinine and glucose are normal and are not its key toxicity targets.",
+   "src": "slide 60 + 02:12:21"
+  },
+  {
+   "id": "x4-q56",
+   "section": 3,
+   "case": "B",
+   "lecture": "2026-10-22-cardiovascular-part2",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "rhythms",
+   "type": "mc",
+   "stem": "<b>Day 2, 0310. Since the first amiodarone (Pacerone, Cordarone) doses, the QT has lengthened. Telemetry now shows 20-second bursts of a fast, wide ventricular rhythm whose QRS height changes from beat to beat. The client is awake; BP 108/64. K⁺ 3.2 mEq/L, Mg²⁺ 2.0 mg/dL (normal).</b> Which cause and treatment pairing fits these data?",
+   "options": [
+    "Ischemic ventricular tissue set this up: with a normal Mg²⁺, give an IV push of lidocaine instead",
+    "Too little amiodarone (Pacerone, Cordarone) let this through: with a normal Mg²⁺, give more of it now",
+    "Low K⁺ alone set this up: with a normal Mg²⁺, no magnesium is needed, so give only K⁺ replacement",
+    "Amiodarone (Pacerone, Cordarone) plus low K⁺ set this up: give IV magnesium sulfate, whatever the Mg²⁺"
+   ],
+   "answer": "D",
+   "rationale": "A QT-prolonging drug plus low K⁺, with complexes that go \"smaller, bigger, smaller, bigger,\" describes torsades de pointes, and the treatment is IV magnesium sulfate even when the Mg²⁺ is normal. K⁺ must be fixed too but doesn't replace magnesium, another QT-prolonging dose can make it worse, and lidocaine is not the drug paired with this rhythm.",
+   "src": "slide 55 + 02:04:12"
+  },
+  {
+   "id": "x4-q57",
+   "section": 3,
+   "case": "B",
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "concept",
+   "skill": "compare",
+   "topic": "warfarin",
+   "type": "mc",
+   "stem": "<b>Day 2, 0900. A discharge-planning note reads: \"INR 1.5 shows warfarin (Coumadin, Jantoven) is failing, and visits are a burden. Suggest changing to apixaban (Eliquis).\"</b> Which analysis should guide the nurse's response to this note?",
+   "options": [
+    "Change to dabigatran (Pradaxa) instead: directly inhibiting thrombin answers a mechanical valve's clot risk",
+    "Change to apixaban (Eliquis) as suggested: no routine INR and a steady effect outweigh the valve's clot risk",
+    "Keep warfarin (Coumadin, Jantoven) at this INR: a value of 1.5 is the expected target for a mechanical valve",
+    "Keep warfarin (Coumadin, Jantoven) and get the INR back in range: only it reaches the level a mechanical valve needs"
+   ],
+   "answer": "D",
+   "rationale": "An INR below range means getting it back in range on the same drug: asked why valves need warfarin (Coumadin, Jantoven), she said \"It's strength,\" because the \"click, click, click\" turbulence creates very high clot risk and only warfarin reaches the level needed. DOACs, including dabigatran (Pradaxa), are not for mechanical valves. Valves run higher than the usual 2 to 3, not lower.",
+   "src": "slide 25 + 00:50:37"
+  },
+  {
+   "id": "x4-q58",
+   "section": 3,
+   "case": "C",
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "acs-types",
+   "type": "mc",
+   "stem": "<b>0950. The jaw ache continues. A second tracing again lacks ST elevation, but the second blood draw has climbed well past the troponin reference range.</b> Which conclusion and treatment implication fit these data?",
+   "options": [
+    "STEMI: any troponin rise in ACS shows transmural injury, and emergency reperfusion is indicated",
+    "NSTEMI: myocardial cells have died without ST elevation, and fibrinolytics are the first choice",
+    "NSTEMI: myocardial cells have died without ST elevation, and fibrinolytics are not indicated",
+    "Unstable angina: troponin shows ischemia without cell death, and fibrinolytics are not indicated"
+   ],
+   "answer": "C",
+   "rationale": "\"Yes troponin, no ST elevation\" is an NSTEMI, and fibrinolytics are for STEMIs only (\"we only use them for the STEMIs\") because of the bleeding risk. Unstable angina has no troponin rise because no cells have died, and the ECG rather than the troponin is what defines a STEMI.",
+   "src": "slide 20 + 00:47:29"
+  },
+  {
+   "id": "x4-q59",
+   "section": 3,
+   "case": "C",
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "mi",
+   "type": "mc",
+   "stem": "Looking back at the arrival history, the triage nurse asks why this ACS was first taken for a stomach bug. Which analysis best fits the chart?",
+   "options": [
+    "Stable angina trains the heart to signal only on exertion, so ischemia at rest goes unfelt",
+    "Diabetes can mute chest discomfort, so nausea, sweating and tiredness may be the main signs",
+    "Daily isosorbide mononitrate (Imdur) blocks ischemic pain, so it hid the chest pressure",
+    "Jaw pain is referred from the stomach, so an early ACS usually resembles a GI illness"
+   ],
+   "answer": "B",
+   "rationale": "Some clients have minimal or no chest discomfort, \"particularly older adults and patients with diabetes,\" and her mother \"thought she had the flu.\" Jaw pain is a radiation site for cardiac pain, not a stomach sign. Imdur prevents angina by lowering demand rather than hiding it, and angina can occur at rest.",
+   "src": "slide 31 + 00:49:39 + 01:08:44"
+  },
+  {
+   "id": "x4-q60",
+   "section": 3,
+   "case": "C",
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "stemi-treatment",
+   "type": "sata",
+   "stem": "<b>1050. The ECG now shows persistent ST elevation, and the cath lab is ready. BP has gone from 124/76 at 1010 to 102/64 at 1030 and 80/48 now, while HR has gone from 98 to 106 to 118. The client is cool and clammy; SpO₂ 96% on room air.</b> Before carrying out the pending orders, which should the nurse question? Select all that apply.",
+   "options": [
+    "Aspirin to be chewed now",
+    "Metoprolol (Lopressor) IV now",
+    "Consent and transfer for PCI",
+    "Nitroglycerin (Nitrostat) sublingual now",
+    "Oxygen at 4 L/min by nasal cannula",
+    "Atorvastatin (Lipitor), high intensity"
+   ],
+   "answer": "B, D, E",
+   "rationale": "BP is falling steadily as HR climbs, and the client is now hypotensive: nitroglycerin (Nitrostat) is given only if the BP allows, beta blockers are only for hemodynamically stable clients since a drug that lowers contractility \"could make the situation worse,\" and oxygen is only for hypoxia (\"if someone's sitting 96%, you don't need to throw oxygen on them\"). Aspirin, a high-intensity statin and PCI each treat a different part of the ACS process and fit these data.",
+   "src": "slides 36, 40 + 00:54:29 + 00:55:31 + 00:56:02"
+  },
+  {
+   "id": "x4-q61",
+   "section": 3,
+   "case": "C",
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "application",
+   "skill": "predict",
+   "topic": "basics",
+   "type": "mc",
+   "stem": "<b>1130. Angiography shows a complete occlusion at the site of a long-standing narrowing, with well-developed vessels from another branch filling the artery beyond the block. A stent is placed.</b> What should the nurse conclude about these vessels and the infarct?",
+   "options": [
+    "They grew around a slow plaque, so they limit the infarct but do not prevent it",
+    "They formed since this morning, so they came too late to limit the infarct",
+    "They replace the blocked artery fully, so no infarct should be expected",
+    "They steal flow from healthy muscle, so a larger infarct should be expected"
+   ],
+   "answer": "A",
+   "rationale": "Collaterals are alternate pathways, stimulated by a slowly growing plaque, and they limit injury so that a blockage leaves a smaller infarct. They usually can't fully compensate for a sudden, complete occlusion, so some infarction is still expected, and they take time to form rather than appearing after the MI begins.",
+   "src": "slide 5 + 00:03:09"
+  },
+  {
+   "id": "x4-q62",
+   "section": 3,
+   "case": "C",
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "thrombolytics",
+   "type": "mc",
+   "stem": "<b>1145. The client has had aspirin, ticagrelor (Brilinta), heparin and, during PCI, eptifibatide (Integrilin). The spouse saw the clot on the angiogram and asks, \"Will those medicines dissolve it?\"</b> Which reply is most accurate?",
+   "options": [
+    "No, they limit new platelet aggregation and fibrin, and the stent is what restored flow",
+    "No, although aspirin could have dissolved it if it had been chewed at an earlier point",
+    "Yes, the antiplatelet drugs pull the platelets off that thrombus over a few hours",
+    "Yes, heparin activates plasmin, which breaks down the fibrin already in that thrombus"
+   ],
+   "answer": "A",
+   "rationale": "Antiplatelets lower aggregation and anticoagulants lower new fibrin; neither dissolves an existing clot, and eptifibatide (Integrilin) only stops the final bridging step. Only a thrombolytic like alteplase (Activase) makes plasmin to break down fibrin already there. Heparin works through antithrombin, not plasmin, and chewing aspirin only speeds absorption.",
+   "src": "slides 34, 38, 41 + 01:05:48"
+  },
+  {
+   "id": "x4-q63",
+   "section": 3,
+   "case": "C",
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "antiplatelets",
+   "type": "mc",
+   "stem": "<b>1700. Back on the unit, a new graduate nurse reads the cath report and asks why eptifibatide (Integrilin) ran only during the procedure, when aspirin and ticagrelor (Brilinta) continue.</b> Which analysis best explains this?",
+   "options": [
+    "It acts at the same COX-1 step as aspirin, so continuing it after the stent would add no further protection",
+    "It halts all platelet aggregation while it infuses, so its bleeding risk fits only a brief, high-risk procedure",
+    "It breaks down existing clot, so once the stent restored flow there was no thrombus left for it to treat",
+    "It blocks platelets for their whole lifespan, so the dose from the procedure keeps protecting the stent"
+   ],
+   "answer": "B",
+   "rationale": "Balloon and stent placement can cause damage that leads to more clotting, so GP IIb/IIIa inhibitors block the bridge between platelets, \"only during that time,\" and \"significant bleeding is going to be your biggest risk.\" They act at the final aggregation step rather than COX-1, they do not break down clots already there, and the effect lasts for a short period rather than a platelet's lifespan.",
+   "src": "slide 34 + 01:00:53 + 01:01:24 + 01:01:55"
+  },
+  {
+   "id": "x4-q64",
+   "section": 3,
+   "case": "D",
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "mi",
+   "type": "mc",
+   "stem": "The client asks, \"If my heart enzyme is coming down every day, why is my breathing getting worse?\" Which explanation best fits the chart?",
+   "options": [
+    "Falling troponin means the stent has closed off, so a new clot is what is now limiting cardiac output",
+    "Falling troponin means the muscle has recovered, so the breathlessness must come from another organ",
+    "Falling troponin means the infarct is spreading, since the injured cells have no more of it to release",
+    "Falling troponin means less is being released; dead muscle stays lost, so stroke volume and EF stay low"
+   ],
+   "answer": "D",
+   "rationale": "Troponin marks injury and is trended down as it clears; it doesn't measure pump function. Infarction is irreversible, and loss of contractile myocardium lowers stroke volume, cardiac output and EF, leading to heart failure. A new clot or a spreading infarct would make troponin rise again, not fall.",
+   "src": "slide 35 + 00:52:19"
+  },
+  {
+   "id": "x4-q65",
+   "section": 3,
+   "case": "D",
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "explain",
+   "topic": "left-right",
+   "type": "mc",
+   "stem": "Which interpretation best fits the client's ejection fraction and physical findings?",
+   "options": [
+    "HFrEF with right-sided backward congestion, as poor ejection raises systemic venous pressure",
+    "HFrEF with forward failure only, as low output causes the dyspnea without any lung congestion",
+    "HFrEF with left-sided backward congestion, as poor ejection raises pulmonary venous pressure",
+    "HFpEF with left-sided backward congestion, as a stiff ventricle raises pulmonary venous pressure"
+   ],
+   "answer": "C",
+   "rationale": "An EF of 30% is HFrEF, the LV damage came from the MI, and orthopnea, waking gasping and crackles mean left-sided HF \"→ the lungs.\" HFpEF has an EF of at least 50%, right-sided HF shows JVD, edema and ascites, which are absent, and crackles are congestion, not forward failure.",
+   "src": "slide 21 + 00:28:30"
+  },
+  {
+   "id": "x4-q66",
+   "section": 3,
+   "case": "D",
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "concept",
+   "skill": "predict",
+   "topic": "compensation",
+   "type": "sata",
+   "stem": "The client's heart rate and falling urine output reflect SNS and RAAS activation after the drop in cardiac output. If this activation continues, which long-term effects should the nurse predict? Select all that apply.",
+   "options": [
+    "Higher afterload from angiotensin II vasoconstriction",
+    "Steadily rising stroke volume from the added preload",
+    "Full offset of these effects by the client's rising BNP",
+    "Higher myocardial oxygen demand from persistent tachycardia",
+    "More pulmonary congestion from aldosterone's sodium retention",
+    "Less remodeling from the protective catecholamine surge"
+   ],
+   "answer": "A, D, E",
+   "rationale": "Compensation is \"good in the short term, but very detrimental to the heart in the long term\": tachycardia raises oxygen demand, angiotensin II raises afterload and aldosterone retains sodium and water. In a failing ventricle extra preload brings congestion rather than forward flow, BNP is \"not nearly as strong\" as RAAS, and catecholamines are \"kind of like poison to the heart cells.\"",
+   "src": "slide 13 + 00:23:11"
+  },
+  {
+   "id": "x4-q67",
+   "section": 3,
+   "case": "D",
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "bb-mra-sglt2",
+   "type": "mc",
+   "stem": "<b>Day 5, 1100. BP 110/70, K⁺ 4.2 mEq/L, creatinine stable. Reviewing long-term HFrEF therapy, a student counts furosemide (Lasix) as a pillar and asks whether digoxin (Lanoxin) would complete the set.</b> Which reply is correct?",
+   "options": [
+    "Only furosemide (Lasix) counts: nearly every client takes it for life, leaving an SGLT2 inhibitor as the single class missing",
+    "Both count: furosemide (Lasix) lowers preload and digoxin (Lanoxin) raises contractility, so all four are covered",
+    "Only digoxin (Lanoxin) counts: it raises contractility and slows the rate, leaving an MRA as the single class missing",
+    "Neither counts: furosemide (Lasix) only eases congestion and digoxin (Lanoxin) adds no survival, so an MRA and SGLT2 inhibitor remain"
+   ],
+   "answer": "D",
+   "rationale": "Lisinopril (Zestril) covers the RAAS pillar and metoprolol succinate ER (Toprol-XL) the beta blocker, leaving an MRA and an SGLT2 inhibitor. Digoxin (Lanoxin) has no survival benefit and is not one of the four pillars, and furosemide (Lasix) makes clients feel better but doesn't make them live longer.",
+   "src": "slides 29, 38, 41 + 00:58:22 + 01:00:32"
+  },
+  {
+   "id": "x4-q68",
+   "section": 3,
+   "case": "D",
+   "lecture": "2026-10-29-cardiovascular-part3",
+   "kind": "application",
+   "skill": "predict",
+   "topic": "mi",
+   "type": "mc",
+   "stem": "<b>Day 6, 0500. The client wakes with 20 minutes of chest pressure and sweating. Troponin, which had been falling daily, is now higher than yesterday. The ECG shows no new ST elevation.</b> What does this pattern most likely indicate?",
+   "options": [
+    "Expected clearance after a stent, because troponin often rebounds at the end of the week",
+    "No new heart muscle injury, because an MI can't occur without new ST elevation on ECG",
+    "New myocardial injury, because a rise after a fall signals something new is happening",
+    "Slow cell loss from heart failure alone, because the amounts released remain very small"
+   ],
+   "answer": "C",
+   "rationale": "Troponin is trended down, and \"if it starts rising again, something new is happening\"; with new symptoms this needs urgent evaluation. The small steady amounts seen in heart failure don't explain a sudden rise with chest pressure, and an MI can occur with no ST elevation (NSTEMI).",
+   "src": "slide 34 + 00:31:09 + 00:31:40 + 00:51:47"
+  },
+  {
+   "id": "x4-q69",
+   "section": 3,
+   "case": "D",
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "predict",
+   "topic": "bnp-staging",
+   "type": "mc",
+   "stem": "<b>Day 8, 0745. After 3 days of IV furosemide (Lasix) the client sleeps on one pillow, crackles have cleared and weight is down 2 kg. BNP has fallen each day but is still above normal. A student says the high BNP means the diuresis has failed.</b> Which interpretation should the nurse offer?",
+   "options": [
+    "A falling BNP with better findings fits a response to treatment, because the trend is read in clinical context",
+    "The BNP must reach normal before the furosemide (Lasix) can be lowered, because the number alone defines HF",
+    "A falling BNP means HF has resolved, because the peptide is released only while the client is symptomatic",
+    "A falling BNP shows the EF has recovered, because BNP directly measures how strongly the ventricle squeezes"
+   ],
+   "answer": "A",
+   "rationale": "BNP is released with ventricular wall stress and stretch and is trended: it climbs when something new is going on and falls as treatment works. It supports HF in the right clinical context but is not diagnostic alone, it does not measure EF, and a lower value does not mean the HF is gone.",
+   "src": "slides 25, 27 + 00:36:13 + 00:37:16"
+  },
+  {
+   "id": "x4-q70",
+   "section": 3,
+   "case": "E",
+   "lecture": "2026-10-15-cardiovascular-pathophysiology",
+   "kind": "concept",
+   "skill": "explain",
+   "topic": "bp-regulation",
+   "type": "mc",
+   "stem": "After 3 days of black stools the client weighs 3 kg below usual, and BP falls from 94/56 lying to 78/48 standing. Which analysis best explains these findings?",
+   "options": [
+    "Angiotensin II dilates the veins after blood loss, so blood pools in the legs and BP falls on standing",
+    "Less blood volume and gravity cut venous return, so preload, stroke volume and cardiac output fall",
+    "Standing triggers a baroreceptor reflex that slows the heart, so cardiac output and BP fall",
+    "Blood loss raises afterload, so on standing the ventricle can no longer overcome aortic pressure"
+   ],
+   "answer": "B",
+   "rationale": "BP = CO × SVR, and blood volume and gravity both drive venous return, so low volume plus standing lowers preload, stroke volume and CO. Less volume usually lowers afterload rather than raising it. The baroreceptor reflex answers low pressure with tachycardia, not bradycardia, and angiotensin II constricts arterioles and veins.",
+   "src": "slides 15, 27, 28, 31 + 00:13:54 + 00:29:30"
+  },
+  {
+   "id": "x4-q71",
+   "section": 3,
+   "case": "E",
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "bleeding",
+   "type": "sata",
+   "stem": "Looking back at the chart, which items likely raised this client's risk of a GI bleed on apixaban (Eliquis)? Select all that apply.",
+   "options": [
+    "INR of 1.2",
+    "Daily aspirin 81 mg",
+    "Creatinine of 1.9 mg/dL before the bleed",
+    "Atorvastatin (Lipitor)",
+    "Two weeks of ibuprofen",
+    "Platelets of 210,000/mm³"
+   ],
+   "answer": "B, C, E",
+   "rationale": "With poor kidney function DOAC levels \"can really build up,\" and the creatinine was already up 2 weeks before the black stools. Being on more than one antithrombotic raises bleeding risk further, aspirin also irritates the stomach, and NSAIDs add bleeding risk too. An INR of 1.2 doesn't reflect apixaban (Eliquis) anticoagulation either way, the platelet count is normal, and the statin isn't a bleeding contributor taught here.",
+   "src": "slides 10, 21, 24, 31 + 00:10:05 + 00:38:55"
+  },
+  {
+   "id": "x4-q72",
+   "section": 3,
+   "case": "E",
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "application",
+   "skill": "compare",
+   "topic": "reversal",
+   "type": "mc",
+   "stem": "<b>Day 1, 1130. The client vomits bright red blood. Hemoglobin 7.2 g/dL, BP 82/48. The last apixaban (Eliquis) dose was 4 hours ago.</b> Which reversal plan should the nurse anticipate?",
+   "options": [
+    "Give protamine sulfate, which partly reverses drugs that act on factor Xa",
+    "Give vitamin K (phytonadione), which restores factors that apixaban (Eliquis) blocks",
+    "Stop apixaban (Eliquis), give supportive care and consider 4F-PCC or plasma",
+    "Give idarucizumab (Praxbind), which directly reverses each of the oral DOACs"
+   ],
+   "answer": "C",
+   "rationale": "The xabans have no direct reversal agent in this lecture: stop the drug, give supportive care and consider 4F-PCC or plasma. Idarucizumab (Praxbind) \"binds\" dabigatran (Pradaxa) only, protamine sulfate is for heparin and enoxaparin (Lovenox), and vitamin K answers warfarin (Coumadin, Jantoven).",
+   "src": "slide 23 + 00:46:10"
+  },
+  {
+   "id": "x4-q73",
+   "section": 3,
+   "case": "E",
+   "lecture": "2026-11-05-cardiovascular-part5",
+   "kind": "application",
+   "skill": "predict",
+   "topic": "antiplatelets",
+   "type": "mc",
+   "stem": "<b>Day 1, 1400. The last aspirin dose was this morning, and the team discontinues it. The endoscopy team asks when the client's platelet function should recover.</b> What should the nurse expect?",
+   "options": [
+    "Over about 7 to 10 days, as new platelets replace those with blocked COX-1",
+    "Within about 6 hours, as the client's platelets make fresh COX-1 to replace it",
+    "Within about 24 hours, as the aspirin is cleared from the client's bloodstream",
+    "Over several months, as the liver rebuilds the clotting factors aspirin lowered"
+   ],
+   "answer": "A",
+   "rationale": "Aspirin irreversibly inhibits COX-1 and \"platelets can't make new COX-1,\" so its effect lasts their lifespan, 7 to 10 days, regardless of how fast the drug itself clears. Aspirin doesn't lower liver clotting factors; that is the story with warfarin (Coumadin, Jantoven).",
+   "src": "slide 31 + 00:53:49"
+  },
+  {
+   "id": "x4-q74",
+   "section": 3,
+   "case": "E",
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "safety",
+   "topic": "digoxin",
+   "type": "mc",
+   "stem": "<b>Day 1, 1500. The client reports nausea, no appetite and \"everything looks blurry,\" and seems newly confused. Telemetry shows new ventricular ectopic beats. No headache; neurologic exam otherwise unchanged. Hemoglobin stable since the last check.</b> Which problem should the nurse report as most likely?",
+   "options": [
+    "Intracranial bleeding from apixaban (Eliquis), since visual change is its defining sign",
+    "Anemia from the GI bleed alone, since low hemoglobin explains each of these changes",
+    "Hyperkalemia from spironolactone (Aldactone), since nausea and ectopic beats signal a high K⁺",
+    "Digoxin (Lanoxin) toxicity, promoted by the low K⁺ and the reduced renal clearance"
+   ],
+   "answer": "D",
+   "rationale": "Digoxin (Lanoxin) has a narrow therapeutic index, and dysrhythmias, nausea, anorexia, confusion and visual disturbances are its toxicity signs; hypokalemia and renal dysfunction both raise the risk. Anemia doesn't explain the whole cluster, intracranial bleeding typically brings sudden severe headache and neuro decline, and this K⁺ is low, not high.",
+   "src": "slides 38–39 + 01:01:03"
+  },
+  {
+   "id": "x4-q75",
+   "section": 3,
+   "case": "E",
+   "lecture": "2026-10-29-cardiovascular-part4",
+   "kind": "application",
+   "skill": "predict",
+   "topic": "bb-mra-sglt2",
+   "type": "mc",
+   "stem": "<b>Day 2, 0800, before the team's morning review. K⁺ has been replaced to 4.4 mEq/L. Furosemide (Lasix) is held for hypovolemia, creatinine is still 2.0 mg/dL, and lisinopril (Zestril) and spironolactone (Aldactone) are still on the active orders.</b> If nothing changes, which direction should the nurse predict for the K⁺?",
+   "options": [
+    "Steady, since replaced K⁺ is stored and the other two drugs have no K⁺ effects",
+    "Upward, since loop K⁺ wasting has stopped while the other two drugs retain K⁺",
+    "Downward, since poor kidney function allows K⁺ to escape into the urine faster",
+    "Downward, since lisinopril (Zestril) and spironolactone (Aldactone) waste K⁺ too"
+   ],
+   "answer": "B",
+   "rationale": "Loops lower K⁺ while lisinopril (Zestril) and spironolactone (Aldactone) push it up, so holding furosemide (Lasix) removes the only K⁺-wasting drug. MRA hyperkalemia is worse \"with RAAS inhibitors or renal dysfunction,\" and poor kidney function retains K⁺ rather than losing it.",
+   "src": "slide 33 + 01:06:28"
+  }
+ ]
+}
