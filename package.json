@@ -8,6 +8,7 @@
     "hash-password": "node scripts/hash-password.mjs",
     "test": "node --test tests/*.test.mjs",
     "smoke": "node scripts/build-index.mjs && node tests/smoke.mjs",
+    "exam-flow": "node scripts/build-index.mjs && node tests/exam-flow.mjs",
     "release-check": "node tools/release-check.mjs",
     "autopilot": "node tools/autopilot.mjs",
     "quality-gate": "node tools/quality-gate.mjs"
