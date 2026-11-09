@@ -1,0 +1,37 @@
+// Concept map — Cardiovascular V: Antithrombotic Drugs (NURS 419, 11/05/2026)
+digraph G {
+  graph [rankdir=TB, nodesep=0.35, ranksep=0.45, pad=0.3, fontname="Helvetica,sans-Serif", fontsize=16, labelloc=t,
+         label=<Cardiovascular V: Antithrombotic Drugs — Concept Map (NURS 419, Lecture 11/05/2026)<BR/>INR 2–3 · mechanical valve → warfarin · arterial → antiplatelets, venous and AF → anticoagulants · all three → bleeding<BR/> >];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica,sans-Serif", fontsize=11, color="#555555", penwidth=1.2, margin="0.15,0.08"];
+  edge  [color="#555555", fontname="Helvetica,sans-Serif", fontsize=11, arrowsize=0.7];
+
+  hemo    [fillcolor="#e2efda", label=<<B>Hemostasis</B><BR ALIGN="LEFT"/>Platelets → initial plug<BR ALIGN="LEFT"/>Xa → thrombin → fibrin stabilizes<BR ALIGN="LEFT"/>Plasmin breaks fibrin down<BR ALIGN="LEFT"/>>];
+  art     [fillcolor="#fff2cc", label=<<B>Arterial thrombosis</B><BR ALIGN="LEFT"/>Plaque rupture or erosion<BR ALIGN="LEFT"/>Platelet-rich<BR ALIGN="LEFT"/>MI, ischemic stroke, stents<BR ALIGN="LEFT"/>>];
+  ven     [fillcolor="#fff2cc", label=<<B>Venous thrombosis and AF</B><BR ALIGN="LEFT"/>Stasis, hypercoagulability<BR ALIGN="LEFT"/>Fibrin-rich<BR ALIGN="LEFT"/>DVT, PE, atrial fibrillation<BR ALIGN="LEFT"/>>];
+  anti    [fillcolor="#fce4d6", label=<<B>Antiplatelets</B><BR ALIGN="LEFT"/>Aspirin → COX-1, TXA₂ · 7–10 days<BR ALIGN="LEFT"/>Plavix, Brilinta → P2Y12<BR ALIGN="LEFT"/>Integrilin, Aggrastat → the bridge<BR ALIGN="LEFT"/>>];
+  dapt    [fillcolor="#f8cbad", label=<<B>DAPT</B><BR ALIGN="LEFT"/>Aspirin + P2Y12 inhibitor<BR ALIGN="LEFT"/>After ACS or a stent<BR ALIGN="LEFT"/>Never stop without the prescriber<BR ALIGN="LEFT"/>>];
+  hep     [fillcolor="#ddebf7", label=<<B>Heparins</B><BR ALIGN="LEFT"/>Enhance antithrombin<BR ALIGN="LEFT"/>UFH: IIa + Xa · drip → aPTT<BR ALIGN="LEFT"/>Lovenox: Xa · SubQ · watch kidneys<BR ALIGN="LEFT"/>Protamine: complete vs partial<BR ALIGN="LEFT"/>>];
+  hit     [fillcolor="#bdd7ee", label=<<B>HIT</B><BR ALIGN="LEFT"/>5–10 days · platelets ↓ ≥ 50%<BR ALIGN="LEFT"/>More clots, not bleeding<BR ALIGN="LEFT"/>Stop all heparin → non-heparin drug<BR ALIGN="LEFT"/>>];
+  warf    [fillcolor="#ddebf7", label=<<B>Warfarin</B><BR ALIGN="LEFT"/>Blocks vitamin K recycling<BR ALIGN="LEFT"/>Days to work → heparin bridge<BR ALIGN="LEFT"/>INR 2–3 · consistent vitamin K<BR ALIGN="LEFT"/>99% protein-bound · not in pregnancy<BR ALIGN="LEFT"/>>];
+  doac    [fillcolor="#ddebf7", label=<<B>DOACs</B><BR ALIGN="LEFT"/>Pradaxa → IIa · Eliquis, Xarelto → Xa<BR ALIGN="LEFT"/>No routine INR · timing matters<BR ALIGN="LEFT"/>Kidneys · not for mechanical valves<BR ALIGN="LEFT"/>>];
+  rev     [fillcolor="#e4dfec", label=<<B>Reversal</B><BR ALIGN="LEFT"/>Heparin → protamine sulfate<BR ALIGN="LEFT"/>Warfarin → vitamin K + 4F-PCC<BR ALIGN="LEFT"/>Pradaxa → idarucizumab (Praxbind)<BR ALIGN="LEFT"/>Xa inhibitors → supportive, 4F-PCC<BR ALIGN="LEFT"/>>];
+  lytic   [fillcolor="#e4dfec", label=<<B>Alteplase (Activase)</B><BR ALIGN="LEFT"/>tPA → plasmin → fibrin breaks down<BR ALIGN="LEFT"/>Stroke (head CT first), high-risk PE<BR ALIGN="LEFT"/>STEMI without timely PCI<BR ALIGN="LEFT"/>>];
+  bleed   [fillcolor="#f4b6c2", label=<<B>Bleeding: all three classes</B><BR ALIGN="LEFT"/>Bruising, petechiae, melena, hematuria<BR ALIGN="LEFT"/>Tachycardia, hypotension, dizziness<BR ALIGN="LEFT"/>Sudden severe headache → intracranial<BR ALIGN="LEFT"/>>];
+
+  hemo -> art    [label=" platelets dominate"];
+  hemo -> ven    [label=" fibrin dominates"];
+  art -> anti    [label=" treated with"];
+  anti -> dapt   [label=" combined as"];
+  ven -> hep     [label=" treated with"];
+  ven -> warf;
+  ven -> doac;
+  hep -> hit     [label=" can cause"];
+  hep -> warf    [label=" bridges to"];
+  warf -> rev    [label=" reversed by"];
+  doac -> rev;
+  hep -> rev;
+  hemo -> lytic  [label=" plasmin harnessed by"];
+  dapt -> bleed  [label=" raises"];
+  rev -> bleed   [label=" used for"];
+  lytic -> bleed [label=" highest risk"];
+}
